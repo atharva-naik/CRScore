@@ -159,3 +159,4 @@ manual_gold_labels_and_preds_analysis.csv
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+data/Comment_Generation

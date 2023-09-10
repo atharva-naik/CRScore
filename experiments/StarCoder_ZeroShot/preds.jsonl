@@ -1,0 +1,159 @@
+{"gold": "can we also test for `transport=rest`?", "pred": "fix: remove unused import (#100)"}
+{"gold": "If record_batch_size is not set in config.ini, this code will trigger a notice about an undefined value. I would suggest either wrapping the setPageSize() call in an `if (!empty(...)) {` check, or else providing a default value in the set call (i.e. `$config->Index->record_batch_size ?? 100`).", "pred": "[SolrBundle] Fixing CS"}
+{"gold": "I didn't realize we were hardcoding this, thanks for moving it to an env value.", "pred": "Update analytics.html"}
+{"gold": "We are trying to support IE 10-11, so we'll need a polyfill for this one, I think.", "pred": "fix: add missing comma in fileItem template"}
+{"gold": "It looks like there's a new `isNavigatingTo( url )` selector for this very purpose so let's use this here instead. This way we just need to use the one selector rather than two. Let's assign that to a similar-named variable here (e.g. `isNavigatingToPostResetURL`) rather than the prop it's used with.", "pred": "Update ResetButton.js"}
+{"gold": "I think im2col should only accommodate CPUMat.", "pred": "Fix im2col for 1D images"}
+{"gold": "alpha sort the imports", "pred": "Fixing import error in cscc_notifier_test.py (#3188)"}
+{"gold": "Can you explain why is this necessary? Is `snprintf()` with four integer arguments unsafe?", "pred": "ras: Fix a bug in the mmio_error function"}
+{"gold": "How likely would it be that the keyboard layout for the NVDA main thread differs from the keyboard layout of the currently focused app?", "pred": "Fix for #100"}
+{"gold": "Would you mind removing the default parameter above? (I doubt I'll ever use defaults again since you still have to protect against callers explicitly passing `null` or `undefined`)", "pred": "fix(webdriver): fix typo in jsdoc (#102)"}
+{"gold": "Also update line 2205 below", "pred": "JasonLeyba: Fixing a typo in a comment."}
+{"gold": "n_: It is a good practice to name the variable to indicate what they contain. In this case since `shared` is supposed to have boolean, calling it: `isShared` can help in the readability of the code.", "pred": "fix(provisioner): fix the provisioner name"}
+{"gold": "I suppose it's a false-positive error. Maybe there is a way to configure the `eslint-*` package to accept `i.e. .... lower case` syntax  ", "pred": "fix(manualColumnFreeze): fix typo in comment"}
+{"gold": "this maynot be a perf issue, if ToHexString() is not actually allocating a string, but returns the caches string value. to be confirmed.", "pred": "Fix typo in comment (#1050)"}
+{"gold": "`zap.String(\"image-provider\", provider.Name())` should be in a same line.", "pred": "fix: typo in comment"}
+{"gold": "Why this deletion?", "pred": "Fixing a bug in the truncate function"}
+{"gold": "This change looks unrelated to the CL description?", "pred": "Fixing test"}
+{"gold": "I'm not certain that `res`+`utl` isn't a thing.", "pred": "fix(test): fix dedup test (#1198)"}
+{"gold": "This method can cause bugs. Why don't you use list of finalize statuses and then use join by comma and that will give you correct value. Use Apache Commons Lang library List<Integer> list = Arrays.asList(1,2,3,4,5,6,7); String str = org.apache.commons.lang.StringUtils.join(list, \",\"); You can use it at multiple places shown in this diff.", "pred": "[NCL-2525] Fixing the query to fetch active flows"}
+{"gold": "Merge with next condition", "pred": "Fix typo in comment"}
+{"gold": "Maybe add it when it is used.", "pred": "fix: remove unused interface"}
+{"gold": "More clear naming: NONEXISTENT_ENABLED", "pred": "fix: enable cloudsql_acl scanner (#108)"}
+{"gold": "why is this change necessary?", "pred": "[SPARK-1010] [SQL] Fix TypeUtil.scala"}
+{"gold": "make a SchemaTypeNameConverter.getTypeNameForEmptyType() and call that here.", "pred": "Fixing a bug in the schema type table."}
+{"gold": "Use braces on your conditional structures please", "pred": "[FIX] smarty: fix tinyMCE language plugin"}
+{"gold": "Great God, I have a question. This \".nebula_history\" file is used to save history commands. Is there a file size limit? When the file is large, does it take a long time to start initialization (loadHistory)? How did you think about this? Thx.", "pred": "fix(graph): fix the bug of graphd"}
+{"gold": "Isn't this the same check as two lines above?", "pred": "Fix a bug in the parser."}
+{"gold": "Don't redefine, just import the existing one in `cmdline.py`. :)", "pred": "Fix import error in web/app.py"}
+{"gold": "why not call `respond_to?(\"#{name}=\")` from the `if` line?", "pred": "Fixing a typo in the docs"}
+{"gold": "This was properly set above as `<target>.runfiles/<workspace_name>` (with a fallback to workspace root dir) but never used past this line.", "pred": "Fix typo in comment"}
+{"gold": "Are all these namespaces required for this attribute?", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "Given this may be used and printed in other ways, isn't `debug` more appropriate?", "pred": "(BKR-102) Fixing the beaker_spec_helper"}
+{"gold": "Looks like this is unused? Did you mean to call it when clearing the block journal?", "pred": "kbfsblock: add a comment about the blockDiskStore"}
+{"gold": "why named alters? how about this.alerts = alerts?", "pred": "Fixing a bug in ExecutorManager."}
+{"gold": "not sure if this has to be here or not tbh", "pred": "fix(api): fix stream leader change (#1648)"}
+{"gold": "There's a better fix for this in #1741, which should replace this.", "pred": "Fix typo in harness.go (#105)"}
+{"gold": "Use swarm.Address not []byte as type, and construct it from actual byteslice or use swarm.NewAddress if it is constructed from hex-encoded string.", "pred": "Fix typo in comment"}
+{"gold": "It would be worth factoring this out to a function, but you don't have to do that here.", "pred": "fix test"}
+{"gold": "There's no need for `final` in interfaces.", "pred": "- Add a note about the new `no-useless-escape` rule"}
+{"gold": "Isn't this case handled as a custom tag in `Span.SetTag()` below? This switch is only for special tags that actually set `Span` properties.", "pred": "Fix OpenTracing integration (#1000)"}
+{"gold": "This shouldn't be changed.", "pred": "quitter: Add missing argument to quit()"}
+{"gold": "This one is important `2: I102 copyright year is outdated, expected 2014 but got 2012`", "pred": "global: fix copyright year"}
+{"gold": "Are these imports needed (BiConsumer and Consumer)? If they are unused imports, then precommit will fail.", "pred": "Remove unused import"}
+{"gold": "Why are we catching and logging exceptions? By doing that we make it look like the job has succeeded and it will be removed from the queue - if we didn't do that then it would stay queued...", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "If there are `@param` tags in docblock, there should be `@return` tag also. (applies for a whole file)", "pred": "BAP-14555: Fix cart controller"}
+{"gold": "Is the concept of validators exclusive to IBFT2? I wonder if this category should be more explicitly linked to IBFT2.", "pred": "Fix typo in BesuMetricCategory (#2115)"}
+{"gold": "Spotless is configured to reject star imports. Please replace with explicit imports.", "pred": "Fix import"}
+{"gold": "Remind me why you are using CUDA vocabulary when naming these variables.", "pred": "Fix a bug in the SYCL backend"}
+{"gold": "Please turn the iteration order around (instead of `0...size` to `size...0`). The reason is that this sometimes skips indices when removing an item. You can therefore end up with feeds that have counter 0 and are still displayed.", "pred": "Fix typo in comment"}
+{"gold": "this is a behavior change. solid_subset=[] represents an empty pipeline where as solid_subset=None is the full pipeline", "pred": "Fix typo in reentrant pipeline execution (#1378)"}
+{"gold": "this is a breaking change, any specific reason you want to do this?", "pred": "Fixing a bug in the error message"}
+{"gold": "Blocking: we still want read write separation. Node functions should absolutely not write to the chain store and the interface should reflect that. Only the syncer should have this capability in production code. It should be no problem to keep casting chainForTest to a read-write interface, or doing other function decomposition and automatic casting tricks.", "pred": "fix: remove unused interface"}
+{"gold": "The PR description says the lowest on-demand request priority is `2^30`. Why the `-1` here?", "pred": "Increased the default worker queue size to 1000"}
+{"gold": "checking health again? I think it is not necessary.", "pred": "Removed unused function"}
+{"gold": "Need an `if err == nil {break}` above this line so that we don't log/sleep if the retry succeeds.", "pred": "Typha: Fix typo in log message"}
+{"gold": "to reiterate my point above, this class is not the actual provided Promise, but rather something a user can provide a Promise to/with. I think a name like `PromiseProvider` is more appropriate.", "pred": "- Add a note about the new `no-useless-escape` rule."}
+{"gold": "I guess we can only call this from a post-build function, but we might need to check that this target is to be built? I guess target A depends on B which has a post build. We `plz build :B` which adds C as a dep of A. Won't we queue C to be built even though it only needs to build if A needs to be built? That's kinda why I approached this the way I did. I trust you've thought about this but would be good to understand this a bit better.", "pred": "Add a comment to the add_dep function."}
+{"gold": "You should use `isinstance()` instead of comparing the class name to a string.", "pred": "Fix typo in timeout handling"}
+{"gold": "Why should audio and video elements always return `false` for `isHidden`?", "pred": "Update isHidden.js"}
+{"gold": "This obviously won't work for all the other platforms.", "pred": "Update App.cs"}
+{"gold": "Isn't he diamond operator Java7+?", "pred": "Fixed the ManipulationTest"}
+{"gold": "Prefer adding a second `positive(String, double)` that delegates down to this three-param version. Using `null` in code is generally Not A Great Idea, and it looks ugly.", "pred": "Fixing a typo in the javadoc"}
+{"gold": "This pattern, where we add a new parameter without using it, often indicates to me that we've got a leaky interface or abstraction. I see this pattern _a lot_ in this patch, so wondering you have thoughts about it.", "pred": "Fix typo in comment"}
+{"gold": "This seems like an improved pattern :)", "pred": "Fix typo in comment"}
+{"gold": "`open_id_authentication` is no longer the name of the function, and it's not OpenID specific", "pred": "Fixing a bug in the user controller."}
+{"gold": "This didn't require corresponding changes to the test case(s)?", "pred": "Fix wallet balance refresh"}
+{"gold": "A question! I think `string` totally works, but what do you think of `*string` for consistency?", "pred": "Fixing a typo in the task config struct"}
+{"gold": "Should this be: `aws.infrastructure.cluster.sigs.k8s.io` instead?", "pred": "fix: import path for metav1"}
+{"gold": "Not clear on why this change is correct.", "pred": "Fixing a bug in the computation of the shear viscosity."}
+{"gold": "Hi Simon. Whether this should return true depends on what byte buffers are used? The same applies to ByteBufferIndexInput, actually... I don't think you can generally tell whether the ByteBuffers the input operates on come from a mmap call or from somewhere else (even direct buffers don't have to be a result of mmap).", "pred": "LUCENE-2974: fix javadoc"}
+{"gold": "All stories in this file also need to have the default padding.", "pred": "Update settings stories to use new storybook format"}
+{"gold": "I don't think these asserts are necessary, because `subsurface_find_sibling` already searches in the parent. Or am I missing something?", "pred": "subsurface: Fix typo in comment"}
+{"gold": "Should this be `number` instead of `id`?", "pred": "- Add a note about the new `no-useless-escape` rule."}
+{"gold": "I have forgotten why we thought this restriction is necessary. A user registers a Hive/HBase table with us but is not able to use the table with the registered name in DML. Will UPDATE STATs will be on the original name too (and update stats code will find out registered name and use it for Table_uid?). This was the registration concept is almost like an internal implementation idea, at some point could even be done by some utility program for all existing Hive/hBase tables, and the user need not be aware of it? I am struggling with a user would want to register a table, if they cannot use it by that name.", "pred": "Changes to support HBase tables."}
+{"gold": "Should most of these non-globals be static?", "pred": "Fixing a typo in the comment"}
+{"gold": "Please do not approve PRs without tests!!!!", "pred": "Fixing test_name_with_middle"}
+{"gold": "Now that you handle this in `webenginetab.py` you can undo all the changes in this file.", "pred": "Fix webengineview.py"}
+{"gold": "I think we should log the exception to a log file instead of printing it. The current behavior (not catching the exception) should lead to an automatic print of the exception to the terminal/console.", "pred": "Update JavaFXApplication.java"}
+{"gold": "These changes to the resource helpers have some more far-reaching implications as they also affect calls made in hive-operator, I believe. It's probably OK still, though. Ideally, the resource helper would not be the one doing the logging, since it cannot know the severity, but that is well beyond something that we should tackle for this PR. I would rather have the hive-operator log warnings than have the syncsetinstance controller log errors.", "pred": "Fix typo in apply.go"}
+{"gold": "do you really want to change the behavior on foreign key ?", "pred": "Fix export category table map"}
+{"gold": "Looks like my bad. Thanks for fixing!", "pred": "event_batch_destroy: fix memory leak"}
+{"gold": "I think \"Don't replace variables ...\" would be cleaner.", "pred": "command: Add a way to specify a command's name"}
+{"gold": "Do you validate the possible strings? I've not read the code below but we should make sure if a string is supplied it is validate...", "pred": "Fixed docstring"}
+{"gold": "I'd recommend using generateDataDiskName here as well -- might as well benefit from the safety that it gives to protect yourself from future changes to w.ID().", "pred": "Fix disk import workflow"}
+{"gold": "qq: do we want to include anything in the name to indicate that it is a position in the manifest?", "pred": "[MINOR] Fix javadoc for ContentFile"}
+{"gold": "These logs should probably use the `LOGTAG`", "pred": "Fix VR Browser crash"}
+{"gold": "From this, it was clear, that we are using our version of wireguard-go. And now it looks like we are using original packages which is confusing.", "pred": "fix: import path for wireguard-go"}
+{"gold": "Any particular reason for this? This potentially will make harder to investigate users issues", "pred": "fix: return error code in fail"}
+{"gold": "Do you also need to check if Blockly.localConnection_ is non-null?", "pred": "Fix #1008: Fix bug in block dragging."}
+{"gold": "Not really a container, and it's not just about non-config data, not sure of a better description, @myronmarston ?", "pred": "Fix typo in World#include"}
+{"gold": "The desktop app will load this fine. on iOS I get `TypeError: undefined is not an object (evaluating '_$$_REQUIRE(_dependencyMap[8], \"stream\").Readable.Readable')` if I change it to `const Readable = require('stream').Readable;` or `const { Readable } = require('stream');` I get undefined errors from the stream on iOS: `[TypeError: stream.on is not a function. (In 'stream.on(\"data\", function (chunk) { return chunks.push(chunk); })', 'stream.on' is undefined)]` What am I missing?", "pred": "Fix import error"}
+{"gold": "this is needed since the chunk feeder shares memory across calls to the pipeline. this is in order to avoid multiple allocations. this change mimics the behavior of shed and localstore, and copies the data from the call into the in-memory store", "pred": "fix: typo in mock storer"}
+{"gold": "wut. We can do this at the beginning of tests if we want right? Why are we depending on init?", "pred": "Fix import path in test"}
+{"gold": "Same trick here IMO.", "pred": "Fix race condition in client.processConnect"}
+{"gold": "Should be `@origin = element || origin || POINTER`", "pred": "Fix typo in comment"}
+{"gold": "this example needs a fix?", "pred": "fix(upgrade): fix upgrade cstor-spc job"}
+{"gold": "Is it safe to assume this surface is a toplevel?", "pred": "Fix crash when closing a view"}
+{"gold": "we don't need that function", "pred": "Fix for #1086"}
+{"gold": "we'll also have to think about adding \"Windows Server 2014\" or whatever they come up with later.", "pred": "Add a new platform"}
+{"gold": "curious do we have an API to fetch an inactive flow?", "pred": "[hotfix] Fix the javadoc of ExecutorLoader."}
+{"gold": "This branch is not needed anymore because every `vnode` that passes through `h` in compat or core will have the `$$typeof`-property now .", "pred": "fix(vdom): fix typo in upgradeToVNodes"}
+{"gold": "Did you mean to use `hasAttribute`? You shouldn't. This does not improve performance and it messes with the readability.", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "Please import modules and not classes (except for Qt stuff).", "pred": "Fix import"}
+{"gold": "Hm... why do we have a \"DummyJavaNode\" in src/main? Looks like, this should have gone into src/test....", "pred": "Fixing dummy node"}
+{"gold": "This seems meaningless. If we cannot add any info let us remove this.", "pred": "fix: add missing license header"}
+{"gold": "Can you rename `Ports` to `PortsUnsafe`?", "pred": "Fix typo in comment"}
+{"gold": "This feels like it could be moved out to your first gem!", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "The expected behaviour for `poll` would be to match what `Deque` does, which is: > Retrieves and removes the head of the queue represented by this deque As such, you shouldn't need the `RequestId` here.", "pred": "Fix typo in javadoc"}
+{"gold": "This is super minor, but it'd be nice if this iterated over an arbitrary number of array inputs.", "pred": "Added a couple of missing methods to the ArrayUtil class."}
+{"gold": "What is the problem here? The commit message has strange wording \"readlink is defined with restrict pointers\": do you mean \"restricted\"? Is that a well-defined language term? I'm not sure what it means.", "pred": "i#1676: fix a typo in the comment"}
+{"gold": "Why are we not wrapping here?", "pred": "Update NameFormatter.java"}
+{"gold": "I though that all data objects are being unified in the fashion where all default values are initialized in constructor, are not they?", "pred": "fix cs"}
+{"gold": "Does this file actually need to be committed to git? Having to run `make generate` is rather tedious on each PR and it conflicts easily.", "pred": "chore(deps): update flux-core to 0.11.0 (#100)"}
+{"gold": "We don't need this anymore, as Google's library handles various auth mechanisms for us. We'll be less explicit about why we're failing but we gain support for several authentication methods- swings and roundabouts!", "pred": "Fix typo in comment"}
+{"gold": "No need to speficy attribute here. Moreover in yaml it is default to use lowercase names.", "pred": "fix: add missing fields to config"}
+{"gold": "In general I'm a trying to understand the reason behind this PR. Looks like if a blob (name) already exists we check if the contents are identical? In what scenarios this is not the case? When we want to publish a package/asset that has changed but still we want to use the same version?", "pred": "Fixing a build break"}
+{"gold": "Can rename `req` to be `opener`, since that is the object, and it wraps `req` internally?", "pred": "Fixing the regex for the netblocks"}
+{"gold": "@MichaelDCurran, thoughts on adding a breakpoint format field attribute? It seems almost app specific, but I guess it does seem odd abusing line-prefix. Is there any more generic concept here?", "pred": "Fixing a bug in the getFormatFieldSpeech function."}
+{"gold": "This would return a tuple of two dictionaries. You need to combine them and return a dictionary", "pred": "Fixing typo in docstring"}
+{"gold": "What do you think of moving the example to the help text of the prompt? and the prompt itself can be \"What is your application's GitHub repository URL?\"", "pred": "fix: remove unused import"}
+{"gold": "Break out tests for events into their own tests rather than placing them in other ones. That makes it easier for us to figure out where problems lie and to do a TDD-driven implementation over new APIs.", "pred": "Fix TracerTest"}
+{"gold": "Nice use of std::distance. I'm a bit worried about first += 9 though.", "pred": "fixing a bug in the parsing of atom labels"}
+{"gold": "Shouldn't this be `app.kubernetes.io/managed-by` as prometheus-operator manages this resource, but this resource isn't a part of prometheus-operator?", "pred": "Update kubelet.go"}
+{"gold": "As long as we're being extra-vigilant about NREs, should we check that `httpMethod` and `requestUri` are not null?", "pred": "Fix typo in comment (#1005)"}
+{"gold": "No need to have `xrc20` alias", "pred": "fix: fix import path"}
+{"gold": "the naming convention I'm been adopting if `_type` for instances of these classes. So maybe `context_config_type` is a better name for this fn", "pred": "Fix typo in pipeline definition"}
+{"gold": "Don't call it GPU mining, call it `externalMining`, here and throughout.", "pred": "Fix typo in BlockMiner"}
+{"gold": "`within this with` typo, should be `within this width`", "pred": "Update config.php"}
+{"gold": "how come this is false?", "pred": "Fix typo in comment"}
+{"gold": "How about `Object.prototype.toString`? Or using the `typeof` operator?", "pred": "fix: node-fetch is not a function"}
+{"gold": "I know @jzila suggested this, but I disagree: you're really not supposed to save a context in a struct. Can you get by with just saving the `Done()` channel instead? The `ctx` should continue to be passed around explicitly.", "pred": "Fix typo in comment"}
+{"gold": "This check isn't right though.", "pred": "Fixing build break"}
+{"gold": "maybe `toolkitVersion` instead? It doesn't necessarily have to be called that in the generated code, but in the view model classes, I think it makes it clearer that it is the version of toolkit itself.", "pred": "fix(java): fix typo in DynamicLangXApiView (#102)"}
+{"gold": "the response data was added intentionally in #612, i think we could keep the `setFileState` stuff here as a special case, at least for now ", "pred": "fix: typo in xhr upload plugin"}
+{"gold": "This isn't really easy to read.", "pred": "Fix race condition in stream.Read"}
+{"gold": "This line changed due to go formatting. Format was not there earlier.", "pred": "Fixing the indentation"}
+{"gold": "The name \"Without\" in code is a little nebulous. Maybe something more descriptive like TrimPrefix or StripPrefix or WithoutPathPrefix or something like that. (Thoughts?)", "pred": "Fix typo in comment"}
+{"gold": "is this test in the move tests? I see what you mean then - it works, but I wonder if we won't lose track that it's being tested here.", "pred": "Fix test"}
+{"gold": "I'm not sure if this wanted to be `json:\"tags\"` (which I'd set in my PR) or `json:\"tag\"` that someone elses PR had set. Given that the rest of the fields had their JSON field name set to the same as the struct field name, I opted for `tags`.", "pred": "fix typo"}
+{"gold": "since the logic here and in `Proposal` is exactly the same, do you think it makes sense for us to include it elsewhere? I am not opposed to duplicated code when it makes sense, but the reason I first identified this was that I was looking for code in NCR::WorkOrder that was not specific to Work Orders. Seems like fiscal year logic might be helpful for reporting for other clients. In that case, we'd want this scope on those client data classes as well. Might be wrong to include this in the FiscalYear mixin, but it does seem like it should be outside of Proposal and WorkOrder. Does that make sense?", "pred": "Fix typo in budget approver email"}
+{"gold": "there is no static method as a go between -- how does this work?", "pred": "Fixing the influxdb writer subscriber"}
+{"gold": "Can you please change the name of this class to be something else?", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "I think we might prefer generalizing the interface rather than creating an exception. Current design of `h2o_next_token` assumes the input to be a comma-separated list, and allows the caller to specify a different separator when parsing a nested list. As I understand, what we are trying to attain in this PR is to have a way of parsing a flat list of semicolon-separated list. Assuming that is the case, I think it would be better to change the API of the function to accept two separators (i.e. inner and outer), where for our existing use-cases `outer` would be `,`.", "pred": "Fix a bug in h2o_strstr"}
+{"gold": "why not recycling? I Lru cache now recycling?", "pred": "Fix typo in comment"}
+{"gold": "Why it is now called `PaymentVersionV3`?", "pred": "fix: typo in comment"}
+{"gold": "changed for debug purpose?", "pred": "fix: fix the bug of secret sync"}
+{"gold": "@cijothomas I needed a way to set the Exporter.ParentProvider when the Processor's gets set. Internal to SDK though.", "pred": "Fix typo in comment (#2087)"}
+{"gold": "Talking through this scenario with @srividyacb and she's wondering if there should also be a check of `(from_trunk && node_based_graph.GetEdgeData(eid).flags.road_classification.IsLinkClass())` as highways with trunk classifications can also have this scenario.", "pred": "Fix compilation error in extractor"}
+{"gold": "where does `master_certname` come from?", "pred": "(maint) Add q_puppet_agent_version to beaker"}
+{"gold": "The line breaking is unnecessary.", "pred": "Update __init__.py"}
+{"gold": "why not enable split by space here ?", "pred": "fix bug in dataset loader"}
+{"gold": "Shouldn't the operator be && ?", "pred": "Update fpga_mgmt.c"}
+{"gold": "My best guess is that you want to use host.name in these parts to get the name of the host ?", "pred": "Fixing the vagrant tests"}
+{"gold": "IMO this edge case handling could remain here, just instead of overwriting the `n.nodeType`, the `makeEdgeType` method of `n` should be called, so `n.nodeType = nodeTypeEdge` -> `n.makeEdge()`", "pred": "fix: unmarshal nodeType"}
+{"gold": "Just wondering... The two kinds of notifications are now quite different (Channel, text, maybe even icon). Would it make sense to extract the auto download notification to a new class instead of handling everything in the existing `notificationManager`? I have not checked if this will lead to a lot of code duplication, though.", "pred": "Fix bug in DownloadService"}
+{"gold": "Do we need to put this on the Call? We only need the API communication between the Encoding and the Transports which is currently done through the Transport.Request. The Call is used by users right?", "pred": "Fix typo in comment"}
+{"gold": "`ctx` is unused in GenerateAPIKey", "pred": "Fixing a bug in the filter function"}
+{"gold": "Can you judge the type of error?", "pred": "Fix comment"}
+{"gold": "Much simpler than a weird and confusing ``convolve`` call!", "pred": "Fix grid interface"}

@@ -157,3 +157,486 @@
 {"gold": "`ctx` is unused in GenerateAPIKey", "pred": "Fixing a bug in the filter function"}
 {"gold": "Can you judge the type of error?", "pred": "Fix comment"}
 {"gold": "Much simpler than a weird and confusing ``convolve`` call!", "pred": "Fix grid interface"}
+{"gold": "Huh, this seems weird to me... Surely the suspenders render was called again in order to get the new `<div>Hello second 2</div>` output... Imma take a peak at these tests to understand what's going on", "pred": "fix test"}
+{"gold": "Since this is just a helper function to create text, perhaps this could live in a helper? I noticed that we have a few other error/message creators in the application controller as well, but I think this type of function should be re-factored to be part of a helper.", "pred": "Fixing a bug in the failed_destroy_error method"}
+{"gold": "Will this mess up parsing the messages by other editors? (vscode, vim ...)", "pred": "Fix typo in pycodestyle configuration"}
+{"gold": "Style/StringLiterals: Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.", "pred": "Fixing the path to the Gemfile"}
+{"gold": "Why can the pool be null?", "pred": "Fixing a bug in the FilteredStreamAdapter"}
+{"gold": "It might be good to have a note here: > work-around for issue #7562 allowing us to differentiate presentational lists from interactive lists (such as of size greater 1 and ARIA list boxes). In firefox, this is possible by the presence of a read-only state, even in content editable.", "pred": "Fix typo in docstring."}
+{"gold": "This set of changes is the one part of this that I'm not completely sure is valid. Can someone look over this to make sure I got the E's right?", "pred": "Fixed a typo in the javadoc."}
+{"gold": "There doesn't seem to be a reason to copy this here.", "pred": "Fix bootstrap_attempt_legacy"}
+{"gold": "We've avoided including h2o headers in BPF programs because it's a runtime dependency. However, IIRC, this is because h2olog was maintained in the separate repository so that h2olog did not know where h2o was installed. Now h2olog can use `H2O_ROOT`, we should add it to BCC's `cflags` in order to include h2o headers in BPF programs.", "pred": "fix build"}
+{"gold": "I think the docstring here should include the CLI arg `--alert.query-url` just to make it clear to users which setting this uses.", "pred": "Update thanos-ruler-crd.md"}
+{"gold": "Same change just above?", "pred": "Fix typo in comment"}
+{"gold": "Could you check the result content rather than just the number of search results please? For example with this test if the search engine suddenly starts returning \"latin n\" for both queries, we won't know about it.", "pred": "Fix tests"}
+{"gold": "nit: I think that `workloadID` should suffice for this test... that's what we'd be issuing anyways", "pred": "Fix test data to use correct domain"}
+{"gold": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.", "pred": "Add spec for mentor edit"}
+{"gold": "We should have a rule to detect identical catch branches", "pred": "Fixing ClassTypeResolver to not throw an exception when the class is not found."}
+{"gold": "remove these from the targets file.", "pred": "Fixing the default value of MaxClients in the task"}
+{"gold": "now that we have the signature in the hive messages, it might be that this must be drastically reduced, since there are limits on the protobuf reader/writers i believe", "pred": "fix: import path for protobuf"}
+{"gold": "I recommend that we move this to be optional, as other users might not need it. Can you look at `OPTIONAL_PACKAGES` section, around line 68?", "pred": "Update requirements.txt"}
+{"gold": "I usually set idea to never use wildcard import such as `import java.util.*;` Now i use setting from javaslang standard.", "pred": "Remove unused import"}
+{"gold": "Where is host['ips'] coming from?", "pred": "Fixing the issue with the ip address being set to 127.0.0.1"}
+{"gold": "oh! missed a `:` here; let me fix that; also can get rid of the intermediate variable", "pred": "userns: fix fuzzing"}
+{"gold": "Is this necessary?", "pred": "Fixing the status text spec"}
+{"gold": "I'd create a different method for each render section.", "pred": "fix: \u4fee\u590delement-react \u7248\u672c\u95ee\u9898"}
+{"gold": "Instead of storing the revert flag in the tracer is it possible to use org.hyperledger.besu.ethereum.mainnet.TransactionProcessor.Result#getRevertReason? (via org.hyperledger.besu.ethereum.transaction.TransactionSimulatorResult#getResult)? If a TX reverts without a reason do we get an empty revert reason or a revert reason with zero bytes?", "pred": "Fix typo in EstimateGasOperationTracer"}
+{"gold": "I think this should test with and without container reuse if that is implemented in this PR. Probably just make this test parameterized.", "pred": "[SPARK-35805][SQL][TESTS] Fix TestSparkOrcReader"}
+{"gold": "These modifications allow BaseFile to translate into a SparkRow with the specID as a column", "pred": "Fix a bug in the projection code."}
+{"gold": "is this something we've been missing this whole time?", "pred": "fix(read-preference): fix read preference inheritance"}
+{"gold": "nit: this is a package-wide constant so better to narrow the scope like `allEventsSign`.", "pred": "Increase default timeout for analysis query"}
+{"gold": "There seems to be some repetition. Does a local function make this code shorter overall?", "pred": "Fixing the thrift generation script"}
+{"gold": "Might be cheaper to reuse the `null` assignment of line 313 and set `isHydrating` to null instead WDYT?", "pred": "Fix typo in diffElementNodes"}
+{"gold": "Revert this blank line", "pred": "Fixing a typo in the comment."}
+{"gold": "This was introduced recently for the Hadoop 3 upgrade. Copy/paste error but definitely causing some of the new test failures.", "pred": "SOLR-3276: Fix test failure due to missing HDFS cluster"}
+{"gold": "I think we should only need to do this for `:approve` since we are using `authenticate_user!` for all other actions and that checks for disabled client", "pred": "Fix proposal policy"}
+{"gold": "I wonder if we should create new tests for header checks; here for instance we're mixing querystring and headers. Thoughts?", "pred": "Fixing test"}
+{"gold": "We should be able to add sensitive by hard-coding the parameters, same as you put into the metadata in apply_helpers.", "pred": "(maint) Fix custom_facts task metadata"}
+{"gold": "Why do you think that it is necessary to create this class?", "pred": "- Add a note about the new `no-useless-escape` rule"}
+{"gold": "replacing the `1` with `io.SeekCurrent` may be good here", "pred": "Fix typo in comment"}
+{"gold": "nit: perhaps this file would be better named `jwks_source.go` ?", "pred": "- Add a note about the new `no-useless-escape` rule"}
+{"gold": "It will be helpful to specify the intended priority as well for the properties within this file.", "pred": "Add a constant for the default value of the plugin load override property."}
+{"gold": "Make this private and update all the public functions to not take this argument. The variable you set below should also be private, then in the tests instead of passing the variable in to the function just update the variable. We don't want to expose the testing implementation in the public api if it can be avoided.", "pred": "Fix import path in osinfo_mock.go"}
+{"gold": "Do you now why is it a specific table name is used as a default?", "pred": "HIVE-10580: TPCDSQueryTest.test_1000_queries_with_hive_partitioning fails on trunk (<NAME>, reviewed by <NAME>)"}
+{"gold": "If all you're doing is checking for the existence of a directory as your \"temp\" directory, why does it matter what OS you're on?", "pred": "Fixing the build"}
+{"gold": "nit- would be cleaner to import it once", "pred": "Fix import path"}
+{"gold": "Looks like there is a closing parenthesis `)` missing here.", "pred": "Update README.md"}
+{"gold": "this one bothers me. There are many places where this one is written to for an error message and just a single callsite is changed.", "pred": "Fixing bug in pair_tlsph.cpp"}
+{"gold": "You can put this in `kbfsOpsInit()` in you want, so we don't have to call it in every test.", "pred": "kbfs: fix test"}
+{"gold": "`ARM_32` is what clients define as an input to DR, and is not always defined internally: we use just `ARM` to mean AArch32.", "pred": "i#1551: fix typo in comment"}
+{"gold": "s/for use/to use for/", "pred": "Fixing a typo in a comment."}
+{"gold": "` $event->getAvatarFilename()` this function return `string` or `null`. In this place ` $event->getAvatarFilename()->getValue()` return `Fatal error `", "pred": "Fix user created event projector"}
+{"gold": "why not creating a new error type for server's own resource limit exceed error and do conversion within rpc interceptor?", "pred": "Fix import path for serviceerror (#100)"}
+{"gold": "Could be a timing thing here. When options are created they'll copy the ref for the current default propagator. If user sets through SDK the global propagator after that, it won't be reflected. Could leave it null here and then when it is used in instrumentation do `options.Propagator ?? Propagators.DefaultTextMapPropagator`. It would be a slight perf hit but it makes it hot-swappable.", "pred": "Fix typo in AspNetInstrumentationOptions (#1047)"}
+{"gold": "Unrelated file. Please remove from PR.", "pred": "Fix typo in TransactionSimulator"}
+{"gold": "Careful: you only want two newlines after the final header message. (That indicates the end of headers and the start of data.)", "pred": "Fix bug in http request processing"}
+{"gold": "This will not work on Python 3 (to which we are transitioning) because `.content` is bytes, not a str. Can you make the pattern a bytes object as well (like so: `b\"pattern\"`)?", "pred": "Update mitmproxy-script-change-https-to-http.py"}
+{"gold": "This was to allow the tests to pass when the order of the required was different. Silly, but we don't have an easy way to check for \"equal but order doesn't matter\" in chai.", "pred": "Fix aria-controls required attribute"}
+{"gold": "maybe say \"returns the default cost method that returns an object of cost 1\".", "pred": "HbaseDelete::synthPhysicalProperty() was missing a return statement."}
+{"gold": "I believe these rules will be enforced both (1) on egress from a local workload, and (2) on ingress **to** a local workload. Right? I understand that we definitely want (1), but do we really want to enforce (2) as well?", "pred": "Fix comment"}
+{"gold": "Use `response.asJsonObject()` instead. Also, use `put()` instead of `putOpt()`, `null` as a value is fine.", "pred": "Fixing the SalesforceNetworkPlugin to use the new plugin architecture"}
+{"gold": "Are you sure? We've changed it during an introduction of the IME support.", "pred": "#1000 - Fixing test"}
+{"gold": "I think here we want the use of `empty()` to take care of empty strings. If you put `dql_filter: ''` in your YAML config ... this will add `->andWhere('')` and it will fail, right?", "pred": "Fixing the sort field"}
+{"gold": "this is golang's named return, err is defined, `return` is equivalent to `return err` the current code has no problem", "pred": "fix: p2p broadcast message latency metric (#1029)"}
+{"gold": "I don't think this is right; in Rust terms it's like a `&mut String`, in Java `StringBuilder` - it's not a return value from the function which is what `(out)` is for.", "pred": "ostree-gpg-verify-result.h: Fix typo in docs"}
+{"gold": "If the label is not binary, should we rename this function?", "pred": "fix bug in binary_cross_entropy (#2567)"}
+{"gold": "This is very-very bad idea because of its performance impact", "pred": "Fixing jmeter executor"}
+{"gold": "WHY U NOT SORT IMPORTS?", "pred": "Fix import path"}
+{"gold": "Put a comma after the last item of a multiline hash.", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "How come we need ``Dimensioned`` in the top-level namespace?", "pred": "Bump version to 1.7.1"}
+{"gold": "excess whitespace through plugin.", "pred": "npc indicators: fix typo in plugin description"}
+{"gold": "What is the problem here? I feel we used this in a lot of places.", "pred": "Fix typo in comment"}
+{"gold": "Update the docstring.", "pred": "Fix a bug in RPN"}
+{"gold": "delete the empty line \"github.com/pkg/errors\" should be grouped with other third party packages same for the rest", "pred": "Fix import path in test"}
+{"gold": "Assigning capabilities to the field here is not the best idea. Semantically this field contains the capabilities returned by the browser after session start. So here we sould better amend capabilities and return them from `init` method to pass later to `startSession` method (that will assign the capabilities returned by the browser to the field).", "pred": "JasonLeyba: Fixing a typo in RemoteWebDriver.java"}
+{"gold": "Is this a breaking change, or is the API private?", "pred": "Fix typo in RSpec::Core::Reporter#stop"}
+{"gold": "I don't think we need this dependency in this project right now", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "I don't think this is necessary since `CommonLabels` is a public func and every component name is also public constant.", "pred": "fix(brokercell): fix typo in brokercell label key (#1085)"}
+{"gold": "The `_example` field should be updated to include an interpreter with an array value.", "pred": "(maint) Add missing _plugin: true to bolt.yaml"}
+{"gold": "Put this in the godoc of SupportedProtocols instead. Preferably we would just use one map though. Why not just use this one?", "pred": "Update acme.go"}
+{"gold": "I'd feel a little safer if the first argument were a string, not a *string unless there's a particular reason for making it a pointer.", "pred": "Fixing a bug in the stats cron container"}
+{"gold": "Can you please revert changes to files in the `thoughtworks` package? This is legacy code and we will eventually phase out RC.", "pred": "Remove unused import"}
+{"gold": "You can safely revert changes to this file.", "pred": "[java] Remove unused import"}
+{"gold": "This deletion is unnecessary.", "pred": "fix anchor_head.py"}
+{"gold": "I'm not a huge fan of this overloading of the prop; accepting very different types of arguments for props like this can be confusing, and wasn't part of the IB. I understand wanting to import the SVG directly, but the IB suggests using `${global._googlesitekitLegacyData.admin.assetsRoot}${userInputSuccessImage}` as the `src`/`smallImage` value here. It'd be great to refactor this to accept components directly in the future, but let's do that all-at-once rather than this hybrid approach that makes the API less clear.", "pred": "Fix small image size in notification."}
+{"gold": "I've had this happen recently with IntelliJ, was this intentional?", "pred": "SOLR-14889: Remove unused import"}
+{"gold": "Order(1) vs Order(logN) -- not sure it's measurable at the ~200 element size of the table. All of the published comparisons start at ~1000 elements.", "pred": "Fix build error"}
+{"gold": "I don't know about this aliasing and 'factory'. Previous version was rather straightforward: `location.CreateLocationResolver`. Perhaps `location.CreateResolver` would be even better? What do we actually gain here from moving DI to a separate sub-package?", "pred": "fix import"}
+{"gold": "Use `UpperCamelCase` for function names", "pred": "Fixing a bug in the Engine::SetCallBack function."}
+{"gold": "I'm not 100% sold on this idea but I like it in general. Nice compromise between using the 'Date' constructor where possible and falling back to the pre #5880 behavior when it makes sense. However, instead of `Number(value) < 0`, let's do `Number(value) < MIN_YEAR` because `new Date('-2017')` is perfectly valid in JS and I don't want to break the date behavior.", "pred": "Fixing a bug in the date cast"}
+{"gold": "Remember to close SOLR-11877 after this", "pred": "SOLR-11877: fix typo in javadoc"}
+{"gold": "this change should be reverted", "pred": "Fix a bug in Identifier::toString()"}
+{"gold": "This function signature is a bit complicated, some parameters are IN type (stopLoop which is modified from outside), others are OUT (registeredEvent channel which is modified inside function) I suggest the following signature -> SubscribeToRegistrationEvent(identityAddress) returns registeredEvent chan of type (RegisteredEvent not int), Unsubscribe func(), error (in case of any error). That way caller can always cance subscription if needed and check for any errors. Also - unsubscribe function hides any internal details how subscribtion is really implemented", "pred": "Fix typo in comment"}
+{"gold": "`.wav`?! cannot we use something slightly more modern and compressed instead? :) I dunno, like `.mp3` or `.aac` or `.ogg`...", "pred": "fix(grunt): fix gruntfile"}
+{"gold": "Wouldn't a single signal call be enough? (without the boolean even)", "pred": "Fix client_swap()"}
+{"gold": "I suspect that this whole block, which is going to be repeated a number of times, should probably be in a helper. I guess it would need to be given the object and the title and could probably figure out everything else from that?", "pred": "Fix bug in note view"}
+{"gold": "Should we expose this attribute in the Asciidoctor.js API ?", "pred": "Add a comment to the Document class"}
+{"gold": "I think contains on `Multimap` was broken - it should return true if one of the values is associated with the key? It that right", "pred": "Fix Multimap.contains"}
+{"gold": "delete this line", "pred": "tidb-server: fix TiConfiguration default isolation read engines (#10089)"}
+{"gold": "Presumably we no longer need `force: true` here.", "pred": "Fixing test setup"}
+{"gold": "HIP runtime is compiled using a C++ compiler. So comparison to both NULL as well as 0 does not make sense. Just comparing to NULL is sufficient.", "pred": "Fix hipHostAlloc to use correct pitch"}
+{"gold": "these urls are still in `a` tags so we should probably include these links separately for a non-HTML version", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "That's fine though, meaning that you can send to this channel under the server lock. The internalSendLoop will pick up the change when the server lock is released (if loop is blocked trying to grab the server lock). Even the way you do it here (releasing the lock, sending, then reacquiring) does not guarantee that the internalSendLoop will have time to refresh in that interval.", "pred": "Fix typo in comment"}
+{"gold": "The name `enableDownloading` implies this is a boolean capability. How about `downloadDir`?", "pred": "SimonStewart: Fixing a typo in the CapabilityType interface"}
+{"gold": "Found one internal team is using this method. Will coordinate with them about the migration solution.", "pred": "Added a method to get the default validator name."}
+{"gold": "The field `HttpServerErrorCodes` should be called `HttpServerErrorStatuses`", "pred": "Fix typo in comment (#1047)"}
+{"gold": "Can you please make each of these in a separate line. It will be easier to keep them sorted, and add/remove.", "pred": "Update version to 0.1.1"}
+{"gold": "should we error instead of silently ignoring the `cleanup` param? it defaults to `false`, so someone must have explicitly set it to `true`", "pred": "SOLR-10006: Fix typo in ConfigSetsHandler"}
+{"gold": "There is no specific requirement that the root be called `root`, just that there is a single root directory and that it be the first entry in the zip.", "pred": "archive/zip: fix typo in comment"}
+{"gold": "perhaps we should encapsulate this logic in a helper method w a test?", "pred": "Add a link to the new user registration page"}
+{"gold": "Now that we're only using this repo as a Gem you shouldn't need to `require` an expanded local file path like below.", "pred": "- Add a note about the new `no-useless-escape` rule."}
+{"gold": "This isn't necessarily a year. It may be months, days, or hours. Can we return `intValue()` directly instead?", "pred": "Fix typo in Timestamps javadoc"}
+{"gold": "this is redundant because it gets logged immediately on entering the handleContainerChange function", "pred": "Fix a bug in the managed task event loop"}
+{"gold": "`ds.GenericDeploymentConfig.DeploymentNotification` in L128 is nullable.", "pred": "fix: typo"}
+{"gold": "this shouldn't be exposed here - this class isn't a carriage for this - its used internally to determine if/how we can mine.", "pred": "Fix CliqueMiningTracker"}
+{"gold": "It's fine to leave these checks in. It'll make the exception come from `FirefoxDriver`, and that's probably clearer to a user.", "pred": "JariBakken: Fixing a typo in FirefoxDriver."}
+{"gold": "We don't want to include the `IntegrationSpecHelper` for models...mind moving this line out of the loop to be `config.include EnvironmentSpecHelper, type: :model`?", "pred": "Add helper for controller specs"}
+{"gold": "Please check the return on these.", "pred": "Fixing test"}
+{"gold": "Do we need `==` for true?", "pred": "fix(storage): fix storage.add_tarball"}
+{"gold": "Changing the default value may cause BC-breaking. Suggest changing this value in config.", "pred": "[Doc] Fix typo in BaseEMAHook (#1000)"}
+{"gold": "how does that happen?", "pred": "[simple_config] fix slider position"}
+{"gold": "This is gross/clever. :-)", "pred": "fixing import"}
+{"gold": "Take a look at the name of this file. Definitely copy and  ", "pred": "Fixing test_zh_cn_locale.rb"}
+{"gold": "Can you check with @mahebbar how to work this error. Should be different from 404.", "pred": "Update volume_info.go"}
+{"gold": "Do we still need the upper bound `<3.9`?", "pred": "[SPARK-29615][ML][PYSPARK] Upgrade pyspark to 2.4.3 in setup.py"}
+{"gold": "Does this mean `vendor/bin/psalm` is not a symlink (or whatever equivalent Windows has for symlinks) on Windows?", "pred": "Fix psalm"}
+{"gold": "@lpabon having a separate package name `aws_test` allows to test the package as if the tester was an external package. If the test package name is the same as the package being tested, the test package can also use methods and variables not exposed to the eventual user.", "pred": "Update aws_test.go"}
+{"gold": "The exporter should still be able to test these histogram instrument kinds, right? Is there another reason to remove these?", "pred": "Fix typo in e2e test (#1147)"}
+{"gold": "should this increment eval.Round somehow?", "pred": "Fix typo in comment"}
+{"gold": "Although this change looks good. Maybe there are other inconsistent cases too?", "pred": "Fixing a bug in the response class"}
+{"gold": "This is a way better method name.", "pred": "Fixing the helper method name"}
+{"gold": "Prefer single-quoted strings when you don't need string interpolation or special symbols.", "pred": "Fix typo in new_language_confirmations_controller"}
+{"gold": "I was wondering if this should allow per role specification, instead of (or in addition to) a generic \"allowed everywhere\". So you could do: `{ separator: ['aria-valuenow', 'aria-valuemin', 'aria-valuemax'] }`. You could still allow the array, and you could add a wildcard option for the \"generic\" case you've got now: `{ '*': ['always-allowed'] }`.", "pred": "Fixing a bug in the validator"}
+{"gold": "I'm confused by the name. The string was a Hive string but it isn't any longer? Why should we care? (I imagine I'll find the answer later... there is some different semantic that we want downstream...)", "pred": "Fix for Solaris Studio 12.4 compiler warning 1506"}
+{"gold": "Could you please leave the explicit imports?", "pred": "Fix import"}
+{"gold": "Why need alias?", "pred": "fix import"}
+{"gold": "Shouldn't this be a `libfs.nullIDGetter` (exported, of course)?", "pred": "kbfs: fix test"}
+{"gold": "I dislike the messages.go pattern; the strings are only used once and make more sense in context. The other two added reportErrorf() calls in clerk.go have inline strings.", "pred": "Fix typo in error message"}
+{"gold": "Seems we don't need it anymore.", "pred": "fix(graph): fix bug of fetch vertices executor (#1637)"}
+{"gold": "This might cause problems with the weird way we publish Guidance and Groups in the UI. We will have to make sure that UAT is thorough.", "pred": "Fix typo in guidance model"}
+{"gold": "this default needs to be on order 1 minute, I'm not sure why we defaulted to 1 hour below...", "pred": "Fix typo in comment (#109)"}
+{"gold": "I figure to make `{env.*}` work, right? I can't think of any other placeholder that makes sense here", "pred": "Fix typo in comment (#1006)"}
+{"gold": "Why change the port from 0 to getAvailablePort()?", "pred": "Fix the test case of meta server (#1347)"}
+{"gold": "For me would be great don't repeat timeout sending in every get_locator call. Looks like it should be sent into LocatorsManager init. And possibly it should me non mandatory, something like that: `def __init__ (self, locators, timeout=60):`", "pred": "fix test"}
+{"gold": "I feel like since now we don't initiate the `opts.projectName` with `opts.ProjectName()`, which means `opts.projectName` and `opts.ProjectName()` they don't necessarily equal to each other, we need to also substitute all usage of `opts.ProjectName()` within `Ask()`, `Validate()`, and `Execute()` to `opts.projectName`. Otherwise if `-p` is set, `opts.ProjectName()` will get expired.", "pred": "fix: bind project name in NewGlobalOpts"}
+{"gold": "why do we thinkg that an empty string is ok to return from this method? I think the null should never be passed in here in the first place", "pred": "Fixing a bug in ByteArrayToHexViaLookup32Safe"}
+{"gold": "nit: can remove this `else` since we return from the condition above.", "pred": "fix(utils): fix getNodeFromTree to return the actual node"}
+{"gold": "You missed `Write<T>(...)`! I'm kidding ofc.", "pred": "Fix typo in comment (#1055)"}
+{"gold": "Was there a customer who had this set to an empty string?", "pred": "Fixing bug in subscription upcoming invoice updater"}
+{"gold": "I know we have the `reporter` spec below, but what about a unit test for this to explain reasoning behind logic? If I were going to update this decorator, I would assume it wasn't covered by tests because there is no unit test.", "pred": "Fixing the approver email address method"}
+{"gold": "it's better to be : void attach(String name, Part part);", "pred": "[resteasy-jaxrs] Fixing javadoc"}
+{"gold": "I didn't see where the IOException can get thrown, is this just to match the V1 reader?", "pred": "Fix javadoc"}
+{"gold": "We normally suppress this warning with `RDUSED_PARAM(forceRDKit)`", "pred": "fix a bug in the 2D coords code"}
+{"gold": "What if `Game::getPlayerByNameWildcard` had not been called before. It would not find a player, wouldn't it?", "pred": "Fix crash in getPlayerByGUID"}
+{"gold": "Why upper case \"R\"?", "pred": "Fix typo in ApplicationsSidebar"}
+{"gold": "Does this need to return an error or could it return `false, nil`?", "pred": "fix(cli): fix relative dockerfile path (#1825)"}
+{"gold": "Can you not change those scopes in public API classes? This applies here and in other places -- protected changed to package-scope for source is not really an API-compatible change.", "pred": "LUCENE-3885: fix javadoc"}
+{"gold": "this parameter is only used in POST, please use `getRequest()->request->get('...');` Thanks", "pred": "Fix missing translation in admin"}
+{"gold": "Problem number 1: Scoped packages would have a `/` character here. Changing this to `validatePackage` resolves the 403.", "pred": "fix(web): remove unused import"}
+{"gold": "I don't quite get why there would be key errors: ``deep_mapped`` is a clone of ``self`` and ``k`` comes from ``self.items()`` so why would the key ever be rejected?", "pred": "Fixed bug in deep_mapped"}
+{"gold": "this chain ID determines only from which chain to withdraw, therefore your changes do not accomplish what you want them to accomplish. You'll need changes to `func (aps *hermesPromiseSettler) Withdraw(chainID int64, providerID identity.Identity, hermesID, beneficiary common.Address) error`. The method probably has to include two chain ids: to and from. Currently, the method internally uses: `aps.config.L1ChainID` -> the chain to withdraw to `chainID` -> the chainID that was passed as the chain that the withdrawal is originating from.", "pred": "fix: withdraw endpoint"}
+{"gold": "If instead we had `TraceContext.extract` return a bool value as a second return value, we could avoid the byte array comparison in `TraceID.IsValid`. Did you consider that alternative?", "pred": "Fix typo in tracecontext.go (#107)"}
+{"gold": "here shouldn't we use `depotFreeLimit`?", "pred": "Fix depot chest max items"}
+{"gold": "Could we use the Rails application's secret token instead? Do we actually need our own here?", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "so should be fixed here also", "pred": "[SPARK-35235][PYTHON][TESTS] Fix the test case for groupby"}
+{"gold": "I would just remove this assert as it's going to get un-maintainable with a long list of valid sizes. Ditto below.", "pred": "Fix typo in comment."}
+{"gold": "`HostDataDir` is misleading. Can we rename it to something more relevant ? The constant should also be moved up and reused as necessary.", "pred": "fix(config): fix default config"}
+{"gold": "I still feel like we are double-counting the outer IP header here (once in `defaultMTUGRE` and once in `ipsecESPOverhead`) but I'm not that familiar with IPsec.", "pred": "Fix default MTU"}
+{"gold": "Not sure what benefit we gain by extending BaseProcessor here, as this seems to be defining a new OnEnd method. Could we modify MeasurementItem to have all the things, and then MeasurementProcessor can be simply extending BaseProcessor<MeasurementItem> (not blocking. just noting some observations in the PR :) )", "pred": "Fix MeasurementProcessor (#2554)"}
+{"gold": "This change was not really intended but made by the linter of VS Code. And looking at other packages this looks like a best practise to place interal packages on the top and gh imports afterwards.", "pred": "Fix import path for ddevapp (#1268)"}
+{"gold": "This seems like a more appropriate message under `ListenAndServe`. WDYT?", "pred": "Fix typo in comment (#108)"}
+{"gold": "Is this not required?", "pred": "test: add test for basic auth with wrong credentials"}
+{"gold": "We should start thinking of an object that encapsulates this information :) we might need more arguments in the future.", "pred": "Fixed #1055: The search form is not submitted when the search button is clicked"}
+{"gold": "Given that we are (conceptually) searching across multiple self-dependencies, all we can say is that we didn't have a self dependency in which *both* source and dest masks were correct. Since the spec doesn't imagine this case, the valid usage statement assume we can differentiate only wrong source from only wrong dest within a *single* self-dependency -- which we can't across multiple (at least not meaningfully)... so we always return both the source/dest VUID's if we can't find a self-dependency in with *both* are correct.", "pred": "layers: Add test for vkCmdPipelineBarrier with invalid src/dst stage masks"}
+{"gold": "rename? MiningCoordinator always exists", "pred": "Fix typo in EthMiningTest"}
+{"gold": "Here would be the same case you don't need to call `loadConfigs`, but you would need to reread configs using `getConfig` on each getHost function call, not once per file.", "pred": "fixing ip plugin"}
+{"gold": "Unlocking with defer means that this lock is still held curing the call to forgetNode(), below, which I see attempts to acquire `f.mu`, which looks dangerous to me.", "pred": "dokan: fix a bug in Cleanup"}
+{"gold": "Does anyone still use the cst out of this method? If not consider deleting", "pred": "fix test"}
+{"gold": "Line is too long. [97/80]", "pred": "Add redirect for /ios-on-rails-beta"}
+{"gold": "This seems unused.", "pred": "Fix import"}
+{"gold": "@luguanglong , Thanks for the fix, can you re-phrase it to sound better something like \"This OS version is currently un-supported by keadm\"", "pred": "Fixing the typo in the comment"}
+{"gold": "should probably be called `_DeleteFpInfoAttr` because it removes it. Cleaning gives the impression it is still there. I would also move this to the end of the function `GetAtomicWeightsForFingerprint`.", "pred": "fixed import"}
+{"gold": "nit, can we use `VK_PIPELINE_BIND_POINT_RAY_TRACING_KHR` here (granted it isn't else where, maybe worth fixing here or in separate PR)", "pred": "layers: Fix typo in PreCallValidateCmdBindDescriptorSets"}
+{"gold": "This will need to be updated in the upcase-exercises repo as well.", "pred": "Fix indentation"}
+{"gold": "Think it's worth extracting this to `Exercise#complete?`?", "pred": "Fix typo in Trail#steps_remaining_for"}
+{"gold": "This is still a potentially useful public method - should we remove such methods?", "pred": "Fixing the exchange rate"}
+{"gold": "I don't understand this change, what is happening here?", "pred": "Add a method to get the default release level for a given language."}
+{"gold": "I think its worth stating this is `versionMajor`", "pred": "Fix #10125: Excel cell text info is not working in Excel 2016"}
+{"gold": "rebuild: say loads and merges", "pred": "Fixing a typo in the comment"}
+{"gold": "Why was this removed here (also in the other file)? Shouldn't we import them so that the reference in the docs below is interpreted correctly?", "pred": "fix: import getDefaultOptions from expect-puppeteer"}
+{"gold": "I'd prefer to have a blank line between the class declaration and its first member. Is it possible?", "pred": "[SPARK-28985][PYSPARK] Fix PySparkTestCase to use SparkSession"}
+{"gold": "Is it really LEGACY_HELLO if we are using the most up to date HELLO? Perhaps `MONGOS_HELLO` would work here?", "pred": "test(srv-polling): fix test"}
+{"gold": "I am afraid this is going to cause problems on Windows where it is not uncommon to have injected threads (CTRL_SHUTDOWN, CTRL_LOGOFF, etc.) we have no privileges to suspend -- and thus retrying will just fail again, and with the new \"synchall failure is fatal and should kill the process\" approach it turns what used to work for us on Windows into process death.", "pred": "i#297: fix comment"}
+{"gold": "think it should only be in create_dist", "pred": "Fix typo in build.js"}
+{"gold": "Do you plan to support Pod spec change? Like hostPort is added/removed later after Pod creation?", "pred": "Fix a bug in NPL controller"}
+{"gold": "Is this behavior correct? It used to return `true`, which should map to `dokan.ExistingDir`. Was that previously a bug?", "pred": "dokan: fix a bug in GetFileInformation"}
+{"gold": "What about just printing an empty list in this case? That would make the output more predictable.", "pred": "Fixing a typo in the documentation"}
+{"gold": "I looked and couldn't find any usage of `container` in any of the editor component files (js or hbs), so I assume this was used once and didn't get removed?", "pred": "Fix mobiledoc editor not rendering"}
+{"gold": "I just updated a number of sites using older versions of Roots onto WP 3.6 and this little function change was required. Multiple search bars were displaying when I used the search widget in a widgetized sidebar. Updated the roots_get_search_form as seen in this change resolved it for me!", "pred": "Update functions.php"}
+{"gold": "Fixes test failed in some cases", "pred": "fix: remove unused import"}
+{"gold": "what's the prod url for this? just curious. @amirsaber", "pred": "add brave.com to the list of allowed domains"}
+{"gold": "Can you please change this to azkaban.jobs.java.opts?", "pred": "Add a constant for the default value of the plugin load override property."}
+{"gold": "Here is another concatenation which should be updated. Even though `Source:` and the link are essentially separate, it isn't RTL friendly. This would be another good use for `createInterpolateElement` I think so that we wouldn't need to include all of the classnames in the translation string (or extract them to a placeholder). That would allow us to use the `Link` component as well, rather than using its resulting HTML as a string which will be a pain to maintain if we were to make changes to the base `Link` component.", "pred": "Update AcquisitionPieChart.js"}
+{"gold": "I would add an overload `GetCancelledZeroTask()` which calls `GetCancelledZeroTask(CancellationToken.None)`. This is cleaner than requiring the caller to pass `default(CancellationToken)` or `CancellationToken.None`.", "pred": "Fixing build break"}
+{"gold": "Would it be equivalent to check if `chain != nullptr` below? Not suggesting a change, just curious.", "pred": "layers: Fix clang-tidy warning in best_practices_state_tracker.cpp"}
+{"gold": "Should probably do `auto this_l (shared_from_this ());` and pass/use that instead of `this`. Same a few other places. IOW, replace both `shared_from_this()` and `this` with `this_l`", "pred": "Fix wallet change_async"}
+{"gold": "And here. Please, use `'` for apostrophes in changed strings in this file.", "pred": "Fix typo in example"}
+{"gold": "assignments should only be cuddled with other assignments (from `wsl`)", "pred": "fix: gas station test (#1248)"}
+{"gold": "Please move this to `block_types.go`.", "pred": "Fix typo in comment"}
+{"gold": "So this is not needed anymore for all attributes?", "pred": "fix JsonAttribute"}
+{"gold": "Happy to get suggestion for better messaging here. Here's what I intended to convey: Something is wrong - the Exception is a hint to what might be the cause The impact of that - tracing wont work.", "pred": "Fix typo in EventSource name (#1007)"}
+{"gold": "I think we can remove this function, right? (duplicate with `ses_starter.py`)", "pred": "Fixing the port for the ES service"}
+{"gold": "With this fix, I am not even sure we need to overwrite this function.", "pred": "[SPARK-28859][PYTHON] Fix pandas_like_series.py to use SparkSession."}
+{"gold": "Why not just import this from `data_transfer`? As a rule copying the same code twice is not a good idea. Also: please run `pylint` on all files in this PR.", "pred": "Fixing a bug in the package entry"}
+{"gold": "You've got an absolute path here referencing your home dir :-).", "pred": "(maint) Fix test for new parser"}
+{"gold": "Maybe I should do some sorting so that these properties don't keep moving around...", "pred": "Fix JavaParserMetaModel"}
+{"gold": "Can we keep this test anyway, as it's part of the spec?", "pred": "Fix test"}
+{"gold": "Can be removed", "pred": "- Add a note about the new `no-useless-escape` rule."}
+{"gold": "It's a minor quibble I know, but I like having the imports ordered by lengt", "pred": "Fix namespace"}
+{"gold": "It's better to get the charset from context or other setting to let the user override it.", "pred": "[resteasy] fix compilation error"}
+{"gold": "this filename as well needs change", "pred": "fix(cstor-pool): fix import path for cstor pool controller"}
+{"gold": "I think we want to remove `omitempty` here", "pred": "Fix typo in comment"}
+{"gold": "You cannot move this here because it breaks detach. Just call `tty.Close()` before returning the error from start", "pred": "Fix typo in comment"}
+{"gold": "I updated only the implicit roles who needed a update for this new rule to validate.", "pred": "Fixing the implicit role for the table element."}
+{"gold": "> // Code generated by protoc-gen-go. DO NOT EDIT.", "pred": "Update pb.pb.go"}
+{"gold": "minor: skipOSConfigMetadata, otherwise, the name sounds like a boolean", "pred": "Fix gcloud version in test"}
+{"gold": "~~I think lines 65-67 should be moved into this else clause after `type = ...` Else, it is a bit confusing why we check the enclose type validity a second time~~ Nevermind, will do some refactoring, myself. But thanks for \"fixing\" this!", "pred": "Fix NPE in NSRSS20"}
+{"gold": "`sessions := endpoints.SessionsDTO{}` and using only `sessions` should be simpler.", "pred": "Added stop method"}
+{"gold": "These need to be in the other order to avoid crashing when dcontext == GLOBAL_DCONTEXT (==-1)", "pred": "Fix typo in comment"}
+{"gold": "Why not change the other samples?", "pred": "Fixing the port number in the sample app"}
+{"gold": "Indentation is mixed up here due to spaces/tabs, I'm guessing.", "pred": "fix(table): fix table headers check"}
+{"gold": "Should we provide a little more context in the error message? Maybe throw in something about what operation was being performed?", "pred": "dma: fix poll_interrupt()"}
+{"gold": "Project standard is spaces, not tabs. Please fix and then we can merge this.", "pred": "Update PluginBase.php"}
+{"gold": "@hgtw is there anything we're worried about with regards to using this cache? Do we want to do staged testing around expeditions before we merge? Curious your thoughts here", "pred": "fix include"}
+{"gold": "The purpose of this was to allow pushing filters into the manifest files if we ever use a format other than Parquet. I think overall this is a good change because we can add it back later. Just wanted to note why the unused argument was there.", "pred": "Fix typo in javadoc"}
+{"gold": "I think BSON::Decimal128 should always be serialized as Decimal128 regardless of config option.", "pred": "Fixing evolve for mongoid 3.0.x"}
+{"gold": "We should probably just move the `require 'bolt/plan_creator'` in `Bolt::CLI` to `Bolt::Application` so it will already be loaded.", "pred": "(maint) Fix bolt_spec_helper"}
+{"gold": ">20 [](start = 45, length = 2) Can we override this at runtime? Maybe it should be a command line option with default.", "pred": "Fix typo in comment"}
+{"gold": "can just remove it ?", "pred": "Fixing a bug in the service class"}
+{"gold": "Better call it `CleanUpMirrorInfo`?", "pred": "Fix typo in comment"}
+{"gold": "@shannonwells is there still something missing here?", "pred": "fix: fix typo in comment"}
+{"gold": "This could be more indicative of what it is... e.g... `stresstest_time_limit`", "pred": "Fix typo in pending doc"}
+{"gold": "Shouldn't we do a `reader_payload_pool_.reset()` here?", "pred": "Fixing bug in PDP creation"}
+{"gold": "I'd prefer the nomenclature less tightly coupled to DRAND throughout. I played with renaming the `drand` package to `beacon` but it was too much noise in this change.", "pred": "fix(block): fix typo in block.go (#100)"}
+{"gold": "I think I would prefer you declare `self._current_key=None` in the constructor and just return `self._current_key`. That way you can prevent anyone from overwriting `current_key` without needing to use `getattr` here.", "pred": "Fixed bug in DynamicMap where streams were not being passed to DynamicMap."}
+{"gold": "I guess I like the name `mode` okay. I can't think of anything better.", "pred": "fix(stdlib/csv): fix fromCSV signature"}
+{"gold": "I would create a new method (NewStepWithDefaultTimeout?) for this purpose because timeout<=0 looks like a hidden logic", "pred": "fix: typo in step.go"}
+{"gold": "Are these limit changes related?", "pred": "fix(api): fix the wrong comment of events api (#1225)"}
+{"gold": "Don't you mean `import scapy.consts`?", "pred": "Fix import error in scapy/layers/inet6.py"}
+{"gold": "`ctx` is unused in rollbackPrimary", "pred": "Fix typo in executor.go"}
+{"gold": "This is not what title says.", "pred": "Fixing the comment for the first blob page token"}
+{"gold": "a fix applies several fixes? maybe this should simply be `applyToNode`", "pred": "- Add a note about the new `no-useless-escape` rule"}
+{"gold": "U1000: func `fakeGetOk` is unused (from `unused`)", "pred": "Fixing fake clientset"}
+{"gold": "Because there is a \"k8s.io/client-go/tools/cache\" below, we can sort out all the \"imports\" here.", "pred": "Fix import path for multierror"}
+{"gold": "Nit should be using `goimports` to format the import statements with standard libary imports first, new line, followed by non-standard library imports.", "pred": "Fix import path"}
+{"gold": "Do we not have tests for pipeline delete  ", "pred": "fix(delete): fix typo in delete pipeline"}
+{"gold": "Good that you mention this constraint in the docstring :)", "pred": "fixing hdfs client"}
+{"gold": "remove this blank?", "pred": "fix: import path of workflow (#2742)"}
+{"gold": "Partitions is misspelled 8 times in this commit, might make sense to fix the spelling for all of those.", "pred": "Changes to FileScan::FileScan() to set the default value of doUseSearchKey_ to FALSE."}
+{"gold": "Please remove this blank line - those are only used to group Python/third-party/qutebrowser imports.", "pred": "qutebrowser: fix typo in comment"}
+{"gold": "`insecure` is a global variable (from `gochecknoglobals`)", "pred": "fix: action transfer command"}
+{"gold": "Same as above (HTTP in upper-case)", "pred": "Update http.go"}
+{"gold": "This is getting repetitive  maybe you could introduce an abstract test case with a `getExpectedUrl($providerReference)` method ?", "pred": "Fix tests"}
+{"gold": "I do not think returning `Value{}` is correct here. For example, `reflect.MakeFunc(...).Kind()` would return `reflect.Invalid` instead of `reflect.Func`. Therefore, I think this should panic instead.", "pred": "- Add a note about the new `no-useless-escape` rule"}
+{"gold": "Does this work for Custom Elements? iirc we're lacking test cases for them. /cc @andrewiggins @developit", "pred": "fix(dom): fix setProperty"}
+{"gold": "Same change just above?", "pred": "Fix typo in comment"}
+{"gold": "I suppose `apploader.js` isn't used by WebWorkers. So `self` will always be `window` here.", "pred": "Fix typo in comment"}
+{"gold": "Since this var is no longer defined we should remove the `if skip_targets.any?` bit below.", "pred": "(maint) Fix ssh_nodes variable in apply_ssh_block_test"}
+{"gold": "I think we should `return arn` as a fallback at the end of this function (otherwise the `['Resource']` entry below could become `None`).", "pred": "fix: remove unused import"}
+{"gold": "Why session is started at all, if you need to shut it down e.g. DI should launch noopSession", "pred": "Fix typo in comment"}
+{"gold": "nit: can we rename the interface to `wsFileDeleter`", "pred": "fix: remove unused interface"}
+{"gold": "Why target cannot be external endpoints?", "pred": "Fix typo in comment"}
+{"gold": "We use a suffix \".AUTOCREATED\" for configsets, maybe we can use the same here?", "pred": "Javadoc"}
+{"gold": "This one won't be disposed. Should be (something like) `using var openTelemetry = OpenTelemetrySdk.EnableOpenTelemetry(` no?", "pred": "Fix typo in sample (#2580)"}
+{"gold": "Why this is in the diff?", "pred": "Fix import"}
+{"gold": "How is status determined? When the user calls CloudBackupCreate( src_volume_id ) they can then call CloudBackupStatus( src_volume_id ) Is there something similar for this new API?", "pred": "Fixing the comment for the interface"}
+{"gold": "We could pass `excessDomChildren` to `options._catchError` and only do this if an error-boundary catches the error. Not entirely sure if that's better.", "pred": "fix(diff): fix diff function"}
+{"gold": "In php8 named parameters were introduced and now it is required to match called method parameter name when setting parameters by array destructing or call_user_func_array() etc.", "pred": "Fixing bug in CombineAssets"}
+{"gold": "If instead we had `B3.extractSingleHeader` and `B3.extract` return a bool value as a second return value, we could avoid the byte array comparison in `TraceID.IsValid`. Did you consider that alternative?", "pred": "Fix typo in b3.go (#100)"}
+{"gold": "I think this is more of a semantic difference than a typo - `weiter hinzufgen` is like `continue adding` whereas `weitere hinzufgen` is like `add more`. I think it makes sense to change it though  ", "pred": "Update de.php"}
+{"gold": "nit: 200 is superfluous", "pred": "Fix test"}
+{"gold": "This is testing `unreserved keyword`", "pred": "Fix the test case of meta communication (#1080)"}
+{"gold": "paramsNatOrigin doesn't include sUVtoST. I would just remove that definition for now", "pred": "Fix typo in comment"}
+{"gold": "It feels like the test should be waiting for the prefetcher to shut down, but I don't have a great reason why other than that it might be confusing for debugging if there are still goroutines from old prefetchers lying. But I guess since `TogglePrefetcher(false)` doesn't actually set the prefetcher to nil, the queue shutdown method will still end up waiting for the shutdown to finish. If that sounds right, nevermind me.", "pred": "block_retrieval_queue_test: fix test"}
+{"gold": "AWS Identity and Access Management (IAM)", "pred": "Update ListAccessKeys.java"}
+{"gold": "As a long term thing, would it make sense to move the resource names as keys under the requirements map?", "pred": "fix: remove unused import (#101)"}
+{"gold": "That doesn't fix the whole problem. The issue lays in this line right here, not the one above. There are two problems with this line: 1. It finds things that aren't cells in the table 2. if it doesn't find anything, it shouldn't return empty here, but continue down to look for row/ column headers.", "pred": "Fixing a bug in the table headers algorithm"}
+{"gold": "I am pretty sure that this is infinite recursion as getAllProjects returns the project itself.", "pred": "Fix NoUnusedPinCheckTask"}
+{"gold": "Something I didn't catch before I merged this PR, is the hyphenated constant a problem? E.g. should \"data-lists\" be \"data_lists\"? @paulkaplan", "pred": "Added \"operators\" to the list of categories."}
+{"gold": "Can you write the test as `if not (conf.use_winpcapy or conf.use_pcap or conf.use_dnet):`", "pred": "Fix typo in the doc"}
+{"gold": "we have to include foreign assets on the repository directly because they don't belong to a job? This seems very awkward... Is this a step towards the job-less assets on the repository? Did you consider having `build_asset_job` take in a set of foreign assets instead? I suppose we would then need to subclass it to be a more special `AssetJobDefinition` that can keep track of them.", "pred": "Fix typo in repository decorator (#2255)"}
+{"gold": "`-Wstringop-truncation` is a new kind of error detector introduced in GCC 8. As for this patch, these are two false-positives though.", "pred": "Fix a bug in the temp dir creation code."}
+{"gold": "Can we port this error msg to v2 too? This one is better, as it explicitly states what sources are allowed.", "pred": "Fix typo in error message"}
+{"gold": "The convention so far has been to require directly from the defining file (in this case `../../read_preference') . I think the concern has been mostly about the potential for circular dependency cycles", "pred": "test: fix linting error"}
+{"gold": "I suggest expanding dims here to simplify the formatting.", "pred": "Update load_image_from_file.py"}
+{"gold": "Why do you need to specify the kinto prefix here?", "pred": "Fix typo in kinto-migrate"}
+{"gold": "The `!r` is unnecessary.", "pred": "Fix FPN doc (#102)"}
+{"gold": "I didn't see existing tests for this `OpenBucketURL`. Not sure if it's easy to do without mocking these `opener` calls.", "pred": "Fix typo in comment"}
+{"gold": "Should we default to `true` ?", "pred": "Fixing a bug in the Go paging template model."}
+{"gold": "File is not `goimports`-ed (from `goimports`)", "pred": "fix: remove unused import"}
+{"gold": "Shouldn't these options also include `@babel/preset-env`? Also I see you set `babelrc` to `false`, could we rely on our existing `.babelrc` file? Feels like some duplicate configuration otherwise.", "pred": "fix: remove corejs 2 from babel config"}
+{"gold": "Nit: We can use `%s` since `disconnectReason` is a string.", "pred": "fix(ws): fix race condition in websocket network"}
+{"gold": "I think it's better to create a new example", "pred": "Update lgb_regressor.py"}
+{"gold": "The stages are correct, but the more forgiving `kAttachmentRasterOrder` should be used, based on a review of the spec. That should give the same effect of suppressing the false positive conflict between the DEPTH R/W and resolve. > End-of-subpass multisample resolves are treated as color attachment writes for the purposes of synchronization. This applies to resolve operations for both color and depth/stencil attachments. That is, they are considered to execute in the VK_PIPELINE_STAGE_COLOR_ATTACHMENT_OUTPUT_BIT pipeline stage and their writes are synchronized with VK_ACCESS_COLOR_ATTACHMENT_WRITE_BIT. Synchronization between rendering within a subpass and any resolve operations at the end of the subpass occurs automatically, without need for explicit dependencies or pipeline barriers.", "pred": "Fix typo in comment"}
+{"gold": "To be consistent, I think it should actually just be a single `-`", "pred": "Fix typo in AcidBasePair"}
+{"gold": "this seems extraneous.", "pred": "Fix import error in utils.py"}
+{"gold": "Ah, I see here that 'LongDomain' is defined as something that contains a subdomain segment that is `maxLengthOfDomainSegment` long (which I think is 63 characters) - I don't think any public ACME servers/Let's Encrypt's staging environment has a restriction on this?   if it does, and the 'pebble' based ACME server does not, then Pebble needs modifying to also fail in these cases as it aims to replicate the ACME RFC as closely as possible", "pred": "test/e2e: add test for cert-manager.io/v1alpha2 Certificate"}
+{"gold": "I think you need `-y` here to prevent a user confirmation prompt", "pred": "Add libxml2-dev to R build"}
+{"gold": "Repeating: I don't think this should be a core-wide global var. This should be isolated to arch/x86 or at least arch/, maybe inside getter/setters as mentioned above.", "pred": "Fix typo in comment."}
+{"gold": "right URL is like in cmdrunner, using search.maven .org", "pred": "Fixing jmeter executor"}
+{"gold": "The link to valid syntax is not really applicable for NET2_1, right?", "pred": "Fix typo in comment (#1124)"}
+{"gold": "Shouldn't it be more specific, like \"gcppubsub supports all UTF-8 strings\"?", "pred": "pubsub: fix typo in comment"}
+{"gold": "Everything in this class is SolrCloud-related, not legacy replication", "pred": "SOLR-14168: Fix test"}
+{"gold": "Could just assign directly and eliminate the `newval` var.", "pred": "Fix typo in drbbdup_prepare_redirect (#1018)"}
+{"gold": "... with the name of the affected package, or \"all\", followed by a colon,...", "pred": "internal/github: fix typo in issue title comment"}
+{"gold": "We'll want to remove this one if we make the assembly version constant.", "pred": "Fix version number in release script (#1108)"}
+{"gold": "Can we have a single function here that uses the same subscribers and just changes meta based on context?", "pred": "Update Frontend.php"}
+{"gold": "where would ` static startup_kernel_loader skl;` be instantiated? if it's not instantiated anywhere should this be removed?", "pred": "Fixing a typo in the comment"}
+{"gold": "I think we should move those util functions that work with drag-drop to @uppy/utils, so they can be shared (maybe later) with drag-drop plugin? Otherwise it will continue to depend on drag-drop module.", "pred": "- Add a note about the new `no-useless-escape` rule"}
+{"gold": "Migrate the spec.Labels to locator.Labels ?", "pred": "Fix typo in comment"}
+{"gold": "The test case already existed but it never tested properly because of the conditional in the test.", "pred": "fix: s3 test"}
+{"gold": "I'm okay with this, but I don't see a lot of benefit to removing unnecessary parens. If extra parens make something more readable (like this) or clarify order of operations even when matching the default, I would say we should keep them.", "pred": "Fix PartitionField equals method"}
+{"gold": "@sarowe why was this volatile? It's fishy to see this as the only volatile field.", "pred": "fix javadoc"}
+{"gold": "template is not correct?", "pred": "- Add a note about the new `no-useless-escape` rule."}
+{"gold": "Rename the registies to `BBOX_ASSIGNERS` and `BBOX_SAMPLERS` to avoid ambiguity. There is also a registry for dataset sampler.", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "This is no longer stubbed on every test. Perhaps it should be, and should be unstubbed in the single case that it matters.", "pred": "(maint) Fixing the provisioning spec"}
+{"gold": "This seems much simpler! I'm not sure I follow what you mean by the threading part... Also tests are not liking this constant. Might need a require or to fully qualify this.", "pred": "Fixing the example app"}
+{"gold": "Convention is \"FIXME: i#2144\" or \"XXX: i#2144\"", "pred": "Fix typo in comment."}
+{"gold": "This should probably be a property instead of a method.", "pred": "- Add a note about the new `no-useless-escape` rule"}
+{"gold": "do we need to consider setting the `state` as well? If so, lot of changes might be required, like, setting to 'Reconciling' in upgrade code, setting to 'error' or 'reconciled' in volumeReconciler functions.", "pred": "fix(upgrade): upgrade cast to 0.8.0 (#1088)"}
+{"gold": "Line is too long. [82/80]", "pred": "add_facet_fq_to_solr should be before add_facetting_to_solr"}
+{"gold": "Add blank line below license header.", "pred": "Fixing the copyright header"}
+{"gold": "I'm not clear on whether this really should be the right behavior. Basically we're saying that a replace table will keep the existing location (as opposed to using defaults). I suspect we don't have create or replace with location semantics, but this is making some assumptions that a replacement is somehow the same as the old. If we were to go with id based pathing convention, this wouldn't work. I don't think this is an issue at this point, but it might make sense to push this down to the location provider.", "pred": "[SPARK-11586][SQL] Fix a typo in comment"}
+{"gold": "Just run a global replacement for all `executionproto`.", "pred": "Fix import path for replicationgenpb (#1040)"}
+{"gold": "@AutomatedTester @davehunt thoughts on a new keyword argument?", "pred": "Fixing the webdriver.py file"}
+{"gold": "Should line 47 be OPAE_ERR?", "pred": "fpga: fix ioctl error handling"}
+{"gold": "Not necessary, just write `time.Time{}`", "pred": "pubsub/gcppubsub: fix import path (#1888)"}
+{"gold": "As these two strings simply get concatenated for the docs, there's a space missing after the dot here.", "pred": "Fix typo in default value for 'width' setting."}
+{"gold": "What about integrations where we don't plug ourselved on OnMethodBegin?", "pred": "Fix typo in comment (#1171)"}
+{"gold": "shouldn't **call** return a boolean?", "pred": "Fixing a bug in the visibility_of_all_elements_located class."}
+{"gold": "ViewModel classes should not expose any classes from framework.model.", "pred": "chore: update copyright (#101)"}
+{"gold": "how would you feel about keeping these tests to be more explicit and having them `assert not _validate...`? or is your view that that is too duplicative of the tests in `test_evaluator.py`?", "pred": "[dagster-core] Add test for config type with multiple fields"}
+{"gold": "Why do we use the `winrm_nodes` variable here and not the string `\"winrm_nodes\"` as we were using before?", "pred": "(maint) Fix typo in winrm_nodes test"}
+{"gold": "why update Copyright ?", "pred": "Fix the license header (#1080)"}
+{"gold": "Does this mean we cannot update statistics with sampling on a table with LOB columns?", "pred": "Bug fix: 10-010110-1111: HBase table with no partition name specified is not being created."}
+{"gold": "Look good, but I think a `[flags]` enum would be more future proof? Although i'm not sure if a flags-enum is working from the XML config. What do you think?", "pred": "Fixed ThreadAgnostic attribute"}
+{"gold": "Since I believe state will never be anything other than 'expanded' or collapse, you can rewrite this as follows: `return row.treeNode.state === 'expanded' ? 'ui-grid-icon-minus-squared' : 'ui-grid-icon-plus-squared'; `", "pred": "fix(treeBase): fix treeBase to work with new row.treeLevel"}
+{"gold": "the latter part can go but isn't the first part of this still sound -- that we assume \"id\"?", "pred": "SOLR-15269: Fix javadoc typo"}
+{"gold": "Why is the escaping of @ and $ removed?", "pred": "Fixed a bug in the string formatter."}
+{"gold": "Nit: `Http` is redundant in this interface's name.", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "what if I set SynchronizableEntitiesPrefix to \"a/b/c/d\" in config?", "pred": "Update cluster.go"}
+{"gold": "nit: This error message doesn't mention that the path is a directory, maybe \"Dockerfile path is a directory:%s, please provide path to file.\"", "pred": "fix: init app with dockerfile"}
+{"gold": "This is done automatically, you can skip it next time ;)", "pred": "Update copyright"}
+{"gold": "This is needed in `set_value` because of `:open-editor` (you could open an editor, close the tab, then close the editor). I don't think it makes any sense to have it here?", "pred": "Fixing the webkit element value setter"}
+{"gold": "Perhaps we can assume that profiling is enabled if ProfilingPort is set? And/or configure a default port and frequency, so we don't have to set three config vars every time?", "pred": "Fix typo in comment"}
+{"gold": "This nil check won't correctly handle the case where forward_ssh_agent is set to false - it won't be nil but it should still not be set.", "pred": "(BKR-101) Add a check for the box_url"}
+{"gold": "We could avoid passing proto since threshold isn't needed.", "pred": "Fix test"}
+{"gold": "This route excluding needed for reconnect only when one connection is lost and we trying to establish another. I was thinking to make 2 separate flags for killswitch and reconnect enabling. This way we can keep killswitch working, but we don't need these routes excluded.", "pred": "fix(deps): update dependency github.com/spf13/viper to v1.7.1 (#100)"}
+{"gold": "why can this modification avoid crash?", "pred": "fix bug"}
+{"gold": "This looks good -- signing out the user if the current user is disabled", "pred": "Fix redirect_if_disabled to work with new clearance"}
+{"gold": "The line exceeds 120 characters.", "pred": "Fixing a typo in the comment"}
+{"gold": "Let's go ahead and change \"Site\" to \"Project\", since that's the path we've chosen. One less thing to alter in the other issue.", "pred": "Fix typo in app describe"}
+{"gold": "I am for this change iff we are sure the information is no longer helpful. I think this could still be valuable for certain scenarios, wbu?", "pred": "fix(cmd): fix typo in `go-filecoin config` output (#1315)"}
+{"gold": "I thought we decided on using the latest active version and not the one which is max ramped up.", "pred": "Fixing the issue of image rampup manager"}
+{"gold": "can we update this to a `log.Warningf`?", "pred": "fix(cli): fix error message for no public subnets (#2780)"}
+{"gold": "can we get something emitted in the logs on non-zero exits to trace back to for problems like this failing on the first invocation?", "pred": "Fixing the docker network connect/disconnect functions"}
+{"gold": "Do we need `schema manager` at here ?", "pred": "Fix the test case of DeleteVertexTest (#1003)"}
+{"gold": "This won't work because of the permissions on the directory when this is included as a library. But, we may be able to do this. The key would be wrapping this command with either a script or a go binary that ensures the current directory is writable. If the current directory is not writable, it would attempt to make it writable so that we could write out the produced binary. But I'm not sure if that will influence the hash that gets produced for `go.sum` since I am not sure how that is calculated. Alternatively, we can choose a place in `/usr/local` or choose a location that is writable in the go cache and use that. I'll give that a try since it might be needed for the ARM builds if we choose to only include `x86_64` precompiled binaries in the module.", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "Correct me if I'm wrong, but is this necessary? Why not just use the value returned by `interpreter.Eval` and not mess with the scope? `interpreter.Eval` will return any produced side effects. This means TableObjects as well as any value resulting from any expression statements.", "pred": "fix(repl): fix typo in repl.go"}
+{"gold": "This service is global per namespace, not per Alertmanager/Prometheus/ThanosRuler instance. So this approach won't work. But maybe I missing out something, can you describe your use case here?", "pred": "Fix typo in comment"}
+{"gold": "Do we need this default? Since we aren't using a sql.NullBool or *bool, an unset column will be interpreted as `false` already... We don't set a default on our other bool fields (e.g. entry admin and downstream columns).", "pred": "Fix typo in comment"}
+{"gold": "thanks for moving these over. makes more sense for them to be in the exports_helper", "pred": "Fixing bug in exports helper"}
+{"gold": "That import now isn't needed anymore", "pred": "Fix typo in comment"}
+{"gold": "Can you update the `Usage` to be an absolute path as well? Something like `/path/to/firebug.xpi`", "pred": "Fixing typo in docstring"}
+{"gold": "This class is missing the `MvxPlugin` attribute", "pred": "Fix UWP accelerometer plugin registration"}
+{"gold": "What if `wxLang` is returned `None` from `getWxLang`", "pred": "Fix typo in comment"}
+{"gold": "Please don't do changing like this unless it _**really**_ cares. BTW. Please look around to infer our naming conventions.", "pred": "fix(storage): fix the bug of ingest extra files (#1484)"}
+{"gold": "This is in test code: understanding what we're doing is important in this context.", "pred": "[KULRICE-11060] - Fixing test environment setup"}
+{"gold": "prob should still have an example that has multiple option names even if you have to make it up. Or maybe we don't need this method?", "pred": "Fix typo in comment (#2600)"}
+{"gold": "I believe respond_to whitelists the formats passed to the block so if we don't want to display html, we can just remove the line format.html...", "pred": "Fixing the filename for the exported plan"}
+{"gold": "stylistic nitpick: I _feel_ like we've largely shown errors like this as \"error: \" vs. \"error=\". IMO colon/space reads better.", "pred": "Fix typo in stop.go (#1156)"}
+{"gold": "We could put this implementation in `RTPSWriter::create_change_pool` and avoid an extra function.", "pred": "Fix include"}
+{"gold": "should this file ends with _test.go?", "pred": "Fix import path"}
+{"gold": "It's because of this change. `ss` was unused and it made sense in the program. However I haven't read the IPv6 RFC so I'm unsure of what it does", "pred": "Fix IPv6 hashret()"}
+{"gold": "\"Flatten\" is a verb, so I'd probably go with `flattenedIndex` as a variable name here.", "pred": "fix(data-manager): fix addChildAtIndex"}
+{"gold": "If it can only be called once, perhaps a more appropriate name is something like `setMaskables`? `addX` sounds like you can add many `X`es by calling it many times", "pred": "fix: remove unused import"}
+{"gold": "Nodecfg should be downloading from a private bucket -- these shouldn't be for public consumption. In general these should be generic and expect environment to provide appropriate credentials and bucket.", "pred": "Fix typo in comment"}
+{"gold": "Could you please end the file with an empty line?", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "This is an incorrect change. The dialect spoken is an important part of the handshake and should be communicated to users.", "pred": "Fixing a typo in the comment"}
+{"gold": "Can this be non-exported to avoid direct use? It would be a breaking change but using previous package version would work.", "pred": "Fix comment typo."}
+{"gold": "Nit: this is just `return gcerrors.Code(err)`, isn't it?", "pred": "fix(storage/gcs): fix gcs.go"}
+{"gold": "I don't know where this came from, but it's not a good idea. This is actually timing out after 5 rounds, not 5 blocks. 5 consecutive null blocks won't be that uncommon. Also when testing with a short block time, this is a very short duration that can contribute to flaky tests.", "pred": "fix: deal proposal"}
+{"gold": "In Python 3 when pickling or unpickling objects, the file needs to be opened as binary so that no text encoding/decoding takes place. So for any open calls around pickle loads or dumps, the mode for reading must be rb and the mode for writing must be wb.", "pred": "Fix for #1005"}
+{"gold": "did you remove **params.qstring.method** intentionally? if so why?", "pred": "fixing bug in event api"}
+{"gold": "What is the current default? Is that inconsistent across uses and that's why this is null?", "pred": "[CALCITE-1708] Add a new property to enable/disable vectorized ORC reader"}
+{"gold": "Why did we make this change? How come it wasn't an issue before", "pred": "fix: typo in comment"}
+{"gold": "Can you tighten scope by moving to of these variables? i.e. Move to ~4372?", "pred": "layers: Fix invalid descriptor set test"}
+{"gold": "Nice to see this `dataverse.rserve.password` fix rolled in.", "pred": "added a TODO"}
+{"gold": "How about the following faster alternative that doesn't need `strlen()` at all: if (*tmp_optarg == '\\0' || *endptr != '\\0') { fprintf(...) ... This would treat the bus argument as invalid if it's either empty (`tmp_optarg` points to '\\0') or invalid (`endptr` points to something other that a '\\0'). Actually, the existing code would accept an empty argument and set the bus to `0`, so if (*endptr != '\\0') { fprintf(...) ... would be enough. The check for an empty argument doesn't hurt, though.", "pred": "Fix typo in help message"}
+{"gold": "I could be missing something here, but the `from` and `cc` are the same. On the test email sent to gatewaycommunicator, these values are different.", "pred": "Fix feedback mailer"}
+{"gold": "I'm honestly scared because act is now a hard requirement for useEffect which it wasn't before... This could break some tests :(", "pred": "fix(test): fix useEffect test"}
+{"gold": "Could use election from `info_a.election`, or is this deliberate?", "pred": "Fix active_transactions::update_difficulty"}
+{"gold": "looks like this should be `return array(LegacyFormHelper::getType('form'));`", "pred": "Fixing the alias for the EasyAdminExtension"}
+{"gold": "Maybe it would simpler to ignore opt_port if type !== 'number'?", "pred": "Fixing a typo in the server.js comment."}
+{"gold": "Where was `name` being declared before?", "pred": "Fix typo in vertical extensions"}
+{"gold": "nit: use `corev1.ConditionUnknown`", "pred": "Fix typo in test helper"}
+{"gold": "You also need to add a similar check on line 992, there's another place where we check `length === 24`", "pred": "fix(mongoose): add missing semicolon"}
+{"gold": "nit: can extract the voteProvider as a local variable", "pred": "Fix typo in BftBlockCreatorFactory"}
+{"gold": "[0] Not suggesting you change it here, but....kindof weird that there's just not an `assertFuncNotEquals`", "pred": "SOLR-2355: fix test"}
+{"gold": "why are we passing 'registryAddress' here? We probably should construct it together with bc. Registry is not something that change?", "pred": "fix typo"}
+{"gold": "`.` at the end of the sentence", "pred": "fix(flattenPath): fix typo in doc"}
+{"gold": "wouldn't it be useful to split this into an error metric for the timing?", "pred": "fix(hive): fix peer check"}
+{"gold": "Not sure if this is good enough. Each generator will have it's own unit test anyway. Ideally, I think I'd want to test that each generator in the yml is actually a valid generator...", "pred": "Fixing test for initials"}
+{"gold": "line is 138 characters", "pred": "Fix test"}
+{"gold": "Nit: I would leave `Wire` out of the description; if you use this without wire you can still use it.", "pred": "internal/proxy/proxytest: fix comment"}
+{"gold": "Nit: each field can be on a separate line to make it visually easier to read.", "pred": "Fix import"}
+{"gold": "Do we still have these files? Shouldn't we remove these?", "pred": "Fix typo in get_analysis_statistics"}
+{"gold": "A lot of things to do with constants seemed to move since the original commit, so I stuck this here, Is there a better place for it?", "pred": "Fix import path for v1alpha1 (#100)"}
+{"gold": "is 10 too small compared to 1000? consider sync chan is unicast only (vs block chan is broadcast + unicast), i would say use 200~400 for BlockSyncChanSize my concern is that this would potentially slowdown sync speed of full-node", "pred": "fix default config"}
+{"gold": "A full parse of the plan here on listing the plans will be expensive from both a computation and IO perspective.", "pred": "(maint) Fix error message in plan lookup"}
+{"gold": "These constants use the `_PIN` suffix, while the other constants don't use it. I'm not sure what is best, but I would prefer to keep this consistent. Do you have an opinion on which it should be (with or without suffix)?", "pred": "Added missing button constants"}
+{"gold": "Hmm... this feels like discovery should come first. perhaps `--discovery-dns-url`? @NicolasMassart any opinions on this or ideas on who it should be run by?", "pred": "Fix BesuCommand"}
+{"gold": "why is this needed?", "pred": "Fix typo in comment"}
+{"gold": "I wonder if it'd be possible to autogenerate a key from the name within this function if one is not provided explicitly, rather than having all the callsites pass both the name and key (and usually as the same value)? Might give us a good place to implement a `name->key` function that isn't 1:1.", "pred": "Fixing a bug in the ConfigTypeAttributes class."}
+{"gold": "@adriancole I do not see a change in the thrift file. Are there unit tests verifying that this manual serialization is compatible with the native Thrift serialization done by classes generated from `.thrift` IDL file?", "pred": "Fix typo in ThriftCodec"}
+{"gold": "spelling (variable name, all three changes)", "pred": "Fix: Typo in comment"}
+{"gold": "I believe you meant \"specify `desiredUID` and `desiredRole`\"?", "pred": "Fix typo in comment"}
+{"gold": "Please follow the import style, move it to its similar group", "pred": "Fix import path for k8s.io/api/networking/v1"}
+{"gold": "Do we really need these? This is expanding on an API that we're about to do work on with the error stuff @kriskowal", "pred": "Fix typo in comment"}
+{"gold": "passwordModificationTime is no longer used - did the change drop a time check that should be restored? Or should the param get dropped from the methods?", "pred": "Fixing the password validator service bean"}
+{"gold": "Would it break here without trim? If so, can we do trim in Startup.cs so we don't need to add this code to every parser?", "pred": "Fixing a bug in the ProcessStart event handler"}
+{"gold": "Since we're using Logrus, probably best to use `Infof` to avoid confusion (Logrus' Printf behaves differently to the built in one)", "pred": "Fix iptables test"}
+{"gold": "Hm, this looks like a change that should go upstream as well.", "pred": "Fix typo in flyout button"}
+{"gold": "let's keep ActionByActionHash and delete getActionByActionHash", "pred": "fix: fix typo in comment (#1003)"}
+{"gold": "please use return type", "pred": "Fixing typo"}
+{"gold": "This is deliberately at this level.", "pred": "Fix typo in EdgeDriver class"}
+{"gold": "I'm going to go ahead and undo this change, I don't think it was intentional.", "pred": "Fixing a bug in the upload worker thread"}
+{"gold": "> specialised This isn't a typo in my neck of the woods  ", "pred": "Fix typo in comment (#1003)"}
+{"gold": "will change to `storage_target`", "pred": "Fix target test (#107)"}
+{"gold": "This would be better as `cls.securitycenter_client`, to match what is being instantiated.", "pred": "Fixing securitycenter_test.py"}
+{"gold": "Could we have this initialization as part of the initialize method?", "pred": "Fixed import error"}
+{"gold": "This line should be removed as editController is not used from this context anymore.", "pred": "Fix patient photo not being saved"}
+{"gold": "This is correct in concept but the method signature doesn't really communicate the same thing. In other words, if the function produces an output table where is it? Its not on the function signature. Can you explain where the output table is created?", "pred": "fix(execute): add missing import"}
+{"gold": "For insurance, it's best not to take it directly", "pred": "fix bug"}
+{"gold": "change 'value' to keysToSend, here and in other references in this commit. 'value' implies the user is getting the value of the element, rather than just the keys we're sending to it.", "pred": "Fix typo in javadoc"}
+{"gold": "is the plan to fully migrate to boltdb and then remove the state save here?", "pred": "Fixing a typo in the comment"}
+{"gold": "This should be `output.colorBright`. Unless I'm missing some reason for adding a new theme variable.", "pred": "fix(theme): fix theme style"}
+{"gold": "nit: I wonder if these should be moved down to where version is defined, just to keep them all in the same place.", "pred": "Fix version number"}
+{"gold": "Is this supported by every implementation of Java (and Android)? Should it be conditional upon `gen_nullable`?", "pred": "Fix Java generator to use the correct package name."}
+{"gold": "@briri Thanks! I just caught this too updating my feature branch", "pred": "Fix typo in Phase model"}
+{"gold": "I think you should move this block (and the `envpw := os.Getenv(\"RCLONE_CONFIG_PASS\")`) right to the start of the function, then we can remove the duplicate code below", "pred": "Update config.go"}
+{"gold": "Is this only to set the node to draining?   I think we can do that inside `Before` or something?", "pred": "Fixing test"}
+{"gold": "This should have been moved up above this inner `try` because the log message in the `catch` block does not apply to this.", "pred": "Fix typo in comment (#1008)"}
+{"gold": "Do we expect people to use PlanResult directly?", "pred": "(maint) Add a comment about the TargetSpec alias"}
+{"gold": "Maybe we should call this something like `errToReturn`?", "pred": "Fix typo in comment"}
+{"gold": "should calculate numEpochIn1Year = xxx and <= fairBankEpochNum+numEpochIn1Year a.foundationBonusLastEpoch just happens to be equal to 1 year now, but should not count on that", "pred": "fix: fix typo"}
+{"gold": "I wasn't sure if the content type needed to be removed from both the `default` and `usemap` objects - I'm not sure how usemap is used.", "pred": "fix: add role=presentation to img with no alt"}
+{"gold": "Duplication of line 28 Please refer your tox -e flake8 It seems that XStrField, XShortField, FieldLenField are not used", "pred": "Fix typo in geneve.py"}
+{"gold": "I don't really understand the `self._file_model.index(path)` as parent here - you use `self._root_index` for `rowCount` above, so wouldn't the parent here need to be `self._root_index` as well?", "pred": "Fix typo in filename prompt"}
+{"gold": "Do we want validation somewhere that max >= min? Or simply treat the max < min case as ignoring max?", "pred": "LUCENE-3444: fix javadoc"}
+{"gold": ":+1: that's a easier example :)", "pred": "Fix NDC renderer for .NET Core 2.0"}
+{"gold": "If an external module decorates this interface, such a change will cause it to generate an error", "pred": "fix: add missing return type"}
+{"gold": "Oh ha hah, FNM_PERIOD worked out nicely there. Points for co-opting a file system convention.", "pred": "jobtap: fix typo in comment"}
+{"gold": "wrong grouping. As you can tell from the other files, we put system packages in the first group, the 3rd party packages in the second group, and our own packages in the third group.", "pred": "fix: import path of action package (#1271)"}
+{"gold": "Is `o.name` always set here?", "pred": "Fix typo in comment"}
+{"gold": "Can this line be removed, as `SteadyStateDependencies` isn't updated anywhere? Also do we need to check the `TransitionDependencySet` here?", "pred": "Fix typo in comment"}
+{"gold": "`plan.present?` and `has_active_subscription?` are equivalent. We can drop this change, while leaving the one on `app/controllers/application_controller.rb`.", "pred": "Fix typo in user model"}
+{"gold": "No need for this, as pylint already only turns things off for this function and it's needed for the entire function.", "pred": "Fix a bug in the command class"}
+{"gold": "L171 needs to be modified too?", "pred": "Fix typo in comment"}
+{"gold": "Why do you compare by nodeid? Simply saying d == e should be enough. Unless we have to objects in memory with the same nodeid. If that is so, something went really wrong.", "pred": "Fix a typo in a comment."}
+{"gold": "configs/pvt/retinanet_pvt_t_fpn_1x_coco.py --> configs/pvt/retinanet_pvt-t_fpn_1x_coco.py", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "Nit, this could be json:\",omitempty\"", "pred": "Update metadata.go"}
+{"gold": "It's kinda funny to read `s.Image.Image` I wonder why it resulted to this way. What would it take to refactor to just `s.Image`?", "pred": "fix(lbwebservice): fix typo in function name"}
+{"gold": "nit: I like the idea! can we instead change the tag to `integration-remote` to be more specific? I feel like it's possible for us to use the `deploy` build tag for possibly another scenario", "pred": "Fix typo in comment (#269)"}
+{"gold": "Copy and paste error here. Edit: Also missing commas here and in other Perl croaks between some parameters and not others.", "pred": "Fix typo in Mob::SendAppearanceEffect"}
+{"gold": "stateRoot or maybe ParentHeader would make more sense from API point of view?", "pred": "Add missing namespace"}
+{"gold": "Are you sure that this is no longer needed?", "pred": "Fix bug in PlaybackServiceFlavorHelper"}
+{"gold": "Would it help to use SCAN_COLUMNS as base to build SCAN_WITH_STATS_COLUMNS e.g like so `SCAN_WITHSTATS_COLUMNS = ImmutableList.<String>builder().addAll(SCAN_COLUMNS).add(\"value_counts\",....).build()` ?", "pred": "Fix typo in comment"}
+{"gold": "`ctx` is unused in ReportStat", "pred": "Fix: Remove unnecessary comments (#147)"}
+{"gold": "We don't want to add boost as a dependency when building the Thrift compiler. Sorry.", "pred": "Fixing build error on Mac OS X"}
+{"gold": "It's not printing the range. Also I think it's useful to print a warning above stating that the minimum change is -1000.", "pred": "Fix typo in monster spells"}
+{"gold": "if name is empty will this become enumerate ? (and cause the unmarshal to fail ?)", "pred": "add schedpolicy delete"}
+{"gold": "How about including a flash message that explains the exercises are only available to subscribers of X plan?", "pred": "Fixing the products helper"}
+{"gold": "You should also call `e.accept()` and `return` so the key press isn't processed further (as we're leaving insert mode anyways).", "pred": "Fix #100: Add a command line history to the command line widget"}
+{"gold": "Freeze mutable objects assigned to constants.", "pred": "- Add a note about the new `no_std` feature"}
+{"gold": "Hmm, this feels hacky. Maybe good enough if it makes the test more stable, but why is timing even an aspect here, since below it should wait for these two things anyway?", "pred": "Update e2e tests to use new opt-in selector."}

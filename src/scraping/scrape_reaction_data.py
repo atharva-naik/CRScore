@@ -13,7 +13,7 @@ from ratelimit import limits, RateLimitException
 from github.GithubException import RateLimitExceededException
 
 @on_exception(expo, RateLimitException, max_tries=32)
-@limits(calls=2.5, period=1) # at most 2 calls/second
+@limits(calls=10, period=1) # at most x calls/second
 def rate_conscious_api_call(obj, call, *args, **kwargs):
     try: return getattr(obj, call)(*args)
     except RateLimitExceededException:
@@ -40,11 +40,16 @@ class GithubPullRequestCommentsScraper:
                 rec["pr_body"] = pr.body
                 rec["repo_url"] = repo.url
                 rec["repo_name"] = repo_name
-                rec["comments"] = [self.extract_comment_json(comment) for comment in rate_conscious_api_call(pr, "get_review_comments")]
-                if filt_no_comments and len(rec["comments"]) == 0: continue
-                self.data.append(rec)
-                with open(file_name, "a") as f:
-                    f.write(json.dumps(rec)+"\n")
+                for comment in rate_conscious_api_call(pr, "get_review_comments"):
+                    comment_json = self.extract_comment_json(comment)
+                    comment_json.update(rec)
+                    reactions = list(comment.get_reactions())
+                    if len(reactions) == 0: continue
+                    # print(dir(reactions[0]))
+                    comment_json["reactions"] = [{"user": reaction.user.login, "content": reaction.content} for reaction in reactions]
+                    self.data.append(comment_json)
+                    with open(file_name, "a") as f:
+                        f.write(json.dumps(comment_json)+"\n")
 
     def extract_comment_json(self, comment):
         return {
@@ -54,7 +59,6 @@ class GithubPullRequestCommentsScraper:
             "body": comment.body,
             "id": comment.id,
             "url": comment.url,
-            "reactions": comment.reactions,
             "original_commit_id": comment.original_commit_id,
             "created_at": comment.created_at.strftime("%d/%m%/Y, %H:%M:%S"),
             "updated_at": comment.updated_at.strftime("%d/%m%/Y, %H:%M:%S"),
@@ -73,5 +77,5 @@ if __name__ == "__main__":
     g = Github(auth=auth)
 
     scraper = GithubPullRequestCommentsScraper(g)
-    scraper.run(repo_names=["pytorch/pytorch", "PyGithub/PyGithub"], reset_file=True, 
-                file_name="./data/Comment_Generation/")
+    scraper.run(repo_names=["pytorch/pytorch", "PyGithub/PyGithub", "bstoilov/py3-pinterest", "PyQt5/PyQt", "PyQt5/PyQtClient", "PyQt5/QtDesigner", "PyQt5/QSSEditor", "PyQt5/CustomWidgets", "PyQt5/3rd-Apps"], reset_file=True, 
+                file_name="./data/Comment_Generation/review_comments_and_reactions.jsonl")

@@ -12,13 +12,13 @@ from backoff import on_exception, expo
 from ratelimit import limits, RateLimitException
 from github.GithubException import RateLimitExceededException
 
-@on_exception(expo, RateLimitException, max_tries=32)
+@on_exception(expo, RateLimitException, max_tries=512)
 @limits(calls=10, period=1) # at most x calls/second
 def rate_conscious_api_call(obj, call, *args, **kwargs):
     try: return getattr(obj, call)(*args)
     except RateLimitExceededException:
         print("rate limit exceeded")
-        raise RateLimitException()
+        raise RateLimitException("", 0)
 
 # scraper class.
 class GithubPullRequestCommentsScraper:
@@ -26,12 +26,11 @@ class GithubPullRequestCommentsScraper:
         self.data = []
         self.g = github_object
 
-    def run(self, repo_names: List[str], file_name: str, 
-            reset_file: bool=False, filt_no_comments: bool=True):
+    def run(self, repo_names: List[str], file_name: str, reset_file: bool=False):
         if reset_file: open(file_name, "w")
         for repo_name in repo_names:
             repo = rate_conscious_api_call(self.g, "get_repo", repo_name) # self.g.get_repo(repo_name)
-            all_closed_pulls = rate_conscious_api_call(repo, "get_pulls", state="closed") # repo.get_pulls(state='closed')
+            all_closed_pulls = rate_conscious_api_call(repo, "get_pulls") # repo.get_pulls(state='closed')
             for pr in tqdm(all_closed_pulls, desc=repo_name):
                 rec = {}
                 rec["pr_id"] = pr.id
@@ -77,5 +76,9 @@ if __name__ == "__main__":
     g = Github(auth=auth)
 
     scraper = GithubPullRequestCommentsScraper(g)
-    scraper.run(repo_names=["pytorch/pytorch", "PyGithub/PyGithub", "bstoilov/py3-pinterest", "PyQt5/PyQt", "PyQt5/PyQtClient", "PyQt5/QtDesigner", "PyQt5/QSSEditor", "PyQt5/CustomWidgets", "PyQt5/3rd-Apps"], reset_file=True, 
-                file_name="./data/Comment_Generation/review_comments_and_reactions.jsonl")
+    scraper.run(
+        repo_names=[
+            # "pytorch/pytorch", "PyGithub/PyGithub", "bstoilov/py3-pinterest", "PyQt5/PyQt", "PyQt5/PyQtClient", "PyQt5/QtDesigner", "PyQt5/QSSEditor", "PyQt5/CustomWidgets", "PyQt5/3rd-Apps"
+            # "python/cpython", 
+            "numpy/numpy", "huggingface/transformers", "Lightning-AI/lightning", "scikit-learn/scikit-learn"
+        ], reset_file=True, file_name="./data/Comment_Generation/review_comments_and_reactions2.jsonl")

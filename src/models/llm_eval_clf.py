@@ -6,7 +6,7 @@ import json
 import openai
 from typing import *
 from tqdm import tqdm
-from src.datautils import read_jsonl
+from src.datautils import read_jsonl, remove_patch_header, generate_before_after_code_from_patch
 
 def get_GPT_response(prompt: str, model_id: str='text-davinci-003') -> dict:
     prompt = prompt.strip()
@@ -30,32 +30,6 @@ def get_GPT_response(prompt: str, model_id: str='text-davinci-003') -> dict:
 #         completions.append((completion, is_valid))
 
 #     return completions
-
-def remove_patch_header(code: str):
-    # Define the regex pattern to match expressions like "@@ -53,7 +53,7 @@" or "@@ -12,8 +12,20 @@"
-    pattern = r'@@ -\d+,\d+ \+\d+,\d+ @@'
-
-    # Use re.sub() with count=1 to replace only the first matched pattern with an empty string
-    result = re.sub(pattern, '', code, count=1)
-
-    return result
-
-def generate_before_after_code_from_patch(patch: str):
-    patch = remove_patch_header(patch).strip()
-    old_lines = []
-    new_lines = []
-    for line in patch.split("\n"):
-        if line.startswith("+"):
-            line = line[1:]
-            new_lines.append(line)
-        elif line.startswith("-"):
-            line = line[1:]
-            old_lines.append(line)
-        else:
-            new_lines.append(line)
-            old_lines.append(line)
-
-    return "\n".join(old_lines), "\n".join(new_lines)
 
 CODE_QUALITY_PROMPT = """Read the following code quality guidelines carefully:
 1. documentation: Issues with documenting changes or inaccurate, out of date or misleading comments.

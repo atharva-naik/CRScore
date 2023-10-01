@@ -40,6 +40,11 @@ def generate_before_after_code_from_patch(patch: str):
 
     return "\n".join(old_lines), "\n".join(new_lines)
 
+def filter_uniformative_reviews(msg: str):
+    """37.76% are retained, but rest are filtered."""
+    if "`" not in msg: return False
+    return True
+
 class MyTokenizer(object):
     """
     Wrapper for ByteLevelBPETokenizer
@@ -665,6 +670,14 @@ def read_jsonl(path):
                 continue
             data.append(js)
     return data
+
+def write_jsonl(data, path):
+    total_bytes = 0
+    with open(path, "w") as f:
+        for rec in data:
+            total_bytes += f.write(json.dumps(rec)+"\n")
+
+    return total_bytes
 
 class ReviewExample(object):
     """A single training/test example."""

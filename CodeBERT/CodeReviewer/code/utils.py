@@ -546,7 +546,6 @@ class SimpleClsDataset(TextDataset):
         y = example.y
         return ClsFeatures(example_id, source_ids, y)
 
-
 class SimpleGenDataset(TextDataset):
     def __init__(self, tokenizer, pool, args, file_path, samplenum=-1):
         self.tokenizer = tokenizer
@@ -604,6 +603,62 @@ class SimpleGenDataset(TextDataset):
         input_labels = [-100] * len(source_ids)
         return ReviewFeatures(dic["idx"], source_ids, input_labels, target_ids, type="genmsg")
 
+class SimpleRelDataset(TextDataset):
+    def __init__(self, tokenizer, pool, args, file_path, samplenum=-1):
+        self.tokenizer = tokenizer
+        if isinstance(tokenizer, MyTokenizer):
+            tokenizer_type = "mytok"
+        elif isinstance(tokenizer, T5Tokenizer):
+            tokenizer_type = ""
+        elif isinstance(tokenizer, RobertaTokenizer):
+            tokenizer_type = "rb"
+        else:
+            tokenizer_type = "unk"
+        savep = file_path.replace(".jsonl", tokenizer_type + ".simprelexps")
+        if os.path.exists(savep):
+            logger.info("Loading examples from {}".format(savep))
+            self.feats = torch.load(savep)
+        else:
+            logger.info("Reading examples from {}".format(file_path))
+            data = read_jsonl(file_path)
+            # data = [dic for dic in data if len(dic["patch"].split("\n")) <= 20]
+            for i in range(len(data)):
+                data[i]["idx"] = i
+            logger.info(f"Tokenize examples: {file_path}")
+            # self.feats = pool.map(self.convert_examples_to_features, \
+            #     [(dic, tokenizer, args) for dic in data])
+            self.feats = [self.convert_examples_to_features((dic, tokenizer, args)) for dic in data]
+            torch.save(self.feats, savep)
+
+    def convert_examples_to_features(self, item):
+        dic, tokenizer, args = item
+        diff, msg = dic["patch"], dic["msg"]
+        difflines = diff.split("\n")[1:]        # remove start @@
+        difflines = [line for line in difflines if len(line.strip()) > 0]
+        map_dic = {"-": 0, "+": 1, " ": 2}
+        def f(s):
+            if s in map_dic:
+                return map_dic[s]
+            else:
+                return 2
+        labels = [f(line[0]) for line in difflines]
+        difflines = [line[1:].strip() for line in difflines]
+        inputstr = ""
+        for label, line in zip(labels, difflines):
+            if label == 1:
+                inputstr += "<add>" + line
+            elif label == 0:
+                inputstr += "<del>" + line
+            else:
+                inputstr += "<keep>" + line
+        diff_ids = self.encode_remove(tokenizer, inputstr, args)
+        review_ids = []
+        review_ids.append(tokenizer.msg_id)
+        msg = self.encode_remove(tokenizer, dic["msg"], args)
+        review_ids.extend(msg)
+        diff_ids, review_ids = self.pad_assert(diff_ids, review_ids, args, tokenizer)
+        
+        return ReviewFeatures(dic["idx"], diff_ids, None, review_ids, type="revrel")
 
 class InputFeatures(object):
     """A single training/test features for a example."""
@@ -621,7 +676,7 @@ class ReviewFeatures(object):
         self.source_ids = source_ids
         self.source_labels = source_labels
         self.target_ids = target_ids
-        assert type in ("label", "line", "genmsg", "daemsg")
+        assert type in ("label", "line", "genmsg", "daemsg", "revrel")
         self.type = type
 
 class ClsFeatures(object):

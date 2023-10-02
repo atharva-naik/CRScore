@@ -90,7 +90,48 @@ class ReviewerModel(T5ForConditionalGeneration):
             else:
                 encoder_loss = kwargs["encoder_loss"]
             return self.review_forward(input_ids, input_labels, decoder_input_ids, attention_mask, decoder_attention_mask, encoder_loss)
+        elif "review_ids" in kwargs and "diff_ids" in kwargs:
+            review_ids = kwargs["review_ids"]
+            diff_ids = kwargs["diff_ids"]
+            diff_attention_mask = kwargs["diff_attention_mask"]
+            review_attention_mask = kwargs["review_attention_mask"]
+            return self.rel_forward(
+                review_ids, diff_ids,
+                review_attention_mask,
+                diff_attention_mask,
+            )
         return super().forward(*argv, **kwargs)
+
+    def rel_forward(
+        self,
+        review_ids,
+        diff_ids,
+        review_attention_mask,
+        diff_attention_mask,
+    ):
+        review_encoder_outputs = self.encoder( \
+            input_ids=review_ids,
+            attention_mask=review_attention_mask,
+            output_attentions=False,
+            return_dict=False
+        )
+        review_hidden_states = review_encoder_outputs[0]
+        review_first_hidden = review_hidden_states[:, 0, :]
+        # review_first_hidden = nn.Dropout(0.3)(review_first_hidden)
+        diff_encoder_outputs = self.encoder( \
+            input_ids=diff_ids,
+            attention_mask=diff_attention_mask,
+            output_attentions=False,
+            return_dict=False
+        )
+        diff_hidden_states = diff_encoder_outputs[0]
+        diff_first_hidden = diff_hidden_states[:, 0, :]
+        # diff_first_hidden = nn.Dropout(0.3)(diff_first_hidden)
+        logits = review_first_hidden @ diff_first_hidden.T
+        loss_fct = CrossEntropyLoss()
+        labels = torch.as_tensor(range(len(logits))).to(logits.device)
+        
+        return loss_fct(logits, labels)
 
     def cls(
         self,
@@ -205,4 +246,44 @@ def build_or_load_gen_model(args):
 
     return config, model, tokenizer
 
+def build_or_load_rel_model(args):
+    config_class, model_class, tokenizer_class = T5Config, ReviewerModel, RobertaTokenizer
+    
+    config = config_class.from_pretrained(args.model_name_or_path)
+    tokenizer = tokenizer_class.from_pretrained(args.model_name_or_path)
+    model = model_class.from_pretrained(args.model_name_or_path, config=config)
 
+    tokenizer.special_dict = {
+        f"<e{i}>" : tokenizer.get_vocab()[f"<e{i}>"] for i in range(99, -1, -1)
+    }
+
+    tokenizer.mask_id = tokenizer.get_vocab()["<mask>"]
+    tokenizer.bos_id = tokenizer.get_vocab()["<s>"]
+    tokenizer.pad_id = tokenizer.get_vocab()["<pad>"]
+    tokenizer.eos_id = tokenizer.get_vocab()["</s>"]
+    tokenizer.msg_id = tokenizer.get_vocab()["<msg>"]
+    tokenizer.keep_id = tokenizer.get_vocab()["<keep>"]
+    tokenizer.add_id = tokenizer.get_vocab()["<add>"]
+    tokenizer.del_id = tokenizer.get_vocab()["<del>"]
+    tokenizer.start_id = tokenizer.get_vocab()["<start>"]
+    tokenizer.end_id = tokenizer.get_vocab()["<end>"]
+
+    logger.info(
+        "Finish loading model [%s] from %s",
+        get_model_size(model),
+        args.model_name_or_path,
+    )
+
+    if args.load_model_path is not None:
+        model_path = os.path.join(args.load_model_path, "pytorch_model.bin")
+        logger.info("Reload model from {}".format(model_path))
+        try:
+            model.load_state_dict(torch.load(model_path, map_location="cpu"))
+        except RuntimeError:
+            saved = model.cls_head
+            model.cls_head = None
+            model.load_state_dict(torch.load(model_path, map_location="cpu"))
+            model.cls_head = saved
+        model.to(args.local_rank)
+
+    return config, model, tokenizer

@@ -14,11 +14,11 @@ from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 from torch.utils.data import ConcatDataset
 from torch.utils.data.distributed import DistributedSampler
 from transformers import AdamW, get_linear_schedule_with_warmup
-from models import build_or_load_gen_model
+from models import build_or_load_rel_model
 from configs import add_args, set_seed, set_dist
 from torch.nn.parallel import DistributedDataParallel as DDP
 import torch.distributed as dist
-from utils import CommentGenDataset, SimpleGenDataset
+from utils import CommentGenDataset, SimpleRelDataset
 from evaluator.smooth_bleu import bleu_fromstr
 
 
@@ -38,7 +38,7 @@ def get_loaders(data_files, args, tokenizer, pool, eval=False):
     for data_file in data_files:
         print("\x1b[33;1mdata_file:\x1b[0m", data_file)
         if args.raw_input:
-            dataset = SimpleGenDataset(tokenizer, pool, args, data_file)
+            dataset = SimpleRelDataset(tokenizer, pool, args, data_file)
         else:
             dataset = CommentGenDataset(tokenizer, pool, args, data_file)
         data_len = len(dataset)
@@ -120,7 +120,7 @@ def main(args):
     torch.cuda.set_device(local_rank)
 
     set_seed(args)
-    config, model, tokenizer = build_or_load_gen_model(args)
+    config, model, tokenizer = build_or_load_rel_model(args)
     model = DDP(model.cuda(), device_ids=[local_rank], output_device=local_rank, find_unused_parameters=True)
     pool = multiprocessing.Pool(args.cpu_count)
     # Prepare optimizer and schedule (linear warmup and decay)
@@ -198,22 +198,20 @@ def main(args):
                     logger.info(f"example source: {tokenizer.convert_ids_to_tokens(ex.source_ids)}")
                     # logger.info(f"example label: {tokenizer.convert_ids_to_tokens(ex.source_labels)}")
                     logger.info(f"example target: {tokenizer.convert_ids_to_tokens(ex.target_ids)}")
-                source_ids = torch.tensor(
+                diff_ids = torch.tensor(
                     [ex.source_ids for ex in examples], dtype=torch.long
                 ).to(local_rank)
-                source_labels = None
-                target_ids = torch.tensor(
+                review_ids = torch.tensor(
                     [ex.target_ids for ex in examples], dtype=torch.long
                 ).to(local_rank)
-                source_mask = source_ids.ne(tokenizer.pad_id)
-                target_mask = target_ids.ne(tokenizer.pad_id)
+                source_mask = review_ids.ne(tokenizer.pad_id)
+                target_mask = diff_ids.ne(tokenizer.pad_id)
 
                 loss = model(
-                    input_ids=source_ids,
-                    input_labels=source_labels,
-                    decoder_input_ids=target_ids,
-                    attention_mask=source_mask,
-                    decoder_attention_mask=target_mask,
+                    review_ids=review_ids,
+                    diff_ids=diff_ids,
+                    review_attention_mask=source_mask,
+                    diff_attention_mask=target_mask,
                     encoder_loss=False
                 )
 
@@ -223,7 +221,7 @@ def main(args):
                     loss = loss / args.gradient_accumulation_steps
                 tr_loss += loss.item()
 
-                nb_tr_examples += source_ids.size(0)
+                nb_tr_examples += review_ids.size(0)
                 nb_tr_steps += 1
                 loss.backward()
 

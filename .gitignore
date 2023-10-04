@@ -160,5 +160,7 @@ manual_gold_labels_and_preds_analysis.csv
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 data/Comment_Generation
+data/Code_Refinement
 src/scraping/gh_access_token.json
 save
+CodeBERT/CodeReviewer/code/sh/test_out.jsonl

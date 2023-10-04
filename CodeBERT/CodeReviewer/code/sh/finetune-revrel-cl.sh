@@ -25,12 +25,13 @@ bash test_nltk.sh
 python -m torch.distributed.launch --nproc_per_node ${PER_NODE_GPU} --node_rank=${RANK} --nnodes=${NODES} --master_addr=${MASTER_HOST} --master_port=${MASTER_PORT} ../run_finetune_revrel_cl.py  \
   --train_epochs 30 \
   --model_name_or_path microsoft/codereviewer \
-  --output_dir ../../../../ckpts/rel \
+  --output_dir ../../../../ckpts/rel1 \
   --train_filename ../../../../data/Comment_Generation/msg-train.jsonl \
   --dev_filename ../../../../data/Comment_Generation/msg-valid.jsonl \
   --max_source_length 256 \
   --max_target_length 128 \
   --train_batch_size 32 \
+  --eval_batch_size 32 \
   --learning_rate 3e-4 \
   --gradient_accumulation_steps 3 \
   --mask_rate 0.15 \

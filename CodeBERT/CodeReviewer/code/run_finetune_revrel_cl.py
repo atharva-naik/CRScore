@@ -19,7 +19,7 @@ from configs import add_args, set_seed, set_dist
 from torch.nn.parallel import DistributedDataParallel as DDP
 import torch.distributed as dist
 from utils import CommentGenDataset, SimpleRelDataset
-from evaluator.smooth_bleu import bleu_fromstr
+# from evaluator.smooth_bleu import bleu_fromstr
 
 
 logging.basicConfig(
@@ -53,38 +53,68 @@ def get_loaders(data_files, args, tokenizer, pool, eval=False):
         yield dataset, sampler, dataloader
 
 
-def eval_bleu_epoch(args, eval_dataloader, model, tokenizer):
-    logger.info(f"  ***** Running bleu evaluation on {args.eval_file} *****")
+def eval_loss_epoch(args, eval_dataloader, model, tokenizer):
+    logger.info(f"  ***** Running evaluation on {args.eval_file} *****")
     logger.info("  Batch size = %d", args.eval_batch_size)
     model.eval()
     if hasattr(model, "module"):
         model = model.module
-    pred_ids, ex_ids = [], []
-    for step, examples in enumerate(eval_dataloader, 1):
-        source_ids = torch.tensor(
+    # pred_ids, ex_ids = [], []
+    ev_loss = 0
+    nb_ev_examples = 0
+    nb_ev_steps = 0
+    for step, examples in tqdm(enumerate(eval_dataloader, 1)):
+        diff_ids = torch.tensor(
             [ex.source_ids for ex in examples], dtype=torch.long
         ).to(args.local_rank)
-        ids = [ex.example_id for ex in examples]
-        source_mask = source_ids.ne(tokenizer.pad_id)
-        preds = model.generate(source_ids,
-                            attention_mask=source_mask,
-                            use_cache=True,
-                            num_beams=args.beam_size,
-                            early_stopping=True,
-                            max_length=args.max_target_length)
-        top_preds = list(preds.cpu().numpy())
-        pred_ids.extend(top_preds)
-    # [1:] to remove beginning '<msg>'
-    pred_nls = [tokenizer.decode(id[1:], skip_special_tokens=True, clean_up_tokenization_spaces=False) for id in pred_ids]
-    valid_file = args.dev_filename
-    golds = []
-    with open(valid_file, "r") as f:
-        for line in f:
-            golds.append(json.loads(line)["msg"])
-    golds = golds[:len(pred_nls)]
-    bleu = bleu_fromstr(pred_nls, golds, rmstop=False)
-    return bleu
+        review_ids = torch.tensor(
+            [ex.target_ids for ex in examples], dtype=torch.long
+        ).to(args.local_rank)
+        source_mask = review_ids.ne(tokenizer.pad_id)
+        target_mask = diff_ids.ne(tokenizer.pad_id)
 
+        loss = model(
+            review_ids=review_ids,
+            diff_ids=diff_ids,
+            review_attention_mask=source_mask,
+            diff_attention_mask=target_mask,
+            encoder_loss=False
+        )
+
+        if args.gpu_per_node > 1:
+            loss = loss.mean()  # mean() to average on multi-gpu.
+        if args.gradient_accumulation_steps > 1:
+            loss = loss / args.gradient_accumulation_steps
+        ev_loss += loss.item()
+
+        nb_ev_examples += review_ids.size(0)
+        nb_ev_steps += 1
+
+        # source_ids = torch.tensor(
+        #     [ex.source_ids for ex in examples], dtype=torch.long
+        # ).to(args.local_rank)
+        # ids = [ex.example_id for ex in examples]
+        # source_mask = source_ids.ne(tokenizer.pad_id)
+        # preds = model.generate(source_ids,
+        #                     attention_mask=source_mask,
+        #                     use_cache=True,
+        #                     num_beams=args.beam_size,
+        #                     early_stopping=True,
+        #                     max_length=args.max_target_length)
+        # top_preds = list(preds.cpu().numpy())
+        # pred_ids.extend(top_preds)
+    # [1:] to remove beginning '<msg>'
+    # pred_nls = [tokenizer.decode(id[1:], skip_special_tokens=True, clean_up_tokenization_spaces=False) for id in pred_ids]
+    # valid_file = args.dev_filename
+    # golds = []
+    # with open(valid_file, "r") as f:
+        # for line in f:
+            # golds.append(json.loads(line)["msg"])
+    # golds = golds[:len(pred_nls)]
+    # bleu = bleu_fromstr(pred_nls, golds, rmstop=False)
+    eval_loss = round(ev_loss * args.gradient_accumulation_steps / nb_ev_steps, 4)
+    
+    return eval_loss
 
 def save_model(model, optimizer, scheduler, output_dir, config):
     if not os.path.exists(output_dir):
@@ -191,7 +221,7 @@ def main(args):
         model.train()
         nb_tr_examples, nb_tr_steps, tr_loss = 0, 0, 0
         for _, _, train_dataloader in get_loaders(train_files, args, tokenizer, pool):        # WARNING: this is an iterator, to save memory
-            for step, examples in enumerate(train_dataloader, 1):
+            for step, examples in tqdm(enumerate(train_dataloader, 1)):
                 if step == 1:
                     ex = examples[0]
                     logger.info(f"batch size: {len(examples)}")
@@ -243,11 +273,11 @@ def main(args):
                                 round(train_loss, 3),
                             )
                         )
-                if global_step == args.train_steps and args.global_rank == 0:
+                if True:#global_step == args.train_steps and args.global_rank == 0:
                     # end training
                     _, _, valid_dataloader = next(get_loaders(valid_files, args, tokenizer, pool, eval=True))
-                    bleu = eval_bleu_epoch(args, valid_dataloader, model, tokenizer)
-                    output_dir = os.path.join(args.output_dir, "checkpoints-last" + "-" + str(bleu))
+                    eval_loss = eval_loss_epoch(args, valid_dataloader, model, tokenizer)
+                    output_dir = os.path.join(args.output_dir, "checkpoints-last" + "-" + str(eval_loss))
                     save_model(model, optimizer, scheduler, output_dir, config)
                     logger.info(f"Reach max steps {args.train_steps}.")
                     time.sleep(5)
@@ -256,8 +286,8 @@ def main(args):
                         global_step % save_steps == 0 and \
                         nb_tr_steps % args.gradient_accumulation_steps == 0:
                     _, _, valid_dataloader = next(get_loaders(valid_files, args, tokenizer, pool, eval=True))
-                    bleu = eval_bleu_epoch(args, valid_dataloader, model, tokenizer)
-                    output_dir = os.path.join(args.output_dir, "checkpoints-" + str(global_step) + "-" + str(bleu))
+                    eval_loss = eval_loss_epoch(args, valid_dataloader, model, tokenizer)
+                    output_dir = os.path.join(args.output_dir, "checkpoints-" + str(global_step) + "-" + str(eval_loss))
                     save_model(model, optimizer, scheduler, output_dir, config)
                     logger.info(
                         "Save the {}-step model and optimizer into {}".format(

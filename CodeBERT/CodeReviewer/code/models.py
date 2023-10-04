@@ -246,12 +246,91 @@ def build_or_load_gen_model(args):
 
     return config, model, tokenizer
 
+class RevRelBiEncoder(nn.Module):
+    def __init__(self, model_name_or_path: str, config):
+        import copy
+        super().__init__()
+        T5model = T5ForConditionalGeneration.from_pretrained(model_name_or_path, config=config)
+        self.code_encoder = copy.deepcopy(T5model.encoder)
+        self.review_encoder = copy.deepcopy(T5model.encoder)
+        del T5model
+
+    def forward(
+        self, *argv, **kwargs
+    ):
+        r"""
+        Doc from Huggingface transformers:
+        labels (:obj:`torch.LongTensor` of shape :obj:`(batch_size,)`, `optional`):
+            Labels for computing the sequence classification/regression loss. Indices should be in :obj:`[-100, 0, ...,
+            config.vocab_size - 1]`. All labels set to ``-100`` are ignored (masked), the loss is only computed for
+            labels in ``[0, ..., config.vocab_size]``
+        Returns:
+        Examples::
+            >>> from transformers import T5Tokenizer, T5ForConditionalGeneration
+            >>> tokenizer = T5Tokenizer.from_pretrained('t5-small')
+            >>> model = T5ForConditionalGeneration.from_pretrained('t5-small')
+            >>> # training
+            >>> input_ids = tokenizer('The <extra_id_0> walks in <extra_id_1> park', return_tensors='pt').input_ids
+            >>> labels = tokenizer('<extra_id_0> cute dog <extra_id_1> the <extra_id_2>', return_tensors='pt').input_ids
+            >>> outputs = model(input_ids=input_ids, labels=labels)
+            >>> loss = outputs.loss
+            >>> logits = outputs.logits
+            >>> # inference
+            >>> input_ids = tokenizer("summarize: studies have shown that owning a dog is good for you", return_tensors="pt").input_ids  # Batch size 1
+            >>> outputs = model.generate(input_ids)
+            >>> print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+            >>> # studies have shown that owning a dog is good for you.
+        """
+        if "review_ids" in kwargs and "diff_ids" in kwargs:
+            review_ids = kwargs["review_ids"]
+            diff_ids = kwargs["diff_ids"]
+            diff_attention_mask = kwargs["diff_attention_mask"]
+            review_attention_mask = kwargs["review_attention_mask"]
+            return self.rel_forward(
+                review_ids, diff_ids,
+                review_attention_mask,
+                diff_attention_mask,
+            )
+        return super().forward(*argv, **kwargs)
+
+
+    def rel_forward(
+        self,
+        review_ids,
+        diff_ids,
+        review_attention_mask,
+        diff_attention_mask,
+    ):
+        review_encoder_outputs = self.review_encoder( \
+            input_ids=review_ids,
+            attention_mask=review_attention_mask,
+            output_attentions=False,
+            return_dict=False
+        )
+        review_hidden_states = review_encoder_outputs[0]
+        review_first_hidden = review_hidden_states[:, 0, :]
+        # review_first_hidden = nn.Dropout(0.3)(review_first_hidden)
+        diff_encoder_outputs = self.code_encoder( \
+            input_ids=diff_ids,
+            attention_mask=diff_attention_mask,
+            output_attentions=False,
+            return_dict=False
+        )
+        diff_hidden_states = diff_encoder_outputs[0]
+        diff_first_hidden = diff_hidden_states[:, 0, :]
+        # diff_first_hidden = nn.Dropout(0.3)(diff_first_hidden)
+        logits = review_first_hidden @ diff_first_hidden.T
+        loss_fct = CrossEntropyLoss()
+        labels = torch.as_tensor(range(len(logits))).to(logits.device)
+        
+        return loss_fct(logits, labels)    
+
 def build_or_load_rel_model(args):
-    config_class, model_class, tokenizer_class = T5Config, ReviewerModel, RobertaTokenizer
+    config_class, model_class, tokenizer_class = T5Config, RevRelBiEncoder, RobertaTokenizer
     
     config = config_class.from_pretrained(args.model_name_or_path)
     tokenizer = tokenizer_class.from_pretrained(args.model_name_or_path)
-    model = model_class.from_pretrained(args.model_name_or_path, config=config)
+    model = model_class(args.model_name_or_path, config=config)
 
     tokenizer.special_dict = {
         f"<e{i}>" : tokenizer.get_vocab()[f"<e{i}>"] for i in range(99, -1, -1)

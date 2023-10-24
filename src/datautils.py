@@ -1,11 +1,13 @@
 import re, json
 import os, random
 import torch, logging
+from tqdm import tqdm
 from copy import deepcopy as cp
 from torch.utils.data import Dataset
 from tokenizers import ByteLevelBPETokenizer
 from transformers import T5Tokenizer, RobertaTokenizer
 import nltk
+from typing import *
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
@@ -39,12 +41,10 @@ def generate_before_after_code_from_patch(patch: str):
             old_lines.append(line)
 
     return "\n".join(old_lines), "\n".join(new_lines)
-
-def filter_uniformative_reviews(msg: str):
-    """37.76% are retained, but rest are filtered."""
-    if "`" not in msg: return False
-    return True
-
+# def filter_uniformative_reviews(msg: str):
+#     """37.76% are retained, but rest are filtered."""
+#     if "`" not in msg: return False
+#     return True
 class MyTokenizer(object):
     """
     Wrapper for ByteLevelBPETokenizer
@@ -165,6 +165,7 @@ class RefineDataset(Dataset):
     def __getitem__(self, i):
         return self.feats[i]
 
+# code refinement dataset class.
 class SimpleRefineDataset(RefineDataset):
     def tokenize(self, item):
         example, tokenizer, args = item
@@ -659,22 +660,26 @@ class ClsFeatures(object):
         self.source_ids = source_ids
         self.y = y
 
-def read_jsonl(path):
+def read_jsonl(path, cutoff: Union[int, None]=None):
     data = []
     with open(path) as f:
-        for line in f:
+        ctr = 0
+        for line in tqdm(f):
             try:
                 js = json.loads(line.strip())
             except:
                 print("Error during reading json data.")
                 continue
             data.append(js)
+            ctr += 1
+            if cutoff is not None and ctr > cutoff: break
     return data
 
-def write_jsonl(data, path):
+def write_jsonl(data, path, use_tqdm: bool=True):
+    from tqdm import tqdm
     total_bytes = 0
     with open(path, "w") as f:
-        for rec in data:
+        for rec in tqdm(data, disable=not(use_tqdm)):
             total_bytes += f.write(json.dumps(rec)+"\n")
 
     return total_bytes
@@ -832,6 +837,34 @@ class ReviewExample(object):
         self.lines = list(self.lines)
         self.labels = list(self.labels)
 
+def filter_data_by_criteria(data, rel_scores=[], use_rel: bool=True, 
+                            use_inf: bool=True, compose: str="AND", 
+                            thresh: float=0.3, random_mode: bool=False,
+                            rand_size: int=70000, downsample: Union[int, None]=None):
+    import random
+    random.seed(42)
+    filt_data = []
+    if random_mode:
+        ids = random.sample(range(len(data)), k=rand_size)
+        rand_data = [data[i] for i in ids]
+        if downsample:
+            ids = random.sample(range(len(rand_data)), k=downsample)
+            return [rand_data[i] for i in ids]
+
+    assert len(rel_scores) == len(data)
+    for i,rec in enumerate(data):
+        is_inf = bool("`" in rec["msg"]) if use_inf else bool(compose == "AND")
+        is_rel = bool(rel_scores[i]["score"] > thresh) if use_rel else bool(compose == "AND")
+        if compose == "AND":
+            include = bool(is_inf and is_rel)
+        elif compose == "OR":
+            include = bool(is_inf or is_rel)
+        if include: filt_data.append(rec)
+    if downsample:
+        ids = random.sample(range(len(filt_data)), k=downsample)
+        filt_data = [filt_data[i] for i in ids]
+
+    return filt_data
 
 def read_review_examples(filename, data_num=-1, tokenizer=None):
     """Read examples from filename."""

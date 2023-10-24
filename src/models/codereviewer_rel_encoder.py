@@ -56,7 +56,7 @@ if __name__ == "__main__":
     config, model, tokenizer = build_or_load_rel_model(args)
     random.seed(args.seed)
     # pool = multiprocessing.Pool(args.cpu_count)
-    test_file = "./data/Comment_Generation/msg-test.jsonl"
+    test_file = "./data/Comment_Generation/msg-train.jsonl"
     _, _, test_dataloader = list(get_loaders(
         data_files=[test_file], args=args, 
         tokenizer=tokenizer, eval=True,
@@ -77,7 +77,7 @@ if __name__ == "__main__":
         review_mask = review_ids.ne(tokenizer.pad_id)
         diff_mask = diff_ids.ne(tokenizer.pad_id)
         with torch.no_grad():
-            review_encoder_outputs = model.encoder(
+            review_encoder_outputs = model.review_encoder(
                 input_ids=review_ids, 
                 attention_mask=review_mask,
                 output_attentions=False,
@@ -85,7 +85,7 @@ if __name__ == "__main__":
             )
             review_hidden_states = review_encoder_outputs[0]
             review_first_hidden = review_hidden_states[:, 0, :]
-            diff_encoder_outputs = model.encoder( \
+            diff_encoder_outputs = model.code_encoder( \
                 input_ids=diff_ids,
                 attention_mask=diff_mask,
                 output_attentions=False,
@@ -97,10 +97,10 @@ if __name__ == "__main__":
             relevance_scores += [
                 {
                     "id": id, "score": score,
-                    "msg": raw_test_data[id]["msg"],
-                    "patch": raw_test_data[id]["patch"]  
+                    # "msg": raw_test_data[id]["msg"],
+                    # "patch": raw_test_data[id]["patch"]  
                 } for id, score in zip(ids, rel_scores)
             ]
             # break
-    with open("./experiments/codereviewer_rel_scores.json", "w") as f:
+    with open("./experiments/codereviewer_train_rel1_scores.json", "w") as f:
         json.dump(relevance_scores, f, indent=4)

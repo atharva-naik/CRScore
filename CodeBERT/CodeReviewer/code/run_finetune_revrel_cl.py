@@ -273,7 +273,7 @@ def main(args):
                                 round(train_loss, 3),
                             )
                         )
-                if True:#global_step == args.train_steps and args.global_rank == 0:
+                if global_step == args.train_steps and args.global_rank == 0:
                     # end training
                     _, _, valid_dataloader = next(get_loaders(valid_files, args, tokenizer, pool, eval=True))
                     eval_loss = eval_loss_epoch(args, valid_dataloader, model, tokenizer)

@@ -20,7 +20,7 @@ NCCL_DEBUG=INFO
 
 python -m src.models.codereviewer_rel_encoder \
   --train_epochs 30 \
-  --load_model_path ./ckpts/rel/checkpoints-34200-3.65 \
+  --load_model_path ./ckpts/rel1/checkpoints-1800-1.246 \
   --model_name_or_path microsoft/codereviewer \
   --max_source_length 256 \
   --max_target_length 128 \

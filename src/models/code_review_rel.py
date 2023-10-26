@@ -4,6 +4,7 @@ import torch
 import random
 import logging
 import argparse
+import numpy as np
 from tqdm import tqdm
 import torch.nn as nn
 import multiprocessing
@@ -205,7 +206,7 @@ class ReviewRelevanceModel(nn.Module):
         else: self.code_encoder = AutoModel.from_pretrained(code_encoder_path)
         # self.loss_fn = CECosSimLoss()
         # self.loss_fn = nn.CrossEntropyLoss()
-        self.loss_fn = InfoNCE()
+        self.loss_fn = InfoNCE(temperature=0.01)
 
     def encode_review(self, review_input_ids, review_attn_mask):
         return self.review_encoder(review_input_ids, review_attn_mask)
@@ -213,7 +214,7 @@ class ReviewRelevanceModel(nn.Module):
     def encode_code(self, code_input_ids, code_attn_mask):
         return self.code_encoder(code_input_ids, code_attn_mask)
 
-    def forward(self, code_input_ids, code_attn_mask, review_input_ids, review_attn_mask, label):
+    def forward(self, code_input_ids, code_attn_mask, review_input_ids, review_attn_mask):#, label):
         review_enc = self.encode_review(review_input_ids, review_attn_mask).last_hidden_state[:,0,:]
         if self.code_encoder_type == "codebert": code_enc = self.encode_code(code_input_ids, code_attn_mask).pooler_output
         else: code_enc = self.encode_code(code_input_ids, code_attn_mask).last_hidden_state[:,0,:]
@@ -226,7 +227,7 @@ class ReviewRelevanceModel(nn.Module):
         return review_enc, code_enc, loss
 
 # Define the training loop
-def train(model, dataloader, optimizer, device):
+def train(model, dataloader, val_dataloader, epoch, optimizer, device, best_loss, args):
     model.train()
     total_loss = 0.0
 
@@ -235,21 +236,13 @@ def train(model, dataloader, optimizer, device):
                 desc="training")
     for step, batch in pbar:
         # Get inputs
-        input_ids1 = batch["code_input_ids"]
-        attention_mask1 = batch["code_attention_mask"]
-        input_ids2 = batch["review_input_ids"]
-        attention_mask2 = batch["review_attention_mask"]
-        label = torch.as_tensor(range(len(input_ids1))).to(device)
-        input_ids1, attention_mask1, input_ids2, attention_mask2, label = (
-            input_ids1.to(device),
-            attention_mask1.to(device),
-            input_ids2.to(device),
-            attention_mask2.to(device),
-            label.to(device),
-        )
-
+        input_ids1 = batch["code_input_ids"].to(device)
+        attention_mask1 = batch["code_attention_mask"].to(device)
+        input_ids2 = batch["review_input_ids"].to(device)
+        attention_mask2 = batch["review_attention_mask"].to(device)
+        # label = torch.as_tensor(range(len(input_ids1))).to(device)
         # Forward pass and Calculate contrastive loss
-        _, _, loss = model(input_ids1, attention_mask1, input_ids2, attention_mask2, label)
+        _, _, loss = model(input_ids1, attention_mask1, input_ids2, attention_mask2)
 
         # Backward pass
         optimizer.zero_grad()
@@ -259,7 +252,33 @@ def train(model, dataloader, optimizer, device):
         total_loss += loss.item()
         pbar.set_description(f"bl: {loss:.3f} l: {(total_loss/(step+1)):.3f}")
 
-    return total_loss / len(dataloader)
+        if (step + 1) % args.n_steps == 0:
+            val_loss = validate(model, val_dataloader, device)
+            print(f"Epoch {epoch + 1}/{args.epochs}, Validation Loss: {val_loss:.4f}")
+
+            # Save the model if it has the best contrastive loss
+            if val_loss < best_loss:
+                best_loss = val_loss
+                ckpt_dict = {
+                    "epoch": epoch + 1,
+                    "model_state_dict": model.state_dict(),
+                    "optimizer_state_dict": optimizer.state_dict(),
+                    "best_loss": best_loss,
+                    "val_loss": val_loss,
+                }
+                ckpt_save_path = os.path.join(args.output_dir, "best_model.pth")
+                torch.save(ckpt_dict, ckpt_save_path)
+            ckpt_dict = {
+                "epoch": epoch + 1,
+                "model_state_dict": model.state_dict(),
+                "optimizer_state_dict": optimizer.state_dict(),
+                "best_loss": best_loss,
+                "val_loss": val_loss,
+            }
+            ckpt_save_path = os.path.join(args.output_dir, "last_model.pth")
+            torch.save(ckpt_dict, ckpt_save_path)
+
+    return total_loss / len(dataloader), best_loss
 
 # Define the validation loop
 def validate(model, dataloader, device):
@@ -272,14 +291,14 @@ def validate(model, dataloader, device):
     with torch.no_grad():
         for step, batch in pbar:
             # Get inputs
-            input_ids1 = batch["code_input_ids"].to
-            attention_mask1 = batch["code_attention_mask"]
-            input_ids2 = batch["review_input_ids"]
-            attention_mask2 = batch["review_attention_mask"]
-            label = torch.as_tensor(range(len(input_ids1))).to(device)
+            input_ids1 = batch["code_input_ids"].to(device)
+            attention_mask1 = batch["code_attention_mask"].to(device)
+            input_ids2 = batch["review_input_ids"].to(device)
+            attention_mask2 = batch["review_attention_mask"].to(device)
+            # label = torch.as_tensor(range(len(input_ids1))).to(device)
 
             # Forward pass and Calculate contrastive loss
-            _, _, loss = model(input_ids1, attention_mask1, input_ids2, attention_mask2, label)
+            _, _, loss = model(input_ids1, attention_mask1, input_ids2, attention_mask2)
 
             total_loss += loss.item()
             pbar.set_description(f"bl: {loss:.3f} l: {(total_loss/(step+1)):.3f}")
@@ -320,8 +339,8 @@ def get_args():
     parser = argparse.ArgumentParser(description="Contrastive Learning for BERT")
     parser.add_argument("--lr", type=float, default=1e-5, help="Learning rate")
     parser.add_argument("--batch_size", type=int, default=100, help="Batch size")
-    parser.add_argument("--epochs", type=int, default=5, help="Number of training epochs")
-    parser.add_argument("--n_steps", type=int, default=100, help="Validation steps")
+    parser.add_argument("--epochs", type=int, default=20, help="Number of training epochs")
+    parser.add_argument("--n_steps", type=int, default=200, help="Validation steps")
     parser.add_argument("--code_model_type", default="codebert", type=str, help="type of model/model class to be used")
     parser.add_argument("--code_model_path", default="microsoft/codebert-base", type=str, help="model name or path")
     parser.add_argument("--review_model_type", default="codereviewer", type=str, help="type of model/model class to be used")
@@ -392,6 +411,8 @@ def main():
     train_files = [train_file]
 
     random.seed(args.seed)
+    np.random.seed(args.seed)
+    torch.manual_seed(args.seed)
     random.shuffle(train_files)
 
     code_tokenizer = build_tokenizer(RobertaTokenizerFast, args.code_model_path)
@@ -413,24 +434,13 @@ def main():
 
     # Training loop
     for epoch in range(args.epochs):
-        train_loss = train(model, train_dataloader, optimizer, device)
+        train_loss, best_loss = train(
+            model=model, dataloader=train_dataloader, 
+            val_dataloader=val_dataloader, epoch=epoch,
+            optimizer=optimizer, device=device, 
+            best_loss=best_loss, args=args,
+        )
         print(f"Epoch {epoch + 1}/{args.epochs}, Training Loss: {train_loss:.4f}")
-
-        if (epoch + 1) % args.n_steps == 0:
-            val_loss = validate(model, val_dataloader, device)
-            print(f"Epoch {epoch + 1}/{args.epochs}, Validation Loss: {val_loss:.4f}")
-
-            # Save the model if it has the best contrastive loss
-            if val_loss < best_loss:
-                best_loss = val_loss
-                ckpt_dict = {
-                    "epoch": epoch + 1,
-                    "model_state_dict": model.state_dict(),
-                    "optimizer_state_dict": optimizer.state_dict(),
-                    "best_loss": best_loss,
-                }
-                ckpt_save_path = os.path.join(args.output_dir, "best_model.pth")
-                torch.save(ckpt_dict, ckpt_save_path)
 
 if __name__ == "__main__":
     main()

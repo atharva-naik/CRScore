@@ -14,8 +14,8 @@ NCCL_DEBUG=INFO
 #   --break_cnt -1 \  will keep the whole dataset 
 python -m torch.distributed.launch --nproc_per_node ${PER_NODE_GPU} --node_rank=${RANK} --nnodes=${NODES} --master_addr=${MASTER_HOST} --master_port=${MASTER_PORT} ../run_infer_msg.py  \
   --model_name_or_path microsoft/codereviewer \
-  --load_model_path ../../../../ckpts/gen/checkpoints-1800-5.64 \
-  --output_dir ../../../../ckpts/gen/checkpoints-1800-5.64 \
+  --load_model_path ../../../../ckpts/gen_study_rel/checkpoints-1800-5.62 \
+  --output_dir ../../../../ckpts/gen_study_rel/checkpoints-1800-5.62 \
   --eval_file ../../../../data/Comment_Generation/msg-test.jsonl \
   --out_file test_out.jsonl \
   --max_source_length 512 \

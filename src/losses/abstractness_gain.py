@@ -1,5 +1,6 @@
 import torch
 from typing import *
+from tqdm import tqdm
 from torch import Tensor
 import sentence_transformers
 from sentence_transformers import util, SentenceTransformer
@@ -33,8 +34,12 @@ class AbstractnessScorer:
 
 # main
 if __name__ == "__main__":
+    from src.datautils import read_jsonl
     abs_scorer = AbstractnessScorer("all-mpnet-base-v2")
-    op = abs_scorer.score("His music tastes are very fickle")
-    print(op["word_by_word"]["total_score"], op["phrase"]["total_score"])
-    op = abs_scorer.score("The nile river is 3 metres long")
-    print(op["word_by_word"]["total_score"], op["phrase"]["total_score"])
+    # op = abs_scorer.score("His music tastes are very fickle")
+    # print(op["word_by_word"]["total_score"], op["phrase"]["total_score"])
+    # op = abs_scorer.score("The nile river is 3 metres long")
+    # print(op["word_by_word"]["total_score"], op["phrase"]["total_score"])
+    data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
+    for item in tqdm(data):
+        item[""]

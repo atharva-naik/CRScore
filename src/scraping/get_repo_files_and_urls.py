@@ -89,7 +89,7 @@ github_token = creds["access_token"]
 
 if __name__ == "__main__":
     open("./data/Comment_Generation/all_repo_data.jsonl", "w")
-    all_valtest_gitrepos_final = pd.read_csv("./data/Comment_Generation/all_valtest_gitrepos_final.csv").to_dict("records")[30:]
+    all_valtest_gitrepos_final = pd.read_csv("./data/Comment_Generation/all_valtest_gitrepos_final.csv").to_dict("records")[130:]
     all_data = []
 
     for rec in tqdm(all_valtest_gitrepos_final):

@@ -1,5 +1,6 @@
 import os
 import copy
+import json
 import torch
 import random
 import logging
@@ -10,9 +11,10 @@ import torch.nn as nn
 import multiprocessing
 import torch.optim as optim
 from src.datautils import read_jsonl
+from sentence_transformers import util
 from torch.utils.data import DataLoader, Dataset
 from CodeBERT.CodeReviewer.code.utils import MyTokenizer
-from src.losses.info_nce import InfoNCE
+from src.losses.info_nce import InfoNCE, normalize
 from transformers import RobertaModel, RobertaTokenizerFast, AutoModel, T5Tokenizer, RobertaTokenizer
 
 logging.basicConfig(
@@ -170,7 +172,7 @@ def get_loaders(data_file, args, code_tokenizer, review_tokenizer, eval=False):
     # else: sampler = DistributedSampler(dataset)
     dataloader = DataLoader(
         dataset, shuffle=not(eval), collate_fn=fn,
-        batch_size=args.batch_size if not eval else args.batch_size,
+        batch_size=args.batch_size,
     )
     return dataset, None, dataloader
 
@@ -189,7 +191,8 @@ class CECosSimLoss(nn.Module):
 
 class ReviewRelevanceModel(nn.Module):
     def __init__(self, code_encoder_type: str="codebert", code_encoder_path: str="microsoft/codebert-base", 
-                 review_encoder_type: str="codereviewer", review_encoder_path: str="microsoft/codereviewer"):
+                 review_encoder_type: str="codereviewer", review_encoder_path: str="microsoft/codereviewer", 
+                 temperature: float=0.0001, asym_code_first: bool=False, asym_review_first: bool=False):
         super().__init__()
         self.code_encoder_type = code_encoder_type
         self.code_encoder_path = code_encoder_path
@@ -206,7 +209,9 @@ class ReviewRelevanceModel(nn.Module):
         else: self.code_encoder = AutoModel.from_pretrained(code_encoder_path)
         # self.loss_fn = CECosSimLoss()
         # self.loss_fn = nn.CrossEntropyLoss()
-        self.loss_fn = InfoNCE(temperature=0.01)
+        self.asym_code_first = asym_code_first
+        self.asym_review_first = asym_review_first
+        self.loss_fn = InfoNCE(temperature=temperature)
 
     def encode_review(self, review_input_ids, review_attn_mask):
         return self.review_encoder(review_input_ids, review_attn_mask)
@@ -222,7 +227,9 @@ class ReviewRelevanceModel(nn.Module):
         # loss = self.loss_fn(code_enc @ review_enc.T, label)
 
         # symmetric version of InfoNCE
-        loss = self.loss_fn(review_enc, code_enc)+self.loss_fn(code_enc, review_enc)
+        if self.asym_code_first: loss = self.loss_fn(code_enc, review_enc)
+        elif self.asym_review_first: loss = self.loss_fn(review_enc, code_enc)
+        else: loss = self.loss_fn(review_enc, code_enc)+self.loss_fn(code_enc, review_enc)
 
         return review_enc, code_enc, loss
 
@@ -266,6 +273,7 @@ def train(model, dataloader, val_dataloader, epoch, optimizer, device, best_loss
                     "best_loss": best_loss,
                     "val_loss": val_loss,
                 }
+                print(f"\x1b[32;1msaving best model with loss={best_loss}\x1b[0m")
                 ckpt_save_path = os.path.join(args.output_dir, "best_model.pth")
                 torch.save(ckpt_dict, ckpt_save_path)
             ckpt_dict = {
@@ -281,9 +289,12 @@ def train(model, dataloader, val_dataloader, epoch, optimizer, device, best_loss
     return total_loss / len(dataloader), best_loss
 
 # Define the validation loop
-def validate(model, dataloader, device):
+def validate(model, dataloader, device, return_preds: bool=False):
     model.eval()
     total_loss = 0.0
+    if return_preds:
+        all_review_vecs = []
+        all_code_vecs = []
 
     pbar = tqdm(enumerate(dataloader), 
                 total=len(dataloader), 
@@ -298,11 +309,20 @@ def validate(model, dataloader, device):
             # label = torch.as_tensor(range(len(input_ids1))).to(device)
 
             # Forward pass and Calculate contrastive loss
-            _, _, loss = model(input_ids1, attention_mask1, input_ids2, attention_mask2)
+            review_enc, code_enc, loss = model(input_ids1, attention_mask1, input_ids2, attention_mask2)
+            if return_preds:
+                all_review_vecs.extend(review_enc.cpu().numpy())
+                all_code_vecs.extend(code_enc.cpu().numpy())
 
             total_loss += loss.item()
             pbar.set_description(f"bl: {loss:.3f} l: {(total_loss/(step+1)):.3f}")
 
+    if return_preds:
+        all_code_vecs = np.stack(all_code_vecs)
+        all_review_vecs = np.stack(all_review_vecs)
+        scores = util.cos_sim(all_code_vecs, all_review_vecs).numpy()
+        # print("scores shape:", scores.shape)
+        return total_loss / len(dataloader), scores, np.argsort(scores)[:,::-1]
     return total_loss / len(dataloader)
 
 # Define the prediction function
@@ -338,19 +358,23 @@ def build_tokenizer(tokenizer_class, model_name_or_path):
 def get_args():
     parser = argparse.ArgumentParser(description="Contrastive Learning for BERT")
     parser.add_argument("--lr", type=float, default=1e-5, help="Learning rate")
+    parser.add_argument("--eval", action="store_true", help="no training, only evaluate checkpoint")
     parser.add_argument("--batch_size", type=int, default=100, help="Batch size")
     parser.add_argument("--epochs", type=int, default=20, help="Number of training epochs")
     parser.add_argument("--n_steps", type=int, default=200, help="Validation steps")
-    parser.add_argument("--code_model_type", default="codebert", type=str, help="type of model/model class to be used")
-    parser.add_argument("--code_model_path", default="microsoft/codebert-base", type=str, help="model name or path")
+    parser.add_argument("--code_model_type", default="codereviewer", type=str, help="type of model/model class to be used")
+    parser.add_argument("--code_model_path", default="microsoft/codereviewer", type=str, help="model name or path")
     parser.add_argument("--review_model_type", default="codereviewer", type=str, help="type of model/model class to be used")
     parser.add_argument("--review_model_path", default="microsoft/codereviewer", type=str, help="model name or path")
     parser.add_argument("--resume", action="store_true", help="Resume training from checkpoint")
     parser.add_argument("--checkpoint_path", type=str, default="checkpoint.pth", help="Path to the checkpoint file")
-    parser.add_argument("--output_dir", type=str, required=True, help="directory where checkpoints will be stored.")
+    parser.add_argument("--output_dir", type=str, default=None, help="directory where checkpoints will be stored.")
     parser.add_argument(
         "--seed", type=int, default=2233, help="random seed for initialization"
     )
+    parser.add_argument("--asym_code_first", action="store_true", help="assymetric InfoNCE objective with code first")
+    parser.add_argument("--asym_review_first", action="store_true", help="assymetric InfoNCE objective with review first")
+    parser.add_argument("--temperature", default=0.0001, type=float, help='Temperature parameter for InfoNCE objective')
     parser.add_argument(
         "--max_source_length",
         default=200,
@@ -377,13 +401,92 @@ def get_args():
         type=str,
         help="The dev filename. Should contain the .jsonl files for this task.",
     )
+    parser.add_argument(
+        "--test_filename",
+        default=None,
+        type=str,
+        help="The test filename. Should contain the .jsonl files for this task.",
+    )
     # Add other relevant arguments
+    
+    # Apply simple checks/constraints over arguments
+    args = parser.parse_args()
+    if not args.eval: # for training mode, make sure output_dir is set.
+        assert args.output_dir is not None, f"You forgot to set output_dir in training mode"
 
-    return parser.parse_args()
+    return args
 
-def main():
-    args = get_args()
+def recall_at_k(indices, labels, k):
+    assert len(indices) == len(labels)
+    tot, score = len(indices), 0
+    for i in range(len(indices)):
+        preds_set = set(indices[i][:k])
+        labels_set = set(labels[i])
+        score += int(len(labels_set.intersection(preds_set)) > 0)
+
+    return score/tot
+
+def eval_checkpoint(args):
+    # Initialize model, optimizer, criterion, and other necessary components
+    model = ReviewRelevanceModel(
+        code_encoder_type=args.code_model_type,
+        code_encoder_path=args.code_model_path,
+        review_encoder_type=args.review_model_type,
+        review_encoder_path=args.review_model_path,
+        temperature=args.temperature,
+        asym_code_first=args.asym_code_first,
+        asym_review_first=args.asym_review_first,
+    )
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    
+    # load the checkpoint.
+    checkpoint = torch.load(args.checkpoint_path, map_location="cpu")
+    model.load_state_dict(checkpoint['model_state_dict'])
+
+    model.to(device)
+
+    test_file = args.test_filename
+    valid_file = args.dev_filename
+    
+    random.seed(args.seed)
+    np.random.seed(args.seed)
+    torch.manual_seed(args.seed)
+
+    code_tokenizer = build_tokenizer(RobertaTokenizerFast, args.code_model_path)
+    review_tokenizer = build_tokenizer(RobertaTokenizerFast, args.review_model_path)
+
+    # Load your dataset and create DataLoader instances
+    _, _, test_dataloader = get_loaders(
+        data_file=test_file, args=args,
+        code_tokenizer=code_tokenizer,
+        review_tokenizer=review_tokenizer,
+        eval=True,
+    )
+    _, _, val_dataloader = get_loaders(
+        data_file=valid_file, args=args,
+        code_tokenizer=code_tokenizer,
+        review_tokenizer=review_tokenizer,
+        eval=True,
+    )
+
+    val_loss, val_scores, val_indices = validate(model, val_dataloader, 
+                                                 device=device, return_preds=True)
+    val_labels = [[i] for i in range(len(val_scores))]
+    val_recall_at_5 = recall_at_k(val_indices, val_labels, k=5)
+    print("val_loss:", val_loss, "val_recall@5:", val_recall_at_5)
+
+    
+    test_loss, test_scores, test_indices = validate(model, test_dataloader, 
+                                                    device=device, return_preds=True)
+    test_labels = [[i] for i in range(len(test_scores))]
+    test_recall_at_5 = recall_at_k(test_indices, test_labels, k=5)
+    print("test_loss:", test_loss, "test_recall@5:", test_recall_at_5)
+    
+def main(args):
     os.makedirs(args.output_dir, exist_ok=True)
+    config_path = os.path.join(args.output_dir, "config.json")
+    with open(config_path, "w") as f:
+        json.dump(vars(args), f, indent=4)
 
     # Initialize model, optimizer, criterion, and other necessary components
     model = ReviewRelevanceModel(
@@ -391,20 +494,24 @@ def main():
         code_encoder_path=args.code_model_path,
         review_encoder_type=args.review_model_type,
         review_encoder_path=args.review_model_path,
+        temperature=args.temperature,
+        asym_code_first=args.asym_code_first,
+        asym_review_first=args.asym_review_first,
     )
     optimizer = optim.AdamW(model.parameters(), lr=args.lr)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model.to(device)
-
+    
     # Optionally resume training
     if args.resume:
         # Load checkpoint and update model, optimizer, etc.
-        checkpoint = torch.load(args.checkpoint_path)
+        checkpoint = torch.load(args.checkpoint_path, map_location="cpu")
         model.load_state_dict(checkpoint['model_state_dict'])
         optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
         epoch = checkpoint['epoch']
         best_loss = checkpoint['best_loss']
         print(f"Resuming training from epoch {epoch}, best loss: {best_loss}")
+
+    model.to(device)
         
     train_file = args.train_filename
     valid_file = args.dev_filename
@@ -428,6 +535,7 @@ def main():
         data_file=valid_file, args=args,
         code_tokenizer=code_tokenizer,
         review_tokenizer=review_tokenizer,
+        eval=True,
     )
 
     best_loss = float("inf")
@@ -443,4 +551,6 @@ def main():
         print(f"Epoch {epoch + 1}/{args.epochs}, Training Loss: {train_loss:.4f}")
 
 if __name__ == "__main__":
-    main()
+    args = get_args()
+    if args.eval: eval_checkpoint(args)
+    else: main(args)

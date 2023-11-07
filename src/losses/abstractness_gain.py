@@ -16,7 +16,7 @@ class AbstractnessScorer:
         self.concrete_paradigm_encodings = self.encode_paradigms(CONCRETE_WORDS)
 
     def score_word_by_word(self, inp_list: List[str]):
-        inp_embs = self.sbert.encode(inp_list, convert_to_tensor=True)
+        inp_embs = self.sbert.encode(inp_list, convert_to_tensor=True, show_progress_bar=False)
         abs_score = util.cos_sim(self.abstract_paradigm_encodings, inp_embs).max(axis=0).values.mean().cpu().item()
         conc_score = util.cos_sim(self.concrete_paradigm_encodings, inp_embs).max(axis=0).values.mean().cpu().item()
         total_score = (abs_score - conc_score)/2
@@ -30,7 +30,7 @@ class AbstractnessScorer:
                 "phrase": {"abs_score": p_abs_score, "conc_score": p_conc_score, "total_score": p_total_score}}
 
     def encode_paradigms(self, word_list) -> Tensor:
-        return self.sbert.encode(word_list, convert_to_tensor=True)
+        return self.sbert.encode(word_list, convert_to_tensor=True, show_progress_bar=False)
 
 # main
 if __name__ == "__main__":
@@ -41,5 +41,12 @@ if __name__ == "__main__":
     # op = abs_scorer.score("The nile river is 3 metres long")
     # print(op["word_by_word"]["total_score"], op["phrase"]["total_score"])
     data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
+    rev_and_scores = []
     for item in tqdm(data):
-        item[""]
+        op = abs_scorer.score(item["msg"])
+        rev_and_scores.append((item["msg"], op["word_by_word"]["total_score"]))
+    rev_and_scores = sorted(rev_and_scores, key=lambda x: x[1], reverse=True)
+    print("most abstract reviews:")
+    print(rev_and_scores[:10])
+    print("most concrete reviews:")
+    print(rev_and_scores[-10:])

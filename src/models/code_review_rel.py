@@ -320,7 +320,9 @@ def validate(model, dataloader, device, return_preds: bool=False):
     if return_preds:
         all_code_vecs = np.stack(all_code_vecs)
         all_review_vecs = np.stack(all_review_vecs)
-        scores = util.cos_sim(all_code_vecs, all_review_vecs).numpy()
+        if model.asym_review_first:
+            scores = util.cos_sim(all_code_vecs, all_review_vecs).numpy()
+        else: scores = util.cos_sim(all_code_vecs, all_review_vecs).numpy()
         # print("scores shape:", scores.shape)
         return total_loss / len(dataloader), scores, np.argsort(scores)[:,::-1]
     return total_loss / len(dataloader)
@@ -428,6 +430,7 @@ def recall_at_k(indices, labels, k):
 
 def eval_checkpoint(args):
     # Initialize model, optimizer, criterion, and other necessary components
+    print(f"\x1b[34;1mloading checkpoint: {args.checkpoint_path}\x1b[0m")
     model = ReviewRelevanceModel(
         code_encoder_type=args.code_model_type,
         code_encoder_path=args.code_model_path,

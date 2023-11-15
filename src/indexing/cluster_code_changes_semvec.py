@@ -45,6 +45,7 @@ def itr_merge(*itrs):
 if __name__ == "__main__":
     args = get_args()
     checkpoint = torch.load(args.checkpoint_path, map_location="cpu")
+    print(f"loading checkpoint: {args.checkpoint_path}")
     model = ReviewRelevanceModel(
         code_encoder_type=args.code_model_type,
         code_encoder_path=args.code_model_path,

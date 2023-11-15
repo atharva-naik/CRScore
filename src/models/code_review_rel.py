@@ -3,6 +3,7 @@ import copy
 import json
 import torch
 import random
+import pathlib
 import logging
 import argparse
 import numpy as np
@@ -369,7 +370,7 @@ def get_args():
     parser.add_argument("--review_model_type", default="codereviewer", type=str, help="type of model/model class to be used")
     parser.add_argument("--review_model_path", default="microsoft/codereviewer", type=str, help="model name or path")
     parser.add_argument("--resume", action="store_true", help="Resume training from checkpoint")
-    parser.add_argument("--checkpoint_path", type=str, default="checkpoint.pth", help="Path to the checkpoint file")
+    parser.add_argument("--checkpoint_path", type=str, default=None, help="Path to the checkpoint file")
     parser.add_argument("--output_dir", type=str, default=None, help="directory where checkpoints will be stored.")
     parser.add_argument(
         "--seed", type=int, default=2233, help="random seed for initialization"
@@ -443,8 +444,9 @@ def eval_checkpoint(args):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     # load the checkpoint.
-    checkpoint = torch.load(args.checkpoint_path, map_location="cpu")
-    model.load_state_dict(checkpoint['model_state_dict'])
+    if args.checkpoint_path is not None:
+        checkpoint = torch.load(args.checkpoint_path, map_location="cpu")
+        model.load_state_dict(checkpoint['model_state_dict'])
 
     model.to(device)
 
@@ -484,6 +486,11 @@ def eval_checkpoint(args):
     test_labels = [[i] for i in range(len(test_scores))]
     test_recall_at_5 = recall_at_k(test_indices, test_labels, k=5)
     print("test_loss:", test_loss, "test_recall@5:", test_recall_at_5)
+    if args.checkpoint_path is not None:
+        test_preds_path = os.path.join(pathlib.Path(args.checkpoint_path).parent, "test_preds.json")
+    else: test_preds_path = os.path.join(args.output_dir, "test_preds.json")
+    with open(test_preds_path, "w") as f:
+        json.dump(np.diag(test_scores).tolist(), f, indent=4)
     
 def main(args):
     os.makedirs(args.output_dir, exist_ok=True)

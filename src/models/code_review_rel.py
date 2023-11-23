@@ -193,7 +193,8 @@ class CECosSimLoss(nn.Module):
 class ReviewRelevanceModel(nn.Module):
     def __init__(self, code_encoder_type: str="codebert", code_encoder_path: str="microsoft/codebert-base", 
                  review_encoder_type: str="codereviewer", review_encoder_path: str="microsoft/codereviewer", 
-                 temperature: float=0.0001, asym_code_first: bool=False, asym_review_first: bool=False):
+                 temperature: float=0.0001, asym_code_first: bool=False, asym_review_first: bool=False,
+                 use_unnormalized_loss: bool=False):
         super().__init__()
         self.code_encoder_type = code_encoder_type
         self.code_encoder_path = code_encoder_path
@@ -212,7 +213,10 @@ class ReviewRelevanceModel(nn.Module):
         # self.loss_fn = nn.CrossEntropyLoss()
         self.asym_code_first = asym_code_first
         self.asym_review_first = asym_review_first
-        self.loss_fn = InfoNCE(temperature=temperature)
+        if use_unnormalized_loss:
+            self.loss_fn = nn.CrossEntropyLoss()
+        else: self.loss_fn = InfoNCE(temperature=temperature)
+        self.use_unnormalized_loss = use_unnormalized_loss
 
     def encode_review(self, review_input_ids, review_attn_mask):
         return self.review_encoder(review_input_ids, review_attn_mask)
@@ -225,12 +229,14 @@ class ReviewRelevanceModel(nn.Module):
         if self.code_encoder_type == "codebert": code_enc = self.encode_code(code_input_ids, code_attn_mask).pooler_output
         else: code_enc = self.encode_code(code_input_ids, code_attn_mask).last_hidden_state[:,0,:]
         # loss = self.loss_fn(review_enc, code_enc, label)
-        # loss = self.loss_fn(code_enc @ review_enc.T, label)
-
-        # symmetric version of InfoNCE
-        if self.asym_code_first: loss = self.loss_fn(code_enc, review_enc)
-        elif self.asym_review_first: loss = self.loss_fn(review_enc, code_enc)
-        else: loss = self.loss_fn(review_enc, code_enc)+self.loss_fn(code_enc, review_enc)
+        if self.use_unnormalized_loss:
+            label = torch.as_tensor(range(len(code_enc))).to(code_enc.device)
+            loss = self.loss_fn(code_enc @ review_enc.T, label)
+        else:
+            # symmetric version of InfoNCE
+            if self.asym_code_first: loss = self.loss_fn(code_enc, review_enc)
+            elif self.asym_review_first: loss = self.loss_fn(review_enc, code_enc)
+            else: loss = self.loss_fn(review_enc, code_enc)+self.loss_fn(code_enc, review_enc)
 
         return review_enc, code_enc, loss
 
@@ -375,6 +381,7 @@ def get_args():
     parser.add_argument(
         "--seed", type=int, default=2233, help="random seed for initialization"
     )
+    parser.add_argument("--use_unnormalized_loss", action="store_true", help="use regular unnormalized CE loss")
     parser.add_argument("--asym_code_first", action="store_true", help="assymetric InfoNCE objective with code first")
     parser.add_argument("--asym_review_first", action="store_true", help="assymetric InfoNCE objective with review first")
     parser.add_argument("--temperature", default=0.0001, type=float, help='Temperature parameter for InfoNCE objective')
@@ -440,6 +447,7 @@ def eval_checkpoint(args):
         temperature=args.temperature,
         asym_code_first=args.asym_code_first,
         asym_review_first=args.asym_review_first,
+        use_unnormalized_loss=args.use_unnormalized_loss,
     )
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
@@ -487,8 +495,13 @@ def eval_checkpoint(args):
     test_recall_at_5 = recall_at_k(test_indices, test_labels, k=5)
     print("test_loss:", test_loss, "test_recall@5:", test_recall_at_5)
     if args.checkpoint_path is not None:
+        test_ids_path = os.path.join(pathlib.Path(args.checkpoint_path).parent, "test_ids.json") 
         test_preds_path = os.path.join(pathlib.Path(args.checkpoint_path).parent, "test_preds.json")
-    else: test_preds_path = os.path.join(args.output_dir, "test_preds.json")
+    else:
+        test_ids_path = os.path.join(args.output_dir, "test_ids.json")
+        test_preds_path = os.path.join(args.output_dir, "test_preds.json")
+    with open(test_ids_path, "w") as f:
+        json.dump(test_indices.tolist(), f, indent=4)
     with open(test_preds_path, "w") as f:
         json.dump(np.diag(test_scores).tolist(), f, indent=4)
     
@@ -507,6 +520,7 @@ def main(args):
         temperature=args.temperature,
         asym_code_first=args.asym_code_first,
         asym_review_first=args.asym_review_first,
+        use_unnormalized_loss=args.use_unnormalized_loss,
     )
     optimizer = optim.AdamW(model.parameters(), lr=args.lr)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

@@ -2,7 +2,7 @@
 import json
 import pandas as pd
 from collections import defaultdict
-from src.datautils import read_jsonl
+from src.datautils import read_jsonl, write_jsonl
 
 # main
 if __name__ == "__main__":
@@ -17,8 +17,12 @@ if __name__ == "__main__":
     recall_at_100_by_pl = defaultdict(lambda: [])
     recall_at_250_by_pl = defaultdict(lambda: [])
     recall_at_1000_by_pl = defaultdict(lambda: [])
+    # retrievable_instances = []
     for true_label, id_list in enumerate(test_indices):
         # check if true instance is recalled within top 500.
+        if true_label in id_list[:5]:
+            with open("retrievable_instances.jsonl", "a") as f:
+                f.write(json.dumps({"msg": data[true_label]['msg']})+"\n")
         if true_label not in id_list[:2500]:
             count += 1
             # print(data[true_label])

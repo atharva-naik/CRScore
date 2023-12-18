@@ -5,8 +5,10 @@ from typing import *
 import statsmodels.api as sm
 from scipy.stats import spearmanr
 from collections import defaultdict
+from rouge_score import rouge_scorer
 from scipy.stats import pointbiserialr
 from statsmodels.formula.api import ols
+from Levenshtein import distance as lev
 from src.metrics.cr_score import CRScorer
 
 # def create_histogram(values: Union[List[float], np.ndarray], nbins=5):
@@ -47,20 +49,42 @@ if __name__ == "__main__":
     cr_score = CRScorer(checkpoint_path="./ckpts/crr_rcr_ccr_0.005/best_model.pth")
     # bleu score.
     bleu_score = evaluate.load("bleu")
+    # BERT score.
+    bert_score = evaluate.load("bertscore")
+    # ROUGE-L score.
+    rouge_score_ = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
     # compute CR score.
     inst_cr_scores = np.array(cr_score.compute(predictions=predictions, codes=codes)["inst_scores"])
     # compute BLEU score.
     inst_bleu_scores = [bleu_score.compute(predictions=[p], references=[r]) for p,r in zip(predictions, references)]
     inst_bleu_scores = np.array([b["bleu"] for b in inst_bleu_scores])
+    # compute BERT score.
+    inst_bert_scores = np.array(bert_score.compute(predictions=predictions, references=references, model_type="distilbert-base-uncased")['f1'])
+    # compute ROUGE-L score.
+    inst_rouge_scores = np.array([rouge_score_.score(p,r)['rougeL'].fmeasure for p,r in zip(predictions, references)])
+    # print(inst_rouge_scores)
+    inst_editd_scores = np.array([lev(p, r) for p,r in zip(predictions, references)])
 
     pb_corr, pb_p_value = pointbiserialr((likert_scores>2).astype(int), inst_cr_scores)
     print(f"Point-Biserial Correlation for CRScore: {pb_corr:.3f}, p-value: {pb_p_value:0.3e}")
     pb_corr, pb_p_value = pointbiserialr((likert_scores>2).astype(int), inst_bleu_scores)
     print(f"Point-Biserial Correlation for BLEU: {pb_corr:.3f}, p-value: {pb_p_value:0.3e}")
+    pb_corr, pb_p_value = pointbiserialr((likert_scores>2).astype(int), inst_rouge_scores)
+    print(f"Point-Biserial Correlation for ROUGE-L: {pb_corr:.3f}, p-value: {pb_p_value:0.3e}")
+    pb_corr, pb_p_value = pointbiserialr((likert_scores>2).astype(int), inst_bert_scores)
+    print(f"Point-Biserial Correlation for BERTScore: {pb_corr:.3f}, p-value: {pb_p_value:0.3e}")
+    pb_corr, pb_p_value = pointbiserialr((likert_scores>2).astype(int), inst_editd_scores)
+    print(f"Point-Biserial Correlation for Edit Distance: {pb_corr:.3f}, p-value: {pb_p_value:0.3e}")
     corr, p_value = spearmanr(inst_cr_scores, likert_scores)    
     print(f"Spearman Correlation for CRScore: {corr:.3f}, p-value: {p_value:0.3e}")
     corr, p_value = spearmanr(inst_bleu_scores, likert_scores)
     print(f"Spearman Correlation for BLEU: {corr:.3f}, p-value: {p_value:0.3e}")
+    corr, p_value = spearmanr(inst_rouge_scores, likert_scores)
+    print(f"Spearman Correlation for ROUGE-L: {corr:.3f}, p-value: {p_value:0.3e}")
+    corr, p_value = spearmanr(inst_bert_scores, likert_scores)
+    print(f"Spearman Correlation for BERTScore: {corr:.3f}, p-value: {p_value:0.3e}")
+    corr, p_value = spearmanr(inst_editd_scores, likert_scores)
+    print(f"Spearman Correlation for Edit Distance: {corr:.3f}, p-value: {p_value:0.3e}")
 
     likert_dist = np.unique(likert_scores, return_counts=True)
     print(likert_dist)
@@ -75,7 +99,7 @@ if __name__ == "__main__":
         "continuous": inst_bleu_scores,
         "categorical": likert_scores,
     })
-
+    
     model = ols('continuous ~ C(categorical)', data=bleu_df).fit()
     anova_table = sm.stats.anova_lm(model, typ=2)
     r_squared = anova_table['sum_sq']['C(categorical)'] / (anova_table['sum_sq']['C(categorical)'] + anova_table['sum_sq']['Residual'])
@@ -85,8 +109,38 @@ if __name__ == "__main__":
         "continuous": inst_cr_scores,
         "categorical": likert_scores,
     })
-
+    
     model = ols('continuous ~ C(categorical)', data=cr_df).fit()
+    anova_table = sm.stats.anova_lm(model, typ=2)
+    r_squared = anova_table['sum_sq']['C(categorical)'] / (anova_table['sum_sq']['C(categorical)'] + anova_table['sum_sq']['Residual'])
+    print(f"R-squared value ANOVA CR: {r_squared:.3f}")
+
+    rouge_df = pd.DataFrame({
+        "continuous": inst_rouge_scores,
+        "categorical": likert_scores,
+    })
+    
+    model = ols('continuous ~ C(categorical)', data=rouge_df).fit()
+    anova_table = sm.stats.anova_lm(model, typ=2)
+    r_squared = anova_table['sum_sq']['C(categorical)'] / (anova_table['sum_sq']['C(categorical)'] + anova_table['sum_sq']['Residual'])
+    print(f"R-squared value ANOVA CR: {r_squared:.3f}")
+
+    bert_df = pd.DataFrame({
+        "continuous": inst_bert_scores,
+        "categorical": likert_scores,
+    })
+    
+    model = ols('continuous ~ C(categorical)', data=bert_df).fit()
+    anova_table = sm.stats.anova_lm(model, typ=2)
+    r_squared = anova_table['sum_sq']['C(categorical)'] / (anova_table['sum_sq']['C(categorical)'] + anova_table['sum_sq']['Residual'])
+    print(f"R-squared value ANOVA CR: {r_squared:.3f}")
+
+    editd_df = pd.DataFrame({
+        "continuous": inst_editd_scores,
+        "categorical": likert_scores,
+    })
+    
+    model = ols('continuous ~ C(categorical)', data=editd_df).fit()
     anova_table = sm.stats.anova_lm(model, typ=2)
     r_squared = anova_table['sum_sq']['C(categorical)'] / (anova_table['sum_sq']['C(categorical)'] + anova_table['sum_sq']['Residual'])
     print(f"R-squared value ANOVA CR: {r_squared:.3f}")

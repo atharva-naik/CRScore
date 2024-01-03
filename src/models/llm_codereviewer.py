@@ -173,7 +173,7 @@ Review: nit: `firehoseLogHandler` vs. `firehoseMiddleware` looks like a naming i
 if __name__ == "__main__":
     model_type =  "gpt-3.5" # "codellama"
     prompt_type = "code_quality_labels_prompting" # "few_shot"  # "zero_shot"
-    model_name = "gpt-3.5-turbo" # "codellama/CodeLlama-7b-Instruct-hf"
+    model_name = "codellama/CodeLlama-7b-Instruct-hf" # "gpt-3.5-turbo" # "codellama/CodeLlama-7b-Instruct-hf"
     if model_type == "codellama":
         model = CodeLLaMAEngine(model_name)
         cutoff_point = None

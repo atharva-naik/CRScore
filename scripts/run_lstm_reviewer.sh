@@ -1,0 +1,1 @@
+python -m src.models.lstm_review_gen 

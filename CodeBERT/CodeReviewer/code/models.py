@@ -22,7 +22,6 @@ logger = logging.getLogger(__name__)
 
 
 class ReviewerModel(T5ForConditionalGeneration):
-
     def __init__(self, config):
         super().__init__(config)
         self.cls_head = nn.Linear(self.config.d_model, 2, bias=True)

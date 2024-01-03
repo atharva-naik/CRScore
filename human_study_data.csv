@@ -1,0 +1,1354 @@
+,patch,msg,proj,lang,index,codereviewer_pred,magicoder_pred,lstm_pred,knn_pred
+0,"@@ -100,6 +100,13 @@ class CppGenerator : public BaseGenerator {
+ 
+     assert(!cur_name_space_);
+ 
++    code_ += ""#if defined(_MSC_VER)"";
++    code_ += ""#define NOEXCEPT"";
++    code_ += ""#else"";
++    code_ += ""#define NOEXCEPT noexcept"";
++    code_ += ""#endif"";
++    code_ += """";
++
+     // Generate forward declarations for all structs/tables, since they may
+     // have circular references.
+     for (auto it = parser_.structs_.vec.begin();","rather than generate code for this every time, stick it in `flatbuffers.h` (and call it `FLATBUFFERS_NOEXCEPT` to avoid clashes).",google-flatbuffers,java,8327,"""strings""",This package is not used anywhere in the codebase. It might be a dead code.,,GNU style - please make consistent with the rest of the code.
+1,"@@ -46,7 +46,9 @@ public class HTMLTestResults {
+   private final HTMLSuiteResult suite;
+ 
+   private static final String HEADER = ""<html>\n"" +
+-      ""<head><style type='text/css'>\n"" +
++      ""<head>\n""+
++      ""<meta charset=\""UTF-8\"">\n""+
++      ""<style type='text/css'>\n"" +
+       ""body, table {\n"" +
+       ""    font-family: Verdana, Arial, sans-serif;\n"" +
+       ""    font-size: 12;\n"" +","Is there a recommended quote style for attributes? I see single and double here, double further down.",SeleniumHQ-selenium,java,1589,Why do we need to decode here?,"The plural_endpoint variable is not used anywhere in the code. It can be removed.
+
+The collection_path variable is used to format the path for the collection of resources. It is not clear what the format string is supposed to do, but it seems to be a placeholder for the plural endpoint. It is not used anywhere in the code, so it can be removed.
+The format string in the collection_path.format(**request.matchdict) is not clear, but it seems to be a placeholder for the plural endpoint. It is not used anywhere in the code, so it can be removed.
+The format string in the collection_path.format(**request.matchdict) is not clear, but it seems to be a placeholder for the plural endpoint. It is",,Please add a description about what is happening here.
+2,"@@ -94,7 +94,7 @@ public abstract class Analyzer implements Closeable {
+    * Create a new Analyzer, reusing the same set of components per-thread
+    * across calls to {@link #tokenStream(String, Reader)}. 
+    */
+-  public Analyzer() {
++  protected Analyzer() {
+     this(GLOBAL_REUSE_STRATEGY);
+   }
+ ",Can you not change those scopes in public API classes? This applies here and in other places -- protected changed to package-scope for source is not really an API-compatible change.,apache-lucene-solr,java,305,Should this be `status_aware_approver_email_address`?,This method is not used anywhere in the code. It seems like it could be removed.,,I thought we had abandoned updating this because it doesn't handle the branches model well. Am I mistaken? Or was it auto-updated by a script or something?
+3,"@@ -25,7 +25,8 @@ public abstract class BftExtraDataCodec {
+   protected enum EncodingType {
+     ALL,
+     EXCLUDE_COMMIT_SEALS,
+-    EXCLUDE_COMMIT_SEALS_AND_ROUND_NUMBER
++    EXCLUDE_COMMIT_SEALS_AND_ROUND_NUMBER,
++    EXCLUDE_CMS // TODO-lucas How can we achieve this w/o changing the BftExtraDataCodec base class
+   }
+ 
+   private static final Logger LOG = LogManager.getLogger();",possibly extending EncodingType enum?,hyperledger-besu,java,9459,nit: can combine with -> can combine with,"The method name can be more descriptive. It's not clear what ""IsCompatibleTo"" means in this context.",,"Is there is a default value, why not use a primitive value with a default of `false`? Then, you do not need these logics in a POJO get method."
+4,"@@ -70,6 +70,9 @@ import org.apache.solr.core.CoreContainer;
+ import org.apache.solr.handler.admin.CollectionsHandler;
+ import org.apache.solr.handler.component.HttpShardHandler;
+ import org.apache.solr.logging.MDCLoggingContext;
++import org.apache.solr.store.blob.process.BlobDeleteManager;
++import org.apache.solr.store.blob.process.BlobDeleteProcessor;
++import org.apache.solr.store.shared.SharedStoreManager;
+ import org.apache.solr.store.shared.metadata.SharedShardMetadataController;
+ import org.apache.solr.update.UpdateShardHandler;
+ import org.apache.zookeeper.CreateMode;",I only see new imports. Is there any functional change in this file?,apache-lucene-solr,java,3752,`Substitute` is unused (from `deadcode`),The function name should be in camel case.,,Please migrate this equals() to use `Objects.equals()`
+5,"@@ -48,8 +48,16 @@ import javax.net.ssl.SSLSocketFactory;
+  */
+ public class SalesforceTLSSocketFactory extends SSLSocketFactory {
+ 
++    private static SalesforceTLSSocketFactory INSTANCE;
+     private SSLSocketFactory ssLSocketFactory;
+ 
++    public static SalesforceTLSSocketFactory getInstance() throws KeyManagementException, NoSuchAlgorithmException {
++        if (INSTANCE == null) {
++            INSTANCE = new SalesforceTLSSocketFactory();
++        }
++        return INSTANCE;
++    }
++
+     public SalesforceTLSSocketFactory() throws KeyManagementException, NoSuchAlgorithmException {
+         final SSLContext context = SSLContext.getInstance(""TLS"");
+         context.init(null, null, null);",This should be made private.,forcedotcom-SalesforceMobileSDK-Android,java,3351,Why do we need to sort here?,"The code is checking if the length of the signing keys is greater than 0, but it's not checking if the keys are the same. It's also not checking if the keys are in the same order. It's also not checking if the keys are the same as the old keys. It's also not checking if the keys are the same as the old keys. It's also not checking if the keys are the same as the old keys. It's also not checking if the keys are the same as the old keys. It's also not checking if the keys are the same as the old keys. It's also not checking if the keys are the same as the old keys. It's also not checking if the keys are the same as the old keys. It's also not checking if the keys are the same",,I hope there are no sensitive environment variables or system properties 
+6,"@@ -39,6 +39,7 @@ public class ScriptDTO {
+     private final Boolean free;
+     private final Boolean requiresPatch;
+     private final String script;
++    private final URI icon;
+ 
+     private ScriptDTO(Builder builder) {
+         this.scriptName = builder.scriptName;",Can we give this field a more descriptive name? When I use a variable named `icon` I normally expect an `Image` object.,PhoenicisOrg-phoenicis,java,3058,I think this should be `@exclusion_patterns += @system_exclusion_patterns`,"The exclusion patterns are now being used for system files, which is not what you want. You should probably remove the system_exclusion_patterns and use the exclusion_patterns for system files.
+
+Also, the inclusion_patterns are not being used. You might want to use them to only include certain files in the backtrace.",,no need to update any docstring? eg defaults?
+7,"@@ -312,6 +312,7 @@ class DeleteFileIndex {
+   static class Builder {
+     private final FileIO io;
+     private final Set<ManifestFile> deleteManifests;
++    private long minSequenceNumber = 0L;
+     private Map<Integer, PartitionSpec> specsById = null;
+     private Expression dataFilter = Expressions.alwaysTrue();
+     private Expression partitionFilter = Expressions.alwaysTrue();","I remember the sequence number 0 is kept for the data files for iceberg v1, so in theory the sequence number from delete files should start from 1. So setting it to 0 as the default value sounds correct.",apache-iceberg,java,1942,"Please use `if handler == ""default"":` instead.","This function is not used anywhere in the code. It seems like it could be removed.
+
+The function `chooseFile` is not used anywhere in the code. It seems like it could be removed.
+The function `_handle_multiple_files` is not used anywhere in the code. It seems like it could be removed.
+The function `_handle_",,"It is good to wrap this in `try { ... } catch { ... }` block, unless we are sure that `state.url` will always be a valid URL. `URL` Web API will throw if `state.url` is a malformed URL"
+8,"@@ -24,4 +24,7 @@ final class ChromeDriverCommand {
+   private ChromeDriverCommand() {}
+ 
+   static final String LAUNCH_APP = ""launchApp"";
++  static final String SEND_COMMANDS_FOR_DOWNLOAD_CHROME_HEAD_LESS
++      = ""sendCommandForDownloadChromeHeadLess"";
++
+ }","Nit: `Headless` is one word, not two, and so doesn't need camelcasing in this way.",SeleniumHQ-selenium,java,9381,Why is this change needed?,"The function signature should be changed to return an error instead of a bool. This is more in line with Go's idiomatic error handling.
+
+The function name ""VerifySignature"" is a bit misleading, as it's not actually verifying the signature, but validating it. It's more appropriate to name it ""ValidateSignature"".
+The function body should be changed to return an error if the signature is invalid, and nil if it's valid. This is more in line with Go's idiomatic error handling.
+Here's the corrected code:
+```go
+// ValidateSignature implements Syscalls.
+func (sys syscalls) ValidateSignature(signature specscrypto.Signature, signer address.Address, plaintext []byte) error {
+	return crypto.ValidateSignature(plaintext, signer, signature)
+}
+```",,Can you say a bit more why `perl` was removed as a dependency?
+9,"@@ -12,6 +12,7 @@ import java.nio.charset.Charset;
+ import java.security.MessageDigest;
+ 
+ public class FastBlurTransformation extends BitmapTransformation {
++    private static final String ID=""de.danoeh.antennapod.core.glide.FastBlurTransformation"";
+ 
+     private static final String TAG = FastBlurTransformation.class.getSimpleName();
+ ",Please add spaces before and after the equals sign,AntennaPod-AntennaPod,java,1440,Why do we need this?,"This method is in beta and may change in future versions. It's good to be aware of this.
+
+The method is not implemented for node.js. It's good to be aware of this.
+The method is not implemented for node.js.",,"Does this address the ""dependencies from the resource options to a remote component were not being respected"" issue you called out in Slack? Should we add more coverage that checks that dependencies and property dependencies from a program are showing up in `Construct` as expected?"
+10,"@@ -66,7 +66,7 @@ public final class RegistryUtils {
+     serviceRegistry.run();
+   }
+ 
+-  public static void destory() {
++  public static void destroy() {
+     serviceRegistry.destroy();
+   }
+ ",Need to add deprecated annotation and call the new fixed method to avoid the API broken issue.,apache-servicecomb-java-chassis,java,8752,Shouldn't this be `IDisposable`?,"This method should return an IDisposable to allow the caller to control when the OpenTelemetry service is shut down. This is important for any resources that the service might be using, such as threads or file handles.
+
+The method currently does not return anything, which means the caller cannot control when the OpenTelemetry service is shut down. This could lead to resource leaks or other issues if the caller forgets to dispose of the returned object.
+The method should be changed to return an IDisposable, and the OpenTelemetry service should be started in a separate thread or in a separate process, depending on the specific requirements of the application.",,"I think that after this change there are no kmem caches that use KMC_VMEM. So the only use of KM_VMEM is from vmem_alloc(). I'm trying to understand when we use kmem_alloc() vs vmem_alloc(). (On illumos, ZFS doesn't use vmem_alloc.) It looks like we use vmem_alloc() when doing an allocation that might be > spl_kmem_alloc_max, since in this case kmem_alloc() would fail. Could we instead always use kmem_alloc(), but have kmem_alloc try kmalloc first and then fall back on vmalloc? I.e. use kvmalloc on kernels that have it, and write the fallback ourself for older kernels?"
+11,"@@ -42,10 +42,14 @@
+ #include ""res/windowsicon.xpm""
+ #include ""res/macosicon.xpm""
+ #include ""res/linuxicon.xpm""
++#include ""res/androidicon.xpm""
+ #include ""res/freebsdicon.xpm""
++#include ""res/linuxarmicon2.xpm""
+ #include ""res/atiicon.xpm""
++#include ""res/amdicon2.xpm""
+ #include ""res/nvidiaicon.xpm""
+-#include ""res/androidicon.xpm""
++#include ""res/nvidiaicon2.xpm""
++#include ""res/intelgpuicon2.xpm""
+ #include ""res/virtualboxicon.xpm""
+ #include ""res/blankicon.xpm""
+ ",Why `2` in this and others?,BOINC-boinc,php,8887,"I think this should be `os.path.join(self._obj_dir, filehash)`","The _object_path method is not used anywhere else in the code. It seems like it could be removed.
+
+The _object_",,It looks that this should never happen. Would you elaborate more on when this can happen?
+12,"@@ -22,10 +22,19 @@ class Pool
+      */
+     protected $providers = array();
+ 
++    /**
++     * @var array
++     */
+     protected $contexts = array();
+ 
++    /**
++     * @var DownloadStrategyInterface[]
++     */
+     protected $downloadSecurities = array();
+ 
++    /**
++     * @var string
++     */
+     protected $defaultContext;
+ 
+     /**","`string[]` ? not sure, can you verify this @core23 ? Thank you",sonata-project-SonataMediaBundle,php,6591,Why do we need to check for `InstallStrategy.Agent` here?,"This code is checking if the ClusterInstallRef is specified, and if it is, it skips the creation of ClusterProvision. This is a good approach, but it's not clear why the Agent install strategy check is commented out. If the Agent install strategy is in play, the code should still stop processing and return.",,"This part confuses me as well. I think the indices don't map to the image above, as we have an extra dimension for the `h` and `w`, so users might think that it relates to the `p0` above (which is not actually the case)"
+13,"@@ -47,9 +47,10 @@ class DateRange implements FilterEncoder, FacetBuilder
+      * Parses the given date range from a GET parameter and returns a Solr
+      * date range filter.
+      *
+-     * @param string $rangeFilter The range filter query string from the query URL
++     * @param string $dateRange
+      * @param array $configuration Facet configuration
+      * @return string Lucene query language filter to be used for querying Solr
++     * @internal param string $rangeFilter The range filter query string from the query URL
+      */
+     public function decodeFilter($dateRange, array $configuration = array())
+     {",Please add back the description of the parameter,TYPO3-Solr-ext-solr,php,1092,// NewSingleOutbound returns a new Outbound for the given adrress.,This function is not TLS-enabled. It should be renamed to NewSingleOutboundTLS or similar.,,These don't need volatile since they are not accessed by other threads until initialization is complete.
+14,"@@ -11,7 +11,7 @@ use Shopsys\FrameworkBundle\Component\Router\Security\RouteCsrfProtector;
+ use Symfony\Component\HttpFoundation\Request;
+ use Symfony\Component\HttpFoundation\RequestStack;
+ use Symfony\Component\Routing\Router;
+-use Twig_Environment;
++use Twig\Environment;
+ 
+ class GridTest extends TestCase
+ {","I still see some usages of not namespaced variants (look for Twig_ in project, about 42 matches). Is it intentional?",shopsys-shopsys,php,6985,Shouldn't this be `EINVAL`?,"EINVAL is a generic error code, it's not a specific error for invalid argument. It's better to use a more specific error code like EINVAL or EINVAL for invalid argument.",,Not sure about this one! :D
+15,"@@ -21,6 +21,7 @@ class PerformanceTestSamplesAggregator
+             $maxQueryCount = 0;
+             $isSuccessful = true;
+             $worstStatusCode = null;
++            $performanceTestSample = null;
+ 
+             foreach ($performanceTestSamplesOfUrl as $performanceTestSample) {
+                 /* @var $performanceTestSample \Tests\ShopBundle\Performance\Page\PerformanceTestSample */","wow :+1: , i do not even know how this test works.",shopsys-shopsys,php,5294,why this change?,"The test is checking for a machine set with a name that includes ""-worker-0"". This is not consistent with the expectedMachineSetReplicas map which uses ""-worker"" as the name.
+
+The test should be updated to use the same naming convention as expectedMachineSetReplicas.",,Remove `WORKER_THREADS_SYS_PROP` if it's not used anymore.
+16,"@@ -138,7 +138,10 @@ class PluginBase extends ServiceProviderBase
+      */
+     public function registerSettings()
+     {
+-        return [];
++		$configuration = $this->getConfigurationFromYaml();
++		if (array_key_exists('settings', $configuration)) {
++			return $configuration['settings'];
++		}
+     }
+ 
+     /**","Project standard is spaces, not tabs. Please fix and then we can merge this.",octobercms-october,php,377,I don't think we need the `omitempty` here.,"The omission of the `omitempty` tag for `AccessKeyID` is a mistake. It should be included to avoid the field being omitted when empty.
+
+The `AccessKeyIDRef` and `SecretAccessKeyRef` fields should be renamed to `AccessKeyID` and `SecretAccessKey` respectively to match the field names in the `ACMEIssuerDNS01ProviderRoute53` struct.
+The `SecretAccessKeyRef` field should be renamed to `SecretAccessKey` to match the field name in the `ACMEIssuerDNS01ProviderRoute53` struct",,"This may create a problem because any other Docker error will also result in this `SerializationError` being raised. It may be preferable to build the container, and then after that, execute the health check file from the container's command line to validate it (could even pass the whole script to the CLI and not copy it in). I don't know what the Python API is to run a container with a specific command, but I'm imagining if I built this container locally, I'd just load a shell on the container and run the healthcheck myself."
+17,"@@ -1,5 +1,7 @@
+ <?php namespace System\Controllers;
+ 
++use Config;
++use Request;
+ use Lang;
+ use Flash;
+ use Backend;","It's a minor quibble I know, but I like having the imports ordered by lengt",octobercms-october,php,363,Why do we need to simulate execution here?,"This is a bit unclear. Is this a typo or is it a different function? If it's a different function, please specify which one.
+
+The function name ""SimulateExecution"" is not clear. It seems to be a function that simulates the execution of a contract, but it's not clear what it does exactly. It's also not clear what the difference is between this function and the ""ExecuteContractRead"" function.
+If it's a typo, please correct it.",,"Here things are different because erasing is sloooow (many x the write or read times) and this call can do multiple sectors. No issue decreasing yield time here, I suppose."
+18,"@@ -12,7 +12,6 @@
+ namespace Sonata\MediaBundle\Model;
+ 
+ use Imagine\Image\Box;
+-use Sonata\ClassificationBundle\Model\CategoryInterface;
+ use Symfony\Component\Validator\Context\ExecutionContextInterface;
+ use Symfony\Component\Validator\ExecutionContextInterface as LegacyExecutionContextInterface;
+ ",We still need this import,sonata-project-SonataMediaBundle,php,1130,Shouldn't this be `/orgs/:org/repos`?,"The routes are not properly defined. The routes should be defined in a way that makes sense for the application. For example, the routes for listing user repositories and organization repositories should be defined as `/users/:username/repos` and `/orgs/:org/repos` respectively. The routes for creating a repository and creating an organization repository should be defined as `/repos` and `/org/:org/repos` respectively.
+
+The routes should also be defined in a way that makes sense for the application's business logic. For example, the route for listing a user's repositories should be defined as `/users/:username/repos`, not `/repos`.
+The routes should also be defined in a way that makes sense for the application's security requirements. For example, the route for creating a repository should require authentication, not be publicly accessible.
+The routes should also be defined in a way that makes sense for the application's performance requirements. For example, the route for listing a user's",,"Can we call this `Meta` field `Data`? We had a similar conversation on another field, but `Meta` is to obscure / abstract of a name in my mind."
+19,"@@ -1378,13 +1378,12 @@ class PAIA extends DAIA
+             $lastname = $nameArr[0];
+         } else {
+             $nameArr = explode(' ', $username);
+-            $firstname = $nameArr[0];
+-            $lastname = '';
+-            array_shift($nameArr);
++            $firstname = '';
++            $lastname = array_pop($nameArr);
+             foreach ($nameArr as $value) {
+-                $lastname .= ' ' . $value;
++                $firstname .= ' ' . $value;
+             }
+-            $lastname = trim($lastname);
++            $firstname = trim($firstname);
+         }
+ 
+         // TODO: implement parsing of user details according to types set","I think you could condense this code considerably by getting rid of the initialization and foreach loop and simply saying: `$firstname = trim(implode(' ', $nameArr));` What do you think?",vufind-org-vufind,php,2636,Why did you change this?,The dateFormat prop is not used in the DateInput component. It's not clear what it's supposed to do.,,Wouldn't `qs_for_sort_order_count` be better?
+20,"@@ -56,6 +56,13 @@ class ReIndexTask extends AbstractTask
+      */
+     protected $indexingConfigurationsToReIndex = array();
+ 
++    /**
++     * Clear Index for selected sites and record types
++     *
++     * @var boolean
++     */
++    protected $clearSearchIndex;
++
+ 
+     /**
+      * Purges/commits all Solr indexes, initializes the Index Queue",I'd suggest a default value of `false` just to make sure existing tasks are ok when they get deserialized after an update to a version containing this code.,TYPO3-Solr-ext-solr,php,2719,Shouldn't this be `kinto.views.flush`?,"The flush_endpoint_enabled setting is not used in the code. It's better to remove it from the settings.
+
+The flush endpoint is not used in the code, so it's better to remove it from the settings.
+The flush endpoint is not used in the code, so it'",,Nevermind... looked up Python json serialization...
+21,"@@ -200,11 +200,11 @@ class Field implements Translatable
+     }
+ 
+     /**
+-     * @return string|Markup
++     * @return string|array|Markup
+      */
+     public function getTwigValue()
+     {
+-        $value = $this->__toString();
++        $value = $this->getFlattenedValue();
+ 
+         if ($this->getDefinition()->get('allow_html')) {
+             $value = new Markup($value, 'UTF-8');",`if (is_string($value) && $this->getDefinition()->get('allow_html')) {`,bolt-core,php,6222,"I think this should be `elif reduction in ['mean', 'none']:`","The code seems to be correct. It's just a bit unclear what the purpose of the avg_factor is. If it's used with reduction='mean', it seems to be used to average the loss by a certain factor. If it's used with reduction='none', it seems to be used to sum the loss. If it's not used with any reduction, it seems to be used to average the loss by a certain factor.",,I suggest the new methods should be functions if it will operate database.
+22,"@@ -160,8 +160,8 @@ define(['playbackManager', 'nowPlayingHelper', 'events', 'connectionManager'], f
+ 
+         if (navigator.mediaSession) {
+             navigator.mediaSession.metadata = new MediaMetadata({
+-                title: title,
+-                artist: artist,
++                title: artist,
++                artist: title,
+                 album: album,
+                 artwork: getImageUrls(item),
+                 albumArtist: albumArtist,",I would rather find the code that inverts the logic and remove that.,jellyfin-jellyfin-web,js,6458,Why do we need this?,This is a good addition to the code. It will help in identifying hidden elements.,,Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+23,"@@ -142,15 +142,12 @@ axe.utils.getNodeFromTree = function(vNode, node) {
+ 		return vNode;
+ 	}
+ 	vNode.children.forEach(candidate => {
+-		var retVal;
+-
+-		if (candidate.actualNode === node) {
++		if (found) {
++			return;
++		} else if (candidate.actualNode === node) {
+ 			found = candidate;
+ 		} else {
+-			retVal = axe.utils.getNodeFromTree(candidate, node);
+-			if (retVal) {
+-				found = retVal;
+-			}
++			found = axe.utils.getNodeFromTree(candidate, node);
+ 		}
+ 	});
+ 	return found;",nit: can remove this `else` since we return from the condition above.,dequelabs-axe-core,js,295,Layout/SpaceInsideHashLiteralBraces: Space inside { missing.<br>Layout/SpaceInsideHashLiteralBraces: Space inside } missing.,"You can remove the if: :published? condition as it's not necessary. The presence validation will still be performed if published is true.
+
+This is a general review and may not cover all the code changes. Please provide more specific feedback if needed.",,"I think this might be called more generic, somethin like `importNoteFromBackend` as it may be another NotebookRepo implementation configured that actuallys upports same backend-style import. How do you think?"
+24,"@@ -204,5 +204,4 @@ function server (inputCompanionOptions = {}) {
+   return { app, companionOptions }
+ }
+ 
+-const { app, companionOptions } = server()
+-module.exports = { app, companionOptions, server }
++module.exports = { server }",Maybe change it to `module.exports = server` ? Becase there's nothing else to export here,transloadit-uppy,js,5967,ineffectual assignment to `err` (from `ineffassign`),The blockchain should not be nil. It should be initialized with the correct parameters.,,"@deads2k @tnozicka isn't this ""just enough"" fix to stop the flakiness of scaler and leave us with rest in 1.10 world?"
+25,"@@ -43,13 +43,16 @@ import { isZeroReport } from '../../modules/search-console/util/is-zero-report';
+ import sumObjectListValue from '../../util/sum-object-list-value';
+ const { useSelect } = Data;
+ 
++// reportArgs is declared in this higher scope so that it can be used by hasData.
++let reportArgs;
++
+ const AdminBarClicks = ( { className } ) => {
+ 	const url = useSelect( ( select ) => select( CORE_SITE ).getCurrentEntityURL() );
+ 	const { compareStartDate, endDate } = useSelect( ( select ) => select( CORE_USER ).getDateRangeDates( {
+ 		compare: true,
+ 		offsetDays: DATE_RANGE_OFFSET,
+ 	} ) );
+-	const reportArgs = {
++	reportArgs = {
+ 		startDate: compareStartDate,
+ 		endDate,
+ 		dimensions: 'date',","Instead of doing this let's add another function similar to `hasZeroData` for selecting the `reportArgs` since this is all sourced from selected values. Then `hasZeroData` can use this internally, as well as the component itself. Since this function would be internal just for the purpose of avoiding duplication, we don't need to expose it on the component the same way though.",google-site-kit-wp,js,2084,Please don't use wildcard imports.,"The code is already using a Queue, so there's no need to change it.
+
+The code is using a LinkedList, which is a doubly-linked list, and a Queue, which is a collection of elements that are inserted and removed according to the first-in-first-out (FIFO) principle.
+The LinkedList is a good choice when you need to add or remove elements from the middle of the list, and the Queue is a good choice when you need to add or remove elements from the end of the list.
+In this case, the code is using a LinkedList to store the nodes, and a Queue to process the nodes. This is a good choice because the nodes are added to the end of the list and removed from the beginning of the list, which is the standard behavior for a Queue.
+So, there's no need to change the code.",,unfortunate assert below... you might consider fixing
+26,"@@ -112,6 +112,7 @@ function TransactionBuilder(opts) {
+   if (opts.fee || opts.feeSat) {
+     this.givenFeeSat = opts.fee ? opts.fee * util.COIN : opts.feeSat;
+   }
++  if (opts.fee == 0 || opts.feeSat == 0) this.givenFeeSat = 0;
+   this.remainderOut = opts.remainderOut;
+   this.signhash = opts.signhash || Transaction.SIGHASH_ALL;
+ ",if (typeof (opts.fee) !== 'undefined' || typeof (opts.feeSat) !=='undefined') {,bitpay-bitcore,js,7760,Style/StringLiterals: Prefer single-quoted strings inside interpolations.,"This is a test case for setting the root/administrator password. It's a good example of how to use Beaker to automate tasks on a variety of platforms. However, it's important to note that this is a test case and should not be used in a production environment. It's also worth noting that the password is hardcoded in the test case, which is not secure. It's recommended to use environment variables or secure storage for sensitive data.",,Always use 2 spaces for indentation (fix the other files too). Also each file should end with exactly one blank line.
+27,"@@ -1,8 +1,14 @@
+ import { translationMacro as t } from 'ember-i18n';
+ import AbstractIndexRoute from 'hospitalrun/routes/abstract-index-route';
++import Ember from 'ember';
++
++const { computed } = Ember;
++
+ export default AbstractIndexRoute.extend({
+   modelName: 'imaging',
+-  pageTitle: t('imaging.pageTitle'),
++  pageTitle: computed('i18n', () => {
++    return t('imaging.pageTitle');
++  }),
+   searchStatus: 'Requested',
+ 
+   _getStartKeyFromItem(item) {",This should be `computed('i18n.locale'....`,HospitalRun-hospitalrun-frontend,js,6958,I don't think we need the `htmlFor` here.,This is a label for the input fields. It should be descriptive of what the input fields are for.,,Is this a debugging leftover?
+28,"@@ -59,6 +59,8 @@ function Address(data, network, type) {
+     info = Address._transformPublicKey(data);
+   } else if (data.constructor && (data.constructor.name && data.constructor.name === 'Script')) {
+     info = Address._transformScript(data);
++  } else if (data instanceof Address) {
++    return data;
+   } else if (typeof(data) === 'string') {
+     info = Address._transformString(data, network, type);
+   } else {","Should sending an address into address error? Since the call isn't needed, and could be fixed easily.",bitpay-bitcore,js,7610,Why do we need this constructor?,"This is a good addition to the class. It will ensure that the serializer is always created with the same settings.
+
+The code change is to add a constructor to the EthereumJsonSerializer class that initializes the JsonSerializer with the same settings. This ensures that the serializer is always created with the same settings, which can be beneficial for consistency and predictability.",,"As stated above, I think these changes should be reverted."
+29,"@@ -236,7 +236,9 @@ const hasNext = (self, callback) => {
+   if (self.s.currentDoc) {
+     return callback(null, true);
+   }
+-
++  if (self.isNotified()) {
++    return callback(null, false);
++  }
+   nextObject(self, function(err, doc) {
+     if (err) return callback(err, null);
+     if (self.s.state === Cursor.CLOSED || self.isDead()) return callback(null, false);",nit: I prefer the space before and after this check to make it very easy to scan when reading through code,mongodb-node-mongodb-native,js,5768,Why do we need this file?,This is a standard template for configuring a model in MMDetection. The model is a YOLACT model with a ResNet-101 backbone. The pretrained weights are from torchvision. The work directory is set to './work_dirs/yolact_r101'.,,curious - does initialization change `self.opt` but not the `opt` in this `init` function?
+30,"@@ -219,6 +219,8 @@ describe('Formulas general', () => {
+   });
+ 
+   it('should recalculate table after changing cell value (by reference)', () => {
++    let sourceDataReference = null;
++
+     const afterChange = jasmine.createSpy();
+     const hot = handsontable({
+       data: getDataSimpleExampleFormulas(),",Should we even fix this test? IMO it should be refactored to check that values are recalculated after `setSourceDataAtCell` and `setSourceDataAtRowProp` calls. This will be the correct way to alter the data since now and we're not testing this use case.,handsontable-handsontable,js,4342,This should be `export_as_preferred_citation_txt.html_safe`,"This is a bit of a mess. It seems like you're trying to check if the document responds to a method before trying to call it. This is a bit of a code smell. It's better to handle the error when the method doesn't exist.
+
+Here's a more idiomatic way to do it:
+```ruby
+<% if document.respond_to?(:export_as_preferred_citation_txt) %>
+  <h2><%= t('blacklight.citation.preferred') %></h2>
+  <%= document.export_as_preferred_citation_txt.html_safe %><br/><br/>
+<% end %>
+<% if document.respond_to?(:export_",,`attr_selector` needs to be added to args list in docstring
+31,"@@ -123,6 +123,9 @@ axe.utils.getFlattenedTree = function (node, shadowId) {
+ axe.utils.getNodeFromTree = function (vNode, node) {
+ 	var found;
+ 
++	if (vNode.actualNode === node) {
++		return vNode;
++	}
+ 	vNode.children.forEach((candidate) => {
+ 		var retVal;
+ ","Since I'm still trying to keep these straight in my head, can you elaborate on what problem this solves?",dequelabs-axe-core,js,2339,Why do we need this change?,"The count should be an int64, not a float64.",,"this value was never used, it will be either `FRIEND_IGNORE_SELF`, `FRIEND_IGNORE_ALREADY` or `FRIEND_IGNORE_FULL` (see below)"
+32,"@@ -79,6 +79,7 @@ function Sparkline( {
+ 	return (
+ 		<div className=""googlesitekit-analytics-sparkline-chart-wrap"">
+ 			<GoogleChart
++				chartType=""line""
+ 				data={ data }
+ 				options={ chartOptions }
+ 				// eslint-disable-next-line sitekit/camelcase-acronyms","See above, we could avoid adding that (same applies below).",google-site-kit-wp,js,4694,nit: `return r->impl->renderbuffer_from_image(image);`,This is a new function that is not used anywhere in the codebase. It seems like it's not being used anywhere in the codebase. It's a good idea to remove it if it's not being used.,,I think this method has to be `@Deprecated` as well
+33,"@@ -127,12 +127,13 @@ std::string MetaServiceUtils::schemaEdgesPrefix(GraphSpaceID spaceId) {
+ std::string MetaServiceUtils::schemaEdgeKey(GraphSpaceID spaceId,
+                                             EdgeType edgeType,
+                                             int64_t version) {
++    int64_t storageVer = std::numeric_limits<int64_t>::max() - version;
+     std::string key;
+     key.reserve(128);
+     key.append(kEdgesTable.data(), kEdgesTable.size());
+     key.append(reinterpret_cast<const char*>(&spaceId), sizeof(spaceId));
+     key.append(reinterpret_cast<const char*>(&edgeType), sizeof(edgeType));
+-    key.append(reinterpret_cast<const char*>(&version), sizeof(version));
++    key.append(reinterpret_cast<const char*>(&storageVer), sizeof(storageVer));
+     return key;
+ }
+ ",I am very sorry that I neglected to resolve the conflict and did not fully unit test edge,vesoft-inc-nebula,cpp,8467,This is a BC break.,The names of the variables are not descriptive. It would be better to use names that describe their purpose.,,"I would call the parameter to this function either ""empty"" or ""no_trades"" (irrelevant of the cli argument naming) - assuming that this function is used by other means too (interactive analysis, for example) that naming will give the parameter a clearer meaning."
+34,"@@ -39,7 +39,7 @@ using namespace eprosima::fastrtps::types;
+ HelloWorldPublisher::HelloWorldPublisher()
+     : mp_participant(nullptr)
+     , mp_publisher(nullptr)
+-    , m_DynType(nullptr)
++    , m_DynType(DynamicType_ptr(nullptr))
+ {
+ }
+ ",Check if the TypeDescriptor and MemberDescriptor includes are necessary,eProsima-Fast-DDS,cpp,3725,Why do we need this change?,The function names are not consistent. The global.SetTraceProvider() should be global.SetTracerProvider() and the global.TraceProvider() should be global.TracerProvider().,,"@openshift/api-review ptal (yes David I know it's you, but also others  )"
+35,"@@ -142,7 +142,7 @@ void PairLubricate::compute(int eflag, int vflag)
+     Ef[2][2] = h_rate[2]/domain->zprd;
+     Ef[0][1] = Ef[1][0] = 0.5 * h_rate[5]/domain->yprd;
+     Ef[0][2] = Ef[2][0] = 0.5 * h_rate[4]/domain->zprd;
+-    Ef[1][2] = Ef[2][1] = 0.5 * h_rate[3]/domain->zprd;
++    Ef[1][2] = Ef[2][1] = 0.5 * h_rate[3]/domain->xprd;
+ 
+     // copy updated velocity/omega/angmom to the ghost particles
+     // no need to do this if not shearing since comm->ghost_velocity is set",Not clear on why this change is correct.,lammps-lammps,cpp,66,Why do we need this?,This is a new field that is not used anywhere in the code. It might be a good idea to remove it if it's not used.,,"It's a better pattern to inject the config in the `@BuildStep` method. This way, we keep track of the dependencies. (our code is not consistent so you might have found occurrences of this pattern)"
+36,"@@ -5425,7 +5425,7 @@ SyncOpBeginRenderPass::SyncOpBeginRenderPass(CMD_TYPE cmd, const SyncValidator &
+             // TODO: Revisit this when all attachment validation is through SyncOps to see if we can discard the plain pointer copy
+             // Note that this a safe to presist as long as shared_attachments is not cleared
+             attachments_.reserve(shared_attachments_.size());
+-            for (const auto attachment : shared_attachments_) {
++            for (const auto &attachment : shared_attachments_) {
+                 attachments_.emplace_back(attachment.get());
+             }
+         }","@sfricke-samsung -- thanks. saves a few atomic ops which is always good :) The TODO is there to track that this object is storing *both* vectors of shared_ptr and plain pointers to the same data. The shared are to ensure scope, and the plain are for backwards compatibility with existing code that consumed a plain pointer vector (and some code that still does). That should be cleaned up.",KhronosGroup-Vulkan-ValidationLayers,cpp,2039,Why did you change this?,"This is a bit confusing. It seems like you're looking for any element, not all of them.",,also `True` is an alias for `'INFO'` and `False` is an alias for `'WARNING'`
+37,"@@ -6,6 +6,17 @@
+ 
+ C015_queue_element::C015_queue_element() {}
+ 
++C015_queue_element::C015_queue_element(C015_queue_element&& other)
++  : idx(other.idx), _timestamp(other._timestamp), TaskIndex(other.TaskIndex)
++  , controller_idx(other.controller_idx), valuesSent(other.valuesSent)
++  , valueCount(other.valueCount)
++{
++  for (byte i = 0; i < VARS_PER_TASK; ++i) {
++    txt[i]  = std::move(other.txt[i]);
++    vPin[i] = other.vPin[i];
++  }
++}
++
+ C015_queue_element::C015_queue_element(const struct EventStruct *event, byte value_count) :
+   idx(event->idx),
+   TaskIndex(event->TaskIndex),","ref. above, this also can be omitted in case `txt = std::move(other.txt);` could work (or copy), consider `std::array<String, VARS_PER_TASK>;`? or a custom object implementing `Object& operator=(Object&&) noexcept;'",letscontrolit-ESPEasy,cpp,6046,Why do we need to warn here?,"This is a good place to use logging instead of returning an error response. It's a bit more verbose but it's more flexible in the long run.
+
+Also, you can remove the errResponseJSON and err variables as they're not being used.
+Lastly, you can remove the utils.RequestTypeContainerMetadata as it's not being used.",,"This is necessary because `TimeConversions` converts to `java.time` now? Maybe we need to consider adding support for `java.time` in `AvroSchemaProvider` now (not for this PR, of course)"
+38,"@@ -144,14 +144,14 @@ void test3() {
+     ExplicitBitVect bv(2048);
+     AvalonTools::getAvalonFP(""c1cocc1"", true, bv, 2048, false, true, 0x006FFF);
+     BOOST_LOG(rdInfoLog) << ""c1cocc1 "" << bv.getNumOnBits() << std::endl;
+-    TEST_ASSERT(bv.getNumOnBits() == 53);
++    TEST_ASSERT(bv.getNumOnBits() == 48);
+   }
+   {
+     ExplicitBitVect bv(2048);
+     AvalonTools::getAvalonFP(""C1=COC=C1"", true, bv, 2048, false, true,
+                              0x006FFF);
+     BOOST_LOG(rdInfoLog) << ""C1=COC=C1 "" << bv.getNumOnBits() << std::endl;
+-    TEST_ASSERT(bv.getNumOnBits() == 53);
++    TEST_ASSERT(bv.getNumOnBits() == 48);
+   }
+ 
+   BOOST_LOG(rdInfoLog) << ""done"" << std::endl;",I believe that all the changes in this file are not valid for v1.2 of the Avalon toolkit.,rdkit-rdkit,cpp,4707,Extra empty line detected at method body end.,"The `opts` parameter is not used in the method. It might be better to remove it.
+
+The `localize` option is not used in the method. It might be better to remove it.
+The `serializer` parameter is not used in the method. It might be better to remove it.
+The method name `normalized_key` is not descriptive. It might be better to rename it to something more descriptive.
+The method is not using the `opts` parameter. It might be better to remove it.
+The method is not using the `serializer` parameter. It might be better to remove it.
+The method is not using the `serializer` parameter. It might be better to",,do we still need this fix?
+39,"@@ -229,6 +229,16 @@ bool Mob::CastSpell(uint16 spell_id, uint16 target_id, CastingSlot slot,
+ 		return false;
+ 	}
+ 
++	if (IsEffectInSpell(spell_id, SE_Charm) && !PassCharmTargetRestriction(entity_list.GetMobID(target_id))) {
++		if (IsClient()) {
++			CastToClient()->SendSpellBarEnable(spell_id);
++		}
++		if (casting_spell_id && IsNPC()) {
++			CastToNPC()->AI_Event_SpellCastFinished(false, static_cast<uint16>(casting_spell_slot));
++		}
++		return false;
++	}
++
+ 	if (HasActiveSong() && IsBardSong(spell_id)) {
+ 		LogSpells(""Casting a new song while singing a song. Killing old song [{}]"", bardsong);
+ 		//Note: this does NOT tell the client","We don't need to cast to client here. (well, from spell gem not AA etc) We should also make sure the charm is a casted spell before calling SendSpellBarEnable.",EQEmu-Server,cpp,1987,Why do we need this change?,"The defer udpConn.Close() should be moved to the end of the function, after the for loop. This way, the connection is closed only when the function ends, not when the error occurs.
+
+The function should also return the error if it occurs, so that the caller can handle it appropriately.
+Here is the corrected code:
+```go
+func startDnsServer() error {
+	laddr := &net.UDPAddr{
+		IP:   net.ParseIP(""127.0.0.1""),
+		Port: 53,
+	}
+	udpConn, err := net.ListenUDP(""udp"", laddr)
+	if err!= nil {
+		klog.Errorf(""Dns server Start error : %s"", err)
+		return err
+	defer udpConn.Close()
+	dnsConn = udpConn
+	for {
+		req := make([]byte, bufSize)
+		//...
+}
+```",,"I'm not sure how will application use this 'last_write', can it tolerate the inconsistency of 'last_write epoch' and 'last write' caused by PMDK transaction abort (or reboot before vo_max_write being flushed)?"
+40,"@@ -6316,7 +6316,8 @@ Lng32 SQL_EXEC_DeleteHbaseJNI()
+       threadContext->incrNumOfCliCalls();
+ 
+       HBaseClient_JNI::deleteInstance();
+-      HiveClient_JNI::deleteInstance();
++      // The Hive client persists across connections
++      // HiveClient_JNI::deleteInstance();
+    }
+    catch(...)
+    {",Is there any security issue here? If we integrate with Hive security (and I don't know if we have or not) is there some notion of re-authentication at connection time?,apache-trafodion,cpp,2816,Why do we need to set the metrics provider here?,This is a good addition to the code. It provides a way to monitor the performance of the mounter.,,please do `from letsencrypt import configuration`
+41,"@@ -4199,7 +4199,15 @@ void EntityList::QuestJournalledSayClose(Mob *sender, float dist, const char *mo
+ 	buf.WriteInt32(0); // location, client doesn't seem to do anything with this
+ 	buf.WriteInt32(0);
+ 	buf.WriteInt32(0);
+-	buf.WriteString(message);
++
++	// auto inject saylinks (say)
++	if (RuleB(Chat, AutoInjectSaylinksToSay)) {
++		std::string new_message = EQ::SayLinkEngine::InjectSaylinksIfNotExist(message);
++		buf.WriteString(new_message.c_str());
++	}
++	else {
++		buf.WriteString(message);
++	}
+ 
+ 	auto outapp = new EQApplicationPacket(OP_SpecialMesg, buf);
+ ",`c_str()` is not needed.,EQEmu-Server,cpp,4674,I think this should be `CDATA` instead of `CDATA`,"The CDATA section is not necessary here. The CDATA section is used to escape special characters in XML. In this case, the special characters are already escaped, so the CDATA section is not needed.",,Why are you using the `float` type here? What prevents you from using the `uint32` type
+42,"@@ -25,9 +25,10 @@ ExecutionEngine::~ExecutionEngine() {
+ 
+ Status ExecutionEngine::init(std::shared_ptr<folly::IOThreadPoolExecutor> ioExecutor) {
+     auto addrs = network::NetworkUtils::toHosts(FLAGS_meta_server_addrs);
+-    if (!addrs.ok()) {
++    if (!addrs.ok() || addrs.value().empty()) {
+         return addrs.status();
+     }
++
+     metaClient_ = std::make_unique<meta::MetaClient>(ioExecutor, std::move(addrs.value()));
+     metaClient_->init();
+ ","If FLAGS_meta_server_addrs is not empty, in which case ""toHosts"" return empty array?",vesoft-inc-nebula,cpp,1099,Please don't use wildcard imports.,The imports are not needed. The code is already using the classes from the java.io package.,,rubygems should not be required here. rubygems is required by default in MarkUs.
+43,"@@ -3277,7 +3277,7 @@ bool CoreChecks::PreCallValidateGetQueryPoolResults(VkDevice device, VkQueryPool
+                                                     VkQueryResultFlags flags) const {
+     if (disabled.query_validation) return false;
+     bool skip = false;
+-    skip |= ValidateQueryPoolStride(""VUID-vkGetQueryPoolResults-flags-00814"", ""VUID-vkGetQueryPoolResults-flags-00815"", stride,
++    skip |= ValidateQueryPoolStride(""VUID-vkGetQueryPoolResults-flags-02827"", ""VUID-vkGetQueryPoolResults-flags-00815"", stride,
+                                     ""dataSize"", dataSize, flags);
+     skip |= ValidateGetQueryPoolResultsFlags(queryPool, flags);
+     skip |= ValidateGetQueryPoolResultsQueries(queryPool, firstQuery, queryCount);","The VUIDs in this area are not great, but I think `ValidateQueryPoolStride` should probably be skipped if the query pool was created with type `VK_QUERY_TYPE_PERFORMANCE_QUERY`. VUID-02828 might be a better fit, but again, the existing VUIDs step on each other so it requires a bit of interpretation.",KhronosGroup-Vulkan-ValidationLayers,cpp,988,`player->getVocation()->getId() != VOCATION_NONE ? 0x01 : 0x00; // prey data`,"This is a bit of a mess. It seems like the code is trying to send a lot of data to the client, but it's not clear what the data is supposed to represent. It's also not clear why the prey data is only sent if the client version is 1100 or later.",,is a public setter useful? Maybe if this bound?
+44,"@@ -352,6 +352,9 @@ def qt_message_handler(msg_type, context, msg):
+         # may not be available on the system
+         ""QSslSocket: cannot resolve SSLv3_client_method"",
+         ""QSslSocket: cannot resolve SSLv3_server_method"",
++        # When enabling debugging with QtWebEngine
++        ""Remote debugging server started successfully. Try pointing a ""
++            ""Chromium-based browser to "",
+     ]
+     if sys.platform == 'darwin':
+         suppressed_msgs += [","You somehow got a change from `master` into your branch again, in e6d2167085688264e5ee6a81cfd2a7a8f10ded13. While it's not something terribly bad (as it will be fine after merging), it's kind of confusing, and I have no idea how it happens :laughing: Are you trying to update changes from `master` while working on your branch somehow? How do you do that?",qutebrowser-qutebrowser,py,5569,This should be reverted.,You can remove this as it's not used in the code.,,Might want to sleep before logging the retry so anyone tailing the log wont think it's retrying when it actually sleeping. I'll have to rely on you judgement as to whether the random sleep time makes sense.
+45,"@@ -77,6 +77,7 @@ def _launch_local_catalog():
+     env = dict(REGISTRY_URL=""http://localhost:5000"",
+                S3_PROXY_URL=open_config[""s3Proxy""],
+                ALWAYS_REQUIRE_AUTH=""false"",
++               NO_DOWNLOAD=""false"",
+                CATALOG_MODE=""LOCAL"",
+                SSO_AUTH=""DISABLED"",
+                PASSWORD_AUTH=""ENABLED"",",Since this is a dict don't you want `False` or do we clean that up elsewhere?,quiltdata-quilt,py,1479,Please remove this line.,The comment is misleading. The file is not included in the original code. It should be removed.,,put the fname at the top of the file and use os.path.join so tests can run on windows... some day...
+46,"@@ -284,7 +284,6 @@ function getDefaultService() {
+ Options.prototype.CAPABILITY_KEY = 'goog:chromeOptions'
+ Options.prototype.BROWSER_NAME_VALUE = Browser.CHROME
+ Driver.getDefaultService = getDefaultService
+-Driver.prototype.VENDOR_COMMAND_PREFIX = 'goog'
+ 
+ // PUBLIC API
+ exports.Driver = Driver",The vendor prefix is still being used on Chromium based browsers like Edge Chromium and Chrome. Did you mean to remove this?,SeleniumHQ-selenium,py,5282,Why do we need this change?,"The function name is misleading. It's not creating a service account, it's creating a K8s ServiceAccount object. The name of the service account should be the same as the one used in the GCP project.",,is this necessary? why not just `url = $sce.valueOf(origUrl);`
+47,"@@ -1,10 +1,12 @@
++from __future__ import unicode_literals
++
+ import numpy as np
+ import param
+ 
+ from ..core import (HoloMap, DynamicMap, CompositeOverlay, Layout,
+                     GridSpace, NdLayout, Store)
+ from ..core.util import (match_spec, is_number, wrap_tuple,
+-                         get_overlay_spec, unique_iterator)
++                         get_overlay_spec, unique_iterator, safe_unicode)
+ 
+ 
+ def displayable(obj):",Not sure how this import relates to the PR but seems like a good idea anyway...,holoviz-holoviews,py,5088,`has_xcb_errors` -> `has_xcb_errors`,"You can remove these now given we have an explicit check earlier in layoutCallback
+
+### Summary
+The code changes are mostly correct and follow the best practices. However, there are a few improvements that can be made:
+1. The `evp_md_from_dispatch` function should be NULL checked for `md`.
+2. The `SSL_SRP_CTX_init` function should be memset() of `srp_ctx`.
+3. The `AmpA4A` class should remove the `#ifdef` checks for `WITH_XCB_ERRORS` and `HAS_EXECINFO`.",,"This is still not right. You have to `continue;` or else line 115 will have `item == null`, which will either result in `key.call` throwing a `NullPointerException` (if it does not accept null values) or `loadChildren` returning a map with unexpected null values (if the function silently accepts them)."
+48,"@@ -626,6 +626,8 @@ class OptionsManagerMixIn(object):
+             config_file = self.config_file
+         if config_file is not None:
+             config_file = os.path.expanduser(config_file)
++            if not os.path.exists(config_file):
++                raise IOError(""The config file {:s} doesn't exist!"".format(config_file))
+ 
+         use_config_file = config_file and os.path.exists(config_file)
+         if use_config_file:",You don't need af ormat specified here.,PyCQA-pylint,py,8779,nit: `pendingNumDocs` -> `numberOfPendingDocs`,This method is not used in the codebase. It's a good idea to remove it.,,"I do no think this previous code compiled.. ""foo - bar"" is output for identifier ""foo-bar"". Ouch. The reason it passed compile check is that compile check was not deeply compiling ( -v all)."
+49,"@@ -78,6 +78,8 @@ def autorun_get_interactive_session(cmds, **kargs):
+             self.s = """"
+         def write(self, x):
+             self.s += x
++        def flush(self):
++            pass
+             
+     sw = StringWriter()
+     sstdout,sstderr = sys.stdout,sys.stderr","This is required, otherwise multiprocessing will (for some reason) crash",secdev-scapy,py,4033,Why do we need these?,"This is a good addition to the code base. It will help in debugging and will make the code more robust.
+
+The code change is adding two new exceptions: _NumCatgoriesNotSpecified and _UnknownOutput. These exceptions will be raised when the number of categories is not specified or when an unknown output is encountered, respectively. This will help in debugging and will make the code more robust.",,this is just a precaution regarding a case where path might be empty (`bucket/`) but the split still succeeds. Another replacement might be `if '/' not in entry.rstrip('/'): ...` though the code above made more sense to me
+50,"@@ -106,7 +106,10 @@ def dummy_cert(privkey, cacert, commonname, sans, organization):
+     cert.gmtime_adj_notBefore(-3600 * 48)
+     cert.gmtime_adj_notAfter(DEFAULT_EXP_DUMMY_CERT)
+     cert.set_issuer(cacert.get_subject())
+-    if commonname is not None and len(commonname) < 64:
++    is_valid_commonname = (
++        commonname is not None and len(commonname) < 64
++    )
++    if is_valid_commonname:
+         cert.get_subject().CN = commonname
+     if organization is not None:
+         cert.get_subject().O = organization","`<= 64`? I just picked up what you said in #3981 (""the CN field is limited to 64 characters"") but maybe there's something I don't know where the 64th character is needed (trailing dot or whatever?) Also this sounds like something that could be beautifully unit tested. Sorry for bugging you :grin:",mitmproxy-mitmproxy,py,675,Shouldn't this be `!item.getType().isRepeated()`?,"This is a bit of a red flag. It seems like the code is trying to handle both a non-repeated and a repeated field, which is not a good practice. It would be better to handle these cases separately.",,"The terraformer images are relatively large (200+ MBs). Just to be on the safe side, should we use a bit higher timeout, for example 5 minutes?"
+51,"@@ -59,7 +59,9 @@ class ClusterParamsTest(TestCaseBase):
+       self.assertGreaterEqual(encodersDict['c1']['resolution'], 0.001,
+                               ""Resolution is too low"")
+ 
+-
++    # Ensure incorrect tmImplementation throws exception
++    with self.assertRaises(ValueError):
++        getScalarMetricWithTimeOfDayAnomalyParams([0], tmImplementation="""")
+ 
+ if __name__ == '__main__':
+   unittest.main()",You should also have a test that calls it with tm_cpp and make sure it returns the correct JSON file.,numenta-nupic,py,6643,Why do we need to wait here?,"This is a good point to check if the informer cache is synced before starting the flow aggregator. If the cache is not synced, it might lead to inconsistencies in the data.",,"to check my understanding here, the reason we are using `stored_url_for_user` and accessing directly is because `after_sign_in_path_for` would delete the value?"
+52,"@@ -235,11 +235,16 @@ echo ""echo '{export_forseti_vars}' >> /etc/profile.d/forseti_environment.sh"" | s
+ gsutil cp gs://{scanner_bucket}/configs/forseti_conf_server.yaml {forseti_server_conf}
+ gsutil cp -r gs://{scanner_bucket}/rules {forseti_home}/
+ 
++# Download the Newest Config Validator constraints from GCS
++rm -rf /home/ubuntu/config_validator_constraints
++gsutil cp -r gs://{scanner_bucket}/config_validator_constraints /home/ubuntu/
++
+ # Start Forseti service depends on vars defined above.
+ bash ./install/gcp/scripts/initialize_forseti_services.sh
+ 
+ echo ""Starting services.""
+ systemctl start cloudsqlproxy
++systemctl start config-validator
+ sleep 5
+ 
+ echo ""Attempting to update database schema, if necessary.""",Will this always be started up as default? Is there any impact to the VM in terms of load and memory usage?,forseti-security-forseti-security,py,7858,nit: `GetUriTagValueFromRequestUri` -> `GetUriTagValueFromRequest`,"This method is not used anywhere in the codebase. It's a good idea to remove it.
+
+The method `GetUriTagValueFromRequestUri` is a bit confusing. It's not clear what it does. It seems to be concatenating the scheme, authority, path, query, and fragment of a URI into a single string. It's not clear why this is necessary or what it's intended to be used for. It might be better to rename this method to something more descriptive.",,Can you disable useEvalMap with debugEvalScriptContext
+53,"@@ -62,6 +62,9 @@ class kubernetes(luigi.Config):
+     kubernetes_namespace = luigi.OptionalParameter(
+         default=None,
+         description=""K8s namespace in which the job will run"")
++    max_retrials_to_get_pods = luigi.IntParameter(
++        default=0,
++        description=""Max retrials to get pods' informations"")
+ 
+ 
+ class KubernetesJobTask(luigi.Task):","`retrials` isn't the word you intend. I think you mean `retries` and to that end, can the var name just be `max_retries`?",spotify-luigi,py,1908,nit: `Transports returns the transports that used by this outbound.`,"This is a good addition to the interface, but it's not clear what the return type should be. It's not clear what the transports are, or what the purpose of this method is. It's also not clear what the Dispatcher is, or how it's used.
+
+It's also not clear what the purpose of this method is. It's not clear what the return type should be. It's not clear what the transports are, or what the purpose of this method is. It's also not clear what the Dispatcher is, or how it's used.",,Shouldn't this be t.Error(spew.Sdump(actions[0])) (and similar below ?)
+54,"@@ -1,7 +1,7 @@
+ # -*- coding: UTF-8 -*-
+ #core.py
+ #A part of NonVisual Desktop Access (NVDA)
+-#Copyright (C) 2006-2016 NV Access Limited, Aleksey Sadovoy, Christopher Toth, Joseph Lee, Peter Vágner
++#Copyright (C) 2006-2016 NV Access Limited, Aleksey Sadovoy, Christopher Toth, Joseph Lee, Peter Vágner, Derek Riemer
+ #This file is covered by the GNU General Public License.
+ #See the file COPYING for more details.
+ ",2016 should be 2017.,nvaccess-nvda,py,5529,Shouldn't this be `if len(parts) == 3`?,"This is a bit of a code review, but it seems like you're trying to split a string by commas, and then assign the second and third parts of the split string to a map. It seems like you're doing this for each line of the file, but you're not checking if the split string has at least two parts. This could potentially cause an out of range error if the line doesn't have at least two parts.
+
+You could add a check to make sure that the split string has at least two parts before trying to assign the second and third parts to the map. This would look something like this:
+```go
+for s.Scan() {
+	parts := strings.Split(s.Text(), "":"")
+	if len(parts) < 2 {
+		continue
+	}
+	...
+}
+```
+This will skip any lines that don't have at least two parts, which should prevent the out of range error.",,Why was this removed?
+55,"@@ -0,0 +1,17 @@
++#include <iostream>
++#include <conio.h>
++using namespace std;
++
++int main()
++{	
++	int year;
++	cout<<""Enter year to check\n"";
++	cin>>year;
++	if((year%4==0 && year%100!=0) || year%400==0){
++		cout<<""leap year.\n"";
++	}
++	else{
++		cout<<"" Not leap year.\n"";
++	}
++	return 0;
++}",use function to check it. - don't do everything in main,shoaibrayeen-Programmers-Community,c,937,Why do we need to skip this if `Puppet::Pops::Types::PSensitiveType::Sensitive` isn't defined?,"This is a bit of a guess, but it seems like this code is trying to unwrap sensitive arguments from Puppet, which is a Ruby library. If Puppet isn't loaded, it should just return the arguments as is.
+
+If this is the case, you could add a check to see if Puppet is loaded before trying to unwrap the arguments. If Puppet isn't loaded, you could just return the arguments as is. This would prevent the code from breaking if Puppet isn't loaded.",,You may want to check for a concrete version (e.g. avoid `@5:`)
+56,"@@ -62,6 +62,12 @@ static void setup_globals(mrb_state *mrb)
+ 
+     h2o_mruby_eval_expr(mrb, ""$LOAD_PATH << \""#{$H2O_ROOT}/share/h2o/mruby\"""");
+     h2o_mruby_assert(mrb);
++
++    /* require and include built-in libraries */
++    h2o_mruby_eval_expr(mrb, ""require \""h2o.rb\""\n""
++                             ""require \""acl.rb\""\n""
++                             ""include H2O::ACL\n"");
++    h2o_mruby_assert(mrb);
+ }
+ 
+ mrb_value h2o_mruby_to_str(mrb_state *mrb, mrb_value v)",Just one more thing... How about doing all of the following? 1. renaming h2o.rb to bootstrap.rb 2. require and include the acl code _from_ bootstrap.rb,h2o-h2o,c,6554,nit: `shouldShowOnboarding` -> `shouldShowOnboarding`,"This method seems to be a bit misleading. It's not actually changing the auto-flattr settings, but rather it's just checking if the user has seen the onboarding for a specific location. It's not clear what the purpose of this method is. It might be better to rename it to something like ""hasSeenOnboardingForLocation"" or ""hasSeenOnboardingForLocation"".",,We don't do field injection anymore -> can you do a setter instead?
+57,"@@ -22,6 +22,7 @@ from libcodechecker.logger import add_verbose_arguments
+ from libcodechecker.logger import LoggerFactory
+ 
+ LOG = LoggerFactory.get_new_logger('ANALYZE')
++CTU_FUNC_MAP_CMD = 'clang-func-mapping'
+ 
+ 
+ class OrderedCheckersAction(argparse.Action):","This default variable should be moved into a config variable, created by `package_context`, and read from `config\package_layout.json`.",Ericsson-codechecker,c,3575,nit: `platformPkgManagerTuple` -> `platformPkgManager`,This is a good addition to the code. It makes the code more readable and easier to understand. It also makes the code more maintainable as it makes it easier to add new platforms and package managers in the future.,,"A default property should not depend on a `user.name`. At the moment of review, I don't even know what value is returned at this point. A system property `user.name`, which is part of the Zeppelin startup parameters, is unknown to me."
+58,"@@ -17,6 +17,7 @@ package main
+ import (
+ 	. ""github.com/onsi/ginkgo""
+ 	. ""github.com/onsi/gomega""
++
+ 	""github.com/projectcalico/felix/k8sfv/leastsquares""
+ )
+ ","No issue here, but what tool are you running to put these imports into the preferred organization? I have configuration to run `goimports` whenever I save a file, but it appears that that is not quite sufficient.",projectcalico-felix,c,9348,Why is this needed?,"This is a bit of a strange use of monkeypatching, but it seems to be a workaround for a bug in PyQt. The width of the tab bar is not being set correctly, so we're setting it manually. This is a bit of a hack and may not work in all cases, so it might be better to find a more permanent solution to the problem.",,"Same problem here, this old, deprecated method should take FQN of old `org.infinispan.client.hotrod.impl.transport.tcp.FailoverRequestBalancingStrategy`"
+59,"@@ -929,3 +929,17 @@ void wlr_surface_send_leave(struct wlr_surface *surface,
+ 		}
+ 	}
+ }
++
++static inline int64_t timespec_to_msec(const struct timespec *a) {
++	return (int64_t)a->tv_sec * 1000 + a->tv_nsec / 1000000;
++}
++
++void wlr_surface_send_frame_done(struct wlr_surface *surface,
++		const struct timespec *when) {
++	struct wlr_frame_callback *cb, *cnext;
++	wl_list_for_each_safe(cb, cnext, &surface->current->frame_callback_list,
++			link) {
++		wl_callback_send_done(cb->resource, timespec_to_msec(when));
++		wl_resource_destroy(cb->resource);
++	}
++}",We have this functions in a couple of places. It should probably live in util or something.,swaywm-wlroots,c,7165,Why was this removed?,You can remove the reload call as it's not necessary. The changes are already saved to the database.,,"Makes sense, due to the added the conflicts. But shouldn't this be `when='@9.0:+adol-c+trilinos'`? Also, could we please put this further down the list (~line 199 with the other trilinos depends)? That way this list remains (nearly) alphabetically ordered."
+60,"@@ -139,6 +139,8 @@ static const char* generate_multi_dot_name(ast_t* ast, ast_t** def_found) {
+ 
+     default:
+     {
++      if (def == NULL)
++        return stringtab("""");
+       pony_assert(0);
+     }
+   }","@jemc , this is one change needed in `generate_multi_dot_name`. I believe this * will do no harm to working pony code: The new code was added in a place where it is throwing an assert. So no working code will get affected. * is in sync with the rest of the method: if the parent ast node has null `data`, we are supposed to return empty string. That is possible when we have expressions wrapped in braces.",ponylang-ponyc,c,7091,`self.timestamp = timezone.now()`,This is a good idea to initialize the timestamp as soon as possible. It will prevent any potential issues with the timestamp not being set when it's needed.,,shall we do whitelist instead?
+61,"@@ -3719,9 +3719,11 @@ dr_create_client_thread(void (*func)(void *param), void *arg)
+ #        endif
+     LOG(THREAD, LOG_ALL, 1, ""dr_create_client_thread xsp="" PFX "" dstack="" PFX ""\n"", xsp,
+         get_clone_record_dstack(crec));
++    os_clone_pre(dcontext);
+     thread_id_t newpid =
+         dynamorio_clone(flags, xsp, NULL, IF_X86_ELSE(IF_X64_ELSE(NULL, &desc), NULL),
+                         NULL, client_thread_run);
++    os_clone_post(dcontext);
+     /* i#501 switch to app's tls before creating client thread */
+     if (IF_CLIENT_INTERFACE_ELSE(INTERNAL_OPTION(private_loader), false))
+         os_switch_lib_tls(dcontext, false /*to dr*/);","But we're already doing os_switch_lib_tls to app a few lines above, so there is now redundancy we should alleviate.",DynamoRIO-dynamorio,c,9794,Shouldn't this be `string[]`?,"The level should be a string, not a number. It's not clear what the number corresponds to, but it's not clear what the levels should be. It's better to use a string to represent the level.",,@lmazuel @xingwu1 - did we change this or is this just a change from the generator?
+62,"@@ -43,6 +43,7 @@
+ #endif
+ 
+ /* List of instrumentation functions. */
++#ifdef X86
+ #define FUNCTIONS() \
+         FUNCTION(empty) \
+         FUNCTION(empty_1arg) \","Ditto, here and below",DynamoRIO-dynamorio,c,4238,This import is unused.,This import is not used in the codebase. It's better to remove it to keep the code clean.,,I would save this into a variable and use it in the construction of `args` and in the `assert`. It may also make more sense to move the `assert` above the `args` declaration. Normally we assert as close as possible to the place where something could've failed.
+63,"@@ -3,15 +3,17 @@
+ #endif
+ #include <platform.h>
+ 
+-#if defined(PLATFORM_IS_LINUX) || defined(PLATFORM_IS_FREEBSD)
++#if defined(PLATFORM_IS_LINUX) || defined(PLATFORM_IS_BSD)
+ #include <sched.h>
+ #include <sys/time.h>
+ #include <sys/resource.h>
+ #include <sys/mman.h>
+ #endif
+ 
+-#if defined(PLATFORM_IS_FREEBSD)
++#if defined(PLATFORM_IS_BSD)
+ #include <pthread_np.h>
++#endif
++#if defined(PLATFORM_IS_FREEBSD)
+ #include <sys/cpuset.h>
+ typedef cpuset_t cpu_set_t;
+ #endif",i noted that we are inconsistent with when we indent includes (see atomics.h which is rather different) and for example cpu.c which is also different. we seem to have 3 styles.,ponylang-ponyc,c,6731,">ThreadAgnostic = 2 | ThreadSafe [](start = 12, length = 31) nit: `ThreadAgnostic | ThreadSafe`","This is a good addition to the enum, it allows for more granular control over thread safety.",,Is this rename intentional?
+64,"@@ -1749,6 +1749,14 @@ translate_from_synchall_to_dispatch(thread_record_t *tr, thread_synch_state_t sy
+                 arch_mcontext_reset_stolen_reg(dcontext, mc);
+             }
+         });
++        IF_AARCHXX({
++            // XXX i#4495: Consider saving stolen reg's application value.
++            set_stolen_reg_val(mc, (reg_t)os_get_dr_tls_base(dcontext));
++            // XXX: This path is tested by linux.thread-reset and linux.clone-reset.
++            // We just haven't run those on ARM yet.
++            IF_ARM(ASSERT_NOT_TESTED());
++        });
++
+         /* We send all threads, regardless of whether was in DR or not, to
+          * re-interp from translated cxt, to avoid having to handle stale
+          * local state problems if we simply resumed.","Include the key word ""translated"". Otherwise the reader will find this confusing.",DynamoRIO-dynamorio,c,2142,Indent the first parameter one step more than checkout.,"The instance variable @checkout is not used anywhere in the method receipt. It's better to use the parameter directly. Also, the method receipt is not using the instance variable @plan, it's using the parameter checkout.plan. It's better to use the parameter directly.",,"This will impact anyone that has a custom query type as an extension. However, I don't believe anyone does. In any case, I think we should bring this up in the user groups to see if these changes will impact anyone in the community."
+65,"@@ -26,7 +26,7 @@
+ 
+ #ifdef HAVE_CONFIG_H
+ #include <config.h>
+-#endif // HAVE_CONFIG_H
++#endif // HAVE_CONFIG_Hrm
+ 
+ #include <glob.h>
+ #include <stdio.h>","Remove the ""rm"" from the end of ""HAVE_CONFIG_H""",OPAE-opae-sdk,c,7917,Shouldn't this be `time.Duration(cr.Expires) * time.Millisecond`?,"This is a bit of a guess, but it seems like the intention is to add the current time to the expiry time, not to multiply it by 1000. If that's the case, you can remove the time.Duration(cr.Expires) * time.Millisecond part.",,"Not sure if we want to use the word ""Local"" in this volume name."
+66,"@@ -104,9 +104,9 @@ module PurchasesHelper
+ 
+   def new_plan_link(plan)
+     link_to(
+-       I18n.t('subscriptions.choose_plan_html', plan_name: plan.name).html_safe,
+-       new_individual_plan_purchase_path(plan),
+-       class: 'button'
++      I18n.t('subscriptions.choose_plan_html', plan_name: plan.name).html_safe,
++      new_individual_plan_purchase_path(plan),
++      class: 'button'
+     )
+   end
+ end",~~Indent 2 lines above~~ Disregard. My fault,thoughtbot-upcase,rb,656,Why this change?,This import is not used in the codebase. It's better to remove it.,,Did this not work without the `A`? Usually it's not required.
+67,"@@ -23,6 +23,6 @@ class Api::V1::ExercisesController < ApiController
+   end
+ 
+   def exercise_parameters
+-    params.require(:exercise).permit(:edit_url, :summary, :title, :url)
++    params.require(:exercise).permit(:edit_url, :summary, :name, :url)
+   end
+ end",This will need to be updated in the upcase-exercises repo as well.,thoughtbot-upcase,rb,330,Why do we need this change?,The method name is misleading. It should be isMining() instead of isRunning().,,"This added newline makes it ever so slightly more complex to review the diff, and is not strictly needed."
+68,"@@ -209,12 +209,5 @@ module Bolt
+         Bolt::Logger.warn(""missing_project_name"", message)
+       end
+     end
+-
+-    def check_deprecated_file
+-      if (@path + 'project.yaml').file?
+-        msg = ""Project configuration file 'project.yaml' is deprecated; use 'bolt-project.yaml' instead.""
+-        Bolt::Logger.warn(""project_yaml"", msg)
+-      end
+-    end
+   end
+ end",Can this get moved to `Bolt::Project#validate`?,puppetlabs-bolt,rb,6788,`tab.tab_id != self._tab_id`?,"This code is checking if the tabbed browser is still open and the tab is still the same. If not, it should not start hinting. This is a good practice to prevent any potential issues.",,typo: `Bucket Types.` -> `Bucket Type.`
+69,"@@ -37,7 +37,7 @@ module RSpec
+           profile.slowest_examples.each do |example|
+             @output.puts ""  #{example.full_description}""
+             @output.puts ""    #{bold(Helpers.format_seconds(example.execution_result.run_time))} "" \
+-                         ""#{bold(""seconds"")} #{format_caller(example.location)}""
++                         ""#{bold('seconds')} #{format_caller(example.location)}""
+           end
+         end
+ ",We're fine with double quotes here. Just for future reference.,rspec-rspec-core,rb,2201,`option.hasAttr('selected')` should be `option.actualNode.selected`,"You can remove this now given we have an explicit check earlier in layoutCallback
+
+@ Code Change
+@@ -106,7 +106,7 @@ function nativeSelectValue(node) {
+   }
+ 
+   const options = querySelectorAll(vNode, 'option');
+-  const selectedOptions = options.filter(option => option.hasAttr('selected'));
++  const selectedOptions = options.filter(option => option.actualNode.selected);
+   // browser automatically selects the first option
+   if (!selectedOptions.length) {
+@@ Review
+@@ -106,7 +106,7 @",,is this path the one from the SP? have we checked for CSP issues with this?
+70,"@@ -45,6 +45,10 @@ module Travis
+   module Build
+     class Script
+       TEMPLATES_PATH = File.expand_path('../templates', __FILE__)
++      INTERNAL_RUBY_REGEX = ENV.fetch(
++        'TRAVIS_INTERNAL_RUBY_REGEX',
++        'ruby-(2\.[0-2]\.[0-9]|1\.9\.3)'
++      ).untaint
+       DEFAULTS = {}
+ 
+       class << self",@henrikhodne We are lazily skipping `jruby-*` here (assuming that JRuby all of a sudden start using these version numbers).,travis-ci-travis-build,rb,7789,Why is this public?,"The name of the property is misleading. It's not a filter for requests, but a filter function that takes an HttpContext and returns a boolean. The property name should be changed to reflect this.
+
+The property is not used in the code, so it can be removed.",,Should we also delete the `PythonVersion` member from from `ProgramTestOptions`?
+71,"@@ -12,14 +12,14 @@ module RSpec
+ 
+       def initialize
+         @full_backtrace = false
+-        @exclusion_patterns = [] << Regexp.union(
++        @system_exclusion_patterns = [] << Regexp.union(
+           *[""/lib\d*/ruby/"",
+             ""org/jruby/"",
+             ""bin/"",
+             ""/gems/"",
+             ""lib/rspec/(core|expectations|matchers|mocks)""].
+-          map {|s| Regexp.new(s.gsub(""/"", File::SEPARATOR))}
+-        )
++          map {|s| Regexp.new(s.gsub(""/"", File::SEPARATOR))})
++        @exclusion_patterns = [] + @system_exclusion_patterns
+         @inclusion_patterns = [Regexp.new(Dir.getwd)]
+       end
+ ",The `[] +` seems weird to me. Why is it there?,rspec-rspec-core,rb,2970,I think this should be `RSpec::Backports::Random`,"This is a bit of a mess. It's trying to handle the case where the Random class is not defined, and if it's not defined, it's trying to backport it. This is a bit of a mess and could be cleaned up. It's also not clear what the purpose of this code is. It seems to be trying to handle a situation where the Random class is not defined, but it's not clear what the intended use case is. It would be better to either define the Random class or use a different approach to handle this situation.",,It doesn't seem like the index should be incremented here.
+72,"@@ -14,5 +14,13 @@ feature ""User without a subscription views sample video"" do
+     expect(current_path).to eq(video_path(video))
+     expect(page).to have_css(""h1"", text: video.name)
+     expect(page).not_to have_css("".locked-message"")
++    expect_authed_to_access_event_fired_for(video)
++  end
++
++  def expect_authed_to_access_event_fired_for(video)
++    expect(analytics).to have_tracked(""Authed to Access"").with_properties(
++      video_name: video.name,
++      watchable_name: video.watchable_name,
++    )
+   end
+ end",Put a comma after the last parameter of a multiline method call.,thoughtbot-upcase,rb,697,Shouldn't this be `uint64_t`?,"This is a 64-bit only architecture, so it's better to use int64_t instead of int.
+
+### Summary
+The code changes are correct and they improve the codebase. However, there are some improvements that can be made. For example, using int64_t instead of int for pid, and removing unnecessary comments.",,Why add this flag in 4.x?
+73,"@@ -43,7 +43,12 @@ module Selenium
+       def text
+         @bridge.getAlertText
+       end
++      
++      def authenticate(username, password)
++        @bridge.setAuthentication username: username, password: password
++        accept
++      end
+ 
+     end # Alert
+   end # WebDriver
+-end # Selenium
++end # Selenium",Files should have an extra line at the end of them.,SeleniumHQ-selenium,rb,8736,I don't think you need the `self.send` here.,This code is repetitive and can be simplified by using a loop to iterate,,@ryanemerson is this preventing the Nan problem we've seen?
+74,"@@ -19,6 +19,8 @@ package org.openqa.grid.internal;
+ 
+ import com.google.common.base.Predicate;
+ 
++import com.sun.org.glassfish.gmbal.ManagedObject;
++
+ import net.jcip.annotations.ThreadSafe;
+ 
+ import org.openqa.grid.internal.listeners.Prioritizer;",JMX offers normal APIs for this. I don't think you want the glassfish one.,SeleniumHQ-selenium,rb,2242,Why did you remove the static imports?,The import static is not necessary here.,,"With this, we can remove the `synchronized` keyword. I didn't think an issue through before and introduced this keyword with a static formatter..."
+75,"@@ -39,6 +39,16 @@ describe CommunicartMailer do
+       mail.from.should == ['reply@communicart-stub.com']
+     end
+ 
++   it 'renders the navigator template' do
++      cart.setProp('origin','navigator')
++      cart.stub(:approval_group).and_return(approval_group)
++      approval_group.stub(:approvers).and_return([approver])
++      approver.stub(:approver_comment).and_return([])
++# This is very fragile, it is based on a particular term coming from the navigator teplate.
++# If the template changes, this test will break --- I know of no other way of tesitng this.
++      expect(mail.body.encoded).to match('NAVIGATOR')
++    end
++
+     context 'attaching a csv of the cart activity' do
+       it 'generates csv attachments for an approved cart' do
+         cart.stub(:approval_group).and_return(approval_group)",We can try something like this: response.should render_template(:partial => 'partial_name'),18F-C2,rb,8825,I don't think this should be a classmethod.,"This class is not meant to be instantiated, it's a base class for other analyzer classes. It should be abstract.
+
+The version_compatible method is not implemented in the base class, it should be implemented in the subclasses.
+The construct_config_handler method is not implemented in the base class, it should be implemented in the subclasses.
+The class is not properly documented. It should have a docstring describing its purpose and usage.",,I would handle this things outside of the specific link providers. So the `PageLinkProvider` does only get the `uuids` without the `#` and adding the `#hash` at the end is in the more general service it will in future work for all LinkProviders without the LinkProvider need to take care of the `#` anchors.
+76,"@@ -1,7 +1,7 @@
+ C2::Application.configure do
+   config.action_mailer.preview_path = ""#{Rails.root}/lib/mail_previews""
+   config.action_mailer.register_preview_interceptor :css_inline_styler
+-  config.action_mailer.asset_host = ""http://localhost:5000""
++  config.action_mailer.asset_host = ""http://2c429f18.ngrok.io"" || ""http://localhost:5000""
+   config.action_controller.perform_caching = false
+   config.action_mailer.delivery_method = :letter_opener_web
+   config.active_record.migration_error = :page_load",what is this default about? I am not using ngrok atm so would prefer an env var.,18F-C2,rb,920,why do we need to convert it to string?,This is a good idea to convert the gas price to IOTX unit. It will make the output more readable and understandable.,,Are we generally trying to use D_FREE instead of D_FREE_PTR?
+77,"@@ -95,6 +95,10 @@ func (a *FakeWebAPI) RegisterPiped(ctx context.Context, req *webservice.Register
+ 	}, nil
+ }
+ 
++func (a *FakeWebAPI) EnablePiped(ctx context.Context, req *webservice.EnablePipedRequest) (*webservice.EnablePipedResponse, error) {
++	return nil, status.Error(codes.Unimplemented, """")
++}
++
+ func (a *FakeWebAPI) DisablePiped(ctx context.Context, req *webservice.DisablePipedRequest) (*webservice.DisablePipedResponse, error) {
+ 	return nil, status.Error(codes.Unimplemented, """")
+ }",`ctx` is unused in EnablePiped,pipe-cd-pipe,go,5358,`unset($this->plugins[$this->normalizeIdentifier($id)]);`,This is a good idea to remove the plugin from our internal container. It's a good practice to keep the internal state of the class in sync with the actual state of the system.,,Can be judged directly by result. hasException().
+78,"@@ -434,6 +434,11 @@ type NetworkPolicyPeer struct {
+ 	//  Exact FQDNs, i.e. ""google.com"", ""db-svc.default.svc.cluster.local""
+ 	//  Wildcard expressions, i.e. ""*wayfair.com"".
+ 	FQDN string `json:""fqdn,omitempty""`
++	// Select all Pods with the ServiceAccount matched by this field, as
++	// workloads in AppliedTo/To/From fields.
++	// Cannot be set with any other selector.
++	// +optional
++	ServiceAccounts []ServiceAccount `json:""serviceAccounts,omitempty""`
+ }
+ 
+ type PeerNamespaces struct {","Will we be adding this to `AppliedTo` as well? If not, any reason why not?",antrea-io-antrea,go,3910,Shouldn't this return an error?,"This is a good addition to the cache interface, but it's not implemented yet. You should implement it.
+
+The GetAll() method is not implemented, which is a good practice to follow. It's a good idea to have a method to get all the entries in the cache.
+The PutHash() method is not implemented, which is a good practice to follow. It's a good idea to have a method to put a hash of the key-value pair into the cache.",,Also modify `onDeleteJob` to only take the `URI`
+79,"@@ -40,6 +40,14 @@ func Test_Start(t *testing.T) {
+ 	assert.Equal(t, ""bytecount 1"", mockConnection.LastLine)
+ }
+ 
++func Test_Stop(t *testing.T) {
++	statsRecorder := fakeStatsRecorder{}
++	middleware := NewMiddleware(statsRecorder.record, 1*time.Second)
++	mockConnection := &management.MockConnection{}
++	middleware.Stop(mockConnection)
++	assert.Equal(t, ""bytecount 0"", mockConnection.LastLine)
++}
++
+ func Test_ConsumeLine(t *testing.T) {
+ 	var tests = []struct {
+ 		line                  string",What is the test case here?,mysteriumnetwork-node,go,6454,This should be `STATE_KEY_FIRST_TIME_EMPTY_SUBJECT`,This is a new state variable that is not used anywhere in the code. It might be a typo or a placeholder for a future feature.,,Should be able to remove this second param now.
+80,"@@ -172,9 +172,12 @@ func (g *gen) frame() []byte {
+ 		}
+ 		sort.Strings(imps)
+ 		for _, path := range imps {
+-			// TODO(light): Omit the local package identifier if it matches
+-			// the package name.
+-			fmt.Fprintf(&buf, ""\t%s %q\n"", g.imports[path], path)
++			// Omit the local package identifier if it matches the package name.
++			if g.imports[path] == path {
++				fmt.Fprintf(&buf, ""\t%q\n"", path)
++			} else {
++				fmt.Fprintf(&buf, ""\t%s %q\n"", g.imports[path], path)
++			}
+ 		}
+ 		buf.WriteString("")\n\n"")
+ 	}","While this is commonly correct, the more reliable check is to get the package's identifier from the type checker and check those for equality. The information should be there, just another matter of plumbing it.",google-go-cloud,go,9217,Shouldn't this be `<=`?,"The check for `i < src_len - 2` is unnecessary as the loop will stop when `i` is equal to `src_len`.
+
+The `isxdigit` function is not necessary as `isdigit` and `isalpha` will return `0` for non-hexadecimal characters.
+The `tolower` function is not necessary as the `%` character is case-insensitive.
+The `&&` operator is unnecessary as the `isxdigit` function will return `0` if the character is not a hexadecimal digit.
+The `&&` operator is unnecessary as the `isxdigit` function will return `0` if the character is not",,why does it need to be this way?
+81,"@@ -21,6 +21,7 @@ import (
+ 	""errors""
+ 	""testing""
+ 
++	""github.com/asaskevich/EventBus""
+ 	""github.com/stretchr/testify/assert""
+ 
+ 	""github.com/mysteriumnetwork/node/identity""","What kind of dependency is here, I think we have own implementation of event wo external dependencies",mysteriumnetwork-node,go,5159,Shouldn't this be `return err`?,The return nil is not necessary here. The function will return the error from the f(s.first) call.,,"`implements ...` on new line. Nit pick, but the rule for the line length"
+82,"@@ -67,6 +67,16 @@ func (h TlfHandle) IsReader(user keybase1.UID) bool {
+ 	return ok
+ }
+ 
++// ResolvedReadersMap returns a map of resolved readers from uid to usernames.
++func (h TlfHandle) ResolvedReadersMap() map[keybase1.UID]libkb.NormalizedUsername {
++	return h.resolvedReaders
++}
++
++// ResolvedWritersMap returns a map of resolved writers from uid to usernames.
++func (h TlfHandle) ResolvedWritersMap() map[keybase1.UID]libkb.NormalizedUsername {
++	return h.resolvedWriters
++}
++
+ func (h TlfHandle) unsortedResolvedWriters() []keybase1.UID {
+ 	if len(h.resolvedWriters) == 0 {
+ 		return nil","Can you change this to `ResolvedUsersMap` and build a new map with both readers/writers? That way, we get the nice side effect of not exposing the internal map of the handle, and simplifying the callers a bit.",keybase-kbfs,go,2312,Why do we need this migration?,"This migration is no-op, but it forces the migration mechanism to apply it and thus write the DB schema version info. It's not a good practice to have no-op migrations.
+
+The migration mechanism should be used to apply changes to the database schema, not to write the schema version info. The schema version info should be written by the code that creates the database, not by the migrations.",,Wouldn't this be unnecessary if we modified $is_active so it's never showing as active in dev mode?
+83,"@@ -87,12 +87,18 @@ func (b *clientFactory) SDKClient(c *cli.Context, namespace string) sdkclient.Cl
+ 		hostPort = localHostPort
+ 	}
+ 
++	tlsConfig, err := b.createTLSConfig(c)
++	if err != nil {
++		b.logger.Fatal(""Failed to create SDK client"", zap.Error(err))
++	}
++
+ 	sdkClient, err := sdkclient.NewClient(sdkclient.Options{
+ 		HostPort:  hostPort,
+ 		Namespace: namespace,
+ 		Logger:    log.NewZapAdapter(b.logger),
+ 		ConnectionOptions: sdkclient.ConnectionOptions{
+ 			DisableHealthCheck: true,
++			TLS:                tlsConfig,
+ 		},
+ 	})
+ 	if err != nil {","Nit: ""Failed to configure TLS for SDK client""?",temporalio-temporal,go,5210,Shouldn't this be `expr_objectof`?,"This is a new case, so it needs to be handled.",,"I don't love this, but it seems like something in the test changed to be stricter during the conversion to kwargs"
+84,"@@ -88,7 +88,17 @@ func removeYields(plan *PlanSpec) (*PlanSpec, error) {
+ 			}
+ 
+ 			newRoot := root.Predecessors()[0]
+-			newRoot.RemoveSuccessor(root)
++			newSucc := make([]PlanNode, 0, len(newRoot.Successors()))
++
++			for _, succ := range newRoot.Successors() {
++				newSucc = append(newSucc, succ)
++				if succ == root {
++					continue
++				}
++			}
++
++			newRoot.ClearSuccessors()
++			newRoot.AddSuccessors(newSucc...)
+ 			plan.Replace(root, newRoot)
+ 			plan.Results[name] = newRoot
+ 			continue",Don't you want to place this check before you add `succ` to `newSucc`?,influxdata-flux,go,5037,Why is this empty string?,"The AZs field is not being used in the code, so it can be removed.",,"I don't remember exactly why and it's such a headache, but there was a reason why this condition was so complicated, so really not sure about this simplification."
+85,"@@ -265,7 +265,7 @@ func (p *Builder) writeProgramHeader() {
+ 	p.b.LoadMapFD(R1, uint32(p.stateMapFD)) // R1 = 0 (64-bit immediate)
+ 	p.b.Call(HelperMapLookupElem)           // Call helper
+ 	// Check return value for NULL.
+-	p.b.JumpEqImm64(R0, 0, ""deny"")
++	p.b.JumpEqImm64(R0, 0, ""exit"")
+ 	// Save state pointer in R9.
+ 	p.b.Mov64(R9, R0)
+ 	p.b.LabelNextInsn(""policy"")","Feel like ""exit"" doesn't convey that the packet will be dropped. ""drop-and-exit"" or ""error-exit"" maybe?",projectcalico-felix,go,2950,`offset` should be a `uint64`,"The offset should be of type protocol.ByteCount, not uint64.",,Why are we queueing the working item and get here at all of EnableJitInDebugMode is false? Shouldn't we not queue those instead?
+86,"@@ -60,3 +60,11 @@ func isABuildFile(name string, config *core.Configuration) bool {
+ 	}
+ 	return false
+ }
++
++// Max is an incredibly complicated function, which is presumably why it didn't make it into the Go stdlib
++func Max(x, y int) int {
++	if x < y {
++		return y
++	}
++	return x
++}",There's one for floats but not for ints. The float implementation is non-trivial though which I guess is the argument there.,thought-machine-please,go,9739,Why is this needed?,"The charset is not being used in the code snippet provided. If it's not being used, it might be better to remove it.
+
+The charset is being set to UTF-8 in the code snippet, so it's not necessary to have it as a member variable.
+The charset is being used in the code snippet, but it's not being used in the method. It might be better to remove it from the class if it's not being used.",,"Are you sure we don't need a check to decide which one to use? Maybe if one is not set, use the other? I can't remember why I chose concrete name back then."
+87,"@@ -73,6 +73,7 @@ var MainnetDefinition = NetworkDefinition{
+ 		ChainID:            1,
+ 		MystAddress:        ""0x4Cf89ca06ad997bC732Dc876ed2A7F26a9E7f361"",
+ 		EtherClientRPC: []string{
++			""https://ethereum1.mysterium.network/"",
+ 			""https://main-light.eth.linkpool.io/"",
+ 		},
+ 	},",We can remove this one. It's just a random one I got for free for testing.,mysteriumnetwork-node,go,3769,Shouldn't this be `any`?,This is a bit of a red flag. It's not clear what this option is supposed to do. It's not clear what the 'clear-cache' option is supposed to do. It's not clear what the '--' prefix is supposed to do. It's not clear what the 'clear-cache' option is supposed to do. It's not clear what the '--' prefix is supposed to do. It's not clear what the 'clear-cache' option is supposed to do. It's not clear what the '--' prefix is supposed to do. It's not clear what the 'clear-cache' option is supposed to do. It's not clear what the '--' prefix is supposed to do. It's not clear what the 'clear-cache' option is supposed to do. It's not clear what the '--' prefix is supposed to do. It's not clear what the 'clear-cache' option is supposed to do. It's not clear what the '--' prefix is supposed to do. It's not clear what the 'clear-cache' option is supposed to do. It's not clear what the '--' prefix is supposed to do. It's not clear what the 'clear-cache' option is supposed,,You can swap these to named OIDs here as well.
+88,"@@ -25,8 +25,8 @@ func NewConfig(options *compileopts.Options) (*compileopts.Config, error) {
+ 	if err != nil {
+ 		return nil, fmt.Errorf(""could not read version from GOROOT (%v): %v"", goroot, err)
+ 	}
+-	if major != 1 || minor < 11 || minor > 14 {
+-		return nil, fmt.Errorf(""requires go version 1.11, 1.12, 1.13, or 1.14, got go%d.%d"", major, minor)
++	if major != 1 || minor < 11 || minor > 15 {
++		return nil, fmt.Errorf(""requires go version 1.11, 1.12, 1.13, 1.14, or 1.15, got go%d.%d"", major, minor)
+ 	}
+ 	clangHeaderPath := getClangHeaderPath(goenv.Get(""TINYGOROOT""))
+ 	return &compileopts.Config{","At this point, maybe it would make more sense to write this as a range rather than listing specific versions?",tinygo-org-tinygo,go,9410,Do we need to set the log level to TRACE?,"This is a good idea to log the message body when the log level is set to TRACE. It will help in debugging the issue.
+
+The log level should be set to TRACE only when necessary, as it can have a significant impact on performance.",,"Sorry I mispoke. I think this should be an instance method, so that it's `current.without`"
+89,"@@ -0,0 +1,19 @@
++// Licensed to the .NET Foundation under one or more agreements.
++// The .NET Foundation licenses this file to you under the MIT license.
++// See the LICENSE file in the project root for more information.
++
++using BenchmarkDotNet.Attributes;
++using MicroBenchmarks;
++
++namespace System.Net.Tests
++{
++    [BenchmarkCategory(Categories.CoreFX)]
++    public class DnsTests
++    {
++        [Benchmark]
++        public IPHostEntry GetHostEntry() => Dns.GetHostEntry(""34.206.253.53"");
++
++        [Benchmark]
++        public string GetHostName() => Dns.GetHostName();
++    }
++}",what is this address pointing to? what are we measuring here? I want to have a better understanding.,dotnet-performance,.cs,1220,Why do we need this?,"This is a bit of a guess, but it seems like you're trying to add a new property to the DOM element. It's not clear what the purpose of this line is, but it seems like it's adding a new property to the DOM element. If this is not what you intended, you might want to remove it.",,let's keep the scope activation
+90,"@@ -24,7 +24,7 @@ namespace OpenTelemetry.Trace
+     /// <summary>
+     /// Build TracerProvider with Resource, Sampler, Processors and Instrumentation.
+     /// </summary>
+-    internal class TracerProviderBuilderSdk : TracerProviderBuilder
++    public class TracerProviderBuilderSdk : TracerProviderBuilder
+     {
+         private readonly List<InstrumentationFactory> instrumentationFactories = new List<InstrumentationFactory>();
+         private readonly List<BaseProcessor<Activity>> processors = new List<BaseProcessor<Activity>>();",This is good and something that I think opens a lot of possibilities. I think what would be even better is to change up `TracerProviderSdk` to take factories for the processors just like it already does for the instrumentations. Should probably use use a factory for the sampler. If we made those 2 changes then we could actually split this all up into the config and the build phase and we could use the factory methods in the hosting version to call into the IServiceProvider to get those instances.,open-telemetry-opentelemetry-dotnet,.cs,9541,Shouldn't this be `NamedList<?>`?,The return type should be NamedList<?> instead of NamedList.,,I think this is no longer required with being able to pass the context through to the request?
+91,"@@ -18,8 +18,8 @@ using System;
+ using System.Diagnostics;
+ using System.Security;
+ using OpenTelemetry.Exporter.OpenTelemetryProtocol.Implementation;
+-using OpenTelemetry.Trace;
+ using OpenTelemetry.Metrics;
++using OpenTelemetry.Trace;
+ 
+ namespace OpenTelemetry.Exporter
+ {","unrelated, but required fix as metrics branch got broken with the latest main->metrics merge and conflict resolution.",open-telemetry-opentelemetry-dotnet,.cs,2725,Why is this being removed?,"This is a bit confusing. It seems like the rules are being appended to the chain, but then the jump action is being added to the end of the chain. Is this intended?
+
+Also, the jump action is being added to the end of the chain, but it's targeting a chain named ChainCIDRBlock. Is this intended?
+It would be helpful to have more context or a better explanation of what this code is doing.",,$this->warehouse_id = -1 is surely a bug. == ?
+92,"@@ -20,5 +20,12 @@ namespace Microsoft.CodeAnalysis.Sarif.SarifValidator
+             HelpText = ""Path of the SARIF file to validate"",
+             Required = true)]
+         public string InstanceFilePath { get; set; }
++
++        [Option(
++            'l',
++            ""log-file-path"",
++            HelpText = ""Path to SARIF log file containing the results of the validation"",
++            Default = ""sarif.log"")]
++        public string LogFilePath { get; set; }
+     }
+ }","I would prefer that this tool follow the driver framework conventions, which use OutputFilePath as an argument, take a look at AnalyzeCommandBase. You can propose changes to that if you'd like, but binskim, sqlskim, this tool should all conform (in the interests of building an eco-system with consistent command-line interface)",microsoft-sarif-sdk,.cs,8455,Why not `let threw = false`?,"This is a try-catch block, so you should catch the error and handle it appropriately.",,Did you test this? Shouldn't it be `array_get()`?
+93,"@@ -44,8 +44,11 @@ namespace OpenTelemetry.Metrics
+ 
+             var options = new InMemoryExporterOptions();
+             configure?.Invoke(options);
+-            var exporter = new InMemoryMetricExporter(exportedItems, options);
+-            return builder.AddMetricReader(new PeriodicExportingMetricReader(exporter, options.MetricExportIntervalMilliseconds));
++
++            // var exporter = new InMemoryMetricExporter(exportedItems, options);
++            // return builder.AddMetricReader(new PeriodicExportingMetricReader(exporter, options.MetricExportIntervalMilliseconds));
++
++            return builder;
+         }
+     }
+ }",I'll fix the InMemoryExporter right after this PR lands,open-telemetry-opentelemetry-dotnet,.cs,3859,I think this should be `ax3.set_xlabel('x split')`,"The code is checking for the existence of a specific number of patches in the plot, which is a good test of the correctness of the plot. However, it's not a good test of the correctness of the plot itself. It's better to check the plot's appearance, rather than the number of patches.",,"Since you're sharing this now, would it make sense to move this to some sort of common util class? It seems to be the only thing that uses `ACQUIRE_AND_RELEASE_ONLY`, so that could move too."
+94,"@@ -59,7 +59,7 @@ namespace Microsoft.AspNet.Server.Kestrel.GeneratedCode
+             {
+                 ulong mask = 0;
+                 ulong comp = 0;
+-                for (var scan = 0; scan != count; ++scan)
++                for (var scan = 0; scan < count; scan++)
+                 {
+                     var ch = (byte)name[offset + count - scan - 1];
+                     var isAlpha = (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z');",@halter73 where is this file generated from?,aspnet-KestrelHttpServer,.cs,2632,Why did you change this?,The,,"Let's add # cython: language_level=3, since this file will be cythonized."
+95,"@@ -35,8 +35,13 @@ namespace OpenTelemetry.Instrumentation.AspNet
+         });
+ 
+         /// <summary>
+-        /// Gets or sets a hook to exclude calls based on domain or other per-request criterion.
++        /// Gets or sets a Filter function to filter instrumentation for requests on a per request basis.
++        /// The functions gets the HttpContext, and should return a boolean.
++        /// If functions returns true, the request is collected.
++        /// If functions returns false, the request is filtered out.
++        /// If filter throws exception, then this is considered as no filter being configured.
++        /// and requested is collected.
+         /// </summary>
+-        internal Predicate<HttpContext> RequestFilter { get; set; }
++        public Func<HttpContext, bool> Filter { get; set; }
+     }
+ }",This line doesn't seem to be right?,open-telemetry-opentelemetry-dotnet,.cs,7570,Prefer single-quoted strings when you don't need string interpolation or special symbols.,"This is a deprecation warning for the `its` method. It's not a mistake, but it's worth noting that `its` is being deprecated in favor of `itself`.
+
+The `itself` method is a more explicit way to refer to the subject of the example group, and it's the recommended way to use `its` in new code.",,Add this an `maximumNumberOfLoadedTiles` to the doc.
+96,"@@ -92,7 +92,7 @@ namespace System.Diagnostics.Metrics
+             T delta,
+             params KeyValuePair<string, object?>[] tags)
+         {
+-            this.RecordMeasurement(delta, tags);
++            this.RecordMeasurement(delta, new ReadOnlySpan<KeyValuePair<string, object?>>(tags));
+         }
+     }
+ }","we'll need to delete this whole file, right?",open-telemetry-opentelemetry-dotnet,.cs,6155,"Shouldn't this be `self.size, self.location`?","This is a bit confusing. It seems like it's trying to return a base64 encoded screenshot of the element. But it's not clear what the base64 encoding is for. It might be better to return the screenshot as a binary or raw data.
+
+Also, it seems like the screenshot_as_base64 property is not used anywhere in the code. It might be better to remove it.",,"Why is this safe? If the inputs here are coming from developer-written config files, couldn't those contain culture-specific things, like negative signs? And NumberStyles.None means that whitespace will no longer be ignored at the start/end... has that somewhere already been handled?"
+97,"@@ -0,0 +1,7 @@
++﻿namespace Nethermind.Core2
++{
++    public static class SszLimit
++    {
++        public const ulong ValidatorRegistryLimit = 1_099_511_627_776;
++    }
++}",is it a result of some multiplication or some other meaningful number? would be nice to display as a power of something or the mult,NethermindEth-nethermind,.cs,4347,Why do we need to check for `https` here?,"This code is checking if the CATALOG_URL is secure. If it's not, it's printing a warning and checking if the ALLOW_INSECURE_CATALOG_ACCESS environment variable is defined. This is a bit of a security risk, as it allows for insecure connections. It's better to enforce secure connections in the application itself, rather than relying on environment variables.",,Looks like this is a change introduced in different PR
+98,"@@ -19,7 +19,6 @@ namespace Nethermind.Mev.Test
+ {
+     public enum SelectorType
+     {
+-        V1,
+         V2,
+     }
+ }",Remove selector if only 1 version is supported,NethermindEth-nethermind,.cs,8882,I don't think this is the right way to fix this. I think it should be `'%s' % s`,The single quotes around the string should be double quotes.,,Can you help me understand what `DynamicallyAccessedMembers` indicates? Seems this is a field that is populated by reflection - I thought we had to annotate the members that were accessed by reflection.
+99,"@@ -27,7 +27,9 @@ using System.Threading.Tasks;
+ using JetBrains.Annotations;
+ using pwiz.Common.Collections;
+ using pwiz.Common.SystemUtil;
+-using pwiz.Skyline.Util;
++using pwiz.Skyline.Util;
++
++
+ // ReSharper disable InconsistentlySynchronizedField
+ 
+ namespace pwiz.Skyline.Controls.Graphs",The extra two empty lines seem unnecessary. Please review your diffs more carefully.,ProteoWizard-pwiz,.cs,3385,Shouldn't this be `[32]byte{}`?,"The [32]byte{} is a zero-value array, which is not a good practice. It's better to use a constant or a variable.",,"why reset it here? the ""ev_thpriv.ev_error != 0"" just means the async operation failed right? reset will lost the fail code, no? oh, will not lost the fail code as you use rc2, but why need to reset it?"

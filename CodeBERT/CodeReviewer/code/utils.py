@@ -4,7 +4,7 @@ import torch, logging
 from copy import deepcopy as cp
 from torch.utils.data import Dataset
 from tokenizers import ByteLevelBPETokenizer
-from transformers import T5Tokenizer, RobertaTokenizer
+from transformers import T5Tokenizer, RobertaTokenizer, RobertaTokenizerFast
 import nltk
 
 logging.basicConfig(
@@ -123,7 +123,7 @@ class RefineDataset(Dataset):
         text = tokenizer.encode(text, max_length=args.max_source_length, truncation=True)
         if type(tokenizer) == T5Tokenizer:
             return text[:-1]
-        elif type(tokenizer) == RobertaTokenizer:
+        elif type(tokenizer) in [RobertaTokenizer, RobertaTokenizerFast]:
             return text[1:-1]
         elif type(tokenizer) == MyTokenizer:
             return text
@@ -188,7 +188,7 @@ class TextDataset(Dataset):
             tokenizer_type = "mytok"
         elif isinstance(tokenizer, T5Tokenizer):
             tokenizer_type = ""
-        elif isinstance(tokenizer, RobertaTokenizer):
+        elif isinstance(tokenizer, (RobertaTokenizer, RobertaTokenizerFast)):
             tokenizer_type = "rb"
         else:
             tokenizer_type = "unk"
@@ -421,7 +421,7 @@ class TextDataset(Dataset):
         text = tokenizer.encode(text, max_length=args.max_source_length, truncation=True)
         if type(tokenizer) == T5Tokenizer:
             return text[:-1]
-        elif type(tokenizer) == RobertaTokenizer:
+        elif type(tokenizer) in [RobertaTokenizer, RobertaTokenizerFast]:
             return text[1:-1]
         elif type(tokenizer) == MyTokenizer:
             return text
@@ -436,7 +436,7 @@ class CommentGenDataset(TextDataset):
             tokenizer_type = "mytok"
         elif isinstance(tokenizer, T5Tokenizer):
             tokenizer_type = ""
-        elif isinstance(tokenizer, RobertaTokenizer):
+        elif isinstance(tokenizer, (RobertaTokenizer, RobertaTokenizerFast)):
             tokenizer_type = "rb"
         else:
             tokenizer_type = "unk"
@@ -473,7 +473,7 @@ class CommentClsDataset(TextDataset):
             tokenizer_type = "mytok"
         elif isinstance(tokenizer, T5Tokenizer):
             tokenizer_type = ""
-        elif isinstance(tokenizer, RobertaTokenizer):
+        elif isinstance(tokenizer, (RobertaTokenizer, RobertaTokenizerFast)):
             tokenizer_type = "rb"
         else:
             tokenizer_type = "unk"
@@ -506,7 +506,7 @@ class SimpleClsDataset(TextDataset):
             tokenizer_type = "mytok"
         elif isinstance(tokenizer, T5Tokenizer):
             tokenizer_type = ""
-        elif isinstance(tokenizer, RobertaTokenizer):
+        elif isinstance(tokenizer, (RobertaTokenizer, RobertaTokenizerFast)):
             tokenizer_type = "rb"
         else:
             tokenizer_type = "unk"
@@ -553,7 +553,7 @@ class SimpleGenDataset(TextDataset):
             tokenizer_type = "mytok"
         elif isinstance(tokenizer, T5Tokenizer):
             tokenizer_type = ""
-        elif isinstance(tokenizer, RobertaTokenizer):
+        elif isinstance(tokenizer, (RobertaTokenizer, RobertaTokenizerFast)):
             tokenizer_type = "rb"
         else:
             tokenizer_type = "unk"
@@ -610,7 +610,7 @@ class SimpleRelDataset(TextDataset):
             tokenizer_type = "mytok"
         elif isinstance(tokenizer, T5Tokenizer):
             tokenizer_type = ""
-        elif isinstance(tokenizer, RobertaTokenizer):
+        elif isinstance(tokenizer, (RobertaTokenizer, RobertaTokenizerFast)):
             tokenizer_type = "rb"
         else:
             tokenizer_type = "unk"

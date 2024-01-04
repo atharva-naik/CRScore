@@ -7,6 +7,11 @@ import pandas as pd
 from collections import defaultdict
 from src.datautils import read_jsonl
 
+def process_lstm_output(review: str):
+    if review.startswith("<msg>"): review = review[len("<msg>"):].strip()
+        
+    return review
+
 def process_magicoder_output(review: str):
     review = review.split("@@ Code Change")[0].strip("\n")
     if "The code change is as follows:" in review and "The review is as follows:" in review:
@@ -32,6 +37,7 @@ if __name__ == "__main__":
     #[rec['gen_review'] for rec in json.load(open("./experiments/MS_CR_ZeroShot.json"))]
     magicoder_preds = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./data/Comment_Generation/llm_outputs/Magicoder-S-DS-6.7B.jsonl')]
     knn_retriever_preds = [r for r,_ in json.load(open("./experiments/knn_retriever_preds.json"))]
+    lstm_preds = [r['pred'] for r in read_jsonl("./ckpts/lstm_reviewer_1_layer/preds.jsonl")]
     lang_buckets = defaultdict(lambda: [])
     index = 0
     long_inst_len = 1000
@@ -40,7 +46,7 @@ if __name__ == "__main__":
         rec["index"] = index
         rec['codereviewer_pred'] = codereviewer_preds[index]
         rec['magicoder_pred'] = magicoder_preds[index]
-        rec['lstm_pred'] = None # TODO: replace with LSTM pred.
+        rec['lstm_pred'] = process_lstm_output(lstm_preds[index])
         rec['knn_pred'] = knn_retriever_preds[index]
         if len(rec['patch']) > long_inst_len:
             long_inst_ctr += 1
@@ -60,3 +66,28 @@ if __name__ == "__main__":
     print(annot_df.columns)
     print(len(annot_df))
     annot_df.to_csv(save_path)
+    pre_shuffled_data = []
+    pre_model_names = []
+    for rec in annot_df.to_dict("records"):
+        pre_shuffled_data.append({"index": rec['index'], 'code_change': rec['patch'], 'review': rec['msg'], 'relevance': None, 'informativeness': None, 'correctness': None})
+        pre_model_names.append('ground_truth')
+        pre_shuffled_data.append({"index": rec['index'], 'code_change': rec['patch'], 'review': rec['magicoder_pred'], 'relevance': None, 'informativeness': None, 'correctness': None})
+        pre_model_names.append('magicoder')
+        pre_shuffled_data.append({"index": rec['index'], 'code_change': rec['patch'], 'review': rec['codereviewer_pred'], 'relevance': None, 'informativeness': None, 'correctness': None})
+        pre_model_names.append('codereviewer')
+        pre_shuffled_data.append({"index": rec['index'], 'code_change': rec['patch'], 'review': rec['lstm_pred'], 'relevance': None, 'informativeness': None, 'correctness': None})
+        pre_model_names.append('lstm')
+        pre_shuffled_data.append({"index": rec['index'], 'code_change': rec['patch'], 'review': rec['knn_pred'], 'relevance': None, 'informativeness': None, 'correctness': None})
+        pre_model_names.append('knn')
+    shuffled_index_order = random.sample(range(len(pre_shuffled_data)), k=len(pre_shuffled_data))
+    shuffled_data = []
+    shuffled_model_names = []
+    for i in shuffled_index_order:
+        shuffled_data.append(pre_shuffled_data[i])
+        shuffled_model_names.append(pre_model_names[i])
+    with open("./model_names_key.json", "w") as f:
+        json.dump(shuffled_model_names, f, indent=4)
+    pd.DataFrame(shuffled_data).to_csv("human_study_shuffled_annot_sheet.csv")
+    print(f"{len(shuffled_data)} rows (3 annotations per row) to be annotated!")
+    annotation_effort = 3 * 3 * len(shuffled_data)
+    print(f"{annotation_effort} uniques annotations required") 

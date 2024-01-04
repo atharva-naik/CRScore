@@ -1,1 +1,1 @@
-python -m src.models.lstm_review_gen 
+python -m src.models.lstm_review_gen --output_dir "ckpts/lstm_reviewer_1_layer" --num_layers 1

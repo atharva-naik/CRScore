@@ -2,12 +2,61 @@
 import os
 import re
 import json
+import torch
 import random
 import numpy as np
+from typing import *
 from tqdm import tqdm
+import torch.nn as nn
 from fuzzywuzzy import fuzz
 from collections import defaultdict
+from transformers import AutoTokenizer
+from src.models.correctness_codebert import CorrectnessCodeBERT, CRDataLoader, CRDataset
 from src.datautils import generate_before_after_code_from_patch, read_jsonl, write_jsonl
+
+class CorrectnessScorer:
+    def __init__(self, checkpoint_path: str, model_path: str, code_enc_dim: int=768, review_enc_dim: int=768, use_simple_cc_network: bool=False, device: str="cuda:0"):
+        self.model = CorrectnessCodeBERT(
+            model_path=model_path,
+            code_enc_dim=code_enc_dim,
+            review_enc_dim=review_enc_dim,
+            use_simple_cc_network=use_simple_cc_network
+        )
+        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
+        self.model_path = model_path
+        self.device = device
+        ckpt_dict = torch.load(checkpoint_path, map_location="cpu")
+        self.model.load_state_dict(ckpt_dict['model_state_dict'])
+        self.model.to(device)
+        self.pdist = nn.PairwiseDistance(p=2)
+
+    def compute(self, codes: List[str], predictions: List[str], batch_size: int=64):
+        data = []
+        for i in range(len(codes)):
+            before, after = generate_before_after_code_from_patch(codes[i])
+            data.append({"anchor_before": before, "anchor_after": after, "pos": predictions[i], "neg": predictions[i]})
+        dataset = CRDataset(data)
+        dataloader = CRDataLoader(dataset, model_path=self.model_path, batch_size=batch_size, shuffle=False, tokenizer=self.tokenizer)
+        self.model.eval()
+        pbar = tqdm(enumerate(dataloader), 
+                    total=len(dataloader))
+        inst_scores = []
+        with torch.no_grad():
+            for step, batch in pbar:
+                anchor_before = {k: v.to(self.device) for k,v in batch["anchor_before"].items()}
+                anchor_after = {k: v.to(self.device) for k,v in batch["anchor_after"].items()}
+                pos = {k: v.to(self.device) for k,v in batch["pos"].items()}
+                neg = {k: v.to(self.device) for k,v in batch["neg"].items()}
+                # Forward pass and Calculate contrastive loss
+                anchor_emb, pos_emb, _, loss = self.model(
+                    anchor_before=anchor_before, 
+                    anchor_after=anchor_after, 
+                    pos=pos, neg=neg,
+                )
+                batch_scores = self.pdist(anchor_emb, pos_emb).tolist()
+                inst_scores.extend(batch_scores)
+        
+        return {"inst_scores": inst_scores, "score": np.mean(inst_scores)}        
 
 def augment_data(path: str):
     data = read_jsonl(path)
@@ -193,9 +242,47 @@ def dump_correctness_model_training_data(folder: str):
         print(f"writing {len(aug_data)} {split} instances to {aug_data_path}")
         write_jsonl(data=aug_data, path=aug_data_path)
 
+def run_correctness_scorer():
+    corr_score = CorrectnessScorer(model_path="microsoft/unixcoder-base", checkpoint_path="./ckpts/uxcoder_complex_cc_net/best_model.pth")
+    import pandas as pd
+    # df = pd.read_csv('cr_manual_rel_annot_likert_scale.csv')
+    df = pd.read_csv('human_study_data.csv')
+    # k = 100
+    # predictions = list(df['pred'])[:k]
+    corr_scores = []
+    codes = list(df['patch'])#[:k]
+    model_wise_scores = {}
+    for ref_subset, model_name in [
+        ('msg', 'ground_truth'),
+        ('knn_pred', 'knn'),
+        ('lstm_pred', 'lstm'),
+        ('magicoder_pred', 'magicoder'),
+        ('codereviewer_pred', 'codereviewer')
+    ]:
+        predictions = list(df[ref_subset])
+        score = corr_score.compute(predictions=predictions, codes=codes)
+        model_wise_scores[model_name] = score['inst_scores']
+    indices = list(df['index'])
+    for i in range(len(indices)):
+        corr_scores.append({
+            "index": indices[i],
+            "ground_truth_rel": model_wise_scores['ground_truth'][i],
+            "knn_rel": model_wise_scores['knn'][i],
+            "lstm_rel": model_wise_scores['lstm'][i],
+            "magicoder_rel": model_wise_scores['magicoder'][i],
+            "codereviewer_rel": model_wise_scores['codereviewer'][i]
+        })
+    with open("./human_study_correctness_scores.json", "w") as f:
+        json.dump(corr_scores, f, indent=4) 
+
 # main
 if __name__ == "__main__":
-    dump_correctness_model_training_data("./data/Comment_Generation")
+    # NOTE: uncomment and run this line for data creation.
+    # dump_correctness_model_training_data("./data/Comment_Generation")
+
+    run_correctness_scorer()
+
+
     # test_data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
     # correctness_score = []
     # with open("ckpts/gen_study_inf/checkpoints-1800-5.72/preds.txt", "r") as f:

@@ -124,9 +124,33 @@ class CRScorer:
 if __name__ == "__main__":
     cr_score = CRScorer(checkpoint_path="./ckpts/crr_rcr_ccr_0.005/best_model.pth")
     import pandas as pd
-    df = pd.read_csv('cr_manual_rel_annot_likert_scale.csv')
-    k = 100
-    predictions = list(df['pred'])[:k]
-    codes = list(df['patch'])[:k]
-    score = cr_score.compute(predictions=predictions, codes=codes)
-    print(score)
+    # df = pd.read_csv('cr_manual_rel_annot_likert_scale.csv')
+    df = pd.read_csv('human_study_data.csv')
+    # k = 100
+    # predictions = list(df['pred'])[:k]
+    rel_scores = []
+    codes = list(df['patch'])#[:k]
+    model_wise_scores = {}
+    for ref_subset, model_name in [
+        ('msg', 'ground_truth'),
+        ('knn_pred', 'knn'),
+        ('lstm_pred', 'lstm'),
+        ('magicoder_pred', 'magicoder'),
+        ('codereviewer_pred', 'codereviewer')
+    ]:
+        predictions = list(df[ref_subset])
+        score = cr_score.compute(predictions=predictions, codes=codes)
+        model_wise_scores[model_name] = score['inst_scores']
+    indices = list(df['index'])
+    for i in range(len(indices)):
+        rel_scores.append({
+            "index": indices[i],
+            "ground_truth_rel": model_wise_scores['ground_truth'][i],
+            "knn_rel": model_wise_scores['knn'][i],
+            "lstm_rel": model_wise_scores['lstm'][i],
+            "magicoder_rel": model_wise_scores['magicoder'][i],
+            "codereviewer_rel": model_wise_scores['codereviewer'][i]
+        })
+    with open("./human_study_relevance_scores.json", "w") as f:
+        json.dump(rel_scores, f, indent=4) 
+    # print(score)

@@ -11,6 +11,7 @@ import torch.nn as nn
 from fuzzywuzzy import fuzz
 from collections import defaultdict
 from transformers import AutoTokenizer
+from Levenshtein import distance as lev
 from src.models.correctness_codebert import CorrectnessCodeBERT, CRDataLoader, CRDataset
 from src.datautils import generate_before_after_code_from_patch, read_jsonl, write_jsonl
 
@@ -242,6 +243,60 @@ def dump_correctness_model_training_data(folder: str):
         print(f"writing {len(aug_data)} {split} instances to {aug_data_path}")
         write_jsonl(data=aug_data, path=aug_data_path)
 
+def run_all_other_metric_scorers():
+    import evaluate
+    from rouge_score import rouge_scorer
+    # bleu score.
+    bleu_score = evaluate.load("bleu")
+    # BERT score.
+    bert_score = evaluate.load("bertscore")
+    # ROUGE-L score.
+    rouge_score_ = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
+    import pandas as pd
+    df = pd.read_csv('human_study_data.csv')
+    run_metric_scorer(df, bleu_score, "bleu")
+    run_metric_scorer(df, bert_score, "bert")
+    run_metric_scorer(df, rouge_score_, "rouge_l")
+    run_metric_scorer(df, None, 'editdistance')
+
+def run_metric_scorer(df, scorer, score_name: str):
+
+    corr_scores = []
+    # codes = list(df['patch'])
+    references = list(df['msg'])
+    model_wise_scores = {}
+    for ref_subset, model_name in [
+        ('msg', 'ground_truth'),
+        ('knn_pred', 'knn'),
+        ('lstm_pred', 'lstm'),
+        ('magicoder_pred', 'magicoder'),
+        ('codereviewer_pred', 'codereviewer')
+    ]:
+        predictions = list(df[ref_subset])
+        if score_name == "bleu":
+            inst_bleu_scores = [scorer.compute(predictions=[p], references=[r]) for p,r in zip(predictions, references)]
+            inst_scores = np.array([b["bleu"] for b in inst_bleu_scores])
+        elif score_name == "bert":
+            inst_scores = list(scorer.compute(predictions=predictions, references=references, model_type="distilbert-base-uncased")['f1'])
+        elif score_name == "rouge_l":
+            inst_scores = [scorer.score(p,r)['rougeL'].fmeasure for p,r in zip(predictions, references)]
+        else:
+            inst_scores = [lev(p, r) for p,r in zip(predictions, references)]
+        model_wise_scores[model_name] = inst_scores
+        # print(model_name, score['score'])
+    indices = list(df['index'])
+    for i in range(len(indices)):
+        corr_scores.append({
+            "index": indices[i],
+            "ground_truth": model_wise_scores['ground_truth'][i],
+            "knn": model_wise_scores['knn'][i],
+            "lstm": model_wise_scores['lstm'][i],
+            "magicoder": model_wise_scores['magicoder'][i],
+            "codereviewer": model_wise_scores['codereviewer'][i]
+        })
+    with open(f"./human_study_{score_name}_scores.json", "w") as f:
+        json.dump(corr_scores, f, indent=4) 
+
 def run_correctness_scorer():
     corr_score = CorrectnessScorer(model_path="microsoft/unixcoder-base", checkpoint_path="./ckpts/uxcoder_complex_cc_net/best_model.pth")
     import pandas as pd
@@ -262,15 +317,16 @@ def run_correctness_scorer():
         predictions = list(df[ref_subset])
         score = corr_score.compute(predictions=predictions, codes=codes)
         model_wise_scores[model_name] = score['inst_scores']
+        print(model_name, score['score'])
     indices = list(df['index'])
     for i in range(len(indices)):
         corr_scores.append({
             "index": indices[i],
-            "ground_truth_rel": model_wise_scores['ground_truth'][i],
-            "knn_rel": model_wise_scores['knn'][i],
-            "lstm_rel": model_wise_scores['lstm'][i],
-            "magicoder_rel": model_wise_scores['magicoder'][i],
-            "codereviewer_rel": model_wise_scores['codereviewer'][i]
+            "ground_truth": model_wise_scores['ground_truth'][i],
+            "knn": model_wise_scores['knn'][i],
+            "lstm": model_wise_scores['lstm'][i],
+            "magicoder": model_wise_scores['magicoder'][i],
+            "codereviewer": model_wise_scores['codereviewer'][i]
         })
     with open("./human_study_correctness_scores.json", "w") as f:
         json.dump(corr_scores, f, indent=4) 
@@ -280,8 +336,11 @@ if __name__ == "__main__":
     # NOTE: uncomment and run this line for data creation.
     # dump_correctness_model_training_data("./data/Comment_Generation")
 
-    run_correctness_scorer()
+    # NOTE: uncomment for correctness scorer.
+    # run_correctness_scorer()
 
+    # NOTE: uncomment for all other metrics
+    run_all_other_metric_scorers()
 
     # test_data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
     # correctness_score = []

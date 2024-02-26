@@ -25,6 +25,20 @@ def remove_patch_header(code: str):
 
     return result
 
+def generate_added_and_removed_lines_from_patch(patch: str):
+    patch = remove_patch_header(patch).strip()
+    added_lines = []
+    removed_lines = []
+    for line in patch.split("\n"):
+        if line.startswith("+"):
+            line = line[1:]
+            added_lines.append(line.strip())
+        elif line.startswith("-"):
+            line = line[1:]
+            removed_lines.append(line.strip())
+
+    return added_lines, removed_lines
+
 def generate_before_after_code_from_patch(patch: str):
     patch = remove_patch_header(patch).strip()
     old_lines = []

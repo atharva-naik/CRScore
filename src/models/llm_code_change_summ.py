@@ -301,3 +301,10 @@ if __name__ == "__main__":
         model_path="deepseek-ai/deepseek-coder-7b-instruct-v1.5",
         model_name="deepseek-coder-7b-instruct-v1.5",
     )
+
+# generator = pipeline(
+#     model="deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+#     task="text-generation",
+#     torch_dtype=torch.bfloat16,
+#     device="cuda:0",
+# )

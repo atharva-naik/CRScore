@@ -65,7 +65,7 @@ if __name__ == "__main__":
     annot_df = pd.DataFrame(data_for_annotation).drop(columns=['oldf', 'idx', 'id', 'y'])
     print(annot_df.columns)
     print(len(annot_df))
-    annot_df.to_csv(save_path)
+    annot_df.to_csv(save_path, index=False)
     pre_shuffled_data = []
     pre_model_names = []
     for rec in annot_df.to_dict("records"):
@@ -87,7 +87,7 @@ if __name__ == "__main__":
         shuffled_model_names.append(pre_model_names[i])
     with open("./model_names_key.json", "w") as f:
         json.dump(shuffled_model_names, f, indent=4)
-    pd.DataFrame(shuffled_data).to_csv("human_study_shuffled_annot_sheet.csv")
+    pd.DataFrame(shuffled_data).to_csv("human_study_shuffled_annot_sheet.csv", index=False)
     print(f"{len(shuffled_data)} rows (3 annotations per row) to be annotated!")
     annotation_effort = 3 * 3 * len(shuffled_data)
     print(f"{annotation_effort} uniques annotations required") 

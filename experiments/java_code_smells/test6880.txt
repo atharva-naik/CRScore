@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6880/test6880.java:19:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test6880/test6880.java:166:	ClassNamingConventions:	The enum name 'testEnum' doesn't match '[A-Z][a-zA-Z0-9]*'

@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test2566/test2566.java:21:	UnnecessaryImport:	Unused import 'io.vavr.*'
+/home/arnaik/code-review-test-projects/java/test2566/test2566.java:323:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test2566/test2566.java:323:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test2566/test2566.java:326:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test2566/test2566.java:326:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test2566/test2566.java:326:	GenericsNaming:	Generics names should be a one letter long and upper case.

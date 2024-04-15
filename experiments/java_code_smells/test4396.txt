@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test4396/test4396.java:176:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4396/test4396.java:177:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4396/test4396.java:210:	CloseResource:	Ensure that resources like this Connection object are closed after use

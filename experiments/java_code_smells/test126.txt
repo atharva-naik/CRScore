@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test126/test126.java:57:	UnusedPrivateField:	Avoid unused private fields such as 'gpuMining'.
+/home/arnaik/code-review-test-projects/java/test126/test126.java:123:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test126/test126.java:134:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test126/test126.java:141:	UselessParentheses:	Useless parentheses.

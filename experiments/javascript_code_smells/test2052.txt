@@ -1,0 +1,18 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 9, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 12, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 14, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 18, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 22, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 24, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 28, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 30, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 30, col 13, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 32, col 35, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2052/test2052.js: line 32, col 35, Unrecoverable syntax error. (40% scanned).
+
+16 errors

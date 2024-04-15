@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6555/test6555.java:55:	LocalVariableNamingConventions:	The final local variable name 'KEY_ID_POSITION' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test6555/test6555.java:56:	LocalVariableNamingConventions:	The final local variable name 'KEY_MEDIA_POSITION' doesn't match '[a-z][a-zA-Z0-9]*'

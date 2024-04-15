@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test4761/test4761.java:27:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test4761/test4761.java:80:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4761/test4761.java:97:	UnusedFormalParameter:	Avoid unused method parameters such as 'configs'.
+/home/arnaik/code-review-test-projects/java/test4761/test4761.java:102:	UnusedLocalVariable:	Avoid unused local variables such as 'language'.

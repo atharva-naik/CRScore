@@ -1,0 +1,11 @@
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:176:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:222:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:224:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:226:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:228:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:548:	IdenticalCatchBranches:	'catch' branch identical to 'AccountsException' branch
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:550:	IdenticalCatchBranches:	'catch' branch identical to 'AccountsException' branch
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:565:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'authenticatedRestClient': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:591:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'lastNewAuthToken' in a constructor.
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:592:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'lastNewInstanceUrl' in a constructor.
+/home/arnaik/code-review-test-projects/java/test8132/test8132.java:605:	ControlStatementBraces:	This statement should have braces

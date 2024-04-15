@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:156:	SingularField:	Perhaps 'mActionBar' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:176:	SingularField:	Perhaps 'mSingleAccountMode' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:181:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:295:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:300:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:351:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:603:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:799:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:1037:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:1039:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:1040:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:1333:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1338/test1338.java:1438:	ControlStatementBraces:	This statement should have braces

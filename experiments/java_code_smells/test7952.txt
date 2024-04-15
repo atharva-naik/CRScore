@@ -1,0 +1,11 @@
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:56:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:63:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:81:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:164:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:185:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:191:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:304:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:401:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:418:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:425:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7952/test7952.java:529:	UnusedFormalParameter:	Avoid unused method parameters such as 'fields'.

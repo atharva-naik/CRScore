@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test6810/test6810.java:53:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6810/test6810.java:54:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6810/test6810.java:55:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6810/test6810.java:56:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6810/test6810.java:60:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6810/test6810.java:232:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stack': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test6810/test6810.java:246:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stack': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test6810/test6810.java:728:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6810/test6810.java:728:	GenericsNaming:	Generics names should be a one letter long and upper case.

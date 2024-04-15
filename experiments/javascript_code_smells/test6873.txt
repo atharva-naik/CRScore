@@ -1,0 +1,70 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 12, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 13, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 14, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 21, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 21, col 8, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 32, col 22, Class properties must be methods. Expected '(' but instead saw '='.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 50, col 15, 'rest operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 51, col 32, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 74, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 75, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 76, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 77, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 80, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 80, col 7, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 81, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 82, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 83, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 84, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 99, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 100, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 121, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 135, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 136, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 165, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 166, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 167, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 170, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 184, col 28, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 197, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 197, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 198, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 199, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 200, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 201, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 204, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 211, col 32, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 219, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 225, col 31, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 232, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 232, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 233, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 233, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 234, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 234, col 54, 'Optional chaining' is only available in ES11 (use 'esversion: 11').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 234, col 110, 'nullish coalescing' is only available in ES11 (use 'esversion: 11').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 240, col 27, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 247, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 250, col 33, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 271, col 48, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 286, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 286, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 287, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 288, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 289, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 290, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 297, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 298, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 344, col 66, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 345, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 346, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 354, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 357, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 358, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 359, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 362, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 378, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6873/test6873.js: line 381, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+68 errors

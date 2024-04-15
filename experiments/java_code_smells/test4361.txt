@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test4361/test4361.java:99:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test4361/test4361.java:248:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4361/test4361.java:259:	LiteralsFirstInComparisons:	Position literals first in String comparisons

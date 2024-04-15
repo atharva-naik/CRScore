@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test671/test671.java:17:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.metrics.BesuMetricCategory.DEFAULT_METRIC_CATEGORIES'
+/home/arnaik/code-review-test-projects/java/test671/test671.java:30:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test671/test671.java:31:	AvoidUsingHardCodedIP:	Do not hard code the IP address DEFAULT_METRICS_HOST
+/home/arnaik/code-review-test-projects/java/test671/test671.java:33:	UnusedPrivateField:	Avoid unused private fields such as 'DEFAULT_INSTRUMENTATION_NAME'.
+/home/arnaik/code-review-test-projects/java/test671/test671.java:34:	UnusedPrivateField:	Avoid unused private fields such as 'DEFAULT_METRICS_PROTOCOL'.
+/home/arnaik/code-review-test-projects/java/test671/test671.java:35:	AvoidUsingHardCodedIP:	Do not hard code the IP address DEFAULT_METRICS_PUSH_HOST
+/home/arnaik/code-review-test-projects/java/test671/test671.java:40:	UnusedPrivateField:	Avoid unused private fields such as 'instrumentationName'.
+/home/arnaik/code-review-test-projects/java/test671/test671.java:41:	UnusedPrivateField:	Avoid unused private fields such as 'protocol'.
+/home/arnaik/code-review-test-projects/java/test671/test671.java:193:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test671/test671.java:203:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}

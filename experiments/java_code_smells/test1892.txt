@@ -1,0 +1,8 @@
+/home/arnaik/code-review-test-projects/java/test1892/test1892.java:49:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test1892/test1892.java:96:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test1892/test1892.java:99:	CloseResource:	Ensure that resources like this BufferedInputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test1892/test1892.java:140:	LocalVariableNamingConventions:	The final local variable name 'DELETE_BY_TIME' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test1892/test1892.java:153:	UnusedFormalParameter:	Avoid unused method parameters such as 'endByte'.
+/home/arnaik/code-review-test-projects/java/test1892/test1892.java:157:	LocalVariableNamingConventions:	The final local variable name 'INSERT_EXECUTION_LOGS' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test1892/test1892.java:200:	UnusedLocalVariable:	Avoid unused local variables such as 'attempt'.
+/home/arnaik/code-review-test-projects/java/test1892/test1892.java:222:	CheckResultSet:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.

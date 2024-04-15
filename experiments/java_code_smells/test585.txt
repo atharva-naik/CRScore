@@ -1,0 +1,15 @@
+/home/arnaik/code-review-test-projects/java/test585/test585.java:87:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test585/test585.java:155:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test585/test585.java:156:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test585/test585.java:160:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test585/test585.java:242:	UnusedPrivateMethod:	Avoid unused private methods such as 'dictionaryRule()'.
+/home/arnaik/code-review-test-projects/java/test585/test585.java:296:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test585/test585.java:297:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test585/test585.java:297:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test585/test585.java:298:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test585/test585.java:305:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test585/test585.java:308:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test585/test585.java:362:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test585/test585.java:366:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test585/test585.java:388:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test585/test585.java:393:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

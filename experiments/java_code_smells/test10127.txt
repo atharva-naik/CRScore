@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test10127/test10127.java:39:	UnnecessaryImport:	Unused static import 'de.danoeh.antennapod.core.feed.FeedPreferences.SPEED_USE_GLOBAL'
+/home/arnaik/code-review-test-projects/java/test10127/test10127.java:40:	UnnecessaryImport:	Unused static import 'de.danoeh.antennapod.core.util.SortOrder.toCodeString'
+/home/arnaik/code-review-test-projects/java/test10127/test10127.java:47:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test10127/test10127.java:304:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test10127/test10127.java:311:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test10127/test10127.java:312:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PodDBAdapter': 'context' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test10127/test10127.java:898:	UnusedPrivateMethod:	Avoid unused private methods such as 'getAllItemsOfFeedCursor(long)'.
+/home/arnaik/code-review-test-projects/java/test10127/test10127.java:1053:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test10127/test10127.java:1334:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PodDBAdapter': 'context' is already in scope because it is declared in an enclosing type

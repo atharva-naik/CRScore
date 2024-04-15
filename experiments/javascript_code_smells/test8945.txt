@@ -1,0 +1,4 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8945/test8945.js: line 1, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8945/test8945.js: line 2, col 50, Expected an assignment or function call and instead saw an expression.
+
+2 errors

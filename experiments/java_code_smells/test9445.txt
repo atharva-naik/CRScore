@@ -1,0 +1,56 @@
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1:	PackageCase:	Package name contains upper case characters
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:192:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:204:	LocalVariableNamingConventions:	The local variable name 'screen_width' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:205:	LocalVariableNamingConventions:	The local variable name 'screen_height' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:264:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:267:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:270:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:276:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:279:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:291:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:293:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:295:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:297:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:299:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:301:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:463:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:473:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:475:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:484:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:498:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:593:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:619:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:621:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:623:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:637:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:664:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:914:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:921:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:923:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:930:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:932:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:943:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:955:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:958:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:967:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:975:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:979:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1011:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1013:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1022:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1027:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1145:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1180:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1181:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1183:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1209:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1211:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1256:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1295:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1362:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1365:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1408:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1410:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1412:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1414:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9445/test9445.java:1416:	ControlStatementBraces:	This statement should have braces

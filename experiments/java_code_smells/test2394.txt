@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test2394/test2394.java:13:	UnnecessaryImport:	Unused import 'sun.reflect.generics.reflectiveObjects.NotImplementedException'
+/home/arnaik/code-review-test-projects/java/test2394/test2394.java:18:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2394/test2394.java:20:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test2394/test2394.java:87:	AvoidAccessibilityAlteration:	You should not modify visibility of constructors, methods or fields using setAccessible()
+/home/arnaik/code-review-test-projects/java/test2394/test2394.java:92:	AvoidAccessibilityAlteration:	You should not modify visibility of constructors, methods or fields using setAccessible()
+/home/arnaik/code-review-test-projects/java/test2394/test2394.java:227:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ManagementFactory': 'getThreadMXBean' is already in scope

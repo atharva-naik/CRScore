@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test5143/test5143.java:94:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test5143/test5143.java:130:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test5143/test5143.java:131:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

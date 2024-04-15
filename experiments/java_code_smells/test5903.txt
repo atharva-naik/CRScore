@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:65:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:74:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:126:	MethodNamingConventions:	The instance method name '_release' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:146:	MethodNamingConventions:	The instance method name 'terminateSynchronousFOR_TEST_ONLY' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:159:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:250:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:257:	UnusedPrivateMethod:	Avoid unused private methods such as 'takeRequestHandler(RequestHandler)'.
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:295:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:307:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:314:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:337:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test5903/test5903.java:338:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

@@ -1,0 +1,47 @@
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:25:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.dataaccess.*'
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:90:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:91:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ioex' on all code paths
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:115:	PrimitiveWrapperInstantiation:	Do not use `new Integer(...)`, prefer `Integer.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:116:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:116:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'NumberFormatException' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:154:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:172:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:189:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:192:	LocalVariableNamingConventions:	The local variable name 'redirect_url_str' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:203:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:204:	LocalVariableNamingConventions:	The local variable name 'redirect_uri' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:209:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:221:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:240:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:245:	PrimitiveWrapperInstantiation:	Do not use `new Integer(...)`, prefer `Integer.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:249:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'NumberFormatException' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:266:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:270:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:280:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:292:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:302:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:309:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:323:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:331:	CloseResource:	Ensure that resources like this FileInputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:375:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:424:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:428:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:429:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:433:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:438:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:463:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:494:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:500:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:514:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:527:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:531:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:543:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:555:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:572:	UnusedPrivateMethod:	Avoid unused private methods such as 'isAuxiliaryObjectCached(StorageIO, String)'.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:592:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:603:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:607:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:623:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:623:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:641:	UnusedPrivateMethod:	Avoid unused private methods such as 'getFileSize(DownloadInstance)'.
+/home/arnaik/code-review-test-projects/java/test4357/test4357.java:692:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

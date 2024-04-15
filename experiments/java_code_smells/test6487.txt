@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test6487/test6487.java:41:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6487/test6487.java:60:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6487/test6487.java:60:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6487/test6487.java:62:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead

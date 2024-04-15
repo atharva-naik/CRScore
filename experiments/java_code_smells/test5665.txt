@@ -1,0 +1,17 @@
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:41:	UnnecessaryImport:	Unused import 'android.content.res.Configuration'
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:125:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:216:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getKey': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:289:	NonThreadSafeSingleton:	Singleton is not thread safe
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:326:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'init' is already in scope
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:340:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'init' is already in scope
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:498:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:609:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:660:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:661:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:670:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:754:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'decryptWithPasscode' is already in scope
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:756:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'decryptWithPasscode' is already in scope
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:758:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'decryptWithPasscode' is already in scope
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:868:	IdenticalCatchBranches:	'catch' branch identical to 'NameNotFoundException' branch
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:928:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'INSTANCE' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test5665/test5665.java:939:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'INSTANCE' is already in scope because it is declared in an enclosing type

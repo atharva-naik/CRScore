@@ -1,0 +1,103 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 10, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 11, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 13, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 13, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 14, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 14, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 16, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 70, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 70, col 8, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 91, col 23, Class properties must be methods. Expected '(' but instead saw '='.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 98, col 35, Expected an identifier and instead saw 'this' (a reserved word).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 98, col 39, 'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 98, col 40, Expected an identifier and instead saw ';'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 105, col 22, Class properties must be methods. Expected '(' but instead saw '='.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 132, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 132, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 138, col 10, Expected an identifier and instead saw '#'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 138, col 10, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 138, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 142, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 143, col 36, 'rest operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 143, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 143, col 69, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 144, col 35, 'rest operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 144, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 144, col 67, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 145, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 146, col 61, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 163, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 163, col 7, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 167, col 57, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 173, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 189, col 10, Expected an identifier and instead saw '#'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 189, col 10, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 189, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 206, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 207, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 208, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 209, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 212, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 218, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 219, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 220, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 221, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 223, col 57, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 224, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 267, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 267, col 53, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 267, col 108, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 305, col 23, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 312, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 312, col 48, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 312, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 313, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 315, col 31, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 315, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 316, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 316, col 7, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 316, col 99, 'nullish coalescing' is only available in ES11 (use 'esversion: 11').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 325, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 326, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 329, col 33, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 329, col 54, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 330, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 330, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 337, col 39, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 343, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 344, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 347, col 50, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 347, col 78, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 351, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 354, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 355, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 359, col 23, 'Trailing comma in arguments lists' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 364, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 371, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 372, col 54, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 373, col 14, Expected an identifier and instead saw '#'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 373, col 14, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 373, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 378, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 385, col 24, 'Trailing comma in arguments lists' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 399, col 17, Expected an identifier and instead saw '#'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 399, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 411, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 412, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 436, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 437, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 438, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 439, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 439, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 439, col 97, 'nullish coalescing' is only available in ES11 (use 'esversion: 11').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 442, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 513, col 10, Expected an identifier and instead saw '#'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 513, col 10, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1450/test1450.js: line 513, col 11, Missing semicolon.
+
+101 errors

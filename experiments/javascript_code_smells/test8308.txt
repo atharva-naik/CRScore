@@ -1,0 +1,56 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 1, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 3, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 5, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 7, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 11, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 13, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 15, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 19, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 20, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 20, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 21, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 21, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 22, col 61, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 25, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 25, col 35, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 25, col 98, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 28, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 29, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 31, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 34, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 34, col 49, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 34, col 77, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 35, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 35, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 37, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 38, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 41, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 41, col 48, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 41, col 76, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 42, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 42, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 44, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 45, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 48, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 48, col 37, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 50, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 50, col 102, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 52, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 54, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 58, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 58, col 37, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 60, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 60, col 101, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 62, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 64, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 68, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 68, col 33, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 69, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 69, col 71, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 70, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 73, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 73, col 37, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8308/test8308.js: line 76, col 74, Missing semicolon.
+
+54 errors

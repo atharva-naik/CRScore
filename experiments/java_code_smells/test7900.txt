@@ -1,0 +1,22 @@
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:44:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:99:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:123:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:133:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:137:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:145:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:155:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:159:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:175:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:180:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:190:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:193:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:213:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:297:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:343:	UnnecessaryModifier:	Unnecessary modifier 'final' on resource specification 'in': resource specifications are implicitly final
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:348:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:353:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:359:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:368:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:373:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:380:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7900/test7900.java:401:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

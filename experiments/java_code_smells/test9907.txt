@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test9907/test9907.java:86:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9907/test9907.java:105:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9907/test9907.java:125:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9907/test9907.java:140:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test9907/test9907.java:154:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9907/test9907.java:169:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

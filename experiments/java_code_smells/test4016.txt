@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test4016/test4016.java:24:	UnnecessaryImport:	Unused static import 'com.github.javaparser.symbolsolver.javaparser.Navigator.demandParentNode'
+/home/arnaik/code-review-test-projects/java/test4016/test4016.java:25:	UnnecessaryImport:	Unused static import 'com.github.javaparser.symbolsolver.model.resolution.SymbolReference.solved'
+/home/arnaik/code-review-test-projects/java/test4016/test4016.java:26:	UnnecessaryImport:	Unused static import 'com.github.javaparser.symbolsolver.model.resolution.SymbolReference.unsolved'
+/home/arnaik/code-review-test-projects/java/test4016/test4016.java:105:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test4016/test4016.java:275:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'JavaParserFacade': 'get' is already in scope
+/home/arnaik/code-review-test-projects/java/test4016/test4016.java:300:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'JavaParserFacade': 'get' is already in scope
+/home/arnaik/code-review-test-projects/java/test4016/test4016.java:550:	ControlStatementBraces:	This statement should have braces

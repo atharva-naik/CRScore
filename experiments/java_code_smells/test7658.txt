@@ -1,0 +1,14 @@
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:42:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:51:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:58:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FlatteningConfig': 'createFlatteningFromConfigProto' is already in scope
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:71:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:74:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:86:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:93:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:96:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:119:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:131:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:140:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FlatteningConfig': 'createFlatteningFromProtoFile' is already in scope
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:161:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:242:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7658/test7658.java:299:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead

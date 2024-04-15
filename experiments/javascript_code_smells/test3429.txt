@@ -1,0 +1,687 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 12, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 13, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 30, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 31, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 35, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 36, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 40, col 10, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 41, col 10, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 44, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 51, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 52, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 52, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 57, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 59, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 60, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 62, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 63, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 64, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 65, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 66, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 67, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 69, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 74, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 75, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 85, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 86, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 89, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 90, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 91, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 93, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 104, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 106, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 106, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 108, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 108, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 152, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 186, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 186, col 65, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 211, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 222, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 280, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 297, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 314, col 25, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 328, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 342, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 342, col 57, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 355, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 364, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 381, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 381, col 61, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 394, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 400, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 419, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 431, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 443, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 446, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 467, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 478, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 482, col 36, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 489, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 492, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 505, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 521, col 26, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 522, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 526, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 544, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 570, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 575, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 585, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 600, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 609, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 655, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 658, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 673, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 688, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 689, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 713, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 733, col 10, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 734, col 25, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 736, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 759, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 760, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 792, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 792, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 795, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 810, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 833, col 10, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 834, col 25, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 836, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 861, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 888, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 888, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 905, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 906, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 907, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 931, col 10, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 932, col 25, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 935, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 986, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 986, col 11, It's not necessary to initialize 'finalError' to 'undefined'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 987, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 994, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1022, col 87, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1027, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1028, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1029, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1030, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1040, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1042, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1054, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1119, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1130, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1132, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1139, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1173, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1185, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1187, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1195, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1242, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1254, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1256, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1290, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1300, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1301, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1302, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1307, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1308, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1309, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1311, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1317, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1317, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1321, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1323, col 15, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1332, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1351, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1352, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1353, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1373, col 10, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1374, col 25, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1377, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1424, col 13, 'changeDoc' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1446, col 30, 'changeDoc' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1454, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1454, col 48, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1486, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1501, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1519, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1540, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1540, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1547, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1559, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1560, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1562, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1564, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1565, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1566, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1569, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1569, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1574, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1575, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1576, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1577, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1578, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1578, col 62, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1579, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1585, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1586, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1587, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1592, col 12, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1593, col 13, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1601, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1602, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1604, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1606, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1607, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1608, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1611, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1611, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1614, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1623, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1624, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1625, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1626, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1630, col 12, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1631, col 13, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1639, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1640, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1641, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1642, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1644, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1646, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1646, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1670, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1683, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1701, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1711, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1712, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1713, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1718, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1719, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1720, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1721, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1723, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1723, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1724, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1726, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1727, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1728, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1733, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1755, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1759, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1760, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1761, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1761, col 55, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1762, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1763, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1764, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1770, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1771, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1772, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1773, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1774, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1775, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1776, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1778, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1782, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1784, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1787, col 81, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1790, col 12, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1791, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1797, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1798, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1799, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1803, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1804, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1805, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1806, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1807, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1810, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1811, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1812, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1812, col 16, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1814, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1815, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1818, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1836, col 13, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1855, col 25, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1855, col 29, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1860, col 15, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1871, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1872, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1873, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1873, col 58, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1874, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1876, col 10, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1882, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1884, col 10, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1885, col 13, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1887, col 76, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1892, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1898, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1899, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1900, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1903, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1905, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1906, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1910, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1912, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1913, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1916, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1917, col 26, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1918, col 31, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1919, col 47, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1927, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1928, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1929, col 32, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1938, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1942, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1943, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1944, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1949, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1958, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1968, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1970, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1971, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1972, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1973, col 15, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1975, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1980, col 12, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1981, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1989, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1991, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1992, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1993, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1994, col 15, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2007, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2014, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2015, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2015, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2023, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2025, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2026, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2030, col 25, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2035, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2037, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2037, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2043, col 5, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2049, col 19, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2057, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2059, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2060, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2062, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2063, col 13, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2071, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2077, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2078, col 15, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2079, col 15, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2081, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2098, col 64, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2099, col 48, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2106, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2108, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2111, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2125, col 16, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2131, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2149, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2158, col 11, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2163, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2171, col 11, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2182, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2186, col 11, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2191, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2196, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2196, col 77, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2199, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2200, col 11, 'computed property names' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2214, col 11, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2219, col 11, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2239, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2240, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2241, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2243, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2244, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2250, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2254, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2255, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2257, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2258, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2258, col 67, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2259, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2259, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2262, col 25, Value of 'e' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2291, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2292, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2293, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2295, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2296, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2302, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2304, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2305, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2307, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2308, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2308, col 67, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2309, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2309, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2312, col 25, Value of 'e' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2325, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2326, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2327, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2329, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2330, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2333, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2334, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2335, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2339, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2340, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2341, col 15, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2341, col 63, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2341, col 75, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2342, col 15, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2343, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2352, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2356, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2357, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2359, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2366, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2367, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2368, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2370, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2371, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2374, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2375, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2379, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2380, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2381, col 15, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2381, col 63, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2382, col 15, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2383, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2392, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2396, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2397, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2399, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2404, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2405, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2406, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2408, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2409, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2412, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2416, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2417, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2418, col 15, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2419, col 15, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2420, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2429, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2433, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2434, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2436, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2437, col 34, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2449, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2450, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2451, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2453, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2453, col 34, A generator function should contain at least one yield expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2458, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2462, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2463, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2465, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2466, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2466, col 67, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2467, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2467, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2470, col 25, Value of 'e' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2497, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2498, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2499, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2501, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2502, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2505, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2506, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2507, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2511, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2512, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2513, col 15, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2513, col 63, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2513, col 75, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2514, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2520, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2524, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2525, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2527, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2534, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2535, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2536, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2538, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2539, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2542, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2543, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2547, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2548, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2549, col 15, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2549, col 63, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2550, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2556, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2560, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2561, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2563, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2568, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2569, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2570, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2572, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2573, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2576, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2580, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2581, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2582, col 15, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2583, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2589, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2593, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2594, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2596, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2597, col 34, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2611, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2612, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2613, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2615, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2616, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2619, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2620, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2621, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2625, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2626, col 47, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2626, col 59, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2628, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2629, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2637, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2638, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2640, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2641, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2641, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2644, col 25, Value of 'e' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2674, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2675, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2676, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2678, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2679, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2682, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2683, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2684, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2688, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2689, col 47, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2689, col 59, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2691, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2692, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2700, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2701, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2703, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2704, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2704, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2707, col 25, Value of 'e' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2722, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2723, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2724, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2726, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2727, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2730, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2731, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2732, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2736, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2737, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2737, col 61, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2737, col 73, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2738, col 13, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2739, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2750, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2751, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2753, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2760, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2761, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2762, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2764, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2765, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2768, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2769, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2773, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2774, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2774, col 61, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2775, col 13, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2776, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2787, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2788, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2790, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2795, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2796, col 23, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2797, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2799, col 21, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2800, col 13, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2803, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2807, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2808, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2809, col 13, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2810, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2821, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2822, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2824, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2825, col 34, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 3, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 4, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 5, col 25, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 6, col 31, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 7, col 21, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 8, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 9, col 10, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 10, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 11, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 13, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 15, col 10, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1301, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1462, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1500, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 24, col 1, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1937, col 3, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2042, col 3, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2237, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2289, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2447, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2495, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2609, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2672, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 25, col 3, 'before' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 29, col 3, 'beforeEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1947, col 5, 'beforeEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 44, col 3, 'afterEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1955, col 5, 'afterEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 46, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 80, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 144, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 205, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 291, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 320, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 349, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 388, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 425, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 459, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 499, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 538, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 594, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 649, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 702, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 800, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 895, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1034, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1124, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1179, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1247, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1295, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1341, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1494, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1556, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1598, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1636, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1796, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1895, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1964, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1986, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2011, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2238, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2290, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2324, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2365, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2403, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2448, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2496, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2533, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2567, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2610, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2673, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2721, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2759, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2794, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 74, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 222, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 364, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 400, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 446, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 478, col 11, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 526, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 575, col 11, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 585, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 609, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 673, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1054, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1139, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1195, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1332, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1547, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1927, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2030, col 13, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2037, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 228, col 9, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 234, col 20, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 246, col 20, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 274, col 20, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 660, col 20, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1022, col 22, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1286, col 16, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1725, col 9, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1802, col 14, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1807, col 26, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1884, col 15, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1941, col 14, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1969, col 18, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1979, col 16, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 1980, col 17, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2106, col 23, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2340, col 24, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2380, col 24, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2417, col 24, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2512, col 24, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2548, col 24, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2581, col 24, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3429/test3429.js: line 2046, col 28, 'Set' is not defined.
+
+685 errors

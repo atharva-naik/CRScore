@@ -1,0 +1,16 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 1, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 1, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 6, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 6, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 7, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 8, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 8, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 9, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 9, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 10, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 11, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3033/test3033.js: line 11, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+14 errors

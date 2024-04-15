@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6459/test6459.java:36:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6459/test6459.java:44:	UnusedPrivateField:	Avoid unused private fields such as 'SAMPLE_CSPROJ_TEMPLATE_FILENAME'.

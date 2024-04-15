@@ -1,0 +1,8 @@
+/home/arnaik/code-review-test-projects/java/test8469/test8469.java:45:	UnusedPrivateField:	Avoid unused private fields such as 'highPriorityTag'.
+/home/arnaik/code-review-test-projects/java/test8469/test8469.java:46:	UnusedPrivateField:	Avoid unused private fields such as 'xPriorityContent'.
+/home/arnaik/code-review-test-projects/java/test8469/test8469.java:310:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8469/test8469.java:311:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8469/test8469.java:330:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8469/test8469.java:364:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test8469/test8469.java:369:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test8469/test8469.java:374:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable

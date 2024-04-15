@@ -1,0 +1,58 @@
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:1:	PackageCase:	Package name contains upper case characters
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:109:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'handler' in a constructor.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:113:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'mWakeLock' in a constructor.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:137:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:146:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:152:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:185:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'NSClientService': 'mWakeLock' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:189:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:190:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:199:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:224:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'NSClientService': 'mWakeLock' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:273:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:274:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:275:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:306:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:334:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:340:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:361:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:370:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:398:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:400:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:423:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:425:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:432:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'NSClientService': 'handler' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:446:	UnusedLocalVariable:	Avoid unused local variables such as 'isFull'.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:505:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:515:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:519:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:521:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:523:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:554:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:564:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:568:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:570:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:572:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:600:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:611:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:622:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:633:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:638:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:660:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:674:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:688:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:711:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:723:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:738:	UnusedPrivateMethod:	Avoid unused private methods such as 'isCurrent(NSTreatment)'.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:739:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:742:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:745:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:745:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:751:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:753:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:758:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:761:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:775:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:778:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:781:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7798/test7798.java:784:	LiteralsFirstInComparisons:	Position literals first in String comparisons

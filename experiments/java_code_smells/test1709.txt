@@ -1,0 +1,35 @@
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:19:	UnnecessaryImport:	Unused static import 'org.apache.lucene.analysis.hunspell.AffixKind.*'
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:92:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:152:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:155:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:158:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:159:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:160:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:161:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:162:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:177:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:178:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:334:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:335:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:356:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:370:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:537:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:555:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:565:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:575:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:644:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:670:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:683:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:699:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:778:	FormalParameterNamingConventions:	The lambda parameter name '__' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:797:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:820:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:991:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:992:	CloseResource:	Ensure that resources like this BufferedReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:1028:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:1215:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:1445:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:1453:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:1464:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:1494:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test1709/test1709.java:1628:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

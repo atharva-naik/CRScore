@@ -1,0 +1,80 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 17, col 1, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 17, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 17, col 29, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 19, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 19, col 11, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 19, col 12, Expected '(string)' and instead saw 'openqa'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 19, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 19, col 18, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 19, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 19, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 19, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 20, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 20, col 8, 'org' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 20, col 11, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 20, col 12, Expected '(string)' and instead saw 'openqa'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 20, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 20, col 18, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 20, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 20, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 20, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 21, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 21, col 8, 'org' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 21, col 11, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 21, col 12, Expected '(string)' and instead saw 'openqa'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 21, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 21, col 18, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 21, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 21, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 21, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 22, col 8, 'org' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 22, col 11, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 22, col 12, Expected '(string)' and instead saw 'openqa'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 22, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 22, col 18, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 22, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 22, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 22, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 23, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 23, col 8, 'org' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 23, col 11, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 23, col 12, Expected '(string)' and instead saw 'openqa'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 23, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 23, col 18, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 23, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 23, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 23, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 24, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 24, col 8, 'org' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 24, col 11, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 24, col 12, Expected '(string)' and instead saw 'openqa'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 24, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 24, col 18, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 24, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 24, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 24, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 25, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 25, col 8, 'org' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 25, col 11, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 25, col 12, Expected '(string)' and instead saw 'openqa'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 25, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 25, col 18, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 25, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 25, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 25, col 37, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 34, col 1, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 34, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 34, col 8, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 35, col 13, Class properties must be methods. Expected '(' but instead saw 'Mouse'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 44, col 29, Expected ')' to match '(' from line 44 and instead saw 'driver'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 45, col 28, Expected ')' to match '(' from line 45 and instead saw 'driver'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 45, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 45, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 45, col 34, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 45, col 35, Expected an operator and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 45, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 45, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7433/test7433.js: line 45, col 36, Too many errors. (12% scanned).
+
+78 errors

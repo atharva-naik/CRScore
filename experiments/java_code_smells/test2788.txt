@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:183:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:227:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:360:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:430:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:482:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:621:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:763:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:765:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:957:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:966:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:1036:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:1086:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2788/test2788.java:1087:	UselessParentheses:	Useless parentheses.

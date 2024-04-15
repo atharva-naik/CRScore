@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test7260/test7260.java:31:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7260/test7260.java:85:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'snapshotIds'

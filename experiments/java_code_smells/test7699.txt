@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test7699/test7699.java:13:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7699/test7699.java:14:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test7699/test7699.java:18:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DispatchMethod': 'PUSH' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test7699/test7699.java:23:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DispatchMethod': 'getDispatchMethod' is already in scope
+/home/arnaik/code-review-test-projects/java/test7699/test7699.java:23:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DispatchMethod': 'POLL' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test7699/test7699.java:27:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DispatchMethod': 'getDispatchMethod' is already in scope
+/home/arnaik/code-review-test-projects/java/test7699/test7699.java:27:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DispatchMethod': 'PUSH' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test7699/test7699.java:31:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DispatchMethod': 'getDispatchMethod' is already in scope
+/home/arnaik/code-review-test-projects/java/test7699/test7699.java:31:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DispatchMethod': 'PUSH_CONTAINERIZED' is already in scope because it is declared in an enclosing type

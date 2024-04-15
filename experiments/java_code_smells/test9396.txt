@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test9396/test9396.java:41:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9396/test9396.java:42:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9396/test9396.java:43:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9396/test9396.java:94:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9396/test9396.java:97:	CloseResource:	Ensure that resources like this ResultSet object are closed after use
+/home/arnaik/code-review-test-projects/java/test9396/test9396.java:101:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

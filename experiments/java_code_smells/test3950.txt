@@ -1,0 +1,31 @@
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:35:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:39:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:89:	DoNotCallGarbageCollectionExplicitly:	Do not explicitly trigger a garbage collection.
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:124:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:126:	ClassNamingConventions:	The class name 'recyclerView' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:126:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:152:	ClassNamingConventions:	The class name 'viewHolder' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:161:	ClassNamingConventions:	The class name 'asyncFrame' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:161:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:183:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:195:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:195:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:201:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:201:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:202:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:202:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:235:	LocalVariableNamingConventions:	The local variable name 'point_x' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:236:	LocalVariableNamingConventions:	The local variable name 'point_y' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:237:	LocalVariableNamingConventions:	The local variable name 'width_off' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:238:	LocalVariableNamingConventions:	The local variable name 'height_off' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:256:	LocalVariableNamingConventions:	The local variable name 'point_x' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:257:	LocalVariableNamingConventions:	The local variable name 'point_y' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:258:	LocalVariableNamingConventions:	The local variable name 'width_off' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:259:	LocalVariableNamingConventions:	The local variable name 'height_off' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:277:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:279:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:299:	ClassNamingConventions:	The class name 'asyncThumbs' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:299:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:309:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:324:	LocalVariableNamingConventions:	The exception block parameter name 'IOE' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3950/test3950.java:333:	ControlStatementBraces:	This statement should have braces

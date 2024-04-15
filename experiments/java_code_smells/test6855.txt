@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test6855/test6855.java:24:	UnnecessaryImport:	Unused import 'com.github.javaparser.*'
+/home/arnaik/code-review-test-projects/java/test6855/test6855.java:32:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.expr.*'
+/home/arnaik/code-review-test-projects/java/test6855/test6855.java:33:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.stmt.*'
+/home/arnaik/code-review-test-projects/java/test6855/test6855.java:47:	UnnecessaryImport:	Unused import 'com.github.javaparser.symbolsolver.resolution.typesolvers.*'
+/home/arnaik/code-review-test-projects/java/test6855/test6855.java:57:	UnnecessaryImport:	Unused static import 'org.junit.jupiter.api.Assertions.assertEquals'
+/home/arnaik/code-review-test-projects/java/test6855/test6855.java:58:	UnnecessaryImport:	Unused static import 'org.junit.jupiter.api.Assertions.assertTrue'
+/home/arnaik/code-review-test-projects/java/test6855/test6855.java:59:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.mock'
+/home/arnaik/code-review-test-projects/java/test6855/test6855.java:60:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.when'
+/home/arnaik/code-review-test-projects/java/test6855/test6855.java:591:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6855/test6855.java:599:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'root'

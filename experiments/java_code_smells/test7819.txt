@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test7819/test7819.java:40:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test7819/test7819.java:41:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7819/test7819.java:45:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7819/test7819.java:338:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test7819/test7819.java:431:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test7819/test7819.java:442:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7819/test7819.java:454:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7819/test7819.java:470:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7819/test7819.java:481:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

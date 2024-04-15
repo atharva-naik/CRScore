@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test6511/test6511.java:100:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test6511/test6511.java:184:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test6511/test6511.java:187:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test6511/test6511.java:442:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6511/test6511.java:444:	LiteralsFirstInComparisons:	Position literals first in String comparisons

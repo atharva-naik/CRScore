@@ -1,0 +1,5 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test749/test749.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test749/test749.js: line 9, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test749/test749.js: line 251, col 6, Unrecoverable syntax error. (98% scanned).
+
+3 errors

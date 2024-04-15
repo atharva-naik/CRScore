@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test1145/test1145.java:63:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1145/test1145.java:71:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1145/test1145.java:99:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1145/test1145.java:110:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1145/test1145.java:208:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

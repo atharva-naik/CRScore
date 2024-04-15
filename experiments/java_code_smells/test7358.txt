@@ -1,0 +1,17 @@
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:124:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:223:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getKey': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:308:	NonThreadSafeSingleton:	Singleton is not thread safe
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:342:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'init' is already in scope
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:356:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'init' is already in scope
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:514:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:625:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:676:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:677:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:686:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:770:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'decryptWithPasscode' is already in scope
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:772:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'decryptWithPasscode' is already in scope
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:774:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'decryptWithPasscode' is already in scope
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:884:	IdenticalCatchBranches:	'catch' branch identical to 'NameNotFoundException' branch
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:944:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'INSTANCE' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:955:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'INSTANCE' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test7358/test7358.java:966:	UnusedPrivateField:	Avoid unused private fields such as 'clientId'.

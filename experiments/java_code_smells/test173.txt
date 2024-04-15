@@ -1,0 +1,18 @@
+/home/arnaik/code-review-test-projects/java/test173/test173.java:7:	UnnecessaryImport:	Unused static import 'net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution.getApplicableMethods'
+/home/arnaik/code-review-test-projects/java/test173/test173.java:8:	UnnecessaryImport:	Unused static import 'net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution.getBestMethodReturnType'
+/home/arnaik/code-review-test-projects/java/test173/test173.java:9:	UnnecessaryImport:	Unused static import 'net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution.getMethodExplicitTypeArugments'
+/home/arnaik/code-review-test-projects/java/test173/test173.java:10:	UnnecessaryImport:	Unused static import 'net.sourceforge.pmd.lang.java.typeresolution.MethodTypeResolution.isMemberVisibleFromClass'
+/home/arnaik/code-review-test-projects/java/test173/test173.java:11:	UnnecessaryImport:	Unused static import 'net.sourceforge.pmd.lang.java.typeresolution.typedefinition.TypeDefinitionType.LOWER_WILDCARD'
+/home/arnaik/code-review-test-projects/java/test173/test173.java:12:	UnnecessaryImport:	Unused static import 'net.sourceforge.pmd.lang.java.typeresolution.typedefinition.TypeDefinitionType.UPPER_BOUND'
+/home/arnaik/code-review-test-projects/java/test173/test173.java:13:	UnnecessaryImport:	Unused static import 'net.sourceforge.pmd.lang.java.typeresolution.typedefinition.TypeDefinitionType.UPPER_WILDCARD'
+/home/arnaik/code-review-test-projects/java/test173/test173.java:636:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test173/test173.java:719:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test173/test173.java:867:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test173/test173.java:881:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test173/test173.java:1039:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test173/test173.java:1272:	IdenticalCatchBranches:	'catch' branch identical to 'ClassNotFoundException' branch
+/home/arnaik/code-review-test-projects/java/test173/test173.java:1283:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test173/test173.java:1291:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test173/test173.java:1345:	IdenticalCatchBranches:	'catch' branch identical to 'ClassNotFoundException' branch
+/home/arnaik/code-review-test-projects/java/test173/test173.java:1362:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test173/test173.java:1362:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.

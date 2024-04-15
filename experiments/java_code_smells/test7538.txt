@@ -1,0 +1,16 @@
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:33:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:35:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:37:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:38:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:41:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:46:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:47:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:78:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:99:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:186:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:194:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:201:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:236:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:250:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:257:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7538/test7538.java:340:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

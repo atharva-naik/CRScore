@@ -1,0 +1,77 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 27, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 28, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 30, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 31, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 32, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 44, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 46, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 50, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 55, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 56, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 57, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 58, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 63, col 47, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 63, col 54, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 64, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 64, col 17, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 69, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 70, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 71, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 75, col 53, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 75, col 60, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 76, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 76, col 17, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 83, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 84, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 85, col 72, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 85, col 79, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 91, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 94, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 101, col 84, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 101, col 91, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 103, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 109, col 95, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 111, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 112, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 112, col 83, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 120, col 81, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 122, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 123, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 123, col 83, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 130, col 78, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 132, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 138, col 31, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 139, col 77, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 139, col 84, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 146, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 148, col 22, 'Trailing comma in arguments lists' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 151, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 157, col 84, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 157, col 91, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 160, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 162, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 162, col 17, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 168, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 169, col 87, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 169, col 94, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 175, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 177, col 22, 'Trailing comma in arguments lists' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 179, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 185, col 84, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 185, col 91, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 188, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 190, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 190, col 17, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 201, col 14, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 201, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 202, col 112, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 202, col 119, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 208, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 210, col 22, 'Trailing comma in arguments lists' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 213, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 217, col 84, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 217, col 91, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7378/test7378.js: line 220, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+75 errors

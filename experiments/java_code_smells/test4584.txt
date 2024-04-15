@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test4584/test4584.java:93:	UnusedPrivateField:	Avoid unused private fields such as 'pathTemplateTransformer'.
+/home/arnaik/code-review-test-projects/java/test4584/test4584.java:293:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4584/test4584.java:294:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4584/test4584.java:296:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4584/test4584.java:299:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4584/test4584.java:358:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4584/test4584.java:369:	LooseCoupling:	Avoid using implementation types like 'EnumSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4584/test4584.java:403:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4584/test4584.java:405:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead

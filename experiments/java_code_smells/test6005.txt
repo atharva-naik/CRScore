@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test6005/test6005.java	-	LexException: Lexical error in file '/home/arnaik/code-review-test-projects/java/test6005/test6005.java' at line 1, column 1: "#" (35), after : "" (in lexical state DEFAULT)

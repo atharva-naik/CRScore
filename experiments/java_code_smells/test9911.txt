@@ -1,0 +1,251 @@
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:19:	UnnecessaryImport:	Unused import 'com.yahoo.athenz.auth.*'
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:41:	UnnecessaryImport:	Unused import 'com.yahoo.athenz.zms.notification.*'
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:79:	UnnecessaryImport:	Unused static import 'com.yahoo.athenz.common.ServerCommonConsts.USER_DOMAIN_PREFIX'
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:80:	UnnecessaryImport:	Unused static import 'com.yahoo.athenz.common.server.notification.NotificationServiceConstants.*'
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:196:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:204:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:210:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:225:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:233:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:239:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:245:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:251:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:260:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:271:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:285:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:291:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:302:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:313:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:326:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:338:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:350:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:358:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:372:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:379:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:393:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:399:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:409:	MissingOverride:	The method 'convertToLowerCase(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:435:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'serverHostName' in a constructor.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:435:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ZMSImpl': 'serverHostName' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:632:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:636:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:703:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:705:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:728:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:730:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:735:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ZMSImpl': 'metric' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:747:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:749:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:815:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:817:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:834:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:836:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:886:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:909:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:925:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:935:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1027:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1030:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1033:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1037:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1054:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1094:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1127:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1170:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1214:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1306:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1380:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1425:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1520:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1521:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1558:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1612:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1613:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1647:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1699:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1773:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1774:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1839:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1875:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1886:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1925:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1926:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1977:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:1978:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2221:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2223:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2225:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2281:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2368:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2369:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2371:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2374:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2464:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2465:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2495:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2524:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2525:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2561:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2562:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2615:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2648:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2687:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2689:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2756:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2789:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2817:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2818:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2934:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:2935:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3141:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3142:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3157:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3168:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3186:	LogicInversion:	Use opposite operator instead of the logic complement operator.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3198:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3221:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3222:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3223:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3250:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3387:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3388:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3389:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3587:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3588:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3589:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3637:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3638:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3639:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3668:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3701:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3742:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3823:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3825:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3878:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3911:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3912:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3944:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3945:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3989:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:3990:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4002:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4035:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4036:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4047:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4085:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4160:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4161:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4173:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4216:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4217:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4228:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4324:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4475:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4493:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4525:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4537:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4580:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4581:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4638:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4639:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4640:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4681:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4682:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4719:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4720:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4779:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4813:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4815:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4848:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4849:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4850:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4887:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4888:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4889:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4926:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4927:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:4928:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5011:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5154:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5158:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5237:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5300:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5408:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5474:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5506:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5666:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5667:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5748:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5749:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5812:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5813:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5814:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5871:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5872:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5873:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5896:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5921:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5921:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5943:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5943:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5973:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5974:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5975:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:5976:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6030:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6327:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6328:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6329:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6330:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6377:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6378:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6379:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6380:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6487:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6488:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6489:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6490:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6593:	AvoidBranchingStatementAsLastInLoop:	Avoid using a branching statement as the last in a loop.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6616:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6617:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6618:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6619:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6686:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6687:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6688:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6689:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6762:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6805:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6855:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6878:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6879:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6880:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:6953:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7051:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7140:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7245:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7258:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7283:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7295:	AvoidBranchingStatementAsLastInLoop:	Avoid using a branching statement as the last in a loop.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7321:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7332:	AvoidBranchingStatementAsLastInLoop:	Avoid using a branching statement as the last in a loop.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7366:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7370:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7463:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.net': 'InetAddress' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7466:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7482:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7490:	NonThreadSafeSingleton:	Singleton is not thread safe
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7537:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7538:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7539:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7590:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7591:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7639:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7640:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7641:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7749:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7809:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7827:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7883:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7917:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9911/test9911.java:7918:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale

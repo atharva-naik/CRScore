@@ -1,0 +1,14 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 52, col 20, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 52, col 50, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 52, col 76, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 3, col 27, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 4, col 33, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 7, col 38, 'Set' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 52, col 1, 'module' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8447/test8447.js: line 52, col 20, 'GET_MORE_NON_RESUMABLE_CODES' is not defined.
+
+12 errors

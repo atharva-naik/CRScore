@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test8698/test8698.java:19:	UnnecessaryImport:	Unused static import 'azkaban.ServiceProvider.SERVICE_PROVIDER'
+/home/arnaik/code-review-test-projects/java/test8698/test8698.java:25:	UnnecessaryImport:	Unused import 'javax.inject.Inject'

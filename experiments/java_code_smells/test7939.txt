@@ -1,0 +1,24 @@
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:18:	UnnecessaryImport:	Unused static import 'azkaban.Constants.ImageMgmtConstants.AZKABAN_CONFIG'
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:19:	UnnecessaryImport:	Unused static import 'azkaban.Constants.ImageMgmtConstants.AZKABAN_BASE_IMAGE'
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:212:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:246:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:263:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:263:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:414:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:492:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:493:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:495:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'pod'
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:520:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:521:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:548:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:573:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:582:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:595:	UnusedFormalParameter:	Avoid unused method parameters such as 'executionId'.
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:611:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:629:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:630:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:675:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:678:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:709:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:732:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7939/test7939.java:738:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

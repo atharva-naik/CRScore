@@ -1,0 +1,6 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test10023/test10023.js: line 1469, col 32, A leading decimal point can be confused with a dot: '.2'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10023/test10023.js: line 1980, col 21, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10023/test10023.js: line 3286, col 54, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10023/test10023.js: line 3286, col 61, Expected an assignment or function call and instead saw an expression.
+
+4 errors

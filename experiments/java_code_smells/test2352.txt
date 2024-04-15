@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test2352/test2352.java:118:	CloseResource:	Ensure that resources like this Connection object are closed after use

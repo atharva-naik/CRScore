@@ -1,0 +1,131 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 76, col 23, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 165, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 854, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 941, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1008, col 9, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1016, col 9, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1020, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1044, col 38, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1042, col 32, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (promise, count, arr)
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1129, col 7, 'options' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1130, col 7, 'fields' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1140, col 9, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1149, col 9, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1152, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1155, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1200, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1252, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1263, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1311, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1363, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1463, col 5, Comma warnings can be turned off with 'laxcomma'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1462, col 20, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1463, col 37, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1464, col 14, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1465, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1466, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1467, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1500, col 7, 'self' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1522, col 9, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1531, col 9, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1537, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1682, col 33, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1687, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1726, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1739, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1747, col 12, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1748, col 15, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1749, col 16, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1759, col 11, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1760, col 13, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1762, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1775, col 28, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1776, col 15, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1777, col 14, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1778, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1779, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1829, col 15, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1815, col 5, 'op' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1816, col 15, 'op' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1818, col 44, 'op' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1828, col 54, 'op' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1835, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1849, col 36, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1850, col 29, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1851, col 16, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1852, col 17, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1853, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1854, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1855, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1858, col 5, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1885, col 14, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1904, col 9, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1924, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1940, col 7, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1941, col 12, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1959, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 1960, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2038, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2054, col 33, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2056, col 22, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2057, col 30, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2058, col 17, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2059, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2060, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2061, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2062, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2063, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2071, col 19, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2104, col 35, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2105, col 23, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2106, col 13, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2107, col 13, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2108, col 13, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2147, col 64, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2156, col 27, Misleading line break before '||'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2157, col 27, Misleading line break before '||'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2158, col 27, Misleading line break before '||'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2178, col 22, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (utils, numbertype)
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2215, col 35, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2216, col 15, 'k' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2216, col 22, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2251, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2265, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2266, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2267, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2268, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2269, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2270, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2281, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2305, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2315, col 21, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2316, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2317, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2318, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2334, col 19, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2335, col 19, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2342, col 63, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2345, col 56, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2350, col 63, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2354, col 15, Did you mean to return a conditional instead of an assignment?
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2357, col 27, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2390, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2391, col 6, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2399, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2413, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2414, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2415, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2416, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2417, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2418, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2429, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2453, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2492, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2539, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2683, col 9, Misleading line break before '&&'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2694, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2720, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2774, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4581/test4581.js: line 2848, col 2, Missing semicolon.
+
+129 errors

@@ -1,0 +1,86 @@
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:46:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.util.JsfHelper.JH'
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:121:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:126:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:230:	SingularField:	Perhaps 'protocol' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:231:	SingularField:	Perhaps 'authority' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:232:	SingularField:	Perhaps 'customFields' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:376:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:494:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:500:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:530:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:554:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:579:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:598:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:682:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:890:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1275:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1278:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1286:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1302:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1318:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1337:	UnusedPrivateMethod:	Avoid unused private methods such as 'msg(String)'.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1337:	UnusedFormalParameter:	Avoid unused method parameters such as 's'.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1348:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1403:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1407:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1410:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1415:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1421:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1427:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1429:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1457:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1458:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1465:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1518:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1528:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1530:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1586:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1784:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1786:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1893:	UnusedLocalVariable:	Avoid unused local variables such as 'datasetv'.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1900:	UnusedLocalVariable:	Avoid unused local variables such as 'datasetv'.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1904:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1913:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1914:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1980:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:1996:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2076:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2089:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2103:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2344:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2527:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2597:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2602:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2611:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2624:	UnusedLocalVariable:	Avoid unused local variables such as 'filesAdded'.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2686:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2750:	UnusedPrivateMethod:	Avoid unused private methods such as 'getClient()'.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2817:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2825:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2841:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:2855:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3194:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'metaURL'
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3201:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'dataURL'
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3241:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3241:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3257:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3262:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3368:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3487:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3560:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3583:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3604:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3620:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3716:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3746:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3757:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3763:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:3836:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:4070:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:4081:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:4134:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:4153:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:4163:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:4169:	UnusedLocalVariable:	Avoid unused local variables such as 'bibFormatDowload'.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:4196:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4913/test4913.java:4280:	EmptyCatchBlock:	Avoid empty catch blocks

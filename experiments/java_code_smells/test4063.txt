@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test4063/test4063.java:22:	UnnecessaryImport:	Unused import 'javax.ws.rs.core.MediaType'
+/home/arnaik/code-review-test-projects/java/test4063/test4063.java:24:	UnnecessaryImport:	Unused import 'org.springframework.web.bind.annotation.RequestBody'
+/home/arnaik/code-review-test-projects/java/test4063/test4063.java:25:	UnnecessaryImport:	Unused import 'org.springframework.web.bind.annotation.RequestMapping'
+/home/arnaik/code-review-test-projects/java/test4063/test4063.java:26:	UnnecessaryImport:	Unused import 'org.springframework.web.bind.annotation.RequestMethod'
+/home/arnaik/code-review-test-projects/java/test4063/test4063.java:27:	UnnecessaryImport:	Unused import 'org.springframework.web.bind.annotation.RequestParam'
+/home/arnaik/code-review-test-projects/java/test4063/test4063.java:28:	UnnecessaryImport:	Unused import 'org.springframework.web.bind.annotation.ResponseBody'
+/home/arnaik/code-review-test-projects/java/test4063/test4063.java:53:	UnusedFormalParameter:	Avoid unused method parameters such as 'data'.

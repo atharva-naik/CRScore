@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test10085/test10085.java:39:	UnnecessaryImport:	Unused import 'net.runelite.api.util.Text'
+/home/arnaik/code-review-test-projects/java/test10085/test10085.java:125:	UnusedPrivateMethod:	Avoid unused private methods such as 'onGameTick(GameTick)'.
+/home/arnaik/code-review-test-projects/java/test10085/test10085.java:125:	UnusedFormalParameter:	Avoid unused method parameters such as 'event'.
+/home/arnaik/code-review-test-projects/java/test10085/test10085.java:128:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test10085/test10085.java:188:	UnusedPrivateMethod:	Avoid unused private methods such as 'onConfigChanged(ConfigChanged)'.
+/home/arnaik/code-review-test-projects/java/test10085/test10085.java:190:	LiteralsFirstInComparisons:	Position literals first in String comparisons

@@ -1,0 +1,67 @@
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:103:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:106:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:108:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:110:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:112:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:115:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:117:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:119:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:128:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:173:	IdenticalCatchBranches:	'catch' branch identical to 'ServletException' branch
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:180:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:191:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:191:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:192:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:196:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:199:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:200:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:207:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:224:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:238:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:238:	UnusedFormalParameter:	Avoid unused method parameters such as 'user'.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:263:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:288:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:300:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:307:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:321:	IdenticalCatchBranches:	'catch' branch identical to 'ServletException' branch
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:385:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:388:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:390:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:392:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:397:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:397:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:398:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:400:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:406:	UnusedFormalParameter:	Avoid unused method parameters such as 'req'.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:407:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:407:	UnusedFormalParameter:	Avoid unused method parameters such as 'user'.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:415:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:416:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:418:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:419:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:431:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:436:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:462:	UnusedFormalParameter:	Avoid unused method parameters such as 'user'.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:491:	CloseResource:	Ensure that resources like this BufferedInputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:514:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:515:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:516:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:536:	CloseResource:	Ensure that resources like this BufferedOutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:539:	CloseResource:	Ensure that resources like this OutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:552:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:554:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:604:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:613:	UnnecessaryReturn:	Unnecessary return statement
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:617:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:658:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:681:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:698:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:740:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:762:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:778:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:781:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:795:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:797:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'firstSchedTime'
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:807:	UnusedPrivateMethod:	Avoid unused private methods such as 'parseTimeZone(String)'.
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:808:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5588/test5588.java:809:	ControlStatementBraces:	This statement should have braces

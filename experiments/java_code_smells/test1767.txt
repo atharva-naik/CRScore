@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test1767/test1767.java:36:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.PartitionSpec.builderFor'
+/home/arnaik/code-review-test-projects/java/test1767/test1767.java:37:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableMetadataParser.getFileExtension'
+/home/arnaik/code-review-test-projects/java/test1767/test1767.java:38:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.optional'
+/home/arnaik/code-review-test-projects/java/test1767/test1767.java:39:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.required'

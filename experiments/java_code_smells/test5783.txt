@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test5783/test5783.java:38:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.JSON'
+/home/arnaik/code-review-test-projects/java/test5783/test5783.java:39:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.SORT'
+/home/arnaik/code-review-test-projects/java/test5783/test5783.java:41:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test5783/test5783.java:170:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5783/test5783.java:277:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test5783/test5783.java:299:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5783/test5783.java:328:	UnnecessaryReturn:	Unnecessary return statement

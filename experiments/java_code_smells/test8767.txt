@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test8767/test8767.java:225:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8767/test8767.java:355:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test8767/test8767.java:455:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8767/test8767.java:510:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8767/test8767.java:513:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you

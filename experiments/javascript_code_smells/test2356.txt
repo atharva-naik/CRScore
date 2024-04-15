@@ -1,0 +1,17 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 9, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 20, col 1, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 24, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 28, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 33, col 97, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 34, col 16, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 34, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 36, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 55, col 17, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 55, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 71, col 16, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 71, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 76, col 114, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2356/test2356.js: line 76, col 121, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
+15 errors

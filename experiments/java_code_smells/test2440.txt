@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test2440/test2440.java:31:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.expr.*'
+/home/arnaik/code-review-test-projects/java/test2440/test2440.java:45:	UnnecessaryImport:	Unused static import 'com.github.javaparser.ParseStart.*'
+/home/arnaik/code-review-test-projects/java/test2440/test2440.java:46:	UnnecessaryImport:	Unused static import 'com.github.javaparser.Problem.PROBLEM_BY_BEGIN_POSITION'
+/home/arnaik/code-review-test-projects/java/test2440/test2440.java:47:	UnnecessaryImport:	Unused static import 'com.github.javaparser.Providers.*'
+/home/arnaik/code-review-test-projects/java/test2440/test2440.java:48:	UnnecessaryImport:	Unused static import 'com.github.javaparser.utils.Utils.assertNotNull'
+/home/arnaik/code-review-test-projects/java/test2440/test2440.java:48:	UnnecessaryImport:	Unused import 'org.apache.log4j.Logger'
+/home/arnaik/code-review-test-projects/java/test2440/test2440.java:132:	EmptyCatchBlock:	Avoid empty catch blocks

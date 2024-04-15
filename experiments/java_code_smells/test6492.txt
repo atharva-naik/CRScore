@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test6492/test6492.java:54:	AvoidStringBufferField:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+/home/arnaik/code-review-test-projects/java/test6492/test6492.java:54:	AvoidMessageDigestField:	You shouldnt declare field of MessageDigest type, because unsynchronized access could cause problems
+/home/arnaik/code-review-test-projects/java/test6492/test6492.java:54:	ProperLogger:	Logger should be defined private static final and have the correct class
+/home/arnaik/code-review-test-projects/java/test6492/test6492.java:96:	UselessOperationOnImmutable:	An operation on an Immutable object (String, BigDecimal or BigInteger) wont change the object itself
+/home/arnaik/code-review-test-projects/java/test6492/test6492.java:101:	UselessOperationOnImmutable:	An operation on an Immutable object (String, BigDecimal or BigInteger) wont change the object itself
+/home/arnaik/code-review-test-projects/java/test6492/test6492.java:239:	UselessOperationOnImmutable:	An operation on an Immutable object (String, BigDecimal or BigInteger) wont change the object itself

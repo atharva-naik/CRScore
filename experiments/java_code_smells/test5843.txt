@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test5843/test5843.java:32:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'id'.
+/home/arnaik/code-review-test-projects/java/test5843/test5843.java:36:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'id'.
+/home/arnaik/code-review-test-projects/java/test5843/test5843.java:57:	LiteralsFirstInComparisons:	Position literals first in String comparisons

@@ -1,0 +1,7 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1575/test1575.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1575/test1575.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1575/test1575.js: line 4, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1575/test1575.js: line 5, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1575/test1575.js: line 9, col 29, Expected an assignment or function call and instead saw an expression.
+
+5 errors

@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test5135/test5135.java:17:	UnnecessaryImport:	Unused static import 'org.web3j.utils.Convert.Unit.ETHER'
+/home/arnaik/code-review-test-projects/java/test5135/test5135.java:18:	UnnecessaryImport:	Unused static import 'org.web3j.utils.Convert.Unit.WEI'
+/home/arnaik/code-review-test-projects/java/test5135/test5135.java:26:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

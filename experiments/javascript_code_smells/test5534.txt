@@ -1,0 +1,6 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test5534/test5534.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5534/test5534.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5534/test5534.js: line 7, col 1, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5534/test5534.js: line 513, col 6, Unrecoverable syntax error. (99% scanned).
+
+4 errors

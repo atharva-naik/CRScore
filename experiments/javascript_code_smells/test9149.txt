@@ -1,0 +1,93 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 27, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 114, col 9, 'wrapFunc' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 133, col 20, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 116, col 31, 'wrapFunc' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 117, col 32, 'wrapFunc' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 120, col 5, 'wrapFunc' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 134, col 40, 'wrapFunc' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 135, col 39, 'wrapFunc' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 170, col 10, 'func' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 193, col 9, 'evt' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 196, col 22, 'evt' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 505, col 12, 'i' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 506, col 9, 'letter' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 540, col 12, 'i' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 541, col 9, 'letter' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 609, col 7, 'text' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 29, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 31, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 32, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 33, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 34, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 147, col 5, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 262, col 16, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 333, col 7, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 334, col 7, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 350, col 14, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 439, col 20, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 42, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 51, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 68, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 94, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 108, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 119, col 15, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 133, col 22, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 146, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 148, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 162, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 178, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 180, col 14, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 205, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 206, col 14, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 214, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 217, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 228, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 234, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 246, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 261, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 275, col 47, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 287, col 39, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 308, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 317, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 329, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 340, col 14, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 358, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 359, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 360, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 389, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 390, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 402, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 404, col 32, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 425, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 427, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 429, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 438, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 454, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 468, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 486, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 493, col 29, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 521, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 528, col 29, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 554, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 564, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 621, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 623, col 20, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 626, col 13, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 637, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 648, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 190, col 19, 'UIEvent' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 193, col 15, 'document' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 368, col 12, 'document' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 379, col 3, 'document' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 388, col 3, 'document' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 404, col 7, 'document' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 411, col 7, 'document' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 427, col 28, 'document' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 429, col 25, 'document' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 649, col 16, 'document' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 194, col 46, 'window' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 364, col 8, 'window' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 384, col 15, 'window' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9149/test9149.js: line 219, col 3, 'setTimeout' is not defined.
+
+91 errors

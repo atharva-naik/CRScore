@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test10022/test10022.java:253:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test10022/test10022.java:358:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test10022/test10022.java:615:	UnusedPrivateMethod:	Avoid unused private methods such as 'loadData()'.

@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test872/test872.java:356:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test872/test872.java:377:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test872/test872.java:468:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test872/test872.java:730:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test872/test872.java:731:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test872/test872.java:765:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test872/test872.java:771:	UselessParentheses:	Useless parentheses.

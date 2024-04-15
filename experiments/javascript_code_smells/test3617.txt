@@ -1,0 +1,32 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 41, col 98, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 831, col 33, 'l' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 831, col 81, 'l' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 832, col 44, 'l' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 833, col 87, 'l' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 833, col 112, 'l' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 839, col 73, 'l' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 1840, col 25, 'l' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 1840, col 44, 'l' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3196, col 53, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3274, col 37, 'currPeriodArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3280, col 111, 'currPeriodArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3275, col 38, 'prevPeriodArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3282, col 119, 'prevPeriodArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3280, col 49, 'currWeeksArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3281, col 59, 'currWeeksArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3280, col 63, 'currWeekCounts' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3281, col 73, 'currWeekCounts' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3280, col 79, 'currMonthsArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3281, col 89, 'currMonthsArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3280, col 94, 'currMonthCounts' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3281, col 104, 'currMonthCounts' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3282, col 57, 'prevWeeksArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3283, col 67, 'prevWeeksArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3282, col 71, 'prevWeekCounts' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3283, col 81, 'prevWeekCounts' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3282, col 87, 'prevMonthsArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3283, col 97, 'prevMonthsArr' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3282, col 102, 'prevMonthCounts' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3617/test3617.js: line 3283, col 112, 'prevMonthCounts' used out of scope.
+
+30 errors

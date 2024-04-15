@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test8713/test8713.java:34:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8713/test8713.java:41:	AvoidThreadGroup:	Avoid using java.lang.ThreadGroup; it is not thread safe
+/home/arnaik/code-review-test-projects/java/test8713/test8713.java:41:	AvoidThreadGroup:	Avoid using java.lang.ThreadGroup; it is not thread safe
+/home/arnaik/code-review-test-projects/java/test8713/test8713.java:183:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test8713/test8713.java:184:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8713/test8713.java:184:	UselessQualifiedThis:	Useless qualified this usage in the same class.

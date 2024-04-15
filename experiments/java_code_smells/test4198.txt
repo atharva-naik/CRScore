@@ -1,0 +1,62 @@
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:36:	UnnecessaryImport:	Unused static import 'zipkin2.internal.HexCodec.HEX_DIGITS'
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:64:	UseStandardCharsets:	Please use StandardCharsets constants
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:287:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:290:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:291:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:292:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:293:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:306:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:307:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:312:	CloneMethodMustImplementCloneable:	clone() method should be implemented only if implementing Cloneable interface
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:359:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:360:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:361:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:362:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:363:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:364:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:365:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:383:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:415:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:448:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:449:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:465:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:475:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:477:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:478:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:500:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:507:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:514:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:521:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:528:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:535:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:542:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:549:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:556:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:557:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:558:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:565:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:583:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:601:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:608:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:609:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:610:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:614:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:622:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:629:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:643:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:645:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:646:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:648:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:650:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:718:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:719:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:724:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:738:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:741:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:742:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:764:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:765:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:796:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:798:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:813:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'writeReplace': the method is already in a final class
+/home/arnaik/code-review-test-projects/java/test4198/test4198.java:830:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths

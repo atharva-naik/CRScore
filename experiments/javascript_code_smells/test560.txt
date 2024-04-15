@@ -1,0 +1,60 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 28, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 165, col 36, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 175, col 27, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (Blockly, procCode, rootBlock, alert)
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 186, col 14, 'i' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 186, col 21, 'option' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 186, col 36, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 228, col 30, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 30, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 32, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 33, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 44, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 45, col 17, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 63, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 64, col 32, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 65, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 65, col 34, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 75, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 88, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 100, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 112, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 114, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 125, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 127, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 138, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 140, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 152, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 161, col 22, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 166, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 176, col 27, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 187, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 203, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 211, col 22, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 216, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 223, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 229, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 230, col 9, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 234, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 235, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 238, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 239, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 240, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 241, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 242, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 243, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 246, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 247, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 248, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 249, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 250, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 251, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 254, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 255, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 256, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 257, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 260, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 261, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 264, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test560/test560.js: line 180, col 13, 'alert' is not defined.
+
+58 errors

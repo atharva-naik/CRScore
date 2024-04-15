@@ -1,0 +1,29 @@
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:8:	UnnecessaryImport:	Unused import 'javaslang.*'
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:29:	UnusedPrivateField:	Avoid unused private fields such as 'delegate'.
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:48:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:49:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:50:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:51:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:55:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:623:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:623:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'TreeSet' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:630:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:630:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'HashSet' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:678:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'List' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:699:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'List' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:868:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'List' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:868:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1052:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'ArrayList' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1257:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1257:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1275:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1275:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1275:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1364:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'List' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1365:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'List' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1365:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'List' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1368:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Iterator' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1369:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'List' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1369:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'ArrayList' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1380:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test7216/test7216.java:1387:	UselessParentheses:	Useless parentheses.

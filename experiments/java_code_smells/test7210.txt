@@ -1,0 +1,16 @@
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:53:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:54:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:55:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:57:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:58:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:60:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:61:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:82:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:107:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:117:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:124:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:137:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:259:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:641:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:725:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test7210/test7210.java:901:	LocalVariableNamingConventions:	The final local variable name 'DUCK_FACTOR' doesn't match '[a-z][a-zA-Z0-9]*'

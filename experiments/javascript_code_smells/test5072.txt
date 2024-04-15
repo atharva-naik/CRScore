@@ -1,0 +1,42 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 9, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 10, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 12, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 14, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 14, col 8, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 29, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 39, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 44, col 27, 'Optional chaining' is only available in ES11 (use 'esversion: 11').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 46, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 60, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 69, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 71, col 13, 'Optional chaining' is only available in ES11 (use 'esversion: 11').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 72, col 13, 'Optional chaining' is only available in ES11 (use 'esversion: 11').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 82, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 84, col 13, 'Optional chaining' is only available in ES11 (use 'esversion: 11').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 85, col 13, 'Optional chaining' is only available in ES11 (use 'esversion: 11').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 95, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 114, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 128, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 133, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 134, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 140, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 143, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 175, col 16, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 195, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 202, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 203, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 208, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 213, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 214, col 25, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 222, col 14, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 222, col 25, 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 224, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5072/test5072.js: line 237, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+
+40 errors

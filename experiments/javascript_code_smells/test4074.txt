@@ -1,0 +1,353 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 1, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 3, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 4, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 5, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 7, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 9, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 10, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 10, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 11, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 11, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 12, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 12, col 54, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 13, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 13, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 16, col 38, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 17, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 19, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 19, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 20, col 8, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 20, col 18, 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 21, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 21, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 23, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 26, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 27, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 28, col 38, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 30, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 32, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 33, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 34, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 35, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 36, col 21, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 37, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 38, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 39, col 59, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 40, col 54, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 41, col 72, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 42, col 85, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 43, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 44, col 59, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 45, col 64, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 46, col 79, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 47, col 67, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 48, col 59, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 49, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 50, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 51, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 52, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 53, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 54, col 77, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 55, col 111, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 56, col 100, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 57, col 133, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 58, col 69, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 59, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 60, col 106, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 61, col 129, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 62, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 63, col 61, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 64, col 80, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 65, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 66, col 79, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 67, col 99, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 68, col 80, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 69, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 70, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 71, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 72, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 73, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 74, col 78, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 75, col 38, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 76, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 77, col 63, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 78, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 79, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 80, col 63, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 81, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 82, col 122, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 83, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 84, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 85, col 78, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 86, col 75, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 87, col 67, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 88, col 83, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 89, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 90, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 93, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 93, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 94, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 94, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 95, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 97, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 97, col 61, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 99, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 136, col 5, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 136, col 8, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 137, col 4, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 140, col 62, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 141, col 82, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 142, col 58, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 143, col 68, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 145, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 146, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 147, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 152, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 153, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 157, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 163, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 165, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 166, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 167, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 171, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 172, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 173, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 178, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 184, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 188, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 190, col 72, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 192, col 64, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 194, col 69, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 196, col 68, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 198, col 72, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 201, col 61, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 202, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 205, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 206, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 210, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 211, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 212, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 213, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 214, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 215, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 216, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 219, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 223, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 224, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 225, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 226, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 227, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 228, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 229, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 230, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 232, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 233, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 234, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 235, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 236, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 237, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 238, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 239, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 240, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 241, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 242, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 243, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 247, col 83, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 249, col 82, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 251, col 14, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 252, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 260, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 261, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 264, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 264, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 265, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 266, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 267, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 268, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 271, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 271, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 272, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 273, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 274, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 275, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 277, col 65, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 279, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 279, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 280, col 55, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 280, col 56, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 281, col 55, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 281, col 56, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 282, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 283, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 286, col 66, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 287, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 288, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 290, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 291, col 109, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 292, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 295, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 295, col 75, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 297, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 300, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 300, col 61, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 302, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 305, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 305, col 67, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 307, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 310, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 310, col 67, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 311, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 311, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 313, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 316, col 12, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 316, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 318, col 12, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 318, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 321, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 321, col 54, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 323, col 16, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 323, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 326, col 16, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 327, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 330, col 8, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 331, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 334, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 342, col 6, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 343, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 344, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 348, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 349, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 351, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 352, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 354, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 358, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 360, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 363, col 78, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 368, col 38, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 372, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 373, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 377, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 381, col 58, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 389, col 63, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 393, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 397, col 69, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 401, col 76, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 405, col 64, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 409, col 54, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 411, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 415, col 60, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 417, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 420, col 56, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 424, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 427, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 433, col 84, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 436, col 63, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 438, col 64, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 443, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 444, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 448, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 452, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 455, col 85, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 458, col 61, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 461, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 464, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 467, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 470, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 472, col 59, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 474, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 479, col 69, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 481, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 485, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 486, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 490, col 75, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 491, col 17, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 491, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 492, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 493, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 496, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 498, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 498, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 500, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 502, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 502, col 49, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 504, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 506, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 507, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 511, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 511, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 512, col 59, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 513, col 106, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 514, col 82, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 515, col 98, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 516, col 94, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 517, col 72, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 518, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 519, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 520, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 521, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 522, col 58, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 525, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 527, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 528, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 529, col 77, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 530, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 531, col 116, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 533, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 538, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 542, col 7, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 547, col 6, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 549, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 552, col 119, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 553, col 55, Did you mean to return a conditional instead of an assignment?
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 553, col 66, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 554, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 559, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 560, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 560, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 561, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 561, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 563, col 62, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 566, col 60, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 569, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 571, col 55, Did you mean to return a conditional instead of an assignment?
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 571, col 66, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 572, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 574, col 22, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 574, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 3, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 4, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 5, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 7, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 14, col 10, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 15, col 5, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 16, col 5, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 46, col 22, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 79, col 29, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 80, col 28, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 81, col 31, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 139, col 7, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 151, col 7, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 162, col 9, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 170, col 23, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 176, col 36, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 181, col 36, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 246, col 7, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 430, col 41, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 442, col 7, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 470, col 12, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 511, col 33, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 537, col 9, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 39, col 41, '__filename' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 436, col 7, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 438, col 7, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 527, col 9, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 533, col 9, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4074/test4074.js: line 574, col 1, 'module' is not defined.
+
+351 errors

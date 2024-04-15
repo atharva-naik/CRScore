@@ -1,0 +1,8 @@
+/home/arnaik/code-review-test-projects/java/test7626/test7626.java:21:	UnnecessaryImport:	Unused import 'com.fsck.k9.preferences.Settings.*'
+/home/arnaik/code-review-test-projects/java/test7626/test7626.java:23:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test7626/test7626.java:24:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7626/test7626.java:28:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7626/test7626.java:29:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7626/test7626.java:346:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test7626/test7626.java:389:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test7626/test7626.java:425:	EmptyCatchBlock:	Avoid empty catch blocks

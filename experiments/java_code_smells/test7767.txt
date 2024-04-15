@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test7767/test7767.java:60:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test7767/test7767.java:102:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test7767/test7767.java:660:	OverrideBothEqualsAndHashcode:	Ensure you override both equals() and hashCode()

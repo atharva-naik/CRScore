@@ -1,0 +1,16 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 19, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 21, col 1, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 45, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 74, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 108, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 34, col 1, 'module' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 36, col 68, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 45, col 27, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 50, col 43, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 54, col 13, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 55, col 13, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 57, col 17, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 59, col 13, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3826/test3826.js: line 63, col 17, 'process' is not defined.
+
+14 errors

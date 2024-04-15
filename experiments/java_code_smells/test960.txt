@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test960/test960.java:42:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test960/test960.java:150:	CloneMethodReturnTypeMustMatchClassName:	The return type of the clone() method must be the class name when implements Cloneable
+/home/arnaik/code-review-test-projects/java/test960/test960.java:150:	CloneMethodMustImplementCloneable:	clone() method should be implemented only if implementing Cloneable interface
+/home/arnaik/code-review-test-projects/java/test960/test960.java:158:	UnusedPrivateField:	Avoid unused private fields such as 'dictLength'.
+/home/arnaik/code-review-test-projects/java/test960/test960.java:158:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

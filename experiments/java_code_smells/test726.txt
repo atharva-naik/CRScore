@@ -1,0 +1,41 @@
+/home/arnaik/code-review-test-projects/java/test726/test726.java:81:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.api.AbstractApiBean.error'
+/home/arnaik/code-review-test-projects/java/test726/test726.java:84:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.dataaccess.DataAccess'
+/home/arnaik/code-review-test-projects/java/test726/test726.java:107:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.util.json.JsonPrinter.*'
+/home/arnaik/code-review-test-projects/java/test726/test726.java:108:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.util.json.NullSafeJsonBuilder.jsonObjectBuilder'
+/home/arnaik/code-review-test-projects/java/test726/test726.java:149:	UnnecessaryImport:	Unused static import 'javax.ws.rs.core.Response.Status.BAD_REQUEST'
+/home/arnaik/code-review-test-projects/java/test726/test726.java:511:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:528:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:546:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:599:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:656:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:682:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:711:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:727:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:741:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:745:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:756:	LogicInversion:	Use opposite operator instead of the logic complement operator.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:798:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:894:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:898:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:917:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:929:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:942:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1002:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1007:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1139:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1215:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1286:	UnusedLocalVariable:	Avoid unused local variables such as 'datasetThumbnail'.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1308:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1357:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1358:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1362:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1373:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1375:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1380:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1464:	CloseResource:	Ensure that resources like this StringReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1496:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1511:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1661:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1671:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1711:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'nfe' on all code paths
+/home/arnaik/code-review-test-projects/java/test726/test726.java:1935:	UnusedLocalVariable:	Avoid unused local variables such as 'metricType'.

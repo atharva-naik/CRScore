@@ -1,0 +1,19 @@
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:43:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:45:	UnusedPrivateField:	Avoid unused private fields such as 'log'.
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:152:	SingularField:	Perhaps 'pattern' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:153:	SingularField:	Perhaps 'matcher' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:235:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:238:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:276:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:279:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:330:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:351:	SingularField:	Perhaps 'elementText' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:416:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:449:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:580:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:585:	IdenticalCatchBranches:	'catch' branch identical to 'NoSuchElementException' branch
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:618:	IdenticalCatchBranches:	'catch' branch identical to 'NoSuchElementException' branch
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:774:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:799:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:1177:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test3123/test3123.java:1207:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

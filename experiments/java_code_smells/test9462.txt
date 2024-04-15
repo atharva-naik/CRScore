@@ -1,0 +1,33 @@
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:56:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.util.ByteArrayUtf8CharSequence.convertCharSeq'
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:208:	MethodNamingConventions:	The instance method name '_init' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:265:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:266:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:289:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:306:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:353:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:488:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:543:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:549:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:671:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:756:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:759:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:767:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:782:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:794:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:871:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:892:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:900:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:921:	MethodNamingConventions:	The instance method name '_readStr' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:922:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:950:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:951:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:963:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:994:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:1018:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:1084:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:1085:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:1114:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:1178:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:1182:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:1195:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9462/test9462.java:1196:	ControlStatementBraces:	This statement should have braces

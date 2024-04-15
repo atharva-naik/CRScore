@@ -1,0 +1,4 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4739/test4739.js: line 25, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4739/test4739.js: line 279, col 7, Expected an assignment or function call and instead saw an expression.
+
+2 errors

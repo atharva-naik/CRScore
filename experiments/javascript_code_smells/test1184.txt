@@ -1,0 +1,6 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1184/test1184.js: line 118, col 36, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1184/test1184.js: line 120, col 25, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1184/test1184.js: line 132, col 36, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1184/test1184.js: line 134, col 25, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+
+4 errors

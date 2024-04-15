@@ -1,0 +1,45 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 36, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 43, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 57, col 32, ['path'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 60, col 32, ['path'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 63, col 32, ['path'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 98, col 87, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 97, col 65, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (countlyGlobal)
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 166, col 10, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 189, col 128, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 203, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 211, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 234, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 290, col 29, 'source' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 295, col 29, 'source' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 319, col 14, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 338, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 344, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 397, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 398, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 421, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 429, col 125, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 432, col 30, 'index' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 433, col 28, 'appId' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 434, col 138, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 438, col 72, ['target'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 439, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 446, col 69, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 454, col 31, 'index' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 455, col 29, 'appId' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 456, col 139, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 460, col 67, ['condition'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 461, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 507, col 21, ['selectedApps'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 509, col 21, ['compareDescribe'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 517, col 83, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 522, col 21, ['alertValues'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 524, col 51, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 532, col 18, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 532, col 58, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 532, col 68, ['admin_of'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 539, col 22, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 539, col 62, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1701/test1701.js: line 539, col 72, ['admin_of'] is better written in dot notation.
+
+43 errors

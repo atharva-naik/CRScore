@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test3811/test3811.java:424:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3811/test3811.java:431:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3811/test3811.java:470:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test3811/test3811.java:496:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3811/test3811.java:557:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

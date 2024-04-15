@@ -1,0 +1,46 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 50, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 227, col 37, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 359, col 41, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 306, col 25, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 307, col 25, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 308, col 38, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 316, col 80, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 317, col 48, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 320, col 25, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 321, col 25, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 322, col 38, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 323, col 69, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 330, col 80, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 331, col 48, 'endDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 312, col 25, 'startDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 313, col 80, 'startDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 314, col 39, 'startDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 326, col 25, 'startDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 327, col 80, 'startDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 328, col 39, 'startDate' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 313, col 25, 'monthName' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 314, col 67, 'monthName' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 316, col 25, 'monthName' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 317, col 74, 'monthName' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 327, col 25, 'monthName' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 328, col 67, 'monthName' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 330, col 25, 'monthName' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 331, col 74, 'monthName' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 508, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 524, col 26, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 569, col 18, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 582, col 18, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 604, col 18, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 616, col 18, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 635, col 18, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 809, col 18, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 819, col 18, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 967, col 17, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 970, col 17, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 976, col 13, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 979, col 13, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 1092, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 1099, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2455/test2455.js: line 1105, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+44 errors

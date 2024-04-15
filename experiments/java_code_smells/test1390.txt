@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:47:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy'
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:48:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.AssertionsForInterfaceTypes.assertThat'
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:49:	UnnecessaryImport:	Unused static import 'org.mockito.ArgumentMatchers.*'
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:50:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.*'
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:60:	SingularField:	Perhaps 'registration1' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:64:	SingularField:	Perhaps 'authorizedClient2' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:237:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:240:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:243:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:246:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:249:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:252:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test1390/test1390.java:255:	UncommentedEmptyMethodBody:	Document empty method body

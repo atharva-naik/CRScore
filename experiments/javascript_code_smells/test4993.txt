@@ -1,0 +1,18 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 1, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 2, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 2, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 3, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 5, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 6, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 6, col 38, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 7, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 7, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 10, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 11, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 14, col 14, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 73, col 4, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4993/test4993.js: line 74, col 2, Missing semicolon.
+
+16 errors

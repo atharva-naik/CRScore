@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test2510/test2510.java:145:	DoubleCheckedLocking:	Double checked locking is not thread safe in Java.
+/home/arnaik/code-review-test-projects/java/test2510/test2510.java:157:	DoubleCheckedLocking:	Double checked locking is not thread safe in Java.
+/home/arnaik/code-review-test-projects/java/test2510/test2510.java:206:	DoubleCheckedLocking:	Double checked locking is not thread safe in Java.

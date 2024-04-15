@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test2632/test2632.java:69:	MethodNamingConventions:	The JUnit 4 test method name 'TestFilterNonAdminOnlyFlowParams' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test2632/test2632.java:86:	MethodNamingConventions:	The JUnit 4 test method name 'TestFilterAdminOnlyFlowParams' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test2632/test2632.java:145:	CloseResource:	Ensure that resources like this InputStreamReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test2632/test2632.java:146:	CloseResource:	Ensure that resources like this BufferedReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test2632/test2632.java:171:	CloseResource:	Ensure that resources like this InputStreamReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test2632/test2632.java:172:	CloseResource:	Ensure that resources like this BufferedReader object are closed after use

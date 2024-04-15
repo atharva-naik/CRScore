@@ -1,0 +1,19 @@
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:120:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:447:	AvoidBranchingStatementAsLastInLoop:	Avoid using a branching statement as the last in a loop.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:554:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:722:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:1619:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:1672:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:2018:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:2027:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:2031:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:2338:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:2428:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:3209:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:3337:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:3347:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:3467:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:4029:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:4033:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:4217:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test9995/test9995.java:4227:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

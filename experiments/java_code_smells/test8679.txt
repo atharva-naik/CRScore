@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test8679/test8679.java:21:	UnnecessaryImport:	Duplicate import 'com.google.common.collect.ImmutableMap'
+/home/arnaik/code-review-test-projects/java/test8679/test8679.java:42:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test8679/test8679.java:52:	GenericsNaming:	Generics names should be a one letter long and upper case.

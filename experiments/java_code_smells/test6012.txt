@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6012/test6012.java:43:	SingularField:	Perhaps 'awsClientFactory' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test6012/test6012.java:51:	UncommentedEmptyConstructor:	Document empty constructor

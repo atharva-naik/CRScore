@@ -1,0 +1,52 @@
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:8:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:10:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.api.Files'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:12:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.authorization.users.AuthenticatedUser'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:17:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.engine.command.impl.AbstractCreateDatasetCommand'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:18:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.engine.command.impl.CreateNewDatasetCommand'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:19:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.engine.command.impl.DeleteDataFileCommand'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:35:	UnnecessaryImport:	Unused import 'java.util.ResourceBundle'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:43:	UnnecessaryImport:	Unused import 'org.apache.commons.lang3.StringUtils'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:106:	UnusedPrivateField:	Avoid unused private fields such as 'datasetService'.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:130:	UnusedPrivateField:	Avoid unused private fields such as 'user'.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:320:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:388:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:417:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:460:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:480:	MethodNamingConventions:	The instance method name 'runReplaceFromUI_Phase1' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:608:	MethodNamingConventions:	The instance method name 'runReplaceFromUI_Phase2' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:625:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:665:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:706:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:736:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:959:	MethodNamingConventions:	The instance method name 'step_001_loadDataset' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:983:	MethodNamingConventions:	The instance method name 'step_010_VerifyUserAndPermissions' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:985:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:993:	MethodNamingConventions:	The instance method name 'step_015_auto_check_permissions' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1021:	MethodNamingConventions:	The instance method name 'step_020_loadNewFile' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1063:	MethodNamingConventions:	The instance method name 'step_005_loadFileToReplaceById' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1090:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1109:	MethodNamingConventions:	The instance method name 'step_007_auto_isReplacementInLatestVersion' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1138:	MethodNamingConventions:	The instance method name 'step_030_createNewFilesViaIngest' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1163:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1195:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1217:	MethodNamingConventions:	The instance method name 'step_040_auto_checkForDuplicates' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1236:	UnusedLocalVariable:	Avoid unused local variables such as 'warningMessage'.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1430:	MethodNamingConventions:	The instance method name 'step_050_checkForConstraintViolations' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1458:	UnusedLocalVariable:	Avoid unused local variables such as 'errMsgs'.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1473:	MethodNamingConventions:	The instance method name 'step_055_loadOptionalFileParams' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1502:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1514:	MethodNamingConventions:	The instance method name 'step_060_addFilesViaIngestService' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1547:	MethodNamingConventions:	The instance method name 'step_070_run_update_dataset_command' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1553:	LocalVariableNamingConventions:	The local variable name 'update_cmd' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1582:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1589:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1602:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1670:	MethodNamingConventions:	The instance method name 'step_080_run_update_dataset_command_for_replace' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1730:	UnusedFormalParameter:	Avoid unused method parameters such as 'datafiles'.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1780:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1833:	MethodNamingConventions:	The instance method name 'step_090_notifyUser' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1834:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1846:	MethodNamingConventions:	The instance method name 'step_100_startIngestJobs' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1912:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1913:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test8764/test8764.java:1927:	UselessParentheses:	Useless parentheses.

@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:94:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:116:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:135:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:145:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:159:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:201:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:205:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:246:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:250:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:339:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:385:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:435:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test7780/test7780.java:450:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

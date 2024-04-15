@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test3778/test3778.java:49:	UnusedPrivateField:	Avoid unused private fields such as 'sequenceNumber'.
+/home/arnaik/code-review-test-projects/java/test3778/test3778.java:50:	UnusedPrivateField:	Avoid unused private fields such as 'minSequenceNumber'.
+/home/arnaik/code-review-test-projects/java/test3778/test3778.java:166:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test3778/test3778.java:382:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3778/test3778.java:415:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test8734/test8734.java:31:	UnnecessaryImport:	Unused import 'android.app.Activity'
+/home/arnaik/code-review-test-projects/java/test8734/test8734.java:65:	UnnecessaryImport:	Unused import 'com.salesforce.androidsdk.security.PasscodeManager'
+/home/arnaik/code-review-test-projects/java/test8734/test8734.java:113:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8734/test8734.java:203:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+/home/arnaik/code-review-test-projects/java/test8734/test8734.java:256:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`

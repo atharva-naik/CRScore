@@ -1,0 +1,20 @@
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:55:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.cloud.DocCollection.DOC_ROUTER'
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:56:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.PATH'
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:57:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CoreAdminParams.GET_RANGES'
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:101:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:179:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:180:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:232:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:249:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:250:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:272:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:272:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:311:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:352:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:363:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:414:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:437:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:464:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:466:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:484:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test8924/test8924.java:522:	CompareObjectsWithEquals:	Use equals() to compare object references.

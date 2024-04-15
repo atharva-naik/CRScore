@@ -1,0 +1,41 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 20, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 130, col 10, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 131, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 131, col 31, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 132, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 132, col 38, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 133, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 133, col 39, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 135, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 153, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 167, col 57, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 181, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 351, col 10, 'function*' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 352, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 352, col 31, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 353, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 353, col 38, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 354, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 354, col 39, 'yield' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 356, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 370, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 388, col 57, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 406, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 2, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 3, col 10, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 4, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 19, col 1, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 20, col 3, 'afterEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 22, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 243, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 194, col 11, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 198, col 13, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 228, col 15, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 231, col 17, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 418, col 11, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 422, col 13, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 454, col 15, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1356/test1356.js: line 457, col 17, 'setTimeout' is not defined.
+
+39 errors

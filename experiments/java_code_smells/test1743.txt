@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test1743/test1743.java:36:	UselessOperationOnImmutable:	An operation on an Immutable object (String, BigDecimal or BigInteger) wont change the object itself

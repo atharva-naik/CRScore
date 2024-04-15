@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test6723/test6723.java:61:	AvoidStringBufferField:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+/home/arnaik/code-review-test-projects/java/test6723/test6723.java:97:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test6723/test6723.java:104:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+/home/arnaik/code-review-test-projects/java/test6723/test6723.java:112:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

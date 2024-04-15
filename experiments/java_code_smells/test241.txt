@@ -1,0 +1,24 @@
+/home/arnaik/code-review-test-projects/java/test241/test241.java:47:	UnnecessaryImport:	Unused static import 'org.apache.solr.schema.FieldType.CLASS_NAME'
+/home/arnaik/code-review-test-projects/java/test241/test241.java:48:	UnnecessaryImport:	Unused static import 'org.apache.solr.schema.IndexSchema.DESTINATION'
+/home/arnaik/code-review-test-projects/java/test241/test241.java:49:	UnnecessaryImport:	Unused static import 'org.apache.solr.schema.IndexSchema.MAX_CHARS'
+/home/arnaik/code-review-test-projects/java/test241/test241.java:50:	UnnecessaryImport:	Unused static import 'org.apache.solr.schema.IndexSchema.NAME'
+/home/arnaik/code-review-test-projects/java/test241/test241.java:51:	UnnecessaryImport:	Unused static import 'org.apache.solr.schema.IndexSchema.SOURCE'
+/home/arnaik/code-review-test-projects/java/test241/test241.java:52:	UnnecessaryImport:	Unused static import 'org.apache.solr.schema.IndexSchema.TYPE'
+/home/arnaik/code-review-test-projects/java/test241/test241.java:86:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:116:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:124:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test241/test241.java:183:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:213:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:233:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:250:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:266:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:285:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:304:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:322:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:341:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:356:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:376:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test241/test241.java:398:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test241/test241.java:402:	UnnecessaryModifier:	Unnecessary modifier 'private' on constructor 'OpType(String)': enum constructors are implicitly private
+/home/arnaik/code-review-test-projects/java/test241/test241.java:412:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test241/test241.java:412:	ControlStatementBraces:	This statement should have braces

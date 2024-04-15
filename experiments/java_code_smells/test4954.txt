@@ -1,0 +1,14 @@
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:145:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:146:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:147:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:148:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:271:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:875:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:916:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:1049:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:1064:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:1134:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:1508:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:1643:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:1717:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4954/test4954.java:1725:	UselessParentheses:	Useless parentheses.

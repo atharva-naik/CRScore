@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test3713/test3713.java:175:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3713/test3713.java:175:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3713/test3713.java:352:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test3713/test3713.java:381:	UnusedFormalParameter:	Avoid unused method parameters such as 'fieldName'.
+/home/arnaik/code-review-test-projects/java/test3713/test3713.java:441:	UnusedFormalParameter:	Avoid unused method parameters such as 'fieldName'.
+/home/arnaik/code-review-test-projects/java/test3713/test3713.java:606:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test3713/test3713.java:1229:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.

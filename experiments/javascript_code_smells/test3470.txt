@@ -1,0 +1,8 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3470/test3470.js: line 338, col 21, Did you mean to return a conditional instead of an assignment?
+/home/atharva/CMU/sem4/Directed Study/javascript/test3470/test3470.js: line 651, col 17, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3470/test3470.js: line 1866, col 20, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3470/test3470.js: line 1952, col 29, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3470/test3470.js: line 1952, col 35, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3470/test3470.js: line 2008, col 26, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+
+6 errors

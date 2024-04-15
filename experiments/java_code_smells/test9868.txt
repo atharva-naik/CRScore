@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test9868/test9868.java:52:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DEFAULT_NAME_MAPPING'
+/home/arnaik/code-review-test-projects/java/test9868/test9868.java:93:	UnusedPrivateMethod:	Avoid unused private methods such as 'rewriteDataForTask(CombinedScanTask)'.
+/home/arnaik/code-review-test-projects/java/test9868/test9868.java:134:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test9868/test9868.java:139:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9868/test9868.java:145:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9868/test9868.java:148:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test9868/test9868.java:149:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test9868/test9868.java:151:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9868/test9868.java:155:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.

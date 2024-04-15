@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test3495/test3495.java:102:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/home/arnaik/code-review-test-projects/java/test3495/test3495.java:102:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test3495/test3495.java:307:	UseEqualsToCompareStrings:	Use equals() to compare strings instead of '==' or '!='

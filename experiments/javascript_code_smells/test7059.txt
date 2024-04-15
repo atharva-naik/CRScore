@@ -1,0 +1,111 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 23, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 25, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 26, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 27, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 28, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 29, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 30, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 31, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 32, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 33, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 34, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 35, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 36, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 37, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 38, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 39, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 40, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 41, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 43, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 44, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 45, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 46, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 47, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 83, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 83, col 17, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 109, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 111, col 24, 'rest operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 119, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 119, col 30, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 127, col 29, 'rest operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 128, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 134, col 30, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 139, col 28, 'rest operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 140, col 24, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 142, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 142, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 143, col 36, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 155, col 47, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 198, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 575, col 22, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 579, col 62, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 580, col 56, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 587, col 11, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 621, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 625, col 13, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 629, col 13, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 636, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 637, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 638, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 641, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 646, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 655, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 663, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 674, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 686, col 13, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 738, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 742, col 15, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 742, col 13, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 743, col 15, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 743, col 13, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 744, col 13, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 25, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 26, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 27, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 28, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 29, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 30, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 31, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 32, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 33, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 34, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 35, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 36, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 37, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 38, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 39, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 40, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 41, col 19, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 119, col 30, 'Map' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 574, col 29, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 575, col 42, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 576, col 17, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 623, col 11, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 625, col 36, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 626, col 15, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 627, col 18, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 629, col 36, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 630, col 35, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 636, col 20, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 752, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 753, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 754, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 755, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 756, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 757, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 758, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 759, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 760, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 761, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 762, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 763, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 764, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 765, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 766, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 767, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 768, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 769, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 770, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7059/test7059.js: line 771, col 1, 'exports' is not defined.
+
+109 errors

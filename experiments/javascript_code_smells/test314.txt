@@ -1,0 +1,12 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test314/test314.js: line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test314/test314.js: line 6, col 13, Expected 'from' and instead saw '{'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test314/test314.js: line 6, col 15, Expected '(string)' and instead saw 'IAuth'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test314/test314.js: line 6, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test314/test314.js: line 6, col 20, Expected an identifier and instead saw ','.
+/home/atharva/CMU/sem4/Directed Study/javascript/test314/test314.js: line 6, col 20, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test314/test314.js: line 6, col 21, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test314/test314.js: line 6, col 22, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test314/test314.js: line 6, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test314/test314.js: line 6, col 22, Unrecoverable syntax error. (9% scanned).
+
+10 errors

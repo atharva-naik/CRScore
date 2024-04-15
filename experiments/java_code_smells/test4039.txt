@@ -1,0 +1,50 @@
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:97:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:98:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:130:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:274:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FacetComponent': 'getFacetCounts' is already in scope
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:313:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:366:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:368:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:368:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:486:	UnusedLocalVariable:	Avoid unused local variables such as 'pivotFacetKey'.
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:521:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:690:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:712:	LocalVariableNamingConventions:	The local variable name 'facet_counts' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:720:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:735:	LocalVariableNamingConventions:	The local variable name 'facet_queries' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:746:	LocalVariableNamingConventions:	The local variable name 'facet_fields' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:786:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:789:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:859:	LocalVariableNamingConventions:	The local variable name 'query_facets' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:863:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:924:	FormalParameterNamingConventions:	The method parameter name 'facet_counts' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:926:	LocalVariableNamingConventions:	The local variable name 'facet_intervals' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:969:	FormalParameterNamingConventions:	The method parameter name 'facet_counts' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:971:	LocalVariableNamingConventions:	The local variable name 'facet_pivot' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:989:	LocalVariableNamingConventions:	The local variable name 'facet_counts' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:990:	LocalVariableNamingConventions:	The local variable name 'facet_fields' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:992:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:997:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1007:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1081:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1087:	LocalVariableNamingConventions:	The local variable name 'facet_counts' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1089:	LocalVariableNamingConventions:	The local variable name 'facet_queries' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1095:	LocalVariableNamingConventions:	The local variable name 'facet_fields' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1130:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1132:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1195:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1196:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1205:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1206:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1244:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1245:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1248:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1254:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1402:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1431:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1448:	MissingOverride:	The method 'fillParams(ResponseBuilder, SolrParams, String)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1508:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1516:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1518:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1519:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4039/test4039.java:1535:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead

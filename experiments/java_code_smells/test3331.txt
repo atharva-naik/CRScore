@@ -1,0 +1,60 @@
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:18:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:18:	ClassNamingConventions:	The utility class name '$' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:18:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:23:	MethodNamingConventions:	The static method name 'Tuple0' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:24:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:24:	MethodNamingConventions:	The static method name 'Tuple1' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:25:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:25:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:25:	MethodNamingConventions:	The static method name 'Tuple2' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:26:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:26:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:26:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:26:	MethodNamingConventions:	The static method name 'Tuple3' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:27:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:27:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:27:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:27:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:27:	MethodNamingConventions:	The static method name 'Tuple4' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:28:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:28:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:28:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:28:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:28:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:28:	MethodNamingConventions:	The static method name 'Tuple5' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:29:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:29:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:29:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:29:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:29:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:29:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:29:	MethodNamingConventions:	The static method name 'Tuple6' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:30:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:30:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:30:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:30:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:30:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:30:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:30:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:30:	MethodNamingConventions:	The static method name 'Tuple7' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:31:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:31:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:31:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:31:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:31:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:31:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:31:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:31:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:31:	MethodNamingConventions:	The static method name 'Tuple8' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:36:	MethodNamingConventions:	The static method name 'List' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:39:	MethodNamingConventions:	The static method name 'Stream' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:40:	MethodNamingConventions:	The static method name 'Stream' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:46:	MethodNamingConventions:	The static method name 'Future' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:51:	MethodNamingConventions:	The static method name 'Right' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:52:	MethodNamingConventions:	The static method name 'Left' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:55:	MethodNamingConventions:	The static method name 'Some' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:56:	MethodNamingConventions:	The static method name 'None' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:59:	MethodNamingConventions:	The static method name 'Success' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:60:	MethodNamingConventions:	The static method name 'Failure' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:63:	MethodNamingConventions:	The static method name 'Valid' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test3331/test3331.java:64:	MethodNamingConventions:	The static method name 'Invalid' doesn't match '[a-z][a-zA-Z0-9]*'

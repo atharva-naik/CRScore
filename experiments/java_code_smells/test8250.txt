@@ -1,0 +1,24 @@
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:66:	LocalVariableNamingConventions:	The final local variable name 'INSERT_EXECUTABLE_FLOW' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:87:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:264:	LocalVariableNamingConventions:	The final local variable name 'UPDATE_EXECUTABLE_FLOW_DATA' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:282:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:287:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:288:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:289:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:307:	LocalVariableNamingConventions:	The final local variable name 'UPDATE_FLOW_STATUS' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:337:	LocalVariableNamingConventions:	The final local variable name 'UNSET_EXECUTOR' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:353:	LocalVariableNamingConventions:	The final local variable name 'UPDATE_EXECUTION' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:384:	LocalVariableNamingConventions:	The final local variable name 'UPDATE_EXECUTION' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:391:	LocalVariableNamingConventions:	The final local variable name 'POLLING_LOCK_NAME' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:392:	LocalVariableNamingConventions:	The final local variable name 'GET_LOCK_TIMEOUT_IN_SECONDS' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:395:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:405:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:408:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:446:	CheckResultSet:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:499:	CheckResultSet:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:508:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:532:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:532:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ExecutionFlowDao': 'logger' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:546:	CheckResultSet:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:552:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8250/test8250.java:585:	CheckResultSet:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.

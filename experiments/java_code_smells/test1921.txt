@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test1921/test1921.java:23:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getNumRunningFlows': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test1921/test1921.java:26:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getRunningFlows': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test1921/test1921.java:29:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getExecutorThreadState': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test1921/test1921.java:32:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getExecutorThreadStage': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test1921/test1921.java:35:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'isThreadActive': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test1921/test1921.java:38:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getLastThreadCheckTime': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test1921/test1921.java:41:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getPrimaryExecutorHostPorts': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test1921/test1921.java:44:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'isQueueProcessorActive': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test1921/test1921.java:47:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getUndispatchedFlows': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test1921/test1921.java:50:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getQueueProcessorThreadState': the method is declared in an interface type

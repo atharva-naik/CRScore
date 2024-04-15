@@ -1,0 +1,15 @@
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:34:	UnnecessaryImport:	Unused import 'java.util.HashMap'
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:133:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:176:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:229:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:262:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:274:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:341:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'flows'
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:348:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'flows'
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:359:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'flows'
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:368:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'nodes'
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:396:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'value'
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:424:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'value'
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:505:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:522:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2784/test2784.java:666:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

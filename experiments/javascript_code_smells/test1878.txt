@@ -1,0 +1,47 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 9, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 493, col 77, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1322, col 38, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (counter, errors, test, client, replicasetManager, done)
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1448, col 42, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (test, counter, errors, client, replicasetManager, done)
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1660, col 77, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 3, col 9, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 4, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 5, col 21, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 490, col 26, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1657, col 27, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 7, col 1, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 8, col 3, 'before' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 23, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 69, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 112, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 159, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 206, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 290, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 366, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 421, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 566, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 641, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 720, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 797, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 877, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 955, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1097, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1187, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1264, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1378, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1480, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1555, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1693, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1761, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 502, col 20, '__dirname' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 518, col 39, '__dirname' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 525, col 39, '__dirname' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 533, col 39, '__dirname' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1666, col 18, '__dirname' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1670, col 18, '__dirname' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1673, col 18, '__dirname' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 553, col 11, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 1731, col 17, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1878/test1878.js: line 558, col 11, 'process' is not defined.
+
+45 errors

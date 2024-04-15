@@ -1,0 +1,228 @@
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:128:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.SolrException.ErrorCode.FORBIDDEN'
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:129:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.SolrException.ErrorCode.UNAUTHORIZED'
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:130:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.DISTRIB'
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:131:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.NAME'
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:132:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.util.Utils.fromJSONString'
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:171:	MissingOverride:	The method 'runTool(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:203:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:207:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:216:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:257:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'SecurityException' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:259:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:259:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'secExc' on all code paths
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:327:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:331:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:359:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:361:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:363:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:365:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:367:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:369:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:371:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:373:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:375:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:377:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:379:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:381:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:383:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:385:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:387:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:389:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:391:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:393:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:395:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:397:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:399:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:407:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:445:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:445:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:457:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:462:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:480:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:480:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:486:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:490:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:534:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:556:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:570:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'wasCommError'
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:571:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:597:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:614:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:656:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:658:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:676:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:686:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'pe' on all code paths
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:689:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:721:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:730:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:741:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'cpe' on all code paths
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:805:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:808:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:823:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:849:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:853:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:870:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:874:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:880:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'timeout' on all code paths
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:895:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'exc' on all code paths
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:926:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:998:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1002:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1013:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1034:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1076:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1078:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1080:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1084:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1090:	MissingOverride:	The method 'hashCode()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1094:	MissingOverride:	The method 'equals(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1095:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1096:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1097:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1102:	MissingOverride:	The method 'compareTo(ReplicaHealth)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1103:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1103:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1104:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1121:	UnnecessaryModifier:	Unnecessary modifier 'static' on enum 'ShardState': nested enums are implicitly static
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1140:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1150:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1152:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1160:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1166:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1191:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1201:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1220:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1287:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1373:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1379:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1395:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1400:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1404:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1438:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1467:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1486:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1490:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1496:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1516:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1538:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1580:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'sse' on all code paths
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1608:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1612:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1645:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1648:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1652:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1683:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1684:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1701:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1708:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1749:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1753:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1757:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1761:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1792:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1826:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1830:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1849:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1864:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1891:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1895:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1922:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1939:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1966:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1970:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1985:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:1998:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2015:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2042:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2046:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2066:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2082:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2103:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2107:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2125:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2143:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2176:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2180:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2216:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2232:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2259:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2263:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2294:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2307:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2311:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2348:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2352:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2380:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2408:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2433:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'sse' on all code paths
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2470:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'sse' on all code paths
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2490:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2546:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2575:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2630:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2634:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2719:	MissingOverride:	The method 'runImpl(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2725:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2730:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2731:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2747:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2750:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2818:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2858:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2862:	CloseResource:	Ensure that resources like this Scanner object are closed after use
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2876:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2886:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2917:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2920:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2925:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2931:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:2991:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3020:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3022:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3030:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3041:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3045:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3080:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3084:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3092:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3092:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3096:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3097:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3100:	LocalVariableNamingConventions:	The local variable name 'solr_home' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3104:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3106:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3134:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3215:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3223:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3227:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3228:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3236:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3245:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3253:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3258:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3277:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3280:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3294:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3331:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3341:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3357:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3376:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3380:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3452:	MissingOverride:	The method 'runTool(CommandLine)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3624:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3631:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3672:	UnnecessaryModifier:	Unnecessary modifier 'final' on resource specification 'client': resource specifications are implicitly final
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3696:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3702:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:3972:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4165:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4176:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4180:	MissingOverride:	The method 'getOptions()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4232:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4235:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4238:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4241:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4266:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4295:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4360:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test6797/test6797.java:4393:	UncommentedEmptyMethodBody:	Document empty method body

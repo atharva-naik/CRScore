@@ -1,0 +1,153 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 3, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 4, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 6, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 12, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 13, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 14, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 14, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 15, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 15, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 17, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 21, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 22, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 26, col 40, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 37, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 49, col 25, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 73, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 79, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 80, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 87, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 88, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 93, col 50, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 104, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 109, col 46, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 116, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 117, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 121, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 128, col 11, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 134, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 142, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 143, col 51, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 144, col 51, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 145, col 64, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 150, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 157, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 158, col 51, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 160, col 64, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 165, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 172, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 173, col 51, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 177, col 64, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 182, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 183, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 190, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 191, col 51, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 202, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 203, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 210, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 212, col 51, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 213, col 64, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 218, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 219, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 226, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 228, col 51, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 236, col 5, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 245, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 247, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 248, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 255, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 257, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 259, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 266, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 269, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 271, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 274, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 288, col 48, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 290, col 48, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 292, col 44, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 294, col 44, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 299, col 33, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 299, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 302, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 307, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 308, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 327, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 328, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 329, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 337, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 338, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 338, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 339, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 342, col 53, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 343, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 345, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 352, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 358, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 364, col 31, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 374, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 388, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 400, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 410, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 421, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 3, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 4, col 33, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 5, col 26, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 6, col 40, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 7, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 9, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 10, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 11, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 12, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 13, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 14, col 25, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 15, col 30, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 18, col 10, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 20, col 1, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 65, col 3, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 77, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 102, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 114, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 235, col 3, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 297, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 37, col 5, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 49, col 7, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 364, col 13, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 53, col 3, 'before' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 57, col 3, 'afterEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 314, col 7, 'afterEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 318, col 7, 'afterEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 61, col 3, 'after' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 72, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 78, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 103, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 115, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 120, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 133, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 149, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 164, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 181, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 201, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 217, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 244, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 254, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 265, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 373, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 387, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 399, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 409, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 420, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 306, col 7, 'beforeEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 307, col 16, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test347/test347.js: line 332, col 47, 'MONGOS_DEFAULT_ISMASTER' is not defined.
+
+151 errors

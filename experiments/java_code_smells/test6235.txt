@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6235/test6235.java:24:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test6235/test6235.java:70:	GenericsNaming:	Generics names should be a one letter long and upper case.

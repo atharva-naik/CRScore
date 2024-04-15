@@ -1,0 +1,27 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 23, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 28, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 29, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 30, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 35, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 36, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 37, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 38, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 40, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 43, col 13, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 43, col 14, Expected ')' to match '(' from line 42 and instead saw 'DashboardDetailsApp'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 43, col 34, Expected an operator and instead saw '/'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 43, col 35, Expected an operator and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 43, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 44, col 9, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 44, col 9, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 49, col 12, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 50, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 55, col 17, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 55, col 18, Expected ')' and instead saw 'GoogleSitekitDashboardDetails'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 55, col 49, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 55, col 52, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 55, col 64, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 55, col 65, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2592/test2592.js: line 55, col 65, Expected an assignment or function call and instead saw an expression.
+
+25 errors

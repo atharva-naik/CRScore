@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test5937/test5937.java:500:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

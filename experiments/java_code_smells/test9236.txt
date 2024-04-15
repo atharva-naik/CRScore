@@ -1,0 +1,16 @@
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:32:	UnnecessaryImport:	Unused static import 'org.mozilla.gecko.GeckoAppShell.getApplicationContext'
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:46:	MethodNamingConventions:	The instance method name 'OnVoiceSearchResult' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:47:	MethodNamingConventions:	The instance method name 'OnVoiceSearchCanceled' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:48:	MethodNamingConventions:	The instance method name 'OnVoiceSearchError' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:55:	SingularField:	Perhaps 'mVoiceInputBackgroundDrawable' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:57:	SingularField:	Perhaps 'mVoiceInputGravity' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:171:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:182:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:199:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:206:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:322:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:327:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:349:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:354:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:359:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9236/test9236.java:368:	LocalVariableNamingConventions:	The local variable name 'view_id' doesn't match '[a-z][a-zA-Z0-9]*'

@@ -1,0 +1,48 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 23, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 24, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 29, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 30, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 35, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 36, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 38, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 38, col 26, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 45, col 19, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 45, col 20, Expected '}' to match '{' from line 42 and instead saw 'DeviceSizeMobileIcon'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 45, col 41, Expected ']' to match '[' from line 41 and instead saw 'width'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 45, col 46, Bad assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 45, col 52, Expected ',' and instead saw 'height'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 45, col 58, Expected an identifier and instead saw '='.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 45, col 59, Expected ',' and instead saw '22'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 45, col 64, Expected an identifier and instead saw '/'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 45, col 65, Expected ',' and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 45, col 66, Expected an identifier and instead saw ','.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 46, col 10, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 48, col 19, Expected an identifier and instead saw 'desktop'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 49, col 22, Expected ',' and instead saw '('.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 49, col 33, Expected ':' and instead saw ','.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 49, col 35, Expected an identifier and instead saw 'google-site-kit'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 49, col 53, Expected ',' and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 49, col 54, Expected an identifier and instead saw ','.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 50, col 13, Expected ',' and instead saw 'icon'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 50, col 17, Expected an identifier and instead saw ':'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 50, col 19, Expected ',' and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 50, col 42, Expected ',' and instead saw 'width'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 50, col 47, Expected an identifier and instead saw '='.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 50, col 48, Expected ',' and instead saw '23'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 50, col 66, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 49, col 20, '__' was used before it was defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 52, col 5, Expected an identifier and instead saw ']'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 53, col 1, Expected an identifier and instead saw '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 53, col 3, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 54, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 54, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 55, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 59, col 23, 'Optional chaining' is only available in ES11 (use 'esversion: 11').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 63, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 63, col 48, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 63, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 79, col 22, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3640/test3640.js: line 79, col 22, Unrecoverable syntax error. (75% scanned).
+
+46 errors

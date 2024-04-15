@@ -1,0 +1,19 @@
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:19:	UnnecessaryImport:	Unused static import 'azkaban.ServiceProvider.SERVICE_PROVIDER'
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:49:	UnnecessaryImport:	Unused import 'azkaban.utils.*'
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:99:	UnusedPrivateField:	Avoid unused private fields such as 'FLOW_EXECUTION_ID'.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:100:	UnusedPrivateField:	Avoid unused private fields such as 'VERSION_SET_ID'.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:120:	UnusedPrivateField:	Avoid unused private fields such as 'eventReporter'.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:122:	SingularField:	Perhaps 'globalProps' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:124:	UnusedPrivateField:	Avoid unused private fields such as 'execDirPath'.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:127:	UnusedPrivateField:	Avoid unused private fields such as 'flow'.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:158:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:164:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:168:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:224:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:284:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:340:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:345:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:366:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:409:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:547:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9559/test9559.java:556:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

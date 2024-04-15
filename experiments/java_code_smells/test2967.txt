@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test2967/test2967.java:36:	AvoidStringBufferField:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+/home/arnaik/code-review-test-projects/java/test2967/test2967.java:39:	AvoidStringBufferField:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+/home/arnaik/code-review-test-projects/java/test2967/test2967.java:147:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+/home/arnaik/code-review-test-projects/java/test2967/test2967.java:198:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test2967/test2967.java:231:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2967/test2967.java:405:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test2967/test2967.java:455:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test2967/test2967.java:496:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test2967/test2967.java:500:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2967/test2967.java:691:	ControlStatementBraces:	This statement should have braces

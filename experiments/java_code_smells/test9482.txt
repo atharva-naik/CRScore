@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test9482/test9482.java:7:	UnnecessaryImport:	Unused import 'android.widget.ListAdapter'
+/home/arnaik/code-review-test-projects/java/test9482/test9482.java:71:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`

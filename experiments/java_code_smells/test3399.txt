@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test3399/test3399.java:234:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3399/test3399.java:234:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test3399/test3399.java:245:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test3399/test3399.java:257:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3399/test3399.java:257:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test3399/test3399.java:290:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3399/test3399.java:302:	IdenticalCatchBranches:	'catch' branch identical to 'XmlPullParserException' branch

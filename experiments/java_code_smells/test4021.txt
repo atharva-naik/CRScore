@@ -1,0 +1,50 @@
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:12:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.Dataset'
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:36:	UnnecessaryImport:	Unused import 'java.util.List'
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:126:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:130:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:160:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:176:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:180:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:212:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:216:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:217:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:218:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:222:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:227:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:234:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:250:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:332:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:384:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:388:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:404:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:428:	LogicInversion:	Use opposite operator instead of the logic complement operator.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:434:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:436:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:440:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:456:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:457:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:458:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:461:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:466:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:476:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:539:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:600:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:640:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:645:	UnusedLocalVariable:	Avoid unused local variables such as 'thumbnailDataAccess'.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:695:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:699:	UnusedLocalVariable:	Avoid unused local variables such as 'imageThumbFileName'.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:703:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:807:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1003:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1010:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1039:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1044:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1057:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1065:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1085:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1107:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1114:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1117:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1121:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1128:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4021/test4021.java:1132:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

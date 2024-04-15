@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test8420/test8420.java:26:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test8420/test8420.java:118:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale

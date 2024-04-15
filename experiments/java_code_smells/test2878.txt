@@ -1,0 +1,110 @@
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:25:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'HIGHLIGHT': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:25:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:26:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'METHOD': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:26:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:27:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'FIELDS': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:27:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:28:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'SNIPPETS': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:28:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:36:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'Q': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:36:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:37:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'QPARSER': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:37:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:38:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'FIELD_MATCH': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:38:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:39:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'USE_PHRASE_HIGHLIGHTER': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:39:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:40:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'HIGHLIGHT_MULTI_TERM': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:40:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:43:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'DEFAULT_SUMMARY': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:43:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:44:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'ALTERNATE_FIELD': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:44:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:45:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'ALTERNATE_FIELD_LENGTH': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:45:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:46:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'HIGHLIGHT_ALTERNATE': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:46:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:49:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'FRAGSIZE': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:49:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:50:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'FRAGALIGNRATIO': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:50:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:51:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'FRAGSIZEISMINIMUM': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:51:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:52:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'FRAGMENTER': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:52:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:53:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'INCREMENT': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:53:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:54:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'REGEX': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:54:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:55:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'SLOP': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:55:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:56:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'PATTERN': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:56:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:57:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'MAX_RE_CHARS': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:57:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:58:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'BOUNDARY_SCANNER': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:58:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:59:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'BS_MAX_SCAN': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:59:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:60:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'BS_CHARS': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:60:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:61:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'BS_TYPE': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:61:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:62:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'BS_LANGUAGE': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:62:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:63:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'BS_COUNTRY': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:63:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:64:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'BS_VARIANT': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:64:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:65:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'BS_SEP': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:65:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:68:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'FORMATTER': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:68:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:69:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'ENCODER': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:69:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:70:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'MERGE_CONTIGUOUS_FRAGMENTS': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:70:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:71:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'SIMPLE': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:71:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:72:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'SIMPLE_PRE': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:72:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:73:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'SIMPLE_POST': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:73:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:74:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'FRAGMENTS_BUILDER': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:74:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:75:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'TAG_PRE': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:75:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:76:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'TAG_POST': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:76:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:77:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'TAG_ELLIPSIS': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:77:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:78:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'MULTI_VALUED_SEPARATOR': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:78:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:81:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'PRESERVE_MULTI': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:81:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:82:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'FRAG_LIST_BUILDER': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:82:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:83:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'SCORE': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:83:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:84:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'SCORE_K1': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:84:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:85:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'SCORE_B': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:85:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:86:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'SCORE_PIVOT': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:86:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:89:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'MAX_CHARS': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:89:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:90:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'PAYLOADS': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:90:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:91:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'MAX_MULTIVALUED_TO_EXAMINE': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:91:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:92:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'MAX_MULTIVALUED_TO_MATCH': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:92:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:93:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'PHRASE_LIMIT': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:93:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:94:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'OFFSET_SOURCE': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:94:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:95:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'CACHE_FIELD_VAL_CHARS_THRESHOLD': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:95:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:96:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'WEIGHT_MATCHES': the field is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2878/test2878.java:96:	ConstantsInInterface:	Using constants in interfaces is a bad practice.

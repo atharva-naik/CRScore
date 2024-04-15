@@ -1,0 +1,14 @@
+/home/arnaik/code-review-test-projects/java/test897/test897.java:64:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test897/test897.java:183:	MethodNamingConventions:	The static method name 's_newVariable' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test897/test897.java:187:	MethodNamingConventions:	The static method name 's_newVariable' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test897/test897.java:207:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test897/test897.java:208:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test897/test897.java:211:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test897/test897.java:213:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test897/test897.java:227:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test897/test897.java:237:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test897/test897.java:246:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test897/test897.java:256:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test897/test897.java:271:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test897/test897.java:284:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test897/test897.java:288:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead

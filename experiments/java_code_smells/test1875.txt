@@ -1,0 +1,16 @@
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:47:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:117:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:161:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:168:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:188:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:189:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:208:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:218:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:272:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:273:	LooseCoupling:	Avoid using implementation types like 'TrieNode'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:291:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:294:	LooseCoupling:	Avoid using implementation types like 'TrieNode'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:306:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:315:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:315:	LooseCoupling:	Avoid using implementation types like 'TrieNode'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1875/test1875.java:317:	LooseCoupling:	Avoid using implementation types like 'TrieNode'; use the interface instead

@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test6068/test6068.java:22:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test6068/test6068.java:34:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6068/test6068.java:38:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6068/test6068.java:42:	LiteralsFirstInComparisons:	Position literals first in String comparisons

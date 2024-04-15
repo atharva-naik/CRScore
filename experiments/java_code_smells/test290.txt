@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test290/test290.java:34:	UnnecessaryImport:	Unused import 'org.openqa.selenium.remote.http.*'
+/home/arnaik/code-review-test-projects/java/test290/test290.java:46:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test290/test290.java:47:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.HttpMethod.GET'

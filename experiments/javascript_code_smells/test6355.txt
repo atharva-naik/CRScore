@@ -1,0 +1,69 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 27, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 28, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 29, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 34, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 35, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 36, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 37, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 78, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 81, col 22, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 83, col 19, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 91, col 16, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 91, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 96, col 18, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 96, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 112, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 121, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 138, col 1, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 140, col 12, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 153, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 167, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 167, col 68, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 169, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 169, col 17, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 173, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 173, col 17, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 176, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 180, col 25, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 205, col 21, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 211, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 214, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 218, col 36, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 219, col 29, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 219, col 77, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 220, col 64, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 231, col 32, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 232, col 25, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 232, col 77, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 233, col 60, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 244, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 244, col 13, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 258, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 259, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 278, col 17, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 278, col 18, Expected ')' to match '(' from line 277 and instead saw 'DataDependentComponent'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 278, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 279, col 28, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 279, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 280, col 33, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 280, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 281, col 42, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 281, col 62, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 282, col 23, Expected an identifier and instead saw '...'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 282, col 23, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 282, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 282, col 31, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 282, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 283, col 17, Expected an identifier and instead saw '/'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 283, col 18, Expected an operator and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 283, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 283, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 284, col 13, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 284, col 13, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 279, col 21, Attempting to override 'data' which is a constant.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 280, col 21, Attempting to override 'datapoint' which is a constant.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 281, col 21, Attempting to override 'requestDataToState' which is a constant.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6355/test6355.js: line 289, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+
+67 errors

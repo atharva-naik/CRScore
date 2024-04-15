@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test7360/test7360.java:25:	UnnecessaryImport:	Unused import 'java.util.HashSet'
+/home/arnaik/code-review-test-projects/java/test7360/test7360.java:26:	UnnecessaryImport:	Unused import 'java.util.LinkedList'
+/home/arnaik/code-review-test-projects/java/test7360/test7360.java:28:	UnnecessaryImport:	Unused import 'java.util.Set'
+/home/arnaik/code-review-test-projects/java/test7360/test7360.java:203:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

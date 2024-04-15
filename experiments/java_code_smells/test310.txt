@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test310/test310.java:13:	UnnecessaryImport:	Unused import 'org.phoenicis.javafx.views.mainwindow.ui.*'
+/home/arnaik/code-review-test-projects/java/test310/test310.java:19:	UnnecessaryImport:	Unused static import 'org.phoenicis.configuration.localisation.Localisation.tr'
+/home/arnaik/code-review-test-projects/java/test310/test310.java:45:	SingularField:	Perhaps 'searchBar' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test310/test310.java:48:	SingularField:	Perhaps 'centerContent' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test310/test310.java:51:	SingularField:	Perhaps 'filteredCategories' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test310/test310.java:57:	SingularField:	Perhaps 'filterGroup' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test310/test310.java:59:	SingularField:	Perhaps 'testingCheck' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test310/test310.java:60:	SingularField:	Perhaps 'requiresPatchCheck' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test310/test310.java:61:	SingularField:	Perhaps 'commercialCheck' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test310/test310.java:62:	SingularField:	Perhaps 'operatingSystemCheck' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test310/test310.java:65:	SingularField:	Perhaps 'listWidgetChooser' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test310/test310.java:167:	UnusedPrivateMethod:	Avoid unused private methods such as 'createAllCategoriesToggleButton()'.
+/home/arnaik/code-review-test-projects/java/test310/test310.java:183:	UnusedPrivateMethod:	Avoid unused private methods such as 'createCategoryToggleButton(CategoryDTO)'.

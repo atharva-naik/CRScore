@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test3883/test3883.java:169:	AvoidUsingHardCodedIP:	Do not hard code the IP address advertisedHost
+/home/arnaik/code-review-test-projects/java/test3883/test3883.java:179:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collectors': 'toList' is already in scope
+/home/arnaik/code-review-test-projects/java/test3883/test3883.java:181:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

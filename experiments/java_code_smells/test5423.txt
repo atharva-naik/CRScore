@@ -1,0 +1,89 @@
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:4:	UnnecessaryImport:	Unused import 'com.rometools.utils.Strings'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:7:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.Dataset'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:8:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.Dataverse'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:14:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.engine.command.exception.IllegalCommandException'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:16:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.datasetutility.FileSizeChecker.bytesToHumanReadable'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:30:	UnnecessaryImport:	Unused import 'java.util.Locale'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:32:	UnnecessaryImport:	Unused import 'java.util.Map.Entry'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:183:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:251:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:260:	LocalVariableNamingConventions:	The local variable name 'SolrHost' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:261:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:261:	UseEqualsToCompareStrings:	Use equals() to compare strings instead of '==' or '!='
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:264:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:265:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'solrHostColonPort'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:271:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:289:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:292:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:309:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:312:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:315:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:333:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:337:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:402:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'saneDefault'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:417:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'metricsUrl'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:424:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:426:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:438:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:440:	PrimitiveWrapperInstantiation:	Do not use `new Integer(...)`, prefer `Integer.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:546:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'apiTermsOfUse'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:555:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'appPrivacyPolicyUrl'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:577:	PrimitiveWrapperInstantiation:	Do not use `new Integer(...)`, prefer `Integer.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:579:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:594:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'sizeOption'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:594:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:597:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:611:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:619:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'sizeOption'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:619:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:622:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:644:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:658:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'checksumTypeFromDatabase'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:661:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:685:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:688:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'parsedValue'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:691:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:695:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:703:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:740:	LocalVariableNamingConventions:	The local variable name '_goodStrengthLength' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:744:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:758:	LocalVariableNamingConventions:	The local variable name '_passportValidatorMinLength' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:762:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:776:	LocalVariableNamingConventions:	The local variable name '_passportValidatorMaxLength' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:780:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:815:	LocalVariableNamingConventions:	The local variable name '_numberOfCharacteristics' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:819:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:830:	LocalVariableNamingConventions:	The local variable name '_numberOfConsecutiveDigitsAllowed' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:834:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:866:	UnnecessaryModifier:	Unnecessary modifier 'private' on constructor 'FileUploadMethods(String)': enum constructors are implicitly private
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:872:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FileUploadMethods': 'values' is already in scope
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:878:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FileUploadMethods': 'values' is already in scope
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:904:	UnnecessaryModifier:	Unnecessary modifier 'private' on constructor 'FileDownloadMethods(String)': enum constructors are implicitly private
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:916:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FileDownloadMethods': 'values' is already in scope
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:935:	UnnecessaryModifier:	Unnecessary modifier 'private' on constructor 'DataFilePIDFormat(String)': enum constructors are implicitly private
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:961:	UnnecessaryModifier:	Unnecessary modifier 'private' on constructor 'TransferProtocols(String)': enum constructors are implicitly private
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:967:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TransferProtocols': 'values' is already in scope
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:973:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TransferProtocols': 'values' is already in scope
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1002:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1009:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1009:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1015:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1020:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1021:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1026:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1029:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1038:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1044:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1044:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1044:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1055:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1073:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'handleAuthHandle'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1078:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'mDCLogPath'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1101:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'sizeOption'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1101:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1104:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1116:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'sizeOption'
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1116:	PrimitiveWrapperInstantiation:	Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1119:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1145:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5423/test5423.java:1157:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

@@ -1,0 +1,15 @@
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:92:	CloseResource:	Ensure that resources like this BufferedInputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:110:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:119:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DTAFileReaderSpi': 'stataReleaseNumber' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:120:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:125:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:126:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DTAFileReaderSpi': 'stataReleaseNumber' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:156:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:165:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DTAFileReaderSpi': 'stataReleaseNumber' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:166:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:171:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:172:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DTAFileReaderSpi': 'stataReleaseNumber' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:190:	CloseResource:	Ensure that resources like this FileChannel object are closed after use
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:204:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:214:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9611/test9611.java:218:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

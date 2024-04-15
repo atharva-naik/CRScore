@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test2401/test2401.java:48:	UnnecessaryImport:	Unused static import 'org.apache.lucene.util.IOUtils.closeWhileHandlingException'
+/home/arnaik/code-review-test-projects/java/test2401/test2401.java:83:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2401/test2401.java:110:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2401/test2401.java:134:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2401/test2401.java:143:	UnnecessaryReturn:	Unnecessary return statement
+/home/arnaik/code-review-test-projects/java/test2401/test2401.java:169:	ControlStatementBraces:	This statement should have braces

@@ -1,0 +1,66 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 10, col 46, ['path'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 35, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 39, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 49, col 202, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 197, col 13, Unreachable 'var' after 'return'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 323, col 50, ['path'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 327, col 50, ['path'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 352, col 109, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 352, col 195, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 380, col 81, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 400, col 54, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 401, col 53, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 453, col 51, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 465, col 43, ['csrf_token'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 470, col 39, ['path'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 511, col 102, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 511, col 177, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 528, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 615, col 43, ['path'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 621, col 49, ['csrf_token'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 643, col 50, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 659, col 46, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 660, col 46, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 719, col 81, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 726, col 134, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 727, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 744, col 30, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 783, col 13, 'data' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 784, col 18, 'i' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 810, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 864, col 106, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 864, col 73, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (i)
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 867, col 108, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 867, col 75, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (i)
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 882, col 25, 'label' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 888, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 887, col 72, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (configsData, i)
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 890, col 21, 'label' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 892, col 21, 'input' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 892, col 212, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 899, col 209, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 906, col 26, 'c' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 914, col 21, 'input' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 915, col 21, 'label' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 929, col 113, ['plugins'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 948, col 113, ['plugins'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 988, col 26, ['plugins'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1019, col 35, ['plugins'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1029, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1042, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1043, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1059, col 18, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1060, col 315, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1072, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1068, col 31, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (countlyPlugins, showInAppManagment, app)
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1094, col 25, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (countlyCommon)
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1109, col 27, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (configManagementPromise, $, countlyPlugins, Handlebars)
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1197, col 40, ['plugins'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1210, col 39, ['plugins'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1211, col 48, ['plugins'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1241, col 22, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1241, col 49, ['member'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1241, col 59, ['global_admin'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8951/test8951.js: line 1249, col 13, 'menu' is already defined.
+
+64 errors

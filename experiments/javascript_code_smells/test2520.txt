@@ -1,0 +1,32 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 199, col 7, 'ka' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 204, col 3, 'ka' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 208, col 12, 'ka' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 209, col 9, 'ka' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 216, col 12, 'ka' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 217, col 11, 'ka' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 199, col 21, 'kb' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 205, col 3, 'kb' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 209, col 19, 'kb' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 208, col 8, 'i' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 208, col 27, 'i' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 208, col 35, 'i' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 209, col 12, 'i' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 209, col 22, 'i' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 216, col 8, 'i' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 216, col 27, 'i' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 216, col 35, 'i' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 217, col 14, 'i' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 217, col 5, 'key' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 218, col 22, 'key' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 218, col 30, 'key' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 303, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 327, col 7, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 430, col 48, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 525, col 48, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 526, col 61, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 527, col 64, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 627, col 7, It's not necessary to initialize 'models' to 'undefined'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 699, col 31, 'hasOwnProperty' is a really bad name.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2520/test2520.js: line 731, col 19, Expected an assignment or function call and instead saw an expression.
+
+30 errors

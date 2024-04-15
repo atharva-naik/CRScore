@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test1396/test1396.java:35:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead

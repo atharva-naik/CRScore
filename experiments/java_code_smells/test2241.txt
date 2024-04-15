@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test2241/test2241.java:29:	ClassNamingConventions:	The utility class name 'REGISTRY_API' doesn't match '[A-Z][a-zA-Z0-9]*'

@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test2691/test2691.java:100:	UnusedPrivateField:	Avoid unused private fields such as 'SOUPS_QUERY'.
+/home/arnaik/code-review-test-projects/java/test2691/test2691.java:101:	UnusedPrivateField:	Avoid unused private fields such as 'INDICES_QUERY'.
+/home/arnaik/code-review-test-projects/java/test2691/test2691.java:156:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2691/test2691.java:157:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2691/test2691.java:179:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2691/test2691.java:212:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test2691/test2691.java:277:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test2691/test2691.java:289:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2691/test2691.java:380:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2691/test2691.java:384:	UselessParentheses:	Useless parentheses.

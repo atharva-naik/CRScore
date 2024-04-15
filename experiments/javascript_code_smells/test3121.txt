@@ -1,0 +1,121 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 8, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 13, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 14, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 15, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 16, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 18, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 22, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 23, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 26, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 33, col 67, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 34, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 34, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 34, col 31, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 34, col 32, Expected ')' and instead saw 'div'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 34, col 37, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 34, col 49, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 34, col 49, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 34, col 49, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 38, col 65, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 39, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 39, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 39, col 31, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 39, col 32, Expected ')' and instead saw 'div'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 39, col 37, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 39, col 40, Expected an identifier and instead saw '6'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 39, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 39, col 41, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 39, col 41, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 44, col 80, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 45, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 45, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 45, col 27, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 45, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 45, col 33, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 45, col 33, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 46, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 46, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 46, col 31, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 46, col 32, Expected ')' and instead saw 'App'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 46, col 37, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 46, col 40, Expected an identifier and instead saw '6'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 46, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 46, col 41, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 46, col 41, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 50, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 50, col 27, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 50, col 28, Expected ')' and instead saw 'App'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 50, col 33, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 50, col 37, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 50, col 38, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 50, col 38, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 50, col 38, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 55, col 77, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 56, col 9, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 58, col 24, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 58, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 58, col 30, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 58, col 30, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 61, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 61, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 61, col 31, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 61, col 32, Expected ')' and instead saw 'App'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 61, col 37, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 61, col 40, Expected an identifier and instead saw '6'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 61, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 61, col 41, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 61, col 41, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 65, col 57, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 66, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 66, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 70, col 62, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 71, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 71, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 75, col 61, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 76, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 76, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 76, col 34, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 76, col 35, Expected ']' to match '[' from line 76 and instead saw 'div'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 76, col 40, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 76, col 41, Expected ')' and instead saw ']'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 76, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 76, col 52, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 76, col 52, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 80, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 81, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 81, col 19, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 81, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 81, col 25, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 81, col 25, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 82, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 82, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 82, col 33, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 82, col 34, Expected ')' and instead saw 'Foo'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 82, col 39, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 82, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 82, col 50, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 82, col 50, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 86, col 60, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 87, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 97, col 44, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 100, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 101, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 105, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 108, col 66, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 109, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 110, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 111, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 112, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 113, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 114, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 115, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 116, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 116, col 41, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 116, col 42, Expected ']' to match '[' from line 116 and instead saw 'div'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3121/test3121.js: line 116, col 42, Too many errors. (21% scanned).
+
+119 errors

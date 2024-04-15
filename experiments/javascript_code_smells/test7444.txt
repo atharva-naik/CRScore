@@ -1,0 +1,47 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 25, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 183, col 19, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 214, col 36, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 234, col 34, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 307, col 40, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 326, col 40, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 27, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 29, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 30, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 39, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 59, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 71, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 75, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 89, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 99, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 117, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 119, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 119, col 27, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 139, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 156, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 156, col 27, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 177, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 192, col 22, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 195, col 18, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 212, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 217, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 217, col 31, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 228, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 235, col 25, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 238, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 241, col 9, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 249, col 25, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 252, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 274, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 276, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 278, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 287, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 303, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 322, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 342, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 356, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 374, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 388, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 82, col 7, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7444/test7444.js: line 263, col 5, 'console' is not defined.
+
+45 errors

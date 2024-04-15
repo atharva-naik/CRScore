@@ -1,0 +1,17 @@
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:104:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.QueryElevationParams.ELEVATE_DOCS_WITHOUT_MATCHING_Q'
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:274:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:326:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:380:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:408:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:444:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:446:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:584:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:893:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:973:	LooseCoupling:	Avoid using implementation types like 'LinkedHashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:1095:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:1132:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:1257:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:1406:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:1416:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:1461:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9874/test9874.java:1470:	ControlStatementBraces:	This statement should have braces

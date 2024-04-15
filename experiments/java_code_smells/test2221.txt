@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test2221/test2221.java:21:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test2221/test2221.java:25:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2221/test2221.java:43:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element

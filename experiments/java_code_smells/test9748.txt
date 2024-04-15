@@ -1,0 +1,18 @@
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:19:	UnnecessaryImport:	Unused static import 'javaslang.API.$'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:20:	UnnecessaryImport:	Unused static import 'javaslang.API.Case'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:21:	UnnecessaryImport:	Unused static import 'javaslang.API.Match'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:22:	UnnecessaryImport:	Unused static import 'javaslang.API.run'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:23:	UnnecessaryImport:	Unused static import 'javaslang.MatchTest_DeveloperPatterns.Developer'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:24:	UnnecessaryImport:	Unused static import 'javaslang.Patterns.*'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:25:	UnnecessaryImport:	Unused static import 'javaslang.Predicates.*'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:26:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:79:	MethodNamingConventions:	The JUnit 4 test method name 'shouldMatchValueReturningValue_NegativeCase' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:91:	MethodNamingConventions:	The JUnit 4 test method name 'shouldMatchValueReturningAppliedFunction_NegativeCase' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:105:	MethodNamingConventions:	The JUnit 4 test method name 'shouldMatchPredicateReturningValue_NegativeCase' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:117:	MethodNamingConventions:	The JUnit 4 test method name 'shouldMatchPredicateReturningAppliedFunction_NegativeCase' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:369:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:387:	MissingOverride:	The method 'getName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:394:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:394:	ClassNamingConventions:	The utility class name '$' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:394:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test9748/test9748.java:396:	MethodNamingConventions:	The static method name 'Developer' doesn't match '[a-z][a-zA-Z0-9]*'

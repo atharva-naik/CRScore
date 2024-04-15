@@ -1,0 +1,23 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 63, col 30, Did you mean to return a conditional instead of an assignment?
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 87, col 2, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 123, col 2, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 164, col 7, 'buf' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 207, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 262, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 329, col 27, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 334, col 34, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 335, col 34, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 389, col 6, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 393, col 14, 'i' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 393, col 21, 'l' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 411, col 13, 'txout' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 412, col 13, 'script' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 414, col 13, 'outPubKey' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 530, col 14, 'i' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 595, col 5, ['out'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 647, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 748, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 789, col 37, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2700/test2700.js: line 817, col 15, Value of 'err' may be overwritten in IE 8 and earlier.
+
+21 errors

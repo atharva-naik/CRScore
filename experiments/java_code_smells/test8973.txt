@@ -1,0 +1,24 @@
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:51:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:107:	UnusedPrivateField:	Avoid unused private fields such as 'PREF_HTTP_PROXY_HOST'.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:108:	UnusedPrivateField:	Avoid unused private fields such as 'PREF_HTTP_PROXY_PORT'.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:109:	UnusedPrivateField:	Avoid unused private fields such as 'PREF_HTTP_PROXY_USER'.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:110:	UnusedPrivateField:	Avoid unused private fields such as 'PREF_HTTP_PROXY_PASSWORD'.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:111:	UnusedPrivateField:	Avoid unused private fields such as 'PREF_SOCKS_PROXY_HOST'.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:112:	UnusedPrivateField:	Avoid unused private fields such as 'PREF_SOCKS_PROXY_PORT'.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:113:	UnusedPrivateField:	Avoid unused private fields such as 'PREF_SOCKS_PROXY_USER'.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:114:	UnusedPrivateField:	Avoid unused private fields such as 'PREF_SOCKS_PROXY_PASSWORD'.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:133:	UnusedPrivateField:	Avoid unused private fields such as 'PREF_LEFT_VOLUME'.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:134:	UnusedPrivateField:	Avoid unused private fields such as 'PREF_RIGHT_VOLUME'.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:170:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'UserPreferences': 'prefs' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:324:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:338:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:371:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:416:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'UserPreferences': 'PREF_FOLLOW_QUEUE' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:450:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'UserPreferences': 'setPlaybackSpeed' is already in scope
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:460:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'UserPreferences': 'setVideoPlaybackSpeed' is already in scope
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:504:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:508:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:535:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:736:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:828:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test8973/test8973.java:832:	LiteralsFirstInComparisons:	Position literals first in String comparisons

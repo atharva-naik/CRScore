@@ -5,6 +5,19 @@ import pandas as pd
 from scipy.stats import spearmanr, kendalltau
 from sklearn.metrics import cohen_kappa_score
 
+score_based_rankings = [">".join([str(rank) for rank in ranking]) for ranking in 
+[[2, 4, 5, 1, 3],
+ [2, 5, 1, 4, 3],
+ [5, 1, 2, 3, 4],
+ [1, 4, 3, 2, 5],
+ [4, 2, 5, 3, 1],
+ [2, 4, 1, 5, 3],
+ [1, 4, 5, 3, 2],
+ [5, 2, 1, 3, 4],
+ [5, 2, 3, 1, 4],
+ [2, 4, 3, 1, 5]]]
+
+
 def generate_equivalent_rankings(ranking):
     # Parse the ranking into a list of elements
     elements = ranking.split('>')
@@ -101,3 +114,32 @@ if __name__ == "__main__":
             # mean_spearmanr_with_ties = np.mean(spearmanr_scores)
             print(f"annotator-{j+1} & annotator-{i+1}: {mean_max_spearman_r:.3f}")
             print(f"annotator-{j+1} & annotator-{i+1}: Kendall Tau-b (with ties): {mean_kendall_tau:.3f}")
+
+    for i in range(len(paths)):
+        x_ranks = annotators[i]["Overall Quality Ranking"].dropna()
+        y_ranks = score_based_rankings
+        max_spearman_rs = []
+        # spearmanr_scores = []
+        kendal_tau_scores = []
+        for x_rl, y_rl in zip(x_ranks, y_ranks):
+            # print("x_rl:", x_rl)
+            x_scores = convert_ranking_to_scores(x_rl)
+            y_scores = convert_ranking_to_scores(y_rl)
+            # spearmanr_scores.append(spearmanr(x_scores, y_scores).statistic)
+            kendal_tau_scores.append(kendalltau(x_scores, y_scores))
+
+            x_rl = generate_equivalent_rankings(x_rl)
+            y_rl = generate_equivalent_rankings(y_rl)
+
+            max_spearman_r = 0
+            for possible_x_rl in x_rl:
+                for possible_y_rl in y_rl:
+                    # print(x_rl, y_rl)
+                    max_spearman_r = max(max_spearman_r, spearmanr(possible_x_rl, possible_y_rl).statistic)
+            # print(max_spearman_r)
+            max_spearman_rs.append(max_spearman_r)
+        mean_max_spearman_r = np.mean(max_spearman_rs)
+        mean_kendall_tau = np.mean(kendal_tau_scores)
+        # mean_spearmanr_with_ties = np.mean(spearmanr_scores)
+        print(f"annotator-{i+1} score: {mean_max_spearman_r:.3f}")
+        print(f"annotator-{i+1} & score: Kendall Tau-b (with ties): {mean_kendall_tau:.3f}")

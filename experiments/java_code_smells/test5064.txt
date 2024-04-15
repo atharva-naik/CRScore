@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test5064/test5064.java:33:	UnnecessaryImport:	Unused import 'android.view.KeyEvent'
+/home/arnaik/code-review-test-projects/java/test5064/test5064.java:418:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test5064/test5064.java:430:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5064/test5064.java:433:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test5064/test5064.java:446:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.

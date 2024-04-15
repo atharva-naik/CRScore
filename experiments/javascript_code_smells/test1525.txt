@@ -1,0 +1,11 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1525/test1525.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test1525/test1525.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1525/test1525.js: line 14, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1525/test1525.js: line 27, col 35, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1525/test1525.js: line 53, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1525/test1525.js: line 54, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1525/test1525.js: line 55, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1525/test1525.js: line 44, col 17, 'Set' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1525/test1525.js: line 52, col 1, 'module' is not defined.
+
+9 errors

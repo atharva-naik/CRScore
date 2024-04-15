@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:20:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.util.json.NullSafeJsonBuilder.jsonObjectBuilder'
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:257:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'name'.
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:323:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:327:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:424:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:431:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SolrSearchResult': 'PARENT_IDENTIFIER' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:457:	UnusedLocalVariable:	Avoid unused local variables such as 'filePersistentId'.
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:459:	UnusedLocalVariable:	Avoid unused local variables such as 'apiUrl'.
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:483:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SolrSearchResult': 'PARENT_IDENTIFIER' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:739:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:938:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:952:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5255/test5255.java:956:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

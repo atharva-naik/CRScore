@@ -1,0 +1,94 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 6, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 24, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 31, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 69, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 76, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 118, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 172, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 178, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 218, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 225, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 244, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 273, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 279, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 297, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 324, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 333, col 11, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 336, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 360, col 11, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 363, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 376, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 412, col 11, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 415, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 435, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 455, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 477, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 495, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 517, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 533, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 561, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 583, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 618, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 643, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 665, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 666, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 685, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 719, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 726, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 752, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 779, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 799, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 800, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 800, col 19, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 801, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 804, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 806, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 807, col 81, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 808, col 30, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 817, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 818, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 821, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 822, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 826, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 827, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 828, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 829, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 3, col 9, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 4, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 5, col 21, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 6, col 28, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 7, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 8, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 10, col 1, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 11, col 3, 'before' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 15, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 60, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 108, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 163, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 205, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 264, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 315, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 346, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 398, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 427, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 447, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 469, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 489, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 506, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 550, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 573, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 594, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 626, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 653, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 675, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 710, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 742, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 769, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 794, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test449/test449.js: line 816, col 3, 'it' is not defined.
+
+92 errors

@@ -1,0 +1,14 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 5, col 13, Expected 'from' and instead saw '{'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 5, col 14, Expected '(string)' and instead saw 'JWTPayload'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 5, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 5, col 24, Expected an identifier and instead saw ','.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 5, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 5, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 5, col 26, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 5, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8551/test8551.js: line 5, col 26, Unrecoverable syntax error. (8% scanned).
+
+12 errors

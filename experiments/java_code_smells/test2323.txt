@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test2323/test2323.java:46:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2323/test2323.java:196:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test2323/test2323.java:214:	UnusedPrivateMethod:	Avoid unused private methods such as 'lazyFieldsByName()'.
+/home/arnaik/code-review-test-projects/java/test2323/test2323.java:298:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test330/test330.java:17:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test330/test330.java:18:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.verify'
+/home/arnaik/code-review-test-projects/java/test330/test330.java:19:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.verifyNoMoreInteractions'
+/home/arnaik/code-review-test-projects/java/test330/test330.java:20:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.when'
+/home/arnaik/code-review-test-projects/java/test330/test330.java:38:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test330/test330.java:39:	FinalFieldCouldBeStatic:	This final field could be made static

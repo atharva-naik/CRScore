@@ -1,0 +1,21 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 1, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 1, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 2, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 2, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 3, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 5, col 1, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 5, col 12, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 7, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 8, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 8, col 21, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 16, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 18, col 14, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 21, col 9, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 26, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 27, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 31, col 4, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8749/test8749.js: line 32, col 2, Missing semicolon.
+
+19 errors

@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test8513/test8513.java:7:	UnnecessaryImport:	Unused import 'java.util.Collections'
+/home/arnaik/code-review-test-projects/java/test8513/test8513.java:9:	UnnecessaryImport:	Unused import 'java.util.Set'
+/home/arnaik/code-review-test-projects/java/test8513/test8513.java:13:	UnnecessaryImport:	Unused import 'java.util.function.Supplier'
+/home/arnaik/code-review-test-projects/java/test8513/test8513.java:15:	UnnecessaryImport:	Unused static import 'com.codahale.metrics.MetricAttribute.*'
+/home/arnaik/code-review-test-projects/java/test8513/test8513.java:23:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8513/test8513.java:41:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8513/test8513.java:189:	DefaultLabelNotLastInSwitchStmt:	The default label should be the last label in a switch statement

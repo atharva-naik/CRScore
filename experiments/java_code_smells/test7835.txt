@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test7835/test7835.java:53:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.MetadataTableUtils.createMetadataTableInstance'
+/home/arnaik/code-review-test-projects/java/test7835/test7835.java:96:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

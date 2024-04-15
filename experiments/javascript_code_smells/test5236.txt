@@ -1,0 +1,51 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 26, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 27, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 32, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 33, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 34, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 35, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 36, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 37, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 38, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 39, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 40, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 41, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 42, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 43, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 44, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 45, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 46, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 49, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 50, col 9, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 50, col 10, Expected ')' to match '(' from line 49 and instead saw 'DashboardModuleHeader'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 51, col 13, Expected ')' and instead saw 'title'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 51, col 18, Bad assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 51, col 21, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 51, col 25, Expected an identifier and instead saw 'Module Header'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 51, col 42, Expected an identifier and instead saw 'google-site-kit'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 51, col 60, 'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 51, col 62, Expected an identifier and instead saw '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 52, col 13, Expected '}' to match '{' from line 51 and instead saw 'description'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 52, col 24, Bad assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 52, col 27, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 52, col 31, Expected an identifier and instead saw 'Description of Module'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 52, col 56, Expected an identifier and instead saw 'google-site-kit'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 52, col 74, 'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 52, col 76, Expected an identifier and instead saw '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 53, col 9, Expected an operator and instead saw '/'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 53, col 10, Expected an operator and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 54, col 5, Expected '}' to match '{' from line 52 and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 54, col 6, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 54, col 7, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 55, col 5, Expected an operator and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 55, col 5, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 55, col 6, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 55, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 56, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 56, col 31, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 56, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 69, col 14, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5236/test5236.js: line 69, col 14, Unrecoverable syntax error. (34% scanned).
+
+49 errors

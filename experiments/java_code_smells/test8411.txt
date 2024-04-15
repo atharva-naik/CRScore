@@ -1,0 +1,25 @@
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:101:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:102:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:111:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:113:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:127:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:161:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:171:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:176:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:183:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:189:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:325:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:347:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:351:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:354:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:363:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:389:	UseNotifyAllInsteadOfNotify:	Call Thread.notifyAll() rather than Thread.notify()
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:494:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:512:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:516:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:567:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:573:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:595:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:595:	LogicInversion:	Use opposite operator instead of the logic complement operator.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:634:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test8411/test8411.java:684:	EmptyCatchBlock:	Avoid empty catch blocks

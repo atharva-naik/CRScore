@@ -1,0 +1,49 @@
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:69:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:130:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:157:	UnusedPrivateMethod:	Avoid unused private methods such as 'afterClass()'.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:351:	LocalVariableNamingConventions:	The final local variable name 'FQ_MAX' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:479:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'addParams': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:499:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'requiresRealtimeSearcherReOpen': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:511:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getDefaultTransformerFactoryName': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:516:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getExtraRequestParams': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:522:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getFlParam': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:534:	FinalParameterInAbstractMethod:	Final parameter in abstract method
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:534:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'assertRTGResults': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:544:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getSuppressedFields': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:554:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:555:	MissingOverride:	The method 'assertRTGResults(Collection<FlValidator>, SolrInputDocument, SolrDocument)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:568:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:575:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:576:	MissingOverride:	The method 'getSuppressedFields()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:601:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:604:	MissingOverride:	The method 'getDefaultTransformerFactoryName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:627:	MissingOverride:	The method 'getDefaultTransformerFactoryName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:628:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:629:	MissingOverride:	The method 'assertRTGResults(Collection<FlValidator>, SolrInputDocument, SolrDocument)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:660:	MissingOverride:	The method 'getDefaultTransformerFactoryName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:661:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:662:	MissingOverride:	The method 'assertRTGResults(Collection<FlValidator>, SolrInputDocument, SolrDocument)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:695:	MissingOverride:	The method 'getDefaultTransformerFactoryName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:696:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:697:	MissingOverride:	The method 'assertRTGResults(Collection<FlValidator>, SolrInputDocument, SolrDocument)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:728:	MissingOverride:	The method 'requiresRealtimeSearcherReOpen()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:729:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:730:	MissingOverride:	The method 'assertRTGResults(Collection<FlValidator>, SolrInputDocument, SolrDocument)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:752:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:763:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:764:	MissingOverride:	The method 'assertRTGResults(Collection<FlValidator>, SolrInputDocument, SolrDocument)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:779:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:785:	MissingOverride:	The method 'getDefaultTransformerFactoryName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:786:	MissingOverride:	The method 'getExtraRequestParams()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:787:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SubQueryValidator': 'SUBQ_KEY' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:788:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SubQueryValidator': 'SUBQ_FIELD' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:838:	MissingOverride:	The method 'getDefaultTransformerFactoryName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:839:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:840:	MissingOverride:	The method 'assertRTGResults(Collection<FlValidator>, SolrInputDocument, SolrDocument)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:849:	MissingOverride:	The method 'getSuppressedFields()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:869:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:879:	MissingOverride:	The method 'assertRTGResults(Collection<FlValidator>, SolrInputDocument, SolrDocument)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:916:	MissingOverride:	The method 'getFlParam()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:917:	MissingOverride:	The method 'assertRTGResults(Collection<FlValidator>, SolrInputDocument, SolrDocument)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:935:	MissingOverride:	The method 'getDefaultTransformerFactoryName()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test8039/test8039.java:950:	UnusedFormalParameter:	Avoid unused method parameters such as 'rand'.

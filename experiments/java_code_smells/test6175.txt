@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test6175/test6175.java:60:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test6175/test6175.java:120:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6175/test6175.java:121:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6175/test6175.java:122:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6175/test6175.java:123:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6175/test6175.java:144:	LocalVariableNamingConventions:	The final local variable name 'R' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test6175/test6175.java:304:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6175/test6175.java:369:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6175/test6175.java:387:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PublicKey': 'create' is already in scope
+/home/arnaik/code-review-test-projects/java/test6175/test6175.java:538:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

@@ -1,0 +1,78 @@
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:11:	UnnecessaryImport:	Unused import 'javaslang.collection.StreamModule.*'
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:107:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:108:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:109:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:110:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:114:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:127:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:140:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:152:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:165:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:177:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:191:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:287:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:301:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:329:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:340:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:351:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:362:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:373:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:384:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:395:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:406:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:410:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:414:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:418:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:438:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:464:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:484:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:510:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:514:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:518:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:522:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:542:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:568:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:588:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:614:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:625:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:630:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:636:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:667:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'rangeClosed' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:677:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:753:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:753:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'TreeSet' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:759:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:759:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'HashSet' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:805:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:815:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Iterator' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:815:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Collections' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:854:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:916:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:916:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:943:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:972:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'continually' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:984:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'continually' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1023:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1042:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1126:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1138:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1145:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1174:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'collector' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1180:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'collector' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1330:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1334:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1334:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1344:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1344:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1344:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1380:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1386:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1391:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1401:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1401:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'continually' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1412:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1412:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'continually' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1428:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1436:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Stream': 'iterate' is already in scope
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1785:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6371/test6371.java:1808:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Iterator' is already in scope because it is imported in this file

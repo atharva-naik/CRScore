@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test696/test696.java:31:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test696/test696.java:33:	UnusedPrivateField:	Avoid unused private fields such as 'logger'.
+/home/arnaik/code-review-test-projects/java/test696/test696.java:41:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test696/test696.java:50:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test696/test696.java:89:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test696/test696.java:94:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test696/test696.java:159:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test696/test696.java:178:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test696/test696.java:197:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test696/test696.java:202:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'secretKeySpec'

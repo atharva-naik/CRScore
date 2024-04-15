@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6055/test6055.java:68:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6055/test6055.java:212:	AssignmentInOperand:	Avoid assignments in operands

@@ -1,0 +1,35 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 5, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 110, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 111, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 117, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 119, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 304, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 305, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 310, col 21, Value of 'err' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 324, col 44, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 2, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 3, col 21, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 4, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 5, col 23, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 7, col 1, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 8, col 3, 'before' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 12, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 67, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 104, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 135, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 154, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 208, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 275, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 296, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 317, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 342, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 370, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 407, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 444, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 488, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6984/test6984.js: line 95, col 11, 'process' is not defined.
+
+33 errors

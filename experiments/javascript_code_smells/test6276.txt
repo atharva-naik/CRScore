@@ -1,0 +1,10 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6276/test6276.js: line 56, col 23, ['sessionId'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6276/test6276.js: line 61, col 31, ['sessionId'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6276/test6276.js: line 62, col 15, ['sessionId'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6276/test6276.js: line 62, col 41, ['sessionId'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6276/test6276.js: line 62, col 54, ['value'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6276/test6276.js: line 713, col 41, ['desiredCapabilities'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6276/test6276.js: line 714, col 42, ['requiredCapabilities'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6276/test6276.js: line 721, col 58, ['elementScrollBehavior'] is better written in dot notation.
+
+8 errors

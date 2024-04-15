@@ -1,0 +1,19 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 3, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 4, col 10, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 5, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 45, col 40, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 46, col 30, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 99, col 24, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 160, col 17, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 224, col 17, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 314, col 18, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 315, col 12, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 319, col 20, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 321, col 20, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 323, col 12, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 46, col 56, 'Uint8Array' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 99, col 52, 'Uint8Array' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4945/test4945.js: line 358, col 1, 'module' is not defined.
+
+17 errors

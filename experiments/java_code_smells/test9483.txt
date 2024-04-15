@@ -1,0 +1,50 @@
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:87:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.NAME'
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:88:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.PATH'
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:89:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.util.Utils.fromJSON'
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:90:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.util.Utils.makeMap'
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:91:	UnnecessaryImport:	Unused static import 'org.apache.solr.core.ConfigOverlay.ZNODEVER'
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:178:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SolrConfig': 'parseLuceneVersionString' is already in scope
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:209:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:217:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:219:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:255:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:268:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:283:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:287:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:374:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:378:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:405:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:406:	CloseResource:	Ensure that resources like this InputStreamReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:482:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:500:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:504:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:508:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:558:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:580:	UnnecessaryModifier:	Unnecessary modifier 'static' on enum 'LastModFrom': nested enums are implicitly static
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:660:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:691:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:732:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:733:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:779:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:796:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:798:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:818:	UnusedPrivateMethod:	Avoid unused private methods such as 'validateMemoryBreakerThreshold()'.
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:858:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:865:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:885:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:899:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:902:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PluginOpts': 'REQUIRE_NAME' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:903:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:906:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:906:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:906:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:909:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:913:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:914:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:929:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:933:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:942:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:943:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:943:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:950:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9483/test9483.java:984:	ControlStatementBraces:	This statement should have braces

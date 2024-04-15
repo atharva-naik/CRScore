@@ -1,0 +1,13 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 11, col 9, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 35, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 99, col 20, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 56, col 36, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 57, col 25, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 60, col 36, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 61, col 25, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 64, col 65, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 65, col 54, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2807/test2807.js: line 99, col 1, 'module' is not defined.
+
+11 errors

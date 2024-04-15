@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test4201/test4201.java	-	LexException: Lexical error in file '/home/arnaik/code-review-test-projects/java/test4201/test4201.java' at line 23, column 3: "s" (115), after : "\'u" (in lexical state DEFAULT)

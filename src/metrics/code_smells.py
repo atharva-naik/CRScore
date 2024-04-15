@@ -745,17 +745,30 @@ def load_py_smells_file(smells_folder: str, codes_folder: str):
                 elif isinstance(v, dict): smell_details = v
             if num_smelly_items > 0:
                 smell_name = PYTHON_SMELL_NAMES[smell_type]
+                if smell_type == "useless_try_except_clauses": smell_details = smell_data
                 elaboration = PYTHON_SMELL_ELABORATIONS[smell_type].format(**smell_details)
                 smell_summaries[project_path].append(f"Contains {num_smelly_items} {'instance' if num_smelly_items == 1 else 'instances'} of {smell_name} smell with {elaboration}.")
-        smell_summaries[project_path] = "\n".join(smell_summaries[project_path])
-
-        print(smell_summaries[project_path]+"\n")
+        print("\n".join(smell_summaries[project_path])+"\n")
 
     return smell_summaries
 
+PROJECT_FILE_DIR = "/home/arnaik/code-review-test-projects/java/{file}/{file}.java"
+
+def process(path, file):
+    file, _ = os.path.splitext(file)
+    smells = []
+    with open(path) as f:
+        for line in f:
+            # print(PROJECT_FILE_DIR.format(file=file))
+            smells.append(line.replace(PROJECT_FILE_DIR.format(file=file), ""))
+    return smells
+
 # main
 if __name__ == "__main__":
-    smell_summaries = load_py_smells_file("/home/arnaik/Pyscent/output/json_logs/", "/home/arnaik/code-review-test-projects/python")
+    python_smell_summaries = load_py_smells_file("/home/arnaik/Pyscent/output/json_logs/", "/home/arnaik/code-review-test-projects/python")
+    # print(python_smell_summaries)
+    java_smell_summaries = {file: process(os.path.join("./experiments/java_code_smells", file), file) for file in os.listdir("./experiments/java_code_smells")}
+    # print(java_smell_summaries)
     # train_data = read_jsonl("./data/Comment_Generation/msg-train.jsonl")
     # smelly_commits = detect_code_smell_instances(train_data)
     # with open("./data/Comment_Generation/code-smells-train.json", 'w') as f:

@@ -1,0 +1,62 @@
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:8:	UnnecessaryImport:	Unused import 'javaslang.*'
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:15:	UnnecessaryImport:	Unnecessary import from the java.lang package 'java.lang.Iterable'
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:32:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:34:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:48:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:49:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:50:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:51:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:55:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:66:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:82:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:106:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:138:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:158:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:160:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:172:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:174:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:175:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:190:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:190:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'TreeSet' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:197:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:197:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'HashSet' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:249:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:254:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:330:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:338:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:382:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:410:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:452:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:469:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:526:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:543:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:545:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:602:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:604:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:649:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:659:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'collector' is already in scope
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:665:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'collector' is already in scope
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:751:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:757:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:757:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:759:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:760:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:770:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:772:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:774:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Iterator' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:782:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:784:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:786:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Iterator' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:797:	LooseCoupling:	Avoid using implementation types like 'Vector'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:879:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:918:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:1123:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:1702:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:1749:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:1796:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:1796:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:1832:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:1832:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:1926:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:1927:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4352/test4352.java:1964:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang

@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test267/test267.java:32:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expression.Operation.IS_NULL'
+/home/arnaik/code-review-test-projects/java/test267/test267.java:33:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expression.Operation.NOT_NULL'
+/home/arnaik/code-review-test-projects/java/test267/test267.java:56:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'year'

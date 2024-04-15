@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test1106/test1106.java:24:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.CapabilityType.PROXY'
+/home/arnaik/code-review-test-projects/java/test1106/test1106.java:25:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.Contents.string'
+/home/arnaik/code-review-test-projects/java/test1106/test1106.java:79:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

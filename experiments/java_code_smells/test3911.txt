@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:42:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:59:	SuspiciousEqualsMethodName:	The method name and parameter number are suspiciously close to equals(Object)
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:113:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:114:	CloseResource:	Ensure that resources like this ZipOutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:134:	CloseResource:	Ensure that resources like this BufferedInputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:150:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:151:	CloseResource:	Ensure that resources like this BufferedOutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:190:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:192:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:203:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:227:	IdenticalCatchBranches:	'catch' branch identical to 'IllegalAccessException' branch
+/home/arnaik/code-review-test-projects/java/test3911/test3911.java:229:	IdenticalCatchBranches:	'catch' branch identical to 'IllegalAccessException' branch

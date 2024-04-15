@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test7158/test7158.java:17:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test7158/test7158.java:44:	UseUtilityClass:	This utility class has a non-private constructor

@@ -1,0 +1,25 @@
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:80:	UnnecessaryImport:	Unused static import 'org.mozilla.vrbrowser.ui.widgets.settings.SettingsView.SettingViewType.FXA'
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:81:	UnnecessaryImport:	Unused static import 'org.mozilla.vrbrowser.utils.ServoUtils.isInstanceOfServoSession'
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:87:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:122:	LooseCoupling:	Avoid using implementation types like 'CopyOnWriteArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:137:	LooseCoupling:	Avoid using implementation types like 'CopyOnWriteArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:140:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:141:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:142:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:143:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:144:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:394:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:395:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:429:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:430:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:437:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:441:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:916:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:1324:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:1330:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:1339:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:1350:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:1639:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:1832:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:1832:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7187/test7187.java:1887:	UselessParentheses:	Useless parentheses.

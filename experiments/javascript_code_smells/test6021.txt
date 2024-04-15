@@ -1,0 +1,15 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 5, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 13, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 15, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 25, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 27, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 31, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 34, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 35, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 36, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 37, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6021/test6021.js: line 38, col 2, Missing semicolon.
+
+13 errors

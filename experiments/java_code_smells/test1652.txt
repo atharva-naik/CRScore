@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test1652/test1652.java:61:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1652/test1652.java:266:	LogicInversion:	Use opposite operator instead of the logic complement operator.
+/home/arnaik/code-review-test-projects/java/test1652/test1652.java:297:	MethodNamingConventions:	The instance method name 'getValues_nondisplay' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test1652/test1652.java:339:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DatasetField': 'NA_VALUE' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test1652/test1652.java:480:	LiteralsFirstInComparisons:	Position literals first in String comparisons

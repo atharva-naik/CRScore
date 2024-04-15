@@ -1,0 +1,57 @@
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:54:	UnnecessaryImport:	Unused static import 'net.runelite.api.MenuAction.MENU_ACTION_DEPRIORITIZE_OFFSET'
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:55:	UnnecessaryImport:	Unused static import 'net.runelite.api.MenuAction.WALK'
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:60:	UnnecessaryImport:	Unused static import 'net.runelite.api.Varbits.BUILDING_MODE'
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:80:	UnnecessaryImport:	Unused static import 'net.runelite.client.menus.ComparableEntries.newBankComparableEntry'
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:81:	UnnecessaryImport:	Unused static import 'net.runelite.client.menus.ComparableEntries.newBaseComparableEntry'
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:110:	UnnecessaryImport:	Unused static import 'net.runelite.client.util.MenuUtil.swap'
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:370:	UnusedPrivateMethod:	Avoid unused private methods such as 'onConfigChanged(ConfigChanged)'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:384:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:390:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:406:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:406:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:406:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:418:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:418:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:418:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:431:	UnusedPrivateMethod:	Avoid unused private methods such as 'resetItemDefinitionCache()'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:476:	UnusedPrivateMethod:	Avoid unused private methods such as 'onWidgetMenuOptionClicked(WidgetMenuOptionClicked)'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:482:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:482:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:487:	UnusedPrivateMethod:	Avoid unused private methods such as 'onGameStateChanged(GameStateChanged)'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:487:	UnusedFormalParameter:	Avoid unused method parameters such as 'event'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:497:	UnusedPrivateMethod:	Avoid unused private methods such as 'onVarbitChanged(VarbitChanged)'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:497:	UnusedFormalParameter:	Avoid unused method parameters such as 'event'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:504:	UnusedPrivateMethod:	Avoid unused private methods such as 'onMenuOpened(MenuOpened)'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:513:	LogicInversion:	Use opposite operator instead of the logic complement operator.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:518:	LocalVariableNamingConventions:	The local variable name 'menu_entries' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:593:	LocalVariableNamingConventions:	The local variable name 'updated_menu_entries' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:656:	UnusedPrivateMethod:	Avoid unused private methods such as 'onMenuOptionClicked(MenuOptionClicked)'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:674:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:674:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:688:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:719:	UnusedLocalVariable:	Avoid unused local variables such as 'pOptionToReplace'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:726:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:761:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:765:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:786:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:790:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:796:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:798:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:808:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:815:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:817:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:834:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:836:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:852:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:854:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:867:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:882:	UnusedPrivateMethod:	Avoid unused private methods such as 'onPostItemDefinition(PostItemDefinition)'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:893:	UnusedPrivateMethod:	Avoid unused private methods such as 'onFocusChanged(FocusChanged)'.
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:1339:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:1354:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:1367:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:1377:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:1591:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:1606:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:1619:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2075/test2075.java:1629:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

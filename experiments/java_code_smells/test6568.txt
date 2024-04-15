@@ -1,0 +1,37 @@
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:79:	UnnecessaryImport:	Unused import 'org.apache.lucene.index.*'
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:149:	UnnecessaryImport:	Unused static import 'com.carrotsearch.randomizedtesting.RandomizedTest.systemPropertyAsBoolean'
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:150:	UnnecessaryImport:	Unused static import 'com.carrotsearch.randomizedtesting.RandomizedTest.systemPropertyAsInt'
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:151:	UnnecessaryImport:	Unused static import 'org.apache.lucene.search.DocIdSetIterator.NO_MORE_DOCS'
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:278:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'bugUrl': the method is declared in an annotation type
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:308:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'bugUrl': the method is declared in an annotation type
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:364:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'bugUrl': the method is declared in an annotation type
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:379:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'bugUrl': the method is declared in an annotation type
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:502:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:560:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:630:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:642:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:642:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:673:	SingularField:	Perhaps 'testFailureMarker' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:690:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:1037:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:1370:	CloseResource:	Ensure that resources like this FileSystem object are closed after use
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:1405:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:1420:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'wrapped'
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:1424:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:1637:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:1669:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:1678:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:1687:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:1987:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2284:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2327:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2626:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2627:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2791:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2791:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2824:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2824:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2825:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2868:	MethodNamingConventions:	The static method name '_expectThrows' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:2879:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test6568/test6568.java:3000:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'LuceneTestCase': 'TEST_NIGHTLY' is already in scope because it is declared in an enclosing type

@@ -1,0 +1,117 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 25, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 221, col 25, 'previousParentConnection' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 222, col 5, 'previousParentConnection' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 308, col 9, 'blockB' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 309, col 9, 'blockA' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 311, col 7, 'blockA' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 311, col 17, 'blockA' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 315, col 14, 'blockA' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 315, col 34, 'blockA' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 319, col 14, 'blockA' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 311, col 27, 'blockB' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 315, col 24, 'blockB' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 315, col 55, 'blockB' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 319, col 36, 'blockB' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 536, col 21, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 27, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 29, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 30, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 492, col 3, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 552, col 3, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 553, col 3, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 657, col 10, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 39, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 51, col 43, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 59, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 60, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 61, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 62, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 63, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 64, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 65, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 71, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 78, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 85, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 92, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 99, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 106, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 113, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 121, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 128, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 136, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 164, col 19, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 167, col 41, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 173, col 41, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 200, col 11, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 202, col 21, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 206, col 13, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 212, col 13, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 214, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 226, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 227, col 17, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 230, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 235, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 242, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 249, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 250, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 252, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 253, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 263, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 271, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 279, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 280, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 281, col 20, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 288, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 300, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 302, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 312, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 313, col 29, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 314, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 316, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 318, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 320, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 322, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 332, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 334, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 336, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 338, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 341, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 343, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 345, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 347, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 361, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 370, col 21, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 377, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 387, col 15, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 415, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 419, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 430, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 458, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 469, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 491, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 506, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 510, col 50, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 533, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 536, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 550, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 578, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 581, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 582, col 17, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 590, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 598, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 601, col 42, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 603, col 9, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 618, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 632, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 654, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 679, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 680, col 28, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 682, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 685, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 688, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 690, col 10, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 697, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 705, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2682/test2682.js: line 203, col 9, 'setTimeout' is not defined.
+
+115 errors

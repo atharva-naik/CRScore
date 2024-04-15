@@ -1,0 +1,80 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 1, col 1, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 1, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 1, col 13, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 3, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 3, col 16, Expected '(string)' and instead saw 'content'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 3, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 3, col 23, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 3, col 23, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 3, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 3, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 4, col 8, 'android' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 4, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 4, col 16, Expected '(string)' and instead saw 'text'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 4, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 4, col 20, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 4, col 20, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 4, col 21, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 4, col 21, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 5, col 8, 'android' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 5, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 5, col 16, Expected '(string)' and instead saw 'util'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 5, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 5, col 20, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 5, col 20, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 5, col 21, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 5, col 21, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 7, col 12, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 7, col 13, Expected '(string)' and instead saw 'io'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 7, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 7, col 15, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 7, col 15, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 7, col 16, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 7, col 16, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 8, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 8, col 8, 'java' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 8, col 12, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 8, col 13, Expected '(string)' and instead saw 'io'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 8, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 8, col 15, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 8, col 15, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 8, col 16, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 8, col 16, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 9, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 9, col 8, 'java' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 9, col 12, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 9, col 13, Expected '(string)' and instead saw 'io'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 9, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 9, col 15, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 9, col 15, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 9, col 16, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 9, col 16, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 10, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 10, col 8, 'java' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 10, col 12, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 10, col 13, Expected '(string)' and instead saw 'util'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 10, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 10, col 17, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 10, col 17, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 10, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 10, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 11, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 11, col 8, 'java' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 11, col 12, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 11, col 13, Expected '(string)' and instead saw 'util'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 11, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 11, col 17, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 11, col 17, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 11, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 11, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 12, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 12, col 8, 'java' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 12, col 12, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 12, col 13, Expected '(string)' and instead saw 'util'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6214/test6214.js: line 12, col 13, Too many errors. (7% scanned).
+
+78 errors

@@ -1,0 +1,23 @@
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:34:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.stmt.BlockStmt'
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:39:	UnnecessaryImport:	Unused import 'com.github.javaparser.metamodel.*'
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:56:	UnnecessaryImport:	Unnecessary import from the current package 'com.github.javaparser.ast.Node'
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:168:	LooseCoupling:	Avoid using implementation types like 'IdentityHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:188:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:300:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:378:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:386:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:494:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:518:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:531:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:611:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:624:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:680:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:788:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeTraversal': 'PREORDER' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:811:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:835:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeTraversal': 'PREORDER' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:848:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeTraversal': 'PREORDER' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:867:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:867:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:949:	LooseCoupling:	Avoid using implementation types like 'Stack'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:978:	LooseCoupling:	Avoid using implementation types like 'Stack'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9831/test9831.java:980:	LooseCoupling:	Avoid using implementation types like 'Stack'; use the interface instead

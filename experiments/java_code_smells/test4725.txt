@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test4725/test4725.java:68:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4725/test4725.java:69:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4725/test4725.java:158:	UnusedLocalVariable:	Avoid unused local variables such as 'stacktrace'.
+/home/arnaik/code-review-test-projects/java/test4725/test4725.java:180:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4725/test4725.java:181:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4725/test4725.java:182:	UnusedLocalVariable:	Avoid unused local variables such as 'params'.
+/home/arnaik/code-review-test-projects/java/test4725/test4725.java:217:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4725/test4725.java:286:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test4725/test4725.java:313:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4725/test4725.java:349:	UncommentedEmptyMethodBody:	Document empty method body

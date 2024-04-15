@@ -1,0 +1,11 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4883/test4883.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4883/test4883.js: line 23, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4883/test4883.js: line 24, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4883/test4883.js: line 25, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4883/test4883.js: line 27, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4883/test4883.js: line 27, col 31, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4883/test4883.js: line 27, col 79, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4883/test4883.js: line 32, col 6, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4883/test4883.js: line 32, col 6, Unrecoverable syntax error. (18% scanned).
+
+9 errors

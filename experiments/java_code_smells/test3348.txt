@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:26:	UnnecessaryImport:	Unnecessary import from the java.lang package 'java.lang.Iterable'
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:275:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Either': 'left' is already in scope
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:276:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Either': 'right' is already in scope
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:333:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Either': 'left' is already in scope
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:336:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Either': 'right' is already in scope
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:460:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Either': 'right' is already in scope
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:488:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Either': 'left' is already in scope
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:549:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Either': 'left' is already in scope
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:662:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:662:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:917:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test3348/test3348.java:917:	GenericsNaming:	Generics names should be a one letter long and upper case.

@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6979/test6979.java:68:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Option': 'none' is already in scope
+/home/arnaik/code-review-test-projects/java/test6979/test6979.java:72:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Option': 'some' is already in scope

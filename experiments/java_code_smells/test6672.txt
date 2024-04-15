@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test6672/test6672.java:20:	UnnecessaryImport:	Unused import 'java.util.Collection'

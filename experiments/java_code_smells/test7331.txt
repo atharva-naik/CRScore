@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test7331/test7331.java:33:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test7331/test7331.java:69:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test7331/test7331.java:153:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'jdk'

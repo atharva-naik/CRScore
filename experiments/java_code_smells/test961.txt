@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test961/test961.java:44:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertEquals'
+/home/arnaik/code-review-test-projects/java/test961/test961.java:45:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertFalse'
+/home/arnaik/code-review-test-projects/java/test961/test961.java:46:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertNotNull'
+/home/arnaik/code-review-test-projects/java/test961/test961.java:47:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertNull'
+/home/arnaik/code-review-test-projects/java/test961/test961.java:48:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertTrue'
+/home/arnaik/code-review-test-projects/java/test961/test961.java:175:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test961/test961.java:202:	LocalVariableNamingConventions:	The final local variable name 'NO_OUTPUT' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test961/test961.java:238:	LocalVariableNamingConventions:	The final local variable name 'NO_OUTPUT' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test961/test961.java:279:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
+/home/arnaik/code-review-test-projects/java/test961/test961.java:312:	CloseResource:	Ensure that resources like this OutputStreamWriter object are closed after use
+/home/arnaik/code-review-test-projects/java/test961/test961.java:366:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test961/test961.java:642:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

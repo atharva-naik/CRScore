@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test9991/test9991.java:120:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9991/test9991.java:143:	FormalParameterNamingConventions:	The lambda parameter name '__' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9991/test9991.java:153:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

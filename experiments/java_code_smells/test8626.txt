@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test8626/test8626.java:124:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test8626/test8626.java:170:	CloseResource:	Ensure that resources like this Writer object are closed after use
+/home/arnaik/code-review-test-projects/java/test8626/test8626.java:171:	CloseResource:	Ensure that resources like this Reader object are closed after use
+/home/arnaik/code-review-test-projects/java/test8626/test8626.java:204:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test8626/test8626.java:212:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test8626/test8626.java:327:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable

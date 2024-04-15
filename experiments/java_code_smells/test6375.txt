@@ -1,0 +1,60 @@
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:89:	SingularField:	Perhaps 'cleanerThread' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:91:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:93:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:199:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:261:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:266:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:270:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:314:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:316:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:326:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:327:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:329:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:407:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:417:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:571:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:581:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:632:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'flows'
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:640:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'flows'
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:647:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'flows'
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:657:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'flows'
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:666:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'nodes'
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:701:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'value'
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:730:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'value'
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:961:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:974:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1066:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1082:	UnusedPrivateMethod:	Avoid unused private methods such as 'callExecutorServer(ExecutionReference, String, String)'.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1130:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'jsonResponse'
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1250:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1258:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1260:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1263:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1312:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1341:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1376:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1381:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1464:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1467:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1490:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1493:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1536:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1589:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1601:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1604:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1634:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1704:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1728:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1749:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1760:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1775:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1776:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1793:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1805:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1893:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1920:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1927:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1935:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1951:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1962:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6375/test6375.java:1981:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

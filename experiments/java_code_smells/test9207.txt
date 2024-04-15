@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test9207/test9207.java:56:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9207/test9207.java:142:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FieldInfos': 'EMPTY' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9207/test9207.java:341:	EmptyControlStatement:	Empty while statement
+/home/arnaik/code-review-test-projects/java/test9207/test9207.java:417:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9207/test9207.java:463:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9207/test9207.java:579:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable

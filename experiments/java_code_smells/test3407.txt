@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test3407/test3407.java:68:	SingleMethodSingleton:	Class contains multiple getInstance methods. Please review.
+/home/arnaik/code-review-test-projects/java/test3407/test3407.java:68:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3407/test3407.java:142:	SingletonClassReturningNewInstance:	getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review
+/home/arnaik/code-review-test-projects/java/test3407/test3407.java:251:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test3407/test3407.java:348:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test3407/test3407.java:439:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3407/test3407.java:441:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3407/test3407.java:443:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3407/test3407.java:483:	EmptyControlStatement:	Empty else statement

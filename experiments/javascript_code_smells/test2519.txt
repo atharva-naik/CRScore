@@ -1,0 +1,48 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 12, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 13, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 14, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 131, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 162, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 182, col 73, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 186, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 201, col 70, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 210, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 219, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 224, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 251, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 267, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 363, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 369, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 408, col 81, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 409, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 411, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 411, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 413, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 427, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 429, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 430, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 3, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 4, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 5, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 6, col 26, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 7, col 24, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 8, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 9, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 12, col 19, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 13, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 14, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 131, col 59, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 422, col 14, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 428, col 12, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 219, col 12, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2519/test2519.js: line 465, col 1, 'module' is not defined.
+
+46 errors

@@ -1,0 +1,80 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 28, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 48, col 2, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 255, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 268, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 288, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 430, col 22, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 454, col 30, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 464, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 494, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 500, col 26, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 542, col 26, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 543, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 572, col 26, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 573, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 611, col 7, 'privateKey' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 628, col 7, 'privateKey' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 645, col 47, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 662, col 32, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 703, col 30, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 738, col 6, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 740, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 776, col 86, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 840, col 20, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 967, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1164, col 16, 'secretData' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1168, col 40, 'secretData' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1169, col 22, 'secretData' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1169, col 43, 'secretData' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1201, col 6, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1308, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1313, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1362, col 72, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1518, col 28, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1571, col 76, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1582, col 28, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1623, col 30, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1639, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1692, col 32, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1753, col 28, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1756, col 28, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1767, col 28, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1809, col 22, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1812, col 22, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1854, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1884, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 2130, col 7, 'opts' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 2224, col 7, 'opts' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 2238, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 2373, col 6, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 2382, col 17, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 2368, col 5, 'passphrase' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 2370, col 32, 'passphrase' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 3, col 9, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 4, col 9, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 5, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 6, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 7, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 8, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 11, col 8, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 13, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 14, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 15, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 16, col 19, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 18, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 23, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 24, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 25, col 19, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 26, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 27, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 28, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 580, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 113, col 34, 'setInterval' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 128, col 5, 'clearInterval' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 592, col 22, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 723, col 20, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 1857, col 49, 'cb' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8839/test8839.js: line 2396, col 1, 'module' is not defined.
+
+78 errors

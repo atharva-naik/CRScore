@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import numpy as np
 import pandas as pd
@@ -6,6 +7,19 @@ from typing import *
 from tqdm import tqdm
 from src.datautils import read_jsonl
 from sentence_transformers import SentenceTransformer, util
+
+def split_string_by_multiple_delimiters(s, delimiters):
+    pattern = '|'.join(map(re.escape, delimiters))
+    return re.split(pattern, s)
+
+def split_claims(text):
+    text_claims = []
+    for line in text.split("\n"):
+        if line.strip() != "":
+            for chunk in split_string_by_multiple_delimiters(line, [". ", "? "]):
+                text_claims.append(chunk)
+
+    return text_claims
 
 class RelevanceScorer:
     def __init__(self, model_path):
@@ -28,24 +42,34 @@ class RelevanceScorer:
         change_claims = []
         for line in change_summ.split("\n"):
             if line.strip() != "":
-                for chunk in line.split(". "):
+                for chunk in split_string_by_multiple_delimiters(line, [". ", "? "]): #line.split(". "):
                     change_claims.append(chunk)
         # add blank claim if none are found
         if len(change_claims) == 0: change_claims.append("") 
         review_claims = []
         for line in review.split("\n"):
             if line.strip() != "":
-                for chunk in line.split(". "):
+                for chunk in split_string_by_multiple_delimiters(line, [". ", "? "]):
                     review_claims.append(chunk)
         # add blank claim if none are found
         if len(review_claims) == 0: review_claims.append("")
         change_enc = self.sbert.encode(change_claims, show_progress_bar=False)
         review_enc = self.sbert.encode(review_claims, show_progress_bar=False)
         sem_similarity_matrix = util.cos_sim(change_enc, review_enc)
+        prec_array = sem_similarity_matrix.max(dim=0)
+        rec_array = sem_similarity_matrix.max(dim=1)
         # precision/conciseness
-        P = sem_similarity_matrix.max(dim=0).values.mean().item()
+        P = prec_array.values.mean().item()
         # recall/comprehensiveness
-        R = sem_similarity_matrix.max(dim=1).values.mean().item()
+        R = rec_array.values.mean().item()
+        # print associations:
+        cc_per_rc = [(change_claims[j], review_claims[i]) for i,j in enumerate(prec_array.indices.tolist())]
+        print("\x1b[34;1mMost Relevant Claims/Smells for Review Claims:\x1b[0m")
+        print("All change claims:")
+        print(change_claims)
+        for i, (cc, rc) in enumerate(cc_per_rc):
+            print(f"CC: {cc} RC: {rc} sim: {prec_array.values[i].item():.3f} R: {R:.3f}")
+        print()
 
         return P, R
 

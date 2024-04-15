@@ -1,0 +1,6 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8014/test8014.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8014/test8014.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8014/test8014.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8014/test8014.js: line 7, col 3, 'async functions' is only available in ES8 (use 'esversion: 8').
+
+4 errors

@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test745/test745.java:18:	UnnecessaryImport:	Unused static import 'org.phoenicis.configuration.localisation.Localisation.tr'
+/home/arnaik/code-review-test-projects/java/test745/test745.java:30:	UnusedPrivateField:	Avoid unused private fields such as 'onDeleteContainer'.

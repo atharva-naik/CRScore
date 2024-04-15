@@ -1,0 +1,440 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 70, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 125, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 131, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 158, col 9, Comma warnings can be turned off with 'laxcomma'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 157, col 41, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 175, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 201, col 39, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 205, col 41, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 219, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 225, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 271, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 307, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 311, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 365, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 400, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 425, col 39, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 429, col 41, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 449, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 474, col 39, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 478, col 69, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 492, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 498, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 523, col 39, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 527, col 41, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 541, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 547, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 588, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 628, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 671, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 726, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 734, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 781, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 822, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 867, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 911, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1039, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1093, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1145, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1175, col 66, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1181, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1190, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1193, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1197, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1198, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1204, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1208, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1209, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1214, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1226, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1256, col 66, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1262, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1271, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1274, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1278, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1279, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1285, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1289, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1290, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1295, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1306, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1352, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1400, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1429, col 39, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1433, col 41, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1449, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1453, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1458, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1485, col 39, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1489, col 41, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1511, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1546, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1551, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1578, col 50, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1586, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1591, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1621, col 35, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1629, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1634, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1667, col 45, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1671, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1672, col 48, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1679, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1687, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1726, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1767, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1813, col 39, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (results, left, test, docs, db)
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1832, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1859, col 39, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1863, col 41, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1884, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1921, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1925, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1963, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2065, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2107, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2142, col 15, ['hello2'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2161, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2209, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2250, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2294, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2299, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2340, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2367, col 39, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2371, col 41, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2375, col 38, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2397, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2445, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2459, col 38, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2479, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2544, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2586, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2617, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2659, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2665, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2700, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2744, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2779, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2825, col 56, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2825, col 58, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2826, col 54, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2826, col 56, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2827, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2827, col 54, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2828, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2828, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2832, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2872, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2907, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2962, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2997, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3046, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3077, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3137, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3164, col 39, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3168, col 73, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3182, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3188, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3215, col 39, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3219, col 83, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3233, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3239, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3266, col 51, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3287, col 29, ['JENKINS'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3298, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3326, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3330, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3381, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3395, col 41, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3396, col 40, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3404, col 7, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3422, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3480, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3530, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3580, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3637, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3713, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3715, col 21, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3717, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3725, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3799, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3857, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3907, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3958, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4003, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4048, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4054, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4092, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4150, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4202, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4241, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4246, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4290, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4332, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4360, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4362, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4386, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4406, col 31, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4410, col 17, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4411, col 58, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4412, col 62, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4413, col 9, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4414, col 23, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4434, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4438, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4454, col 17, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4455, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4477, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4493, col 45, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4514, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4534, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4561, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4581, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4595, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4699, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4713, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4748, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4762, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4791, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4806, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4816, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4819, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4828, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4842, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4887, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4901, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4938, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4952, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4992, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5006, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5037, col 77, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5048, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5062, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5107, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5121, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5165, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5179, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5214, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5228, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5276, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5290, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5338, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5352, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5405, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5419, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5456, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5575, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5589, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5646, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5703, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5754, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5768, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5815, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5828, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5892, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5952, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5991, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6024, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6048, col 25, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6049, col 23, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6060, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6104, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6141, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6180, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6205, col 47, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6206, col 78, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6207, col 79, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6208, col 42, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6209, col 43, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6210, col 75, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6232, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6248, col 50, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6257, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6284, col 34, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6297, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6324, col 35, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6325, col 22, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6327, col 38, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6328, col 27, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6329, col 33, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6344, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6371, col 34, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6372, col 25, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6374, col 38, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6375, col 27, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6376, col 33, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6391, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6428, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6439, col 60, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6450, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3, col 9, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4157, col 10, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 18, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 79, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 140, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 184, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 234, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 278, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 320, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 375, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 409, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 458, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 507, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 556, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 597, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 637, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 684, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 743, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 790, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 831, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 876, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 920, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1048, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1102, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1154, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1235, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1315, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1361, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1409, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1467, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1520, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1560, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1600, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1643, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1696, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1735, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1776, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1841, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1893, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1934, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1972, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2074, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2116, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2170, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2218, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2259, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2308, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2349, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2412, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2454, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2553, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2595, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2626, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2670, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2709, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2753, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2788, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2841, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2881, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2916, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2971, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3006, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3055, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3086, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3146, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3197, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3248, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3307, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3339, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3390, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3437, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3489, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3539, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3589, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3647, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3735, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3809, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3866, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3916, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3967, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4012, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4063, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4101, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4166, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4211, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4255, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4299, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4341, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4401, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4447, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4486, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4529, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4590, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4708, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4757, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4837, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4896, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4947, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5001, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5057, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5116, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5174, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5223, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5285, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5347, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5414, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5465, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5584, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5655, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5712, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5763, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5843, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5902, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5967, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6000, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6033, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6069, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6113, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6150, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6189, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6237, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6266, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6306, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6353, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6400, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 64, col 11, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 125, col 11, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1449, col 13, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1453, col 9, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2659, col 11, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2825, col 39, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2826, col 37, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2827, col 35, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2828, col 33, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 4434, col 7, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 6439, col 13, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1070, col 32, 'emit' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1126, col 32, 'emit' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1180, col 13, 'emit' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1261, col 11, 'emit' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1180, col 18, 'fn' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1185, col 13, 'count' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1187, col 17, 'count' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1189, col 20, 'count' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1266, col 11, 'count' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1268, col 13, 'count' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1270, col 18, 'count' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1186, col 17, 'i' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1186, col 24, 'i' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1186, col 38, 'i' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1187, col 28, 'i' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1267, col 15, 'i' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1267, col 22, 'i' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1267, col 36, 'i' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1268, col 24, 'i' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1261, col 16, 'obj' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1338, col 11, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 1539, col 7, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2095, col 7, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2195, col 9, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 2493, col 11, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3273, col 11, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 3287, col 18, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5146, col 31, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5485, col 29, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5732, col 29, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5785, col 29, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4324/test4324.js: line 5793, col 35, 'Buffer' is not defined.
+
+438 errors

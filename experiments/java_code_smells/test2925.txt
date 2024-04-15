@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test2925/test2925.java:18:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.codec.Codec.IntegerCodec.writeLong'
+/home/arnaik/code-review-test-projects/java/test2925/test2925.java:25:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

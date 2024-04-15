@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test10021/test10021.java:37:	MissingOverride:	The method 'convertFromBase64Png(String)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test10021/test10021.java:41:	MissingOverride:	The method 'convertFromPngBytes(byte[])' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test10021/test10021.java:45:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test10021/test10021.java:54:	MissingOverride:	The method 'convertFromBase64Png(String)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test10021/test10021.java:58:	MissingOverride:	The method 'convertFromPngBytes(byte[])' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test10021/test10021.java:62:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test10021/test10021.java:72:	MissingOverride:	The method 'convertFromBase64Png(String)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test10021/test10021.java:76:	MissingOverride:	The method 'convertFromPngBytes(byte[])' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test10021/test10021.java:97:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test10021/test10021.java:104:	MissingOverride:	The method 'toString()' is missing an @Override annotation.

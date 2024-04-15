@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test5900/test5900.java:117:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}

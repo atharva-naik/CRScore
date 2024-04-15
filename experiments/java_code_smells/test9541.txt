@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:123:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:147:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:155:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:218:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:237:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:254:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:262:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:294:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:296:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:298:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:323:	LocalVariableNamingConventions:	The final local variable name 'BUFFER_SIZE' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test9541/test9541.java:334:	ControlStatementBraces:	This statement should have braces

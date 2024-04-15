@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test2578/test2578.java	-	ContextedRuntimeException: java.lang.IllegalArgumentException: Cannot parameterize java/util/AbstractQueue with [T, javaslang.collection.Queue<T>], expecting  1 type arguments
+Exception Context:
+	[1:Resolving type of=!debug only! [ClassType:43:37]AbstractQueue<T, Queue<T>>]
+---------------------------------

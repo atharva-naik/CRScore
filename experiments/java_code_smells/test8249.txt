@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test8249/test8249.java:34:	UnusedPrivateField:	Avoid unused private fields such as 'deletes'.
+/home/arnaik/code-review-test-projects/java/test8249/test8249.java:140:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'combinedTask'

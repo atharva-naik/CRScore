@@ -1,0 +1,26 @@
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:3:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.CONTEXT_EXECUTION_ID_TOKEN'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:4:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.FIRST_JOB_CALLBACK_URL_TEMPLATE'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:5:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.CONTEXT_FLOW_TOKEN'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:6:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.HEADER_ELEMENT_DELIMITER'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:7:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.HEADER_NAME_VALUE_DELIMITER'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:8:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.HTTP_GET'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:9:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.HTTP_POST'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:10:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.JOB_CALLBACK_BODY_TEMPLATE'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:11:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.JOB_CALLBACK_REQUEST_HEADERS_TEMPLATE'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:12:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.JOB_CALLBACK_REQUEST_METHOD_TEMPLATE'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:13:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.JOB_CALLBACK_URL_TEMPLATE'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:14:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.CONTEXT_JOB_STATUS_TOKEN'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:15:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.CONTEXT_JOB_TOKEN'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:16:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.CONTEXT_PROJECT_TOKEN'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:17:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.SEQUENCE_TOKEN'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:18:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.CONTEXT_SERVER_TOKEN'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:19:	UnnecessaryImport:	Unused static import 'azkaban.jobcallback.JobCallbackConstants.STATUS_TOKEN'
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:44:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:85:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'JobCallbackUtil': 'isThereJobCallbackProperty' is already in scope
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:161:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:169:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:177:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:190:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:194:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:210:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test3439/test3439.java:215:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop

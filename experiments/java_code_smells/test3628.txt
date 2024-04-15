@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test3628/test3628.java:69:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3628/test3628.java:201:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test3628/test3628.java:262:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3628/test3628.java:302:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3628/test3628.java:306:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

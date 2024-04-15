@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test7824/test7824.java:19:	UnnecessaryImport:	Unused import 'azkaban.utils.Utils'
+/home/arnaik/code-review-test-projects/java/test7824/test7824.java:24:	UnnecessaryImport:	Unused import 'java.util.Date'
+/home/arnaik/code-review-test-projects/java/test7824/test7824.java:123:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7824/test7824.java:297:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7824/test7824.java:313:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7824/test7824.java:318:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7824/test7824.java:346:	SimplifiedTernary:	This conditional expression can be simplified with || or &&

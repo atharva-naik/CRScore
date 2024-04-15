@@ -1,0 +1,202 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 1, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 14, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 16, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 21, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 23, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 24, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 24, col 21, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 24, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 25, col 61, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 26, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 28, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 29, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 30, col 5, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 33, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 34, col 66, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 35, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 37, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 38, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 41, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 42, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 43, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 45, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 46, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 46, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 47, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 48, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 50, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 51, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 51, col 38, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 52, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 53, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 55, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 56, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 56, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 57, col 38, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 58, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 60, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 61, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 61, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 62, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 63, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 65, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 66, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 66, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 67, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 68, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 70, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 71, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 71, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 72, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 73, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 75, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 76, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 78, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 79, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 80, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 82, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 83, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 83, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 84, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 85, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 87, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 88, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 88, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 89, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 90, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 92, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 93, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 93, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 94, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 95, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 97, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 98, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 103, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 104, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 105, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 107, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 108, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 113, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 114, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 115, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 117, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 118, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 120, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 125, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 126, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 128, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 129, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 131, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 132, col 67, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 133, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 135, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 136, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 141, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 142, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 143, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 145, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 146, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 151, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 152, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 153, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 155, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 156, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 161, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 163, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 164, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 166, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 167, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 167, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 168, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 169, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 171, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 172, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 172, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 173, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 174, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 176, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 177, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 180, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 181, col 67, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 182, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 184, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 185, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 188, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 189, col 67, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 190, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 192, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 193, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 196, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 197, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 198, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 200, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 201, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 204, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 205, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 206, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 208, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 209, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 212, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 213, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 214, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 216, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 217, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 217, col 3, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 217, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 218, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 219, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 220, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 222, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 223, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 225, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 226, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 227, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 230, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 231, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 236, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 238, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 239, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 241, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 242, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 245, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 247, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 248, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 250, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 251, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 256, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 258, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 259, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 261, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 262, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 265, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 267, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 268, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 270, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 271, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 276, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 278, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 279, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 281, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 282, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 285, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 287, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 288, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 290, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 291, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 301, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 305, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 306, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 308, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 309, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 319, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 323, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 324, col 3, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 326, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 327, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 332, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 338, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9219/test9219.js: line 339, col 3, Missing semicolon.
+
+200 errors

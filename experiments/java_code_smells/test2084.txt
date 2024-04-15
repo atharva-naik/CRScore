@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test2084/test2084.java:89:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

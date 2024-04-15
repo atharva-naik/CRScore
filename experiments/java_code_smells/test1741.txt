@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test1741/test1741.java:20:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.crypto.Hash.keccak256'
+/home/arnaik/code-review-test-projects/java/test1741/test1741.java:21:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.mock'
+/home/arnaik/code-review-test-projects/java/test1741/test1741.java:50:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test1741/test1741.java:71:	FormalParameterNamingConventions:	The lambda parameter name '__' doesn't match '[a-z][a-zA-Z0-9]*'

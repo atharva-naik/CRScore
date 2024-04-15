@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:936:	PrimitiveWrapperInstantiation:	Do not use `new Character(...)`, prefer `Character.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1071:	UnusedLocalVariable:	Avoid unused local variables such as 'soupElt1Upserted'.
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1256:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1258:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1321:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1323:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1495:	UnusedLocalVariable:	Avoid unused local variables such as 'soupElt2Created'.
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1534:	LocalVariableNamingConventions:	The final local variable name 'TEST_TABLE' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1535:	LocalVariableNamingConventions:	The final local variable name 'NEW_TEST_TABLE' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1536:	LocalVariableNamingConventions:	The final local variable name 'NEW_COLUMN' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1564:	LocalVariableNamingConventions:	The final local variable name 'SOUP_SPEC_TEST' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test7617/test7617.java:1566:	LocalVariableNamingConventions:	The local variable name 'TEST_SPEC' doesn't match '[a-z][a-zA-Z0-9]*'

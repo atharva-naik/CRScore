@@ -1,0 +1,26 @@
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:83:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.IsolationLevel.SERIALIZABLE'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:84:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.IsolationLevel.SNAPSHOT'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:85:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.COMMIT_MAX_RETRY_WAIT_MS'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:86:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.COMMIT_MAX_RETRY_WAIT_MS_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:87:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.COMMIT_MIN_RETRY_WAIT_MS'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:88:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.COMMIT_MIN_RETRY_WAIT_MS_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:89:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.COMMIT_NUM_RETRIES'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:90:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.COMMIT_NUM_RETRIES_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:91:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.COMMIT_TOTAL_RETRY_TIME_MS'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:92:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.COMMIT_TOTAL_RETRY_TIME_MS_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:93:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DEFAULT_FILE_FORMAT'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:94:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DEFAULT_FILE_FORMAT_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:95:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.SPARK_WRITE_PARTITIONED_FANOUT_ENABLED'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:96:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.SPARK_WRITE_PARTITIONED_FANOUT_ENABLED_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:97:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.WRITE_TARGET_FILE_SIZE_BYTES'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:98:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.WRITE_TARGET_FILE_SIZE_BYTES_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:255:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:270:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:292:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:315:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:395:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:428:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:476:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:494:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:581:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8425/test8425.java:624:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

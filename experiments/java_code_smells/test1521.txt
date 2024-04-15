@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test1521/test1521.java:128:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test1521/test1521.java:169:	FinalParameterInAbstractMethod:	Final parameter in abstract method

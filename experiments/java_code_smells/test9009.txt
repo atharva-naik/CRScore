@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:38:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:50:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:74:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:78:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:81:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:86:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:208:	UnusedLocalVariable:	Avoid unused local variables such as 'kHalfMax'.
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:260:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:286:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:290:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:312:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9009/test9009.java:316:	UncommentedEmptyMethodBody:	Document empty method body

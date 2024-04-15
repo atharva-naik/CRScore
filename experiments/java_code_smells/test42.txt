@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test42/test42.java:35:	UnnecessaryImport:	Unused import 'java.util.function.BiConsumer'
+/home/arnaik/code-review-test-projects/java/test42/test42.java:36:	UnnecessaryImport:	Unused import 'java.util.function.Consumer'
+/home/arnaik/code-review-test-projects/java/test42/test42.java:89:	UnnecessaryImport:	Unused static import 'org.apache.solr.client.solrj.SolrRequest.METHOD.POST'
+/home/arnaik/code-review-test-projects/java/test42/test42.java:636:	UnusedLocalVariable:	Avoid unused local variables such as 'resp'.
+/home/arnaik/code-review-test-projects/java/test42/test42.java:638:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test42/test42.java:763:	UnusedLocalVariable:	Avoid unused local variables such as 'rsp'.
+/home/arnaik/code-review-test-projects/java/test42/test42.java:880:	LocalVariableNamingConventions:	The final local variable name 'COL' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test42/test42.java:883:	LocalVariableNamingConventions:	The final local variable name 'old_leader_node' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test42/test42.java:884:	LocalVariableNamingConventions:	The final local variable name 'new_leader_node' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test42/test42.java:899:	LocalVariableNamingConventions:	The final local variable name 'old_leader_core_node_name' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test42/test42.java:902:	LocalVariableNamingConventions:	The final local variable name 'stale_client' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test42/test42.java:935:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test42/test42.java:1066:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

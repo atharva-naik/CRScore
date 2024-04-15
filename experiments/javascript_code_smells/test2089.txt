@@ -1,0 +1,11 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2089/test2089.js: line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2089/test2089.js: line 1, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2089/test2089.js: line 3, col 18, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2089/test2089.js: line 5, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2089/test2089.js: line 7, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2089/test2089.js: line 8, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2089/test2089.js: line 12, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2089/test2089.js: line 16, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2089/test2089.js: line 18, col 2, Missing semicolon.
+
+9 errors

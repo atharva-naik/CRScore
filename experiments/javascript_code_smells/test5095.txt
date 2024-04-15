@@ -1,0 +1,14 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 6, col 3, Comma warnings can be turned off with 'laxcomma'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 5, col 34, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 6, col 26, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 7, col 30, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 8, col 30, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 9, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 64, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 83, col 34, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 93, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 146, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 273, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5095/test5095.js: line 316, col 2, Missing semicolon.
+
+12 errors

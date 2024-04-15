@@ -1,0 +1,138 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 23, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 24, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 25, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 26, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 27, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 29, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 30, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 31, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 41, col 95, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 42, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 43, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 46, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 49, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 52, col 65, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 52, col 83, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 52, col 105, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 42, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 43, Expected ')' and instead saw 'AMPContainerSelect'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 63, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 64, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 77, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 68, 'registry' was used before it was declared, which is illegal for 'const' variables.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 78, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 79, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 56, col 79, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 58, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 63, col 29, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 63, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 67, col 80, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 68, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 68, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 71, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 74, col 77, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 42, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 43, Expected ')' and instead saw 'AMPContainerSelect'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 63, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 64, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 77, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 68, 'registry' was used before it was declared, which is illegal for 'const' variables.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 78, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 79, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 76, col 79, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 78, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 82, col 59, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 82, col 66, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 83, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 83, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 86, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 89, col 77, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 50, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 51, Expected ')' and instead saw 'AMPContainerSelect'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 71, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 72, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 85, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 76, 'registry' was used before it was declared, which is illegal for 'const' variables.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 86, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 87, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 91, col 87, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 99, col 83, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 99, col 90, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 100, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 100, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 103, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 104, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 107, col 77, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 50, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 51, Expected ')' and instead saw 'AMPContainerSelect'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 71, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 72, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 85, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 76, 'registry' was used before it was declared, which is illegal for 'const' variables.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 86, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 87, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 109, col 87, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 116, col 20, 'async functions' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 116, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 125, col 79, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 128, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 128, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 128, col 41, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 128, col 42, Expected ')' and instead saw 'AMPContainerSelect'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 128, col 62, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 128, col 63, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 128, col 76, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 128, col 77, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 128, col 78, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 128, col 78, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 134, col 72, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 136, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 137, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 41, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 42, Expected ')' and instead saw 'AMPContainerSelect'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 62, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 63, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 76, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 67, 'registry' was used before it was declared, which is illegal for 'const' variables.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 77, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 78, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 141, col 78, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 147, col 71, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 148, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 148, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 149, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 152, col 77, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 39, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 40, Expected ')' and instead saw 'AMPContainerSelect'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 60, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 61, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 74, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 65, 'registry' was used before it was declared, which is illegal for 'const' variables.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 75, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 76, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 155, col 76, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 160, col 77, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 161, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 161, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 162, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 165, col 77, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 168, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 168, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 168, col 39, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 168, col 40, Expected ')' and instead saw 'AMPContainerSelect'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9022/test9022.js: line 168, col 40, Too many errors. (90% scanned).
+
+136 errors

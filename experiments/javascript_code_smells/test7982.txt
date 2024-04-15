@@ -1,0 +1,34 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 53, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 885, col 66, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 904, col 12, 'j' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 917, col 12, 'j' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 55, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 56, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 57, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 58, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 59, col 19, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 60, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 61, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 62, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 63, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 64, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 65, col 19, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 133, col 24, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 200, col 25, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 291, col 20, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 295, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 298, col 14, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 512, col 21, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 514, col 13, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 534, col 21, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 536, col 13, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 566, col 22, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 579, col 20, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 590, col 22, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 619, col 21, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 621, col 13, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 716, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 842, col 28, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7982/test7982.js: line 1043, col 1, 'module' is not defined.
+
+32 errors

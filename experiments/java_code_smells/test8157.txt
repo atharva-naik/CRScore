@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test8157/test8157.java:18:	UnnecessaryImport:	Unused static import 'com.palantir.gradle.circlestyle.TestCommon.FAILED_CHECKSTYLE_TIME_NANOS'
+/home/arnaik/code-review-test-projects/java/test8157/test8157.java:19:	UnnecessaryImport:	Unused static import 'com.palantir.gradle.circlestyle.TestCommon.ROOT'
+/home/arnaik/code-review-test-projects/java/test8157/test8157.java:20:	UnnecessaryImport:	Unused static import 'com.palantir.gradle.circlestyle.TestCommon.readTestFile'
+/home/arnaik/code-review-test-projects/java/test8157/test8157.java:21:	UnnecessaryImport:	Unused static import 'com.palantir.gradle.circlestyle.TestCommon.testFile'
+/home/arnaik/code-review-test-projects/java/test8157/test8157.java:22:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test8157/test8157.java:23:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.mock'
+/home/arnaik/code-review-test-projects/java/test8157/test8157.java:24:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.when'

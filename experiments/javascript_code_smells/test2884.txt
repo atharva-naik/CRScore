@@ -1,0 +1,27 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 12, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 12, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 22, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 22, col 18, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 40, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 41, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 42, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 45, col 46, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 3, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 4, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 5, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 6, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 9, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 10, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 11, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2884/test2884.js: line 14, col 1, 'module' is not defined.
+
+25 errors

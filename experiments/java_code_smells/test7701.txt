@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test7701/test7701.java:51:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7701/test7701.java:53:	CloseResource:	Ensure that resources like this WatchService object are closed after use
+/home/arnaik/code-review-test-projects/java/test7701/test7701.java:57:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7701/test7701.java:75:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7701/test7701.java:93:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7701/test7701.java:99:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7701/test7701.java:104:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7701/test7701.java:116:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7701/test7701.java:132:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7701/test7701.java:136:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6001/test6001.java:74:	CloseResource:	Ensure that resources like this Connection object are closed after use
+/home/arnaik/code-review-test-projects/java/test6001/test6001.java:158:	CloseResource:	Ensure that resources like this Connection object are closed after use

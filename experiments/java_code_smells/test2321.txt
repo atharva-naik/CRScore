@@ -1,0 +1,47 @@
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:9:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.dataaccess.DataAccess.getStorageIO'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:12:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.settings.SettingsServiceBean'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:25:	UnnecessaryImport:	Unused import 'java.nio.file.Path'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:27:	UnnecessaryImport:	Unused import 'java.nio.file.StandardCopyOption'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:33:	UnnecessaryImport:	Unused import 'java.util.HashSet'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:37:	UnnecessaryImport:	Duplicate import 'edu.harvard.iq.dataverse.dataaccess.DataAccess.getStorageIO'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:38:	UnnecessaryImport:	Duplicate import 'edu.harvard.iq.dataverse.dataaccess.DataAccess.getStorageIO'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:39:	UnnecessaryImport:	Duplicate import 'edu.harvard.iq.dataverse.dataaccess.DataAccess.getStorageIO'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:40:	UnnecessaryImport:	Duplicate import 'edu.harvard.iq.dataverse.dataaccess.DataAccess.getStorageIO'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:41:	UnnecessaryImport:	Duplicate import 'edu.harvard.iq.dataverse.dataaccess.DataAccess.getStorageIO'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:42:	UnnecessaryImport:	Duplicate import 'edu.harvard.iq.dataverse.dataaccess.DataAccess.getStorageIO'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:43:	UnnecessaryImport:	Duplicate import 'edu.harvard.iq.dataverse.dataaccess.DataAccess.getStorageIO'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:45:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:69:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:72:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:75:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:86:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:130:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:133:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:136:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:153:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:164:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:169:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:174:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:179:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:184:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:214:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:280:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:290:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:298:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:305:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:314:	CloseResource:	Ensure that resources like this FileChannel object are closed after use
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:318:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:321:	CloseResource:	Ensure that resources like this FileChannel object are closed after use
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:325:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:331:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:338:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:342:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:343:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:348:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:359:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:377:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:379:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:383:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:404:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:419:	LocalVariableNamingConventions:	The local variable name 'DatasetFieldsSet' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test2321/test2321.java:429:	ControlStatementBraces:	This statement should have braces

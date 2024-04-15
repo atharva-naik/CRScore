@@ -1,0 +1,11 @@
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:18:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.core.PrivacyParameters.ONCHAIN_PRIVACY_PROXY'
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:19:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.privacy.group.OnchainGroupManagement.ADD_PARTICIPANTS_METHOD_SIGNATURE'
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:20:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.privacy.group.OnchainGroupManagement.GET_PARTICIPANTS_METHOD_SIGNATURE'
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:21:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.privacy.group.OnchainGroupManagement.GET_VERSION_METHOD_SIGNATURE'
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:187:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:214:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'result'
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:227:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:262:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:345:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:404:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2156/test2156.java:513:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

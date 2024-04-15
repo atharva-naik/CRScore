@@ -1,0 +1,17 @@
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:48:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:54:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:73:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:143:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:181:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:192:	LooseCoupling:	Avoid using implementation types like 'IdentityHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:196:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:198:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:208:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:208:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:243:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:251:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:260:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:270:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'err' on all code paths
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:464:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:469:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2523/test2523.java:487:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'answer'

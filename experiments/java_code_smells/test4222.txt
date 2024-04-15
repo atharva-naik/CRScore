@@ -1,0 +1,43 @@
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:54:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:55:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:56:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:57:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:61:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:325:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:325:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'TreeSet' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:332:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:332:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'HashSet' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:417:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:553:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:603:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:693:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:742:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Set' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:788:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:803:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'collector' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:809:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'collector' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:855:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:864:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:873:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:884:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:895:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:925:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:925:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:939:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:939:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:939:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:970:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Iterator' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:982:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Iterator' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:1063:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:1102:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:1576:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:1863:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:1889:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:1930:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:2000:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:2036:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:2051:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:2223:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:2247:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:2299:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:2323:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CharSeq': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4222/test4222.java:2392:	UselessParentheses:	Useless parentheses.

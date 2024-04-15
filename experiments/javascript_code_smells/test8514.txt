@@ -1,0 +1,4 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8514/test8514.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8514/test8514.js: line 5, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
+2 errors

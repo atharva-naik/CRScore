@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test9359/test9359.java:44:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9359/test9359.java:48:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FlinkTestBase': 'metastore' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9359/test9359.java:50:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FlinkTestBase': 'hiveConf' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9359/test9359.java:51:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FlinkTestBase': 'catalog' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9359/test9359.java:58:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FlinkTestBase': 'catalog' is already in scope because it is declared in an enclosing type

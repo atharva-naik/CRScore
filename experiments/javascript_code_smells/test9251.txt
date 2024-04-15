@@ -1,0 +1,49 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 4, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 16, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 30, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 31, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 31, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 34, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 38, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 52, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 53, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 54, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 55, col 64, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 61, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 62, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 63, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 63, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 68, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 73, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 74, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 84, col 1, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 86, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 87, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 88, col 23, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 91, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 92, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 5, col 1, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 38, col 27, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 59, col 5, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 88, col 9, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 6, col 15, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 7, col 16, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 8, col 19, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 9, col 21, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 12, col 10, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 12, col 31, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 16, col 56, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 18, col 13, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 18, col 41, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 23, col 28, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 89, col 9, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 92, col 39, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 30, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 31, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9251/test9251.js: line 62, col 16, 'Promise' is not defined.
+
+47 errors

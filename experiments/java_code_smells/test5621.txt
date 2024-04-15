@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test5621/test5621.java:394:	SingularField:	Perhaps 'xmlOutputFactory' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test5621/test5621.java:399:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'xml'
+/home/arnaik/code-review-test-projects/java/test5621/test5621.java:405:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'javax.xml.stream': 'XMLOutputFactory' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test5621/test5621.java:413:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5621/test5621.java:420:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test5621/test5621.java:716:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test5621/test5621.java:718:	IdenticalCatchBranches:	'catch' branch identical to 'ParseException' branch
+/home/arnaik/code-review-test-projects/java/test5621/test5621.java:718:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test5621/test5621.java:724:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

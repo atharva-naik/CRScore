@@ -1,0 +1,82 @@
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:130:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.AUTHC_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:131:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.AUTHZ_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:132:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.AUTOSCALING_HISTORY_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:133:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.COLLECTIONS_HANDLER_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:134:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.CONFIGSETS_HANDLER_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:135:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.CORES_HANDLER_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:136:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.INFO_HANDLER_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:137:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.METRICS_HISTORY_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:138:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.METRICS_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:139:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.ZK_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:140:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.ZK_STATUS_PATH'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:141:	UnnecessaryImport:	Unused static import 'org.apache.solr.core.CorePropertiesLocator.PROPERTIES_FILENAME'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:142:	UnnecessaryImport:	Unused static import 'org.apache.solr.security.AuthenticationPlugin.AUTHENTICATION_PLUGIN_PROP'
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:166:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:167:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:168:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:170:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:171:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:173:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:175:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:177:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:180:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:182:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:184:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:187:	UnusedPrivateField:	Avoid unused private fields such as 'collectorExecutor'.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:191:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:193:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:201:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:205:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:207:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:209:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:211:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:213:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:215:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:217:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:219:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:221:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:223:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:227:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:229:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:231:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:241:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:243:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:278:	NonStaticInitializer:	Non-static initializers are confusing
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:279:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:375:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:409:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:442:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:445:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:460:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:475:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:485:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:527:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:529:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:541:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'testConstructor'.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:612:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:631:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:632:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:840:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:943:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:950:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:963:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1146:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1152:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1230:	IdenticalCatchBranches:	'catch' branch identical to 'KeeperException' branch
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1298:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1315:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1323:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1325:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1330:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1370:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1400:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1546:	UnusedLocalVariable:	Avoid unused local variables such as 'oldCore'.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1546:	CloseResource:	Ensure that resources like this Closeable object are closed after use
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1551:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1635:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1706:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1713:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1716:	IdenticalCatchBranches:	'catch' branch identical to 'KeeperException' branch
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1792:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:1798:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9327/test9327.java:2084:	EmptyCatchBlock:	Avoid empty catch blocks

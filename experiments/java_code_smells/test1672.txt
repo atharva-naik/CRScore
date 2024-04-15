@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test1672/test1672.java:20:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.predicates.PredicateUtils.mergeCNFExpressions'
+/home/arnaik/code-review-test-projects/java/test1672/test1672.java:124:	UnusedPrivateField:	Avoid unused private fields such as 'having'.
+/home/arnaik/code-review-test-projects/java/test1672/test1672.java:523:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test1672/test1672.java:530:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test1672/test1672.java:830:	UnusedPrivateMethod:	Avoid unused private methods such as 'getPushDownLimits()'.
+/home/arnaik/code-review-test-projects/java/test1672/test1672.java:1045:	UselessParentheses:	Useless parentheses.

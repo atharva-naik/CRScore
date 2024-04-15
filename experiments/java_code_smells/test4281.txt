@@ -1,0 +1,15 @@
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:96:	UnnecessaryImport:	Unused static import 'de.danoeh.antennapod.model.feed.FeedPreferences.SPEED_USE_GLOBAL'
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:208:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:224:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:292:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:330:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:428:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:746:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:825:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:933:	LocalVariableNamingConventions:	The final local variable name 'TAG' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:1122:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:1131:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:1288:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:1328:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:1337:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test4281/test4281.java:1869:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

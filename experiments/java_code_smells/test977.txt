@@ -1,0 +1,14 @@
+/home/arnaik/code-review-test-projects/java/test977/test977.java:17:	UnnecessaryImport:	Unused import 'android.view.LayoutInflater'
+/home/arnaik/code-review-test-projects/java/test977/test977.java:92:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test977/test977.java:129:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test977/test977.java:215:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test977/test977.java:254:	UnusedPrivateMethod:	Avoid unused private methods such as 'checkDownloadResult(DownloadStatus)'.
+/home/arnaik/code-review-test-projects/java/test977/test977.java:262:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test977/test977.java:268:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test977/test977.java:283:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test977/test977.java:312:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test977/test977.java:319:	UnusedPrivateMethod:	Avoid unused private methods such as 'doParseFeed()'.
+/home/arnaik/code-review-test-projects/java/test977/test977.java:432:	LocalVariableNamingConventions:	The final local variable name 'MAX_LINES_COLLAPSED' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test977/test977.java:469:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test977/test977.java:580:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test977/test977.java:593:	UselessQualifiedThis:	Useless qualified this usage in the same class.

@@ -1,0 +1,24 @@
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:22:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:24:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:29:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:30:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:73:	NonThreadSafeSingleton:	Singleton is not thread safe
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:76:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:76:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:80:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:81:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:91:	UnusedLocalVariable:	Avoid unused local variables such as 'sortOrder'.
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:120:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:130:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:131:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:133:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:176:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:177:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:180:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:184:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:187:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:200:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:223:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:223:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:248:	UnusedPrivateMethod:	Avoid unused private methods such as 'getThumbnailPath(Context, long)'.
+/home/arnaik/code-review-test-projects/java/test7998/test7998.java:256:	ControlStatementBraces:	This statement should have braces

@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:79:	UnnecessaryModifier:	Unnecessary modifier 'static' on enum 'PauseReason': nested enums are implicitly static
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:86:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:94:	LooseCoupling:	Avoid using implementation types like 'EnumMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:96:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:145:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:206:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:209:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:222:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:232:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:255:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:383:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:383:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test6599/test6599.java:576:	UselessParentheses:	Useless parentheses.

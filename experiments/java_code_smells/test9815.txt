@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:48:	UnnecessaryImport:	Unused static import 'org.apache.solr.security.JWTAuthPlugin.JWTAuthenticationResponse.AuthCode.AUTZ_HEADER_PROBLEM'
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:49:	UnnecessaryImport:	Unused static import 'org.apache.solr.security.JWTAuthPlugin.JWTAuthenticationResponse.AuthCode.NO_AUTZ_HEADER'
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:50:	UnnecessaryImport:	Unused static import 'org.apache.solr.security.JWTAuthPlugin.JWTAuthenticationResponse.AuthCode.SCOPE_MISSING'
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:56:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:58:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:59:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:59:	SingularField:	Perhaps 'minimalConfig' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:146:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:155:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:167:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:175:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9815/test9815.java:185:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead

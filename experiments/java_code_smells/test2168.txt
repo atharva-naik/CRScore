@@ -1,0 +1,14 @@
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:27:	UnnecessaryImport:	Unused static import 'org.apache.lucene.geo.GeoEncodingUtils.MAX_LON_ENCODED'
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:28:	UnnecessaryImport:	Unused static import 'org.apache.lucene.geo.GeoEncodingUtils.MIN_LON_ENCODED'
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:29:	UnnecessaryImport:	Unused static import 'org.apache.lucene.geo.GeoEncodingUtils.decodeLatitude'
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:30:	UnnecessaryImport:	Unused static import 'org.apache.lucene.geo.GeoEncodingUtils.decodeLongitude'
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:31:	UnnecessaryImport:	Unused static import 'org.apache.lucene.geo.GeoEncodingUtils.encodeLatitude'
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:32:	UnnecessaryImport:	Unused static import 'org.apache.lucene.geo.GeoEncodingUtils.encodeLatitudeCeil'
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:33:	UnnecessaryImport:	Unused static import 'org.apache.lucene.geo.GeoEncodingUtils.encodeLongitude'
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:34:	UnnecessaryImport:	Unused static import 'org.apache.lucene.geo.GeoEncodingUtils.encodeLongitudeCeil'
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:35:	UnnecessaryImport:	Unused static import 'org.apache.lucene.geo.GeoUtils.orient'
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:42:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:145:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:197:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:271:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test2168/test2168.java:281:	UselessParentheses:	Useless parentheses.

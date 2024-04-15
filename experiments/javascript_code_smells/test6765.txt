@@ -1,0 +1,36 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 8, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 11, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 14, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 14, col 79, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 14, col 80, Expected ')' and instead saw 'WPSearchConsoleDashboardWidget'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 14, col 112, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 14, col 113, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 14, col 114, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 14, col 114, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 15, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 15, col 79, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 15, col 80, Expected ')' and instead saw 'WPAnalyticsDashboardWidgetOverview'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 15, col 116, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 15, col 117, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 15, col 118, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 15, col 118, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 16, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 16, col 79, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 16, col 80, Expected ')' and instead saw 'WPAnalyticsDashboardWidgetTopPagesTable'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 16, col 121, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 16, col 122, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 16, col 123, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 16, col 123, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 30, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 46, col 30, Unnecessary RegExp 's' flag.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 47, col 26, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6765/test6765.js: line 47, col 26, Unrecoverable syntax error. (73% scanned).
+
+34 errors

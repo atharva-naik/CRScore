@@ -1,0 +1,200 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 2, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 42, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 43, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 60, col 31, ['$set'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 79, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 80, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 82, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 83, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 84, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 85, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 86, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 86, col 25, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 86, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 87, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 92, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 93, col 34, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 109, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 115, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 116, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 117, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 123, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 124, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 125, col 29, ['a'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 126, col 29, ['b'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 126, col 43, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 129, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 143, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 151, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 152, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 153, col 27, ['a'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 154, col 27, ['b'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 154, col 41, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 156, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 198, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 199, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 214, col 49, ['$set'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 254, col 21, Value of 'err' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 336, col 30, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 337, col 37, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 398, col 30, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 399, col 37, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 570, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 571, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 591, col 31, ['$set'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 608, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 609, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 613, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 614, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 615, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 618, col 70, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 619, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 622, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 629, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 630, col 26, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 631, col 33, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 640, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 642, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 679, col 21, Value of 'err' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 764, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 765, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 786, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 787, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 791, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 792, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 793, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 804, col 13, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 805, col 30, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 808, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 815, col 70, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 816, col 28, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 817, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 826, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 828, col 37, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 876, col 30, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 877, col 37, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 892, col 51, ['$set'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1404, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1405, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1405, col 54, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1409, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1414, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1416, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1418, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1421, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1422, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1424, col 60, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1425, col 25, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1433, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1434, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1434, col 54, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1438, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1443, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1445, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1447, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1450, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1451, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1453, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1454, col 25, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1463, col 11, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1466, col 11, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1476, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1480, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1481, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1485, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1489, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1493, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1494, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1498, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1502, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1503, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1504, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1506, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1510, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1510, col 64, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1511, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1515, col 12, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1518, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1531, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1532, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1533, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1535, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1539, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1539, col 64, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1540, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1543, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1556, col 12, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1559, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1572, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1573, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1574, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1576, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1580, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1581, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1589, col 12, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1592, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1605, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1606, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1607, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1609, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1613, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1614, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1628, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1649, col 12, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1652, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1657, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1658, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 2, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 3, col 19, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 4, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 6, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 7, col 26, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 9, col 1, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 10, col 3, 'before' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 14, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 76, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 103, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 133, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 161, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 226, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 262, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 306, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 362, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 433, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 476, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 499, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 540, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 607, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 653, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 687, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 729, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 785, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 838, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 910, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 951, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 986, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1009, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1052, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1079, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1123, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1150, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1183, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1243, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1303, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1342, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1361, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1381, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1403, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1432, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1475, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1488, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1501, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1530, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1571, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1604, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6815/test6815.js: line 1615, col 11, 'Promise' is not defined.
+
+198 errors

@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:127:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:170:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:223:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:256:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:269:	UnusedPrivateMethod:	Avoid unused private methods such as 'getActiveFlowHelper(ArrayList<ExecutableFlow>, Collection<Pair<ExecutionReference, ExecutableFlow>>)'.
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:269:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:291:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'flows'
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:298:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'flows'
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:309:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'flows'
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:318:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'nodes'
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:346:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'value'
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:374:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'value'
+/home/arnaik/code-review-test-projects/java/test9205/test9205.java:535:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

@@ -1,0 +1,56 @@
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:53:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:54:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:55:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:56:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:60:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:121:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:135:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:165:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:177:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:189:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:201:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:213:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:225:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:237:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:249:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:261:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:281:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:285:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:311:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:315:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:320:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:340:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:366:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:386:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:390:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:416:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:420:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:425:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:445:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:471:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:513:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:519:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:527:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:545:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:552:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:677:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:677:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:753:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:753:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:778:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:795:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:825:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:840:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:840:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:844:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:844:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:848:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:848:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:848:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:852:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:852:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:852:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:864:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:870:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:881:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4179/test4179.java:1026:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HashSet': 'empty' is already in scope

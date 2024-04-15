@@ -1,0 +1,11 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test2366/test2366.js: line 25, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test2366/test2366.js: line 31, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2366/test2366.js: line 44, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2366/test2366.js: line 60, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2366/test2366.js: line 73, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2366/test2366.js: line 82, col 40, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2366/test2366.js: line 100, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2366/test2366.js: line 111, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test2366/test2366.js: line 46, col 16, 'document' is not defined.
+
+9 errors

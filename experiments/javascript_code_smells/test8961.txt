@@ -1,0 +1,6 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8961/test8961.js: line 1, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8961/test8961.js: line 2, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8961/test8961.js: line 3, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8961/test8961.js: line 4, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+
+4 errors

@@ -1,0 +1,33 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 1, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 2, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 2, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 2, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 10, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 10, col 25, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 12, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 13, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 15, col 4, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 16, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 16, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 17, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 17, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 18, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 18, col 89, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 20, col 33, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 20, col 40, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 20, col 63, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 22, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 22, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 24, col 77, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 26, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 29, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 30, col 94, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 31, col 21, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 32, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 33, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 35, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 36, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9180/test9180.js: line 40, col 24, Missing semicolon.
+
+31 errors

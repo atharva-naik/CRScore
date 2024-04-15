@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6099/test6099.java:60:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test6099/test6099.java:72:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

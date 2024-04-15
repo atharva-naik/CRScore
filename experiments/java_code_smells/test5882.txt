@@ -1,0 +1,15 @@
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:55:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:57:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:63:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'storageManager'.
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:125:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:154:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:182:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:216:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:259:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:337:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:385:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:404:	UnnecessaryReturn:	Unnecessary return statement
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:414:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:426:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:439:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5882/test5882.java:456:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

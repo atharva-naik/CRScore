@@ -1,0 +1,6 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9479/test9479.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9479/test9479.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9479/test9479.js: line 24, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9479/test9479.js: line 26, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+
+4 errors

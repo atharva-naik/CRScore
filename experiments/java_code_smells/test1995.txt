@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test1995/test1995.java:124:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test1995/test1995.java:152:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+/home/arnaik/code-review-test-projects/java/test1995/test1995.java:243:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test1995/test1995.java:279:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test1995/test1995.java:315:	UnusedPrivateField:	Avoid unused private fields such as 'minSequenceNumber'.

@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test1926/test1926.java:20:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.types.TimeType.HOUR'
+/home/arnaik/code-review-test-projects/java/test1926/test1926.java:21:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.types.TimeType.MICROSECOND'
+/home/arnaik/code-review-test-projects/java/test1926/test1926.java:22:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.types.TimeType.MINUTE'
+/home/arnaik/code-review-test-projects/java/test1926/test1926.java:23:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.types.TimeType.SECOND'
+/home/arnaik/code-review-test-projects/java/test1926/test1926.java:38:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test1926/test1926.java:180:	AvoidDecimalLiteralsInBigDecimalConstructor:	Avoid creating BigDecimal with a decimal (float/double) literal. Use a String literal
+/home/arnaik/code-review-test-projects/java/test1926/test1926.java:193:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1926/test1926.java:223:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1926/test1926.java:225:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1926/test1926.java:247:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths

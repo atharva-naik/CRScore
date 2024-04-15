@@ -1,0 +1,14 @@
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:10:	UnnecessaryImport:	Unused import 'javafx.scene.control.*'
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:11:	UnnecessaryImport:	Unused import 'javafx.scene.layout.*'
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:22:	UnnecessaryImport:	Unused static import 'org.phoenicis.configuration.localisation.Localisation.tr'
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:35:	SingularField:	Perhaps 'title' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:37:	SingularField:	Perhaps 'repositoryGrid' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:39:	SingularField:	Perhaps 'repositoryText' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:40:	SingularField:	Perhaps 'repositoryLayout' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:42:	SingularField:	Perhaps 'repositoryButtonLayout' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:43:	SingularField:	Perhaps 'addButton' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:44:	SingularField:	Perhaps 'removeButton' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:46:	SingularField:	Perhaps 'priorityHint' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:48:	SingularField:	Perhaps 'refreshLayout' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:50:	SingularField:	Perhaps 'refreshRepositoriesLabel' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test3068/test3068.java:51:	SingularField:	Perhaps 'refreshRepositoriesButton' could be replaced by a local variable.

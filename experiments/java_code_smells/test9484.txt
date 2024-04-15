@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test9484/test9484.java:112:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9484/test9484.java:297:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9484/test9484.java:303:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test9484/test9484.java:448:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test9484/test9484.java:494:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9484/test9484.java:511:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9484/test9484.java:527:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9484/test9484.java:805:	UnnecessaryModifier:	Unnecessary modifier 'static' on interface 'RecipientsChangedListener': member interfaces are implicitly static
+/home/arnaik/code-review-test-projects/java/test9484/test9484.java:806:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'onRecipientsChanged': the method is declared in an interface type

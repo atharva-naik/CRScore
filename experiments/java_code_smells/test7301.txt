@@ -1,0 +1,81 @@
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:90:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.SORT'
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:91:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.QueryElevationParams.ONLY_ELEVATED_REPRESENTATIVE'
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:218:	UnnecessaryModifier:	Unnecessary modifier 'static' on enum 'GroupHeadSelectorType': nested enums are implicitly static
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:220:	LooseCoupling:	Avoid using implementation types like 'EnumSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:304:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:308:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:322:	MissingOverride:	The method 'hashCode()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:330:	MissingOverride:	The method 'equals(Object)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:359:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'params'.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:417:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:526:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:660:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:662:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:755:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:832:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:836:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:853:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:960:	SingularField:	Perhaps 'needsScores4Collapsing' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1060:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1062:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1165:	SingularField:	Perhaps 'needsScores4Collapsing' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1243:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1249:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1444:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1485:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1532:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1641:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1694:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1742:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1816:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1818:	LooseCoupling:	Avoid using implementation types like 'EnumSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1839:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:1999:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2040:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'values'.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2121:	MissingOverride:	The method 'setNextReader(LeafReaderContext)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2125:	MissingOverride:	The method 'collapse(int, int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2194:	MissingOverride:	The method 'setNextReader(LeafReaderContext)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2198:	MissingOverride:	The method 'collapse(int, int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2269:	MissingOverride:	The method 'setNextReader(LeafReaderContext)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2273:	MissingOverride:	The method 'collapse(int, int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2353:	MissingOverride:	The method 'setNextReader(LeafReaderContext)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2357:	MissingOverride:	The method 'collapse(int, int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2639:	MissingOverride:	The method 'setNextReader(LeafReaderContext)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2648:	MissingOverride:	The method 'collapse(int, int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2652:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2671:	MissingOverride:	The method 'collapseNullGroup(int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2725:	MissingOverride:	The method 'setNextReader(LeafReaderContext)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2735:	MissingOverride:	The method 'collapse(int, int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2739:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2758:	MissingOverride:	The method 'collapseNullGroup(int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2829:	MissingOverride:	The method 'setNextReader(LeafReaderContext)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2839:	MissingOverride:	The method 'collapse(int, int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2845:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2870:	MissingOverride:	The method 'collapseNullGroup(int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2907:	UnusedPrivateField:	Avoid unused private fields such as 'sortSpec'.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2949:	MissingOverride:	The method 'collapse(int, int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2953:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:2980:	MissingOverride:	The method 'collapseNullGroup(int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3029:	UnusedPrivateField:	Avoid unused private fields such as 'boostDocsMap'.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3034:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3057:	UnnecessaryReturn:	Unnecessary return statement
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3217:	UnusedPrivateField:	Avoid unused private fields such as 'sorts'.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3388:	UnnecessaryModifier:	Unnecessary modifier 'static' on interface 'IntCompare': member interfaces are implicitly static
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3389:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'test': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3392:	UnnecessaryModifier:	Unnecessary modifier 'static' on interface 'FloatCompare': member interfaces are implicitly static
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3393:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'test': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3396:	UnnecessaryModifier:	Unnecessary modifier 'static' on interface 'LongCompare': member interfaces are implicitly static
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3397:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'test': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3400:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3401:	MissingOverride:	The method 'test(int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3406:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3407:	MissingOverride:	The method 'test(int, int)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3412:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3413:	MissingOverride:	The method 'test(float, float)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3418:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3419:	MissingOverride:	The method 'test(float, float)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3424:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3425:	MissingOverride:	The method 'test(long, long)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3430:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3431:	MissingOverride:	The method 'test(long, long)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test7301/test7301.java:3437:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'numNotNull': private methods cannot be overridden

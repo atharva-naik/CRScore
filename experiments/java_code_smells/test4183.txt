@@ -1,0 +1,20 @@
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:67:	UnnecessaryImport:	Unused static import 'android.Manifest.permission.CAMERA'
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:68:	UnnecessaryImport:	Unused static import 'android.app.Activity.RESULT_OK'
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:69:	UnnecessaryImport:	Unused static import 'android.content.pm.PackageManager.PERMISSION_GRANTED'
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:70:	UnnecessaryImport:	Unused static import 'android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE'
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:71:	UnnecessaryImport:	Unused static import 'openfoodfacts.github.scrachx.openfood.models.ProductImageField.INGREDIENTS'
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:72:	UnnecessaryImport:	Unused static import 'openfoodfacts.github.scrachx.openfood.utils.ProductInfoState.EMPTY'
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:73:	UnnecessaryImport:	Unused static import 'openfoodfacts.github.scrachx.openfood.utils.ProductInfoState.LOADING'
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:74:	UnnecessaryImport:	Unused static import 'openfoodfacts.github.scrachx.openfood.utils.Utils.MY_PERMISSIONS_REQUEST_CAMERA'
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:75:	UnnecessaryImport:	Unused static import 'openfoodfacts.github.scrachx.openfood.utils.Utils.bold'
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:77:	UnnecessaryImport:	Unused static import 'org.jsoup.helper.StringUtil.isBlank'
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:126:	SingularField:	Perhaps 'product' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:131:	UnusedPrivateField:	Avoid unused private fields such as 'mAdditiveDao'.
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:132:	UnusedPrivateField:	Avoid unused private fields such as 'productRepository'.
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:136:	SingularField:	Perhaps 'customTabActivityHelper' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:293:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:422:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:427:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:514:	UnusedLocalVariable:	Avoid unused local variables such as 'error'.
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:538:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4183/test4183.java:546:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

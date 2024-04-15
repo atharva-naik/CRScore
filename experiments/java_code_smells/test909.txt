@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test909/test909.java:19:	UnnecessaryImport:	Unused import 'java.util.Collections'
+/home/arnaik/code-review-test-projects/java/test909/test909.java:25:	UnnecessaryImport:	Unused import 'org.gradle.api.tasks.SourceSetContainer'
+/home/arnaik/code-review-test-projects/java/test909/test909.java:50:	UnusedPrivateMethod:	Avoid unused private methods such as 'isImmutablesValue(Dependency)'.

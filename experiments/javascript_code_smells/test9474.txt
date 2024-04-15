@@ -1,0 +1,41 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 13, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 86, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 100, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 117, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 131, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 147, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 171, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 179, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 200, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 216, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 230, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 271, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 279, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 284, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 337, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 338, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 339, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 340, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 341, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 342, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 343, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 344, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 345, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 346, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 347, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 348, col 3, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 3, col 22, 'Symbol' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 86, col 26, 'Symbol' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 24, col 36, 'Set' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 75, col 32, 'Set' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 206, col 32, 'Set' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 216, col 35, 'Set' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 230, col 41, 'Set' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 271, col 35, 'Set' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 279, col 34, 'Set' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 284, col 49, 'Set' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9474/test9474.js: line 336, col 1, 'module' is not defined.
+
+39 errors

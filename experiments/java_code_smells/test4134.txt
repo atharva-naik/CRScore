@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test4134/test4134.java:43:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test4134/test4134.java:151:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'UserPreferences': 'prefs' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test4134/test4134.java:422:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'cacheSizeMB'

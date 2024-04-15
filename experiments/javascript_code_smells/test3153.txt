@@ -1,0 +1,7 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3153/test3153.js: line 35, col 7, Comma warnings can be turned off with 'laxcomma'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3153/test3153.js: line 34, col 16, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3153/test3153.js: line 35, col 21, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3153/test3153.js: line 36, col 19, Misleading line break before ','; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3153/test3153.js: line 90, col 2, Missing semicolon.
+
+5 errors

@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test8952/test8952.java:33:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test8952/test8952.java:68:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths

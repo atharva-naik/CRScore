@@ -1,0 +1,28 @@
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:60:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:82:	CloseResource:	Ensure that resources like this OutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:89:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:120:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:145:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:151:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:170:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:185:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:191:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:203:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:210:	UnusedFormalParameter:	Avoid unused method parameters such as 'resp'.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:220:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:242:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:250:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:253:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:257:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:282:	UnusedFormalParameter:	Avoid unused method parameters such as 'req'.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:288:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:314:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:346:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:357:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:368:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:383:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:403:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:419:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:426:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:441:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3714/test3714.java:443:	ControlStatementBraces:	This statement should have braces

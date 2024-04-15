@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test9167/test9167.java:163:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test9167/test9167.java:184:	ProperLogger:	Logger should be defined private static final and have the correct class
+/home/arnaik/code-review-test-projects/java/test9167/test9167.java:203:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

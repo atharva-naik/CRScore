@@ -1,0 +1,59 @@
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:32:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:79:	UnusedPrivateField:	Avoid unused private fields such as '_isConfigured'.
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:80:	UnusedPrivateField:	Avoid unused private fields such as '_isAuthenticated'.
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:90:	NonThreadSafeSingleton:	Singleton is not thread safe
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:99:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PDKClient': '_clientId' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:100:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PDKClient': '_context' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:106:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PDKClient': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:128:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PDKClient': '_debugMode' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:146:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:150:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:161:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PDKClient': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:191:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:198:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:206:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:208:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:212:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:213:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:214:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:218:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:220:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:223:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:230:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:233:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:238:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:240:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:243:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:298:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:309:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:318:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:327:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:335:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:338:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:340:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:348:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:370:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:374:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:378:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:384:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:407:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PDKClient': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:416:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:459:	UnnecessaryReturn:	Unnecessary return statement
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:462:	UnusedFormalParameter:	Avoid unused method parameters such as 'context'.
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:507:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:518:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:551:	NonThreadSafeSingleton:	Singleton is not thread safe
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:566:	UnusedPrivateMethod:	Avoid unused private methods such as 'validateScopes(Set<String>)'.
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:570:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:571:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:615:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:626:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:632:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:634:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:640:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:646:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:646:	UnusedFormalParameter:	Avoid unused method parameters such as 'params'.
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:653:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:661:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:663:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9551/test9551.java:669:	ControlStatementBraces:	This statement should have braces

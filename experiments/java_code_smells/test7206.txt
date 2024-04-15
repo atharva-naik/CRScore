@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test7206/test7206.java:64:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7206/test7206.java:109:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test7206/test7206.java:110:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test7206/test7206.java:110:	SimplifyConditional:	No need to check for null before an instanceof

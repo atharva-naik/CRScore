@@ -1,0 +1,5 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3343/test3343.js: line 6, col 5, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3343/test3343.js: line 6, col 8, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3343/test3343.js: line 7, col 2, Missing semicolon.
+
+3 errors

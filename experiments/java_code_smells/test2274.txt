@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test2274/test2274.java:28:	UnnecessaryImport:	Unused static import 'com.fsck.k9.mail.K9MailLib.LOG_TAG'
+/home/arnaik/code-review-test-projects/java/test2274/test2274.java:29:	UnnecessaryImport:	Unused static import 'com.fsck.k9.mail.store.RemoteStore.SOCKET_CONNECT_TIMEOUT'
+/home/arnaik/code-review-test-projects/java/test2274/test2274.java:154:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test2274/test2274.java:175:	CloseResource:	Ensure that resources like this Socket object are closed after use
+/home/arnaik/code-review-test-projects/java/test2274/test2274.java:187:	CloseResource:	Ensure that resources like this SSLSocket object are closed after use
+/home/arnaik/code-review-test-projects/java/test2274/test2274.java:221:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.

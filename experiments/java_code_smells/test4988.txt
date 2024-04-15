@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test4988/test4988.java:44:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4988/test4988.java:44:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Status': 'values' is already in scope
+/home/arnaik/code-review-test-projects/java/test4988/test4988.java:48:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Status': 'RUNNING' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test4988/test4988.java:48:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Status': 'QUEUED' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test4988/test4988.java:48:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Status': 'PAUSED' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test4988/test4988.java:48:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Status': 'FAILED_FINISHING' is already in scope because it is declared in an enclosing type

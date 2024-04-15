@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test3675/test3675.java:56:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.MetadataTableType.ALL_MANIFESTS'
+/home/arnaik/code-review-test-projects/java/test3675/test3675.java:58:	GenericsNaming:	Generics names should be a one letter long and upper case.

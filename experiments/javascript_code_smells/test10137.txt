@@ -1,0 +1,49 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 13, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 14, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 90, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 160, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 179, col 15, Value of 'err' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 340, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 343, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 400, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 408, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 452, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 588, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 592, col 71, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 605, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 613, col 72, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 615, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 626, col 38, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 656, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 656, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 661, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 672, col 30, ['$err'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 673, col 30, ['errmsg'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 677, col 32, ['$err'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 677, col 63, ['errmsg'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 710, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 728, col 9, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 739, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 3, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 4, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 5, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 6, col 27, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 7, col 33, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 8, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 9, col 31, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 10, col 24, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 11, col 27, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 180, col 5, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test10137/test10137.js: line 753, col 1, 'module' is not defined.
+
+47 errors

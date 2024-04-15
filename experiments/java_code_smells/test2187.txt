@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:66:	SingleMethodSingleton:	Class contains multiple getInstance methods. Please review.
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:66:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:142:	SingletonClassReturningNewInstance:	getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:249:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:292:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:295:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:352:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:365:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:367:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:369:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:459:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:475:	UnusedPrivateMethod:	Avoid unused private methods such as 'saveRecordsToSmartStore(String, JSONArray, MergeMode)'.
+/home/arnaik/code-review-test-projects/java/test2187/test2187.java:527:	ControlStatementBraces:	This statement should have braces

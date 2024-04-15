@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test8936/test8936.java:52:	UnnecessaryImport:	Unused static import 'android.support.test.espresso.Espresso.onView'
+/home/arnaik/code-review-test-projects/java/test8936/test8936.java:53:	UnnecessaryImport:	Unused static import 'android.support.test.espresso.action.ViewActions.click'
+/home/arnaik/code-review-test-projects/java/test8936/test8936.java:54:	UnnecessaryImport:	Unused static import 'android.support.test.espresso.action.ViewActions.closeSoftKeyboard'
+/home/arnaik/code-review-test-projects/java/test8936/test8936.java:55:	UnnecessaryImport:	Unused static import 'android.support.test.espresso.action.ViewActions.replaceText'
+/home/arnaik/code-review-test-projects/java/test8936/test8936.java:56:	UnnecessaryImport:	Unused static import 'android.support.test.espresso.matcher.ViewMatchers.withId'
+/home/arnaik/code-review-test-projects/java/test8936/test8936.java:182:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test8936/test8936.java:190:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.

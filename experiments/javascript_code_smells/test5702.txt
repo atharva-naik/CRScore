@@ -1,0 +1,14 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 177, col 29, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 547, col 26, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 559, col 38, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 565, col 30, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 572, col 26, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 599, col 26, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 664, col 21, Confusing use of '!'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 666, col 34, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 924, col 23, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 998, col 30, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 1040, col 30, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5702/test5702.js: line 1260, col 22, Value of 'e' may be overwritten in IE 8 and earlier.
+
+12 errors

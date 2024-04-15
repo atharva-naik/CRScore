@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test720/test720.java:359:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test720/test720.java:409:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test720/test720.java:525:	UnusedFormalParameter:	Avoid unused method parameters such as 'domain'.
+/home/arnaik/code-review-test-projects/java/test720/test720.java:526:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test720/test720.java:586:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

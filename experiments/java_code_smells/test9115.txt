@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test9115/test9115.java:59:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.pig.SchemaUtil.project'
+/home/arnaik/code-review-test-projects/java/test9115/test9115.java:79:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9115/test9115.java:91:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9115/test9115.java:117:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test9115/test9115.java:151:	SingularField:	Perhaps 'currentTask' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9115/test9115.java:281:	UncommentedEmptyMethodBody:	Document empty method body

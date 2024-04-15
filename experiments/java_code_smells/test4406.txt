@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test4406/test4406.java:15:	UnusedLocalVariable:	Avoid unused local variables such as 'localGeneric'.
+/home/arnaik/code-review-test-projects/java/test4406/test4406.java:25:	PrimitiveWrapperInstantiation:	Do not use `new Integer(...)`, prefer `Integer.valueOf(...)`
+/home/arnaik/code-review-test-projects/java/test4406/test4406.java:29:	UnusedLocalVariable:	Avoid unused local variables such as 'constructorGeneric'.

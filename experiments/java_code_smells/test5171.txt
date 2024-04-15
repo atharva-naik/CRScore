@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test5171/test5171.java:1:	PackageCase:	Package name contains upper case characters
+/home/arnaik/code-review-test-projects/java/test5171/test5171.java:89:	LocalVariableNamingConventions:	The local variable name 'S' doesn't match '[a-z][a-zA-Z0-9]*'

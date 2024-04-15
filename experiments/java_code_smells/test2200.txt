@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:67:	UnnecessaryImport:	Unused static import 'zipkin2.elasticsearch.ElasticsearchAutocompleteTags.AUTOCOMPLETE'
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:68:	UnnecessaryImport:	Unused static import 'zipkin2.elasticsearch.ElasticsearchSpanStore.DEPENDENCY'
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:69:	UnnecessaryImport:	Unused static import 'zipkin2.elasticsearch.ElasticsearchSpanStore.SPAN'
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:70:	UnnecessaryImport:	Unused static import 'zipkin2.elasticsearch.EnsureIndexTemplate.ensureIndexTemplate'
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:71:	UnnecessaryImport:	Unused static import 'zipkin2.elasticsearch.internal.JsonReaders.enterPath'
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:72:	UnnecessaryImport:	Unused static import 'zipkin2.elasticsearch.internal.JsonSerializers.JSON_FACTORY'
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:127:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:233:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:303:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:344:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:344:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:382:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2200/test2200.java:510:	UncommentedEmptyConstructor:	Document empty constructor

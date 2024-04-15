@@ -1,0 +1,5 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test7372/test7372.js: line 7, col 22, ['btc'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7372/test7372.js: line 35, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7372/test7372.js: line 90, col 7, 'txHex' is already defined.
+
+3 errors

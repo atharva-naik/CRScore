@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test2685/test2685.java:86:	AvoidStringBufferField:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).

@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test390/test390.java:42:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.alwaysTrue'
+/home/arnaik/code-review-test-projects/java/test390/test390.java:49:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test390/test390.java:50:	UnusedPrivateField:	Avoid unused private fields such as 'LOG'.
+/home/arnaik/code-review-test-projects/java/test390/test390.java:52:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test390/test390.java:53:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test390/test390.java:55:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead

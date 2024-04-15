@@ -1,0 +1,29 @@
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:54:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.NAME'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:55:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CoreAdminParams.COLLECTION'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:56:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CoreAdminParams.CoreAdminAction.*'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:57:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CoreAdminParams.REPLICA'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:58:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CoreAdminParams.REPLICA_TYPE'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:59:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CoreAdminParams.SHARD'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:60:	UnnecessaryImport:	Unused static import 'org.apache.solr.handler.admin.CoreAdminHandler.COMPLETED'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:61:	UnnecessaryImport:	Unused static import 'org.apache.solr.handler.admin.CoreAdminHandler.CallInfo'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:62:	UnnecessaryImport:	Unused static import 'org.apache.solr.handler.admin.CoreAdminHandler.FAILED'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:63:	UnnecessaryImport:	Unused static import 'org.apache.solr.handler.admin.CoreAdminHandler.RESPONSE'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:64:	UnnecessaryImport:	Unused static import 'org.apache.solr.handler.admin.CoreAdminHandler.RESPONSE_MESSAGE'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:65:	UnnecessaryImport:	Unused static import 'org.apache.solr.handler.admin.CoreAdminHandler.RESPONSE_STATUS'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:66:	UnnecessaryImport:	Unused static import 'org.apache.solr.handler.admin.CoreAdminHandler.RUNNING'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:67:	UnnecessaryImport:	Unused static import 'org.apache.solr.handler.admin.CoreAdminHandler.buildCoreParams'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:68:	UnnecessaryImport:	Unused static import 'org.apache.solr.handler.admin.CoreAdminHandler.normalizePath'
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:85:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:147:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:161:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:177:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:181:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:189:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:190:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:191:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:193:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:195:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:203:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:313:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:315:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5127/test5127.java:317:	ControlStatementBraces:	This statement should have braces

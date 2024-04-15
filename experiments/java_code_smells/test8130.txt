@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test8130/test8130.java:54:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DELETE_MODE'
+/home/arnaik/code-review-test-projects/java/test8130/test8130.java:55:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DELETE_MODE_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8130/test8130.java:56:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.MERGE_MODE'
+/home/arnaik/code-review-test-projects/java/test8130/test8130.java:57:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.MERGE_MODE_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8130/test8130.java:58:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.UPDATE_MODE'
+/home/arnaik/code-review-test-projects/java/test8130/test8130.java:59:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.UPDATE_MODE_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8130/test8130.java:178:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test8130/test8130.java:184:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test8130/test8130.java:186:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test8130/test8130.java:188:	LiteralsFirstInComparisons:	Position literals first in String comparisons

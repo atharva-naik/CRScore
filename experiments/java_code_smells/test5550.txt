@@ -1,0 +1,8 @@
+/home/arnaik/code-review-test-projects/java/test5550/test5550.java:32:	UnnecessaryImport:	Unused import 'com.salesforce.androidsdk.smartsync.target.ParentChildrenSyncTargetHelper.RelationshipType'
+/home/arnaik/code-review-test-projects/java/test5550/test5550.java:55:	UnusedPrivateField:	Avoid unused private fields such as 'TAG'.
+/home/arnaik/code-review-test-projects/java/test5550/test5550.java:194:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test5550/test5550.java:264:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5550/test5550.java:265:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5550/test5550.java:272:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5550/test5550.java:273:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5550/test5550.java:295:	UselessParentheses:	Useless parentheses.

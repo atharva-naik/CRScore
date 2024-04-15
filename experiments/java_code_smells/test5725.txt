@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test5725/test5725.java:31:	UnnecessaryImport:	Unused import 'com.netflix.iceberg.exceptions.RuntimeIOException'
+/home/arnaik/code-review-test-projects/java/test5725/test5725.java:34:	UnnecessaryImport:	Unused import 'org.apache.hadoop.fs.FileSystem'
+/home/arnaik/code-review-test-projects/java/test5725/test5725.java:37:	UnnecessaryImport:	Unused import 'java.io.IOException'
+/home/arnaik/code-review-test-projects/java/test5725/test5725.java:40:	UnnecessaryImport:	Unused static import 'com.netflix.iceberg.TableMetadata.newTableMetadata'

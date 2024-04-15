@@ -1,0 +1,46 @@
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:1:	PackageCase:	Package name contains upper case characters
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:63:	NonThreadSafeSingleton:	Singleton is not thread safe
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:64:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:73:	UnusedPrivateField:	Avoid unused private fields such as 'activeLoop'.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:82:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:122:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:130:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:130:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:135:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:137:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:152:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:156:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:162:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:178:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:182:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:186:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:190:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:197:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:199:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:201:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:242:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:244:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:286:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:302:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:357:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:364:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:384:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:396:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:399:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:399:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:408:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:441:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:449:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:457:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:457:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:464:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:468:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:479:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:487:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:511:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:519:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:527:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:527:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:537:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:581:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9416/test9416.java:616:	ControlStatementBraces:	This statement should have braces

@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test4557/test4557.java:19:	UnnecessaryImport:	Unused static import 'org.apache.lucene.search.DocIdSetIterator.NO_MORE_DOCS'
+/home/arnaik/code-review-test-projects/java/test4557/test4557.java:257:	IdenticalCatchBranches:	'catch' branch identical to 'IllegalStateException' branch
+/home/arnaik/code-review-test-projects/java/test4557/test4557.java:305:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test4557/test4557.java:539:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4557/test4557.java:1112:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable

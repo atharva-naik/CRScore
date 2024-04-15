@@ -1,0 +1,30 @@
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:65:	UnnecessaryImport:	Unused static import 'com.pinterest.android.pdk.PDKClient.setDebugMode'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:66:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.R.string.no_account_signed_in'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:67:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.data.local.AccountDatabase.AccountName.BOX'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:68:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.data.local.AccountDatabase.AccountName.DROPBOX'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:69:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.data.local.AccountDatabase.AccountName.IMGUR'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:70:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.data.local.AccountDatabase.AccountName.NEXTCLOUD'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:71:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.data.local.AccountDatabase.AccountName.OWNCLOUD'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:72:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.data.local.AccountDatabase.AccountName.PINTEREST'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:73:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.utilities.Constants.BOX_CLIENT_ID'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:74:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.utilities.Constants.BOX_CLIENT_SECRET'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:75:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.utilities.Constants.PINTEREST_APP_ID'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:76:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.utilities.Constants.SUCCESS'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:77:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.utilities.Utils.checkNetwork'
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:89:	UnusedPrivateField:	Avoid unused private fields such as 'RC_SIGN_IN'.
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:105:	SingularField:	Perhaps 'realmResult' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:114:	UnusedPrivateField:	Avoid unused private fields such as 'mDBApi'.
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:176:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:179:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:224:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:249:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:291:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:300:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:347:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:398:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:400:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:425:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:484:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:490:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:527:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test2544/test2544.java:646:	EmptyCatchBlock:	Avoid empty catch blocks

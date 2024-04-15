@@ -1,5 +1,7 @@
 import os
 import json
+from typing import *
+from tqdm import tqdm
 from src.datautils import read_jsonl
 
 def remove_space_clean(line):
@@ -17,7 +19,7 @@ def remove_space_clean(line):
     line = line[i : j + 1]
     return line
 
-def generate_newf(oldf, diff) -> str:
+def generate_newf(oldf, diff) -> Tuple[str, Tuple[int, int]]:
     import re
 
     oldflines = oldf.split("\n")
@@ -34,7 +36,7 @@ def generate_newf(oldf, diff) -> str:
         avail = True
     else:
         avail = False
-        return ""
+        return "", (-1,-1)
     
     startline, rangelen = int(startline) - 1, int(rangelen)
     endline = startline + rangelen
@@ -53,14 +55,18 @@ def generate_newf(oldf, diff) -> str:
     prevlines = [line for line in prevlines]
     afterlines = [line for line in afterlines]
     lines = [line for line in lines]
+    merged_lines = prevlines+lines+afterlines
+    patch_lines = (len(prevlines)+1, len(prevlines)+len(lines))
 
-    return "\n".join(prevlines+lines+afterlines)
+    return "\n".join(merged_lines), patch_lines
 
 # main
 if __name__ == "__main__":
     data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
-    for i,rec in enumerate(data):
-        content = generate_newf(rec['oldf'], rec['patch'])
+    all_patch_lines = {}
+    for i,rec in tqdm(enumerate(data)):
+        content, patch_lines = generate_newf(rec['oldf'], rec['patch'])
+        all_patch_lines[f"test{i}"] = patch_lines
         if rec['lang'] == "py":
             folder = os.path.join("/home/arnaik/code-review-test-projects/python", f"test{i}")
             file = os.path.join(folder, f"test{i}.py")
@@ -73,4 +79,11 @@ if __name__ == "__main__":
             os.makedirs(folder, exist_ok=True)
             with open(file, "w") as f:
                 f.write(content+"\n")
-            
+        elif rec["lang"] == "js":
+            folder = os.path.join("/home/arnaik/code-review-test-projects/javascript", f"test{i}")
+            file = os.path.join(folder, f"test{i}.js")
+            os.makedirs(folder, exist_ok=True)
+            with open(file, "w") as f:
+                f.write(content+"\n")
+        with open("/home/arnaik/code-review-test-projects/patch_lines.json", "w") as f:
+            json.dump(all_patch_lines, f, indent=4)

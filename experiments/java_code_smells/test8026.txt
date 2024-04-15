@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:63:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.AVRO_COMPRESSION'
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:64:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.AVRO_COMPRESSION_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:65:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DELETE_AVRO_COMPRESSION'
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:67:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:103:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:200:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:228:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:242:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:336:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:485:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:490:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:510:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test8026/test8026.java:545:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

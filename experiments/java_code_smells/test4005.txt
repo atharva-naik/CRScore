@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test4005/test4005.java:100:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'MainActivity': 'EXTRA_FEED_ID' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test4005/test4005.java:162:	EmptyControlStatement:	Empty while statement
+/home/arnaik/code-review-test-projects/java/test4005/test4005.java:334:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4005/test4005.java:540:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4005/test4005.java:632:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

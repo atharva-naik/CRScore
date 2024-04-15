@@ -1,0 +1,23 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 27, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 28, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 29, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 30, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 31, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 32, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 33, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 33, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 35, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 35, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 36, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 36, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 43, col 41, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 44, col 50, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 45, col 64, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 46, col 64, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 47, col 65, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 48, col 66, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 51, col 26, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9397/test9397.js: line 51, col 26, Unrecoverable syntax error. (70% scanned).
+
+21 errors

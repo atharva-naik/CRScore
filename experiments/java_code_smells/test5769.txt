@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test5769/test5769.java:148:	LogicInversion:	Use opposite operator instead of the logic complement operator.
+/home/arnaik/code-review-test-projects/java/test5769/test5769.java:197:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5769/test5769.java:197:	LiteralsFirstInComparisons:	Position literals first in String comparisons

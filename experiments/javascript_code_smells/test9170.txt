@@ -1,0 +1,6 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9170/test9170.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9170/test9170.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9170/test9170.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9170/test9170.js: line 9, col 23, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+
+4 errors

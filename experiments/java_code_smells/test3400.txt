@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test3400/test3400.java:19:	UnnecessaryImport:	Unused import 'java.net.URI'
+/home/arnaik/code-review-test-projects/java/test3400/test3400.java:23:	UnnecessaryImport:	Unused import 'org.springframework.web.client.RestClientException'
+/home/arnaik/code-review-test-projects/java/test3400/test3400.java:24:	UnnecessaryImport:	Unused import 'org.springframework.web.client.RestTemplate'

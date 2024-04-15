@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test2235/test2235.java:28:	UnnecessaryImport:	Unused import 'com.pingcap.tikv.expression.*'
+/home/arnaik/code-review-test-projects/java/test2235/test2235.java:30:	UnnecessaryImport:	Unused import 'com.pingcap.tikv.types.*'
+/home/arnaik/code-review-test-projects/java/test2235/test2235.java:51:	LooseCoupling:	Avoid using implementation types like 'IdentityHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2235/test2235.java:54:	LooseCoupling:	Avoid using implementation types like 'IdentityHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2235/test2235.java:67:	LooseCoupling:	Avoid using implementation types like 'IdentityHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2235/test2235.java:274:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

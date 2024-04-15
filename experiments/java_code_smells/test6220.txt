@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:21:	UnnecessaryImport:	Unused static import 'javaslang.collection.Comparators.naturalComparator'
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:152:	LooseCoupling:	Avoid using implementation types like 'PriorityQueue'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:153:	LooseCoupling:	Avoid using implementation types like 'PriorityQueue'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:163:	LooseCoupling:	Avoid using implementation types like 'PriorityQueue'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:171:	LooseCoupling:	Avoid using implementation types like 'PriorityQueue'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:172:	LooseCoupling:	Avoid using implementation types like 'PriorityQueue'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:223:	LooseCoupling:	Avoid using implementation types like 'PriorityQueue'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:234:	LooseCoupling:	Avoid using implementation types like 'PriorityQueue'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:234:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'PriorityQueue' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:234:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'PriorityQueue' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:265:	LooseCoupling:	Avoid using implementation types like 'PriorityQueue'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:265:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'PriorityQueue' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test6220/test6220.java:265:	LooseCoupling:	Avoid using implementation types like 'PriorityQueue'; use the interface instead

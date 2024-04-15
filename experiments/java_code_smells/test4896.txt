@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test4896/test4896.java:39:	UnnecessaryImport:	Unused import 'com.google.common.base.MoreObjects'
+/home/arnaik/code-review-test-projects/java/test4896/test4896.java:48:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.SolrException.ErrorCode.BAD_REQUEST'
+/home/arnaik/code-review-test-projects/java/test4896/test4896.java:49:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.TZ'
+/home/arnaik/code-review-test-projects/java/test4896/test4896.java:94:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4896/test4896.java:164:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeRoutedAlias': 'ROUTER_INTERVAL' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test4896/test4896.java:174:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeRoutedAlias': 'ROUTER_AUTO_DELETE_AGE' is already in scope because it is declared in an enclosing type

@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test7425/test7425.java:29:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7425/test7425.java:118:	OverrideBothEqualsAndHashcode:	Ensure you override both equals() and hashCode()
+/home/arnaik/code-review-test-projects/java/test7425/test7425.java:119:	SimplifyConditional:	No need to check for null before an instanceof

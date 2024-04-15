@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test5230/test5230.java:64:	MethodNamingConventions:	The JUnit 4 test method name 'en_suggest' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5230/test5230.java:74:	MethodNamingConventions:	The JUnit 4 test method name 'de_suggest' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5230/test5230.java:84:	MethodNamingConventions:	The JUnit 4 test method name 'fr_suggest' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5230/test5230.java:178:	CloseResource:	it is recommended to wrap resource 'reader' in try-with-resource declaration directly
+/home/arnaik/code-review-test-projects/java/test5230/test5230.java:182:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5230/test5230.java:232:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5230/test5230.java:233:	ControlStatementBraces:	This statement should have braces

@@ -1,0 +1,14 @@
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:21:	UnnecessaryImport:	Unused import 'com.github.javaparser.resolution.declarations.*'
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:22:	UnnecessaryImport:	Unused import 'com.github.javaparser.resolution.types.*'
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:34:	UnnecessaryImport:	Unused import 'com.github.javaparser.symbolsolver.model.typesystem.*'
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:45:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:110:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:110:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:208:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:437:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:466:	UnusedFormalParameter:	Avoid unused method parameters such as 'typeSolver'.
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:516:	UnusedFormalParameter:	Avoid unused method parameters such as 'typeSolver'.
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:549:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:558:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:609:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test2096/test2096.java:702:	UnnecessaryReturn:	Unnecessary return statement

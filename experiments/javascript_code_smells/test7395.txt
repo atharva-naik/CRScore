@@ -1,0 +1,4 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test7395/test7395.js: line 1, col 1, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7395/test7395.js: line 2, col 1, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+2 errors

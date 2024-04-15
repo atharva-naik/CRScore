@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:18:	UnnecessaryImport:	Unused static import 'azkaban.Constants.ConfigurationKeys.AZKABAN_EXECUTOR_REVERSE_PROXY_HOSTNAME'
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:19:	UnnecessaryImport:	Unused static import 'azkaban.Constants.ConfigurationKeys.AZKABAN_EXECUTOR_REVERSE_PROXY_PORT'
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:20:	UnnecessaryImport:	Unused static import 'azkaban.executor.ExecutorApiClientTest.REVERSE_PROXY_HOST'
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:21:	UnnecessaryImport:	Unused static import 'azkaban.executor.ExecutorApiClientTest.REVERSE_PROXY_PORT'
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:22:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:23:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThatThrownBy'
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:24:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.doAnswer'
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:25:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.mock'
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:26:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.verify'
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:27:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.when'
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:70:	SingularField:	Perhaps 'activeFlows' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test2336/test2336.java:464:	EmptyCatchBlock:	Avoid empty catch blocks

@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test9395/test9395.java:18:	UnnecessaryImport:	Unused static import 'com.google.common.base.Preconditions.checkState'
+/home/arnaik/code-review-test-projects/java/test9395/test9395.java:154:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'InitCodeTransformer': 'createCollectionMap' is already in scope
+/home/arnaik/code-review-test-projects/java/test9395/test9395.java:239:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9395/test9395.java:343:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9395/test9395.java:353:	LooseCoupling:	Avoid using implementation types like 'ArrayDeque'; use the interface instead

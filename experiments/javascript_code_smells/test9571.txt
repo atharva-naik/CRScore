@@ -1,0 +1,80 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 28, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 48, col 2, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 255, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 268, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 288, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 430, col 22, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 454, col 30, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 490, col 7, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 492, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 498, col 26, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 557, col 26, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 558, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 587, col 26, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 588, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 626, col 7, 'privateKey' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 648, col 7, 'privateKey' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 665, col 47, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 682, col 32, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 723, col 30, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 758, col 6, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 760, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 796, col 86, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 860, col 20, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 987, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1178, col 16, 'secretData' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1182, col 40, 'secretData' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1183, col 22, 'secretData' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1183, col 43, 'secretData' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1215, col 6, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1322, col 4, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1327, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1376, col 72, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1532, col 28, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1585, col 76, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1596, col 28, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1637, col 30, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1653, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1706, col 32, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1767, col 28, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1770, col 28, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1781, col 28, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1823, col 22, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1826, col 22, Missing '()' invoking a constructor.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1868, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1898, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 2144, col 7, 'opts' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 2238, col 7, 'opts' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 2252, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 2387, col 6, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 2396, col 17, Unnecessary semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 2382, col 5, 'passphrase' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 2384, col 32, 'passphrase' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 3, col 9, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 4, col 9, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 5, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 6, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 7, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 8, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 11, col 8, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 13, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 14, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 15, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 16, col 19, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 18, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 23, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 24, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 25, col 19, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 26, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 27, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 28, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 595, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 113, col 34, 'setInterval' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 128, col 5, 'clearInterval' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 607, col 22, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 743, col 20, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 1871, col 49, 'cb' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9571/test9571.js: line 2410, col 1, 'module' is not defined.
+
+78 errors

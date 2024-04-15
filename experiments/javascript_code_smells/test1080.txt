@@ -1,0 +1,31 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 23, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 24, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 29, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 30, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 31, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 32, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 38, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 50, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 51, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 52, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 54, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 76, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 76, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 87, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 87, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 93, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 93, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 95, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 96, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 98, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 116, col 33, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 117, col 42, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 118, col 56, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 119, col 56, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 120, col 57, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 121, col 58, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 142, col 18, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1080/test1080.js: line 142, col 18, Unrecoverable syntax error. (44% scanned).
+
+29 errors

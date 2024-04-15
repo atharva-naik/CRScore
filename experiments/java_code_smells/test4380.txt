@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test4380/test4380.java:98:	UnusedPrivateField:	Avoid unused private fields such as 'JOB_ID_DESCRIPTOR'.
+/home/arnaik/code-review-test-projects/java/test4380/test4380.java:100:	UnusedPrivateField:	Avoid unused private fields such as 'jobIdState'.

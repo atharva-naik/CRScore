@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test1705/test1705.java:185:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1705/test1705.java:216:	UnusedPrivateMethod:	Avoid unused private methods such as 'toJson()'.

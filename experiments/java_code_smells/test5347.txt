@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test5347/test5347.java:78:	UnusedLocalVariable:	Avoid unused local variables such as 'resourceType'.

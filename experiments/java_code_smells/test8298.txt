@@ -1,0 +1,19 @@
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:95:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:114:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:118:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:123:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:163:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:170:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:242:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:249:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:327:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:339:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:356:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'ProcessBuilder' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:357:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'ProcessBuilder' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:362:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:363:	CloseResource:	Ensure that resources like this BufferedReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:390:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:396:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:461:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:474:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8298/test8298.java:477:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

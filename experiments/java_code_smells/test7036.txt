@@ -1,0 +1,20 @@
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:197:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:205:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:246:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:394:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:412:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:412:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:425:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:464:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:466:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:477:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:489:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:499:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:505:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:516:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:527:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:538:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:549:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:550:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:563:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7036/test7036.java:565:	UselessParentheses:	Useless parentheses.

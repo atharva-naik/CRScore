@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test7775/test7775.java:12:	UnnecessaryImport:	Unused static import 'com.github.javaparser.StaticJavaParser.parse'
+/home/arnaik/code-review-test-projects/java/test7775/test7775.java:20:	UnnecessaryModifier:	Unnecessary modifier 'static' on field 'LOG': the field is declared in an interface type

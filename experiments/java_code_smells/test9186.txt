@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test9186/test9186.java:32:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test9186/test9186.java:33:	UnnecessaryImport:	Unused static import 'zipkin2.server.internal.ITZipkinServer.url'
+/home/arnaik/code-review-test-projects/java/test9186/test9186.java:44:	ClassNamingConventions:	The class name 'ITZipkinHealth' doesn't match '^Test.*$|^[A-Z][a-zA-Z0-9]*Test(s|Case)?$'

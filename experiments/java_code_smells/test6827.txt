@@ -1,0 +1,34 @@
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:119:	SingularField:	Perhaps 'cleanupReceiver' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:167:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:280:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'CLEANUP_INTENT_ACTION' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:346:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getKey': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:439:	NonThreadSafeSingleton:	Singleton is not thread safe
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:479:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'init' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:493:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'init' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:506:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'init' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:522:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'init' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:681:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:683:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:695:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:697:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:823:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:887:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:937:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:938:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:947:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1029:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'decrypt' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1030:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'decrypt' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1140:	IdenticalCatchBranches:	'catch' branch identical to 'NameNotFoundException' branch
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1327:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1359:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1360:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1372:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1379:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1380:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1382:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1469:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1474:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1474:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SalesforceSDKManager': 'CLEANUP_INTENT_ACTION' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1475:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1517:	IdenticalCatchBranches:	'catch' branch identical to 'ClassNotFoundException' branch
+/home/arnaik/code-review-test-projects/java/test6827/test6827.java:1519:	IdenticalCatchBranches:	'catch' branch identical to 'ClassNotFoundException' branch

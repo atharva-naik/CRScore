@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test2882/test2882.java:79:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2882/test2882.java:294:	UncommentedEmptyMethodBody:	Document empty method body

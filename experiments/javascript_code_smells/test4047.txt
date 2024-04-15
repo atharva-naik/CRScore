@@ -1,0 +1,5 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4047/test4047.js: line 83, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4047/test4047.js: line 195, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4047/test4047.js: line 203, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+3 errors

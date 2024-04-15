@@ -1,0 +1,3 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4492/test4492.js: line 2, col 63, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
+1 error

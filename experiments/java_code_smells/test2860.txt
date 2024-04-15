@@ -1,0 +1,14 @@
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:20:	UnnecessaryImport:	Unused static import 'org.camunda.bpm.engine.impl.cmd.HistoryCleanupCmd.MAX_THREADS_NUMBER'
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:21:	UnnecessaryImport:	Unused static import 'org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull'
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:1132:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:1140:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:1473:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:1476:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:1481:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:1484:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:1488:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:1517:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:1523:	CloseResource:	Ensure that resources like this InputStreamReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:1802:	UnnecessaryReturn:	Unnecessary return statement
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:2191:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test2860/test2860.java:2550:	UselessParentheses:	Useless parentheses.

@@ -1,0 +1,37 @@
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:29:	UnnecessaryImport:	Unused import 'org.apache.lucene.util.LuceneTestCase.Slow'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:56:	UnnecessaryImport:	Unused static import 'org.apache.solr.cloud.OverseerCollectionMessageHandler.NUM_SLICES'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:57:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.cloud.ZkStateReader.MAX_SHARDS_PER_NODE'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:58:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.cloud.ZkStateReader.REPLICATION_FACTOR'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:192:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:197:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Thread': 'sleep' is already in scope
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:200:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:209:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:229:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:253:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:253:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:256:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:257:	LocalVariableNamingConventions:	The local variable name 'shard_fld' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:296:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:309:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:328:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:328:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:331:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:360:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:372:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:377:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:391:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:413:	LocalVariableNamingConventions:	The local variable name 'slice1_0' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:413:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:413:	LocalVariableNamingConventions:	The local variable name 'slice1_1' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:426:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:444:	LocalVariableNamingConventions:	The local variable name 'shard1_0' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:446:	LocalVariableNamingConventions:	The final local variable name 'shard1_0Client' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:451:	LocalVariableNamingConventions:	The local variable name 'shard1_1' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:454:	LocalVariableNamingConventions:	The final local variable name 'shard1_1Client' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:480:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:501:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:550:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:571:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:579:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:583:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5074/test5074.java:604:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'client'

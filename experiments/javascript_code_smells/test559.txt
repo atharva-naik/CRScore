@@ -1,0 +1,10 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test559/test559.js: line 16, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test559/test559.js: line 18, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test559/test559.js: line 19, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test559/test559.js: line 20, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test559/test559.js: line 22, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test559/test559.js: line 23, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test559/test559.js: line 24, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test559/test559.js: line 120, col 1, 'exports' is not defined.
+
+8 errors

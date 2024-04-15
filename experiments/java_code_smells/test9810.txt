@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test9810/test9810.java:10:	UnnecessaryImport:	Unused import 'android.graphics.Color'
+/home/arnaik/code-review-test-projects/java/test9810/test9810.java:107:	SingularField:	Perhaps 'toolbar' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9810/test9810.java:108:	SingularField:	Perhaps 'externalPlayerFragment' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9810/test9810.java:112:	SingularField:	Perhaps 'navList' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9810/test9810.java:118:	SingularField:	Perhaps 'currentTitle' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9810/test9810.java:176:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test9810/test9810.java:251:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test9810/test9810.java:702:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9810/test9810.java:726:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test9810/test9810.java:781:	UselessQualifiedThis:	Useless qualified this usage in the same class.

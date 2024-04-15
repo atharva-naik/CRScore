@@ -1,0 +1,8 @@
+/home/arnaik/code-review-test-projects/java/test3576/test3576.java:95:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3576/test3576.java:104:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3576/test3576.java:108:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3576/test3576.java:200:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3576/test3576.java:202:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3576/test3576.java:205:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3576/test3576.java:243:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test3576/test3576.java:257:	ControlStatementBraces:	This statement should have braces

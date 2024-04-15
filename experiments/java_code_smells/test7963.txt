@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test7963/test7963.java:79:	UnusedPrivateField:	Avoid unused private fields such as 'cookieName'.
+/home/arnaik/code-review-test-projects/java/test7963/test7963.java:80:	UnusedPrivateField:	Avoid unused private fields such as 'cookiePath'.
+/home/arnaik/code-review-test-projects/java/test7963/test7963.java:86:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/home/arnaik/code-review-test-projects/java/test7963/test7963.java:86:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test7963/test7963.java:239:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7963/test7963.java:253:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

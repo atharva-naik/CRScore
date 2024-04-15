@@ -1,0 +1,11 @@
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:66:	UnusedPrivateField:	Avoid unused private fields such as 'ASSERTJ_ERROR_PRONE_VERSION'.
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:169:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:170:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:171:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:317:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:327:	UnusedPrivateMethod:	Avoid unused private methods such as 'hasDependenciesMatching(Configuration, Spec<ModuleComponentIdentifier>)'.
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:342:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:349:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:361:	UnusedPrivateMethod:	Avoid unused private methods such as 'isSafeLoggingPreconditionsDep(ModuleComponentIdentifier)'.
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:362:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6246/test6246.java:363:	LiteralsFirstInComparisons:	Position literals first in String comparisons

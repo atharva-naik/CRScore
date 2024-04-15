@@ -1,0 +1,21 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 19, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 48, col 96, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 91, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 126, col 44, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 408, col 86, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 413, col 82, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 486, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 665, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 681, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 697, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 21, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 22, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 23, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 25, col 1, 'module' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 174, col 33, 'Int8Array' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 291, col 33, 'ArrayBuffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 310, col 33, 'ArrayBuffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 326, col 33, 'ArrayBuffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3440/test3440.js: line 673, col 13, 'console' is not defined.
+
+19 errors

@@ -1,0 +1,39 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 18, col 1, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 18, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 18, col 20, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 20, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 20, col 12, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 20, col 13, Expected '(string)' and instead saw 'util'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 20, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 20, col 17, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 20, col 17, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 20, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 20, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 22, col 1, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 22, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 22, col 8, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 22, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 22, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 22, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 3, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 3, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 4, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 4, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 5, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 6, Expected an identifier and instead saw 'extends' (a reserved word).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 6, Expected an identifier and instead saw 'extends' (a reserved word).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 6, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 50, Expected ')' and instead saw 'by'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 50, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 52, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 30, col 52, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 40, col 3, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 40, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 40, col 29, Expected ')' and instead saw 'by'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 40, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 40, col 31, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7198/test7198.js: line 40, col 31, Expected an assignment or function call and instead saw an expression.
+
+37 errors

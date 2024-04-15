@@ -1,0 +1,37 @@
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:24:	UnnecessaryImport:	Unused import 'java.math.BigInteger'
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:26:	UnnecessaryImport:	Unused import 'java.nio.charset.StandardCharsets'
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:45:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:125:	FormalParameterNamingConventions:	The method parameter name 'original_type' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:137:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:144:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:234:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:370:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:399:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:428:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:461:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:531:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FlexBuffers': 'FBT_VECTOR_STRING_DEPRECATED' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:533:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FlexBuffers': 'FBT_KEY' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:535:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FlexBuffers': 'toTypedVectorElementType' is already in scope
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:754:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Key': 'EMPTY' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:780:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:785:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:811:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:816:	MissingOverride:	The method 'hashCode()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:872:	LocalVariableNamingConventions:	The final local variable name 'num_prefixed_fields' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:893:	MissingOverride:	The method 'toString(StringBuilder)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:904:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:914:	LocalVariableNamingConventions:	The final local variable name 'num_prefixed_fields' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:923:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:925:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:927:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:935:	LocalVariableNamingConventions:	The final local variable name 'num_prefixed_fields' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:945:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:947:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:949:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:958:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:963:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:1090:	LocalVariableNamingConventions:	The local variable name 'obj_end' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:1140:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:1165:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:1182:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test1529/test1529.java:1201:	UseUtilityClass:	This utility class has a non-private constructor

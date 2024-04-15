@@ -1,0 +1,31 @@
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:74:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:86:	SingularField:	Perhaps 'pipelineLevel' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:122:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'JobRunner': 'createLogFileName' is already in scope
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:138:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'JobRunner': 'createMetaDataFileName' is already in scope
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:143:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'JobRunner': 'createAttachmentFileName' is already in scope
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:269:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:283:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:296:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:302:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:307:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:322:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:334:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:339:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:356:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:387:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:436:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:447:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:451:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:458:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:475:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:480:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:483:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:501:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:517:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:524:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:531:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:537:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:667:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:700:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:745:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test5715/test5715.java:818:	UseNotifyAllInsteadOfNotify:	Call Thread.notifyAll() rather than Thread.notify()

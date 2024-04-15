@@ -1,0 +1,95 @@
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:21:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.cli.DefaultCommandValues.getDefaultBesuDataPath'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:22:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.cli.config.NetworkName.MAINNET'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:23:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.cli.util.CommandLineUtils.DEPENDENCY_WARNING_MSG'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:24:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.controller.BesuController.DATABASE_PATH'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:25:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.api.graphql.GraphQLConfiguration.DEFAULT_GRAPHQL_HTTP_PORT'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:26:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.api.jsonrpc.JsonRpcConfiguration.DEFAULT_JSON_RPC_PORT'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:27:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.api.jsonrpc.RpcApis.DEFAULT_JSON_RPC_APIS'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:28:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.api.jsonrpc.websocket.WebSocketConfiguration.DEFAULT_WEBSOCKET_PORT'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:29:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.permissioning.GoQuorumPermissioningConfiguration.QIP714_DEFAULT_BLOCK'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:30:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.metrics.BesuMetricCategory.DEFAULT_METRIC_CATEGORIES'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:31:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.metrics.MetricsProtocol.PROMETHEUS'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:32:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.metrics.prometheus.MetricsConfiguration.DEFAULT_METRICS_PORT'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:33:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.metrics.prometheus.MetricsConfiguration.DEFAULT_METRICS_PUSH_PORT'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:34:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.nat.kubernetes.KubernetesNatManager.DEFAULT_BESU_SERVICE_NAME_FILTER'
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:284:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:302:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:309:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:323:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:342:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:355:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:367:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:385:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:401:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:428:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:452:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:467:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:472:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:498:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:536:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:552:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:557:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:564:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:571:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:577:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:584:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:590:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:595:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:626:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:642:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:648:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:655:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:661:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:667:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:672:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:708:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:731:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:760:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:773:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:778:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:783:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:789:	AvoidUsingHardCodedIP:	Do not hard code the IP address stratumNetworkInterface
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:794:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:802:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:837:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:842:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:854:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:867:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:872:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:877:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:883:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:889:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:894:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:899:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:905:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:918:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:923:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:930:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:936:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:941:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:946:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:952:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:960:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:968:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:977:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1008:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1027:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1036:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1043:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1049:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1055:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1061:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1067:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1074:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1165:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1231:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1305:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1311:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1505:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1534:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1535:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1543:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:1611:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:2356:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:2392:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test4101/test4101.java:2588:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

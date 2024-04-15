@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test7720/test7720.java:19:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test7720/test7720.java:20:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThatThrownBy'
+/home/arnaik/code-review-test-projects/java/test7720/test7720.java:299:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7720/test7720.java:306:	UncommentedEmptyMethodBody:	Document empty method body

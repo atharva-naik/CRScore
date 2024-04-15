@@ -1,0 +1,4 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test386/test386.js: line 14, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test386/test386.js: line 15, col 41, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+
+2 errors

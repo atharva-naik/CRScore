@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test2486/test2486.java:21:	UnnecessaryImport:	Unused import 'com.amazonaws.services.dynamodbv2.document.*'
+/home/arnaik/code-review-test-projects/java/test2486/test2486.java:79:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test2486/test2486.java:83:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test2486/test2486.java:98:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2486/test2486.java:104:	UnusedLocalVariable:	Avoid unused local variables such as 'clientCert'.
+/home/arnaik/code-review-test-projects/java/test2486/test2486.java:108:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2486/test2486.java:184:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2486/test2486.java:216:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2486/test2486.java:231:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2486/test2486.java:255:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

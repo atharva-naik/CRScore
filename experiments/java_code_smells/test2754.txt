@@ -1,0 +1,34 @@
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:79:	UnnecessaryImport:	Duplicate import 'org.springframework.security.oauth2.client.web.server.ServerAuthorizationRequestRepository'
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:83:	UnnecessaryImport:	Duplicate import 'org.springframework.security.oauth2.client.web.server.WebSessionOAuth2ServerAuthorizationRequestRepository'
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:179:	UnnecessaryImport:	Unused static import 'org.springframework.security.web.server.DelegatingServerAuthenticationEntryPoint.DelegateEntry'
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:180:	UnnecessaryImport:	Unused static import 'org.springframework.security.web.server.util.matcher.ServerWebExchangeMatcher.MatchResult.match'
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:181:	UnnecessaryImport:	Unused static import 'org.springframework.security.web.server.util.matcher.ServerWebExchangeMatcher.MatchResult.notMatch'
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:620:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:867:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:909:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'authenticationManager'
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:972:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:1352:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:1732:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:1743:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:1761:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:1776:	UnusedPrivateMethod:	Avoid unused private methods such as 'nullAuthentication(Authentication)'.
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:1896:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:2488:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:2700:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:2797:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:2840:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:2887:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:2976:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3141:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3167:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3177:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3382:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3399:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3416:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3452:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3517:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3536:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3585:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3609:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3730:	AvoidProtectedMethodInFinalClassNotExtending:	Avoid protected methods in a final class that doesnt extend anything other than Object.  Change to private or package access.
+/home/arnaik/code-review-test-projects/java/test2754/test2754.java:3907:	AvoidProtectedMethodInFinalClassNotExtending:	Avoid protected methods in a final class that doesnt extend anything other than Object.  Change to private or package access.

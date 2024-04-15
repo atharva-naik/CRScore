@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test5066/test5066.java:21:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertEquals'
+/home/arnaik/code-review-test-projects/java/test5066/test5066.java:22:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertNotNull'
+/home/arnaik/code-review-test-projects/java/test5066/test5066.java:23:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertTrue'
+/home/arnaik/code-review-test-projects/java/test5066/test5066.java:37:	SingularField:	Perhaps 'flow' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test5066/test5066.java:38:	SingularField:	Perhaps 'project' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test5066/test5066.java:39:	SingularField:	Perhaps 'options' could be replaced by a local variable.

@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test6547/test6547.java:38:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6547/test6547.java:152:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'UserPreferences': 'prefs' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test6547/test6547.java:431:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'cacheSizeMB'
+/home/arnaik/code-review-test-projects/java/test6547/test6547.java:664:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test6547/test6547.java:668:	LiteralsFirstInComparisons:	Position literals first in String comparisons

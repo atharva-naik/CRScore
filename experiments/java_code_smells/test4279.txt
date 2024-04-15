@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test4279/test4279.java:263:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test4279/test4279.java:396:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4279/test4279.java:427:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test4279/test4279.java:466:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4279/test4279.java:468:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4279/test4279.java:469:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4279/test4279.java:471:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test4279/test4279.java:541:	UnusedLocalVariable:	Avoid unused local variables such as 'changeRequired'.
+/home/arnaik/code-review-test-projects/java/test4279/test4279.java:589:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test4279/test4279.java:850:	IdenticalCatchBranches:	'catch' branch identical to 'KeyChainException' branch

@@ -66,6 +66,8 @@ def get_descendant(node):
         return [node.expression]
     elif isinstance(node, esprima.nodes.AssignmentExpression):
         return [node.left, node.right]
+    elif isinstance(node, esprima.nodes.ExpressionStatement):
+        return node.expression
     else: return node.body
 
 class CodeSmellDetector:
@@ -73,10 +75,40 @@ class CodeSmellDetector:
         self.js_ast = None
         self.all_smells = []
         self.LONGEST_SCOPING_CHAIN_THRESH = 3
+        self.EXCESSIVE_GLOBAL_VAR_THRESH = 10
+        self.MIN_OBJECT_PROPERTIES = 3 # small/lazy object.
+        self.MAX_OBJECT_PROPERTIES = 20 # large object
+        self.MAX_OBJECT_LOC = 750 # large object
 
     def parse(self, js_code: str):
         self.all_smells = []
         self.js_ast = esprima.parseScript(js_code)
+
+    def count_global_variables(self, js_ast) -> int:
+        global_vars = set()
+
+        def traverse(node):
+            if hasattr(node, 'type'):
+                if node.type == 'VariableDeclaration':
+                    for declaration in node.declarations:
+                        if declaration.init is not None and declaration.init.type != 'FunctionExpression':
+                            global_vars.add(declaration.id.name)
+                elif node.type == 'FunctionDeclaration':
+                    global_vars.add(node.id.name)
+                elif node.type == 'FunctionExpression':
+                    pass  # Skip function expressions as they don't create global variables
+
+            for prop in dir(node):
+                if prop.startswith('body'):
+                    body = getattr(node, prop)
+                    if isinstance(body, list):
+                        for item in body:
+                            traverse(item)
+                    else:
+                        traverse(body)
+        traverse(js_ast)
+
+        return len(global_vars)
 
     def check_closures_in_loop(self, node_or_list, inside_for_loop: bool=False):
         if isinstance(node_or_list, esprima.nodes.Node):
@@ -105,6 +137,7 @@ class CodeSmellDetector:
                 self.check_closures_in_loop(body, inside_for_loop)
 
     def closure_smell_detection(self):
+        ## CLOSURE SMELLS:
         # detect long scope chaining.
         scope_chains = extract_nested_functions(self.js_ast)
         # if nested functions found:
@@ -118,6 +151,10 @@ class CodeSmellDetector:
             self.all_smells.append(("Closure Smell", f"Found nested function declaration (closure) of nesting = {longest_scope_chain_length} (≥ {self.LONGEST_SCOPING_CHAIN_THRESH} - max threshold for longest scoping chain)"))
         # closures in loops.
         self.check_closures_in_loop(self.js_ast)
+        ## GLOBAL VARIABLE SMELLS:
+        global_var_count = self.count_global_variables(self.js_ast)
+        if global_var_count >= self.EXCESSIVE_GLOBAL_VAR_THRESH: 
+            self.all_smells.append(("Excessive Global Variables", f"Found {global_var_count} global variables (> {self.EXCESSIVE_GLOBAL_VAR_THRESH} - max threshold for global variables). Consider creating a class for all of these global variables."))
 
     def detect_all(self, js_code):
         self.parse(js_code)
@@ -143,14 +180,34 @@ var tmp = 3;
     }
 }
 foo(2); // writes 19 i.e., 2+10+3+4""",
-"closures in loop": """var addTheHandler = function (nodes) {
+
+"closures in loop (1/2)": """var addTheHandler = function (nodes) {
     for (i = 0; i < nodes.length; i++) {
         nodes[i].onclick = function (e) {
             document.write(i);
         };
     }
 };
-addTheHandler(document.getElementsByTagName("div"));"""}
+addTheHandler(document.getElementsByTagName("div"));""",
+
+"closures in loop (2/2)": """var addTheHandler = function noida(nodes) {
+    for (i = 0; i < nodes.length; i++) {
+        nodes[i].onclick = function delta(e) {
+            document.write(i);
+        };
+    }
+};
+addTheHandler(document.getElementsByTagName("div"));""",
+
+"": """function outside() {
+    var a = 10;
+    function inside(a) {
+        return a;
+    }
+    return inside;
+}
+result = outside()(20); \\ result: 20"""
+}
     jsnose = CodeSmellDetector()
     for case, code in JS_CODES.items():
         print(f"\x1b[34;1mtesting case: {case}\x1b[0m")

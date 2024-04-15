@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test7539/test7539.java:41:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test7539/test7539.java:55:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

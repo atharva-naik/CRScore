@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test2591/test2591.java:50:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2591/test2591.java:61:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test2591/test2591.java:76:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test2591/test2591.java:98:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test2591/test2591.java:113:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead

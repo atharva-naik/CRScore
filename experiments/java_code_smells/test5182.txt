@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test5182/test5182.java:29:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Java6Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test5182/test5182.java:30:	UnnecessaryImport:	Unused static import 'zipkin2.TestObjects.LOTS_OF_SPANS'
+/home/arnaik/code-review-test-projects/java/test5182/test5182.java:31:	UnnecessaryImport:	Unused static import 'zipkin2.collector.rabbitmq.RabbitMQCollector.builder'
+/home/arnaik/code-review-test-projects/java/test5182/test5182.java:33:	ClassNamingConventions:	The class name 'ITRabbitMQCollector' doesn't match '^Test.*$|^[A-Z][a-zA-Z0-9]*Test(s|Case)?$'
+/home/arnaik/code-review-test-projects/java/test5182/test5182.java:66:	MethodNamingConventions:	The JUnit 4 test method name 'messageWithMultipleSpans_json' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5182/test5182.java:80:	MethodNamingConventions:	The JUnit 4 test method name 'messageWithMultipleSpans_json2' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5182/test5182.java:86:	MethodNamingConventions:	The JUnit 4 test method name 'messageWithMultipleSpans_proto3' doesn't match '[a-z][a-zA-Z0-9]*'

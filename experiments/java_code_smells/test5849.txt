@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test5849/test5849.java:99:	UnusedLocalVariable:	Avoid unused local variables such as 'params'.
+/home/arnaik/code-review-test-projects/java/test5849/test5849.java:127:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'authorizationRequest'

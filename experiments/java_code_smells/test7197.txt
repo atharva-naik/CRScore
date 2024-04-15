@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test7197/test7197.java	-	ParseException: Parse exception in file '/home/arnaik/code-review-test-projects/java/test7197/test7197.java' at line 2, column 1: Encountered <IDENTIFIER: "global">.
+Was expecting:
+    "import" ...

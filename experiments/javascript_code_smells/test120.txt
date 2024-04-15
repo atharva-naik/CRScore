@@ -1,0 +1,80 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 18, col 1, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 18, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 18, col 44, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 20, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 20, col 10, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 20, col 11, Expected '(string)' and instead saw 'opentelemetry'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 20, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 20, col 24, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 20, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 20, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 20, col 25, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 21, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 21, col 8, 'io' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 21, col 10, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 21, col 11, Expected '(string)' and instead saw 'opentelemetry'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 21, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 21, col 24, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 21, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 21, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 21, col 29, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 22, col 8, 'io' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 22, col 10, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 22, col 11, Expected '(string)' and instead saw 'opentelemetry'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 22, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 22, col 24, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 22, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 22, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 22, col 35, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 23, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 23, col 8, 'io' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 23, col 10, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 23, col 11, Expected '(string)' and instead saw 'opentelemetry'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 23, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 23, col 24, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 23, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 23, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 23, col 40, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 24, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 24, col 8, 'io' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 24, col 10, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 24, col 11, Expected '(string)' and instead saw 'opentelemetry'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 24, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 24, col 24, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 24, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 24, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 24, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 25, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 25, col 8, 'io' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 25, col 10, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 25, col 11, Expected '(string)' and instead saw 'opentelemetry'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 25, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 25, col 24, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 25, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 25, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 25, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 26, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 26, col 11, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 26, col 12, Expected '(string)' and instead saw 'junit'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 26, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 26, col 17, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 26, col 17, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 26, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 26, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 27, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 27, col 8, 'org' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 27, col 11, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 27, col 12, Expected '(string)' and instead saw 'openqa'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 27, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 27, col 18, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 27, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 27, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 27, col 37, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 28, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 28, col 8, 'org' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 28, col 11, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 28, col 12, Expected '(string)' and instead saw 'openqa'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test120/test120.js: line 28, col 12, Too many errors. (11% scanned).
+
+78 errors

@@ -1,0 +1,5 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3889/test3889.js: line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3889/test3889.js: line 1, col 57, 'Exponentiation operator' is only available in ES7 (use 'esversion: 7').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3889/test3889.js: line 3, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+
+3 errors

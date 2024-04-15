@@ -1,0 +1,34 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 78, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 100, col 73, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 103, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 122, col 73, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 125, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 143, col 73, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 158, col 73, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 161, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 190, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 223, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 251, col 73, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 273, col 73, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 276, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 295, col 73, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 3, col 26, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 4, col 27, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 6, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 7, col 31, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 8, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 9, col 26, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 10, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 11, col 28, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4886/test4886.js: line 301, col 1, 'module' is not defined.
+
+32 errors

@@ -1,0 +1,29 @@
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:111:	UnnecessaryModifier:	Unnecessary modifier 'static' on interface 'RecoveryListener': member interfaces are implicitly static
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:112:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'recovered': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:114:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'failed': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:117:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:124:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:128:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:178:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'buildRecoverySolrClient': private methods cannot be overridden
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:182:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:199:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'recoveryFailed': private methods cannot be overridden
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:199:	UnusedFormalParameter:	Avoid unused method parameters such as 'core'.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:200:	UnusedFormalParameter:	Avoid unused method parameters such as 'baseUrl'.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:201:	UnusedFormalParameter:	Avoid unused method parameters such as 'shardZkNodeName'.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:221:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'replicate': private methods cannot be overridden
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:221:	UnusedFormalParameter:	Avoid unused method parameters such as 'nodeName'.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:244:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:265:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:282:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'commitOnLeader': private methods cannot be overridden
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:333:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'doReplicateOnlyRecovery': private methods cannot be overridden
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:507:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:510:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:598:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:748:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:776:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'pingLeader': private methods cannot be overridden
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:808:	UnusedLocalVariable:	Avoid unused local variables such as 'resp'.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:811:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:815:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:826:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'replay': private methods cannot be overridden
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:862:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'cloudDebugLog': private methods cannot be overridden
+/home/arnaik/code-review-test-projects/java/test9004/test9004.java:885:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'sendPrepRecoveryCmd': private methods cannot be overridden

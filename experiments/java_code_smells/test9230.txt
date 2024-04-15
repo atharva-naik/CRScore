@@ -1,0 +1,27 @@
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:18:	UnnecessaryImport:	Unused static import 'azkaban.executor.ExecutionControllerUtils.clusterQualifiedExecId'
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:267:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:302:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:320:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:320:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:432:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:493:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:500:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:514:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:684:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:685:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:687:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'pod'
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:712:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:713:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:715:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:750:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:762:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:817:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:864:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:878:	UnusedFormalParameter:	Avoid unused method parameters such as 'executionId'.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:895:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:908:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:941:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:945:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:976:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:1000:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test9230/test9230.java:1006:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

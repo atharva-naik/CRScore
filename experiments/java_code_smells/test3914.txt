@@ -1,0 +1,111 @@
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:114:	UnnecessaryImport:	Unused import 'org.apache.solr.pkg.*'
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:176:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.NAME'
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:177:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.PATH'
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:206:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:247:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:248:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:249:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:381:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:442:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:694:	CloseResource:	Ensure that resources like this SolrCore object are closed after use
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:733:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:837:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:855:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:857:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:866:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:884:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:886:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:894:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1058:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1062:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1070:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1071:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1071:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1072:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1130:	CloseResource:	Ensure that resources like this SolrCore object are closed after use
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1171:	UnusedFormalParameter:	Avoid unused method parameters such as 'config'.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1172:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'coreMetricManager'
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1178:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'circuitBreakerManager'
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1300:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SolrCore': 'modifyIndexProps' is already in scope
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1345:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1349:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1353:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1360:	CloseResource:	Ensure that resources like this Writer object are closed after use
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1509:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1561:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1563:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1567:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1574:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1576:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1585:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1587:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1594:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1605:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1607:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1621:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1623:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1630:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1632:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1647:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1649:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1664:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1666:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1675:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1677:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1686:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1688:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1698:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1700:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1742:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1803:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1856:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:1857:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2140:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2150:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2292:	AvoidBranchingStatementAsLastInLoop:	Avoid using a branching statement as the last in a loop.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2350:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2352:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2368:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2370:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2384:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2386:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2407:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2409:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2415:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2433:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2433:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2441:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2451:	UseNotifyAllInsteadOfNotify:	Call Thread.notifyAll() rather than Thread.notify()
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2486:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2613:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2615:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2641:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2672:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2677:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2679:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2710:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'log': the method is already in a final class
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2722:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2742:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2754:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2787:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2794:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'getQueryResponseWriter': the method is already in a final class
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2802:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'getQueryResponseWriter': the method is already in a final class
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2879:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2881:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2904:	AvoidProtectedMethodInFinalClassNotExtending:	Avoid protected methods in a final class that doesnt extend anything other than Object.  Change to private or package access.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2922:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:2925:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3016:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3023:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3051:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3054:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3077:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3080:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3096:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3101:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3114:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3137:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3141:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3141:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3151:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3914/test3914.java:3219:	UncommentedEmptyMethodBody:	Document empty method body

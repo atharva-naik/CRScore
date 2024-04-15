@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test5666/test5666.java:108:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test5666/test5666.java:233:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5666/test5666.java:246:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5666/test5666.java:262:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test5666/test5666.java:279:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

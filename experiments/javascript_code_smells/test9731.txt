@@ -1,0 +1,332 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 12, col 5, Redefinition of 'Error'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 40, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 41, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 42, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 74, col 26, The '__proto__' property is deprecated.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 86, col 17, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 97, col 17, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 108, col 17, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 120, col 17, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 132, col 17, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 139, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 140, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 141, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 142, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 149, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 151, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 159, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 197, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 205, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 243, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 251, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 255, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 273, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 276, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 277, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 281, col 11, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 336, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 360, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 362, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 368, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 417, col 21, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 481, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 482, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 510, col 7, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 544, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 549, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 550, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 551, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 552, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 553, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 563, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 564, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 566, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 572, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 576, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 577, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 753, col 23, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 806, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 817, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 825, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 905, col 24, The '__proto__' property is deprecated.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 962, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 962, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 968, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 969, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 970, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 984, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 984, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 988, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 989, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1014, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1014, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1015, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1020, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1021, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1023, col 12, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1023, col 24, 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1024, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1030, col 14, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1030, col 32, 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1031, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1032, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1036, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1037, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1038, col 16, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1038, col 26, 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1064, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1064, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1065, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1066, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1067, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1068, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1074, col 41, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1080, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1081, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1085, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1109, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1109, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1113, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1162, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1163, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1195, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1199, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1204, col 29, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1207, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1207, col 20, 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1208, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1226, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1229, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1233, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1241, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1246, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1247, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1253, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1281, col 7, 'computed property names' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1311, col 7, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1321, col 7, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1331, col 7, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1341, col 7, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1351, col 7, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1718, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1748, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1955, col 11, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1956, col 11, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1957, col 11, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1958, col 11, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1959, col 11, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2085, col 11, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2086, col 11, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2087, col 11, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2164, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2165, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2166, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2210, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2211, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2212, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2279, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2280, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2281, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2342, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2343, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2344, col 9, Misleading line break before '+'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2394, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2395, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2396, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2403, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2418, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2423, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2424, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2425, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2426, col 31, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2427, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2431, col 27, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2432, col 13, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2434, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2435, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2435, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2457, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2458, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2459, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2460, col 12, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2575, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2735, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2736, col 11, ['insertOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2737, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2738, col 11, ['insertOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2738, col 24, ['document'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2738, col 50, ['insertOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2738, col 63, ['document'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2739, col 11, ['insertOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2739, col 24, ['document'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2746, col 18, ['updateOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2747, col 14, ['updateOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2748, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2750, col 13, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2750, col 46, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2751, col 13, ['update'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2751, col 52, ['update'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2754, col 35, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2754, col 62, ['update'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2765, col 18, ['updateMany'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2766, col 14, ['updateMany'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2767, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2769, col 13, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2769, col 46, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2770, col 13, ['update'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2770, col 52, ['update'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2775, col 35, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2775, col 62, ['update'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2786, col 18, ['replaceOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2787, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2789, col 13, ['replaceOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2789, col 27, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2790, col 15, ['replaceOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2790, col 29, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2796, col 11, ['replaceOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2796, col 25, ['replacement'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2797, col 22, ['replaceOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2797, col 36, ['replacement'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2798, col 11, ['replaceOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2798, col 25, ['replacement'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2805, col 18, ['deleteOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2806, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2808, col 13, ['deleteOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2808, col 26, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2809, col 15, ['deleteOne'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2809, col 28, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2816, col 18, ['deleteMany'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2817, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2819, col 13, ['deleteMany'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2819, col 27, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2820, col 15, ['deleteMany'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2820, col 29, ['filter'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2828, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2834, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2835, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2840, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3137, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3156, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3283, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3300, col 91, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3411, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3456, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3457, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3469, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3477, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3478, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3479, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3480, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3481, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3488, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3489, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3490, col 8, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3500, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3509, col 45, ['_id'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3513, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3535, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3536, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3552, col 26, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3673, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3674, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3686, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3687, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3688, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3694, col 8, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3695, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3712, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3713, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3720, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3723, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3841, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3842, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3843, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3844, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3845, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3846, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3847, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3848, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3849, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3850, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3851, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3852, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3853, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3854, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3865, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3873, col 12, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3879, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3892, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3893, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3895, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3905, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3908, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3910, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3942, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3943, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3944, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3952, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3955, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4023, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4116, col 10, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4131, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4132, col 10, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4132, col 20, 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4167, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4168, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4169, col 10, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4187, col 10, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4288, col 20, The '__proto__' property is deprecated.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4289, col 30, The '__proto__' property is deprecated.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4371, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4393, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4394, col 21, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4395, col 23, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4419, col 18, The '__proto__' property is deprecated.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4420, col 28, The '__proto__' property is deprecated.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4424, col 5, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4452, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 7, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 8, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 9, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 10, col 29, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 11, col 27, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 12, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 13, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 14, col 19, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 15, col 27, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 16, col 23, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 17, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 18, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 19, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 20, col 25, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 21, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 22, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 23, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 24, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 25, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 26, col 21, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 27, col 31, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 28, col 31, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 29, col 31, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 30, col 11, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 31, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 32, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 33, col 21, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 34, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 35, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 36, col 21, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 37, col 27, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 38, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 2866, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 167, col 7, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 602, col 31, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4235, col 7, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 1210, col 7, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3714, col 30, 'Map' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 3720, col 44, 'Map' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4139, col 22, 'Map' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4474, col 1, 'module' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test9731/test9731.js: line 4474, col 18, 'exports' is not defined.
+
+330 errors

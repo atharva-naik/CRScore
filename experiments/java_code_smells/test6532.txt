@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:22:	UnnecessaryModifier:	Unnecessary modifier 'public' on enum 'Kind': the enum is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:39:	MissingOverride:	The method 'kind()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:61:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:63:	MissingOverride:	The method 'kind()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:73:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:87:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:89:	MissingOverride:	The method 'kind()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:105:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:116:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:118:	MissingOverride:	The method 'kind()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:130:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:141:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6532/test6532.java:151:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead

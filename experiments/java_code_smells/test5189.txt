@@ -1,0 +1,35 @@
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:55:	UnnecessaryImport:	Unused import 'com.fsck.k9.core.BuildConfig'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:87:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.ACCOUNT_UUID_COLUMN'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:88:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.FLAGGED_COLUMN'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:89:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.FOLDER_SERVER_ID_COLUMN'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:90:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.ID_COLUMN'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:91:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.PROJECTION'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:92:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.READ_COLUMN'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:93:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.SUBJECT_COLUMN'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:94:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.THREADED_PROJECTION'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:95:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.THREAD_COUNT_COLUMN'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:96:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.THREAD_ROOT_COLUMN'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:97:	UnnecessaryImport:	Unused static import 'com.fsck.k9.fragment.MLFProjectionInfo.UID_COLUMN'
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:296:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:296:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:390:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:896:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:914:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:1133:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:1134:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:1194:	UnusedFormalParameter:	Avoid unused method parameters such as 'selected'.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:1329:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:1446:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:1511:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:1512:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2368:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2394:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2402:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2404:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2547:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2552:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2591:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2783:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2801:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2806:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5189/test5189.java:2810:	UselessParentheses:	Useless parentheses.

@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test2565/test2565.java:40:	UnusedPrivateField:	Avoid unused private fields such as 'extraDataValidatorsAndVoteMustBeEmpty'.
+/home/arnaik/code-review-test-projects/java/test2565/test2565.java:61:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2565/test2565.java:71:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

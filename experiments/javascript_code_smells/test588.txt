@@ -1,0 +1,31 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 25, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 162, col 5, 'shadow' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 163, col 5, 'shadow' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 27, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 29, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 30, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 67, col 24, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 226, col 5, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 42, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 104, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 110, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 116, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 123, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 129, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 135, col 20, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 140, col 18, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 146, col 14, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 152, col 17, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 161, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 176, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 184, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 193, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 203, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 214, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 221, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 223, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 238, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 85, col 5, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test588/test588.js: line 88, col 5, 'console' is not defined.
+
+29 errors

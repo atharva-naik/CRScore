@@ -1,0 +1,59 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 128, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 128, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 130, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 130, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 131, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 131, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 131, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 132, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 132, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 139, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 140, col 69, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 143, col 1, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 143, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 150, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 159, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 159, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 162, col 9, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 163, col 11, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 164, col 11, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 165, col 11, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 166, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 168, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 175, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 188, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 198, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 208, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 218, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 225, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 238, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 238, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 242, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 253, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 264, col 7, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 265, col 9, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 266, col 6, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 268, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 279, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 281, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 284, col 56, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 285, col 54, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 286, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 289, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 290, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 291, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 292, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 293, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 294, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 130, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 131, col 21, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 132, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 140, col 3, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 289, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 290, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 291, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 292, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 293, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8395/test8395.js: line 294, col 1, 'exports' is not defined.
+
+57 errors

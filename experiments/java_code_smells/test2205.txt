@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:21:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThatThrownBy'
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:22:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.fail'
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:204:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:224:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Exception' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:231:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Exception' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:961:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:966:	UnusedPrivateMethod:	Avoid unused private methods such as 'filter(T)'.
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:966:	UnusedFormalParameter:	Avoid unused method parameters such as 't'.
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:970:	UnusedPrivateMethod:	Avoid unused private methods such as 'flatMap(T)'.
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:970:	UnusedFormalParameter:	Avoid unused method parameters such as 't'.
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:974:	UnusedPrivateMethod:	Avoid unused private methods such as 'map(T)'.
+/home/arnaik/code-review-test-projects/java/test2205/test2205.java:974:	UnusedFormalParameter:	Avoid unused method parameters such as 't'.

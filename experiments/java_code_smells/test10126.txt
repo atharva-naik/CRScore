@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test10126/test10126.java:510:	CloneMethodMustImplementCloneable:	clone() method should be implemented only if implementing Cloneable interface
+/home/arnaik/code-review-test-projects/java/test10126/test10126.java:517:	FormalParameterNamingConventions:	The method parameter name '_other' doesn't match '[a-z][a-zA-Z0-9]*'

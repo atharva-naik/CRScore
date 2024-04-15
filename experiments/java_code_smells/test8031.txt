@@ -1,0 +1,21 @@
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:48:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:49:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:50:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:51:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:55:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:129:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'LinkedHashMap': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:244:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:244:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:248:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'LinkedHashMap': 'ofEntries' is already in scope
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:312:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:312:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:352:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'LinkedHashMap': 'ofEntries' is already in scope
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:377:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:377:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:379:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'LinkedHashMap': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:383:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:389:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:390:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'LinkedHashMap': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:538:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'LinkedHashMap': 'ofEntries' is already in scope
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:614:	UnusedPrivateMethod:	Avoid unused private methods such as 'createFromEntries(Iterable<Tuple2<K, V>>)'.
+/home/arnaik/code-review-test-projects/java/test8031/test8031.java:615:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'LinkedHashMap': 'ofEntries' is already in scope

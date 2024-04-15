@@ -1,0 +1,331 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 1, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 1, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 2, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 2, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 3, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 4, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 5, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 6, col 59, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 7, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 13, col 8, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 14, col 38, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 16, col 12, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 22, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 24, col 10, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 24, col 71, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 24, col 97, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 27, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 29, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 33, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 40, col 18, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 41, col 18, Class properties must be methods. Expected '(' but instead saw '='.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 41, col 28, Expected an identifier and instead saw '../package.json'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 41, col 45, 'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 41, col 46, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 46, col 3, Class properties must be methods. Expected '(' but instead saw 'constructor'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 47, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 48, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 51, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 56, col 6, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 59, col 19, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 59, col 22, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 59, col 38, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 59, col 41, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 59, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 62, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 63, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 64, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 65, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 66, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 67, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 68, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 69, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 70, col 49, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 71, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 72, col 49, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 73, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 74, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 75, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 76, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 77, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 78, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 79, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 80, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 83, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 85, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 93, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 94, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 96, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 98, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 100, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 102, col 34, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 102, col 43, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 102, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 110, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 111, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 123, col 11, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 124, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 124, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 125, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 125, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 126, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 126, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 128, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 128, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 129, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 129, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 129, col 75, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 132, col 69, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 134, col 60, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 134, col 79, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 137, col 69, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 138, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 139, col 72, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 141, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 151, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 152, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 156, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 168, col 14, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 174, col 6, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 176, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 176, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 179, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 181, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 183, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 186, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 192, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 192, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 192, col 62, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 194, col 54, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 195, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 203, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 205, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 210, col 12, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 211, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 213, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 217, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 217, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 220, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 224, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 224, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 229, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 233, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 233, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 235, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 237, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 238, col 87, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 239, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 243, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 243, col 66, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 244, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 244, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 244, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 246, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 246, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 248, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 250, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 251, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 253, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 253, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 255, col 56, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 257, col 54, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 258, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 264, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 268, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 268, col 66, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 269, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 269, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 269, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 271, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 271, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 272, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 272, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 273, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 273, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 276, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 278, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 279, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 281, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 281, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 282, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 282, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 283, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 283, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 286, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 289, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 290, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 296, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 300, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 300, col 66, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 301, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 301, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 301, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 305, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 308, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 308, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 309, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 309, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 310, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 310, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 313, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 315, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 316, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 321, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 325, col 82, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 329, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 329, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 329, col 62, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 332, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 332, col 64, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 342, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 342, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 343, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 343, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 344, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 344, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 346, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 348, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 349, col 61, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 350, col 60, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 351, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 351, col 21, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 352, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 354, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 355, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 357, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 358, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 359, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 360, col 63, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 362, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 362, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 366, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 368, col 60, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 370, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 371, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 372, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 373, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 374, col 77, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 375, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 376, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 387, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 388, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 389, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 390, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 390, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 390, col 58, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 391, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 391, col 56, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 396, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 396, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 397, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 397, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 398, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 398, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 400, col 68, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 402, col 68, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 404, col 36, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 404, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 405, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 408, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 409, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 409, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 409, col 62, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 412, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 413, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 417, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 426, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 430, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 430, col 68, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 432, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 432, col 77, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 433, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 433, col 18, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 433, col 95, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 435, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 435, col 51, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 436, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 436, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 438, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 438, col 126, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 439, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 444, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 444, col 76, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 447, col 71, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 448, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 451, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 452, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 453, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 454, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 455, col 6, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 456, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 460, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 460, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 462, col 27, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 462, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 464, col 21, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 466, col 6, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 468, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 468, col 108, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 470, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 471, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 471, col 63, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 471, col 77, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 475, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 475, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 476, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 478, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 480, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 480, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 481, col 78, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 485, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 485, col 91, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 486, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 486, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 490, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 491, col 11, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 491, col 11, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 491, col 66, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 492, col 59, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 494, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 494, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 494, col 56, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 496, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 501, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 501, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 501, col 62, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 502, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 502, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 504, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 506, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 508, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 510, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 511, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 512, col 9, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 512, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 516, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 518, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 518, col 62, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 519, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 523, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 529, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 530, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 531, col 21, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 532, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 533, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 534, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 535, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 536, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 540, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 540, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 540, col 75, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 542, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 551, col 10, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test884/test884.js: line 551, col 10, Unrecoverable syntax error. (91% scanned).
+
+329 errors

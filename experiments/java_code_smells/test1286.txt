@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test1286/test1286.java:17:	UnnecessaryImport:	Unused static import 'org.apache.logging.log4j.LogManager.getLogger'
+/home/arnaik/code-review-test-projects/java/test1286/test1286.java:29:	UnnecessaryImport:	Unused import 'org.apache.tuweni.bytes.Bytes'
+/home/arnaik/code-review-test-projects/java/test1286/test1286.java:30:	UnnecessaryImport:	Unused import 'org.apache.tuweni.concurrent.ExpiringMap'
+/home/arnaik/code-review-test-projects/java/test1286/test1286.java:35:	UnusedPrivateField:	Avoid unused private fields such as 'POW_JOB_TTL'.
+/home/arnaik/code-review-test-projects/java/test1286/test1286.java:36:	UnusedPrivateField:	Avoid unused private fields such as 'MAX_OMMER_DEPTH'.
+/home/arnaik/code-review-test-projects/java/test1286/test1286.java:82:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test1286/test1286.java:86:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.

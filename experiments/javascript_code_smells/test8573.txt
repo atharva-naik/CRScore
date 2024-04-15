@@ -1,0 +1,7 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8573/test8573.js: line 7, col 1, 'export' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8573/test8573.js: line 7, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8573/test8573.js: line 7, col 14, Missing initializer for constant 'DEFAULT_PORT'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8573/test8573.js: line 7, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8573/test8573.js: line 7, col 14, Unrecoverable syntax error. (4% scanned).
+
+5 errors

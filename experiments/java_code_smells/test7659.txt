@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test7659/test7659.java:19:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.crypto.Hash.keccak256'
+/home/arnaik/code-review-test-projects/java/test7659/test7659.java:90:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7659/test7659.java:93:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7659/test7659.java:96:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test7659/test7659.java:332:	FormalParameterNamingConventions:	The lambda parameter name '__' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test7659/test7659.java:548:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7659/test7659.java:773:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7659/test7659.java:776:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7659/test7659.java:777:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7659/test7659.java:908:	ControlStatementBraces:	This statement should have braces

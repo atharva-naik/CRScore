@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test1460/test1460.java:49:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.GC_ENABLED'
+/home/arnaik/code-review-test-projects/java/test1460/test1460.java:50:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.GC_ENABLED_DEFAULT'
+/home/arnaik/code-review-test-projects/java/test1460/test1460.java:189:	UnusedPrivateMethod:	Avoid unused private methods such as 'doExecute()'.
+/home/arnaik/code-review-test-projects/java/test1460/test1460.java:232:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test1460/test1460.java:248:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

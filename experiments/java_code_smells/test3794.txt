@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test3794/test3794.java:30:	UnnecessaryImport:	Unused import 'java.util.Arrays'
+/home/arnaik/code-review-test-projects/java/test3794/test3794.java:31:	UnnecessaryImport:	Unused import 'java.util.List'
+/home/arnaik/code-review-test-projects/java/test3794/test3794.java:33:	UnnecessaryImport:	Unused static import 'com.github.javaparser.utils.Utils.assertNotNull'
+/home/arnaik/code-review-test-projects/java/test3794/test3794.java:34:	UnnecessaryImport:	Unnecessary import from the current package 'com.github.javaparser.ast.Node'
+/home/arnaik/code-review-test-projects/java/test3794/test3794.java:101:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3794/test3794.java:125:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3794/test3794.java:140:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3794/test3794.java:158:	CloneMethodMustImplementCloneable:	clone() method should be implemented only if implementing Cloneable interface
+/home/arnaik/code-review-test-projects/java/test3794/test3794.java:172:	ControlStatementBraces:	This statement should have braces

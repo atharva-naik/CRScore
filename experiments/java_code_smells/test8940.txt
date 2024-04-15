@@ -1,0 +1,87 @@
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:1:	PackageCase:	Package name contains upper case characters
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:25:	UnnecessaryImport:	Unused import 'java.util.concurrent.Executors'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:26:	UnnecessaryImport:	Unused import 'java.util.concurrent.ScheduledExecutorService'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:27:	UnnecessaryImport:	Unused import 'java.util.concurrent.ScheduledFuture'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:45:	UnnecessaryImport:	Unused import 'info.nightscout.androidaps.plugins.SmsCommunicator.SmsCommunicatorPlugin'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:69:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:69:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:81:	LocalVariableNamingConventions:	The local variable name 'SP' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:116:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:116:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:141:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:149:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:161:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:161:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:166:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:166:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:178:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:180:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:180:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:185:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:185:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:191:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:193:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:220:	UnusedLocalVariable:	Avoid unused local variables such as 'devicestatusesstring'.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:256:	LocalVariableNamingConventions:	The local variable name 'SP' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:258:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:263:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:263:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:317:	LocalVariableNamingConventions:	The local variable name '_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:326:	LocalVariableNamingConventions:	The local variable name '_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:345:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:345:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:350:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:350:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:362:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:362:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:366:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:366:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:386:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:386:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:391:	LocalVariableNamingConventions:	The local variable name '_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:395:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:395:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:403:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:403:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:408:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:408:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:412:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:412:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:420:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:420:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:421:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:421:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:427:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:427:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:439:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:439:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:442:	LocalVariableNamingConventions:	The local variable name '_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:448:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:448:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:456:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:456:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:461:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:461:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:470:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:470:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:471:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:471:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:477:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:477:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:479:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:479:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:493:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:493:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:499:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:499:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:502:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:510:	FormalParameterNamingConventions:	The method parameter name '_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:535:	UnusedLocalVariable:	Avoid unused local variables such as 'qb'.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:544:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:547:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:556:	FormalParameterNamingConventions:	The method parameter name '_id' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:559:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:562:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:562:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:565:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8940/test8940.java:571:	ControlStatementBraces:	This statement should have braces

@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test3837/test3837.java:141:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.server.HttpStatusCodes.INTERNAL_SERVER_ERROR'
+/home/arnaik/code-review-test-projects/java/test3837/test3837.java:142:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.server.HttpStatusCodes.NOT_FOUND'
+/home/arnaik/code-review-test-projects/java/test3837/test3837.java:198:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

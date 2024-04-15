@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:18:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.codec.Codec.isNullFlag'
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:224:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:243:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:243:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:250:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:415:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DataType': 'isLengthUnSpecified' is already in scope
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:421:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:421:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:457:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:492:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DataType': 'isLengthUnSpecified' is already in scope
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:496:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DataType': 'isLengthUnSpecified' is already in scope
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:602:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9798/test9798.java:620:	UselessParentheses:	Useless parentheses.

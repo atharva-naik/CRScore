@@ -1,0 +1,86 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 184, col 50, ['_id'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 184, col 63, ['_id'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 608, col 54, ['a'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 613, col 56, ['a'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 785, col 23, Value of 'err' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 924, col 51, ['_id'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2238, col 31, 'docs2' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2446, col 31, Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (test, results, left, docs, cursors, client, done)
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2510, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2511, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 3, col 21, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 3032, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 5, col 1, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 6, col 3, 'before' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 14, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 62, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 113, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 213, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 341, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 402, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 440, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 492, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 522, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 572, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 642, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 683, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 725, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 764, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 798, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 844, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 955, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 993, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1047, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1091, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1121, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1159, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1199, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1234, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1281, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1331, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1381, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1417, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1471, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1520, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1558, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1590, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1662, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1727, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1766, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1818, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1872, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1930, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1970, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2004, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2061, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2107, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2152, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2199, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2256, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2298, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2324, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2367, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2411, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2476, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2534, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2578, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2626, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2672, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2697, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2747, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2796, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2836, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2876, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2919, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2962, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 3027, col 3, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 708, col 24, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1786, col 11, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1805, col 13, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 1807, col 28, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2220, col 33, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1969/test1969.js: line 2234, col 35, 'Buffer' is not defined.
+
+84 errors

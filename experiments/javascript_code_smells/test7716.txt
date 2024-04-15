@@ -1,0 +1,162 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 2, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 2, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 9, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 11, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 18, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 21, col 13, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 22, col 26, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 29, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 32, col 12, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 35, col 15, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 36, col 32, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 46, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 50, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 70, col 40, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 73, col 40, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 76, col 41, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 88, col 40, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 91, col 41, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 96, col 61, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 99, col 117, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 100, col 11, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 104, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 119, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 122, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 125, col 43, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 128, col 163, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 129, col 11, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 133, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 156, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 159, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 162, col 43, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 165, col 163, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 166, col 11, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 170, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 193, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 196, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 199, col 43, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 203, col 78, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 206, col 73, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 219, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 222, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 224, col 43, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 227, col 128, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 243, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 246, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 248, col 43, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 251, col 138, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 268, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 271, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 273, col 43, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 277, col 78, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 280, col 76, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 294, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 297, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 299, col 43, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 302, col 97, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 321, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 324, col 42, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 326, col 43, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 334, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 342, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 344, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 351, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 353, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 359, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 361, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 367, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 372, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 380, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 381, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 385, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 386, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 390, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 392, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 398, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 400, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 406, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 411, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 421, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 422, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 424, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 427, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 427, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 431, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 431, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 432, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 445, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 447, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 450, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 450, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 454, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 456, col 94, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 8, col 5, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 9, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 10, col 15, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 11, col 31, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 13, col 1, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 45, col 3, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 95, col 5, 'describe' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 14, col 3, 'context' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 62, col 5, 'context' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 80, col 5, 'context' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 96, col 7, 'context' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 203, col 7, 'context' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 277, col 7, 'context' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 332, col 3, 'context' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 349, col 5, 'context' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 378, col 5, 'context' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 419, col 3, 'context' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 15, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 28, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 63, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 81, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 99, col 9, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 128, col 9, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 165, col 9, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 206, col 9, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 227, col 9, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 251, col 9, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 280, col 9, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 302, col 9, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 333, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 341, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 350, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 358, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 366, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 379, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 384, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 389, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 397, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 405, col 7, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 420, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 444, col 5, 'it' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 48, col 5, 'beforeEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 55, col 5, 'afterEach' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 335, col 21, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 336, col 21, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 337, col 21, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 343, col 21, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 352, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 354, col 29, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 360, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 362, col 29, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 368, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 369, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 370, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 373, col 29, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 391, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 393, col 29, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 399, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 401, col 29, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 407, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 408, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 409, col 23, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 412, col 29, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test7716/test7716.js: line 414, col 39, 'Buffer' is not defined.
+
+160 errors

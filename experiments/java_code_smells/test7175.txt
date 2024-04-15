@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test7175/test7175.java:32:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DEFAULT_NAME_MAPPING'
+/home/arnaik/code-review-test-projects/java/test7175/test7175.java:37:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7175/test7175.java:165:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ScanContext': 'builder' is already in scope
+/home/arnaik/code-review-test-projects/java/test7175/test7175.java:184:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ScanContext': 'builder' is already in scope
+/home/arnaik/code-review-test-projects/java/test7175/test7175.java:206:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

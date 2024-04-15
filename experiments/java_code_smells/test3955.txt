@@ -1,0 +1,77 @@
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:77:	UnnecessaryImport:	Unused static import 'java.util.Collections.unmodifiableSet'
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:78:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.cloud.UrlScheme.HTTP'
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:79:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.util.Utils.fromJSON'
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:160:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:162:	UnusedPrivateField:	Avoid unused private fields such as 'GET_LEADER_RETRY_INTERVAL_MS'.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:164:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:184:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:189:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:194:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:199:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:201:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:203:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:203:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'emptyMap' is already in scope
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:211:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:214:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:260:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:267:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:330:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:467:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:473:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:532:	UnusedPrivateMethod:	Avoid unused private methods such as 'addSecurityNodeWatcher(Callable<Pair<byte[], Stat>>)'.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:667:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'emptySet' is already in scope
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:750:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'emptySet' is already in scope
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:777:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:795:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:841:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:980:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:991:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1033:	LooseCoupling:	Avoid using implementation types like 'EnumSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1037:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1066:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1068:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1094:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1109:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1139:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ZkStateReader': 'CLUSTER_PROPS' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1141:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1144:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ZkStateReader': 'URL_SCHEME' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1151:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'emptyMap' is already in scope
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1155:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ZkStateReader': 'CLUSTER_PROPS' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1156:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1160:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1283:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1289:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ZkStateReader': 'SOLR_SECURITY_CONF_PATH' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1431:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1434:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1550:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'emptySet' is already in scope
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1623:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1626:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1633:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'emptySet' is already in scope
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1702:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1704:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1715:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'emptySet' is already in scope
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1784:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1788:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1836:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1840:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1849:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1888:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1897:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1935:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1944:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1987:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:1999:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'emptySet' is already in scope
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2087:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2104:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2127:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2142:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2181:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'emptySet' is already in scope
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2197:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2249:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2297:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2347:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2360:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2376:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2377:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2399:	MissingOverride:	The method 'hashCode()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test3955/test3955.java:2403:	MissingOverride:	The method 'equals(Object)' is missing an @Override annotation.

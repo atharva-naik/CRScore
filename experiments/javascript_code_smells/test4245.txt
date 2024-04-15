@@ -1,0 +1,13 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 65, col 21, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 69, col 21, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 3, col 17, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 4, col 21, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 5, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 75, col 5, 'setTimeout' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4245/test4245.js: line 81, col 1, 'module' is not defined.
+
+11 errors

@@ -1,0 +1,36 @@
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:76:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:91:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:98:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:160:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:196:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:205:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:241:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:247:	CloneMethodReturnTypeMustMatchClassName:	The return type of the clone() method must be the class name when implements Cloneable
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:247:	CloneMethodMustImplementCloneable:	clone() method should be implemented only if implementing Cloneable interface
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:272:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:293:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:299:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:307:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:346:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:356:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:369:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:370:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:412:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:417:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:423:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:439:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:444:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:445:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:446:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:456:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:470:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:484:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:485:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:486:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:544:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:549:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:605:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:619:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:620:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:627:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+/home/arnaik/code-review-test-projects/java/test9382/test9382.java:627:	LocalVariableNamingConventions:	The local variable name 'h$' doesn't match '[a-z][a-zA-Z0-9]*'

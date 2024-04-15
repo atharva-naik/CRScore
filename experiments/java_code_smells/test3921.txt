@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test3921/test3921.java:34:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3921/test3921.java:54:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3921/test3921.java:82:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3921/test3921.java:105:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

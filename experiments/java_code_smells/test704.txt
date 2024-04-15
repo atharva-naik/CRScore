@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test704/test704.java:23:	UnnecessaryImport:	Unused import 'java.util.Optional'
+/home/arnaik/code-review-test-projects/java/test704/test704.java:31:	UnusedPrivateField:	Avoid unused private fields such as 'deletedPartitions'.
+/home/arnaik/code-review-test-projects/java/test704/test704.java:32:	UnusedPrivateField:	Avoid unused private fields such as 'startingSnapshotId'.
+/home/arnaik/code-review-test-projects/java/test704/test704.java:33:	UnusedPrivateField:	Avoid unused private fields such as 'validateNoConflictingAppends'.
+/home/arnaik/code-review-test-projects/java/test704/test704.java:73:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths

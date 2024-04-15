@@ -1,0 +1,27 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 12, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 16, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 19, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 21, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 26, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 30, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 32, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 35, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 38, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 39, col 9, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 46, col 26, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 50, col 21, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 62, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 63, col 24, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 69, col 28, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 69, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 69, col 33, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 69, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 69, col 41, Expected '}' to match '{' from line 68 and instead saw ':'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 69, col 67, Class properties must be methods. Expected '(' but instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 69, col 68, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test5518/test5518.js: line 69, col 68, Unrecoverable syntax error. (10% scanned).
+
+25 errors

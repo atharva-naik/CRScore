@@ -1,0 +1,63 @@
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:8:	UnnecessaryImport:	Unused import 'javaslang.Lazy'
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:22:	UnnecessaryImport:	Unused static import 'javaslang.collection.Comparators.naturalComparator'
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:49:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:50:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:51:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:52:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:56:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:56:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:93:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:99:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:113:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:124:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:135:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:146:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:157:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:168:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:179:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:190:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:210:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'rangeBy' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:239:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:242:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'rangeClosedBy' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:263:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'rangeBy' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:292:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:295:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'rangeClosedBy' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:316:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'rangeClosedBy' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:345:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:347:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:352:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:377:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'rangeClosedBy' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:406:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'of' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:408:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:413:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'empty' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:428:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:480:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:486:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:494:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:503:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:510:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:516:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:526:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:528:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:533:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:547:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:618:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:626:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:626:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:650:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:686:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:690:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:705:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:705:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:724:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:729:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:741:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:757:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:757:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:761:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:761:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:765:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:768:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:772:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Iterable' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:775:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope
+/home/arnaik/code-review-test-projects/java/test4463/test4463.java:782:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TreeSet': 'ofAll' is already in scope

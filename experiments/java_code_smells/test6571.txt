@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test6571/test6571.java:22:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.grid.data.SessionClosedEvent.SESSION_CLOSED'
+/home/arnaik/code-review-test-projects/java/test6571/test6571.java:26:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.grid.distributor.local.Slot.Status.ACTIVE'
+/home/arnaik/code-review-test-projects/java/test6571/test6571.java:27:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.grid.distributor.local.Slot.Status.AVAILABLE'
+/home/arnaik/code-review-test-projects/java/test6571/test6571.java:76:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Status': 'DOWN' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test6571/test6571.java:92:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test6571/test6571.java:205:	UselessParentheses:	Useless parentheses.

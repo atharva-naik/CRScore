@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test7528/test7528.java:200:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7528/test7528.java:209:	LiteralsFirstInComparisons:	Position literals first in String comparisons

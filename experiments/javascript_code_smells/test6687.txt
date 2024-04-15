@@ -1,0 +1,111 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 25, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 196, col 9, 'optionBox' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 209, col 20, 'optionBox' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 210, col 19, 'optionBox' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 211, col 41, 'optionBox' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 213, col 17, 'optionBox' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 214, col 18, 'optionBox' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 266, col 9, 'x' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 268, col 9, 'y' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 272, col 54, 'y' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 278, col 46, 'y' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 284, col 34, 'y' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 278, col 34, 'x' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 284, col 31, 'x' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 370, col 30, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 407, col 30, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 411, col 36, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 27, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 29, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 30, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 31, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 32, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 33, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 34, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 35, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 36, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 37, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 38, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 39, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 69, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 234, col 7, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 341, col 9, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 372, col 5, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 585, col 7, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 728, col 16, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 731, col 16, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 48, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 52, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 69, col 15, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 69, col 39, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 75, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 81, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 88, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 95, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 96, col 11, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 97, col 11, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 98, col 15, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 99, col 15, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 100, col 15, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 101, col 11, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 108, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 115, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 115, col 52, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 122, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 123, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 124, col 9, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 131, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 132, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 141, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 142, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 153, col 16, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 154, col 18, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 156, col 20, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 186, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 228, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 247, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 266, col 38, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 279, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 301, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 302, col 42, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 328, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 337, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 352, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 353, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 366, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 367, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 385, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 387, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 390, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 401, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 438, col 40, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 444, col 64, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 450, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 471, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 475, col 14, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 484, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 502, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 508, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 513, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 520, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 539, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 543, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 545, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 558, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 566, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 568, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 577, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 598, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 604, col 32, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 624, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 633, col 15, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 649, col 32, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 666, col 34, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 679, col 13, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 683, col 15, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 692, col 15, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 714, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 727, col 32, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6687/test6687.js: line 740, col 1, 'Blockly' is not defined.
+
+109 errors

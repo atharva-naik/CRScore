@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test6234/test6234.java:318:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test6234/test6234.java:422:	LocalVariableNamingConventions:	The final local variable name 'NO_OUTPUT' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test6234/test6234.java:666:	LocalVariableNamingConventions:	The final local variable name 'NO_OUTPUT' doesn't match '[a-z][a-zA-Z0-9]*'

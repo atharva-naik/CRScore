@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test9901/test9901.java:53:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test9901/test9901.java:67:	UnusedPrivateMethod:	Avoid unused private methods such as 'code(MetricKey, MetricVersion)'.

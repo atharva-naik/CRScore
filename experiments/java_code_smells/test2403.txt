@@ -1,0 +1,14 @@
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:64:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:65:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:116:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:224:	UnusedPrivateMethod:	Avoid unused private methods such as 'showUnableToDecodeError()'.
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:274:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:285:	UnusedLocalVariable:	Avoid unused local variables such as 'messageToDelete'.
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:420:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:444:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:478:	UnusedPrivateMethod:	Avoid unused private methods such as 'setProgress(boolean)'.
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:573:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:604:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:616:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:621:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2403/test2403.java:805:	UselessQualifiedThis:	Useless qualified this usage in the same class.

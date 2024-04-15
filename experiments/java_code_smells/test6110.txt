@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6110/test6110.java:26:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6110/test6110.java:73:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'difficulty'

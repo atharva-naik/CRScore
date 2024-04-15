@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test7838/test7838.java:65:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.spark.SparkSchemaUtil.convert'
+/home/arnaik/code-review-test-projects/java/test7838/test7838.java:70:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7838/test7838.java:131:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test7838/test7838.java:170:	UselessParentheses:	Useless parentheses.

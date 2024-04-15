@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test6865/test6865.java:11:	UnnecessaryImport:	Unused static import 'de.danoeh.antennapod.model.feed.FeedPreferences.SPEED_USE_GLOBAL'
+/home/arnaik/code-review-test-projects/java/test6865/test6865.java:13:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test6865/test6865.java:50:	LocalVariableNamingConventions:	The final local variable name 'KEY_ID_POSITION' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test6865/test6865.java:51:	LocalVariableNamingConventions:	The final local variable name 'KEY_MEDIA_POSITION' doesn't match '[a-z][a-zA-Z0-9]*'

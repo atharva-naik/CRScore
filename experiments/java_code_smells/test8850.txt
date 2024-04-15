@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test8850/test8850.java:17:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.api.jsonrpc.internal.response.JsonRpcError.BLOCK_NOT_FOUND'
+/home/arnaik/code-review-test-projects/java/test8850/test8850.java:18:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.api.jsonrpc.internal.response.JsonRpcError.INTERNAL_ERROR'
+/home/arnaik/code-review-test-projects/java/test8850/test8850.java:83:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8850/test8850.java:159:	FormalParameterNamingConventions:	The lambda parameter name '__' doesn't match '[a-z][a-zA-Z0-9]*'

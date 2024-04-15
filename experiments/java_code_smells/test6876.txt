@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test6876/test6876.java:58:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6876/test6876.java:403:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6876/test6876.java:437:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test6876/test6876.java:468:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6876/test6876.java:471:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+/home/arnaik/code-review-test-projects/java/test6876/test6876.java:534:	UnusedPrivateMethod:	Avoid unused private methods such as 'sqlString(List<Literal<T>>)'.

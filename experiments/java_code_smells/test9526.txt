@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test9526/test9526.java:40:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HiveMetastoreTest': 'metastore' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9526/test9526.java:42:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HiveMetastoreTest': 'hiveConf' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9526/test9526.java:43:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HiveMetastoreTest': 'metastoreClient' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9526/test9526.java:47:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HiveMetastoreTest': 'catalog' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9526/test9526.java:53:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HiveMetastoreTest': 'catalog' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9526/test9526.java:56:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HiveMetastoreTest': 'metastoreClient' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9526/test9526.java:59:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HiveMetastoreTest': 'metastore' is already in scope because it is declared in an enclosing type

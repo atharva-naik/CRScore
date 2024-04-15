@@ -1,0 +1,16 @@
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:40:	UnnecessaryImport:	Unused import 'org.apache.lucene.document.FieldType'
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:82:	UnusedPrivateField:	Avoid unused private fields such as 'docFields'.
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:278:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:326:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:383:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:447:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:534:	UnusedLocalVariable:	Avoid unused local variables such as 'finalizer'.
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:542:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:549:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:568:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:578:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:618:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:668:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:1220:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ae' on all code paths
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:1252:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test8687/test8687.java:1314:	UselessParentheses:	Useless parentheses.

@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test3449/test3449.java:55:	NonThreadSafeSingleton:	Singleton is not thread safe
+/home/arnaik/code-review-test-projects/java/test3449/test3449.java:103:	SimplifyConditional:	No need to check for null before an instanceof

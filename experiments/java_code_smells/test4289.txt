@@ -1,0 +1,136 @@
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:172:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:175:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:178:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:181:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:184:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:280:	DefaultLabelNotLastInSwitchStmt:	The default label should be the last label in a switch statement
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:290:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:301:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:359:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:360:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:361:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:434:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:448:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:463:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:486:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:508:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:532:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:547:	IdenticalCatchBranches:	'catch' branch identical to 'IOException' branch
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:556:	FormalParameterNamingConventions:	The method parameter name 'LSUB' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:559:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:615:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:644:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:647:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:651:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:680:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:682:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:683:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:685:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:686:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:688:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:689:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:691:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:813:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:814:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:815:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:817:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:879:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'responses'
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1090:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1132:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1174:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1174:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1183:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1196:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1202:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1252:	MissingOverride:	The method 'search()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1301:	MissingOverride:	The method 'search()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1311:	MissingOverride:	The method 'search()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1321:	MissingOverride:	The method 'search()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1331:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1333:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1373:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1377:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1411:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1425:	LooseCoupling:	Avoid using implementation types like 'LinkedHashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1453:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1454:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1458:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1459:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1490:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1508:	EmptyControlStatement:	Empty if statement
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1563:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1569:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1641:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1695:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1714:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1721:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1755:	UnusedPrivateMethod:	Avoid unused private methods such as 'parseBodyStructure(ImapList, Part, String)'.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1769:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1853:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1857:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1966:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:1999:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2016:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2021:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2050:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2063:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2290:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2298:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2335:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2344:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2351:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ImapStore': 'encodeString' is already in scope
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2351:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ImapStore': 'encodeString' is already in scope
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2371:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2376:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2381:	CloseResource:	Ensure that resources like this InflaterInputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2398:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2404:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2410:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2413:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2415:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2418:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2420:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2426:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2433:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2446:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2465:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ce' on all code paths
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2522:	CloseResource:	Ensure that resources like this Socket object are closed after use
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2530:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2540:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2567:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2583:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2611:	IdenticalCatchBranches:	'catch' branch identical to 'IOException' branch
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2614:	IdenticalCatchBranches:	'catch' branch identical to 'IOException' branch
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2645:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2650:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2785:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2788:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2798:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2816:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2839:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2842:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2856:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2870:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2877:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2923:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2944:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2973:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2983:	UnusedFormalParameter:	Avoid unused method parameters such as 'newArrivals'.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2990:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:2999:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3010:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3013:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3077:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3089:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3163:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3170:	MissingOverride:	The method 'handleAsyncUntaggedResponse(ImapResponse)' is missing an @Override annotation.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3172:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3176:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3196:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3206:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3224:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3260:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3266:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3277:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3332:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4289/test4289.java:3334:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead

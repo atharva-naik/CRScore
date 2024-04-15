@@ -1,0 +1,11 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4836/test4836.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4836/test4836.js: line 27, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4836/test4836.js: line 32, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test4836/test4836.js: line 34, col 19, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4836/test4836.js: line 49, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4836/test4836.js: line 50, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4836/test4836.js: line 52, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4836/test4836.js: line 92, col 10, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4836/test4836.js: line 92, col 10, Unrecoverable syntax error. (79% scanned).
+
+9 errors

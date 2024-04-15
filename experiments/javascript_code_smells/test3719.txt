@@ -1,0 +1,40 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 246, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 246, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 267, col 73, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 278, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 278, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 296, col 70, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 479, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 557, col 7, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 3, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 4, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 5, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 6, col 13, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 7, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 8, col 14, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 9, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 10, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 11, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 12, col 16, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 13, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 14, col 8, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 15, col 7, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 16, col 12, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 17, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 18, col 18, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 19, col 23, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 20, col 22, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 108, col 7, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 112, col 7, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 854, col 21, 'console' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 201, col 57, 'Promise' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 313, col 12, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 764, col 14, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 776, col 14, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 789, col 9, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 799, col 9, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 521, col 10, 'Buffer' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3719/test3719.js: line 913, col 1, 'module' is not defined.
+
+38 errors

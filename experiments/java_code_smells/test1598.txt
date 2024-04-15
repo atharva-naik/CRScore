@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:103:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'records'
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:115:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'records'
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:151:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:176:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:180:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:184:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:188:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:191:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:194:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:200:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:214:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1598/test1598.java:218:	LiteralsFirstInComparisons:	Position literals first in String comparisons

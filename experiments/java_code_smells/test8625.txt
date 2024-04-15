@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test8625/test8625.java:29:	UnnecessaryImport:	Unused import 'java.util.concurrent.Semaphore'
+/home/arnaik/code-review-test-projects/java/test8625/test8625.java:57:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test8625/test8625.java:92:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test8625/test8625.java:96:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test8625/test8625.java:109:	CloneMethodMustImplementCloneable:	clone() method should be implemented only if implementing Cloneable interface

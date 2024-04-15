@@ -1,0 +1,6 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6471/test6471.js: line 455, col 37, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6471/test6471.js: line 460, col 37, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6471/test6471.js: line 471, col 37, Misleading line break before '?'; readers may interpret this as an expression boundary.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6471/test6471.js: line 476, col 37, Misleading line break before '?'; readers may interpret this as an expression boundary.
+
+4 errors

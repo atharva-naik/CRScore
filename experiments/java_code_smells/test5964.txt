@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test5964/test5964.java:32:	UnnecessaryImport:	Unused import 'org.apache.solr.schema.*'
+/home/arnaik/code-review-test-projects/java/test5964/test5964.java:44:	UseUtilityClass:	This utility class has a non-private constructor
+/home/arnaik/code-review-test-projects/java/test5964/test5964.java:636:	MissingOverride:	The method 'updateMinMax(EnumFieldValue, EnumFieldValue)' is missing an @Override annotation.

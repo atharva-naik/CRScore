@@ -1,0 +1,21 @@
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:50:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.util.Utils.toJSONString'
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:69:	UnnecessaryModifier:	Unnecessary modifier 'static' on interface 'StorageIO': member interfaces are implicitly static
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:125:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:134:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:157:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:162:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:170:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:247:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:264:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:272:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:285:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'baos'
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:292:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:295:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:300:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:341:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:367:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:380:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:388:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'boas'
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:399:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:444:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test1779/test1779.java:496:	CloseResource:	Ensure that resources like this InputStream object are closed after use

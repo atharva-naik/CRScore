@@ -1,0 +1,12 @@
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:17:	UnnecessaryImport:	Unused static import 'com.google.common.truth.Truth.assertThat'
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:77:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:89:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:93:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:99:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:103:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:117:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:127:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:131:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:144:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:241:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3479/test3479.java:248:	LiteralsFirstInComparisons:	Position literals first in String comparisons

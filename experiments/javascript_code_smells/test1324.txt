@@ -1,0 +1,337 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 1, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 1, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 2, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 2, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 2, col 78, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 3, col 61, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 4, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 5, col 63, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 6, col 69, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 7, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 11, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 11, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 12, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 13, col 16, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 15, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 18, col 18, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 19, col 18, Class properties must be methods. Expected '(' but instead saw '='.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 19, col 28, Expected an identifier and instead saw '../package.json'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 19, col 45, 'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 19, col 46, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 21, col 3, Class properties must be methods. Expected '(' but instead saw 'constructor'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 22, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 23, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 24, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 25, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 26, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 28, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 36, col 6, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 38, col 19, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 38, col 22, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 38, col 38, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 38, col 41, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 38, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 40, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 42, col 58, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 44, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 45, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 46, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 56, col 41, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 58, col 68, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 59, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 62, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 63, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 66, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 67, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 73, col 90, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 78, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 80, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 80, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 82, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 84, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 86, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 91, col 7, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 92, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 95, col 18, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 96, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 98, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 98, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 99, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 100, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 103, col 26, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 104, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 106, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 106, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 107, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 108, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 111, col 32, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 112, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 114, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 114, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 115, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 115, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 116, col 29, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 116, col 87, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 117, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 120, col 29, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 121, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 123, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 123, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 124, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 124, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 125, col 31, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 126, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 130, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 131, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 131, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 132, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 132, col 49, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 135, col 13, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 135, col 16, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 140, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 141, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 143, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 143, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 148, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 149, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 151, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 151, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 152, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 153, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 154, col 23, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 154, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 156, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 157, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 158, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 159, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 161, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 161, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 162, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 164, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 166, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 167, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 169, col 59, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 172, col 85, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 175, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 176, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 178, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 178, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 180, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 180, col 49, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 182, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 186, col 13, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 186, col 16, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 188, col 15, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 192, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 194, col 66, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 195, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 197, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 205, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 206, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 207, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 208, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 209, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 212, col 9, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 212, col 12, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 213, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 215, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 216, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 218, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 218, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 220, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 226, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 226, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 227, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 229, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 230, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 231, col 63, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 232, col 17, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 232, col 52, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 233, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 235, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 236, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 237, col 63, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 238, col 17, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 238, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 239, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 241, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 244, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 245, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 248, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 249, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 250, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 251, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 251, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 252, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 254, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 256, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 257, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 258, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 259, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 261, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 262, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 264, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 266, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 267, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 268, col 19, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 268, col 26, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 269, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 270, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 273, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 275, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 279, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 281, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 283, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 286, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 287, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 287, col 85, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 288, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 288, col 72, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 292, col 11, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 292, col 14, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 297, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 298, col 68, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 299, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 300, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 301, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 302, col 48, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 303, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 304, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 305, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 306, col 31, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 307, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 308, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 312, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 313, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 313, col 37, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 314, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 314, col 59, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 315, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 315, col 43, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 315, col 85, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 316, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 317, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 319, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 320, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 321, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 322, col 63, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 323, col 17, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 323, col 49, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 324, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 326, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 329, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 330, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 333, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 334, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 335, col 38, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 336, col 21, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 336, col 28, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 337, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 339, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 341, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 342, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 343, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 344, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 346, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 347, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 348, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 349, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 350, col 17, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 350, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 351, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 353, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 354, col 30, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 356, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 358, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 359, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 360, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 361, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 363, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 369, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 370, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 372, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 374, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 376, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 377, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 379, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 381, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 381, col 92, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 383, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 384, col 71, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 385, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 386, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 387, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 388, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 390, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 391, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 393, col 10, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 395, col 59, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 396, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 397, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 398, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 399, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 401, col 7, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 401, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 402, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 404, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 407, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 407, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 408, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 409, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 413, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 415, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 415, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 416, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 416, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 418, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 420, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 421, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 423, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 427, col 57, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 428, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 429, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 433, col 75, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 436, col 21, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 438, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 442, col 65, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 444, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 446, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 450, col 62, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 451, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 452, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 453, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 457, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 458, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 459, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 460, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 464, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 465, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 466, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 467, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 471, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 472, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 473, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 474, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 478, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 478, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 478, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 481, col 9, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 481, col 12, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 484, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 485, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 489, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 489, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 489, col 50, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 492, col 9, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 492, col 12, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 495, col 7, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 496, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test1324/test1324.js: line 498, col 2, Missing semicolon.
+
+335 errors

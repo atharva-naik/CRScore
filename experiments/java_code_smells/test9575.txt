@@ -1,0 +1,11 @@
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:37:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.and'
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:38:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.equal'
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:39:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.greaterThanOrEqual'
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:40:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.in'
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:41:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.isNull'
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:42:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.lessThan'
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:43:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.lessThanOrEqual'
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:44:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.not'
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:45:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.or'
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:48:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test9575/test9575.java:172:	UnusedPrivateMethod:	Avoid unused private methods such as 'daysFromTimestamp(Timestamp)'.

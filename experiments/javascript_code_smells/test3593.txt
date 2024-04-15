@@ -1,0 +1,19 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 13, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 14, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 15, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 19, col 25, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 21, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 23, col 17, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 28, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 32, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 33, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 33, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 33, col 42, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 33, col 43, Expected ')' and instead saw 'div'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 33, col 46, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 33, col 52, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 33, col 61, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3593/test3593.js: line 33, col 61, Unrecoverable syntax error. (7% scanned).
+
+17 errors

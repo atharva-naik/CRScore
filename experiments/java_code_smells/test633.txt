@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test633/test633.java:60:	UnusedPrivateField:	Avoid unused private fields such as 'SCAN_COLUMNS'.
+/home/arnaik/code-review-test-projects/java/test633/test633.java:64:	UnusedPrivateField:	Avoid unused private fields such as 'SCAN_WITH_STATS_COLUMNS'.
+/home/arnaik/code-review-test-projects/java/test633/test633.java:129:	UnsynchronizedStaticFormatter:	Static Formatter objects should be accessed in a synchronized manner
+/home/arnaik/code-review-test-projects/java/test633/test633.java:167:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test633/test633.java:168:	UnsynchronizedStaticFormatter:	Static Formatter objects should be accessed in a synchronized manner

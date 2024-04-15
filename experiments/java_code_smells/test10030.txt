@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test10030/test10030.java:47:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test10030/test10030.java:69:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Codec': 'GZIP' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test10030/test10030.java:72:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Codec': 'GZIP' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test10030/test10030.java:73:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Codec': 'GZIP' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test10030/test10030.java:75:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Codec': 'NONE' is already in scope because it is declared in an enclosing type

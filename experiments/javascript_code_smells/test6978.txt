@@ -1,0 +1,36 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 9, col 429, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 10, col 445, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 11, col 165, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 11, col 166, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 12, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 16, col 203, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 20, col 104, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 21, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 26, col 53, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 30, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 31, col 2070, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 31, col 2071, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 44, col 29, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 46, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 49, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 50, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 51, col 10, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 51, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 55, col 22, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 57, col 35, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 58, col 15, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 63, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 68, col 33, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 69, col 10, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 69, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 73, col 182, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 76, col 92, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 76, col 93, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 78, col 166, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 78, col 167, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 79, col 10, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 79, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 81, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test6978/test6978.js: line 82, col 7, Missing semicolon.
+
+34 errors

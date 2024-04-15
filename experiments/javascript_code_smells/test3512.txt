@@ -1,0 +1,52 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 1, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 24, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 130, col 15, Value of 'err' may be overwritten in IE 8 and earlier.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 365, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 365, col 61, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 375, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 376, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 377, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 381, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 386, col 41, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 387, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 394, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 394, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 397, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 413, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 414, col 14, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 415, col 11, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 433, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 455, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 456, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 473, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 478, col 36, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 3, col 20, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 4, col 24, 'require' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 47, col 24, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 68, col 29, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 242, col 17, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 508, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 509, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 510, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 511, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 512, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 513, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 514, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 515, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 516, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 517, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 518, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 519, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 520, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 521, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 522, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 523, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 524, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 525, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 526, col 1, 'exports' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 131, col 5, 'process' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3512/test3512.js: line 385, col 15, 'Symbol' is not defined.
+
+50 errors

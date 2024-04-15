@@ -1,0 +1,24 @@
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:175:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:176:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:242:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:530:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:1119:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:1120:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:1173:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:1174:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:1189:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:1351:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:1456:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:1501:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:1649:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:1719:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:2020:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:2119:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:2123:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:2209:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:2373:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:2556:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:2560:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:2841:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:2955:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4109/test4109.java:3016:	UselessQualifiedThis:	Useless qualified this usage in the same class.

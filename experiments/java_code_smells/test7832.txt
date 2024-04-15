@@ -1,0 +1,21 @@
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:29:	UnnecessaryImport:	Unused import 'org.apache.log4j.MDC'
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:57:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.cloud.DocCollection.DOC_ROUTER'
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:58:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.PATH'
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:59:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CoreAdminParams.GET_RANGES'
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:103:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:181:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:182:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:234:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:251:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:252:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:274:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:274:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:313:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:354:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:365:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:415:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:438:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:465:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:467:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:485:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test7832/test7832.java:523:	CompareObjectsWithEquals:	Use equals() to compare object references.

@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test7656/test7656.java:60:	UnusedPrivateMethod:	Avoid unused private methods such as 'toJson()'.
+/home/arnaik/code-review-test-projects/java/test7656/test7656.java:65:	UnusedPrivateMethod:	Avoid unused private methods such as 'fromJson(JsonInput)'.
+/home/arnaik/code-review-test-projects/java/test7656/test7656.java:137:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7656/test7656.java:147:	UnusedPrivateMethod:	Avoid unused private methods such as 'toJson()'.
+/home/arnaik/code-review-test-projects/java/test7656/test7656.java:167:	UnusedPrivateMethod:	Avoid unused private methods such as 'fromJson(JsonInput)'.

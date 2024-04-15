@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test6901/test6901.java:33:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.optional'
+/home/arnaik/code-review-test-projects/java/test6901/test6901.java:34:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.required'

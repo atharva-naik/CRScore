@@ -1,0 +1,8 @@
+/home/arnaik/code-review-test-projects/java/test5497/test5497.java:39:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
+/home/arnaik/code-review-test-projects/java/test5497/test5497.java:47:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test5497/test5497.java:51:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test5497/test5497.java:57:	LocalVariableNamingConventions:	The final local variable name 'MULTIPLIER' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5497/test5497.java:151:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test5497/test5497.java:192:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test5497/test5497.java:209:	IdenticalCatchBranches:	'catch' branch identical to 'IOException' branch
+/home/arnaik/code-review-test-projects/java/test5497/test5497.java:241:	CloneMethodMustImplementCloneable:	clone() method should be implemented only if implementing Cloneable interface

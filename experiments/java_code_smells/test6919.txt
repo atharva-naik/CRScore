@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test6919/test6919.java:31:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
+/home/arnaik/code-review-test-projects/java/test6919/test6919.java:32:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThatThrownBy'
+/home/arnaik/code-review-test-projects/java/test6919/test6919.java:235:	LiteralsFirstInComparisons:	Position literals first in String comparisons

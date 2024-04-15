@@ -1,0 +1,26 @@
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:5:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.GlobalIdServiceBean.logger'
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:7:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.dataaccess.DataAccess.getStorageIO'
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:44:	SingleMethodSingleton:	Class contains multiple getInstance methods. Please review.
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:44:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:76:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ExportService': 'getInstance' is already in scope
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:100:	CloseResource:	'exportInputStream' is reassigned, but the original instance is not closed
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:113:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:114:	CloseResource:	Ensure that resources like this InputStreamReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:119:	CloseResource:	Ensure that resources like this BufferedReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:149:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:171:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'serviceError' on all code paths
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:191:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:215:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'serviceError' on all code paths
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:217:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:232:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'serviceError' on all code paths
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:234:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:244:	CloseResource:	Ensure that resources like this OutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:256:	CloseResource:	Ensure that resources like this Channel object are closed after use
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:268:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:279:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:282:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:286:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ioex' on all code paths
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:290:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ioex' on all code paths
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:303:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:318:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ioex' on all code paths
+/home/arnaik/code-review-test-projects/java/test2999/test2999.java:327:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ioex' on all code paths

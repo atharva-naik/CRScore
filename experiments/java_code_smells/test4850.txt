@@ -1,0 +1,28 @@
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:70:	SingularField:	Perhaps 'userAuthorityFilterExecutor' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:131:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:464:	AvoidBranchingStatementAsLastInLoop:	Avoid using a branching statement as the last in a loop.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:572:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:740:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:1637:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:1690:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:2036:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:2045:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:2049:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:2356:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:2445:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:3231:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:3359:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:3369:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:3489:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4224:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4228:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4254:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4258:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4574:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4584:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4594:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4830:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4852:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4923:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4933:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test4850/test4850.java:4934:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test5743/test5743.java:49:	AvoidProtectedFieldInFinalClass:	Avoid protected fields in a final class.  Change to private or package access.
+/home/arnaik/code-review-test-projects/java/test5743/test5743.java:50:	AvoidProtectedFieldInFinalClass:	Avoid protected fields in a final class.  Change to private or package access.
+/home/arnaik/code-review-test-projects/java/test5743/test5743.java:164:	ProperCloneImplementation:	Object clone() should be implemented with super.clone()
+/home/arnaik/code-review-test-projects/java/test5743/test5743.java:305:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test5743/test5743.java:336:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test5743/test5743.java:568:	EmptyControlStatement:	Empty if statement

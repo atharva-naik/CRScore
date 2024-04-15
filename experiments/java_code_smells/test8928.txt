@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test8928/test8928.java:30:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.expressions.Expressions.rewriteNot'
+/home/arnaik/code-review-test-projects/java/test8928/test8928.java:42:	UnusedPrivateField:	Avoid unused private fields such as 'schema'.
+/home/arnaik/code-review-test-projects/java/test8928/test8928.java:45:	UnusedPrivateField:	Avoid unused private fields such as 'caseSensitive'.
+/home/arnaik/code-review-test-projects/java/test8928/test8928.java:80:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

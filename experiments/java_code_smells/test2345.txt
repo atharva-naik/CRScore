@@ -1,0 +1,43 @@
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:4:	UnnecessaryImport:	Unused static import 'com.jayway.restassured.RestAssured.given'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:15:	UnnecessaryImport:	Unused static import 'javax.ws.rs.core.Response.Status.CREATED'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:16:	UnnecessaryImport:	Unused static import 'javax.ws.rs.core.Response.Status.FORBIDDEN'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:17:	UnnecessaryImport:	Unused static import 'javax.ws.rs.core.Response.Status.OK'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:18:	UnnecessaryImport:	Unused static import 'javax.ws.rs.core.Response.Status.UNAUTHORIZED'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:19:	UnnecessaryImport:	Unused static import 'javax.ws.rs.core.Response.Status.NOT_FOUND'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:20:	UnnecessaryImport:	Unused static import 'javax.ws.rs.core.Response.Status.BAD_REQUEST'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:21:	UnnecessaryImport:	Unused static import 'javax.ws.rs.core.Response.Status.METHOD_NOT_ALLOWED'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:23:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.api.UtilIT.API_TOKEN_HTTP_HEADER'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:28:	UnnecessaryImport:	Unused static import 'javax.ws.rs.core.Response.Status.NO_CONTENT'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:31:	UnnecessaryImport:	Unused static import 'com.jayway.restassured.path.json.JsonPath.with'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:33:	UnnecessaryImport:	Unused static import 'edu.harvard.iq.dataverse.api.UtilIT.equalToCI'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:41:	UnnecessaryImport:	Unused static import 'junit.framework.Assert.assertEquals'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:42:	UnnecessaryImport:	Unused static import 'org.hamcrest.CoreMatchers.equalTo'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:43:	UnnecessaryImport:	Unused static import 'org.hamcrest.CoreMatchers.nullValue'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:45:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertTrue'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:46:	UnnecessaryImport:	Unused static import 'org.junit.Assert.fail'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:48:	ClassNamingConventions:	The class name 'DatasetsIT' doesn't match '^Test.*$|^[A-Z][a-zA-Z0-9]*Test(s|Case)?$'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:135:	UnusedLocalVariable:	Avoid unused local variables such as 'username'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:194:	UnusedLocalVariable:	Avoid unused local variables such as 'publishDataverse'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:741:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:744:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:774:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:783:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:801:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:805:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:932:	UnusedLocalVariable:	Avoid unused local variables such as 'username'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1006:	UnusedLocalVariable:	Avoid unused local variables such as 'username'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1021:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1052:	UnusedLocalVariable:	Avoid unused local variables such as 'dcmVagrantUrl'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1073:	UnusedLocalVariable:	Avoid unused local variables such as 'username'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1075:	UnusedLocalVariable:	Avoid unused local variables such as 'userId'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1148:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1167:	UnusedLocalVariable:	Avoid unused local variables such as 'username2'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1210:	UnusedLocalVariable:	Avoid unused local variables such as 'dcmVagrantUrl'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1233:	UnusedLocalVariable:	Avoid unused local variables such as 'userId'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1256:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1269:	UnusedLocalVariable:	Avoid unused local variables such as 'datasetId2'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1349:	LocalVariableNamingConventions:	The local variable name 'SEP' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1407:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1417:	UnusedLocalVariable:	Avoid unused local variables such as 'superuserResponse'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1434:	UnusedLocalVariable:	Avoid unused local variables such as 'publishDatasetForLinking'.
+/home/arnaik/code-review-test-projects/java/test2345/test2345.java:1471:	UnusedLocalVariable:	Avoid unused local variables such as 'superuserResponse'.

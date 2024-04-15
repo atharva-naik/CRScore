@@ -1,0 +1,3 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test5824/test5824.js: line 201, col 25, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+
+1 error

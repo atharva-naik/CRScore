@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test591/test591.java:67:	NonThreadSafeSingleton:	Singleton is not thread safe
+/home/arnaik/code-review-test-projects/java/test591/test591.java:79:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test591/test591.java:93:	ControlStatementBraces:	This statement should have braces

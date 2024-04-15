@@ -1,0 +1,161 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 24, col 1, Use the function form of "use strict".
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 147, col 32, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 171, col 32, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 194, col 40, Expected a conditional expression and instead saw an assignment.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 284, col 9, 'shadowType' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 285, col 9, 'fieldName' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 286, col 9, 'fieldValue' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 288, col 34, 'shadowType' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 289, col 52, 'fieldValue' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 290, col 33, 'fieldName' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 324, col 58, 'newBlock' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 326, col 5, 'newBlock' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 345, col 9, 'blockType' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 349, col 44, 'blockType' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 360, col 56, 'newBlock' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 362, col 10, 'newBlock' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 423, col 9, 'argumentReporter' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 427, col 28, 'argumentReporter' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 460, col 9, 'argumentEditor' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 464, col 28, 'argumentEditor' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 508, col 11, 'newBlock' is already defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 510, col 5, 'newBlock' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 511, col 5, 'newBlock' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 513, col 7, 'newBlock' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 514, col 7, 'newBlock' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 520, col 56, 'newBlock' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 522, col 10, 'newBlock' used out of scope.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 679, col 15, ['procedures_definition'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 698, col 15, ['procedures_call'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 730, col 15, ['procedures_prototype'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 766, col 15, ['procedures_declaration'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 810, col 15, ['argument_reporter_boolean'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 825, col 15, ['argument_reporter_string_number'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 840, col 15, ['argument_editor_boolean'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 860, col 15, ['argument_editor_string_number'] is better written in dot notation.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 26, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 28, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 29, col 1, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 278, col 19, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 289, col 18, 'goog' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 33, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 43, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 57, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 70, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 87, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 108, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 118, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 144, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 168, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 186, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 232, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 252, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 263, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 265, col 27, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 266, col 25, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 277, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 303, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 307, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 321, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 323, col 9, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 324, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 324, col 31, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 340, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 347, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 357, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 359, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 360, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 360, col 29, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 379, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 409, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 412, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 445, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 451, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 474, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 501, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 503, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 517, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 519, col 7, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 520, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 520, col 29, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 529, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 538, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 540, col 30, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 561, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 564, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 566, col 33, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 578, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 579, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 590, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 591, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 594, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 605, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 606, col 3, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 609, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 620, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 629, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 638, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 660, col 5, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 672, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 679, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 698, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 712, col 16, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 713, col 21, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 714, col 25, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 715, col 19, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 716, col 21, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 717, col 19, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 720, col 18, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 721, col 18, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 722, col 22, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 723, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 726, col 18, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 727, col 20, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 730, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 749, col 16, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 750, col 21, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 751, col 25, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 752, col 19, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 753, col 21, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 754, col 19, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 757, col 18, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 758, col 18, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 759, col 22, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 760, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 763, col 28, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 766, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 783, col 16, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 784, col 21, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 785, col 25, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 786, col 19, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 787, col 21, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 788, col 19, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 791, col 18, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 792, col 18, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 793, col 22, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 794, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 797, col 24, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 800, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 801, col 21, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 802, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 803, col 12, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 804, col 21, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 805, col 23, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 806, col 28, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 807, col 15, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 810, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 825, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 840, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 850, col 17, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 851, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 852, col 25, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 857, col 24, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 860, col 1, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 870, col 17, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 871, col 26, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 872, col 25, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 877, col 24, 'Blockly' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 44, col 19, 'document' is not defined.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3203/test3203.js: line 71, col 19, 'document' is not defined.
+
+159 errors

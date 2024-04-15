@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test7204/test7204.java:27:	UnnecessaryImport:	Unused import 'javax.servlet.ServletException'
+/home/arnaik/code-review-test-projects/java/test7204/test7204.java:45:	FormalParameterNamingConventions:	The method parameter name '_request' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test7204/test7204.java:46:	FormalParameterNamingConventions:	The method parameter name '_response' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test7204/test7204.java:56:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test7204/test7204.java:57:	CloseResource:	Ensure that resources like this Writer object are closed after use

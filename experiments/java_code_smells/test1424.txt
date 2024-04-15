@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test1424/test1424.java:42:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test1424/test1424.java:61:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test1424/test1424.java:71:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

@@ -1,0 +1,3 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8239/test8239.js: line 3, col 1, 'dynamic import' is only available in ES11 (use 'esversion: 11').
+
+1 error

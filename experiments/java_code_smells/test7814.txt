@@ -1,0 +1,1 @@
+/home/arnaik/code-review-test-projects/java/test7814/test7814.java	-	LexException: Lexical error in file '/home/arnaik/code-review-test-projects/java/test7814/test7814.java' at line 4, column 27: "/" (47), after : "\'." (in lexical state DEFAULT)

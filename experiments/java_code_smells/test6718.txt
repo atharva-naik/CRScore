@@ -1,0 +1,9 @@
+/home/arnaik/code-review-test-projects/java/test6718/test6718.java:51:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'inputSchema'.
+/home/arnaik/code-review-test-projects/java/test6718/test6718.java:194:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6718/test6718.java:221:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test6718/test6718.java:260:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6718/test6718.java:274:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6718/test6718.java:288:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6718/test6718.java:302:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6718/test6718.java:321:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test6718/test6718.java:344:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

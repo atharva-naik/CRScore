@@ -1,0 +1,10 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test4772/test4772.js: line 2, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test4772/test4772.js: line 2, col 17, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4772/test4772.js: line 182, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4772/test4772.js: line 186, col 13, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4772/test4772.js: line 188, col 11, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4772/test4772.js: line 189, col 2, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4772/test4772.js: line 192, col 36, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test4772/test4772.js: line 195, col 23, Missing semicolon.
+
+8 errors

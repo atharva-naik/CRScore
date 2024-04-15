@@ -1,0 +1,7 @@
+/home/arnaik/code-review-test-projects/java/test833/test833.java:20:	UnnecessaryImport:	Unused static import 'org.apache.lucene.util.RamUsageEstimator.*'
+/home/arnaik/code-review-test-projects/java/test833/test833.java:21:	UnnecessaryImport:	Unused static import 'org.apache.lucene.util.RamUsageTester.sizeOf'
+/home/arnaik/code-review-test-projects/java/test833/test833.java:35:	UnnecessaryImport:	Unused import 'org.apache.lucene.search.PhraseQuery'
+/home/arnaik/code-review-test-projects/java/test833/test833.java:221:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test833/test833.java:223:	UncommentedEmptyConstructor:	Document empty constructor
+/home/arnaik/code-review-test-projects/java/test833/test833.java:232:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test833/test833.java:237:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

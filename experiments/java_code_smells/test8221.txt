@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test8221/test8221.java:19:	UnnecessaryImport:	Unused import 'com.google.api.codegen.config.FlatteningConfig'
+/home/arnaik/code-review-test-projects/java/test8221/test8221.java:25:	UnnecessaryImport:	Unused import 'com.google.api.codegen.transformer.DynamicLangApiMethodTransformer'
+/home/arnaik/code-review-test-projects/java/test8221/test8221.java:215:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

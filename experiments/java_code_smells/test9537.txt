@@ -1,0 +1,13 @@
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:20:	UnnecessaryImport:	Unused static import 'org.camunda.bpm.engine.impl.cmd.HistoryCleanupCmd.MAX_THREADS_NUMBER'
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:21:	UnnecessaryImport:	Unused static import 'org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull'
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:1051:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:1059:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:1392:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:1395:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:1400:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:1403:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:1407:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:1436:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:1442:	CloseResource:	Ensure that resources like this InputStreamReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:1721:	UnnecessaryReturn:	Unnecessary return statement
+/home/arnaik/code-review-test-projects/java/test9537/test9537.java:2449:	UselessParentheses:	Useless parentheses.

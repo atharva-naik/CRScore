@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test4526/test4526.java:17:	PackageCase:	Package name contains upper case characters
+/home/arnaik/code-review-test-projects/java/test4526/test4526.java:81:	UselessParentheses:	Useless parentheses.

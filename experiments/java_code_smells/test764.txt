@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test764/test764.java:51:	UnnecessaryImport:	Unused static import 'zipkin.internal.Util.propagateIfFatal'
+/home/arnaik/code-review-test-projects/java/test764/test764.java:140:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test764/test764.java:150:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test764/test764.java:193:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test764/test764.java:200:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test764/test764.java:203:	UncommentedEmptyMethodBody:	Document empty method body

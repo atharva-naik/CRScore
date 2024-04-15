@@ -1,0 +1,8 @@
+/home/arnaik/code-review-test-projects/java/test7948/test7948.java:8:	UnnecessaryImport:	Unused import 'javaslang.collection.*'
+/home/arnaik/code-review-test-projects/java/test7948/test7948.java:21:	UnnecessaryImport:	Unused import 'javaslang.control.*'
+/home/arnaik/code-review-test-projects/java/test7948/test7948.java:196:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/home/arnaik/code-review-test-projects/java/test7948/test7948.java:461:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Collection' is already in scope because it is imported in this file
+/home/arnaik/code-review-test-projects/java/test7948/test7948.java:504:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test7948/test7948.java:530:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test7948/test7948.java:572:	GenericsNaming:	Generics names should be a one letter long and upper case.
+/home/arnaik/code-review-test-projects/java/test7948/test7948.java:837:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.util': 'Collection' is already in scope because it is imported in this file

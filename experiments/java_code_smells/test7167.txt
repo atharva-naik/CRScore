@@ -1,0 +1,164 @@
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:127:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.gallery.data.base.SortingMode.DATE'
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:128:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.gallery.data.base.SortingMode.NAME'
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:129:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.gallery.data.base.SortingMode.NUMERIC'
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:130:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.gallery.data.base.SortingMode.SIZE'
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:131:	UnnecessaryImport:	Unused static import 'org.fossasia.phimpme.gallery.util.ThemeHelper.LIGHT_THEME'
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:138:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:139:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:150:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:158:	FinalFieldCouldBeStatic:	This final field could be made static
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:159:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:162:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:163:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:163:	UnusedPrivateField:	Avoid unused private fields such as 'media'.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:164:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:166:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:171:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:254:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:266:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:313:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:315:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:317:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:333:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:336:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:337:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:338:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:353:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:364:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:366:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:412:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:523:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:550:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:565:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:595:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:725:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:727:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:770:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:771:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:786:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:803:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:871:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:894:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:927:	ClassNamingConventions:	The class name 'initAllPhotos' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:927:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:948:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:987:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1092:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1094:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1157:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1159:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1166:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1250:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1252:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1313:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1409:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1412:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1413:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1435:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1446:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1454:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1487:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1512:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1522:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1526:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1530:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1532:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1584:	DefaultLabelNotLastInSwitchStmt:	The default label should be the last label in a switch statement
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1609:	DefaultLabelNotLastInSwitchStmt:	The default label should be the last label in a switch statement
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1628:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1629:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1670:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1676:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1689:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1701:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1703:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1710:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1736:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1760:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1770:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1811:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1815:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1817:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1824:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1825:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1830:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1832:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1875:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1879:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1911:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1947:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1962:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:1970:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2031:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2040:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2053:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2067:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2089:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2104:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2106:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2109:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2155:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2157:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2159:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2254:	ClassNamingConventions:	The class name 'affixMedia' doesn't match '[A-Z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2269:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2275:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2281:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2282:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2296:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2297:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2302:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2303:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2309:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2366:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2371:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2396:	DefaultLabelNotLastInSwitchStmt:	The default label should be the last label in a switch statement
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2435:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2446:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2449:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2486:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2494:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2496:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2536:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2543:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2591:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2602:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2621:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2718:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2734:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2736:	LocalVariableNamingConventions:	The final local variable name 'IMAGE_MAX_SIZE' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2746:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2767:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2774:	DoNotCallGarbageCollectionExplicitly:	Do not explicitly trigger a garbage collection.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2803:	AssignmentInOperand:	Avoid assignments in operands
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2804:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2827:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2857:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2859:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2863:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2866:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2869:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2895:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2903:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2915:	CloseResource:	Ensure that resources like this BufferedInputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2916:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2919:	CloseResource:	Ensure that resources like this ZipOutputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2923:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2924:	CloseResource:	Ensure that resources like this FileInputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2930:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2933:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2968:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:2996:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3015:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3023:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3045:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3055:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3087:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3111:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3137:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3163:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3192:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3192:	SingularField:	Perhaps 'success' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3231:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3233:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7167/test7167.java:3235:	ControlStatementBraces:	This statement should have braces

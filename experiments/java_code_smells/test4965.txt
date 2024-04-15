@@ -1,0 +1,5 @@
+/home/arnaik/code-review-test-projects/java/test4965/test4965.java:26:	UnnecessaryImport:	Unused import 'io.servicecomb.foundation.common.net.NetUtils'
+/home/arnaik/code-review-test-projects/java/test4965/test4965.java:34:	UnnecessaryImport:	Duplicate import 'org.slf4j.Logger'
+/home/arnaik/code-review-test-projects/java/test4965/test4965.java:35:	UnnecessaryImport:	Duplicate import 'org.slf4j.LoggerFactory'
+/home/arnaik/code-review-test-projects/java/test4965/test4965.java:36:	UnnecessaryImport:	Duplicate import 'org.springframework.stereotype.Component'
+/home/arnaik/code-review-test-projects/java/test4965/test4965.java:67:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

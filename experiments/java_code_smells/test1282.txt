@@ -1,0 +1,6 @@
+/home/arnaik/code-review-test-projects/java/test1282/test1282.java:47:	SingularField:	Perhaps 'mAllergenDao' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test1282/test1282.java:73:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test1282/test1282.java:74:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test1282/test1282.java:81:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test1282/test1282.java:124:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test1282/test1282.java:125:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case

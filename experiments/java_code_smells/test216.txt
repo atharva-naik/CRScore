@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test216/test216.java:32:	UnnecessaryImport:	Unused import 'com.salesforce.androidsdk.phonegap.app.SalesforceHybridSDKManager'
+/home/arnaik/code-review-test-projects/java/test216/test216.java:130:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test216/test216.java:170:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test216/test216.java:174:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

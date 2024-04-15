@@ -1,0 +1,8 @@
+/home/arnaik/code-review-test-projects/java/test2901/test2901.java:60:	UnusedPrivateField:	Avoid unused private fields such as 'specialCharacters'.
+/home/arnaik/code-review-test-projects/java/test2901/test2901.java:89:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'showFileBrowser': the method is declared in an interface type
+/home/arnaik/code-review-test-projects/java/test2901/test2901.java:119:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2901/test2901.java:123:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test2901/test2901.java:135:	UnnecessaryReturn:	Unnecessary return statement
+/home/arnaik/code-review-test-projects/java/test2901/test2901.java:144:	UnnecessaryReturn:	Unnecessary return statement
+/home/arnaik/code-review-test-projects/java/test2901/test2901.java:208:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test2901/test2901.java:209:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use

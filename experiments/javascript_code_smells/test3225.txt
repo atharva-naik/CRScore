@@ -1,0 +1,78 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 1, col 1, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 1, col 8, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 1, col 26, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 3, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 3, col 16, Expected '(string)' and instead saw 'Manifest'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 4, col 8, 'android' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 4, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 4, col 16, Expected '(string)' and instead saw 'content'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 4, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 4, col 23, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 4, col 23, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 4, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 4, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 5, col 8, 'android' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 5, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 5, col 16, Expected '(string)' and instead saw 'content'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 5, col 23, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 5, col 23, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 5, col 23, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 5, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 5, col 27, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 6, col 8, 'android' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 6, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 6, col 16, Expected '(string)' and instead saw 'graphics'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 6, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 6, col 24, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 6, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 6, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 6, col 25, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 7, col 8, 'android' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 7, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 7, col 16, Expected '(string)' and instead saw 'graphics'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 7, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 7, col 24, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 7, col 24, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 7, col 25, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 7, col 25, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 8, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 8, col 8, 'android' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 8, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 8, col 16, Expected '(string)' and instead saw 'net'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 8, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 8, col 19, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 8, col 19, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 8, col 20, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 8, col 20, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 9, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 9, col 8, 'android' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 9, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 9, col 16, Expected '(string)' and instead saw 'os'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 9, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 9, col 18, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 9, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 9, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 9, col 19, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 10, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 10, col 8, 'android' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 10, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 10, col 16, Expected '(string)' and instead saw 'os'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 10, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 10, col 18, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 10, col 18, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 10, col 19, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 10, col 19, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 11, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 11, col 8, 'android' has already been declared.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 11, col 15, Expected 'from' and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 11, col 16, Expected '(string)' and instead saw 'provider'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 11, col 24, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 11, col 24, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3225/test3225.js: line 11, col 24, Too many errors. (2% scanned).
+
+76 errors

@@ -1,0 +1,3 @@
+/home/arnaik/code-review-test-projects/java/test3532/test3532.java:35:	UnnecessaryImport:	Unused static import 'openfoodfacts.github.scrachx.openfood.utils.Utils.bold'
+/home/arnaik/code-review-test-projects/java/test3532/test3532.java:36:	UnnecessaryImport:	Unused static import 'openfoodfacts.github.scrachx.openfood.utils.Utils.getRoundNumber'
+/home/arnaik/code-review-test-projects/java/test3532/test3532.java:120:	UselessQualifiedThis:	Useless qualified this usage in the same class.

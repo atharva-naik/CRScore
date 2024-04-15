@@ -1,0 +1,19 @@
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:52:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:69:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:120:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:122:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:122:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:124:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:129:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:147:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:152:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:165:	SimplifyConditional:	No need to check for null before an instanceof
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:176:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:212:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:218:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:219:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:220:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:250:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:257:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:292:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test4574/test4574.java:314:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead

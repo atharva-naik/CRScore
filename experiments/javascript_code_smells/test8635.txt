@@ -1,0 +1,53 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 1, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 1, col 32, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 2, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 2, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 2, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 3, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 4, col 77, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 5, col 55, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 6, col 61, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 7, col 65, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 8, col 43, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 9, col 47, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 10, col 57, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 20, col 40, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 22, col 18, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 32, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 42, col 41, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 53, col 34, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 56, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 56, col 81, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 58, col 16, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 62, col 5, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 63, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 64, col 60, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 65, col 9, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 67, col 4, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 72, col 18, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 73, col 18, Class properties must be methods. Expected '(' but instead saw '='.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 73, col 28, Expected an identifier and instead saw '../package.json'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 73, col 45, 'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 73, col 46, Expected an identifier and instead saw '.'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 75, col 3, Class properties must be methods. Expected '(' but instead saw 'constructor'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 76, col 22, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 77, col 42, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 78, col 49, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 79, col 73, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 80, col 39, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 81, col 45, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 82, col 27, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 83, col 18, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 88, col 10, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8635/test8635.js: line 88, col 10, Unrecoverable syntax error. (14% scanned).
+
+51 errors

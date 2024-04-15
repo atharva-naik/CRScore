@@ -1,0 +1,22 @@
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:177:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:255:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:273:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:275:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:301:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:341:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:342:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:344:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'pod'
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:369:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:370:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:392:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:416:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:425:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:438:	UnusedFormalParameter:	Avoid unused method parameters such as 'executionId'.
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:449:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:463:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:464:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:509:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:512:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:543:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:566:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3464/test3464.java:572:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

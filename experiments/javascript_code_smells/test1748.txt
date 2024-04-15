@@ -1,0 +1,4 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test1748/test1748.js: line 26, col 20, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test1748/test1748.js: line 29, col 25, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+
+2 errors

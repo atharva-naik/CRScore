@@ -1,0 +1,30 @@
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:19:	UnnecessaryImport:	Unused static import 'azkaban.ServiceProvider.SERVICE_PROVIDER'
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:190:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:236:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:242:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:259:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'ProcessBuilder' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:260:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'ProcessBuilder' is already in scope because it is declared in java.lang
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:265:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:266:	CloseResource:	Ensure that resources like this BufferedReader object are closed after use
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:287:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:290:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:296:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:317:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:321:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:338:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:341:	CloseResource:	Ensure that resources like this URLClassLoader object are closed after use
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:346:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:347:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:365:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:382:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:390:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:392:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:401:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:406:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:413:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:422:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:439:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:463:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:677:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:699:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test8627/test8627.java:702:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

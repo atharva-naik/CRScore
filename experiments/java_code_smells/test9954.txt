@@ -1,0 +1,116 @@
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:118:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:161:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:170:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:172:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:185:	SingularField:	Perhaps 'mThread' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:188:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:190:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:217:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:223:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:310:	UnnecessarySemicolon:	Unnecessary semicolon
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:340:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:357:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:403:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:426:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:463:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:679:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:681:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:690:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:923:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:942:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:958:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:973:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:979:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1009:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1014:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1035:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1050:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1074:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1122:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1141:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1200:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1268:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1294:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1315:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1351:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1400:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1405:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1425:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1429:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1518:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1555:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1568:	UnusedFormalParameter:	Avoid unused method parameters such as 'folder'.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1568:	UnusedFormalParameter:	Avoid unused method parameters such as 'progress'.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1593:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1622:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1647:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1650:	UncommentedEmptyMethodBody:	Document empty method body
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1654:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1672:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1750:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1780:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1794:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1858:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'MessagingController': 'SYNC_FLAGS' is already in scope because it is declared in an enclosing type
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1941:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:1975:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2283:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2290:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2308:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2413:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2464:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2478:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2524:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2529:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2668:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2682:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2717:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:2729:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3177:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3294:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3336:	UnusedFormalParameter:	Avoid unused method parameters such as 'openFolder'.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3465:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3481:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3505:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3515:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3520:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3525:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3812:	UnusedFormalParameter:	Avoid unused method parameters such as 'listener'.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3842:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:3850:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4024:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4034:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4049:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4077:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4102:	UnusedFormalParameter:	Avoid unused method parameters such as 'command'.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4184:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4189:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4198:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4279:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4303:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4323:	UnusedFormalParameter:	Avoid unused method parameters such as 'prefs'.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4334:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4339:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4387:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4415:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4421:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4441:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4602:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4606:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4613:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4819:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4980:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4981:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:4982:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5031:	UnusedFormalParameter:	Avoid unused method parameters such as 'context'.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5229:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5262:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5336:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5347:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5357:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5376:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5388:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5400:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5423:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5461:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5738:	FinalParameterInAbstractMethod:	Final parameter in abstract method
+/home/arnaik/code-review-test-projects/java/test9954/test9954.java:5738:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'act': the method is declared in an interface type

@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test563/test563.java:53:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test563/test563.java:54:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test563/test563.java:55:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test563/test563.java:56:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.

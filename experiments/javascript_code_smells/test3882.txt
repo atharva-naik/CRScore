@@ -1,0 +1,19 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 23, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 24, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 25, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 26, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 27, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 31, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 36, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 37, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 38, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 40, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 43, col 29, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 44, col 38, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 45, col 54, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 46, col 53, Unclosed string.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 56, col 18, Unclosed regular expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test3882/test3882.js: line 56, col 18, Unrecoverable syntax error. (42% scanned).
+
+17 errors

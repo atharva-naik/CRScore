@@ -1,0 +1,2 @@
+/home/arnaik/code-review-test-projects/java/test8621/test8621.java:46:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+/home/arnaik/code-review-test-projects/java/test8621/test8621.java:78:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Math': 'max' is already in scope

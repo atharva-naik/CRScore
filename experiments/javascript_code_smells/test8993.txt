@@ -1,0 +1,113 @@
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 23, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 24, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 25, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 26, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 27, col 1, 'import' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 30, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 31, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 32, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 32, col 23, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 32, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 33, col 74, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 34, col 75, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 37, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 37, col 24, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 37, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 40, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 40, col 41, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 40, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 42, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 42, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 42, col 22, 'rest operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 42, col 25, 'object rest property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 43, col 74, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 45, col 9, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 45, col 12, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 47, col 10, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 51, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 54, col 64, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 57, col 27, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 57, col 36, 'Trailing comma in arguments lists' is only available in ES8 (use 'esversion: 8').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 59, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 59, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 59, col 41, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 59, col 42, Expected ')' and instead saw 'DashboardPageSpeed'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 59, col 62, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 59, col 63, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 59, col 97, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 59, col 98, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 59, col 99, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 59, col 99, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 64, col 94, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 68, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 68, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 68, col 39, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 68, col 40, Expected ')' and instead saw 'DashboardPageSpeed'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 68, col 60, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 68, col 61, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 68, col 79, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 68, col 80, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 68, col 81, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 68, col 81, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 73, col 108, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 74, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 74, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 74, col 39, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 74, col 40, Expected ')' and instead saw 'DashboardPageSpeed'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 74, col 60, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 74, col 61, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 74, col 112, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 74, col 113, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 74, col 114, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 74, col 114, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 80, col 49, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 81, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 81, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 81, col 39, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 81, col 40, Expected ')' and instead saw 'DashboardPageSpeed'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 81, col 60, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 81, col 61, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 81, col 79, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 81, col 80, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 81, col 81, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 81, col 81, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 86, col 61, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 87, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 87, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 87, col 39, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 87, col 40, Expected ')' and instead saw 'DashboardPageSpeed'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 87, col 60, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 87, col 61, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 87, col 79, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 87, col 80, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 87, col 81, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 87, col 81, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 89, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 97, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 98, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 98, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 98, col 39, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 98, col 40, Expected ')' and instead saw 'DashboardPageSpeed'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 98, col 60, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 98, col 61, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 98, col 79, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 98, col 80, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 98, col 81, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 98, col 81, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 100, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 109, col 90, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 110, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 110, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 110, col 62, Expected an identifier and instead saw '<'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 110, col 63, Expected ')' and instead saw 'DashboardPageSpeed'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 110, col 83, Expected an identifier and instead saw '>'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 110, col 84, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 110, col 135, Missing initializer for constant '}'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 110, col 136, Missing semicolon.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 110, col 137, Expected an identifier and instead saw ')'.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 110, col 137, Expected an assignment or function call and instead saw an expression.
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 112, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/home/atharva/CMU/sem4/Directed Study/javascript/test8993/test8993.js: line 112, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+111 errors

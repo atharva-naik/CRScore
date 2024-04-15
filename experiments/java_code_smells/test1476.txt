@@ -1,0 +1,16 @@
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:51:	UnnecessaryImport:	Unused static import 'com.fsck.k9.Preferences.getEnumStringPref'
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:150:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:201:	UnusedPrivateField:	Avoid unused private fields such as 'mDisplayPreference'.
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:216:	SingularField:	Perhaps 'mMessageFormatAuto' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:368:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:968:	ReturnFromFinallyBlock:	Avoid returning from a finally block
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:991:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:1048:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:1180:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:1286:	UselessParentheses:	Useless parentheses.
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:1301:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:1522:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:1522:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:1607:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:1683:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/home/arnaik/code-review-test-projects/java/test1476/test1476.java:1765:	DefaultLabelNotLastInSwitchStmt:	The default label should be the last label in a switch statement

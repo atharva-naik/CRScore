@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test9720/test9720.java:39:	UnnecessaryImport:	Unused import 'com.salesforce.androidsdk.util.JSONObjectHelper'
+/home/arnaik/code-review-test-projects/java/test9720/test9720.java:78:	SingularField:	Perhaps 'testOauthKeys' could be replaced by a local variable.
+/home/arnaik/code-review-test-projects/java/test9720/test9720.java:513:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test9720/test9720.java:533:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test9720/test9720.java:553:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+/home/arnaik/code-review-test-projects/java/test9720/test9720.java:562:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9720/test9720.java:589:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9720/test9720.java:596:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9720/test9720.java:630:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test9720/test9720.java:726:	EmptyCatchBlock:	Avoid empty catch blocks

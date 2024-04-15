@@ -1,0 +1,33 @@
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:19:	UnnecessaryImport:	Unused static import 'org.apache.solr.common.params.CommonParams.ID'
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:73:	UnnecessaryImport:	Unused import 'org.apache.solr.store.blob.process.BlobDeleteManager'
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:74:	UnnecessaryImport:	Unused import 'org.apache.solr.store.blob.process.BlobDeleteProcessor'
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:75:	UnnecessaryImport:	Unused import 'org.apache.solr.store.shared.SharedStoreManager'
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:116:	UnusedPrivateField:	Avoid unused private fields such as 'runningMap'.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:118:	UnusedPrivateField:	Avoid unused private fields such as 'completedMap'.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:120:	UnusedPrivateField:	Avoid unused private fields such as 'failureMap'.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:122:	UnusedPrivateField:	Avoid unused private fields such as 'zkStats'.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:156:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:189:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:225:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:235:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:246:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:256:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:273:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:281:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:313:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:347:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:350:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:426:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:493:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:542:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:543:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:569:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:572:	AvoidThreadGroup:	Avoid using java.lang.ThreadGroup; it is not thread safe
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:576:	AvoidThreadGroup:	Avoid using java.lang.ThreadGroup; it is not thread safe
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:579:	UselessQualifiedThis:	Useless qualified this usage in the same class.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:583:	AvoidThreadGroup:	Avoid using java.lang.ThreadGroup; it is not thread safe
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:756:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:786:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:791:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:796:	EmptyCatchBlock:	Avoid empty catch blocks
+/home/arnaik/code-review-test-projects/java/test3861/test3861.java:963:	EmptyCatchBlock:	Avoid empty catch blocks

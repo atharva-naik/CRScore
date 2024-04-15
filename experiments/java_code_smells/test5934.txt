@@ -1,0 +1,4 @@
+/home/arnaik/code-review-test-projects/java/test5934/test5934.java:211:	LocalVariableNamingConventions:	The final local variable name 'PACKAGE_PREFIX' doesn't match '[a-z][a-zA-Z0-9]*'
+/home/arnaik/code-review-test-projects/java/test5934/test5934.java:213:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test5934/test5934.java:227:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+/home/arnaik/code-review-test-projects/java/test5934/test5934.java:264:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

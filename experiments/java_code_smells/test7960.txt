@@ -1,0 +1,10 @@
+/home/arnaik/code-review-test-projects/java/test7960/test7960.java:286:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'readCommit': the method is already in a final class
+/home/arnaik/code-review-test-projects/java/test7960/test7960.java:300:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'readCommit': the method is already in a final class
+/home/arnaik/code-review-test-projects/java/test7960/test7960.java:346:	EmptyControlStatement:	Empty else statement
+/home/arnaik/code-review-test-projects/java/test7960/test7960.java:431:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'readLatestCommit': the method is already in a final class
+/home/arnaik/code-review-test-projects/java/test7960/test7960.java:642:	ControlStatementBraces:	This statement should have braces
+/home/arnaik/code-review-test-projects/java/test7960/test7960.java:736:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'rollbackCommit': the method is already in a final class
+/home/arnaik/code-review-test-projects/java/test7960/test7960.java:762:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'prepareCommit': the method is already in a final class
+/home/arnaik/code-review-test-projects/java/test7960/test7960.java:774:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/home/arnaik/code-review-test-projects/java/test7960/test7960.java:791:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'finishCommit': the method is already in a final class
+/home/arnaik/code-review-test-projects/java/test7960/test7960.java:822:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'commit': the method is already in a final class

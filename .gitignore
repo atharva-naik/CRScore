@@ -161,6 +161,8 @@ manual_gold_labels_and_preds_analysis.csv
 #.idea/
 data/Comment_Generation
 data/Code_Refinement
+data/Tufano
+data/GPT_code_change_summ_labels.hf/
 src/scraping/gh_access_token.json
 save
 CodeBERT/CodeReviewer/code/sh/test_out.jsonl

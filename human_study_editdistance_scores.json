@@ -1,0 +1,802 @@
+[
+    {
+        "index": 8327,
+        "ground_truth": 0,
+        "knn": 102,
+        "lstm": 107,
+        "magicoder": 98,
+        "codereviewer": 124
+    },
+    {
+        "index": 1589,
+        "ground_truth": 0,
+        "knn": 78,
+        "lstm": 77,
+        "magicoder": 606,
+        "codereviewer": 81
+    },
+    {
+        "index": 305,
+        "ground_truth": 0,
+        "knn": 133,
+        "lstm": 137,
+        "magicoder": 135,
+        "codereviewer": 154
+    },
+    {
+        "index": 9459,
+        "ground_truth": 0,
+        "knn": 124,
+        "lstm": 48,
+        "magicoder": 85,
+        "codereviewer": 35
+    },
+    {
+        "index": 3752,
+        "ground_truth": 0,
+        "knn": 56,
+        "lstm": 49,
+        "magicoder": 52,
+        "codereviewer": 57
+    },
+    {
+        "index": 3351,
+        "ground_truth": 0,
+        "knn": 59,
+        "lstm": 22,
+        "magicoder": 658,
+        "codereviewer": 22
+    },
+    {
+        "index": 3058,
+        "ground_truth": 0,
+        "knn": 97,
+        "lstm": 97,
+        "magicoder": 251,
+        "codereviewer": 93
+    },
+    {
+        "index": 1942,
+        "ground_truth": 0,
+        "knn": 161,
+        "lstm": 176,
+        "magicoder": 221,
+        "codereviewer": 171
+    },
+    {
+        "index": 9381,
+        "ground_truth": 0,
+        "knn": 63,
+        "lstm": 66,
+        "magicoder": 671,
+        "codereviewer": 68
+    },
+    {
+        "index": 1440,
+        "ground_truth": 0,
+        "knn": 243,
+        "lstm": 39,
+        "magicoder": 173,
+        "codereviewer": 38
+    },
+    {
+        "index": 8752,
+        "ground_truth": 0,
+        "knn": 503,
+        "lstm": 73,
+        "magicoder": 587,
+        "codereviewer": 80
+    },
+    {
+        "index": 8887,
+        "ground_truth": 0,
+        "knn": 72,
+        "lstm": 64,
+        "magicoder": 95,
+        "codereviewer": 49
+    },
+    {
+        "index": 6591,
+        "ground_truth": 0,
+        "knn": 184,
+        "lstm": 88,
+        "magicoder": 268,
+        "codereviewer": 55
+    },
+    {
+        "index": 1092,
+        "ground_truth": 0,
+        "knn": 77,
+        "lstm": 39,
+        "magicoder": 75,
+        "codereviewer": 49
+    },
+    {
+        "index": 6985,
+        "ground_truth": 0,
+        "knn": 97,
+        "lstm": 90,
+        "magicoder": 128,
+        "codereviewer": 104
+    },
+    {
+        "index": 5294,
+        "ground_truth": 0,
+        "knn": 48,
+        "lstm": 33,
+        "magicoder": 234,
+        "codereviewer": 42
+    },
+    {
+        "index": 377,
+        "ground_truth": 0,
+        "knn": 468,
+        "lstm": 62,
+        "magicoder": 418,
+        "codereviewer": 58
+    },
+    {
+        "index": 363,
+        "ground_truth": 0,
+        "knn": 132,
+        "lstm": 55,
+        "magicoder": 372,
+        "codereviewer": 57
+    },
+    {
+        "index": 1130,
+        "ground_truth": 0,
+        "knn": 123,
+        "lstm": 46,
+        "magicoder": 980,
+        "codereviewer": 31
+    },
+    {
+        "index": 2636,
+        "ground_truth": 0,
+        "knn": 160,
+        "lstm": 161,
+        "magicoder": 144,
+        "codereviewer": 165
+    },
+    {
+        "index": 2719,
+        "ground_truth": 0,
+        "knn": 126,
+        "lstm": 140,
+        "magicoder": 176,
+        "codereviewer": 137
+    },
+    {
+        "index": 6222,
+        "ground_truth": 0,
+        "knn": 61,
+        "lstm": 59,
+        "magicoder": 323,
+        "codereviewer": 56
+    },
+    {
+        "index": 6458,
+        "ground_truth": 0,
+        "knn": 85,
+        "lstm": 51,
+        "magicoder": 58,
+        "codereviewer": 55
+    },
+    {
+        "index": 295,
+        "ground_truth": 0,
+        "knn": 162,
+        "lstm": 52,
+        "magicoder": 201,
+        "codereviewer": 98
+    },
+    {
+        "index": 5967,
+        "ground_truth": 0,
+        "knn": 89,
+        "lstm": 76,
+        "magicoder": 74,
+        "codereviewer": 72
+    },
+    {
+        "index": 2084,
+        "ground_truth": 0,
+        "knn": 336,
+        "lstm": 354,
+        "magicoder": 563,
+        "codereviewer": 348
+    },
+    {
+        "index": 7760,
+        "ground_truth": 0,
+        "knn": 95,
+        "lstm": 69,
+        "magicoder": 390,
+        "codereviewer": 68
+    },
+    {
+        "index": 6958,
+        "ground_truth": 0,
+        "knn": 34,
+        "lstm": 32,
+        "magicoder": 74,
+        "codereviewer": 38
+    },
+    {
+        "index": 7610,
+        "ground_truth": 0,
+        "knn": 72,
+        "lstm": 86,
+        "magicoder": 315,
+        "codereviewer": 84
+    },
+    {
+        "index": 5768,
+        "ground_truth": 0,
+        "knn": 81,
+        "lstm": 83,
+        "magicoder": 172,
+        "codereviewer": 91
+    },
+    {
+        "index": 4342,
+        "ground_truth": 0,
+        "knn": 213,
+        "lstm": 217,
+        "magicoder": 393,
+        "codereviewer": 211
+    },
+    {
+        "index": 2339,
+        "ground_truth": 0,
+        "knn": 107,
+        "lstm": 85,
+        "magicoder": 82,
+        "codereviewer": 87
+    },
+    {
+        "index": 4694,
+        "ground_truth": 0,
+        "knn": 48,
+        "lstm": 48,
+        "magicoder": 144,
+        "codereviewer": 53
+    },
+    {
+        "index": 8467,
+        "ground_truth": 0,
+        "knn": 206,
+        "lstm": 76,
+        "magicoder": 82,
+        "codereviewer": 80
+    },
+    {
+        "index": 3725,
+        "ground_truth": 0,
+        "knn": 59,
+        "lstm": 54,
+        "magicoder": 137,
+        "codereviewer": 56
+    },
+    {
+        "index": 66,
+        "ground_truth": 0,
+        "knn": 166,
+        "lstm": 87,
+        "magicoder": 89,
+        "codereviewer": 31
+    },
+    {
+        "index": 2039,
+        "ground_truth": 0,
+        "knn": 344,
+        "lstm": 353,
+        "magicoder": 325,
+        "codereviewer": 368
+    },
+    {
+        "index": 6046,
+        "ground_truth": 0,
+        "knn": 170,
+        "lstm": 171,
+        "magicoder": 243,
+        "codereviewer": 195
+    },
+    {
+        "index": 4707,
+        "ground_truth": 0,
+        "knn": 73,
+        "lstm": 67,
+        "magicoder": 536,
+        "codereviewer": 69
+    },
+    {
+        "index": 1987,
+        "ground_truth": 0,
+        "knn": 157,
+        "lstm": 138,
+        "magicoder": 535,
+        "codereviewer": 136
+    },
+    {
+        "index": 2816,
+        "ground_truth": 0,
+        "knn": 137,
+        "lstm": 132,
+        "magicoder": 124,
+        "codereviewer": 134
+    },
+    {
+        "index": 4674,
+        "ground_truth": 0,
+        "knn": 77,
+        "lstm": 27,
+        "magicoder": 178,
+        "codereviewer": 41
+    },
+    {
+        "index": 1099,
+        "ground_truth": 0,
+        "knn": 74,
+        "lstm": 70,
+        "magicoder": 74,
+        "codereviewer": 66
+    },
+    {
+        "index": 988,
+        "ground_truth": 0,
+        "knn": 266,
+        "lstm": 224,
+        "magicoder": 225,
+        "codereviewer": 265
+    },
+    {
+        "index": 5569,
+        "ground_truth": 0,
+        "knn": 267,
+        "lstm": 339,
+        "magicoder": 312,
+        "codereviewer": 335
+    },
+    {
+        "index": 1479,
+        "ground_truth": 0,
+        "knn": 77,
+        "lstm": 57,
+        "magicoder": 68,
+        "codereviewer": 63
+    },
+    {
+        "index": 5282,
+        "ground_truth": 0,
+        "knn": 101,
+        "lstm": 95,
+        "magicoder": 142,
+        "codereviewer": 104
+    },
+    {
+        "index": 5088,
+        "ground_truth": 0,
+        "knn": 255,
+        "lstm": 60,
+        "magicoder": 397,
+        "codereviewer": 70
+    },
+    {
+        "index": 8779,
+        "ground_truth": 0,
+        "knn": 162,
+        "lstm": 75,
+        "magicoder": 52,
+        "codereviewer": 39
+    },
+    {
+        "index": 4033,
+        "ground_truth": 0,
+        "knn": 176,
+        "lstm": 57,
+        "magicoder": 340,
+        "codereviewer": 60
+    },
+    {
+        "index": 675,
+        "ground_truth": 0,
+        "knn": 232,
+        "lstm": 272,
+        "magicoder": 214,
+        "codereviewer": 267
+    },
+    {
+        "index": 6643,
+        "ground_truth": 0,
+        "knn": 117,
+        "lstm": 83,
+        "magicoder": 129,
+        "codereviewer": 82
+    },
+    {
+        "index": 7858,
+        "ground_truth": 0,
+        "knn": 88,
+        "lstm": 88,
+        "magicoder": 354,
+        "codereviewer": 88
+    },
+    {
+        "index": 1908,
+        "ground_truth": 0,
+        "knn": 97,
+        "lstm": 100,
+        "magicoder": 394,
+        "codereviewer": 90
+    },
+    {
+        "index": 5529,
+        "ground_truth": 0,
+        "knn": 18,
+        "lstm": 21,
+        "magicoder": 768,
+        "codereviewer": 34
+    },
+    {
+        "index": 937,
+        "ground_truth": 0,
+        "knn": 41,
+        "lstm": 44,
+        "magicoder": 395,
+        "codereviewer": 74
+    },
+    {
+        "index": 6554,
+        "ground_truth": 0,
+        "knn": 115,
+        "lstm": 116,
+        "magicoder": 274,
+        "codereviewer": 126
+    },
+    {
+        "index": 3575,
+        "ground_truth": 0,
+        "knn": 176,
+        "lstm": 106,
+        "magicoder": 159,
+        "codereviewer": 110
+    },
+    {
+        "index": 9348,
+        "ground_truth": 0,
+        "knn": 160,
+        "lstm": 175,
+        "magicoder": 232,
+        "codereviewer": 196
+    },
+    {
+        "index": 7165,
+        "ground_truth": 0,
+        "knn": 203,
+        "lstm": 69,
+        "magicoder": 77,
+        "codereviewer": 78
+    },
+    {
+        "index": 7091,
+        "ground_truth": 0,
+        "knn": 377,
+        "lstm": 362,
+        "magicoder": 308,
+        "codereviewer": 381
+    },
+    {
+        "index": 9794,
+        "ground_truth": 0,
+        "knn": 86,
+        "lstm": 83,
+        "magicoder": 140,
+        "codereviewer": 99
+    },
+    {
+        "index": 4238,
+        "ground_truth": 0,
+        "knn": 243,
+        "lstm": 20,
+        "magicoder": 77,
+        "codereviewer": 20
+    },
+    {
+        "index": 6731,
+        "ground_truth": 0,
+        "knn": 155,
+        "lstm": 136,
+        "magicoder": 133,
+        "codereviewer": 142
+    },
+    {
+        "index": 2142,
+        "ground_truth": 0,
+        "knn": 183,
+        "lstm": 60,
+        "magicoder": 215,
+        "codereviewer": 56
+    },
+    {
+        "index": 7917,
+        "ground_truth": 0,
+        "knn": 50,
+        "lstm": 42,
+        "magicoder": 198,
+        "codereviewer": 55
+    },
+    {
+        "index": 656,
+        "ground_truth": 0,
+        "knn": 51,
+        "lstm": 36,
+        "magicoder": 53,
+        "codereviewer": 39
+    },
+    {
+        "index": 330,
+        "ground_truth": 0,
+        "knn": 76,
+        "lstm": 56,
+        "magicoder": 60,
+        "codereviewer": 49
+    },
+    {
+        "index": 6788,
+        "ground_truth": 0,
+        "knn": 39,
+        "lstm": 51,
+        "magicoder": 155,
+        "codereviewer": 36
+    },
+    {
+        "index": 2201,
+        "ground_truth": 0,
+        "knn": 57,
+        "lstm": 49,
+        "magicoder": 442,
+        "codereviewer": 55
+    },
+    {
+        "index": 7789,
+        "ground_truth": 0,
+        "knn": 97,
+        "lstm": 99,
+        "magicoder": 195,
+        "codereviewer": 110
+    },
+    {
+        "index": 2970,
+        "ground_truth": 0,
+        "knn": 39,
+        "lstm": 37,
+        "magicoder": 453,
+        "codereviewer": 44
+    },
+    {
+        "index": 697,
+        "ground_truth": 0,
+        "knn": 52,
+        "lstm": 49,
+        "magicoder": 251,
+        "codereviewer": 51
+    },
+    {
+        "index": 8736,
+        "ground_truth": 0,
+        "knn": 46,
+        "lstm": 42,
+        "magicoder": 52,
+        "codereviewer": 38
+    },
+    {
+        "index": 2242,
+        "ground_truth": 0,
+        "knn": 105,
+        "lstm": 56,
+        "magicoder": 55,
+        "codereviewer": 60
+    },
+    {
+        "index": 8825,
+        "ground_truth": 0,
+        "knn": 253,
+        "lstm": 71,
+        "magicoder": 381,
+        "codereviewer": 65
+    },
+    {
+        "index": 920,
+        "ground_truth": 0,
+        "knn": 62,
+        "lstm": 62,
+        "magicoder": 82,
+        "codereviewer": 61
+    },
+    {
+        "index": 5358,
+        "ground_truth": 0,
+        "knn": 41,
+        "lstm": 24,
+        "magicoder": 158,
+        "codereviewer": 44
+    },
+    {
+        "index": 3910,
+        "ground_truth": 0,
+        "knn": 57,
+        "lstm": 59,
+        "magicoder": 360,
+        "codereviewer": 57
+    },
+    {
+        "index": 6454,
+        "ground_truth": 0,
+        "knn": 35,
+        "lstm": 24,
+        "magicoder": 103,
+        "codereviewer": 47
+    },
+    {
+        "index": 9217,
+        "ground_truth": 0,
+        "knn": 186,
+        "lstm": 188,
+        "magicoder": 406,
+        "codereviewer": 196
+    },
+    {
+        "index": 5159,
+        "ground_truth": 0,
+        "knn": 78,
+        "lstm": 87,
+        "magicoder": 81,
+        "codereviewer": 84
+    },
+    {
+        "index": 2312,
+        "ground_truth": 0,
+        "knn": 158,
+        "lstm": 151,
+        "magicoder": 289,
+        "codereviewer": 186
+    },
+    {
+        "index": 5210,
+        "ground_truth": 0,
+        "knn": 93,
+        "lstm": 58,
+        "magicoder": 38,
+        "codereviewer": 37
+    },
+    {
+        "index": 5037,
+        "ground_truth": 0,
+        "knn": 126,
+        "lstm": 56,
+        "magicoder": 56,
+        "codereviewer": 55
+    },
+    {
+        "index": 2950,
+        "ground_truth": 0,
+        "knn": 100,
+        "lstm": 80,
+        "magicoder": 82,
+        "codereviewer": 90
+    },
+    {
+        "index": 9739,
+        "ground_truth": 0,
+        "knn": 115,
+        "lstm": 108,
+        "magicoder": 303,
+        "codereviewer": 111
+    },
+    {
+        "index": 3769,
+        "ground_truth": 0,
+        "knn": 51,
+        "lstm": 53,
+        "magicoder": 903,
+        "codereviewer": 64
+    },
+    {
+        "index": 9410,
+        "ground_truth": 0,
+        "knn": 84,
+        "lstm": 87,
+        "magicoder": 173,
+        "codereviewer": 85
+    },
+    {
+        "index": 1220,
+        "ground_truth": 0,
+        "knn": 81,
+        "lstm": 103,
+        "magicoder": 215,
+        "codereviewer": 85
+    },
+    {
+        "index": 9541,
+        "ground_truth": 0,
+        "knn": 421,
+        "lstm": 475,
+        "magicoder": 452,
+        "codereviewer": 477
+    },
+    {
+        "index": 2725,
+        "ground_truth": 0,
+        "knn": 98,
+        "lstm": 86,
+        "magicoder": 313,
+        "codereviewer": 100
+    },
+    {
+        "index": 8455,
+        "ground_truth": 0,
+        "knn": 295,
+        "lstm": 307,
+        "magicoder": 275,
+        "codereviewer": 307
+    },
+    {
+        "index": 3859,
+        "ground_truth": 0,
+        "knn": 159,
+        "lstm": 43,
+        "magicoder": 247,
+        "codereviewer": 48
+    },
+    {
+        "index": 2632,
+        "ground_truth": 0,
+        "knn": 53,
+        "lstm": 47,
+        "magicoder": 42,
+        "codereviewer": 35
+    },
+    {
+        "index": 7570,
+        "ground_truth": 0,
+        "knn": 40,
+        "lstm": 64,
+        "magicoder": 260,
+        "codereviewer": 69
+    },
+    {
+        "index": 6155,
+        "ground_truth": 0,
+        "knn": 250,
+        "lstm": 42,
+        "magicoder": 312,
+        "codereviewer": 34
+    },
+    {
+        "index": 4347,
+        "ground_truth": 0,
+        "knn": 103,
+        "lstm": 98,
+        "magicoder": 288,
+        "codereviewer": 110
+    },
+    {
+        "index": 8882,
+        "ground_truth": 0,
+        "knn": 173,
+        "lstm": 38,
+        "magicoder": 46,
+        "codereviewer": 64
+    },
+    {
+        "index": 3385,
+        "ground_truth": 0,
+        "knn": 161,
+        "lstm": 65,
+        "magicoder": 82,
+        "codereviewer": 73
+    }
+]

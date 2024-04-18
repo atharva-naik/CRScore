@@ -3,11 +3,14 @@ import os
 import re
 import json
 import torch
+import openai
 import warnings
 from typing import *
 from tqdm import tqdm
-from transformers import logging
-from transformers import pipeline
+from openai import OpenAI
+from datasets import Dataset
+from dotenv import load_dotenv
+from transformers import logging, pipeline, AutoTokenizer, AutoModelForCausalLM
 from src.datautils import read_jsonl, remove_patch_header, generate_added_and_removed_lines_from_patch
 # from CodeBERT.CodeReviewer.code.evaluator.smooth_bleu import bleu_fromstr
 
@@ -21,6 +24,45 @@ MAGICODER_PROMPT = """You are an exceptionally intelligent coding assistant that
 
 @@ Response
 """
+
+load_dotenv()
+
+class OpenAIEngine:
+    def __init__(self, path: str="gpt-4-0613"):
+        self.model_path = path
+        # secret_key = os.environ["OPENAI_ACCESS_TOKEN"]
+        # openai.organization = "org-rBWf7SAdxrBRh3V0O34DlEFT"
+        # openai.organization = "Carnegie Mellon University"
+        # openai.api_key = secret_key
+        self.client = OpenAI()
+
+    def get_GPT_response(self, prompt: str, **args) -> dict:
+        prompt = prompt.strip()
+        response = openai.Completion.create(
+            engine=self.model_path,
+            prompt=prompt, **args,
+        )
+
+        return response.to_dict()
+
+    def __call__(self, prompt: str, temperature=0.2, max_tokens=256,
+                 top_p=0.95, frequency_penalty=0.0, presence_penalty=0.0):
+        # responses = self.get_GPT_response(
+        #     prompt=prompt, temperature=temperature,
+        #     frequency_penalty=frequency_penalty,
+        #     max_tokens=max_tokens, top_p=top_p,
+        #     presence_penalty=presence_penalty,
+        # )
+        response = self.client.chat.completions.create(
+            model=self.model_path,
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            temperature=temperature,
+            max_tokens=max_tokens,
+            top_p=top_p,
+        )
+        return response.choices[0].message.content.strip()
 
 # MAGICODER_CODEREVIEW_PROMPT_PREFIX = """Review the code changes shown below by providing appropriate feedback. Don't just summarize the code change, instead point out how they can be corrected if there are any mistakes or how they can be improved:
 
@@ -201,6 +243,183 @@ def test_magicoder_codesumm(code_change):
     
     return result
 
+def gen_GPT_labels(
+        save_dir: str, data_path: str="./data/Comment_Generation/msg-valid.jsonl", 
+        model_name: str="gpt-4-0613", sample_size: int=1000,
+    ):
+    import random
+    os.makedirs(save_dir, exist_ok=True)
+    use_exemplars = True
+    write_path = os.path.join(save_dir, model_name+".jsonl")
+    # create a pool of samples that are not too long.
+    ctr, data = 0, read_jsonl(data_path)
+    candidates = []
+    for rec in data:
+        if 10 <= len(rec['patch']) <= 1000:
+            ctr += 1
+            candidates.append(rec)
+    print(f"{ctr} samples between 10 and 2000 chars")
+    random.seed(42)
+    sampled_data = random.sample(candidates, k=sample_size)
+    print(len(sampled_data))
+
+    # check if user wants to overwrite the data.
+    if os.path.exists(write_path):
+        overwrite_file = input("overwrite (y/n)?").lower().strip()
+        if overwrite_file not in ["y", "yes"]: exit()
+    open(write_path, "w")
+    id = 0
+    preds = []
+    responses = []
+    instructions = []
+    LLM = OpenAIEngine(path=model_name)
+    for rec in tqdm(sampled_data, desc=f"{model_name} inference"):
+        # if skip is not None and id < skip: 
+        #     id += 1
+        #     continue
+        # code change summarize
+        lines_added, lines_removed = generate_added_and_removed_lines_from_patch(rec['patch'])
+        NLA = len(lines_added)
+        NLR = len(lines_removed)
+        lines_added = "\n".join(lines_added)[:4000]
+        lines_removed = "\n".join(lines_removed)[:4000]
+
+        if NLA != 0 and NLR != 0:
+            if use_exemplars:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT.format(
+                    code_change=rec['patch'][:4000],
+                    lines_removed=lines_removed,
+                    lines_added=lines_added,
+                ) 
+            else: 
+                prompt = MAGICODER_CODESUMM_LINECHANGE_PROMPT.format(
+                    code_change=rec['patch'][:4000],
+                    lines_removed=lines_removed,
+                    lines_added=lines_added,
+                ) 
+        elif NLR == 0:
+            if use_exemplars:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_NOLR.format(
+                    code_change=rec['patch'][:4000],
+                    lines_added=lines_added,
+                ) 
+            else:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_PROMPT_NOLR.format(
+                    code_change=rec['patch'][:4000],
+                    lines_added=lines_added,
+                )
+        elif NLA == 0:
+            if use_exemplars:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_NOLA.format(
+                    code_change=rec['patch'][:4000],
+                    lines_removed=lines_removed,
+                ) 
+            else: 
+                prompt = MAGICODER_CODESUMM_LINECHANGE_PROMPT_NOLA.format(
+                    code_change=rec['patch'][:4000],
+                    lines_removed=lines_removed,
+                )
+        else: continue   
+        op = LLM(prompt)
+        instructions.append(prompt)
+        responses.append(op)
+        with open(write_path, "a") as f:
+            f.write(json.dumps({"id": id, "code_change": rec['patch'], 'prompt': prompt, 'change_summary': op})+"\n")
+            preds.append(rec['patch'])
+        id += 1
+
+    dataset = Dataset.from_dict({"instruction": instructions, "response": responses})
+    dataset.save_to_disk("./data/GPT_code_change_summ_labels.hf") 
+
+def main_no_pipeline(
+        save_dir: str, data_path: str="./data/Comment_Generation/msg-test.jsonl", 
+        model_path: str="ise-uiuc/Magicoder-S-DS-6.7B", device: str="cuda:0",
+        model_name: str="Magicoder-S-DS-6.7B", task: str="text-generation",
+        skip: Union[int, None]=None, checkpoint_path:Union[str, None]=None,
+    ):
+    os.makedirs(save_dir, exist_ok=True)
+    use_exemplars = True
+    write_path = os.path.join(save_dir, model_name+".jsonl")
+    data = read_jsonl(data_path)
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    model = AutoModelForCausalLM.from_pretrained(checkpoint_path if checkpoint_path is not None else model_path)
+    model.to(device)
+    if os.path.exists(write_path):
+        overwrite_file = input("overwrite (y/n)?").lower().strip()
+        if overwrite_file not in ["y", "yes"]: exit()
+    open(write_path, "w")
+    id = 0
+    preds = []
+    # golds = []
+    patch_lengths = []
+    for rec in tqdm(data, desc=f"{model_name} inference"):
+        if skip is not None and id < skip: 
+            id += 1
+            patch_lengths.append(len(rec['patch']))
+            continue
+        # print("max patch legth till now:", max(patch_lengths))
+        # prompt = MAGICODER_CODESUMM_PROMPT.format(code_change=rec['patch'][:5000])
+
+        # code change summarize
+        lines_added, lines_removed = generate_added_and_removed_lines_from_patch(rec['patch'])
+        NLA = len(lines_added)
+        NLR = len(lines_removed)
+        lines_added = "\n".join(lines_added)[:4000]
+        lines_removed = "\n".join(lines_removed)[:4000]
+
+        if NLA != 0 and NLR != 0:
+            if use_exemplars:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT.format(
+                    code_change=rec['patch'][:4000],
+                    lines_removed=lines_removed,
+                    lines_added=lines_added,
+                ) 
+            else: 
+                prompt = MAGICODER_CODESUMM_LINECHANGE_PROMPT.format(
+                    code_change=rec['patch'][:4000],
+                    lines_removed=lines_removed,
+                    lines_added=lines_added,
+                ) 
+        elif NLR == 0:
+            if use_exemplars:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_NOLR.format(
+                    code_change=rec['patch'][:4000],
+                    lines_added=lines_added,
+                ) 
+            else:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_PROMPT_NOLR.format(
+                    code_change=rec['patch'][:4000],
+                    lines_added=lines_added,
+                )
+        elif NLA == 0:
+            if use_exemplars:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_NOLA.format(
+                    code_change=rec['patch'][:4000],
+                    lines_removed=lines_removed,
+                ) 
+            else: 
+                prompt = MAGICODER_CODESUMM_LINECHANGE_PROMPT_NOLA.format(
+                    code_change=rec['patch'][:4000],
+                    lines_removed=lines_removed,
+                )   
+        # print("added:", NLA)
+        # print("removed:", NLR)
+        # print("prompt:", len(prompt))   
+        # code_before, code_after = generate_before_after_code_from_patch(rec['patch'])
+        # prompt = MAGICODER_CODESUMM_CODECHANGE_PROMPT.format(
+        #     code_before=code_before, code_after=code_after
+        # )
+
+        # print("size of patch causing error:", len(rec['patch']))
+        inputs = tokenizer.encode(prompt, add_special_tokens=False, return_tensors="pt")
+        outputs = model.generate(input_ids=inputs.to(model.device), max_new_tokens=150, temperature=0.2)
+        op = tokenizer.decode(outputs[0]).replace(prompt,'').replace('<｜end▁of▁sentence｜>','')
+        with open(write_path, "a") as f:
+            f.write(json.dumps({"id": id, "code_change": rec['patch'], 'instruction': prompt, 'response': op}, ensure_ascii=False)+"\n")
+            # golds.append(rec['msg'])
+            preds.append(rec['patch'])
+        id += 1
+
 def main(save_dir: str, data_path: str="./data/Comment_Generation/msg-test.jsonl", 
          model_path: str="ise-uiuc/Magicoder-S-DS-6.7B", device: str="cuda:0",
          model_name: str="Magicoder-S-DS-6.7B", task: str="text-generation",
@@ -284,7 +503,7 @@ def main(save_dir: str, data_path: str="./data/Comment_Generation/msg-test.jsonl
         result = generator(prompt, max_length=1024, num_return_sequences=1, temperature=0.2)
         op = result[0]['generated_text'].replace(prompt,'')
         with open(write_path, "a") as f:
-            f.write(json.dumps({"id": id, "code_change": rec['patch'], 'prompt': prompt, 'change_summary': op})+"\n")
+            f.write(json.dumps({"id": id, "code_change": rec['patch'], 'instruction': prompt, 'response': op})+"\n")
             # golds.append(rec['msg'])
             preds.append(rec['patch'])
         id += 1
@@ -296,10 +515,18 @@ def main(save_dir: str, data_path: str="./data/Comment_Generation/msg-test.jsonl
 # main
 if __name__ == "__main__":
     # main(save_dir="./experiments/code_change_summ_v3")
-    main(
-        save_dir="./experiments/code_change_summ_v3", 
-        model_path="deepseek-ai/deepseek-coder-7b-instruct-v1.5",
-        model_name="deepseek-coder-7b-instruct-v1.5",
+
+    # main(
+    #     save_dir="./experiments/code_change_summ_v3", 
+    #     model_path="deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+    #     model_name="deepseek-coder-7b-instruct-v1.5",
+    # )
+
+    # gen_GPT_labels("./experiments/GPT_code_change_summ_labels")
+
+    main_no_pipeline(
+        save_dir="./experiments/code_change_summ_finetune_v2", 
+        checkpoint_path="/data/tir/projects/tir3/users/arnaik/magicoder_code_change_summ/checkpoint-2000",
     )
 
 # generator = pipeline(

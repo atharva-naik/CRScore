@@ -121,8 +121,9 @@ if __name__ == "__main__":
     codereviewer_preds = [rec['pred'] for rec in read_jsonl("./experiments/MS_CR_ZeroShot/preds.jsonl")]
     magicoder_preds = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Magicoder-S-DS-6.7B.jsonl')]
     stable_code_preds = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Stable-Code-Instruct-3b.jsonl')]
+    deepseekcoder_preds = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/DeepSeekCoder-6.7B-Instruct.jsonl')] 
+    # lstm_preds = [r['pred'] for r in read_jsonl("./ckpts/lstm_reviewer_1_layer/preds.jsonl")]
     # knn_retriever_preds = [r for r,_ in json.load(open("./experiments/knn_retriever_preds.json"))]
-    
     patch_ranges = json.load(open("./data/Comment_Generation/test_set_codepatch_ranges.json"))
 
     java_smell_summaries = {file.split('.')[0].strip(): process_java_smells(os.path.join("./experiments/java_code_smells", file), file) for file in os.listdir("./experiments/java_code_smells")}
@@ -144,9 +145,8 @@ if __name__ == "__main__":
     smell_claims.update(java_smell_summaries)
     smell_claims.update(python_smell_summaries)
     smell_claims.update(javascript_smell_summaries)
-    llm_generated_claims = {f"test{i}": split_claims(rec['change_summary']) for i, rec in enumerate(read_jsonl("experiments/code_change_summ_v2/Magicoder-S-DS-6.7B.jsonl"))}
+    llm_generated_claims = {f"test{i}": split_claims(rec['response']) for i, rec in enumerate(read_jsonl("./experiments/code_change_summ_finetune/Magicoder-S-DS-6.7B.jsonl"))}
     
-    lstm_preds = [r['pred'] for r in read_jsonl("./ckpts/lstm_reviewer_1_layer/preds.jsonl")]
     lang_buckets = defaultdict(lambda: [])
     index = 0
     long_inst_len = 1000
@@ -158,11 +158,11 @@ if __name__ == "__main__":
         rec["index"] = index
         smells = smell_claims.get(ck,[])
         if len(smells) > 0: has_smells.add(index)
-        rec['claims'] = llm_generated_claims[ck] + smells
+        rec['claims'] = [("claim",claim) for claim in llm_generated_claims[ck]] + [("issue",smell) for smell in smells]
         rec['codereviewer_pred'] = codereviewer_preds[index]
-        rec['magicoder_pred'] = magicoder_preds[index]
-        rec['lstm_pred'] = process_lstm_output(lstm_preds[index])
-        rec['stable_code_pred'] = stable_code_preds[index]
+        rec['magicoder_pred'] = process_magicoder_output(magicoder_preds[index])
+        rec['deepseekcoder_pred'] = process_magicoder_output(deepseekcoder_preds[index])
+        rec['stable_code_pred'] = process_magicoder_output(stable_code_preds[index])
         if len(rec['patch']) > long_inst_len:
             long_inst_ctr += 1
             continue
@@ -183,10 +183,12 @@ if __name__ == "__main__":
             rec["has_smell"] = True
             inst_with_smells += 1
     print(f"human study data has \x1b[31;1m{inst_with_smells}\x1b[0m instances with smells")
-    annot_df = pd.DataFrame(data_for_annotation).drop(columns=['idx', 'id'])
-    print(annot_df.columns)
-    print(len(annot_df))
-    annot_df.to_csv("human_study/pilot2/raw_data.csv", index=False)
+    with open("./human_study/pilot2/raw_data.json", "w") as f:
+        json.dump(data_for_annotation, f, indent=4)
+    # annot_df = pd.DataFrame(data_for_annotation).drop(columns=['idx', 'id'])
+    # print(annot_df.columns)
+    # print(len(annot_df))
+    # annot_df.to_csv("human_study/pilot2/raw_data.csv", index=False)
     # pre_shuffled_data = []
     # pre_model_names = []
     # for rec in annot_df.to_dict("records"):

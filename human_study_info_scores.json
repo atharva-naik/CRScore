@@ -1,0 +1,802 @@
+[
+    {
+        "index": 8327,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 1589,
+        "codereviewer": 0.0,
+        "magicoder": 0.2222222238779068,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 305,
+        "codereviewer": 0.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 9459,
+        "codereviewer": 0.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 3752,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 3351,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 3058,
+        "codereviewer": 1.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 1942,
+        "codereviewer": 0.0,
+        "magicoder": 0.1428571492433548,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 9381,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 1440,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 8752,
+        "codereviewer": 1.0,
+        "magicoder": 0.6000000238418579,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 8887,
+        "codereviewer": 0.0,
+        "magicoder": 0.3333333432674408,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 6591,
+        "codereviewer": 1.0,
+        "magicoder": 0.3333333432674408,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 1092,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 6985,
+        "codereviewer": 0.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 5294,
+        "codereviewer": 0.0,
+        "magicoder": 0.6666666865348816,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 377,
+        "codereviewer": 1.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 363,
+        "codereviewer": 0.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 1130,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 2636,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 2719,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 6222,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 6458,
+        "codereviewer": 0.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 295,
+        "codereviewer": 0.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 5967,
+        "codereviewer": 0.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 2084,
+        "codereviewer": 0.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 0.5,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 7760,
+        "codereviewer": 0.0,
+        "magicoder": 0.4000000059604645,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 6958,
+        "codereviewer": 1.0,
+        "magicoder": 0.5,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 7610,
+        "codereviewer": 1.0,
+        "magicoder": 0.75,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 5768,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 4342,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 2339,
+        "codereviewer": 0.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 4694,
+        "codereviewer": 0.0,
+        "magicoder": 0.6666666865348816,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 8467,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 3725,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 66,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 2039,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 6046,
+        "codereviewer": 0.0,
+        "magicoder": 0.75,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 4707,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 1987,
+        "codereviewer": 0.0,
+        "magicoder": 0.095238097012043,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 2816,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 4674,
+        "codereviewer": 0.0,
+        "magicoder": 0.3333333432674408,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 1099,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 988,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 5569,
+        "codereviewer": 0.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 0.5,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 1479,
+        "codereviewer": 0.0,
+        "magicoder": 0.3333333432674408,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 5282,
+        "codereviewer": 0.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 5088,
+        "codereviewer": 1.0,
+        "magicoder": 0.30000001192092896,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 8779,
+        "codereviewer": 0.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 0.5,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 4033,
+        "codereviewer": 1.0,
+        "magicoder": 0.800000011920929,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 675,
+        "codereviewer": 1.0,
+        "magicoder": 0.3333333432674408,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 6643,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 7858,
+        "codereviewer": 0.0,
+        "magicoder": 0.1428571492433548,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 1908,
+        "codereviewer": 0.0,
+        "magicoder": 0.5714285969734192,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 5529,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 937,
+        "codereviewer": 0.0,
+        "magicoder": 0.6000000238418579,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 6554,
+        "codereviewer": 1.0,
+        "magicoder": 0.75,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.75
+    },
+    {
+        "index": 3575,
+        "codereviewer": 0.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 0.3333333432674408,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 9348,
+        "codereviewer": 0.0,
+        "magicoder": 0.3333333432674408,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 7165,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 7091,
+        "codereviewer": 0.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.4000000059604645
+    },
+    {
+        "index": 9794,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 4238,
+        "codereviewer": 0.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 0.6666666865348816,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 6731,
+        "codereviewer": 0.0,
+        "magicoder": 1.0,
+        "lstm": 1.0,
+        "knn": 1.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 2142,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 7917,
+        "codereviewer": 0.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 656,
+        "codereviewer": 1.0,
+        "magicoder": 0.5,
+        "lstm": 1.0,
+        "knn": 1.0,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 330,
+        "codereviewer": 1.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 6788,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 2201,
+        "codereviewer": 0.0,
+        "magicoder": 0.09090909361839294,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 7789,
+        "codereviewer": 0.0,
+        "magicoder": 0.25,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 2970,
+        "codereviewer": 1.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 697,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 8736,
+        "codereviewer": 1.0,
+        "magicoder": 0.0,
+        "lstm": 0.5,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 2242,
+        "codereviewer": 1.0,
+        "magicoder": 1.0,
+        "lstm": 1.0,
+        "knn": 1.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 8825,
+        "codereviewer": 1.0,
+        "magicoder": 0.8333333134651184,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 920,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 5358,
+        "codereviewer": 1.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 3910,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 6454,
+        "codereviewer": 1.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 9217,
+        "codereviewer": 0.0,
+        "magicoder": 0.20000000298023224,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 5159,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 2312,
+        "codereviewer": 0.0,
+        "magicoder": 0.25,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 5210,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 5037,
+        "codereviewer": 0.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 2950,
+        "codereviewer": 0.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 9739,
+        "codereviewer": 0.0,
+        "magicoder": 0.4000000059604645,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 3769,
+        "codereviewer": 0.0,
+        "magicoder": 0.05882352963089943,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 9410,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 1220,
+        "codereviewer": 0.0,
+        "magicoder": 0.3333333432674408,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 9541,
+        "codereviewer": 1.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 0.5
+    },
+    {
+        "index": 2725,
+        "codereviewer": 0.0,
+        "magicoder": 0.3333333432674408,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 8455,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 3859,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 2632,
+        "codereviewer": 1.0,
+        "magicoder": 0.0,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 7570,
+        "codereviewer": 1.0,
+        "magicoder": 1.0,
+        "lstm": 0.0,
+        "knn": 1.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 6155,
+        "codereviewer": 1.0,
+        "magicoder": 0.3333333432674408,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.0
+    },
+    {
+        "index": 4347,
+        "codereviewer": 0.0,
+        "magicoder": 0.5,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 8882,
+        "codereviewer": 0.5,
+        "magicoder": 0.0,
+        "lstm": 1.0,
+        "knn": 0.0,
+        "ground_truth": 1.0
+    },
+    {
+        "index": 3385,
+        "codereviewer": 0.0,
+        "magicoder": 0.0,
+        "lstm": 0.0,
+        "knn": 0.0,
+        "ground_truth": 0.5
+    }
+]

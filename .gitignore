@@ -167,3 +167,4 @@ src/scraping/gh_access_token.json
 human_study/pilot2/context_files
 save
 CodeBERT/CodeReviewer/code/sh/test_out.jsonl
+human_study_*

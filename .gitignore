@@ -168,3 +168,4 @@ human_study/pilot2/context_files
 save
 CodeBERT/CodeReviewer/code/sh/test_out.jsonl
 human_study_*
+retrievable_instances.jsonl

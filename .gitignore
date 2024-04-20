@@ -169,3 +169,5 @@ save
 CodeBERT/CodeReviewer/code/sh/test_out.jsonl
 human_study_*
 retrievable_instances.jsonl
+manual_*
+cr_manual_*

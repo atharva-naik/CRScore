@@ -8,6 +8,7 @@ import pandas as pd
 from typing import *
 from collections import defaultdict
 from src.datautils import read_jsonl
+from scripts.create_code_smell_analysis_data import generate_newf, remove_space_clean
 
 def split_string_by_multiple_delimiters(s, delimiters):
     pattern = '|'.join(map(re.escape, delimiters))
@@ -185,6 +186,37 @@ if __name__ == "__main__":
     print(f"human study data has \x1b[31;1m{inst_with_smells}\x1b[0m instances with smells")
     with open("./human_study/pilot2/raw_data.json", "w") as f:
         json.dump(data_for_annotation, f, indent=4)
+    os.makedirs("./human_study/pilot2/context_files", exist_ok=True)
+    code_claim_acc_annot = {"java": [], "py": [], "js": []}
+    for rec in data_for_annotation:
+        code_claim_acc_annot[rec['lang']].append({
+            "id": rec["id"], "index": rec["index"], "diff": rec["patch"], 
+            "type": rec['claims'][0][0], "claim/issue": rec['claims'][0][1], 
+            "correctness (1/0/-1)": "", "additional claims": "", 
+            "old_file": f"test{rec['index']}_old.{rec['lang']}", 
+            "new_file": f"test{rec['index']}_new.{rec['lang']}", 
+        })        
+        for type_, content in rec["claims"][1:]:
+            code_claim_acc_annot[rec['lang']].append({
+                "id": "", "index": "", "diff": "", "type": type_, 
+                "claim/issue": content, "correctness (1/0/-1)": "",
+                "additional claims": "", "old_file": "", "new_file": "",
+            })
+        context_file_old = os.path.join(
+            "./human_study/pilot2/context_files", 
+            f"test{rec['index']}_old.{rec['lang']}"
+        )
+        context_file_new = os.path.join(
+            "./human_study/pilot2/context_files", 
+            f"test{rec['index']}_new.{rec['lang']}"
+        )
+        oldf = rec['oldf']
+        newf, _ = generate_newf(oldf=oldf, diff=rec['patch'])
+        with open(context_file_old, "w") as f: f.write(oldf)
+        with open(context_file_new, "w") as f: f.write(newf)
+    for lang, data in code_claim_acc_annot.items():
+        pd.DataFrame(data).to_csv(f"./human_study/pilot2/{lang}_claim_acc_annot.csv", index=False)
+
     # annot_df = pd.DataFrame(data_for_annotation).drop(columns=['idx', 'id'])
     # print(annot_df.columns)
     # print(len(annot_df))

@@ -1,0 +1,7 @@
+- [ ] list experiments/add placeholder tables.
+- [ ] revise introduction.
+- [x] llama3-8B code review (done).
+- [ ] GPT-4 (or GPT-3.5) code review.
+    - [ ] run GPT-4 on all human review data.
+    - [x] GPT-3.5 on all data?
+- [ ] fix the similarity model.

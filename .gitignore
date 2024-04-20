@@ -164,5 +164,6 @@ data/Code_Refinement
 data/Tufano
 data/GPT_code_change_summ_labels.hf/
 src/scraping/gh_access_token.json
+human_study/pilot2/context_files
 save
 CodeBERT/CodeReviewer/code/sh/test_out.jsonl

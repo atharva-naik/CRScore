@@ -6,6 +6,8 @@ import torch
 import warnings
 from typing import *
 from tqdm import tqdm
+from openai import OpenAI
+from dotenv import load_dotenv
 from transformers import logging
 from transformers import pipeline
 from src.datautils import read_jsonl, remove_patch_header
@@ -13,6 +15,45 @@ from CodeBERT.CodeReviewer.code.evaluator.smooth_bleu import bleu_fromstr
 
 logging.set_verbosity_error()
 warnings.filterwarnings('ignore', category=UserWarning)
+
+load_dotenv()
+
+class OpenAIEngine:
+    def __init__(self, path: str="gpt-4-0613"):
+        self.model_path = path
+        # secret_key = os.environ["OPENAI_ACCESS_TOKEN"]
+        # openai.organization = "org-rBWf7SAdxrBRh3V0O34DlEFT"
+        # openai.organization = "Carnegie Mellon University"
+        # openai.api_key = secret_key
+        self.client = OpenAI()
+
+    def get_GPT_response(self, prompt: str, **args) -> dict:
+        prompt = prompt.strip()
+        response = openai.Completion.create(
+            engine=self.model_path,
+            prompt=prompt, **args,
+        )
+
+        return response.to_dict()
+
+    def __call__(self, prompt: str, temperature=0.2, max_tokens=256,
+                 top_p=0.95, frequency_penalty=0.0, presence_penalty=0.0):
+        # responses = self.get_GPT_response(
+        #     prompt=prompt, temperature=temperature,
+        #     frequency_penalty=frequency_penalty,
+        #     max_tokens=max_tokens, top_p=top_p,
+        #     presence_penalty=presence_penalty,
+        # )
+        response = self.client.chat.completions.create(
+            model=self.model_path,
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            temperature=temperature,
+            max_tokens=max_tokens,
+            top_p=top_p,
+        )
+        return response.choices[0].message.content.strip()
 
 MAGICODER_PROMPT = """You are an exceptionally intelligent coding assistant that consistently delivers accurate and reliable responses to user instructions.
 
@@ -164,14 +205,18 @@ def main(save_dir: str, data_path: str="./data/Comment_Generation/msg-test.jsonl
             model=model_path, task=task,
             torch_dtype=torch.bfloat16,
             device=device,
-        )
+        )        
+        tokenizer = generator.tokenizer
+        model = generator.model
+    elif model_name.startswith("GPT-3.5"):
+        generator = OpenAIEngine(path=model_path)
     else:
         generator = pipeline(
             model=model_path, task=task,
             device=device,
         )
-    tokenizer = generator.tokenizer
-    model = generator.model
+        tokenizer = generator.tokenizer
+        model = generator.model
     if os.path.exists(write_path):
         overwrite_file = input("overwrite (y/n)?").lower().strip()
         if overwrite_file not in ["y", "yes"]: exit()
@@ -205,12 +250,19 @@ def main(save_dir: str, data_path: str="./data/Comment_Generation/msg-test.jsonl
             prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
             inputs = tokenizer.encode(prompt, add_special_tokens=False, return_tensors="pt")
             result = model.generate(input_ids=inputs.to(device), max_new_tokens=200, temperature=temperature)
+        elif model_name.startswith("GPT-3.5"):
+            prompt = MAGICODER_CODEREVIEW_PROMPT_PREFIX + MAGICODER_CODEREVIEW_PROMPT.format(code_change=rec['patch'][:2000])
+            result = generator(prompt)
         else: 
             result = generator(prompt, max_new_tokens=200, num_return_sequences=1, temperature=temperature)
+        
         if model_name.startswith("CodeGemma"):
             op = tokenizer.decode(result[0]).replace(prompt,'') # do something here.
+        elif model_name.startswith("GPT-3.5"):
+            op = result
         else:
             op = result[0]['generated_text'].replace(prompt,'')
+
         with open(write_path, "a") as f:
             f.write(json.dumps({"id": id, "code_change": rec['patch'], "gold_review": rec['msg'], 'prompt': prompt, 'pred_review': op})+"\n")
             golds.append(rec['msg'])
@@ -239,8 +291,19 @@ if __name__ == "__main__":
     #     model_path="google/codegemma-7b-it",
     #     model_name="CodeGemma-7B-Instruct",
     # )
+    # main(
+    #     save_dir="./experiments/llm_outputs",
+    #     model_path="stabilityai/stable-code-instruct-3b",
+    #     model_name="Stable-Code-Instruct-3b",
+    # )
+
     main(
         save_dir="./experiments/llm_outputs",
-        model_path="stabilityai/stable-code-instruct-3b",
-        model_name="Stable-Code-Instruct-3b",
+        model_path="meta-llama/Meta-Llama-3-8B-Instruct",
+        model_name="Llama-3-8B-Instruct",
     )
+    # main(
+    #     save_dir="./experiments/llm_outputs",
+    #     model_path="gpt-3.5-turbo-0125",
+    #     model_name="GPT-3.5-Turbo",
+    # )

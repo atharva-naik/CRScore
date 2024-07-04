@@ -129,6 +129,80 @@ MAGICODER_CODESUMM_CODECHANGE_PROMPT = """You are an exceptionally intelligent a
 
 @@ List of code changes:"""
 
+CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT_PREFIX = open("src/models/few_shot_impl_code_smell_detection_prompt.txt").read()
+
+CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT = """
+
+GIT DIFF:
+{code_change}
+
+Lines removed:
+{lines_removed}
+
+Lines added:
+{lines_added}
+
+Summary of changes:
+"""
+
+CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT_NOLA = """
+
+GIT DIFF:
+{code_change}
+
+Lines removed:
+{lines_removed}
+
+Summary of changes:
+"""
+
+CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT_NOLR = """
+
+GIT DIFF:
+{code_change}
+
+Lines added:
+{lines_added}
+
+Summary of changes:
+"""
+
+GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT = """Summarize the code changes in the GIT DIFF below and their possible implications. Make two sections called "summary of changes" and "implications" and write numbered points under each section. Don't make the points hierarchical.
+
+GIT DIFF:
+{code_change}
+
+Lines removed:
+{lines_removed}
+
+Lines added:
+{lines_added}
+
+Summary of changes:
+"""
+
+GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT_NOLA = """Summarize the code changes in the GIT DIFF below and their possible implications. Make two sections called "summary of changes" and "implications" and write numbered points under each section. Don't make the points hierarchical.
+
+GIT DIFF:
+{code_change}
+
+Lines removed:
+{lines_removed}
+
+Summary of changes:
+"""
+
+GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT_NOLR = """Summarize the code changes in the GIT DIFF below and their possible implications. Make two sections called "summary of changes" and "implications" and write numbered points under each section. Don't make the points hierarchical.
+
+GIT DIFF:
+{code_change}
+
+Lines added:
+{lines_added}
+
+Summary of changes:
+"""
+
 MAGICODER_CODESUMM_LINECHANGE_PROMPT = """You are an exceptionally intelligent and experienced senior software engineer who is very skilled at reviewing code and providing reliable and helpful feedback. Now look at code change represented as a GIT DIFF as well as the added and removed lines and summarize all the important changes.
 
 @@ GIT DIFF
@@ -245,10 +319,12 @@ def test_magicoder_codesumm(code_change):
 
 def gen_GPT_labels(
         save_dir: str, data_path: str="./data/Comment_Generation/msg-valid.jsonl", 
-        model_name: str="gpt-4-0613", sample_size: int=1000,
+        model_name: str="gpt-4-0613", sample_size: int=1000, use_exemplars: bool=True,
+        gen_implications: bool=False,
     ):
     import random
     os.makedirs(save_dir, exist_ok=True)
+    gen_implications = True # overrides use exemplars.
     use_exemplars = True
     write_path = os.path.join(save_dir, model_name+".jsonl")
     # create a pool of samples that are not too long.
@@ -285,7 +361,13 @@ def gen_GPT_labels(
         lines_removed = "\n".join(lines_removed)[:4000]
 
         if NLA != 0 and NLR != 0:
-            if use_exemplars:
+            if gen_implications:
+                prompt = GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT.format(
+                    code_change=rec['patch'][:4000],
+                    lines_removed=lines_removed,
+                    lines_added=lines_added,
+                )  
+            elif use_exemplars:
                 prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT.format(
                     code_change=rec['patch'][:4000],
                     lines_removed=lines_removed,
@@ -298,7 +380,12 @@ def gen_GPT_labels(
                     lines_added=lines_added,
                 ) 
         elif NLR == 0:
-            if use_exemplars:
+            if gen_implications:
+                prompt = GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT_NOLR.format(
+                    code_change=rec['patch'][:4000],
+                    lines_added=lines_added,
+                ) 
+            elif use_exemplars:
                 prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_NOLR.format(
                     code_change=rec['patch'][:4000],
                     lines_added=lines_added,
@@ -309,7 +396,12 @@ def gen_GPT_labels(
                     lines_added=lines_added,
                 )
         elif NLA == 0:
-            if use_exemplars:
+            if gen_implications:
+                prompt = GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT_NOLA.format(
+                    code_change=rec['patch'][:4000],
+                    lines_removed=lines_removed,
+                )
+            elif use_exemplars:
                 prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_NOLA.format(
                     code_change=rec['patch'][:4000],
                     lines_removed=lines_removed,
@@ -336,14 +428,15 @@ def main_no_pipeline(
         model_path: str="ise-uiuc/Magicoder-S-DS-6.7B", device: str="cuda:0",
         model_name: str="Magicoder-S-DS-6.7B", task: str="text-generation",
         skip: Union[int, None]=None, checkpoint_path:Union[str, None]=None,
+        gen_implications: bool=False, use_exemplars: bool=False
     ):
     os.makedirs(save_dir, exist_ok=True)
-    use_exemplars = True
+    # use_exemplars = True
     write_path = os.path.join(save_dir, model_name+".jsonl")
     data = read_jsonl(data_path)
     tokenizer = AutoTokenizer.from_pretrained(model_path)
-    model = AutoModelForCausalLM.from_pretrained(checkpoint_path if checkpoint_path is not None else model_path)
-    model.to(device)
+    model = AutoModelForCausalLM.from_pretrained(checkpoint_path if checkpoint_path is not None else model_path, device_map="auto")
+    # model.to(device)
     if os.path.exists(write_path):
         overwrite_file = input("overwrite (y/n)?").lower().strip()
         if overwrite_file not in ["y", "yes"]: exit()
@@ -368,7 +461,20 @@ def main_no_pipeline(
         lines_removed = "\n".join(lines_removed)[:4000]
 
         if NLA != 0 and NLR != 0:
-            if use_exemplars:
+            if gen_implications:
+                if use_exemplars:
+                    prompt = CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT_PREFIX+CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT.format(
+                        code_change=rec['patch'][:4000],
+                        lines_removed=lines_removed,
+                        lines_added=lines_added,                        
+                    )
+                else:
+                    prompt = GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT.format(
+                        code_change=rec['patch'][:4000],
+                        lines_removed=lines_removed,
+                        lines_added=lines_added,
+                    )  
+            elif use_exemplars:
                 prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT.format(
                     code_change=rec['patch'][:4000],
                     lines_removed=lines_removed,
@@ -381,7 +487,18 @@ def main_no_pipeline(
                     lines_added=lines_added,
                 ) 
         elif NLR == 0:
-            if use_exemplars:
+            if gen_implications:
+                if use_exemplars:
+                    prompt = CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT_PREFIX+CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT_NOLR.format(
+                        code_change=rec['patch'][:4000],
+                        lines_added=lines_added,  
+                    )
+                else:
+                    prompt = GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT_NOLR.format(
+                        code_change=rec['patch'][:4000],
+                        lines_added=lines_added,
+                    ) 
+            elif use_exemplars:
                 prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_NOLR.format(
                     code_change=rec['patch'][:4000],
                     lines_added=lines_added,
@@ -392,7 +509,18 @@ def main_no_pipeline(
                     lines_added=lines_added,
                 )
         elif NLA == 0:
-            if use_exemplars:
+            if gen_implications:
+                if use_exemplars:
+                    prompt = CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT_PREFIX+CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT_NOLA.format(
+                        code_change=rec['patch'][:4000],
+                        lines_removed=lines_removed,                  
+                    )
+                else:
+                    prompt = GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT_NOLA.format(
+                        code_change=rec['patch'][:4000],
+                        lines_removed=lines_removed,
+                    ) 
+            elif use_exemplars:
                 prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_NOLA.format(
                     code_change=rec['patch'][:4000],
                     lines_removed=lines_removed,
@@ -414,8 +542,11 @@ def main_no_pipeline(
         inputs = tokenizer.encode(prompt, add_special_tokens=False, return_tensors="pt")
         outputs = model.generate(input_ids=inputs.to(model.device), max_new_tokens=150, temperature=0.2)
         op = tokenizer.decode(outputs[0]).replace(prompt,'').replace('<｜end▁of▁sentence｜>','')
+        # avoid saving very long versions of prompts.
+        prompt_to_save = prompt.replace(CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT_PREFIX, "")
+
         with open(write_path, "a") as f:
-            f.write(json.dumps({"id": id, "code_change": rec['patch'], 'instruction': prompt, 'response': op}, ensure_ascii=False)+"\n")
+            f.write(json.dumps({"id": id, "code_change": rec['patch'], 'instruction': prompt_to_save, 'response': op}, ensure_ascii=False)+"\n")
             # golds.append(rec['msg'])
             preds.append(rec['patch'])
         id += 1
@@ -523,10 +654,20 @@ if __name__ == "__main__":
     # )
 
     # gen_GPT_labels("./experiments/GPT_code_change_summ_labels")
+    # gen_GPT_labels("./experiments/GPT_code_change_summ_labels_with_impl", gen_implications=True, sample_size=500)
 
+    # fine-tuned Magicoder generate claims with implications:
+    # main_no_pipeline(
+    #     save_dir="./experiments/code_change_summ_finetune_impl", 
+    #     checkpoint_path="/data/tir/projects/tir3/users/arnaik/magicoder_code_change_summ_impl",
+    #     gen_implications=True,
+    # )
+
+    # Codestral generate claims with implications:
     main_no_pipeline(
-        save_dir="./experiments/code_change_summ_finetune_v2", 
-        checkpoint_path="/data/tir/projects/tir3/users/arnaik/magicoder_code_change_summ/checkpoint-2000",
+        save_dir="./experiments/code_change_summ_finetune_impl", 
+        model_path="mistralai/Codestral-22B-v0.1", model_name="codestral-22b",
+        gen_implications=True, use_exemplars=True,
     )
 
 # generator = pipeline(

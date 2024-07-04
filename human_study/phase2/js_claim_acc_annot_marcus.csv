@@ -1,0 +1,2005 @@
+id,index,diff,claim_no,claim,type,review,system,Con (P),Comp (R),Rel (F),old_file,new_file
+37758.0,7560.0,"@@ -48,7 +48,7 @@ export default function CountrySelect() {
+ 				timezone: countriesByCode[ newCountryCode ].defaultTimeZoneId,
+ 			} );
+ 		}
+-	}, [ setValues ] );
++	}, [ setValues, value ] );
+ 
+ 	return (
+ 		<Select",1,The dependency array for the useCallback hook has been modified.,claim,You can remove the value dependency from the useEffect to only update when setValues changes.,stable_code_pred,,,,test7560_old.js,test7560_new.js
+,,,2,"Previously, the hook was dependent on only 'setValues'.",claim,"The dependency on value might be unnecessary, as setValues is a dependency of the useEffect.",magicoder_pred,,,,,
+,,,3,"Now, it is dependent on both 'setValues' and 'value'.",claim,"The dependency array should include all values that could change and affect the component's output. In this case, `value` is changing when the user selects a new country, so it should be included in the dependency array.",deepseekcoder_pred,,,,,
+,,,4,"The effect within the useEffect hook will now be triggered not only when 'setValues' changes, but also when 'value' changes.",claim,I don't know how we haven't got bugs from some of these! As here this would have had a stale `value`,msg,,,,,
+,,,5,"This could potentially lead to more frequent updates of the effect, which could have performance implications if the effect is resource-intensive.",claim,Why do we need to pass `value` here?,codereviewer_pred,,,,,
+15026.0,3516.0,"@@ -327,6 +327,16 @@ class FirefoxProfile(object):
+                     rc.append(node.data)
+             return ''.join(rc).strip()
+ 
++        def parse_manifest_json(content):
++            """"""Extracts the details from the contents of a WebExtensions `manifest.json` file.""""""
++            manifest = json.loads(content)
++            return {
++                'id': manifest['applications']['gecko']['id'],
++                'version': manifest['version'],
++                'name': manifest['version'],
++                'unpack': False,
++            }
++
+         if not os.path.exists(addon_path):
+             raise IOError('Add-on path does not exist: %s' % addon_path)
+ ",1,,,This function is not used anywhere in the codebase. It might be a good idea to remove it.,deepseekcoder_pred,,,,test3516_old.js,test3516_new.js
+,,,2,,,I'm not sure if this is the right place for this function. I think it should be in the `webextensions` module.,codereviewer_pred,,,,,
+,,,3,,,The id is not mandatory for web extensions. Could you update this to support a web extension without an id?,msg,,,,,
+,,,4,,,"This function is not used anywhere in the codebase. It's a good idea to remove it.
+
+The function `parse_manifest_json` is not used anywhere in the codebase. It's a good idea to remove it.
+The function `parse_manifest",magicoder_pred,,,,,
+,,,5,,,"This is a good start, but you could also consider using a library like `demjson` to parse JSON, which would make your code more robust and easier to read.",stable_code_pred,,,,,
+16536.0,9367.0,"@@ -22,6 +22,16 @@ options._catchError = function(error, newVNode, oldVNode) {
+ 	oldCatchError(error, newVNode, oldVNode);
+ };
+ 
++const oldUnmount = options.unmount;
++options.unmount = function(vnode) {
++	/** @type {import('./internal').Component} */
++	const component = vnode._component;
++	if (component && component._onResolve) {
++		component._onResolve();
++	}
++	if (oldUnmount) oldUnmount(vnode);
++};
++
+ function detachedClone(vnode, detachedParent, parentDom) {
+ 	if (vnode) {
+ 		if (vnode._component && vnode._component.__hooks) {",1,A new constant `oldUnmount` is defined and assigned the value of `options.unmount`.,claim,"This seems like a potential issue, you might want to check if the component has a _onResolve method before trying to call it.",stable_code_pred,,,,test9367_old.js,test9367_new.js
+,,,2,The `unmount` function in the `options` object is overridden. This new function takes a `vnode` as an argument.,claim,Why do we need to call `oldUnmount` here?,codereviewer_pred,,,,,
+,,,3,"Inside the new `unmount` function, a `component` constant is defined and assigned the value of `vnode._component`.",claim,"You are never calling oldUnmount, this could lead to a plugin chain failing.",msg,,,,,
+,,,4,"A conditional statement checks if the `component` exists and if `component._onResolve` exists. If both conditions are met, `component._onResolve()` is called.",claim,This is a good idea to handle the unmount event. It's a good practice to clean up resources when a component is unmounted.,magicoder_pred,,,,,
+,,,5,"line 25, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"This code seems to be adding a new hook to the component lifecycle. It's a good addition, but it might be better to add a comment explaining what this hook is for.",deepseekcoder_pred,,,,,
+,,,6,"line 28, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+14171.0,8548.0,"@@ -51,7 +51,7 @@
+     // @vue/component
+     var commonFormattersMixin = {
+         methods: {
+-            formatTimeAgo: countlyCommon.formatTimeAgo,
++            formatTimeAgo: countlyCommon.formatTimeAgoText,
+             formatNumber: countlyCommon.formatNumber,
+             getShortNumber: countlyCommon.getShortNumber
+         }",1,The method used for formatting time ago has been changed from countlyCommon.formatTimeAgo to countlyCommon.formatTimeAgoText.,claim,The method name formatTimeAgoText is not used anywhere in the code. It's better to remove it.,magicoder_pred,,,,test8548_old.js,test8548_new.js
+,,,2,"This change could affect the way time ago is formatted. The new method, formatTimeAgoText, might provide a different output than the old method, formatTimeAgo.",claim,"It feels like this will break some stuff, but let it break. We need ""text"" version anyway.",msg,,,,,
+,,,3,Any parts of the application that use the formatTimeAgo method will now receive a different formatted time ago output.,claim,The method name formatTimeAgo is not consistent with the method name formatTimeAgoText. It would be better to keep the method name consistent throughout the codebase.,deepseekcoder_pred,,,,,
+,,,4,"If the formatTimeAgoText method does not provide the same functionality as the formatTimeAgo method, this could lead to unexpected behavior in the application.",claim,Let's rename this to `formatTimeAgoText`,codereviewer_pred,,,,,
+,,,5,,,You can remove these now given we have an explicit check earlier in the component,stable_code_pred,,,,,
+20700.0,8607.0,"@@ -473,7 +473,7 @@ describe('GridFS Stream', function () {
+                     // Fail if user tries to abort an aborted stream
+                     uploadStream.abort().then(null, function (error) {
+                       expect(error.toString()).to.equal(
+-                        'MongoDriverError: Cannot call abort() on a stream twice'
++                        'MongoGridFSStreamError: Cannot call abort() on a stream twice'
+                       );
+                       client.close(done);
+                     });",1,The error message in the test case has been changed.,claim,Would it be appropriate for this to be a `MongoStreamClosedError`?,msg,,,,test8607_old.js,test8607_new.js
+,,,2,"Previously, the error was 'MongoDriverError: Cannot call abort() on a stream twice'. Now, it has been updated to 'MongoGridFSStreamError: Cannot call abort() on a stream twice'.",claim,`MongoGridFSStreamError` -> `MongoFSStreamError`,codereviewer_pred,,,,,
+,,,3,The test case is now expected to fail with 'MongoGridFSStreamError' instead of 'MongoDriverError'.,claim,This is a good point to use a more descriptive error message. It's not always clear what the error means without the context.,magicoder_pred,,,,,
+,,,4,,,You can remove these now given we have an explicit check earlier in the test,stable_code_pred,,,,,
+,,,5,,,"This is a good point, it makes the error message more specific and easier to understand.",deepseekcoder_pred,,,,,
+4930.0,566.0,"@@ -2,7 +2,7 @@ import { pathOr, curry, merge } from 'ramda';
+ 
+ /**
+  * Flattens a property path so that its fields are spread out into the provided object.
+- *
++ * It's like {@link RA.spreadPath|spreadPath}, but preserves object under property path
+  *
+  * @func flattenPath
+  * @memberOf RA",1,"The description of the function ""flattenPath"" has been updated.",claim,This function is not used anywhere in the codebase. It's a good idea to remove it to keep the codebase clean.,magicoder_pred,,,,test566_old.js,test566_new.js
+,,,2,The comment block that describes the function has been reformatted.,claim,"The function name is a bit misleading, it doesn't flatten the path, it preserves the object under the path.",deepseekcoder_pred,,,,,
+,,,3,A new line has been added to the comment block.,claim,You can use `Object.assign` or spread operator (`...`) to merge objects in a more efficient way.,stable_code_pred,,,,,
+,,,4,"The updated description provides more detailed information about the function, which can be useful for developers using this function.",claim,"It's like {@link RA.flattenPath|flattenPath}, but preserves object under property path",codereviewer_pred,,,,,
+,,,5,,,`.` at the end of the sentence,msg,,,,,
+13380.0,2455.0,"@@ -13,7 +13,8 @@ var reportsInstance = {},
+     localize = require('../../../api/utils/localization.js'),
+     common = require('../../../api/utils/common.js'),
+     log = require('../../../api/utils/log')('reports:reports'),
+-    versionInfo = require('../../../frontend/express/version.info');
++    versionInfo = require('../../../frontend/express/version.info'),
++    offlineMode = plugins.getConfig(""api"").offline_mode;
+ 
+ versionInfo.page = (!versionInfo.title) ? ""https://count.ly"" : null;
+ versionInfo.title = versionInfo.title || ""Countly"";",1,The code change involves the addition of a new variable called 'offlineMode' which is assigned the value of the 'offline_mode' configuration from the 'api' plugin.,claim,You can remove this line as it's not being used anywhere else in the code.,deepseekcoder_pred,,,,test2455_old.js,test2455_new.js
+,,,2,"The 'versionInfo' variable is still being required from the 'version.info' file, but no changes have been made to it.",claim,"You can remove the offlineMode variable as it's not being used anywhere in the code.
+
+The versionInfo.page and versionInfo.title assignments are unnecessary and can be removed.
+The versionInfo.page assignment is setting the page to ""https://count.ly"" if the title is not defined. If the title is defined, it will not change the page. The versionInfo.title assignment is setting the title to ""Countly"" if it's not defined. If it's defined, it will not change the title.
+The versionInfo.page and versionInfo.title assignments can be removed.",magicoder_pred,,,,,
+,,,3,,,"This should be `offlineMode = plugins.getConfig(""api"").offline_mode`",codereviewer_pred,,,,,
+,,,4,,,"Here also, let's not cache value on top of file, but use `plugins.getConfig(""api"").offline_mode` directly where it is needed",msg,,,,,
+,,,5,,,You can remove this now given we have an explicit check earlier in the code,stable_code_pred,,,,,
+13587.0,9144.0,"@@ -1656,7 +1656,7 @@ class TargetLocator {
+   window(nameOrHandle) {
+     return this.driver_.schedule(
+         new command.Command(command.Name.SWITCH_TO_WINDOW).
+-            setParameter('name', nameOrHandle),
++            setParameter('handle', nameOrHandle),
+         'WebDriver.switchTo().window(' + nameOrHandle + ')');
+   }
+ ",1,"The code change is in the TargetLocator class, specifically in the window method.",claim,This is just moving the type annotation to the wrong variable. It should be `windowHandle` not `nameOrHandle`.,stable_code_pred,,,,test9144_old.js,test9144_new.js
+,,,2,The parameter passed to the setParameter method has been changed from 'name' to 'handle'.,claim,`nameOrHandle` -> `windowHandle`?,codereviewer_pred,,,,,
+,,,3,The new parameter 'handle' is set to the value of the variable 'nameOrHandle'.,claim,"This should only be sent if the driver is speaking to a W3C conformant remote, so we need an if-condition check like we have in the Python bindings.",msg,,,,,
+,,,4,,,The parameter name should be 'name' not 'handle',magicoder_pred,,,,,
+,,,5,,,The parameter name should be 'handle' instead of 'name',deepseekcoder_pred,,,,,
+5472.0,349.0,"@@ -45,6 +45,7 @@ program
+   .option('-C <build_dir>', 'build config (out/Debug, out/Release')
+   .option('--target_arch <target_arch>', 'target architecture', 'x64')
+   .option('--mac_signing_identifier <id>', 'The identifier to use for signing')
++  .option('--mac_installer_signing_identifier <id>', 'The identifier to use for signing the installer')
+   .option('--mac_signing_keychain <keychain>', 'The identifier to use for signing', 'login')
+   .option('--debug_build <debug_build>', 'keep debugging symbols')
+   .option('--official_build <official_build>', 'force official build settings')",1,A new option has been added to the program.,claim,This should be `--mac_installer_signing_keychain <keychain>`,codereviewer_pred,,,,test349_old.js,test349_new.js
+,,,2,The new option is '--mac_installer_signing_identifier <id>'.,claim,This option seems to be a duplicate of --mac_signing_identifier. It's not clear what the difference is.,magicoder_pred,,,,,
+,,,3,The description for this new option is 'The identifier to use for signing the installer'.,claim,You can remove these now given we have an explicit check earlier in init,stable_code_pred,,,,,
+,,,4,,,"This option seems to be redundant. It's not clear what the'mac_installer_signing_identifier' is used for. If it's not used in the code, it can be removed.",deepseekcoder_pred,,,,,
+,,,5,,,think it should only be in create_dist,msg,,,,,
+11992.0,8988.0,"@@ -3,9 +3,9 @@ import { h } from './h';
+ 
+ /**
+  * Clones the given VNode, optionally adding attributes/props and replacing its children.
+- * @param {VNode} vnode                The virtual DOM element to clone
+- * @param {Object} props        Attributes/props to add when cloning
+- * @param {VNode} rest                Any additional arguments will be used as replacement children.
++ * @param {import('./vnode').VNode} vnode The virtual DOM element to clone
++ * @param {object} props Attributes/props to add when cloning
++ * @param {Array<import('./vnode').VNode>} [rest] Any additional arguments will be used as replacement children.
+  */
+ export function cloneElement(vnode, props) {
+         return h(",1,"The type of the 'vnode' parameter in the 'cloneElement' function has been changed. Previously, it was of type 'VNode'. Now, it is imported from the './vnode' module and is of type 'VNode'.",claim,Shouldn't this be `Array<import('./vnode').VNode>`?,codereviewer_pred,,,,test8988_old.js,test8988_new.js
+,,,2,The 'props' parameter in the 'cloneElement' function is now of type 'object'.,claim,"The function signature is incorrect. It should be `cloneElement(vnode: VNode, props: object,...rest: VNode[])`.
+
+The `rest` parameter should be an array of `VNode`s, not a single `VNode`.
+The `props` parameter should be an object, not a single `VNode`.
+The `vnode` parameter should be a `VNode`, not a `string`.
+The function should return a `VNode`, not a `string`.
+The function should be named `cloneElement`, not `cloneElement_`.
+The function should be exported, not declared.
+The function should be documented, not commented.
+The function should be tested, not commented.
+The function should be formatted, not commented.
+The function should be reviewed, not commented.",magicoder_pred,,,,,
+,,,3,"The 'rest' parameter in the 'cloneElement' function has been changed. Previously, it was of type 'VNode'. Now, it is an array of 'VNode' imported from the './vnode' module. The 'rest' parameter is optional and its default value is an empty array.",claim,Would it be easier to kick this import to the top of the file? It'll get stripped out anyway.,msg,,,,,
+,,,4,"line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').",issue,The function signature is not correct. It should be importing from './vnode' instead of './h'.,deepseekcoder_pred,,,,,
+,,,5,,,You can use the spread operator to merge the original vnode's attributes with the new props.,stable_code_pred,,,,,
+12790.0,3422.0,"@@ -87,8 +87,11 @@ export function useReducer(reducer, initialState, init) {
+ 			init == null ? invokeOrReturn(null, initialState) : init(initialState),
+ 
+ 			action => {
+-				hookState._value[0] = reducer(hookState._value[0], action);
+-				hookState._component.setState({});
++				const nextValue = reducer(hookState._value[0], action);
++				if (!Object.is(hookState._value[0], nextValue)) {
++					hookState._value[0] = nextValue;
++					hookState._component.setState({});
++				}
+ 			}
+ 		];
+ 	}",1,The code has been refactored to not only calculate the next value for the state but also to check if the next value is different from the current value.,claim,"This is a common pattern in React hooks, but it's not necessarily a bad thing. It's just a bit more verbose than necessary. You could potentially use a useCallback to memoize the reducer and avoid unnecessary re-renders.
+
+Also, the use of Object.is() is a good practice to avoid issues with NaN and -0.
+Here's a more concise version of the code:
+```javascript
+const useReducer = (reducer, initialState, init) => {
+  const [hookState, setState] = useState({
+    _value: init == null? invokeOrReturn(null, initialState) : init(initialState),
+    _component: null,
+  });
+  const dispatch = useCallback(
+    action => {
+      const nextValue = reducer(hookState._value, action);
+      if (!Object.is(hookState._value, nextValue)) {
+        hookState._value = next",magicoder_pred,,,,test3422_old.js,test3422_new.js
+,,,2,A new constant `nextValue` has been introduced to hold the value calculated by the reducer.,claim,Why do we need to check for `Object.is`?,codereviewer_pred,,,,,
+,,,3,A conditional statement has been added to check if the `nextValue` is not equal to the current value of `hookState._value[0]`.,claim,`Object.is` is an ES6 feature of JS so I don't think we can use it here (or we have to change our browser support matrix or specify that an Object.is polyfill is pre-req of `preact/hooks`). Should we just do an `===` check in `preact/hooks` and provide a `Object.is` polyfill and version of `useReducer` in `preact/compat`?,msg,,,,,
+,,,4,"If the `nextValue` is different from the current value, the `hookState._value[0]` is updated with the `nextValue` and the state of the component is set to an empty object.",claim,"You can remove these checks now given we have an explicit check earlier in the useEffect hook
+
+```javascript
+export function useEffect(effect, dependencies) {
+	const dispatch = useReducer(x => x + 1, 0);
+	useEffect(() => {
+		if (effect) {
+			effect();
+		}
+		return () => {
+			dispatch();
+		};
+	}, dependencies);
+}
+```
+This will ensure that the effect is only run if the dependencies have changed, and that the dispatch is only run when the component unmounts.",stable_code_pred,,,,,
+,,,5,"line 89, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,This code is checking if the next state is the same as the current state before setting the state. This is a common optimization to prevent unnecessary renders.,deepseekcoder_pred,,,,,
+,,,6,"line 90, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+16303.0,4298.0,"@@ -27,7 +27,12 @@ function collectResultsFromFrames(
+   frames.forEach(frame => {
+     const tabindex = parseInt(frame.node.getAttribute('tabindex'), 10);
+     const focusable = isNaN(tabindex) || tabindex >= 0;
++
+     const rect = frame.node.getBoundingClientRect();
++    let width = parseInt(frame.node.getAttribute('width'), 10);
++    let height = parseInt(frame.node.getAttribute('height'), 10);
++    width = isNaN(width) ? rect.width : width;
++    height = isNaN(height) ? rect.height : height;
+ 
+     var params = {
+       options: options,",1,Four lines of code have been added to the function collectResultsFromFrames.,claim,"This code seems to be fine, but it's good to note that the width and height are retrieved from the bounding client rect, so if the width and height attributes are not set, they will be 0. If you want to ensure that they are set, you could add checks for that.",deepseekcoder_pred,,,,test4298_old.js,test4298_new.js
+,,,2,The added code is used to get the width and height of the frame from the frame's attributes.,claim,"This code is not checking if the width and height attributes are valid numbers. It should be checking if they are valid numbers and if not, using the bounding client rect.",magicoder_pred,,,,,
+,,,3,"If the width or height is not a number (NaN), it is replaced with the width or height from the bounding client rectangle.",claim,You can use the width and height attributes directly rather than calculating them again.,stable_code_pred,,,,,
+,,,4,The added code ensures that the width and height of the frame are always valid numbers.,claim,This prevents margin/border/padding CSS from affecting the width/height (otherwise in Chrome a width and height of 1 would result in a rect size of 5x5).,msg,,,,,
+,,,5,This could prevent potential errors or unexpected behavior in the subsequent code that rely on the width and height of the frame.,claim,Why do we need to convert `width` and `height`?,codereviewer_pred,,,,,
+,,,6,"line 27, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,7,"line 28, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,8,"line 29, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,9,"line 31, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,10,"line 32, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,11,"line 33, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+12633.0,2886.0,"@@ -31,6 +31,10 @@ msg.Number = {};
+ msg.Number.min = ""Path `{PATH}` ({VALUE}) is less than minimum allowed value ({MIN})."";
+ msg.Number.max = ""Path `{PATH}` ({VALUE}) is more than maximum allowed value ({MAX})."";
+ 
++msg.Date = {};
++msg.Date.min = ""Path `{PATH}` ({VALUE}) is before than minimum allowed value ({MIN})."";
++msg.Date.max = ""Path `{PATH}` ({VALUE}) is after than maximum allowed value ({MAX})."";
++
+ msg.String = {};
+ msg.String.enum = ""`{VALUE}` is not a valid enum value for path `{PATH}`."";
+ msg.String.match = ""Path `{PATH}` is invalid ({VALUE})."";",1,"A new property has been added to the 'msg' object, which itself is an object. To this new object, two properties have been added which are strings.",claim,You can add these checks in the Date validator as well.,stable_code_pred,,,,test2886_old.js,test2886_new.js
+,,,2,"The first added property is 'Date', which is an object.",claim,"This should be `msg.Date.enum = ""`{VALUE}` is not a valid date value for path `{PATH}`."";`",codereviewer_pred,,,,,
+,,,3,"Two new properties have been added to the 'Date' object. The first is 'min', which is a string. The second is 'max', also a string.",claim,This is a good addition to the messages for Date and Time validation.,magicoder_pred,,,,,
+,,,4,"The 'min' property contains a message template that displays the path of the invalid value, the value itself, and the minimum allowed value.",claim,Minor grammar detail: the 'than' is unnecessary,msg,,,,,
+,,,5,"The 'max' property contains a message template that displays the path of the invalid value, the value itself, and the maximum allowed value.",claim,This is a good addition to the code as it provides more specific error messages for date validation.,deepseekcoder_pred,,,,,
+15124.0,721.0,"@@ -1,4 +1,6 @@
+-var nn = node.nodeName.toLowerCase();
+-return (
+-	node.hasAttribute('alt') && (nn === 'img' || nn === 'input' || nn === 'area')
+-);
++const { nodeName } = virtualNode.props;
++if (['img', 'input', 'area'].includes(nodeName) === false) {
++	return false;
++}
++
++return typeof virtualNode.attr('alt') === 'string';",1,The code has been refactored to use destructuring to get the 'nodeName' property from the 'virtualNode.props' object.,claim,"This code is already quite clean and readable. However, it can be simplified by removing the unnecessary `toLowerCase()` call. The `includes()` method is also more readable than `=== 'img' || === 'input' || === 'area'`.",deepseekcoder_pred,,,,test721_old.js,test721_new.js
+,,,2,"A new conditional statement has been added to check if the 'nodeName' is not included in the array ['img', 'input', 'area']. If it's not, the function returns false.",claim,"VirtualNode has a `hasAttr` function, any reason why you're not using it?",msg,,,,,
+,,,3,The return statement has been updated to check the type of 'alt' attribute of the 'virtualNode' instead of the 'node' object.,claim,"This code is checking if an image, input or area element has an alt attribute. It's a good practice to check if the attribute exists before trying to access it.
+
+The code can be improved by adding a check to see if the node is an element before trying to access its properties. This will prevent a runtime error if the node is not an element.
+Here's the improved code:
+```javascript
+const { nodeName } = virtualNode.props;
+if (['img', 'input', 'area'].includes(nodeName) === false) {
+	return false;
+}
+if (typeof virtualNode.attr('alt')!=='string') {
+return true;
+```
+This code will return false if the node is not an image, input or area, or if the alt attribute does not exist or is not a string. If the node is an image, input or area and the alt attribute exists and is a string, the function will return true.",magicoder_pred,,,,,
+,,,4,The refactoring to use destructuring makes the code cleaner and easier to read.,claim,Can we use `nodeName.toLowerCase()` here?,codereviewer_pred,,,,,
+,,,5,"line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,You can simplify this to just checking the nodeName and then checking the attribute.,stable_code_pred,,,,,
+,,,6,"line 1, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+8188.0,2290.0,"@@ -113,7 +113,9 @@ class CapacitorSplashScreen {
+     `;
+ 
+     this.mainWindowRef.on('closed', () => {
+-      this.splashWindow.close();
++      if (this.splashWindow && !this.splashWindow.isDestroyed) { 
++        this.splashWindow.close(); 
++      }
+     });
+ 
+     this.splashWindow.loadURL(`data:text/html;charset=UTF-8,${splashHtml}`, {baseURLForDataURL: `file://${rootPath}/splash_assets/`});",1,The code change involves adding a conditional statement to check if the 'splashWindow' exists and has not been destroyed before attempting to close it.,claim,You can remove this check now given we have an explicit check earlier in the close method.,stable_code_pred,,,,test2290_old.js,test2290_new.js
+,,,2,The condition `if (this.splashWindow && !this.splashWindow.isDestroyed)` ensures that the 'close' method is not called on a possibly non-existent or already destroyed 'splashWindow' object.,claim,You should add a check to ensure splashWindow is not undefined before trying to close it.,deepseekcoder_pred,,,,,
+,,,3,This change adds a layer of safety and prevents potential errors or unexpected behavior by checking if the 'splashWindow' object exists before attempting to close it.,claim,"`isDestroyed` is a function, not a property. This condition will always return false.",msg,,,,,
+,,,4,"line 115, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,"You can remove the check for `this.splashWindow.isDestroyed` as it's not a property of the `BrowserWindow` class.
+
+The `BrowserWindow` class does not have an `isDestroyed` property, but it does have a `isDestroyed()` method. So, you should use `this.splashWindow.isDestroyed()` instead.",magicoder_pred,,,,,
+,,,5,"line 121, col 31, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",issue,`this.splashWindow && this.splashWindow.isDestroyed`,codereviewer_pred,,,,,
+,,,6,"line 121, col 97, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+10735.0,6199.0,"@@ -5,8 +5,7 @@ import { enqueueRender } from '../render-queue';
+ import { getNodeProps } from './index';
+ import { diff, mounts, diffLevel, flushMounts, recollectNodeTree, removeChildren } from './diff';
+ import { createComponent, collectComponent } from './component-recycler';
+-
+-
++import remove from './remove';
+ 
+ /** Set a component's `props` (generally derived from JSX attributes).
+  *	@param {Object} props",1,An import statement has been added to the code. The function 'remove' is imported from the file './remove'.,claim,The removal of the comment line is unnecessary and can be removed.,magicoder_pred,,,,test6199_old.js,test6199_new.js
+,,,2,The function 'remove' can now be used in the code without needing to reference its full path every time. This could make the code cleaner and easier to read.,claim,This seems to be a cleanup code change. It looks like the author is removing an unused import.,deepseekcoder_pred,,,,,
+,,,3,"line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,Thinking this should be `removeNode()` exported from `dom/index.js`. Thoughts?,msg,,,,,
+,,,4,"line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,Why is this change needed?,codereviewer_pred,,,,,
+,,,5,"line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,You can remove this now given we have an explicit check earlier in `layoutCallback`,stable_code_pred,,,,,
+,,,6,"line 8, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+11085.0,9725.0,"@@ -26,6 +26,18 @@ describe ""Selenium::WebDriver::TargetLocator"" do
+     end
+   end
+ 
++  it ""should switch to parent frame"" do
++    driver.navigate.to url_for(""iframes.html"")
++
++    iframe = driver.find_element(:tag_name => ""iframe"")
++    driver.switch_to.frame(iframe)
++
++    driver.find_element(:name, 'login').should be_kind_of(WebDriver::Element)
++
++    driver.switch_to.parent_frame
++    driver.find_element(:id, 'iframe_page_heading').should be_kind_of(WebDriver::Element)
++  end
++
+   # switching by name not yet supported by safari
+   not_compliant_on :browser => [:ie, :iphone, :safari] do
+     it ""should switch to a window and back when given a block"" do",1,,,"This is a good test case to add, it's a good example of how to switch between frames and windows.
+
+The test case is not compliant with Safari and iPhone, so it should be removed or updated to be compliant with these browsers.",magicoder_pred,,,,test9725_old.js,test9725_new.js
+,,,2,,,This test is not necessary given the new functionality of switch_to.parent_frame which allows us to switch back to the parent frame after switching to a child frame.,stable_code_pred,,,,,
+,,,3,,,I tested it only in Firefox (`./go //rb:firefox-test`),msg,,,,,
+,,,4,,,Use the new Ruby 1.9 hash syntax.,codereviewer_pred,,,,,
+,,,5,,,"This test is good, but it's not checking for the correct exception when trying to switch to a frame that doesn't exist. It would be good to add a check for that.",deepseekcoder_pred,,,,,
+18051.0,8007.0,"@@ -36,6 +36,11 @@ function writeCommand(server, type, opsField, ns, ops, options, callback) {
+     writeCommand.bypassDocumentValidation = options.bypassDocumentValidation;
+   }
+ 
++  if (writeConcern.w === 0) {
++    // don't include session for unacknowledged writes
++    delete options.session;
++  }
++
+   const commandOptions = Object.assign(
+     {
+       checkKeys: type === 'insert',",1,A new condition has been added to the writeCommand function.,claim,"This seems like a bug, you should always pass the session when writing to the database.",stable_code_pred,,,,test8007_old.js,test8007_new.js
+,,,2,This condition checks if the write concern (w) of the server is 0.,claim,"This is a bit of a guess, but it seems like the intention is to not include the session if the write concern is unacknowledged. If that's the case, you could remove the check for w === 0 and just always delete the session.",magicoder_pred,,,,,
+,,,3,"If the write concern is 0, the session option is removed from the options object.",claim,"This code seems to be checking if the write concern's w value is 0 and if so, it removes the session from the options. This is a good practice to follow as it helps in reducing unnecessary network traffic.",deepseekcoder_pred,,,,,
+,,,4,"The session option is typically used to maintain state across multiple operations. By removing it when the write concern is 0, this could potentially affect the state of the application.",claim,Should this be `writeConcern.w === 1`?,codereviewer_pred,,,,,
+,,,5,"line 44, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"From the ticket: > I understand why a session ID would be silently omitted for implicit sessions, but what is the reasoning behind omitting it for explicit sessions instead of raising a logic error to the user? So what this change is doing is ""silently omitting"" the session if its an unacknowledged write. I think we want to actually return an error in this case.",msg,,,,,
+15319.0,3406.0,"@@ -25,7 +25,11 @@ const isPromiseLike = require('../utils').isPromiseLike;
+ function addToOperationsList(bulkOperation, docType, document) {
+   // Get the bsonSize
+   const bsonSize = bson.calculateObjectSize(document, {
+-    checkKeys: false
++    checkKeys: false,
++
++    // Since we don't know what the user selected for BSON options here,
++    // err on the safe side, and check the size with ignoreUndefined: false.
++    ignoreUndefined: false
+   });
+ 
+   // Throw error if the doc is bigger than the max BSON size",1,The code change is in the function addToOperationsList where the BSON options are being set.,claim,You can use the more generic method `bson.calculateSize()` which will handle the size calculation for you.,stable_code_pred,,,,test3406_old.js,test3406_new.js
+,,,2,A new option 'ignoreUndefined: false' has been added. This is likely to change the behavior of the BSON size calculation.,claim,"This code seems to be checking the size of a document in BSON format. The check is done with `ignoreUndefined: false` which means it will throw an error if the document contains an undefined value. If you want to allow undefined values, you should set `ignoreUndefined: true`.",deepseekcoder_pred,,,,,
+,,,3,"line 27, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"I think the more complete solution will save off a `ignoreUndefined` in the base class for the bulk operation (with a default of `false`), and use that for calculations. Was there a reason you didn't want to support the option from the operation level?",msg,,,,,
+,,,4,,,Why do we need to ignoreUndefined here?,codereviewer_pred,,,,,
+,,,5,,,"The checkKeys: false option is not necessary here. It's not checking keys, it's just not checking for undefined values.
+
+The ignoreUndefined: false option is unnecessary as well. It's not ignoring undefined values, it's just not checking for undefined values.
+The bsonSize calculation is not necessary if you're not using the size for anything else. If you're just checking if the document is too big, you can just check the size of the serialized document.
+The error message should be more specific about the document being too big.
+The bsonSize calculation should be done in a separate function, not in the addToOperationsList function. This function should only do the necessary operations to add the document to the bulk operation list.",magicoder_pred,,,,,
+12883.0,2307.0,"@@ -87,11 +87,11 @@ export function diff(dom, parentDom, newVNode, oldVNode, context, isSvg, excessD
+                         c._vnode = newVNode;
+ 
+                         // Invoke getDerivedStateFromProps
+-                        let s = c._nextState || c.state;
++                        if (c._nextState==null) {
++                                c._nextState = c.state;
++                        }
+                         if (newType.getDerivedStateFromProps!=null) {
+-                                oldState = assign({}, c.state);
+-                                if (s===c.state) s = c._nextState = assign({}, s);
+-                                assign(s, newType.getDerivedStateFromProps(newVNode.props, s));
++                                assign(c._nextState==c.state ? (c._nextState = assign({}, c._nextState)) : c._nextState, newType.getDerivedStateFromProps(newVNode.props, c._nextState));
+                         }
+ 
+                         // Invoke pre-render lifecycle methods",1,The code has been refactored to improve readability and efficiency.,claim,"The code is already checking for c._nextState before assigning to it. So, there is no need to check again.",deepseekcoder_pred,,,,test2307_old.js,test2307_new.js
+,,,2,The logic for setting the value of the 's' variable has been moved inside a conditional statement.,claim,"The `if (c._nextState==null)` is unnecessary. The `c._nextState = c.state;` is also unnecessary. The `assign(c._nextState==c.state? (c._nextState = assign({}, c._nextState)) : c._nextState, newType.getDerivedStateFromProps(newVNode.props, c._nextState));` is a bit confusing. It seems like it's trying to assign the result of `getDerivedStateFromProps` to `_nextState`, but it's also trying to assign the result to `",magicoder_pred,,,,,
+,,,3,"The 'oldState' variable is no longer assigned a value, as it is no longer needed.",claim,"You can remove this check now given we have an explicit check earlier in componentDidUpdate
+```javascript
+if (c._nextState!== c.state) {
+    c.componentDidUpdate(oldVNode.props, oldState, c);
+}
+```",stable_code_pred,,,,,
+,,,4,No assignment is made to 's' as the variable has been removed.,claim,"The true clause of your condition, can't this just be c._nextState since `assign({}, c._nextState)` is equal to returning c._nextState, or am I misunderstanding something here?",msg,,,,,
+,,,5,"The code is now easier to read and understand, which can help in future debugging and maintenance.",claim,"`c._nextState = assign({}, c.state);`",codereviewer_pred,,,,,
+,,,6,"The removal of the 'oldState' variable can help in memory management, as it is no longer needed.",claim,,,,,,,
+8812.0,7290.0,"@@ -1076,9 +1076,14 @@ Blockly.WorkspaceSvg.prototype.deleteVariableById = function(id) {
+  * @package
+  */
+ Blockly.WorkspaceSvg.prototype.createVariable = function(name, opt_type, opt_id) {
++  var variableInMap = (this.getVariable(name) != null);
+   var newVar = Blockly.WorkspaceSvg.superClass_.createVariable.call(this, name,
+     opt_type, opt_id);
+-  this.refreshToolboxSelection_();
++  // For performance reaons, only refresh the the toolbox for new variables.
++  // Variables that already exist should already be there.
++  if (!variableInMap) {
++    this.refreshToolboxSelection_();
++  }
+   return newVar;
+ };
+ ",1,A new variable `variableInMap` has been introduced which checks if the variable `name` exists in the map.,claim,"This code is not clear. It seems to be checking if a variable already exists in the map and then refreshing the toolbox selection. However, it's not clear what the purpose of this code is. It seems to be a performance optimization, but it's not clear why it would be necessary. It would be better to remove this code if it's not necessary.",magicoder_pred,,,,test7290_old.js,test7290_new.js
+,,,2,The `refreshToolboxSelection_()` function call has been moved inside a conditional statement. This function is now only called if the variable `name` does not exist in the map.,claim,Do you still need to call the superclass `createVariable` if you've already determined that the variable exists?,msg,,,,,
+,,,3,"A comment has been added to explain the reason behind the changes made. The comment suggests that for performance reasons, the toolbox should only be refreshed for new variables, and variables that already exist should already be there.",claim,This code change is adding a check to see if the variable already exists in the map before refreshing the toolbox selection. This can improve performance as it avoids unnecessary refreshes.,deepseekcoder_pred,,,,,
+,,,4,"line 1078, col 1, 'Blockly' is not defined.",issue,"This seems like a good idea, but you should be careful to ensure that the toolbox is not accidentally refreshed when it's not needed.",stable_code_pred,,,,,
+,,,5,"line 1080, col 16, 'Blockly' is not defined.",issue,nit: `!variableInMap && this.refreshToolboxSelection_()`,codereviewer_pred,,,,,
+11960.0,5474.0,"@@ -70,3 +70,18 @@ dom.isNativelyFocusable = function(el) {
+ 	}
+ 	return false;
+ };
++
++/**
++ * Determines if an element is in the focus order, but would not be if its
++ * tabindex were unspecified.
++ * @method insertedIntoFocusOrder
++ * @memberof axe.commons.dom
++ * @instance
++ * @param {HTMLElement} el The HTMLElement
++ * @return {Boolean} True if the element is in the focus order but wouldn't be
++ * if its tabindex were removed. Else, false.
++ */
++dom.insertedIntoFocusOrder = function(el) {
++	return (el.tabIndex > -1 && dom.isFocusable(el) &&
++			!dom.isNativelyFocusable(el));
++};",1,"A new method called ""insertedIntoFocusOrder"" has been added to the axe.commons.dom object.",claim,This function seems to be a good addition to the codebase. It provides a way to check if an element is in the focus order but would not be if its tabindex were unspecified. This can be useful for accessibility purposes.,deepseekcoder_pred,,,,test5474_old.js,test5474_new.js
+,,,2,This method takes an HTMLElement as a parameter and returns a boolean value.,claim,"This function seems to be checking if an element is in the focus order, but would not be if its tabindex were unspecified. It's a bit unclear what the purpose of this function is, but it seems to be a way to determine if an element is focusable, but not natively focusable.",magicoder_pred,,,,,
+,,,3,"The method checks if the tabIndex of the element is greater than -1, if the element is focusable, and if the element is not natively focusable.",claim,"Please put the `el.tabIndex > -1` in the first part of the expression. The matcher will run on every node on the page, so we should put the fastest part first.",msg,,,,,
+,,,4,A comment block has been added to describe the purpose of the method and its parameters/return value.,claim,I don't think you need the `&& !dom.isNativelyFocusable(el)`,codereviewer_pred,,,,,
+,,,5,,,This seems like a more complex solution for something that can be easily achieved with a single line of code.,stable_code_pred,,,,,
+14145.0,4235.0,"@@ -273,6 +273,7 @@ var testFiles = [
+   , '/test/functional/byo_promises_tests.js'
+ 
+   // Functionality tests
++  , '/test/functional/dns_txt_records_tests.js'
+   , '/test/functional/mongo_client_tests.js'
+   , '/test/functional/collection_tests.js'
+   , '/test/functional/db_tests.js'",1,A new test file has been added to the testFiles array. The new test file is '/test/functional/dns_txt_records_tests.js'.,claim,You can remove these now given we have an explicit check earlier in layoutCallback,stable_code_pred,,,,test4235_old.js,test4235_new.js
+,,,2,"The new test file will now be included in the testing process. This could mean that the DNS TXT records functionality will now be tested, which was not previously the case.",claim,should we rename this like `mongodb_srv_tests.js`?,msg,,,,,
+,,,3,"This change could potentially increase the total number of tests being performed, improving the reliability and accuracy of the software.",claim,"This is a new test file, make sure it's correctly set up and tested.
+
+### Summary
+The code changes are mostly correct and follow the best practices. However, there are a few issues that need to be addressed:
+1. The `evp_md_from_dispatch` function should be NULL checked for `md`.
+2. The `SSL_SRP_CTX_init` function should be cleaned up with a memset() or similar.
+3. The `iframe` variable should be checked for existence before creating it.
+4. The new test file `/test/functional/dns_txt_records_tests.js` should be added and tested.",magicoder_pred,,,,,
+,,,4,"If the new test file contains any bugs or issues, it could potentially affect the software's functionality. However, with the added test, the likelihood of this happening is reduced.",claim,Why do we need this file?,codereviewer_pred,,,,,
+,,,5,"line 273, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",issue,"This looks good, but it's not clear what the purpose of this test is. It's not a functional test, it's not a unit test, and it's not a performance test. It might be better to categorize it as a documentation test.",deepseekcoder_pred,,,,,
+,,,6,"line 276, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",issue,,,,,,,
+,,,7,"line 277, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",issue,,,,,,,
+,,,8,"line 278, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",issue,,,,,,,
+,,,9,"line 279, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",issue,,,,,,,
+12215.0,9770.0,"@@ -14,7 +14,13 @@ class Tag extends BaseItem {
+         }
+ 
+         static async noteIds(tagId) {
+-                const rows = await this.db().selectAll('SELECT note_id FROM note_tags WHERE tag_id = ?', [tagId]);
++                // Get NoteIds of that are tagged with current tag or its descendants
++                const rows = await this.db().selectAll(`WITH RECURSIVE
++                                                                                                parent_of(id, child_id) AS 
++                                                                                                (SELECT id, id FROM tags where id=?
++                                                                                                UNION ALL
++                                                                                                SELECT parent_of.id, tags2.id FROM parent_of JOIN tags AS tags2 ON parent_of.child_id=tags2.parent_id)
++                                                                                                SELECT note_id FROM note_tags WHERE tag_id IN (SELECT child_id from parent_of)`, [tagId]);
+                 const output = [];
+                 for (let i = 0; i < rows.length; i++) {
+                         output.push(rows[i].note_id);",1,The original code that was used to fetch note_ids associated with a particular tagId has been replaced.,claim,Why do we need `WITH RECURSIVE` here?,codereviewer_pred,,,,test9770_old.js,test9770_new.js
+,,,2,The new code uses a recursive common table expression (CTE) to generate a list of all child tags for a given tagId.,claim,This is a complex query and it's not clear what it's doing. It seems like it's trying to get all note_ids that are associated with the current tag or any of its descendants. It might be better to break this up into smaller queries or use a different approach.,stable_code_pred,,,,,
+,,,3,The query then selects all note_ids associated with these child tags.,claim,Again I'd prefer if this is done in JavaScript rather than in SQL.,msg,,,,,
+,,,4,The change expands the scope of the query to include not only the current tagId but also all of its descendants.,claim,"This is a recursive query to get all the note_ids that are tagged with the current tag or its descendants. It's a bit complex but it's more efficient than a direct query.
+
+The query is using a common table expression (CTE) to get all the descendants of the current tag. The CTE is defined as ""parent_of"" and it starts with the current tag and then recursively joins with the tags table to get all the descendants. The final SELECT statement then selects all the note_ids that are tagged with any of the descendants.
+The query is using a parameterized query to prevent",magicoder_pred,,,,,
+,,,5,"This could potentially return more note_ids than the previous query, as a tag's descendants will also have note_ids associated with them.",claim,This query is quite complex and may be hard to understand. It's using a recursive common table expression (CTE) to get all descendant tags of the current tag. It's a good idea to add comments to explain what it does.,deepseekcoder_pred,,,,,
+,,,6,"line 16, col 12, 'async functions' is only available in ES8 (use 'esversion: 8').",issue,,,,,,,
+,,,7,"line 18, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,8,"line 18, col 48, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,9,"line 24, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,10,"line 25, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+15736.0,7059.0,"@@ -490,6 +490,18 @@ class Builder {
+     return this;
+   }
+ 
++  /**
++   * Sets the {@link ie.ServiceBuilder} to use to manage the geckodriver
++   * child process when creating IE sessions locally.
++   *
++   * @param {ie.ServiceBuilder} service the service to use.
++   * @return {!Builder} a self reference.
++   */
++  setIeService(service) {
++    this.ieService_ = service;
++    return this;
++  }
++
+   /**
+    * Set {@linkplain edge.Options options} specific to Microsoft's Edge browser
+    * for drivers created by this builder. Any proxy settings defined on the",1,"A new method called ""setIeService"" has been added to the ""Builder"" class.",claim,This is a good addition to the builder class. It allows for the setting of the service for the IE driver.,magicoder_pred,,,,test7059_old.js,test7059_new.js
+,,,2,"This method takes a parameter ""service"" of type ""ie.ServiceBuilder"".",claim,This is a good addition to the builder class. It provides a way to set the service for IE.,deepseekcoder_pred,,,,,
+,,,3,"The method sets the ""ieService_"" property of the current instance to the provided service.",claim,nit: `this.ieService_ = service;`,codereviewer_pred,,,,,
+,,,4,"The method returns a self reference, i.e., it returns ""this"".",claim,You can use the setIeService method to set the IE service instead of duplicating the code.,stable_code_pred,,,,,
+,,,5,"This change allows the ""Builder"" class to be used to set the IE service, which is used to manage the geckodriver child process when creating IE sessions locally.",claim,`this.ieService_` should be initialized to null in the constructor.,msg,,,,,
+17220.0,4907.0,"@@ -206,7 +206,6 @@ describe('Configure Options', function() {
+       iframe.src = '/test/mock/frames/context.html';
+       iframe.onload = function() {
+         axe.configure(config);
+-        iframe.contentWindow.axe.configure(config);
+ 
+         axe.run(
+           '#target',",1,The code line that was removed is the one that configures the axe accessibility testing library within the content window of the iframe.,claim,You can remove this as well given the previous check in layoutCallback,stable_code_pred,,,,test4907_old.js,test4907_new.js
+,,,2,This change implies that the axe accessibility testing library is no longer being configured within the content window of the iframe.,claim,This seems to be a duplicate of the previous code change. It's not necessary to run axe.configure again in the iframe.onload function.,deepseekcoder_pred,,,,,
+,,,3,"This could potentially affect the accessibility of the content within the iframe, as the axe library is now not being applied.",claim,Why was this removed?,codereviewer_pred,,,,,
+,,,4,,,"This is a bit confusing. It seems like you're trying to configure axe on the iframe, but you're doing it on the parent window. It might be better to just configure axe on the iframe directly.",magicoder_pred,,,,,
+,,,5,,,"We need this left in as `axe.configure` is for the top-level page `axe` and we still need to configure the axe script inside the iframe as well (so both have to be configured),",msg,,,,,
+15369.0,1525.0,"@@ -1,7 +1,7 @@
+ 'use strict';
+ 
+ const Aspect = {
+-  SKIP_SESSION: Symbol('SKIP_SESSION')
++  SKIP_SESSION: 'SKIP_SESSION'
+ };
+ 
+ /**",1,The value of the constant 'SKIP_SESSION' has been changed from a Symbol to a string.,claim,You can use a constant for the string value,stable_code_pred,,,,test1525_old.js,test1525_new.js
+,,,2,"The change from Symbol to string could affect the behavior of the code where the 'SKIP_SESSION' constant is used. If there are any parts of the code that rely on the Symbol type, those parts may not work as expected after this change.",claim,"You can use a string instead of a Symbol for SKIP_SESSION. Symbols are not widely supported and can cause issues with minification.
+
+In general, the code is well-structured and follows best practices. However, there are a few areas where improvements can be made:
+1. The use of `createElementWithAttributes` is not clear. It seems to be a custom function, but it's not defined in the code snippet.
+2. The use of `dev().assert` is not clear. It seems to be a custom function, but it's not defined in the code snippet.
+3. The use of `SKIP_SESSION` is not clear. It seems to be a custom constant, but it's not defined in the code snippet.
+4. The use of `createElementWithAttributes` is not clear. It seems to be a custom function, but it's not defined in the code snippet.
+5. The use of `dev().assert` is not clear. It seems to be a custom function, but it's not defined in the code snippet.
+6. The use of `SKIP_SESSION` is not clear. It seems to be a custom constant, but it's not defined in the code snippet.
+7. The use of `createElementWithAttributes` is not clear. It seems to be a custom function, but it's not defined in the code snippet.
+8. The use of `dev().assert` is not clear. It seems to be a custom function, but it's",magicoder_pred,,,,,
+,,,3,The difference in perfomance between strings and symbols is negligible.,claim,Why this change?,codereviewer_pred,,,,,
+,,,4,"The change could also affect the readability of the code, as strings are easier to read and understand than symbols.",claim,"You can use Symbols for unique identifiers, but if you're just using them as constants, it's simpler and more readable to use string literals.",deepseekcoder_pred,,,,,
+,,,5,"line 1, col 1, Use the function form of ""use strict"".",issue,why remove `Symbol`?,msg,,,,,
+,,,6,"line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+6073.0,2863.0,"@@ -7,6 +7,12 @@ const createDist = (buildConfig = config.defaultBuildConfig, options) => {
+   config.buildConfig = buildConfig
+   config.update(options)
+ 
++  if (config.notarize) {
++    notarize = config.notarize
++    notary_user = config.notary_user
++    notary_password = config.notary_password
++  }
++
+   util.updateBranding()
+   fs.removeSync(path.join(config.outputDir, 'dist'))
+   config.buildTarget = 'create_dist'",1,The code changes involve adding a conditional block that checks if the 'notarize' configuration exists.,claim,missing `{` here (and then `}` after `notary_password = config.notary_password`); it's only going to do the first one,msg,,,,test2863_old.js,test2863_new.js
+,,,2,"If the 'notarize' configuration exists, three variables are assigned values from the 'config' object: 'notarize', 'notary_user', and 'notary_password'.",claim,"This code block seems to be setting up notarization, which is not immediately obvious. It might be useful to add comments to explain what this code does.",deepseekcoder_pred,,,,,
+,,,3,"The 'notarize', 'notary_user', and 'notary_password' variables are currently not used elsewhere in the code.",claim,You can remove these checks as we are already checking for them in the config validation.,stable_code_pred,,,,,
+,,,4,"line 7, col 35, Missing semicolon.",issue,`notary_user` and `notary_password` don't seem to be used,codereviewer_pred,,,,,
+,,,5,"line 8, col 25, Missing semicolon.",issue,"This is a good addition to the code. It allows for the notarization of the build if needed.
+
+The code change is as follows:
+```
+if (config.notarize) {
+  notarize = config.notarize
+  notary_user = config.notary_user
+  notary_password = config.notary_password
+}
+This code block checks if the `notarize` property is set in the configuration object. If it is, it assigns the value of `config.notarize`, `config.notary_user`, and `config.notary_password` to the `notarize`, `notary_user`, and `notary_password` variables, respectively. This allows for the notarization of the build if needed.",magicoder_pred,,,,,
+,,,6,"line 11, col 31, Missing semicolon.",issue,,,,,,,
+,,,7,"line 12, col 37, Missing semicolon.",issue,,,,,,,
+,,,8,"line 13, col 45, Missing semicolon.",issue,,,,,,,
+,,,9,"line 16, col 24, Missing semicolon.",issue,,,,,,,
+,,,10,"line 17, col 53, Missing semicolon.",issue,,,,,,,
+,,,11,"line 18, col 37, Missing semicolon.",issue,,,,,,,
+10883.0,1472.0,"@@ -278,9 +278,7 @@ describe('src/Core', () => {
+       plugins: {},
+       totalProgress: 0
+     })
+-    expect(core.plugins.acquirer[0].mocks.uninstall.mock.calls.length).toEqual(
+-      1
+-    )
++    expect(core.plugins[Object.keys(core.plugins)[0]].length).toEqual(0)
+   })
+ 
+   describe('upload hooks', () => {",1,The code expectation for the length of the uninstall mock calls has been changed.,claim,Can we keep the other assertion too? I think it's helpful to ensure that the uninstall function was called too,msg,,,,test1472_old.js,test1472_new.js
+,,,2,"Previously, the code was expecting the length of the uninstall mock calls to be 1.",claim,"This test is not checking anything meaningful. It's just checking that the length of the array is 0. It's not checking if the plugin was uninstalled. It's also not checking if the plugin was removed from the core.plugins object.
+
+The test should be updated to check if the plugin was uninstalled and if it was removed from the core.plugins object.",magicoder_pred,,,,,
+,,,3,"line 280, col 7, Missing semicolon.",issue,`expect(core.plugins[Object.keys(core.plugins)[0]].length).toEqual(0)`,codereviewer_pred,,,,,
+,,,4,"line 281, col 73, Missing semicolon.",issue,The first change seems redundant given the second check is sufficient.,stable_code_pred,,,,,
+,,,5,"line 282, col 5, Missing semicolon.",issue,"This test seems to be checking the length of the first plugin's uninstall mock calls, which is not very meaningful. It would be better to check the length of the plugins object itself, or the length of the first plugin's array.",deepseekcoder_pred,,,,,
+,,,6,"line 284, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+14685.0,2663.0,"@@ -91,6 +91,7 @@ class MergeCells extends BasePlugin {
+     this.autofillCalculations = new AutofillCalculations(this);
+     this.selectionCalculations = new SelectionCalculations();
+ 
++    this.hot.selection.transformation.addLocalHook('afterTransformStart', (...args) => this.onAfterLocalTransformStart(...args));
+     this.addHook('afterInit', (...args) => this.onAfterInit(...args));
+     this.addHook('beforeKeyDown', (...args) => this.onBeforeKeyDown(...args));
+     this.addHook('modifyTransformStart', (...args) => this.onModifyTransformStart(...args));",1,A new line of code has been added to the MergeCells class.,claim,This is a good addition to the code. It's a hook that gets called after the local transformation starts. It's a good idea to add a comment explaining what this hook does.,magicoder_pred,,,,test2663_old.js,test2663_new.js
+,,,2,The new line of code adds a local hook to the 'afterTransformStart' event of the transformation of the selection in the hot.selection object.,claim,Shouldn't this be `this.hot.selection.transform`?,codereviewer_pred,,,,,
+,,,3,The callback function for this hook is set to the 'onAfterLocalTransformStart' method of the MergeCells class.,claim,This hook seems to be added in a way that is not immediately obvious. It might be better to add a comment explaining what it does.,deepseekcoder_pred,,,,,
+,,,4,The 'onAfterLocalTransformStart' method will now be called after any transformation start event in the hot.selection.transformation object.,claim,Could you replace local hook with global hook `afterModifyTransformStart`?,msg,,,,,
+,,,5,"line 94, col 76, 'rest operator' is only available in ES6 (use 'esversion: 6').",issue,You can use the `addLocalHook` method instead of `addHook` to avoid the need for a type cast.,stable_code_pred,,,,,
+,,,6,"line 94, col 83, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,7,"line 94, col 120, 'spread operator' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,8,"line 95, col 32, 'rest operator' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,9,"line 95, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,10,"line 95, col 61, 'spread operator' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,11,"line 96, col 36, 'rest operator' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,12,"line 96, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,13,"line 96, col 69, 'spread operator' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,14,"line 97, col 43, 'rest operator' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,15,"line 97, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,16,"line 97, col 83, 'spread operator' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+35758.0,8350.0,"@@ -33,6 +33,8 @@ let baseModuleStore = Modules.createModuleStore( 'tagmanager', {
+ 		'internalAMPContainerID',
+ 		'useSnippet',
+ 		'ownerID',
++		'gaAMPPropertyID',
++		'gaPropertyID',
+ 	],
+ 	submitChanges,
+ 	validateCanSubmitChanges,",1,Two new properties have been added to the baseModuleStore object. These properties are 'gaAMPPropertyID' and 'gaPropertyID'.,claim,"Since `ga` is an acronym here, we should rename the generated actions and selectors to adhere to our naming conventions as it will no longer be capitalized properly. See below for how this is already done for the amp container ID settings. We should add `GA` to our list of checked acronyms as well in `packages/eslint-plugin/rules/acronym-case.js`.",msg,,,,test8350_old.js,test8350_new.js
+,,,2,"line 39, col 5, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,Why do we need this?,codereviewer_pred,,,,,
+,,,3,"line 40, col 5, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,This is a new field that is not used anywhere in the code. It might be a typo or it's a new field that needs to be used.,magicoder_pred,,,,,
+,,,4,,,You can remove these now given we have an explicit check earlier in layoutCallback,stable_code_pred,,,,,
+,,,5,,,"This is a bit unclear, but it seems like 'gaAMPPropertyID' and 'gaPropertyID' are not used anywhere in the code. If they are not used, they can be removed.",deepseekcoder_pred,,,,,
+14051.0,6146.0,"@@ -204,5 +204,4 @@ function server (inputCompanionOptions = {}) {
+   return { app, companionOptions }
+ }
+ 
+-const { app, companionOptions } = server()
+-module.exports = { app, companionOptions, server }
++module.exports = { server }",1,The destructuring assignment of the server function's return values into the variables app and companionOptions has been removed.,claim,Maybe change it to `module.exports = server` ? Becase there's nothing else to export here,msg,,,,test6146_old.js,test6146_new.js
+,,,2,"The server function's return values, which were previously being destructured into app and companionOptions, are no longer being used in the rest of the code.",claim,"This code is not being used anywhere else in the file, so it can be removed.",deepseekcoder_pred,,,,,
+,,,3,The module's exports have been updated to no longer include the variables app and companionOptions. Only the server function is being exported.,claim,You can remove this now given we have an explicit check earlier in the code,stable_code_pred,,,,,
+,,,4,"line 204, col 12, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,`companionOptions` is not used anymore,codereviewer_pred,,,,,
+,,,5,"line 204, col 17, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,The server function is not being used anywhere in the code. It might be better to remove it.,magicoder_pred,,,,,
+,,,6,"line 204, col 35, Missing semicolon.",issue,,,,,,,
+,,,7,"line 207, col 20, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,8,"line 207, col 28, Missing semicolon.",issue,,,,,,,
+24612.0,5890.0,"@@ -0,0 +1,19 @@
++
++import { wpApiFetch } from './wp-api-fetch';
++
++import { testClientConfig } from './test-client-config';
++
++/**
++ *
++ * @param {*} config
++ */
++export async function setClientConfig( config = testClientConfig ) {
++	return await wpApiFetch( {
++		path: 'google-site-kit/v1/e2e/auth/client-config',
++		method: 'post',
++		data: {
++			clientID: config.web.client_id,
++			clientSecret: config.web.client_secret,
++		},
++	} );
++}",1,"The code introduces a new file, './wp-api-fetch' and './test-client-config'. These files are not provided in the diff.",claim,"This code seems to be correct, but it's not clear what the reviewer is expecting. Are there any potential issues or improvements that could be made?
+
+A: The code seems to be correct and there are no obvious issues. It's a simple function that sends a POST request to the WordPress REST API to set the client configuration.
+However, there are a few suggestions that could be made:
+1. Error Handling: The function doesn't handle potential errors that might occur during the API request. You might want to add some error handling to make the function more robust.
+2. Comments: While the code is self-explanatory, adding comments could make it easier for others to understand what the function does.
+3. Testing: Consider adding some unit tests to ensure that the function works as expected.
+4. Code Formatting: The code is already formatted correctly, but you might want to consider adding",deepseekcoder_pred,,,,test5890_old.js,test5890_new.js
+,,,2,The code imports the 'wpApiFetch' function from the './wp-api-fetch' file and the 'testClientConfig' object from the './test-client-config' file.,claim,Why do we need this?,codereviewer_pred,,,,,
+,,,3,"The code defines an asynchronous function 'setClientConfig' that takes an optional parameter 'config'. If 'config' is not provided, it defaults to 'testClientConfig'.",claim,"This is a function to set the client config for the Google Site Kit plugin. It uses the wpApiFetch function to make a POST request to the API endpoint. The function takes an optional parameter config which defaults to testClientConfig. The function returns a promise that resolves to the response from the API.
+
+The function is using the wpApiFetch function which is not defined in the code snippet. It's recommended to define this function or use a different one that matches the API you're using.
+The function is also using the testClientConfig which is also not defined in the code snippet. It's recommended to define this object or use a different one that matches the configuration you're using.
+The function is using the client_id and client_secret properties of the config object which are not defined in the code snippet. It's recommended to define these properties or use a different way to get these values.
+The function is using the path 'google-site-kit/v1",magicoder_pred,,,,,
+,,,4,"line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,This function is doing too much. It should be broken down into smaller functions.,stable_code_pred,,,,,
+,,,5,"line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,Same here: Empty line before and no `Internal dependencies` docblock (mandatory anyway once #217 lands).,msg,,,,,
+,,,6,"line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,7,"line 10, col 47, 'default parameters' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+12872.0,2830.0,"@@ -87,11 +87,11 @@ export function diff(dom, parentDom, newVNode, oldVNode, context, isSvg, excessD
+ 			c._vnode = newVNode;
+ 
+ 			// Invoke getDerivedStateFromProps
+-			let s = c._nextState || c.state;
++			if (c._nextState==null) {
++				c._nextState = c.state;
++			}
+ 			if (newType.getDerivedStateFromProps!=null) {
+-				oldState = assign({}, c.state);
+-				if (s===c.state) s = c._nextState = assign({}, s);
+-				assign(s, newType.getDerivedStateFromProps(newVNode.props, s));
++				c.setState(newType.getDerivedStateFromProps(newVNode.props, c._nextState));
+ 			}
+ 
+ 			// Invoke pre-render lifecycle methods",1,,,doesn't this enqueue a double render or is that safeguarded somehow,msg,,,,test2830_old.js,test2830_new.js
+,,,2,,,"The code is checking if the state is the same as the next state, if it is, it assigns the state to the next state. This is unnecessary and can be removed.
+
+The code is also assigning the state to the next state before calling getDerivedStateFromProps, which is unnecessary and can be removed.
+The code is also assigning the state to the next state before calling getDerivedStateFromProps, which is unnecessary and",magicoder_pred,,,,,
+,,,3,,,nit: space after `==`,codereviewer_pred,,,,,
+,,,4,,,"You can remove this check now given we have an explicit check earlier in componentDidUpdate
+```javascript
+if (newVNode.props.hasOwnProperty('children') &&!newVNode.props.children) {
+    newVNode.props.children = null;
+}
+```",stable_code_pred,,,,,
+,,,5,,,"The code seems to be correct, but it's not clear what the purpose of the first block of code is. It seems to be checking if c._nextState is null and if so, setting it to c.state. Then it checks if getDerivedStateFromProps is not null and if so, it calls it. This seems to be a common pattern in React code, but it's not clear why it's being done in this specific context.",deepseekcoder_pred,,,,,
+11952.0,8357.0,"@@ -68,13 +68,14 @@ export function renderComponent(component, opts, mountAll, isChild) {
+                 state = component.state,
+                 context = component.context,
+                 previousProps = component.prevProps || props,
+-                previousState = component.prevState || state,
++                previousState = extend({}, component.prevState || state),
+                 previousContext = component.prevContext || context,
+                 isUpdate = component.base,
+                 nextBase = component.nextBase,
+                 initialBase = isUpdate || nextBase,
+                 initialChildComponent = component._component,
+                 skip = false,
++                snapshot = previousContext,
+                 rendered, inst, cbase;
+ 
+         if (component.constructor.getDerivedStateFromProps) {",1,The previousState object has been changed from being a reference to a new object created by extending the current state. This is to prevent any potential side effects that might occur due to changes in the state object.,claim,Shouldn't this be `previousContext = previousContext || context`?,codereviewer_pred,,,,test8357_old.js,test8357_new.js
+,,,2,A new variable named 'snapshot' has been introduced. This variable is set to the previousContext.,claim,"Although this is needed for `getSnapshotBeforeUpdate` this also fixes a bug with `componentDidUpdate`. During rendering, the `state` variable is mutated. This has the consequence, that `previousState` would never hold the previous state, but the most current one.",msg,,,,,
+,,,3,The change in the previousState object could potentially prevent any bugs or errors that might occur due to changes in the state object.,claim,"The previousState is being extended, so it's not necessary to extend it again.",deepseekcoder_pred,,,,,
+,,,4,,,This is a good idea to make sure that the state is not mutated during the render process.,magicoder_pred,,,,,
+,,,5,,,You can remove this check as you're extending the previous state which will handle the initial render correctly.,stable_code_pred,,,,,
+17726.0,6426.0,"@@ -2,6 +2,7 @@
+  * and will be replaced soon by a Vue component.
+  */
+ 
++/* eslint-disable no-var */
+ import browser from 'browser';
+ import dom from 'dom';
+ import 'css!./navdrawer';",1,"An ESLint rule has been disabled in the code. ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the aim of making code more consistent and avoiding bugs. The specific rule that has been disabled is 'no-var'.",claim,"This is a style guide issue. It's not a mistake, but it's not following the style guide.",deepseekcoder_pred,,,,test6426_old.js,test6426_new.js
+,,,2,"line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,You can remove this now given it's just a comment and not doing anything.,stable_code_pred,,,,,
+,,,3,"line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,Why disable the rule for this file?,msg,,,,,
+,,,4,"line 8, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,"This is a TypeScript file, so you should use TypeScript syntax. Also, you should use the correct syntax for importing modules.",magicoder_pred,,,,,
+,,,5,,,Why do we need to disable this?,codereviewer_pred,,,,,
+10707.0,4604.0,"@@ -380,8 +380,15 @@ class RemoteConnection(object):
+             # Authorization header
+             headers[""Authorization""] = ""Basic %s"" % auth
+ 
+-        self._conn.request(method, parsed_url.path, data, headers)
+-        resp = self._conn.getresponse()
++        if body and method != 'POST' and method != 'PUT':
++            body = None
++        try:
++          self._conn.request(method, parsed_url.path, body, headers)
++          resp = self._conn.getresponse()
++        except httplib.HTTPException:
++          self._conn.close()
++          raise
++
+         statuscode = resp.status
+         statusmessage = resp.msg
+         LOGGER.debug('%s %s' % (statuscode, statusmessage))",1,,,You can use a single try/except block to catch both httplib.HTTPException and ValueError.,stable_code_pred,,,,test4604_old.js,test4604_new.js
+,,,2,,,"The try-except block is good for error handling. However, the check for body and method is unnecessary. The body should be None for GET and HEAD requests, and the method should not be 'POST' or 'PUT' for GET and HEAD requests.",deepseekcoder_pred,,,,,
+,,,3,,,body is being used here for the first time without every being populated. This will error. To run tests do `./go clean test_py` and that will run the Firefox tests,msg,,,,,
+,,,4,,,"The try-except block is not necessary here. The httplib.HTTPException is raised when the connection is closed, which is the expected behavior.
+
+The body parameter is not used in the request method if it's None, so it can be removed.
+The body parameter is not used in the request method if it's None, so it can",magicoder_pred,,,,,
+,,,5,,,"Shouldn't this be `method in ('POST', 'PUT')`?",codereviewer_pred,,,,,
+25369.0,6397.0,"@@ -31,7 +31,7 @@ storiesOf( 'Global', module )
+                                 title={ __( 'Top content over the last 28 days', 'google-site-kit' ) }
+                                 headerCtaLink=""https://analytics.google.com""
+                                 headerCtaLabel={ __( 'See full stats in Analytics', 'google-site-kit' ) }
+-                                footerCtaLabel={ __( 'Analytics', 'google-site-kit' ) }
++                                footerCtaLabel={ _x( 'Analytics', 'Service name', 'google-site-kit' ) }
+                                 footerCtaLink=""https://analytics.google.com""
+                         >
+                                 <AnalyticsDashboardWidgetTopPagesTable />",1,The change is done using the _x function instead of the __ function.,claim,The `_x` function needs to be imported at the top of the file (in addition to `__`),msg,,,,test6397_old.js,test6397_new.js
+,,,2,"The change implies that the label for the footer CTA is now expected to be translated. If the language of the website is not set to English, the label will be displayed in the translated language.",claim,"The footerCtaLabel is a translation string, so it should be translated.",deepseekcoder_pred,,,,,
+,,,3,"This change could potentially affect the accessibility of the website, as screen readers may read out the translated label instead of the default label.",claim,The translation function should be used here to ensure the correct translation is used.,magicoder_pred,,,,,
+,,,4,,,You can use the `goog.i18n.xlate.translate` function to handle the localization of the footer CTA label.,stable_code_pred,,,,,
+,,,5,,,"This should be `_x( 'Analytics', 'Service name', 'google-site-kit' )`",codereviewer_pred,,,,,
+15111.0,4259.0,"@@ -18,10 +18,14 @@ const handleCallback = require('../utils').handleCallback;
+ const indexInformationDb = require('./db_ops').indexInformation;
+ const isObject = require('../utils').isObject;
+ const Long = require('mongodb-core').BSON.Long;
++const makeLazyLoader = require('../utils').makeLazyLoader;
+ const MongoError = require('mongodb-core').MongoError;
+ const ReadPreference = require('mongodb-core').ReadPreference;
+ const toError = require('../utils').toError;
+ 
++const collLoader = makeLazyLoader(`${__dirname}/../collection`);
++const dbLoader = makeLazyLoader(`${__dirname}/../db`);
++
+ /**
+  * Group function helper
+  * @ignore",1,Three new lines of code have been added to the file.,claim,"You can remove these now given we have an explicit check earlier in layoutCallback
+```javascript
+const ensureSafe = require('./safe');
+const executeWithPossibleSideEffect = require('./execute_with_possible_side_effect');
+```",stable_code_pred,,,,test4259_old.js,test4259_new.js
+,,,2,The first new line imports the function 'makeLazyLoader' from the '../utils' module.,claim,Why do we need `makeLazyLoader` here?,codereviewer_pred,,,,,
+,,,3,"The second and third new lines create two new variables, 'collLoader' and 'dbLoader', which are assigned the result of calling the 'makeLazyLoader' function with the paths to the '../collection' and '../db' directories, respectively.",claim,nit: maybe call these `loadCollection()/loadDb()`,msg,,,,,
+,,,4,The code is currently not using the 'makeLazyLoader' function.,claim,This is a good addition to make the code more modular and easier to maintain. It helps to avoid circular dependencies and makes the code more readable.,deepseekcoder_pred,,,,,
+,,,5,"line 18, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,This is a good idea to make sure that the modules are only loaded when they are needed. This can help to reduce the memory usage and improve the performance.,magicoder_pred,,,,,
+,,,6,"line 19, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,7,"line 20, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,8,"line 21, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,9,"line 22, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,10,"line 23, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,11,"line 24, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,12,"line 26, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,13,"line 26, col 35, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,14,"line 27, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,15,"line 27, col 33, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,16,"line 18, col 28, 'require' is not defined.",issue,,,,,,,
+,,,17,"line 19, col 18, 'require' is not defined.",issue,,,,,,,
+,,,18,"line 20, col 14, 'require' is not defined.",issue,,,,,,,
+,,,19,"line 21, col 24, 'require' is not defined.",issue,,,,,,,
+,,,20,"line 22, col 20, 'require' is not defined.",issue,,,,,,,
+,,,21,"line 23, col 24, 'require' is not defined.",issue,,,,,,,
+,,,22,"line 24, col 17, 'require' is not defined.",issue,,,,,,,
+,,,23,"line 26, col 38, '__dirname' is not defined.",issue,,,,,,,
+,,,24,"line 27, col 36, '__dirname' is not defined.",issue,,,,,,,
+12707.0,3853.0,"@@ -44,9 +44,12 @@ module.exports = class Client {
+       body: data
+     }).then((response) => response.json()).then((assembly) => {
+       if (assembly.error) {
+-        const error = new Error(assembly.error)
++        const error = new Error(assembly)
+         error.message = assembly.error
+-        error.details = assembly.reason
++        error.details = assembly.message
++        if (assembly.assembly_id) {
++          error.details += ' ' + `assembly_id: ${assembly.assembly_id}`
++        }
+         throw error
+       }
+ ",1,The error object is now created using the entire 'assembly' object instead of just the 'error' property.,claim,"hmm, I think we can just do `new Error(assembly.error)` and that should set `error.message` correctly too. I don't know why it was done this way with a separate `.message` assignment before :sweat_smile: Should we do `error.assembly = assembly` so the template editor can access it that way, rather than parsing `error.details`?",msg,,,,test3853_old.js,test3853_new.js
+,,,2,The 'details' property of the error object is now set to the 'message' property of the 'assembly' object.,claim,This should be `error.details += ' ' + assembly.assembly_id`,codereviewer_pred,,,,,
+,,,3,"An additional check has been added to include the 'assembly_id' property of the 'assembly' object in the 'details' property of the error object, if it exists.",claim,You can use the spread operator to copy the properties of the error object. This will make the code more concise and easier to read.,stable_code_pred,,,,,
+,,,4,The more descriptive error message will likely make debugging easier.,claim,The error message is not clear. It's better to include the assembly_id in the error message.,magicoder_pred,,,,,
+,,,5,"line 45, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,The error message is not very helpful. It might be better to include the assembly object in the error message.,deepseekcoder_pred,,,,,
+,,,6,"line 45, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,7,"line 47, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,8,"line 47, col 42, Missing semicolon.",issue,,,,,,,
+,,,9,"line 48, col 39, Missing semicolon.",issue,,,,,,,
+,,,10,"line 49, col 41, Missing semicolon.",issue,,,,,,,
+,,,11,"line 51, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,12,"line 51, col 72, Missing semicolon.",issue,,,,,,,
+,,,13,"line 53, col 20, Missing semicolon.",issue,,,,,,,
+15182.0,2396.0,"@@ -93,7 +93,7 @@ function setProperty(dom, name, value, oldValue, isSvg) {
+ 		}
+ 	}
+ 	// Benchmark for comparison: https://esbench.com/bench/574c954bdb965b9a00965ac6
+-	else if (name[0] === 'o' && name[1] === 'n') {
++	else if (name.slice(0, 2) === 'on') {
+ 		let useCapture = name !== (name = name.replace(/Capture$/, ''));
+ 		let nameLower = name.toLowerCase();
+ 		name = (nameLower in dom ? nameLower : name).slice(2);",1,"The condition for the else if statement has been changed. Previously, it checked if the first two characters of the 'name' variable were 'o' and 'n'. Now, it checks if the first two characters of the 'name' variable match the string 'on'.",claim,"You can use slice(2) to remove 'on' from the start of the name, rather than replacing and checking the length.",stable_code_pred,,,,test2396_old.js,test2396_new.js
+,,,2,"This change will affect the way the code handles events. It may affect how it recognizes and responds to events, potentially leading to different behaviors.",claim,"The comparison can be simplified to just `name.slice(0, 2) === 'on'`. This will make the code more readable and easier to understand.",deepseekcoder_pred,,,,,
+,,,3,"It could potentially fix a bug in the previous version of the code, where the event listener was not being correctly identified.",claim,"This is a bit of a mess. It's checking for the prefix 'on' and then removing it. It's also checking if the name is in lowercase and if not, converting it to lowercase. It's also checking if the name is in the DOM and if not, slicing it to the right length. This is a bit confusing and could be simplified.",magicoder_pred,,,,,
+,,,4,"line 97, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"Why not `name.slice(0, 2) === 'on'`?",codereviewer_pred,,,,,
+,,,5,"line 98, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,How's that linked esbench looking with slice?,msg,,,,,
+16810.0,1454.0,"@@ -22,5 +22,7 @@ describe('Client Side Encryption', function() {
+     return testContext.setup(this.configuration);
+   });
+ 
+-  generateTopologyTests(testSuites, testContext);
++  generateTopologyTests(testSuites, testContext, spec => {
++    return !spec.description.match(/type=regex/);
++  });
+ });",1,"The function call to ""generateTopologyTests"" has been modified.",claim,You can remove this now given we have an explicit check earlier in the describe() function.,stable_code_pred,,,,test1454_old.js,test1454_new.js
+,,,2,"Previously, the function was called with two arguments, ""testSuites"" and ""testContext"".",claim,Can we use `spec.description.includes('type=regex')` instead?,codereviewer_pred,,,,,
+,,,3,"Now, an additional argument ""spec"" has been added to the function.",claim,Can you leave a note about why we are skipping regex tests?,msg,,,,,
+,,,4,"The ""spec"" argument is a function that returns the negation of the result of a match between the description of the ""spec"" object and the string ""type=regex"".",claim,"This is a good way to filter out tests that are not relevant to your specific use case.
+
+Please provide the code changes and the feedback for the review.",magicoder_pred,,,,,
+,,,5,"line 25, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,This is a bit of a code smell. The test suite is being filtered based on the description of the test. This is not a good practice. It would be better to filter the tests based on the actual tests themselves.,deepseekcoder_pred,,,,,
+16461.0,5610.0,"@@ -213,7 +213,6 @@ const CASE_TRANSLATION = {
+   tlscafile: 'tlsCAFile',
+   tlscertificatekeyfile: 'tlsCertificateKeyFile',
+   tlscertificatekeyfilepassword: 'tlsCertificateKeyFilePassword',
+-  wtimeout: 'wTimeoutMS',
+   j: 'journal'
+ };
+ ",1,The code change involves the removal of a key-value pair from the constant object CASE_TRANSLATION. The key removed is 'wtimeout'.,claim,Why was this removed?,codereviewer_pred,,,,test5610_old.js,test5610_new.js
+,,,2,The removal of 'wtimeout' from the CASE_TRANSLATION object will prevent any future references to 'wtimeout' in the codebase from accessing the value 'wTimeoutMS'.,claim,"This is a translation map, so it's not really a mistake, but it might be a good idea to add comments explaining what each key-value pair represents.",deepseekcoder_pred,,,,,
+,,,3,This could potentially lead to errors if the 'wtimeout' is still being used in the codebase.,claim,The wTimeoutMS should be renamed to webSocketTimeoutMS to match the naming convention in the WebSocket interface.,stable_code_pred,,,,,
+,,,4,"The removal of this key-value pair will also remove the corresponding entry from the object, freeing up memory.",claim,"This is a translation from old style to new style. It's not a mistake, but it's not necessary.",magicoder_pred,,,,,
+,,,5,,,"is this a breaking change? If I'm not mistaken, this is translating a user-provided `wtimeout` in the connection string into `wTimeoutMS`",msg,,,,,
+26815.0,5405.0,"@@ -61,7 +61,7 @@ class AdSenseSetupWidget extends Component {
+ 
+         async getAccounts() {
+                 try {
+-                        const responseData = await data.get( TYPE_MODULES, 'adsense', 'accounts' );
++                        const responseData = await data.get( TYPE_MODULES, 'adsense', 'accounts', { maybeSetAccount: true } );
+ 
+                         /**
+                          * Defines the account status. Possible values:",1,"The code change is in the AdSenseSetupWidget class, specifically in the getAccounts method.",claim,You can remove these now given we have an explicit check earlier in getAccounts,stable_code_pred,,,,test5405_old.js,test5405_new.js
+,,,2,The change is in the way the data.get method is called.,claim,Why do we need to set `maybeSetAccount: true`?,codereviewer_pred,,,,,
+,,,3,"Previously, the method was called with three arguments: TYPE_MODULES, 'adsense', and 'accounts'.",claim,What's the reason for this change here? I didn't see it mentioned in the PR and it's a bit of a confusing param name  ,msg,,,,,
+,,,4,"Now, an object is passed as an additional argument. The object has a property 'maybeSetAccount' set to true.",claim,"The last line of code is not necessary and can be removed.
+
+The function getAccounts() is asynchronous, but it doesn't use the await keyword. This can lead to unexpected behavior.
+The function getAccounts() is using a try-catch block, but it doesn't handle the exceptions. If an exception is thrown, the program will terminate abruptly.
+The function getAccounts() is calling the data.get() function with four arguments, but the function definition only accepts three arguments. This can lead to unexpected behavior.
+The function getAccounts() is calling the data.get() function with a specific object as the fourth argument, but the function definition does not use this object. This can lead to unexpected behavior.
+The function getAccounts() is calling the data.get() function with a specific property of the object as the fourth argument, but the function definition does not use this property. This can lead to unexpected behavior.
+The function getAccounts() is calling the data.get() function with a specific value as the fourth argument, but the function definition does not use this value. This can lead to unexpected behavior.
+The function getAccounts() is calling the data.get() function with a specific type as the fourth argument, but the function definition does not use this type",magicoder_pred,,,,,
+,,,5,"line 62, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').",issue,The `maybeSetAccount` option seems like a good idea to avoid unnecessary API calls.,deepseekcoder_pred,,,,,
+,,,6,"line 64, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+15097.0,958.0,"@@ -0,0 +1,17 @@
++/**
++ * Memoize a function.
++ * @method memoize
++ * @memberof axe.utils
++ * @param {Function} fn Function to memoize
++ * @return {Function}
++ */
++axe._memoizedFns = [];
++axe.utils.memoize = function(fn) {
++	// keep track of each function that is memoized so it can be cleared at
++	// the end of a run. each memoized function has its own cache, so there is
++	// no method to clear all memoized caches. instead, we have to clear each
++	// individual memoized function ourselves.
++	const memoized = axe.imports.memoize(fn);
++	axe._memoizedFns.push(memoized);
++	return memoized;
++};",1,A new function named `memoize` has been added to the `axe.utils` object.,claim,`axe._memoizedFns = [];`,codereviewer_pred,,,,test958_old.js,test958_new.js
+,,,2,This function takes a single argument `fn` which is expected to be a function.,claim,I think this needs to be tested,msg,,,,,
+,,,3,The function `memoize` returns a new function which is the memoized version of the input function `fn`.,claim,"This is a simple memoization function. It's not clear what the purpose of the `axe._memoizedFns` array is. It seems like it could be removed without affecting the functionality of the code.
+
+The `axe.imports.memoize` function is used to memoize the provided function. This means that if the function is called with the same arguments multiple times, the function will not be called again, but instead the cached result will be returned. This can be useful for functions that are expensive to compute, as it can save a lot of time.
+The `axe._memoizedFns.push(memoized);` line is adding the memoized function to the `axe._memoizedFns` array. This array is used to clear all memoized functions at the end of a run.",magicoder_pred,,,,,
+,,,4,A new array `axe._memoizedFns` has been added to the `axe` object. This array is used to keep track of all the memoized functions.,claim,"This is a good start, but it would be better to use a WeakMap to store the memoized functions. This would allow you to automatically clear the memoized functions when they are garbage collected.",stable_code_pred,,,,,
+,,,5,The `memoize` function pushes the memoized function it returns into the `axe._memoizedFns` array.,claim,"This code is a good example of memoization, which is a common technique used in programming to speed up calculations by storing previously calculated results and reusing them when the same inputs occur again. This can be particularly useful in performance-critical applications.
+
+The code is well-structured and easy to understand. However, it might be a good idea to add comments explaining what the memoized functions are and how they work. This will make the code easier to understand for others who might work on it in the future.
+Also, it's good to note that the code is using a private variable `axe._memoizedFns` to keep track of all the memoized functions. This is a good practice because it allows you to clear all memoized functions at the end of a run if needed.
+Overall, the code is well-written and follows good coding practices.",deepseekcoder_pred,,,,,
+,,,6,"line 14, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+16753.0,8415.0,"@@ -18,7 +18,7 @@ function pageNoDuplicateEvaluate(node, options, virtualNode) {
+   cache.set(key, true);
+ 
+   let elms = querySelectorAllFilter(axe._tree[0], options.selector, elm =>
+-    isVisible(elm.actualNode)
++    isVisible(elm.actualNode, true)
+   );
+ 
+   // Filter elements that, within certain contexts, don't map their role.",1,"The function call to ""isVisible"" has been modified.",claim,"`isVisible(elm.actualNode, true)` -> `isVisible(elm.actualNode)`",codereviewer_pred,,,,test8415_old.js,test8415_new.js
+,,,2,"Previously, the function ""isVisible"" was called with one argument, ""elm.actualNode"".",claim,"The `isVisible` check should be updated to use the `hidden` attribute, as `display: none` is not the only way an element can be hidden in the DOM.",stable_code_pred,,,,,
+,,,3,"Now, the function ""isVisible"" is called with two arguments, ""elm.actualNode"" and ""true"".",claim,"The second parameter of isVisible function is not used, you might want to remove it.",deepseekcoder_pred,,,,,
+,,,4,"The second argument passed to the ""isVisible"" function is a boolean value set to ""true"".",claim,The isVisible function should be able to handle the case where the element is not in the DOM.,magicoder_pred,,,,,
+,,,5,"line 20, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"I think this is now going to fail the scenario where there is a `main` with aria-hidden=""true"". I don't think that should fail.",msg,,,,,
+,,,6,"line 20, col 73, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+16864.0,516.0,"@@ -47,13 +47,13 @@ class Selection {
+      */
+     this.selectedByCorner = false;
+     /**
+-     * The collection of the selection layer levels where the whole row was selected using the row header.
++     * The collection of the selection layer levels where the whole row was selected using the row header or the corner header.
+      *
+      * @type {Set.<number>}
+      */
+     this.selectedByRowHeader = new Set();
+     /**
+-     * The collection of the selection layer levels where the whole column was selected using the column header.
++     * The collection of the selection layer levels where the whole column was selected using the column header or the corner header.
+      *
+      * @type {Set.<number>}
+      */",1,"The description of the selection layer levels where the whole row was selected using the row header has been updated. Previously, it was only mentioned that the row was selected using the row header. Now, it also includes the possibility of being selected using the corner header.",claim,"This seems to be a typo, the variable name is selectedByCorner and not selectedByCorner. If this is a mistake, it should be corrected.",deepseekcoder_pred,,,,test516_old.js,test516_new.js
+,,,2,"The description of the selection layer levels where the whole column was selected using the column header has been updated. Previously, it was only mentioned that the column was selected using the column header. Now, it also includes the possibility of being selected using the corner header.",claim,The collection of the selection layer levels where the whole row was selected using the row header or the corner header.,codereviewer_pred,,,,,
+,,,3,,,You can remove these now given we have an explicit check earlier in layoutCallback,stable_code_pred,,,,,
+,,,4,,,The line exceeds 120 characters.,msg,,,,,
+,,,5,,,"The naming of the variables is a bit confusing. It's not clear whether the selection was made by the row header or the column header. It would be better to rename these variables to reflect their actual purpose.
+
+Also, it's not clear why you're using a Set for these variables. If you're only interested in whether a selection was made by the row header or the column header, a boolean variable would be sufficient.
+Here's the corrected code:
+```javascript
+class Selection {
+  constructor() {
+    /**
+     * Whether the selection was made by the row header or the column header.
+     *
+     * @type {boolean}
+     */
+    this.selectedByRowOrColumnHeader = false;
+     * Whether the selection was made by the corner header.
+    this.selectedByCorner = false;
+  }
+}
+```",magicoder_pred,,,,,
+15884.0,9584.0,"@@ -87,6 +87,7 @@ function buildRules(grunt, options, commons, callback) {
+ 		var tags = options.tags ? options.tags.split(/\s*,\s*/) : [];
+ 		var rules = result.rules;
+ 		var checks = result.checks;
++		parseChecks(checks);
+ 
+ 		// Translate checks
+ 		if (locale && locale.checks) {",1,A new line of code has been added to the buildRules function.,claim,Why do we need to parse the checks here?,codereviewer_pred,,,,test9584_old.js,test9584_new.js
+,,,2,The new line of code calls the function parseChecks with the parameter checks.,claim,"From the code, a check's metatdata was only added to `axe._load` if a rule used it. Since `role-none` and `role-presentation` were no longer used in any rule, their metadata was never added. This caused any translation file that passed translations for those checks to fail `axe.configure` with > ""Locale provided for unknown check: ""role-none"""" To fix I added this line to parse all checks regardless of if a rule uses it or not.",msg,,,,,
+,,,3,The parseChecks function is likely used to process or transform the checks data in some way.,claim,You can remove this function as it is not doing anything.,stable_code_pred,,,,,
+,,,4,The parseChecks function does not modify the rules and checks variables.,claim,"This function is not doing anything, it should be removed.",magicoder_pred,,,,,
+,,,5,"If the parseChecks function has any side effects, such as modifying global state or causing errors, it could potentially impact other parts of the code that rely on the rules and checks variables.",claim,This function is not doing anything with the checks after parsing them. You might want to add some logic to use these checks in some way.,deepseekcoder_pred,,,,,
+14195.0,1220.0,"@@ -255,6 +255,10 @@ function diffElementNodes(dom, newVNode, oldVNode, context, isSvg, excessDomChil
+ 		// (as above, don't diff props during hydration)
+ 		if (!isHydrating) {
+ 			if (('value' in newProps) && newProps.value!==undefined && newProps.value !== dom.value) dom.value = newProps.value==null ? '' : newProps.value;
++			// preact/#1899
++			// We need this value for input masking.
++			dom._lastValue = dom.value;
++
+ 			if (('checked' in newProps) && newProps.checked!==undefined && newProps.checked !== dom.checked) dom.checked = newProps.checked;
+ 		}
+ 	}",1,A new comment has been added to explain the purpose of the code change. The comment suggests that the code is related to a preact issue (#1899).,claim,This is a good addition to the code as it adds a property to the DOM object which can be used later.,deepseekcoder_pred,,,,test1220_old.js,test1220_new.js
+,,,2,A new property '_lastValue' has been added to the 'dom' object.,claim,Why do we need this?,codereviewer_pred,,,,,
+,,,3,The '_lastValue' property is set to the current value of 'dom.value'.,claim,"should we add a `mangle.json` mapping for this? We could reuse a property name that's only used on component or vnode objects right now, like `__s` (""next state"").",msg,,,,,
+,,,4,The addition of the '_lastValue' property could be used to store the previous value of 'dom.value'. This could be useful for input masking or other operations that require the previous value.,claim,"This seems like a bug, you should be setting the value and checked properties on the same conditional check.",stable_code_pred,,,,,
+,,,5,,,"This is a bit of a guess, but it seems like you're trying to add a new property to the DOM element. It's not clear what the purpose of this line is, but it seems like it's adding a new property to the DOM element. If this is not what you intended, you might want to remove it.",magicoder_pred,,,,,
+14470.0,1668.0,"@@ -139,6 +139,13 @@ describe('text.formControlValue', function() {
+ 				axe.utils
+ 					.querySelectorAll(axe._tree[0], '#fixture input')
+ 					.forEach(function(target) {
++						// Safari and IE11 do not support the color input type
++						// and thus treat them as text inputs. ignore fallback
++						// inputs
++						if (target.actualNode.type === 'text') {
++							return;
++						}
++
+ 						assert.equal(
+ 							nativeTextboxValue(target),
+ 							'',",1,,,This code is checking for the type of input and then ignoring it if it's not 'text'. This is a bit redundant as the if condition already checks for the type. It might be better to remove the if condition and just check for 'text' directly.,deepseekcoder_pred,,,,test1668_old.js,test1668_new.js
+,,,2,,,Why do we need to ignore fallback inputs?,codereviewer_pred,,,,,
+,,,3,,,You can remove this check as you've already handled the case for Safari and IE11.,stable_code_pred,,,,,
+,,,4,,,"I think you can remove the `(isIE11 ? it.skip : it)(` above, if you're going to skip the test this way.",msg,,,,,
+,,,5,,,"This is a good test to ensure that the color input type is not treated as a text input type. It's a good idea to add more tests to cover other input types.
+
+The test is not checking the color input type, but it's checking the text input type. It's better to check the color input type specifically.
+Here's an example of how you could do that:
+```javascript
+describe('text.formControlValue', function() {
+	it('should return the value of a color input', function() {
+		axe.utils
+			.querySelectorAll(axe._tree[0], '#fixture input')
+			.forEach(function(target) {
+				if (target.actualNode.type === 'color') {
+					assert.equal(
+						nativeTextboxValue(target),
+						'',
+						'The value of a color input should be an empty string'
+					);
+				}
+			});
+	});
+});
+```
+This test will check the value of a color input specifically, and will fail if the value is not an empty string.",magicoder_pred,,,,,
+18489.0,6873.0,"@@ -320,6 +320,7 @@ export class TopOverlay extends Overlay {
+       return this.wot.wtTable.holderOffset.top;
+ 
+     }
++
+     return 0;
+ 
+   }",1,,,This function seems to be unused. It might be removed.,magicoder_pred,,,,test6873_old.js,test6873_new.js
+,,,2,,,This seems redundant given the check earlier in the function.,stable_code_pred,,,,,
+,,,3,,,Please remove this empty line.,codereviewer_pred,,,,,
+,,,4,,,"Awesome! We may also use negative rule `never` to fix new lines after `return`: `{ blankLine: ""never"", prev: ""return"", next: ""*"" }`",msg,,,,,
+,,,5,,,"This looks good, but it's not clear what this function is supposed to do. It seems to be returning 0 for all cases. If this is intended to be a placeholder, consider renaming it to reflect its purpose.",deepseekcoder_pred,,,,,
+15098.0,1728.0,"@@ -3,6 +3,7 @@
+ 
+ // Clean up after resolve / reject
+ function cleanup() {
++	axe._memoizedFns.forEach(fn => fn.clear());
+ 	axe._cache.clear();
+ 	axe._tree = undefined;
+ 	axe._selectorData = undefined;",1,"line 6, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,This seems a bit aggressive. Maybe just clearing the cache would be sufficient.,stable_code_pred,,,,test1728_old.js,test1728_new.js
+,,,2,,,Why do we need to clear memoizedFns?,codereviewer_pred,,,,,
+,,,3,,,This is a good addition to clear any memoized functions and caches. It helps in avoiding memory leaks.,deepseekcoder_pred,,,,,
+,,,4,,,"This is a good idea, but it's not clear what `axe._memoizedFns` is. It's not clear what this code is supposed to do.",magicoder_pred,,,,,
+,,,5,,,This needs to be tested.,msg,,,,,
+18174.0,8814.0,"@@ -59,6 +59,13 @@ public class NodeStatus {
+     }
+   }
+ 
++  public boolean hasCapability(Capabilities caps) {
++    long count = slots.stream()
++        .filter(slot -> slot.isSupporting(caps))
++        .count();
++    return count > 0;
++  }
++
+   public boolean hasCapacity() {
+     return slots.stream().anyMatch(slot -> !slot.getSession().isPresent());
+   }",1,,,This method seems to be doing the same thing as the hasCapacity method. It might be better to remove one of them.,deepseekcoder_pred,,,,test8814_old.js,test8814_new.js
+,,,2,,,This method is now redundant given the hasCapability method.,stable_code_pred,,,,,
+,,,3,,,`slots.stream().anyMatch(slot -> slot.isSupporting(caps))`,codereviewer_pred,,,,,
+,,,4,,,"This method seems to be checking if there is any slot that supports the given capability. It might be better to rename the method to reflect this.
+
+The method is checking if there is any slot that supports the given capability, but it's not clear what the Capabilities enum represents. It would be helpful to provide more context or rename the method to reflect its purpose.",magicoder_pred,,,,,
+,,,5,,,Prefer `Stream.anyMatch` instead of iterating over all slots.,msg,,,,,
+13395.0,7495.0,"@@ -44,7 +44,7 @@ var PrivateKey = function PrivateKey(data, network, compressed) {
+   };
+ 
+   // detect type of data
+-  if (!data){
++  if (typeof(data) === 'undefined' || data === 'random'){
+     info.bn = PrivateKey._getRandomBN();
+   } else if (data instanceof BN) {
+     info.bn = data;",1,,,This just feels weird... can we use some kind of constant here? something like: `if (_.isUndefined(data) || data === PrivateKey.Random)`,msg,,,,test7495_old.js,test7495_new.js
+,,,2,,,You can remove the typeof check as it's unnecessary.,deepseekcoder_pred,,,,,
+,,,3,,,You can use the `typeof` operator to check for 'undefined' instead of an explicit comparison.,stable_code_pred,,,,,
+,,,4,,,"This is a bit confusing. It seems like the code is checking if the data is undefined or 'random' and if it is, it generates a random BN. But if the data is an instance of BN, it just uses that. Is this intended?
+
+@ Code Change
+@@ -108,7 +108,7 @@ var PrivateKey = function PrivateKey(data, network, compressed) {
+   };
+ 
+   // detect type of data
+-  if (!data){
++  if (typeof(data) === 'undefined' || data === 'random'){
+     info.bn = PrivateKey._getRandomBN();
+   } else if (data instanceof BN) {
+     info.bn = data;
+@@ Review",magicoder_pred,,,,,
+,,,5,,,`typeof(data) === 'undefined' || data === 'random'`,codereviewer_pred,,,,,
+12235.0,4523.0,"@@ -69,7 +69,8 @@ module.exports = class Webcam extends Plugin {
+         'picture'
+       ],
+       mirror: true,
+-      facingMode: 'user'
++      facingMode: 'user',
++      preferredMimeType: null
+     }
+ 
+     // merge default options with the ones set by user",1,"line 74, col 6, Missing semicolon.",issue,You can set the default facingMode to 'user' and the default preferredMimeType to 'video/webm',stable_code_pred,,,,test4523_old.js,test4523_new.js
+,,,2,,,You can remove the `preferredMimeType: null` as it's not being used.,deepseekcoder_pred,,,,,
+,,,3,,,This should be `preferredMimeType: 'image/png'`,codereviewer_pred,,,,,
+,,,4,,,The preferredMimeType is not set in the default options. It should be set to a default value or removed from the default options.,magicoder_pred,,,,,
+,,,5,,,"Since this is for video only, should it be called `preferredVideoMimeType`? If we add it for pictures later, it will likely need to be a different option.",msg,,,,,
+21152.0,6561.0,"@@ -51,9 +51,9 @@ if (options.arch) {
+ 
+ const buildType = options.buildType;
+ 
+-const ndkPath = process.env[""ANDROID_NDK""];
++const ndkPath = process.env[""ANDROID_NDK""] || process.env[""ANDROID_NDK_HOME""];
+ if (!ndkPath) {
+-  throw Error(""ANDROID_NDK environment variable not set"");
++  throw Error(""ANDROID_NDK / ANDROID_NDK_HOME environment variable not set"");
+ }
+ 
+ const sdkPath = getAndroidSdkPath();",1,"line 52, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,nit: `ANDROID_NDK / ANDROID_NDK_HOME not set`,codereviewer_pred,,,,test6561_old.js,test6561_new.js
+,,,2,"line 54, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,Why is this needed?,msg,,,,,
+,,,3,"line 54, col 28, ['ANDROID_NDK'] is better written in dot notation.",issue,"This is a bit confusing. It seems like the ANDROID_NDK environment variable is optional, but if it's not set, it should throw an error. However, the error message is different. It's better to make it consistent.
+
+Also, it's not clear why we're checking for ANDROID_NDK and ANDROID_NDK_HOME separately. It would be better to just check for ANDROID_NDK and if it's not set, use ANDROID_NDK_HOME.",magicoder_pred,,,,,
+,,,4,"line 54, col 58, ['ANDROID_NDK_HOME'] is better written in dot notation.",issue,You can remove these now given we have an explicit check earlier in getAndroidSdkPath,stable_code_pred,,,,,
+,,,5,"line 59, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,This can be improved by adding a check for ANDROID_NDK_HOME as well.,deepseekcoder_pred,,,,,
+15371.0,689.0,"@@ -927,7 +927,7 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
+     if (isFunction(beforeChangeResult)) {
+       warn('Your beforeChange callback returns a function. It\'s not supported since Handsontable 0.12.1 (and the returned function will not be executed).');
+ 
+-    } else if (beforeChangeResult === false) {
++    } else if (beforeChangeResult === false || beforeChangeResult.length === 0 || beforeChangeResult[0] === null) {
+       const activeEditor = instance.getActiveEditor();
+ 
+       if (activeEditor) {",1,"line 931, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,`beforeChangeResult.length === 0 || beforeChangeResult[0] === null`,codereviewer_pred,,,,test689_old.js,test689_new.js
+,,,2,,,Please check also whether `null` occurs in the rest of `beforeChangeResult` array.,msg,,,,,
+,,,3,,,"The reviewer is correct, the else if condition can be simplified. It's better to use `beforeChangeResult === false || beforeChangeResult.length === 0 || beforeChangeResult[0] === null` instead of `beforeChangeResult === false`. This will cover all the cases where `beforeChangeResult` is `false`, an empty array, or an array with a `null` value.",deepseekcoder_pred,,,,,
+,,,4,,,You can add a condition to check if beforeChangeResult is a function or not.,stable_code_pred,,,,,
+,,,5,,,"The else if condition is not clear. It seems like it's checking if the beforeChangeResult is false, an empty array, or null. It's not clear what the intention is here.
+
+@ Code Change
+@@ -103,7 +103,7 @@ int SSL_CTX_set_tlsext_use_srtp(SSL_CTX *ctx, const char *profiles)
+     if (ctx->tlsext.use_srtp == NULL) {
+         if ((ctx->tlsext.use_srtp = OPENSSL_strdup(profiles)) == NULL)
+             return 0;
+-    } else {
++    } else {
+         OPENSSL_free(ctx->tlsext.use_srtp);
+@@ Review
+This code duplicates the profiles string. It's better to just assign the profiles string to ctx->",magicoder_pred,,,,,
+20706.0,4122.0,"@@ -473,6 +473,7 @@ describe('GridFS Stream', function () {
+                     // Fail if user tries to abort an aborted stream
+                     uploadStream.abort().then(null, function (error) {
+                       expect(error.toString()).to.equal(
++                        // TODO(NODE-3405): Replace with MongoStreamClosedError
+                         'MongoDriverError: Cannot call abort() on a stream twice'
+                       );
+                       client.close(done);",1,,,"This is a TODO comment, it should be replaced with the actual error type.",magicoder_pred,,,,test4122_old.js,test4122_new.js
+,,,2,,,Why do we need to replace this with a new error?,codereviewer_pred,,,,,
+,,,3,,,You can remove this now given we have an explicit check earlier in the test,stable_code_pred,,,,,
+,,,4,,,"This is a typo, the error message should be MongoStreamClosedError not MongoDriverError.",deepseekcoder_pred,,,,,
+,,,5,,,You can remove these if they've been resolved in NODE-3405 and this isn't depending on it,msg,,,,,
+12721.0,4078.0,"@@ -10,11 +10,14 @@ import options from '../options';
+  * @param {boolean} isSvg Whether or not this node is an SVG node
+  */
+ export function diffProps(dom, newProps, oldProps, isSvg) {
+-	for (let i in newProps) {
+-		if (i!=='children' && i!=='key' && (!oldProps || ((i==='value' || i==='checked') ? dom : oldProps)[i]!==newProps[i])) {
+-			setProperty(dom, i, newProps[i], oldProps[i], isSvg);
++	let keys = Object.keys(newProps).sort();
++	for (let i = 0; i < keys.length; i++) {
++		let k = keys[i];
++		if (k!=='children' && k!=='key' && (!oldProps || ((k==='value' || k==='checked') ? dom : oldProps)[k]!==newProps[k])) {
++			setProperty(dom, k, newProps[k], oldProps[k], isSvg);
+ 		}
+ 	}
++
+ 	for (let i in oldProps) {
+ 		if (i!=='children' && i!=='key' && (!newProps || !(i in newProps))) {
+ 			setProperty(dom, i, null, oldProps[i], isSvg);",1,"line 12, col 1, 'export' is only available in ES6 (use 'esversion: 6').",issue,"You can optimize the diffProps function by sorting the keys and iterating over them in order, rather than using the for...in loop which doesn't guarantee order.",stable_code_pred,,,,test4078_old.js,test4078_new.js
+,,,2,"line 13, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"This code is not very readable. It's better to use a for loop to iterate over the keys of the newProps object, and then use a separate for loop to iterate over the keys of the oldProps object. This will",magicoder_pred,,,,,
+,,,3,"line 14, col 10, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,`Object.keys(newProps).sort().forEach(k => {`,codereviewer_pred,,,,,
+,,,4,"line 15, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"Good call, we need to keep that check :+1:",msg,,,,,
+,,,5,"line 21, col 10, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"This code is more readable and easier to maintain. It sorts the keys before iterating over them, which can make it easier to understand what's going on. Also, it's more efficient because it doesn't need to check if a key is in the newProps object for each key in oldProps.",deepseekcoder_pred,,,,,
+14370.0,9649.0,"@@ -30,7 +30,7 @@ function ariaOwns(nodes, role) {
+ 		if (nodes[index] === null) {
+ 			continue;
+ 		}
+-		let virtualTree = axe.utils.getNodeFromTree(axe._tree[0], nodes[index]);
++		let virtualTree = axe.utils.getNodeFromTree(nodes[index]);
+ 		if (owns(nodes[index], virtualTree, role, true)) {
+ 			return true;
+ 		}",1,"line 33, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"nitpick: use `const virtualTree`, I know it was `let` earlier.",msg,,,,test9649_old.js,test9649_new.js
+,,,2,,,`axe._tree[0]` can be removed now.,codereviewer_pred,,,,,
+,,,3,,,"The function axe.utils.getNodeFromTree(axe._tree[0], nodes[index]) seems to be unnecessary. It seems like it's trying to get the node from the tree that is stored in axe._tree[0]. You can simplify this by just passing nodes[index] directly to the function.",deepseekcoder_pred,,,,,
+,,,4,,,You can remove these now given we have an explicit check earlier in the function,stable_code_pred,,,,,
+,,,5,,,The function getNodeFromTree is not defined in the scope of the function ariaOwns. It should be defined in the scope of the function or imported from a module.,magicoder_pred,,,,,
+17921.0,5013.0,"@@ -0,0 +1,8 @@
++import Vue from 'vue'
++import App from './App.vue'
++
++Vue.config.productionTip = false
++
++new Vue({
++  render: h => h(App),
++}).$mount('#app')",1,"line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,"This is a Vue.js bootstrapping block, it's fine to have it here but it's not related to the class and should be moved to a separate file.",stable_code_pred,,,,test5013_old.js,test5013_new.js
+,,,2,"line 1, col 22, Missing semicolon.",issue,Why is this needed?,codereviewer_pred,,,,,
+,,,3,"line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,"This is a Vue.js code. It's a good practice to use Vue's lifecycle hooks to manage side effects. In this case, it's a good idea to use the `mounted` lifecycle hook to perform side effects like mounting the app to the DOM.",magicoder_pred,,,,,
+,,,4,"line 2, col 28, Missing semicolon.",issue,An ENV should be used? Are you sure that the Vue examples are built in the production mode?,msg,,,,,
+,,,5,"line 4, col 33, Missing semicolon.",issue,This is a basic Vue.js setup. It seems fine.,deepseekcoder_pred,,,,,
+,,,6,"line 7, col 13, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,7,"line 8, col 18, Missing semicolon.",issue,,,,,,,
+33068.0,5803.0,"@@ -23,7 +23,7 @@ const viewports = require( './viewports' );
+ // This will be passed through with the `backstop` command run with docker.
+ if ( process.argv.includes( '--docker' ) ) {
+ 	const hostname = require( './detect-storybook-host' );
+-	process.argv.push( `--storybook-host=${ hostname }` );
++	process.argv.push( `--storybook-host=http://${ hostname }:9001/` );
+ }
+ 
+ module.exports = {",1,"line 25, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,Should this be `http://localhost:9001/`?,codereviewer_pred,,,,test5803_old.js,test5803_new.js
+,,,2,"line 26, col 24, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",issue,"This is not a mistake, but it could be improved. The URL should be complete with protocol (http/https) and port number.",deepseekcoder_pred,,,,,
+,,,3,,,You can remove these now given we have an explicit check earlier in the main index.js,stable_code_pred,,,,,
+,,,4,,,"This is a bit of a guess, but it seems like the hostname is being used to set the storybook host. If the hostname is not a valid URL, this could cause issues. It would be better to add a check to ensure the hostname is a valid URL before using it.",magicoder_pred,,,,,
+,,,5,,,Why was this changed?,msg,,,,,
+11968.0,2690.0,"@@ -21,11 +21,18 @@ export function setComponentProps(component, props, opts, context, mountAll) {
+ 	if ((component.__key = props.key)) delete props.key;
+ 
+ 	if (!component.base || mountAll) {
+-		if (component.componentWillMount) component.componentWillMount();
++		if (component.componentWillMount) {
++			options.warn(""'componentWillMount' is deprecated"");
++			component.componentWillMount();
++		}
+ 	}
+ 	else if (component.componentWillReceiveProps) {
++		options.warn(""'componentWillReceiveProps' is deprecated"");
+ 		component.componentWillReceiveProps(props, context);
+ 	}
++	if (component.getDerivedStateFromProps) {
++		component.setState(component.getDerivedStateFromProps(props, component.state));
++	}
+ 
+ 	if (context && context!==component.context) {
+ 		if (!component.prevContext) component.prevContext = component.context;",1,,,Shouldn't this be `componentWillReceiveProps`?,codereviewer_pred,,,,test2690_old.js,test2690_new.js
+,,,2,,,I'd much rather see these warnings in our devtools (`debug/index.js`). Strings contribute quite a bit to our file size and moving them there would prevent bloating core.,msg,,,,,
+,,,3,,,"The deprecation warnings are good, but the code is not actually doing anything. The deprecated lifecycle methods are not being called.
+
+The getDerivedStateFromProps method is also deprecated. It's recommended to use static getDerivedStateFromProps instead.
+The componentWillReceiveProps method is also deprecated. It's recommended to use getDerivedStateFromProps or UNSAFE_componentWillReceiveProps instead.
+The componentWillMount method is also deprecated. It's recommended to use the constructor or UNSAFE_componentWillMount instead.
+The prevContext property is not being used anywhere. It's recommended to",magicoder_pred,,,,,
+,,,4,,,You can remove this check now given we have an explicit check earlier in componentWillMount,stable_code_pred,,,,,
+,,,5,,,"The deprecation warnings are good, but the getDerivedStateFromProps is not. It's a new lifecycle method and it's not deprecated. It's a good idea to use it when you need to sync some state based on props.",deepseekcoder_pred,,,,,
+32122.0,6017.0,"@@ -30,13 +30,17 @@ import { STORE_NAME as CORE_USER } from '../googlesitekit/datastore/user/constan
+ /**
+  * Gets the current dateRange string.
+  *
+- * @param {string} [dateRange] Optional. The date range slug.
++ * @param {string} [dateRange]      Optional. The date range slug.
++ * @param {boolean} [returnNumber]  Optional. If true, returns the number only.
+  * @return {string} the date range string.
+  */
+-export function getCurrentDateRange( dateRange = getCurrentDateRangeSlug() ) {
++export function getCurrentDateRange( dateRange = getCurrentDateRangeSlug(), returnNumber = false ) {
+ 	const daysMatch = dateRange.match( /last-(\d+)-days/ );
+ 
+ 	if ( daysMatch && daysMatch[ 1 ] ) {
++		if ( returnNumber ) {
++			return parseInt( daysMatch[ 1 ], 10 );
++		}
+ 		return sprintf(
+ 			/* translators: %s: Number of days matched. */
+ 			_n( '%s day', '%s days', parseInt( daysMatch[ 1 ], 10 ), 'google-site-kit' ),",1,"line 37, col 1, 'export' is only available in ES6 (use 'esversion: 6').",issue,"This function is a bit confusing. It seems like it's trying to return a string that represents the current date range, but it also has an optional parameter to return the number of days. This could be confusing for users of the function. It would be better to either remove the `returnNumber` parameter or rename it to something more descriptive.",magicoder_pred,,,,test6017_old.js,test6017_new.js
+,,,2,"line 37, col 48, 'default parameters' is only available in ES6 (use 'esversion: 6').",issue,"Having boolean parameters to change function behavior is not a good practice because it violates the principle of functions being responsible for a single task, so the need for this indicates we need to split something out of here instead. We can introduce a function like `getCurrentDateRangeDayCount` or similar, which does this.",msg,,,,,
+,,,3,"line 37, col 90, 'default parameters' is only available in ES6 (use 'esversion: 6').",issue,Why not just `return daysMatch[ 1 ]`?,codereviewer_pred,,,,,
+,,,4,"line 38, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"This function seems to be used to get the date range string. It seems like the second parameter is not being used. If you want to use it, you should use it in the function.",deepseekcoder_pred,,,,,
+,,,5,,,You can remove the `returnNumber` parameter now that you have the check in place.,stable_code_pred,,,,,
+11993.0,108.0,"@@ -7,4 +7,17 @@
+ axe.utils.toArray = function (thing) {
+ 	'use strict';
+ 	return Array.prototype.slice.call(thing);
+-};
++};
++
++
++/**
++ * Creates an array without duplicate values from 2 array inputs
++ * @param  {Array} arr1 First array
++ * @param  {Array} arr2 Second array
++ * @return {Array}
++ */
++axe.utils.uniqueArray = (arr1, arr2) => {
++  return arr1.concat(arr2).filter((elem, pos, arr) => {
++    return arr.indexOf(elem) === pos;
++  });
++};",1,"line 19, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,"This is a good solution, but you can optimize it by using ES6 Set object which automatically removes duplicates.
+
+```javascript
+axe.utils.uniqueArray = (arr1, arr2) => {
+  const set1 = new Set(arr1);
+  const set2 = new Set(arr2);
+  return [...set1,...set2].filter((elem, pos, arr) => {
+    return arr.indexOf(elem) === pos;
+  });
+};
+```
+This will reduce the time complexity from O(n^2) to O(n).",stable_code_pred,,,,test108_old.js,test108_new.js
+,,,2,"line 20, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,"This is super minor, but it'd be nice if this iterated over an arbitrary number of array inputs.",msg,,,,,
+,,,3,,,"This function seems to be a good addition to the utils object. It's a bit more complex than necessary, but it's a good example of how to use the built-in Array methods.",deepseekcoder_pred,,,,,
+,,,4,,,"`axe.utils.uniqueArray = (arr1, arr2) => {`",codereviewer_pred,,,,,
+,,,5,,,"This function is not used anywhere in the codebase. It seems like it could be removed.
+
+The function is not used in the codebase, but it's a good practice to remove unused code. It's also a good practice to comment the code if it's not self-explanatory.",magicoder_pred,,,,,
+10113.0,9657.0,"@@ -213,9 +213,10 @@ module.exports = class GoldenRetriever extends Plugin {
+       this.IndexedDBStore.delete(fileID)
+     })
+ 
+-    this.core.on('core:success', (fileIDs) => {
++    this.core.on('core:complete', ({ successful }) => {
++      const fileIDs = successful.map((file) => file.id)
+       this.deleteBlobs(fileIDs).then(() => {
+-        this.core.log(`[GoldenRetriever] removed ${fileIDs.length} files that finished uploading`)
++        this.core.log(`RestoreFiles: removed ${successful.length} files that finished uploading`)
+       })
+     })
+ ",1,"line 213, col 41, Missing semicolon.",issue,"The 'core:success' event is deprecated and should be replaced with 'core:complete' which is more accurate. Also, the'successful' property in the event object is an array of successful files, so you can directly map it to fileIDs.",magicoder_pred,,,,test9657_old.js,test9657_new.js
+,,,2,"line 214, col 7, Missing semicolon.",issue,The event name 'core:success' is not standard. It would be better to use 'core:complete' which is more descriptive.,deepseekcoder_pred,,,,,
+,,,3,"line 216, col 35, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"Unsure why this is `RestoreFiles` now vs `GoldenRetriever`, thought we deprecated the first?",msg,,,,,
+,,,4,"line 216, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,You can use the 'complete' event to get the list of successful uploads instead of asserting the'success' event.,stable_code_pred,,,,,
+,,,5,"line 217, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,`[RestoreFiles] removed ${successful.length} files that finished uploading`,codereviewer_pred,,,,,
+,,,6,"line 217, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,7,"line 217, col 56, Missing semicolon.",issue,,,,,,,
+,,,8,"line 218, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,9,"line 219, col 23, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,10,"line 219, col 98, Missing semicolon.",issue,,,,,,,
+,,,11,"line 220, col 9, Missing semicolon.",issue,,,,,,,
+,,,12,"line 221, col 7, Missing semicolon.",issue,,,,,,,
+16892.0,8051.0,"@@ -158,6 +158,10 @@ class Server extends EventEmitter {
+     // setup listeners
+     this.s.pool.on('parseError', parseErrorEventHandler(this));
+ 
++    this.s.pool.on('drain', err => {
++      this.emit('error', err);
++    });
++
+     // it is unclear whether consumers should even know about these events
+     // this.s.pool.on('timeout', timeoutEventHandler(this));
+     // this.s.pool.on('reconnect', reconnectEventHandler(this));",1,"line 161, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,why do we need to do this?,codereviewer_pred,,,,test8051_old.js,test8051_new.js
+,,,2,,,These events are not documented and are not used in the codebase. It's better to remove them.,magicoder_pred,,,,,
+,,,3,,,These events are not used in the codebase. They can be removed to clean up the code.,deepseekcoder_pred,,,,,
+,,,4,,,"is this for everything, or just legacy?",msg,,,,,
+,,,5,,,You can remove these now given we have an explicit check earlier in the constructor,stable_code_pred,,,,,
+34289.0,1270.0,"@@ -46,6 +46,7 @@ domReady( () => {
+ 	Modules.registerModule(
+ 		'analytics',
+ 		{
++			name: 'Analytics',
+ 			settingsEditComponent: SettingsEdit,
+ 			settingsViewComponent: SettingsView,
+ 			setupComponent: SetupMain,",1,,,Why do we need this name?,codereviewer_pred,,,,test1270_old.js,test1270_new.js
+,,,2,,,The name should be descriptive of what the module does.,magicoder_pred,,,,,
+,,,3,,,You can remove these now given we have an explicit check earlier in the `Modules.registerModule` call.,stable_code_pred,,,,,
+,,,4,,,"See above, this shouldn't be added.",msg,,,,,
+,,,5,,,This is a good addition to provide a more meaningful name for the module.,deepseekcoder_pred,,,,,
+18747.0,7542.0,"@@ -86,7 +86,7 @@ before(function(_done) {
+         }
+ 
+         this.configuration = new TestConfiguration(parsedURI, context);
+-        done();
++        client.close(done);
+       });
+     });
+   });",1,,,I've fallen for this before myself :) We _do_ call `close` inside of `done` on L65,msg,,,,test7542_old.js,test7542_new.js
+,,,2,,,"The client.close(done) is a good idea, but the done() should be done() instead of closing the client.",magicoder_pred,,,,,
+,,,3,,,Why do we need to close the client here?,codereviewer_pred,,,,,
+,,,4,,,The client.close(done) seems to be more appropriate here.,deepseekcoder_pred,,,,,
+,,,5,,,You can remove these now given we have an explicit check earlier in before(),stable_code_pred,,,,,
+36252.0,5873.0,"@@ -74,7 +74,7 @@ class DashboardModulesAlerts extends Component {
+ 						title={ notification.title || '' }
+ 						description={ notification.description || '' }
+ 						blockData={ notification.blockData || [] }
+-						winImage={ notification.winImage ? `${ global._googlesitekitLegacyData.admin.assetsRoot }images/${ notification.winImage }` : '' }
++						WinImageSVG={ notification.WinImageSVG }
+ 						format={ notification.format || 'small' }
+ 						learnMoreURL={ notification.learnMoreURL || '' }
+ 						learnMoreDescription={ notification.learnMoreDescription || '' }",1,"line 74, col 45, Expected ':' and instead saw '.'.",issue,"The winImage prop is not used in the DashboardModulesAlerts component. It seems like it's trying to load an image from a URL, but the URL is not being used. It's better to remove this prop and use the WinImageSVG prop instead.
+
+The prop name is not consistent with the rest of the component. It's better to use the same naming convention throughout the component.
+The prop type is not defined. It's better to define the prop type to make it easier for other developers to understand what the prop is used for.
+The prop description is not clear. It's better to provide a detailed description of what the prop is used for.
+The prop format is not used in the DashboardModulesAlerts component. It seems like it's trying to control the size of the notification, but the prop is not being used. It's better to remove this prop if it's not being used.
+The prop learnMoreURL and learnMoreDescription are not used in the DashboardModules",magicoder_pred,,,,test5873_old.js,test5873_new.js
+,,,2,"line 74, col 59, Missing semicolon.",issue,You can remove this check as we have an explicit check in the template.,stable_code_pred,,,,,
+,,,3,"line 75, col 51, Expected ':' and instead saw '.'.",issue,The prop name 'winImage' is not consistent with the prop name 'WinImageSVG'. It would be better to keep them consistent.,deepseekcoder_pred,,,,,
+,,,4,"line 75, col 71, Missing semicolon.",issue,This won't work because `notification` comes from an API response here. I think this would be the same as the change to `Alert` where it would get `SmallSunSVG`.,msg,,,,,
+,,,5,"line 76, col 49, Expected ':' and instead saw '.'.",issue,Why did you remove the fallback for `global._googlesitekitLegacyData`?,codereviewer_pred,,,,,
+,,,6,"line 76, col 67, Missing semicolon.",issue,,,,,,,
+,,,7,"line 77, col 51, Expected ':' and instead saw '.'.",issue,,,,,,,
+,,,8,"line 77, col 65, Missing semicolon.",issue,,,,,,,
+,,,9,"line 78, col 46, Expected ':' and instead saw '.'.",issue,,,,,,,
+,,,10,"line 78, col 66, Missing semicolon.",issue,,,,,,,
+,,,11,"line 79, col 52, Expected ':' and instead saw '.'.",issue,,,,,,,
+,,,12,"line 79, col 73, Missing semicolon.",issue,,,,,,,
+,,,13,"line 80, col 60, Expected ':' and instead saw '.'.",issue,,,,,,,
+,,,14,"line 80, col 89, Missing semicolon.",issue,,,,,,,
+14201.0,8368.0,"@@ -378,11 +378,12 @@ const executeOperation = (topology, operation, args, options) => {
+ 
+   // The driver sessions spec mandates that we implicitly create sessions for operations
+   // that are not explicitly provided with a session.
+-  let session, opOptions;
++  let session, opOptions, owner;
+   if (!options.skipSessions && topology.hasSessionSupport()) {
+     opOptions = args[args.length - 2];
+     if (opOptions == null || opOptions.session == null) {
+-      session = topology.startSession();
++      owner = {};
++      session = topology.startSession({ owner });
+       const optionsIndex = args.length - 2;
+       args[optionsIndex] = Object.assign({}, args[optionsIndex], { session: session });
+     } else if (opOptions.session && opOptions.session.hasEnded) {",1,"line 381, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,You can remove this check as it's already covered by the previous if condition.,stable_code_pred,,,,test8368_old.js,test8368_new.js
+,,,2,"line 386, col 41, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,This code is not checking if the session has ended. It should be checking if the session has ended before trying to use it.,magicoder_pred,,,,,
+,,,3,"line 387, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,Why do we need to create a new object here?,codereviewer_pred,,,,,
+,,,4,,,"This code seems to be adding a session to the operation options, but it's not clear what the owner is. It might be better to add a comment explaining what the owner is.",deepseekcoder_pred,,,,,
+,,,5,,,can't this just be left undefined/null?,msg,,,,,
+17217.0,2884.0,"@@ -32,9 +32,8 @@ module.exports = function(config, auth, storage) {
+     });
+   });
+ 
+-  router.get('/-/logo', function(req, res) {
+-    res.sendFile(_.get(config, 'web.logo') || `${env.APP_ROOT}/static/logo-sm.png`
+-    );
++  router.get('/-/verdaccio/logo', function(req, res) {
++    res.send(_.get(config, 'web.logo') || '/-/static/logo.png');
+   });
+ 
+   router.get('/', function(req, res) {",1,,,Why the `/-/verdaccio/` ?,msg,,,,test2884_old.js,test2884_new.js
+,,,2,,,Shouldn't this be `/-/static/logo.png`?,codereviewer_pred,,,,,
+,,,3,,,"This is a bit confusing. The '/' route is serving the logo, but the '/-/verdaccio/logo' route is not. It seems like the '/' route is serving the logo from the '/-/verdaccio/logo' route.
+
+Also, the logo path is not being checked for existence. If the logo path does not exist, the server will throw an error.
+The '/-/verdaccio/logo' route should be renamed to '/-/logo' to match the '/' route.
+The logo path should be checked for existence before sending it. If the logo does not exist, a default logo should be sent.",magicoder_pred,,,,,
+,,,4,,,"You can use a single route handler for both cases, just make sure you check the path.",stable_code_pred,,,,,
+,,,5,,,"This is a bit confusing, maybe a better name for the route could be used to avoid confusion.",deepseekcoder_pred,,,,,
+18855.0,8551.0,"@@ -46,7 +46,7 @@ export function generateRandomHexString(length: number = 8) {
+ 
+ export function signPayload(payload: JWTPayload, secret: string, options: JWTSignOptions) {
+   return jwt.sign(payload, secret, {
+-    notBefore: '1000', // Make sure the time will not rollback :)
++    notBefore: '1', // Make sure the time will not rollback :)
+     ...options,
+   });
+ }",1,,,Mmm .... this affect #168 I'll need to research the collateral damage,msg,,,,test8551_old.js,test8551_new.js
+,,,2,,,Why did you change this?,codereviewer_pred,,,,,
+,,,3,,,"The notBefore option is not a string, it's a number.",magicoder_pred,,,,,
+,,,4,,,"The notBefore value should be in seconds, not milliseconds.",stable_code_pred,,,,,
+,,,5,,,The notBefore option is not a valid JWT option. It should be a date string or a number representing the number of seconds from the current time.,deepseekcoder_pred,,,,,
+12872.0,7055.0,"@@ -9,6 +9,9 @@ function SIN(type, payload) {
+     SIN.super_.call(this, type, payload);
+     return;
+   }
++  if ( !Buffer.isBuffer(payload) ||  payload.length != 20)
++    throw new Error('Payload must be 20 bytes');
++
+   this.data = new Buffer(1 + 1 + payload.length);
+   this.converters = this.encodings['binary'].converters;
+   this._encoding = this.encodings['binary']._encoding;",1,"line 16, col 35, ['binary'] is better written in dot notation.",issue,There should be no space before !Buffer,msg,,,,test7055_old.js,test7055_new.js
+,,,2,"line 17, col 34, ['binary'] is better written in dot notation.",issue,You can add a check for the payload being a Buffer and of the correct length in the constructor.,stable_code_pred,,,,,
+,,,3,"line 12, col 9, 'Buffer' is not defined.",issue,nit: space after `(`,codereviewer_pred,,,,,
+,,,4,"line 15, col 19, 'Buffer' is not defined.",issue,"This is a check to ensure the payload is a buffer of 20 bytes. It's a good idea to add this check to ensure the integrity of the data.
+
+The code change is to add a check to ensure the payload is a buffer of 20 bytes. If it's not, an error is thrown. This is a good practice to ensure the integrity of the data.",magicoder_pred,,,,,
+,,,5,,,This check is not necessary if you are sure that the payload will always be a buffer of 20 bytes. It might be better to remove this check.,deepseekcoder_pred,,,,,
+12941.0,3638.0,"@@ -93,7 +93,9 @@ export function coerceToVNode(possibleVNode) {
+ 
+ 	// Clone vnode if it has already been used. ceviche/#57
+ 	if (possibleVNode._dom!=null) {
+-		return createVNode(possibleVNode.type, possibleVNode.props, possibleVNode.text, possibleVNode.key, null);
++		let vnode = createVNode(possibleVNode.type, possibleVNode.props, possibleVNode.text, possibleVNode.key, null);
++		vnode._dom = possibleVNode._dom;
++		return vnode;
+ 	}
+ 
+ 	return possibleVNode;",1,"line 96, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"This code is already well-structured and doesn't seem to have any obvious issues. It's a bit hard to say what improvements could be made without more context, but it seems fine as it is.",deepseekcoder_pred,,,,test3638_old.js,test3638_new.js
+,,,2,,,"This is a bit of a strange way to handle this, but it's not clear what the intention is. It seems like the intention is to clone the vnode and then set the _dom property to the same value as the original vnode. However, this seems unnecessary and could be simplified.
+
+The original vnode is already cloned, so there's no need to clone it again. The _dom property is already set to the same value as the original vnode, so there's no need to set it to the same value again.
+So, the code can be simplified to:
+```javascript
+if (possibleVNode._dom!=null) {
+    return createVNode(possibleVNode.type, possibleVNode.props, possibleVNode.text, possibleVNode.key, null);
+}
+```
+This will create a new vnode with the same properties as the original vnode, but without the _dom property.",magicoder_pred,,,,,
+,,,3,,,You can remove these now given we have an explicit check earlier in layoutCallback,stable_code_pred,,,,,
+,,,4,,,Why do we need to do this?,codereviewer_pred,,,,,
+,,,5,,,Can we add `_dom` as an argument to createVNode here? I think it might be shorter (could totally be wrong!),msg,,,,,
+18980.0,1248.0,"@@ -669,6 +669,8 @@ const REGISTERED_HOOKS = [
+    * @param {CellRange} sourceRange The range values will be filled from.
+    * @param {CellRange} targetRange The range new values will be filled into.
+    * @param {string} direction Declares the direction of the autofill. Possible values: `up`, `down`, `left`, `right`.
++   * @param {boolean} hasFillDataChanged Indicates whether the original fillData has been changed in
++   *                                     the `beforeAutofill` hook.
+    */
+   'afterAutofill',
+ ",1,,,"If the last argument is going to be removed, why would we add it to the API docs? Shouldn't it be private for internal use?",msg,,,,test1248_old.js,test1248_new.js
+,,,2,,,This hook is not used in the codebase. It's a placeholder for future use.,magicoder_pred,,,,,
+,,,3,,,`hasFillDataChanged` -> `hasFillDataChanged`,codereviewer_pred,,,,,
+,,,4,,,"You can remove the `hasFillDataChanged` parameter, it's not necessary.",stable_code_pred,,,,,
+,,,5,,,This hook seems to be missing a description. It would be helpful to know what this hook is used for.,deepseekcoder_pred,,,,,
+7738.0,3225.0,"@@ -335,6 +335,8 @@ public class Camera extends Plugin {
+       returnBase64(call, exif, bitmapOutputStream);
+     } else if (settings.getResultType() == CameraResultType.URI) {
+       returnFileURI(call, exif, bitmap, u, bitmapOutputStream);
++    } else if (settings.getResultType() == CameraResultType.BASE64NOMETADATA) {
++      returnBase64NoMetadata(call, exif, bitmapOutputStream);
+     } else {
+       call.reject(INVALID_RESULT_TYPE_ERROR);
+     }",1,,,This is a new result type that you have added. It's good to have a comment explaining what this result type is for.,magicoder_pred,,,,test3225_old.js,test3225_new.js
+,,,2,,,You can remove these now given we have an explicit check earlier in layoutCallback,stable_code_pred,,,,,
+,,,3,,,"Shouldn't this be `returnBase64NoMetadata(call, exif)`?",codereviewer_pred,,,,,
+,,,4,,,"Looks like you made changes on `CameraResultType` class, but didn't commit them. And you also have to do the changes on the types in @capacitor/core",msg,,,,,
+,,,5,,,"This code block seems to be checking for a specific result type and then performing different actions based on that. It's a good approach to ensure that the code is robust and handles all possible cases. However, it's not clear what the purpose of `returnBase64NoMetadata` is. If it's not used anywhere else, it might be a good idea to remove it.",deepseekcoder_pred,,,,,
+11031.0,4668.0,"@@ -99,6 +99,10 @@ module.exports = function(config) {
+ 		customLaunchers: sauceLabs ? sauceLabsLaunchers : travisLaunchers,
+ 
+ 		files: [
++			// We can't load this up front because it's ES2015 and we need it only
++			// for certain tests that run under those conditions. We also can't load
++			// it via CDN because { included: false } won't work.
++			{ pattern: 'custom-elements-es5-adapter.js', included: false },
+ 			{ pattern: 'polyfills.js', watched: false },
+ 			{ pattern: '{browser,shared}/**.js', watched: false }
+ 		],",1,,,"I'm not sure if this is the best way to do this, but I'm not sure if there's a better way to do this.",codereviewer_pred,,,,test4668_old.js,test4668_new.js
+,,,2,,,You can remove this now given we have an explicit check earlier in karma.conf.js,stable_code_pred,,,,,
+,,,3,,,This is a good idea to avoid loading unnecessary files.,deepseekcoder_pred,,,,,
+,,,4,,,"This is a workaround for a known issue with Karma and ES2015 modules. It's not ideal, but it's the best we can do for now.
+
+The issue is that Karma doesn't support ES2015 modules natively, so we have to use a polyfill or a transpiler to convert our code to ES5 before it can be loaded by Karma.
+The workaround is to load the polyfill or transpiled code in a separate file, and then include that file in the list of files to be watched and loaded by Karma. This way, Karma will load the file and execute its code, which will then load the ES2015 module and make it available for testing.",magicoder_pred,,,,,
+,,,5,,,"Unfortunately, I couldn't find a way to get karma to conditionally load stuff from a CDN, so I had to include it.",msg,,,,,
+11947.0,1720.0,"@@ -34,6 +34,8 @@ function assertServerError (res) {
+ }
+ 
+ module.exports = class AwsS3Multipart extends Plugin {
++  static VERSION = require('../package.json').version
++
+   constructor (uppy, opts) {
+     super(uppy, opts)
+     this.type = 'uploader'",1,"line 36, col 18, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,Why do we need this?,codereviewer_pred,,,,test1720_old.js,test1720_new.js
+,,,2,"line 37, col 18, Class properties must be methods. Expected '(' but instead saw '='.",issue,You can remove the version check now that you have the package.json in the project root.,stable_code_pred,,,,,
+,,,3,"line 37, col 28, Expected an identifier and instead saw '../package.json'.",issue,This is a good addition to the code. It provides a version number for the plugin.,deepseekcoder_pred,,,,,
+,,,4,"line 37, col 45, 'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option).",issue,"Is there an advantage to this vs setting `this.version` in the constructor? Cleaner this way, at the top?",msg,,,,,
+,,,5,"line 37, col 46, Expected an identifier and instead saw '.'.",issue,"This is a good addition to the class, but it's not necessary to add it to every class. It's better to add it to the main class or a base class that all other classes extend.",magicoder_pred,,,,,
+,,,6,"line 39, col 3, Class properties must be methods. Expected '(' but instead saw 'constructor'.",issue,,,,,,,
+,,,7,"line 40, col 22, Missing semicolon.",issue,,,,,,,
+,,,8,"line 41, col 27, Missing semicolon.",issue,,,,,,,
+12081.0,4891.0,"@@ -10,6 +10,17 @@ export function extend(obj, props) {
+ 	return obj;
+ }
+ 
++/** Invoke or update a ref, depending on whether it is a function or object ref.
++ *  @param {object|function} [ref=null]
++ *  @param {any} [value]
++ */
++export function applyRef(ref, value) {
++	if (ref!=null) {
++		if (typeof ref=='function') ref(value);
++		else ref.current = value;
++	}
++}
++
+ /**
+  * Call a function asynchronously, as soon as possible. Makes
+  * use of HTML Promise to schedule the callback if available,",1,"line 17, col 1, 'export' is only available in ES6 (use 'esversion: 6').",issue,This function is not used in the codebase. It's a good idea to remove it.,magicoder_pred,,,,test4891_old.js,test4891_new.js
+,,,2,,,Nit: space after `if`,codereviewer_pred,,,,,
+,,,3,,,"This function seems to be well written. It's a good idea to add comments explaining what the function does, what parameters it takes, and what it returns.",deepseekcoder_pred,,,,,
+,,,4,,,"This line is here to be compatible with the current way `refs` work, right?",msg,,,,,
+,,,5,,,"This function is a bit bloated and can be simplified.
+
+```
+function applyRef(ref, value) {
+  if (ref) {
+    if (typeof ref === 'function') ref(value);
+    else ref.current = value;
+  }
+}
+This function is a bit bloated and can be simplified. It's doing a type check and a null check in one line. It's also using `const` instead of `let` for the `ref` variable, which is a good practice.
+Also, it's worth noting that `ref.current` is a public instance property that is commonly used with `useRef` hooks in React. If you're using this code outside of a React component, you may not have access to `ref.current`. In that case, you could replace `ref.current` with `ref` in the function body, and adjust the function signature to accept an optional",stable_code_pred,,,,,
+11101.0,15.0,"@@ -1,8 +1,6 @@
+ /*exported DqElement */
+ 
+ function truncate(str, maxLength) {
+-	'use strict';
+-
+ 	maxLength = maxLength || 300;
+ 
+ 	if (str.length > maxLength) {",1,,,Why was this removed?,codereviewer_pred,,,,test15_old.js,test15_new.js
+,,,2,,,You can remove the 'use strict' line as it's not necessary in this context.,deepseekcoder_pred,,,,,
+,,,3,,,"This is a good use of strict mode. It helps catch potential errors and bugs in your code.
+
+The code change is not provided in the review. Please provide the code change you want to review.",magicoder_pred,,,,,
+,,,4,,,You can remove the 'use strict' directive as it's not necessary for this function.,stable_code_pred,,,,,
+,,,5,,,Why this deletion?,msg,,,,,
+15194.0,8052.0,"@@ -368,6 +368,15 @@ function processNewChange(args) {
+   const change = args.change;
+   const callback = args.callback;
+   const eventEmitter = args.eventEmitter || false;
++
++  if (changeStream.isClosed()) {
++    if (eventEmitter) return;
++
++    const error = new Error('ChangeStream is closed');
++    if (typeof callback === 'function') return callback(error, null);
++    return changeStream.promiseLibrary.reject(error);
++  }
++
+   const topology = changeStream.topology;
+   const options = changeStream.cursor.options;
+ ",1,"line 368, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,I think this should be a `MongoError` right?,msg,,,,test8052_old.js,test8052_new.js
+,,,2,"line 369, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,Why do we need to check `eventEmitter` here?,codereviewer_pred,,,,,
+,,,3,"line 370, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"This code block seems to be checking if the changeStream is closed and if it is, it's returning an error. This is a good practice to follow as it helps in debugging and understanding the code flow.",deepseekcoder_pred,,,,,
+,,,4,"line 375, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"This code is checking if the change stream is closed and if it is, either calling a callback function or rejecting a promise. This is a common pattern for handling errors when a resource is no longer available. However, it seems like the error is being ignored in this case. It might be better to throw the error instead of returning it, so that it can be handled further up the call stack.",stable_code_pred,,,,,
+,,,5,"line 380, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"This is a good check to ensure the change stream is still open before attempting to process a new change. It also handles the case where the callback is not a function, in which case it should return an error.",magicoder_pred,,,,,
+,,,6,"line 381, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+20131.0,8014.0,"@@ -0,0 +1,18 @@
++import path from 'path';
++import execa from 'execa';
++import {
++  displayErrorMessage
++} from '../../scripts/utils/console.mjs';
++
++((async function() {
++  try {
++    await execa('npm', ['run', 'swap-package-links'], {
++      cwd: path.resolve(process.cwd(), '..'),
++      stdio: 'inherit'
++    });
++
++  } catch (error) {
++    displayErrorMessage('Error running the script.');
++    process.exit(error.exitCode);
++  }
++})());",1,"line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,"This script is running a npm script, which is a good practice. However, it's not checking if npm is installed or if the script exists in the package.json. It's also not checking if the script is successful. It's also not handling any errors that might occur during the execution of the script. It's a good idea to add some error handling and checking for these conditions.",deepseekcoder_pred,,,,test8014_old.js,test8014_new.js
+,,,2,"line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,I'm not sure if there are any links to swap for Handosntable package. Should this be a top lvl script?,msg,,,,,
+,,,3,"line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,`displayErrorMessage` doesn't seem to be used.,codereviewer_pred,,,,,
+,,,4,"line 7, col 3, 'async functions' is only available in ES8 (use 'esversion: 8').",issue,"This is a good approach, but you could also use a child_process module's spawn function instead of execa. spawn provides more control over the child process.",stable_code_pred,,,,,
+,,,5,,,This script is used to swap package links in the monorepo. It's a bit complex and may not be necessary if you're not using a monorepo. It's also not clear what the error handling is supposed to do. It's possible that the script is not working as expected.,magicoder_pred,,,,,
+15120.0,9835.0,"@@ -7,7 +7,9 @@ module.exports = {
+   },
+   extends: [
+     'airbnb',
+-    'plugin:@typescript-eslint/recommended',
++    ""eslint:recommended"",
++    ""plugin:@typescript-eslint/eslint-recommended"",
++    ""plugin:@typescript-eslint/recommended"",
+     'prettier',
+     'prettier/@typescript-eslint',
+     'plugin:prettier/recommended',",1,,,"You can remove the 'plugin:@typescript-eslint/recommended' as it's already included in 'eslint:recommended' and 'plugin:@typescript-eslint/eslint-recommended'.
+
+Also, you can remove the 'plugin:prettier/recommended' as it's not necessary as it's already included in 'prettier'.",magicoder_pred,,,,test9835_old.js,test9835_new.js
+,,,2,,,"You can remove these now given we have an explicit check earlier in the script
+
+```
+{
+  ""extends"": ""eslint:recommended""
+}
+  ""extends"": [
+    ""airbnb"",
+    ""plugin:@typescript-eslint/recommended"",
+    ""eslint:recommended"",
+    ""plugin:@typescript-eslint/eslint-recommended"",
+    ""plugin:prettier/recommended"",
+    ""plugin:prettier/eslint-recommended""
+  ],
+  ""rules"": {
+    ""no-console"": ""warn"",
+    ""no-debugger"": ""warn"",
+    ""no-unused-expressions"": [""error"", { ""allowShortCircuit"": true }],
+    ""prettier/prettier",stable_code_pred,,,,,
+,,,3,,,What's the difference between typescript-eslint/eslint-recommended and typescript-eslint/recommended? I really can't get it.,msg,,,,,
+,,,4,,,You can remove the 'plugin:@typescript-eslint/recommended' as it is redundant with 'eslint:recommended' and 'plugin:@typescript-eslint/eslint-recommended'.,deepseekcoder_pred,,,,,
+,,,5,,,I think this should be `plugin:eslint:recommended`,codereviewer_pred,,,,,
+13439.0,5492.0,"@@ -0,0 +1,18 @@
++/* global dom */
++
++/**
++ * Get all descendents that are focusable from a given node
++ * @method getFocusableElements
++ * @memberof axe.commons.dom
++ * @instance
++ * @param  {Object} virtualNode The virtualNode to assess
++ * @return {Boolean}
++ */
++dom.getFocusableElements = function getFocusableElements(virtualNode) {
++	const descendents = axe.utils.querySelectorAll(virtualNode, '*');
++	const focusableElms = descendents.filter(({ actualNode: el }) => {
++		const isElFocusable = dom.isFocusable(el);
++		return isElFocusable;
++	});
++	return focusableElms;
++};",1,"line 12, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,No need for this variable.,msg,,,,test5492_old.js,test5492_new.js
+,,,2,"line 13, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"This is a good start, but it's a bit heavy-handed. We can achieve the same result with a much simpler function.
+
+Here's a more efficient approach:
+```javascript
+function getFocusableElements(node) {
+  const focusableElements = node.querySelectorAll('a[href], button, input[type=""submit""], select, textarea, [tabindex]');
+  return focusableElements;
+}
+```
+This function uses the standard `querySelectorAll` method to select all focusable elements. It specifically targets `a[href]` (which includes links), `button`, `input[type=""submit""]` (which includes form controls), `select`, `textarea`, and any element with a `tabindex` attribute. This approach is more efficient and less error-prone than manually filtering and checking each descendent.
+Note: This function assumes that the `tabindex` attribute is used",stable_code_pred,,,,,
+,,,3,"line 13, col 46, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,`getFocusableElements` -> `getFocusableDescendants`,codereviewer_pred,,,,,
+,,,4,"line 13, col 65, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,"This function is not used anywhere in the codebase. It seems to be a part of a larger refactor, but it's not clear what it's supposed to do. It seems to be trying to find all focusable elements in a virtual DOM, but it's not clear what the virtualNode is supposed to be. It's also not clear what the actualNode is supposed to be. It's also not clear what the filter is supposed to do. It's also not clear what the isElFocusable is supposed to be. It's also not clear what the return value is supposed to be. It's also not clear what the actualNode is supposed to be. It's also not clear what the isElFocusable is supposed to be. It's also not clear what the return value is supposed to be. It's also not clear what the actualNode is supposed to be. It's also not clear what the isElFocusable is supposed to be.",magicoder_pred,,,,,
+,,,5,"line 14, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,This code is well written and does the job as expected. It's a good example of how to use the `querySelectorAll` function and filter out non-focusable elements. The only thing I would suggest is to add a comment explaining what the function does.,deepseekcoder_pred,,,,,
+18070.0,8514.0,"@@ -1,8 +1,10 @@
++import {CREDENTIALS} from ""../config.func"";
++
+ module.exports = function(server) {
+ 
+     test('who am I?', () => {
+       return server.whoami().then(function (username) {
+-        expect(username).toMatch('test');
++        expect(username).toMatch(CREDENTIALS.user);
+       });
+     });
+ ",1,"line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,The test is checking if the username matches 'test'. It would be better to check if it matches the username from the CREDENTIALS.user. This will make the test more robust and less prone to errors.,deepseekcoder_pred,,,,test8514_old.js,test8514_new.js
+,,,2,"line 5, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,This should be `CREDENTIALS.username`,codereviewer_pred,,,,,
+,,,3,,,"This is a good practice to use constants for sensitive data like usernames. It makes the code more readable and maintainable.
+
+In the code change, the constant CREDENTIALS.user is used instead of 'test'. This is a good practice to avoid hardcoding sensitive data.",magicoder_pred,,,,,
+,,,4,,,You can remove these now given we have an explicit check earlier in the test,stable_code_pred,,,,,
+,,,5,,,Filename can be `config.functional`,msg,,,,,
+10224.0,1903.0,"@@ -214,7 +214,7 @@ describe('Components', () => {
+ 
+ 		let good, bad;
+ 		let root = render(<GoodContainer ref={c=>good=c} />, scratch);
+-		expect(scratch.innerText, 'new component with key present').to.equal('A\nB');
++		expect(scratch.textContent, 'new component with key present').to.equal('AB');
+ 		expect(Comp.prototype.componentWillMount).to.have.been.calledTwice;
+ 		expect(sideEffect).to.have.been.calledTwice;
+ ",1,,,You can use textContent instead of innerText as it is more reliable for getting text content from a node.,deepseekcoder_pred,,,,test1903_old.js,test1903_new.js
+,,,2,,,Why did this change?,codereviewer_pred,,,,,
+,,,3,,,"You can remove these now given we have an explicit check earlier in componentWillMount
+
+### Final Note
+Always a good idea to double check the code changes and provide feedback in a constructive manner. This helps ensure that the changes are both correct and improve the quality of the code.<|im_end|>",stable_code_pred,,,,,
+,,,4,,,I wonder why the newline disappeared here? I guess we'll merge and see how SauceLabs fares across the supported browsers.,msg,,,,,
+,,,5,,,The textContent property is more reliable than innerText for getting the text content of an element.,magicoder_pred,,,,,
+11790.0,5582.0,"@@ -0,0 +1,13 @@
++/**
++ * Returns the tagName,
++ * if it is a HTMLElement it gets lowercased
++ * @param  {Element} node element
++ * @return {String}       normalized tagName
++ */
++axe.utils.getTagName = function(node) {
++	if (node.namespaceURI === 'http://www.w3.org/1999/xhtml') {
++		return node.tagName.toLowerCase();
++	}
++
++	return node.tagName;
++};",1,,,"This function seems to be a part of axe-core library. It's a utility function to get the tag name of an element. It checks if the element is an HTML element and if so, it converts the tag name to lowercase. This is a good practice to ensure consistency in tag names.",magicoder_pred,,,,test5582_old.js,test5582_new.js
+,,,2,,,I don't think this is the right place for this function. It should be in `axe.utils`.,codereviewer_pred,,,,,
+,,,3,,,This is a duplicate of a function defined earlier in the same file. It's not necessary to redefine it.,stable_code_pred,,,,,
+,,,4,,,I'm not sure what the value of this is. So far we've solved this by always doing `tagName.toUpperCase()` for everything. I think we should stick with this.,msg,,,,,
+,,,5,,,"This function seems to be well written and does the job as expected. It's a good example of how to write clean, readable, and efficient code.",deepseekcoder_pred,,,,,
+15739.0,1189.0,"@@ -142,7 +142,11 @@ class EditorManager {
+ 
+     if (editorClass) {
+       this.activeEditor = getEditorInstance(editorClass, this.instance);
++      this.activeEditor.row = row; // pre-preparation needed by getEditedCell
++      this.activeEditor.col = col;
+       const td = this.activeEditor.getEditedCell();
++      this.activeEditor.row = null; // restore the un-initialized state
++      this.activeEditor.col = null;
+       this.activeEditor.prepare(row, col, prop, td, originalValue, cellProperties);
+ 
+     } else {",1,"line 147, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,Why do we need these lines?,codereviewer_pred,,,,test1189_old.js,test1189_new.js
+,,,2,,,Maybe we can use `this.instance.getCell` with `topMost` flag to get `TD` element?,msg,,,,,
+,,,3,,,"This is a bit of a code smell. The row and col are being used to prepare the editor, but then immediately overwritten. It might be better to remove these assignments and just pass the row and col directly to the prepare method.",deepseekcoder_pred,,,,,
+,,,4,,,"This is a bit of a strange pattern. It seems like the activeEditor is being used to store the row and col values, but then these values are being reset to null before the prepare() method is called. This could potentially lead to confusion and bugs. It would be better to remove these assignments and just use the row and col values directly in the prepare() method.",magicoder_pred,,,,,
+,,,5,,,"This seems like a bug, you should not be setting row and col on the editor instance after preparing it.",stable_code_pred,,,,,
+14227.0,6840.0,"@@ -57,8 +57,10 @@ module Selenium
+     #
+     # @return [Driver]
+     #
+-    # @see Selenium::WebDriver::Remote::Bridge
++    # @see Selenium::WebDriver::Remote::OSSBridge
++    # @see Selenium::WebDriver::Remote::W3CBridge
+     # @see Selenium::WebDriver::Firefox::Bridge
++    # @see Selenium::WebDriver::Firefox::W3CBridge
+     # @see Selenium::WebDriver::IE::Bridge
+     # @see Selenium::WebDriver::Edge::Bridge
+     # @see Selenium::WebDriver::Chrome::Bridge",1,,,Maybe call it `WireBridge`?,msg,,,,test6840_old.js,test6840_new.js
+,,,2,,,"The module Selenium is using Selenium::WebDriver::Remote::Bridge, Selenium::WebDriver::Firefox::Bridge, Selenium::WebDriver::IE::Bridge, Selenium::WebDriver::Edge::Bridge, and Selenium::WebDriver::Chrome::Bridge. It seems like the module is trying to use different bridge classes depending on the browser being used. This could be confusing and potentially lead to bugs. It would be better to have a single bridge class that can handle all the different browsers.
+
+The module Selenium is using Selenium::WebDriver::Remote::Bridge, Selenium::WebDriver::Firefox::Bridge, Selenium::WebDriver::IE::Bridge, Selenium::WebDriver::Edge::Bridge, and Selenium::WebDriver::Chrome::Bridge. It seems like the module is trying to use different bridge classes depending on the browser being used. This could be confusing and potentially lead to bugs. It would be better to have a single",magicoder_pred,,,,,
+,,,3,,,"You can remove these now given we have an explicit check earlier in layoutCallback
+```",stable_code_pred,,,,,
+,,,4,,,The reviewer should be aware of the differences between OSSBridge and W3CBridge in Selenium. They should also be aware of the differences between Firefox and Chrome in Selenium.,deepseekcoder_pred,,,,,
+,,,5,,,This should be `W3CBridge`,codereviewer_pred,,,,,
+7808.0,3281.0,"@@ -33,7 +33,7 @@ export default Controller.extend(SettingsSaveMixin, {
+     }),
+ 
+     iconImageSource: computed('model.icon', function () {
+-        return this.get('model.icon') || '';
++        return this.get('model.icon') || '/favicon.ico';
+     }),
+ 
+     coverImageSource: computed('model.cover', function () {",1,,,This is a good idea to have a default image in case the model.cover is not set.,magicoder_pred,,,,test3281_old.js,test3281_new.js
+,,,2,,,Why do we need this change?,codereviewer_pred,,,,,
+,,,3,,,"So I haven't tested this - but since the icon location is just directly dumped into the img _src_ attribute, won't this cause issues with Ghost blogs in a subdirectory? If I'm misunderstanding what the purpose of the default is then let me know  ",msg,,,,,
+,,,4,,,"You can use the model property directly here, and fallback to a default if it's not available.",stable_code_pred,,,,,
+,,,5,,,"This is a bit of a guess, but it seems like you're trying to provide a default value for `model.icon` if it's not present. This could be done with a memset or similar.",deepseekcoder_pred,,,,,
+14132.0,7043.0,"@@ -6,7 +6,7 @@ var attr,
+ 	attrName,
+ 	allowed,
+ 	role = node.getAttribute('role'),
+-	attrs = node.attributes;
++	attrs = axe.utils.getNodeAttributes(node);
+ 
+ if (!role) {
+ 	role = axe.commons.aria.implicitRole(node);",1,,,"suggestion: if we perhaps make `attributes` a getter in `virtualNode`, it does look seamless to access the property, same as what we have done for `isFocusable` or `tabbableElements`. `node.attributes` can become `virtualNode.attributes`",msg,,,,test7043_old.js,test7043_new.js
+,,,2,,,This is a common pattern in accessibility testing. It's a good idea to have a function that can get all attributes of a node.,magicoder_pred,,,,,
+,,,3,,,You can use Node.hasAttribute() instead of checking for existence in the attributes object.,stable_code_pred,,,,,
+,,,4,,,"This code seems to be fine, but it's good to note that axe.utils.getNodeAttributes(node) is a more robust way to get attributes than node.attributes. It also makes the code more readable.",deepseekcoder_pred,,,,,
+,,,5,,,"This should be `axe.utils.getNodeAttributes(node, 'role')`",codereviewer_pred,,,,,
+30935.0,9280.0,"@@ -1,3 +1,4 @@
++/* eslint-disable sitekit/camelcase-acronyms */
+ /**
+  * Profile Select component tests.
+  *",1,,,Why do we need to disable this?,codereviewer_pred,,,,test9280_old.js,test9280_new.js
+,,,2,,,"This is a comment block, it should be in the correct format.",magicoder_pred,,,,,
+,,,3,,,This is a good practice to add at the beginning of the file. It helps to identify the purpose of the file and the linter rules that should be applied.,deepseekcoder_pred,,,,,
+,,,4,,,You can remove these comments as they are not relevant anymore.,stable_code_pred,,,,,
+,,,5,,,"I don't think we should have file-wide exceptions for this rule, let's annotate the individual instances.",msg,,,,,
+40481.0,6733.0,"@@ -0,0 +1,6 @@
++const jestConfig = require( './jest.config' );
++
++module.exports = {
++	...jestConfig,
++	testMatch: [ '<rootDir>/.storybook/?(*.)test.js' ],
++};",1,"line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,Why do we need this?,codereviewer_pred,,,,test6733_old.js,test6733_new.js
+,,,2,"line 4, col 5, 'spread operator' is only available in ES6 (use 'esversion: 6').",issue,You can remove this now given it's just spreading the existing config.,stable_code_pred,,,,,
+,,,3,"line 4, col 8, 'object spread property' is only available in ES9 (use 'esversion: 9').",issue,This is a good addition to the jest.config.js file. It will make it easier to run the storybook tests separately.,deepseekcoder_pred,,,,,
+,,,4,,,This seemed like the easiest solution We need to include this path in `testMatch` to run the test AFAIK *BUT* we don't want this test ran when running them all normally I'm sure there are other ways to do this!,msg,,,,,
+,,,5,,,This is a Jest configuration file for a project. It extends the configuration from the jest.config.js file and overrides the testMatch property to only include test files in the.storybook directory.,magicoder_pred,,,,,
+35316.0,2139.0,"@@ -43,13 +43,16 @@ import { isZeroReport } from '../../modules/search-console/util/is-zero-report';
+ import sumObjectListValue from '../../util/sum-object-list-value';
+ const { useSelect } = Data;
+ 
++// reportArgs is declared in this higher scope so that it can be used by hasData.
++let reportArgs;
++
+ const AdminBarClicks = ( { className } ) => {
+ 	const url = useSelect( ( select ) => select( CORE_SITE ).getCurrentEntityURL() );
+ 	const { compareStartDate, endDate } = useSelect( ( select ) => select( CORE_USER ).getDateRangeDates( {
+ 		compare: true,
+ 		offsetDays: DATE_RANGE_OFFSET,
+ 	} ) );
+-	const reportArgs = {
++	reportArgs = {
+ 		startDate: compareStartDate,
+ 		endDate,
+ 		dimensions: 'date',",1,"line 43, col 1, 'import' is only available in ES6 (use 'esversion: 6').",issue,Why do we need to declare this here?,codereviewer_pred,,,,test2139_old.js,test2139_new.js
+,,,2,"line 44, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"Instead of doing this let's add another function similar to `hasZeroData` for selecting the `reportArgs` since this is all sourced from selected values. Then `hasZeroData` can use this internally, as well as the component itself. Since this function would be internal just for the purpose of avoiding duplication, we don't need to expose it on the component the same way though.",msg,,,,,
+,,,3,"line 44, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,You can remove the declaration of reportArgs as it's already in the higher scope.,stable_code_pred,,,,,
+,,,4,"line 47, col 1, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,"This is a good idea to declare reportArgs in a higher scope so that it can be used by hasData.
+
+The code is not clear about the purpose of this reportArgs. It seems to be used in the hasData function, but it's not defined anywhere else in the code. It's also not used in the rest of the function. It might be better to remove it.",magicoder_pred,,,,,
+,,,5,"line 49, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,The variable reportArgs is declared in this higher scope so that it can be used by hasData. It's not necessary to declare it inside the component.,deepseekcoder_pred,,,,,
+,,,6,"line 49, col 24, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,7,"line 49, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,8,"line 50, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,9,"line 50, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,10,"line 51, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,11,"line 51, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+,,,12,"line 51, col 63, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",issue,,,,,,,
+,,,13,"line 57, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",issue,,,,,,,
+10955.0,9691.0,"@@ -24,6 +24,8 @@ describe('th-has-data-cells', function () {
+ 			'<table>' +
+ 			'  <tr> <th>hi</th> <td>hello</td> </tr>' +
+ 			'  <tr> <th>hi</th> <td>hello</td> </tr>' +
++			'  <tr> <td>hello</td> <th>hi</th> </tr>' +
++			'  <tr> <td>hello</td> <th>hi</th> </tr>' +
+ 			'</table>';
+ 
+ 		var node = fixture.querySelector('table');",1,,,Why is this change needed?,codereviewer_pred,,,,test9691_old.js,test9691_new.js
+,,,2,,,You can add a specific check for the invalid cell order.,stable_code_pred,,,,,
+,,,3,,,"This is not a mistake, but it's not following the HTML standard. The th element should not be placed inside a td or vice versa. It's better to use the scope attribute to define the scope of the th element.",deepseekcoder_pred,,,,,
+,,,4,,,"This is a bit of a strange test case. It's testing for a table with both th and td cells, which is not a common use case. It's also testing for a table with mixed cell types, which is also not a common use case. It's also testing for a table with a mix of th and td cells in the same row, which is also not a common use case.
+
+It would be better to test for a table with th cells only, or a table with td cells only, or a table with mixed cell types, or a table with a mix of th and td cells in the same row, or a table with a mix of th and td cells in different rows, or a table with a mix of th and td cells in different rows and different columns, or a table with a mix of th and td cells in different rows and different columns and different sections, or a table with a mix of th and td cells in different rows and different columns and different sections and different groups, or a table with a mix of th and td cells in different rows and different columns and different sections and different groups and different cells",magicoder_pred,,,,,
+,,,5,,,"Last time I checked, this technique did not work on all major screen reader - browser combinations. What screen readers have you tested?",msg,,,,,
+14581.0,3981.0,"@@ -1268,7 +1268,13 @@ var AppRouter = Backbone.Router.extend({
+         }
+ 
+         // Init sidebar based on the current url
+-        self.sidebar.init();
++        if (countlyVue.sideBarComponent) {
++            var selectedMenuItem = countlyVue.sideBarComponent.$store.getters[""countlySidebar/getSelectedMenuItem""];
++            var currLink = ""#"" + Backbone.history.fragment;
++            if (selectedMenuItem.item.url !== currLink) {
++                countlyVue.sideBarComponent.$store.dispatch(""countlySidebar/updateSelectedMenuItem"", null);
++            }
++        }
+     },
+     sidebar: {
+         init: function() {",1,,,"This code is not clear. It seems to be trying to initialize a sidebar, but it's not clear what the sidebar is or how it's being initialized. It's also not clear why it's being done in the router's `initialize` method. It might be better to refactor this into a more clear and understandable structure.",magicoder_pred,,,,test3981_old.js,test3981_new.js
+,,,2,,,You can move this logic to the router or a separate function to avoid repeating code.,stable_code_pred,,,,,
+,,,3,,,Use `Backbone.history.fragment` instead of `#`.,codereviewer_pred,,,,,
+,,,4,,,"Instead of setting it to null, i think lets set it to {}",msg,,,,,
+,,,5,,,"This code seems to be checking if sidebarComponent exists and then checking if the selected menu item's url is not equal to the current url. If they are not equal, it dispatches an action to update the selected menu item. This seems to be a good way to handle sidebar initialization and menu item selection.",deepseekcoder_pred,,,,,
+13816.0,9317.0,"@@ -13,7 +13,8 @@ module.exports = function selectPopulatedFields(query) {
+     var userProvidedFields = query._userProvidedFields || {};
+     if (query.selectedInclusively()) {
+       for (i = 0; i < paths.length; ++i) {
+-        if (!isPathInFields(userProvidedFields, paths[i])) {
++        var hasPath = query._fields[paths[i]];
++        if (!isPathInFields(userProvidedFields, paths[i]) && hasPath) {
+           query.select(paths[i]);
+         }
+       }",1,,,"I'm suspicious of this. For one thing, `query._fields[paths[i]]` may be `0`, `false`, etc. so checking for falsy will catch both cases where both the field isn't in the projection and if the field is explicitly excluded from the projection. For another, I'm not so sure that #6546 is a bug. Let's discuss that more.",msg,,,,test9317_old.js,test9317_new.js
+,,,2,,,Why do we need to check for `hasPath` here?,codereviewer_pred,,,,,
+,,,3,,,You can use the `in` operator to check if a path exists in the fields object.,stable_code_pred,,,,,
+,,,4,,,"This code seems to be checking if a path is in the userProvidedFields and if it's not, it selects it. The reviewer suggests adding a check to see if the path is in the fields at all before trying to select it. This will prevent errors if the path doesn't exist in the fields.",deepseekcoder_pred,,,,,
+,,,5,,,"This code is checking if a path is in the user provided fields and if it is not, it selects it. This is a bit confusing because it's checking if the path is in the user provided fields and if it's not, it's selecting it. It might be better to rename the variable to reflect its purpose.
+
+Also, it's not clear why the check for `hasPath` is needed. If the path is not in the user provided fields, it should be selected regardless of whether it's in the fields object.",magicoder_pred,,,,,
+11121.0,1748.0,"@@ -11,7 +11,7 @@ if (typeof define === 'function' && define.amd) {
+ 	});
+ }
+ if (typeof module === 'object' && module.exports && typeof axeFunction.toString === 'function') {
+-    axe.source = '(' + axeFunction.toString() + ')(this, this.document);';
++    axe.source = '(' + axeFunction.toString() + ')(typeof window === ""object"" ? window : this);';
+     module.exports = axe;
+ }
+ if (typeof window.getComputedStyle === 'function') {",1,,,"hey, aren't we supposed to be passing in two parameters here?",msg,,,,test1748_old.js,test1748_new.js
+,,,2,,,"`typeof window === ""object"" ? window : this`",codereviewer_pred,,,,,
+,,,3,,,"The code change is fine, but it's better to use a single method to check for the existence of the property rather than two separate checks.",stable_code_pred,,,,,
+,,,4,,,"This code is checking if window.getComputedStyle exists, which is a browser feature. It's not a mistake, but it might be better to check if it exists in the environment you're working in.",deepseekcoder_pred,,,,,
+,,,5,,,"This is a bit of a guess, but it seems like the code is trying to check if the getComputedStyle function is available. If it's not, it's trying to set the source of the axe function to the window object. If the window object is not available, it's setting the source to the current context. This could be causing issues if the window object is not available in the current context. It might be better to add a check to make sure the window object is available before trying to access it.",magicoder_pred,,,,,
+14688.0,5898.0,"@@ -368,6 +368,8 @@ class RemoteConnection(object):
+                 ('POST', '/session/$sessionId/window/rect'),
+             Command.GET_WINDOW_RECT:
+                 ('GET', '/session/$sessionId/window/rect'),
++            Command.W3C_MINIMIZE_WINDOW:
++                ('POST', '/session/$sessionId/window/minimize'),
+             Command.MAXIMIZE_WINDOW:
+                 ('POST', '/session/$sessionId/window/$windowHandle/maximize'),
+             Command.W3C_MAXIMIZE_WINDOW:",1,,,Should this be `POST` instead of `POST`?,codereviewer_pred,,,,test5898_old.js,test5898_new.js
+,,,2,,,"This is a new command, so it should be added to the documentation.",magicoder_pred,,,,,
+,,,3,,,"This seems like a good addition to the code. It's not clear what the purpose of this command is, but it seems like it would be useful for a window manager.",deepseekcoder_pred,,,,,
+,,,4,,,You can remove these now given we have an explicit check earlier in layoutCallback,stable_code_pred,,,,,
+,,,5,,,Update after command rename,msg,,,,,

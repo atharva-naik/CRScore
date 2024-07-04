@@ -1,5 +1,5 @@
-,id,index,diff,type,claim/issue,correctness (1/0/-1),additional claims,old_file,new_file
-0,37758,7560,"@@ -48,7 +48,7 @@ export default function CountrySelect() {
+id,index,diff,type,claim/issue,correctness (1/0/-1),additional claims,old_file,new_file
+37758,7560,"@@ -48,7 +48,7 @@ export default function CountrySelect() {
  				timezone: countriesByCode[ newCountryCode ].defaultTimeZoneId,
  			} );
  		}
@@ -8,10 +8,10 @@
  
  	return (
  		<Select",claim,The code change in the GIT DIFF modifies the dependencies array for the useEffect hook,,,test7560_old.js,test7560_new.js
-1,,,,claim,"Previously, it was only dependent on ""setValues""",,,,
-2,,,,claim,"Now, it is dependent on both ""setValues"" and ""value""",,,,
-3,,,,claim,"This suggests that the effect of the hook will now be re-run whenever either ""setValues"" or ""value"" changes.",,,,
-4,15026,3516,"@@ -327,6 +327,16 @@ class FirefoxProfile(object):
+,,,claim,"Previously, it was only dependent on ""setValues""",,,,
+,,,claim,"Now, it is dependent on both ""setValues"" and ""value""",,,,
+,,,claim,"This suggests that the effect of the hook will now be re-run whenever either ""setValues"" or ""value"" changes.",,,,
+15026,3516,"@@ -327,6 +327,16 @@ class FirefoxProfile(object):
                      rc.append(node.data)
              return ''.join(rc).strip()
  
@@ -28,12 +28,12 @@
          if not os.path.exists(addon_path):
              raise IOError('Add-on path does not exist: %s' % addon_path)
  ",claim,The GIT DIFF shows that a new function named `parse_manifest_json` has been added to the `FirefoxProfile` class,,,test3516_old.js,test3516_new.js
-5,,,,claim,This function takes a string argument `content` which represents the contents of a WebExtensions `manifest.json` file,,,,
-6,,,,claim,"The function parses the JSON content and returns a dictionary with keys 'id', 'version', 'name', and 'unpack'",,,,
-7,,,,claim,The 'id' and 'version' values are extracted from the 'gecko' application in the manifest file,,,,
-8,,,,claim,The 'name' value is set to the 'version' value from the manifest file,,,,
-9,,,,claim,The 'unpack' value is set to False.,,,,
-10,16536,9367,"@@ -22,6 +22,16 @@ options._catchError = function(error, newVNode, oldVNode) {
+,,,claim,This function takes a string argument `content` which represents the contents of a WebExtensions `manifest.json` file,,,,
+,,,claim,"The function parses the JSON content and returns a dictionary with keys 'id', 'version', 'name', and 'unpack'",,,,
+,,,claim,The 'id' and 'version' values are extracted from the 'gecko' application in the manifest file,,,,
+,,,claim,The 'name' value is set to the 'version' value from the manifest file,,,,
+,,,claim,The 'unpack' value is set to False.,,,,
+16536,9367,"@@ -22,6 +22,16 @@ options._catchError = function(error, newVNode, oldVNode) {
  	oldCatchError(error, newVNode, oldVNode);
  };
  
@@ -50,14 +50,14 @@
  function detachedClone(vnode, detachedParent, parentDom) {
  	if (vnode) {
  		if (vnode._component && vnode._component.__hooks) {",claim,"The code change adds a new function to the ""unmount"" option in the options object",,,test9367_old.js,test9367_new.js
-11,,,,claim,This new function is designed to be called when a vnode is unmounted,,,,
-12,,,,claim,"It checks if the vnode has a component and if the component has a ""_onResolve"" method",,,,
-13,,,,claim,"If these conditions are met, it calls the ""_onResolve"" method",,,,
-14,,,,claim,"After that, it calls the old ""unmount"" function if it exists",,,,
-15,,,,claim,"This new function seems to be a more robust version of the old ""unmount"" function, adding error handling and resolving a potential issue where the ""_onResolve"" method was not being called.",,,,
-16,,,,issue,"line 25, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-17,,,,issue,"line 28, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-18,14171,8548,"@@ -51,7 +51,7 @@
+,,,claim,This new function is designed to be called when a vnode is unmounted,,,,
+,,,claim,"It checks if the vnode has a component and if the component has a ""_onResolve"" method",,,,
+,,,claim,"If these conditions are met, it calls the ""_onResolve"" method",,,,
+,,,claim,"After that, it calls the old ""unmount"" function if it exists",,,,
+,,,claim,"This new function seems to be a more robust version of the old ""unmount"" function, adding error handling and resolving a potential issue where the ""_onResolve"" method was not being called.",,,,
+,,,issue,"line 25, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 28, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+14171,8548,"@@ -51,7 +51,7 @@
      // @vue/component
      var commonFormattersMixin = {
          methods: {
@@ -66,8 +66,8 @@
              formatNumber: countlyCommon.formatNumber,
              getShortNumber: countlyCommon.getShortNumber
          }",claim,"The code change in the GIT DIFF replaces the method ""formatTimeAgo"" with a new method ""formatTimeAgoText""",,,test8548_old.js,test8548_new.js
-19,,,,claim,This suggests that the formatting of time ago has been changed to a textual format instead of the original method.,,,,
-20,20700,8607,"@@ -473,7 +473,7 @@ describe('GridFS Stream', function () {
+,,,claim,This suggests that the formatting of time ago has been changed to a textual format instead of the original method.,,,,
+20700,8607,"@@ -473,7 +473,7 @@ describe('GridFS Stream', function () {
                      // Fail if user tries to abort an aborted stream
                      uploadStream.abort().then(null, function (error) {
                        expect(error.toString()).to.equal(
@@ -76,10 +76,10 @@
                        );
                        client.close(done);
                      });",claim,The code change in the GIT DIFF replaces an error message,,,test8607_old.js,test8607_new.js
-21,,,,claim,The original error message was 'MongoDriverError: Cannot call abort() on a stream twice',,,,
-22,,,,claim,The updated error message is 'MongoGridFSStreamError: Cannot call abort() on a stream twice',,,,
-23,,,,claim,This indicates that the error has been specific to the GridFS stream and not the general MongoDriverError.,,,,
-24,4930,566,"@@ -2,7 +2,7 @@ import { pathOr, curry, merge } from 'ramda';
+,,,claim,The original error message was 'MongoDriverError: Cannot call abort() on a stream twice',,,,
+,,,claim,The updated error message is 'MongoGridFSStreamError: Cannot call abort() on a stream twice',,,,
+,,,claim,This indicates that the error has been specific to the GridFS stream and not the general MongoDriverError.,,,,
+4930,566,"@@ -2,7 +2,7 @@ import { pathOr, curry, merge } from 'ramda';
  
  /**
   * Flattens a property path so that its fields are spread out into the provided object.
@@ -88,9 +88,9 @@
   *
   * @func flattenPath
   * @memberOf RA",claim,"The code change in the GIT DIFF adds a new line of comment to the function ""flattenPath""",,,test566_old.js,test566_new.js
-25,,,,claim,"The comment explains that the function is similar to ""spreadPath"", but it preserves the object under the property path",,,,
-26,,,,claim,"This suggests that the function is a variation of the ""spreadPath"" function that maintains the structure of the object under the property path.",,,,
-27,13380,2455,"@@ -13,7 +13,8 @@ var reportsInstance = {},
+,,,claim,"The comment explains that the function is similar to ""spreadPath"", but it preserves the object under the property path",,,,
+,,,claim,"This suggests that the function is a variation of the ""spreadPath"" function that maintains the structure of the object under the property path.",,,,
+13380,2455,"@@ -13,7 +13,8 @@ var reportsInstance = {},
      localize = require('../../../api/utils/localization.js'),
      common = require('../../../api/utils/common.js'),
      log = require('../../../api/utils/log')('reports:reports'),
@@ -100,8 +100,8 @@
  
  versionInfo.page = (!versionInfo.title) ? ""https://count.ly"" : null;
  versionInfo.title = versionInfo.title || ""Countly"";",claim,"The code change in the GIT DIFF adds a new line to require the 'offline_mode' configuration from the ""api"" plugin",,,test2455_old.js,test2455_new.js
-28,,,,claim,"This suggests that the code now has an additional dependency on the offline mode configuration, which was not previously required.",,,,
-29,13587,9144,"@@ -1656,7 +1656,7 @@ class TargetLocator {
+,,,claim,"This suggests that the code now has an additional dependency on the offline mode configuration, which was not previously required.",,,,
+13587,9144,"@@ -1656,7 +1656,7 @@ class TargetLocator {
    window(nameOrHandle) {
      return this.driver_.schedule(
          new command.Command(command.Name.SWITCH_TO_WINDOW).
@@ -110,9 +110,9 @@
          'WebDriver.switchTo().window(' + nameOrHandle + ')');
    }
  ",claim,"The code change in the GIT DIFF modifies a line of code in the ""window"" function of the ""TargetLocator"" class",,,test9144_old.js,test9144_new.js
-30,,,,claim,"The parameter of the ""setParameter"" function has been changed from ""name"" to ""handle""",,,,
-31,,,,claim,This suggests a change in the way the window is being referenced or handled in the code.,,,,
-32,5472,349,"@@ -45,6 +45,7 @@ program
+,,,claim,"The parameter of the ""setParameter"" function has been changed from ""name"" to ""handle""",,,,
+,,,claim,This suggests a change in the way the window is being referenced or handled in the code.,,,,
+5472,349,"@@ -45,6 +45,7 @@ program
    .option('-C <build_dir>', 'build config (out/Debug, out/Release')
    .option('--target_arch <target_arch>', 'target architecture', 'x64')
    .option('--mac_signing_identifier <id>', 'The identifier to use for signing')
@@ -120,9 +120,9 @@
    .option('--mac_signing_keychain <keychain>', 'The identifier to use for signing', 'login')
    .option('--debug_build <debug_build>', 'keep debugging symbols')
    .option('--official_build <official_build>', 'force official build settings')",claim,The code change adds a new option to the command line interface,,,test349_old.js,test349_new.js
-33,,,,claim,The new option is '--mac_installer_signing_identifier <id>',,,,
-34,,,,claim,This option is used to specify the identifier to use for signing the installer.,,,,
-35,11992,8988,"@@ -3,9 +3,9 @@ import { h } from './h';
+,,,claim,The new option is '--mac_installer_signing_identifier <id>',,,,
+,,,claim,This option is used to specify the identifier to use for signing the installer.,,,,
+11992,8988,"@@ -3,9 +3,9 @@ import { h } from './h';
  
  /**
   * Clones the given VNode, optionally adding attributes/props and replacing its children.
@@ -135,12 +135,12 @@
   */
  export function cloneElement(vnode, props) {
  	return h(",claim,"The code changes in the GIT DIFF are related to the documentation comments for the function ""cloneElement""",,,test8988_old.js,test8988_new.js
-36,,,,claim,"The type of the ""vnode"" parameter is now explicitly imported from './vnode'",,,,
-37,,,,claim,"The ""props"" parameter is now an object instead of a VNode",,,,
-38,,,,claim,"The ""rest"" parameter is now an array of VNodes, with the square brackets indicating that it is optional",,,,
-39,,,,claim,This change makes the code more robust and explicit about its type requirements.,,,,
-40,,,,issue,"line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').",,,,
-41,12790,3422,"@@ -87,8 +87,11 @@ export function useReducer(reducer, initialState, init) {
+,,,claim,"The type of the ""vnode"" parameter is now explicitly imported from './vnode'",,,,
+,,,claim,"The ""props"" parameter is now an object instead of a VNode",,,,
+,,,claim,"The ""rest"" parameter is now an array of VNodes, with the square brackets indicating that it is optional",,,,
+,,,claim,This change makes the code more robust and explicit about its type requirements.,,,,
+,,,issue,"line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').",,,,
+12790,3422,"@@ -87,8 +87,11 @@ export function useReducer(reducer, initialState, init) {
  			init == null ? invokeOrReturn(null, initialState) : init(initialState),
  
  			action => {
@@ -154,13 +154,13 @@
  			}
  		];
  	}",claim,The code change in the GIT DIFF modifies the way the state is updated in the hook,,,test3422_old.js,test3422_new.js
-42,,,,claim,"Previously, the state was directly updated by calling the reducer function and then setting the component state",,,,
-43,,,,claim,"The new code calculates the next state value by calling the reducer function with the current state and the action, and then checks if the next state value is different from the current state value",,,,
-44,,,,claim,"If it is, the state is updated and the component state is set",,,,
-45,,,,claim,"This change adds a check to see if the state has changed before updating it, which can help prevent unnecessary re-renders.",,,,
-46,,,,issue,"line 89, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-47,,,,issue,"line 90, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-48,16303,4298,"@@ -27,7 +27,12 @@ function collectResultsFromFrames(
+,,,claim,"Previously, the state was directly updated by calling the reducer function and then setting the component state",,,,
+,,,claim,"The new code calculates the next state value by calling the reducer function with the current state and the action, and then checks if the next state value is different from the current state value",,,,
+,,,claim,"If it is, the state is updated and the component state is set",,,,
+,,,claim,"This change adds a check to see if the state has changed before updating it, which can help prevent unnecessary re-renders.",,,,
+,,,issue,"line 89, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 90, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+16303,4298,"@@ -27,7 +27,12 @@ function collectResultsFromFrames(
    frames.forEach(frame => {
      const tabindex = parseInt(frame.node.getAttribute('tabindex'), 10);
      const focusable = isNaN(tabindex) || tabindex >= 0;
@@ -173,16 +173,16 @@
  
      var params = {
        options: options,",claim,The code changes added four new lines,,,test4298_old.js,test4298_new.js
-49,,,,claim,These lines are extracting the width and height attributes from the frame node and parsing them into integers,,,,
-50,,,,claim,"If the width or height is not a number (NaN), they are set to the width or height of the bounding client rectangle, respectively",,,,
-51,,,,claim,This ensures that the width and height are always valid numbers.,,,,
-52,,,,issue,"line 27, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-53,,,,issue,"line 28, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-54,,,,issue,"line 29, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-55,,,,issue,"line 31, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-56,,,,issue,"line 32, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-57,,,,issue,"line 33, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-58,12633,2886,"@@ -31,6 +31,10 @@ msg.Number = {};
+,,,claim,These lines are extracting the width and height attributes from the frame node and parsing them into integers,,,,
+,,,claim,"If the width or height is not a number (NaN), they are set to the width or height of the bounding client rectangle, respectively",,,,
+,,,claim,This ensures that the width and height are always valid numbers.,,,,
+,,,issue,"line 27, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 28, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 29, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 31, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 32, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 33, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+12633,2886,"@@ -31,6 +31,10 @@ msg.Number = {};
  msg.Number.min = ""Path `{PATH}` ({VALUE}) is less than minimum allowed value ({MIN})."";
  msg.Number.max = ""Path `{PATH}` ({VALUE}) is more than maximum allowed value ({MAX})."";
  
@@ -193,9 +193,9 @@
  msg.String = {};
  msg.String.enum = ""`{VALUE}` is not a valid enum value for path `{PATH}`."";
  msg.String.match = ""Path `{PATH}` is invalid ({VALUE})."";",claim,"The code changes added a new block of code that defines a new message object ""Date""",,,test2886_old.js,test2886_new.js
-59,,,,claim,"This object has two properties, ""min"" and ""max"", which are used to handle minimum and maximum date validation errors respectively",,,,
-60,,,,claim,The error messages for these validations are also defined in the added lines.,,,,
-61,15124,721,"@@ -1,4 +1,6 @@
+,,,claim,"This object has two properties, ""min"" and ""max"", which are used to handle minimum and maximum date validation errors respectively",,,,
+,,,claim,The error messages for these validations are also defined in the added lines.,,,,
+15124,721,"@@ -1,4 +1,6 @@
 -var nn = node.nodeName.toLowerCase();
 -return (
 -	node.hasAttribute('alt') && (nn === 'img' || nn === 'input' || nn === 'area')
@@ -206,13 +206,13 @@
 +}
 +
 +return typeof virtualNode.attr('alt') === 'string';",claim,The code change represented by the GIT DIFF replaces a block of code with a new block of code,,,test721_old.js,test721_new.js
-62,,,,claim,"The new code extracts the 'nodeName' from the 'virtualNode.props' and checks if it is not included in the array ['img', 'input', 'area']",,,,
-63,,,,claim,"If it is not included, the function returns false",,,,
-64,,,,claim,"If the 'nodeName' is included, the function then checks if the 'alt' attribute of the 'virtualNode' is a string and returns the result",,,,
-65,,,,claim,This change makes the code more concise and easier to read.,,,,
-66,,,,issue,"line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-67,,,,issue,"line 1, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-68,8188,2290,"@@ -113,7 +113,9 @@ class CapacitorSplashScreen {
+,,,claim,"The new code extracts the 'nodeName' from the 'virtualNode.props' and checks if it is not included in the array ['img', 'input', 'area']",,,,
+,,,claim,"If it is not included, the function returns false",,,,
+,,,claim,"If the 'nodeName' is included, the function then checks if the 'alt' attribute of the 'virtualNode' is a string and returns the result",,,,
+,,,claim,This change makes the code more concise and easier to read.,,,,
+,,,issue,"line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 1, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+8188,2290,"@@ -113,7 +113,9 @@ class CapacitorSplashScreen {
      `;
  
      this.mainWindowRef.on('closed', () => {
@@ -223,12 +223,12 @@
      });
  
      this.splashWindow.loadURL(`data:text/html;charset=UTF-8,${splashHtml}`, {baseURLForDataURL: `file://${rootPath}/splash_assets/`});",claim,The code change in the GIT DIFF adds a conditional check before closing the splash window,,,test2290_old.js,test2290_new.js
-69,,,,claim,The check ensures that the splash window exists and has not been destroyed before attempting to close it,,,,
-70,,,,claim,This is to prevent potential null reference errors.,,,,
-71,,,,issue,"line 115, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-72,,,,issue,"line 121, col 31, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
-73,,,,issue,"line 121, col 97, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
-74,10735,6199,"@@ -5,8 +5,7 @@ import { enqueueRender } from '../render-queue';
+,,,claim,The check ensures that the splash window exists and has not been destroyed before attempting to close it,,,,
+,,,claim,This is to prevent potential null reference errors.,,,,
+,,,issue,"line 115, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 121, col 31, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 121, col 97, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
+10735,6199,"@@ -5,8 +5,7 @@ import { enqueueRender } from '../render-queue';
  import { getNodeProps } from './index';
  import { diff, mounts, diffLevel, flushMounts, recollectNodeTree, removeChildren } from './diff';
  import { createComponent, collectComponent } from './component-recycler';
@@ -238,12 +238,12 @@
  
  /** Set a component's `props` (generally derived from JSX attributes).
   *	@param {Object} props",claim,The code change represented by the GIT DIFF adds a new line of code to import the 'remove' module from './remove',,,test6199_old.js,test6199_new.js
-75,,,,claim,This suggests that the 'remove' module will be used later in the code.,,,,
-76,,,,issue,"line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-77,,,,issue,"line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-78,,,,issue,"line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-79,,,,issue,"line 8, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-80,11085,9725,"@@ -26,6 +26,18 @@ describe ""Selenium::WebDriver::TargetLocator"" do
+,,,claim,This suggests that the 'remove' module will be used later in the code.,,,,
+,,,issue,"line 5, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 8, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+11085,9725,"@@ -26,6 +26,18 @@ describe ""Selenium::WebDriver::TargetLocator"" do
      end
    end
  
@@ -262,11 +262,11 @@
    # switching by name not yet supported by safari
    not_compliant_on :browser => [:ie, :iphone, :safari] do
      it ""should switch to a window and back when given a block"" do",claim,The GIT DIFF shows that a new test case has been added to the code,,,test9725_old.js,test9725_new.js
-81,,,,claim,"This test case is titled ""should switch to parent frame""",,,,
-82,,,,claim,"The test case navigates to the ""iframes.html"" page, finds an iframe element, switches to the iframe, and then checks if an element with the name 'login' exists",,,,
-83,,,,claim,It then switches back to the parent frame and checks if an element with the id 'iframe_page_heading' exists,,,,
-84,,,,claim,This test case ensures that the driver can switch between frames and find elements in both the parent and child frames.,,,,
-85,18051,8007,"@@ -36,6 +36,11 @@ function writeCommand(server, type, opsField, ns, ops, options, callback) {
+,,,claim,"This test case is titled ""should switch to parent frame""",,,,
+,,,claim,"The test case navigates to the ""iframes.html"" page, finds an iframe element, switches to the iframe, and then checks if an element with the name 'login' exists",,,,
+,,,claim,It then switches back to the parent frame and checks if an element with the id 'iframe_page_heading' exists,,,,
+,,,claim,This test case ensures that the driver can switch between frames and find elements in both the parent and child frames.,,,,
+18051,8007,"@@ -36,6 +36,11 @@ function writeCommand(server, type, opsField, ns, ops, options, callback) {
      writeCommand.bypassDocumentValidation = options.bypassDocumentValidation;
    }
  
@@ -278,10 +278,10 @@
    const commandOptions = Object.assign(
      {
        checkKeys: type === 'insert',",claim,The code change adds a new conditional block that checks if the write concern (writeConcern) for the current operation is set to 0,,,test8007_old.js,test8007_new.js
-86,,,,claim,"If it is, the session option is removed from the options object",,,,
-87,,,,claim,This suggests that the session is not needed for unacknowledged writes.,,,,
-88,,,,issue,"line 44, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-89,15319,3406,"@@ -25,7 +25,11 @@ const isPromiseLike = require('../utils').isPromiseLike;
+,,,claim,"If it is, the session option is removed from the options object",,,,
+,,,claim,This suggests that the session is not needed for unacknowledged writes.,,,,
+,,,issue,"line 44, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+15319,3406,"@@ -25,7 +25,11 @@ const isPromiseLike = require('../utils').isPromiseLike;
  function addToOperationsList(bulkOperation, docType, document) {
    // Get the bsonSize
    const bsonSize = bson.calculateObjectSize(document, {
@@ -294,9 +294,9 @@
    });
  
    // Throw error if the doc is bigger than the max BSON size",claim,"The code change in the GIT DIFF adds a comment explaining that the user may not have selected specific BSON options, so it is safer to err on the side of checking the size of the document with ""ignoreUndefined: false""",,,test3406_old.js,test3406_new.js
-90,,,,claim,"The line of code that sets the ""checkKeys"" option to false remains unchanged.",,,,
-91,,,,issue,"line 27, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-92,12883,2307,"@@ -87,11 +87,11 @@ export function diff(dom, parentDom, newVNode, oldVNode, context, isSvg, excessD
+,,,claim,"The line of code that sets the ""checkKeys"" option to false remains unchanged.",,,,
+,,,issue,"line 27, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+12883,2307,"@@ -87,11 +87,11 @@ export function diff(dom, parentDom, newVNode, oldVNode, context, isSvg, excessD
  			c._vnode = newVNode;
  
  			// Invoke getDerivedStateFromProps
@@ -312,15 +312,15 @@
  			}
  
  			// Invoke pre-render lifecycle methods",claim,The code changes in the GIT DIFF remove a block of code that was setting up the state for the derived state from props,,,test2307_old.js,test2307_new.js
-93,,,,claim,The removed code was setting up a variable 's' to either the '_nextState' or 'state' of the component 'c',,,,
-94,,,,claim,It then checked if 's' was equal to the 'state' of the component 'c',,,,
-95,,,,claim,"If it was, it would assign a new object to '_nextState'",,,,
-96,,,,claim,The removed code then assigned the result of 'getDerivedStateFromProps' to 's',,,,
-97,,,,claim,,,,,
-98,,,,claim,The new code instead checks if '_nextState' is null,,,,
-99,,,,claim,"If it is, it assigns the 'state' of the component 'c' to '_nextState'",,,,
-100,,,,claim,The new,,,,
-101,8812,7290,"@@ -1076,9 +1076,14 @@ Blockly.WorkspaceSvg.prototype.deleteVariableById = function(id) {
+,,,claim,The removed code was setting up a variable 's' to either the '_nextState' or 'state' of the component 'c',,,,
+,,,claim,It then checked if 's' was equal to the 'state' of the component 'c',,,,
+,,,claim,"If it was, it would assign a new object to '_nextState'",,,,
+,,,claim,The removed code then assigned the result of 'getDerivedStateFromProps' to 's',,,,
+,,,claim,,,,,
+,,,claim,The new code instead checks if '_nextState' is null,,,,
+,,,claim,"If it is, it assigns the 'state' of the component 'c' to '_nextState'",,,,
+,,,claim,The new,,,,
+8812,7290,"@@ -1076,9 +1076,14 @@ Blockly.WorkspaceSvg.prototype.deleteVariableById = function(id) {
   * @package
   */
  Blockly.WorkspaceSvg.prototype.createVariable = function(name, opt_type, opt_id) {
@@ -336,12 +336,12 @@
    return newVar;
  };
  ",claim,The code change in the GIT DIFF adds a new block of code that checks if a variable already exists in the map,,,test7290_old.js,test7290_new.js
-102,,,,claim,"If it does not, it refreshes the toolbox selection",,,,
-103,,,,claim,"This is done for performance reasons, as refreshing the toolbox for existing variables would be unnecessary",,,,
-104,,,,claim,The comment above the added code explains this new logic.,,,,
-105,,,,issue,"line 1078, col 1, 'Blockly' is not defined.",,,,
-106,,,,issue,"line 1080, col 16, 'Blockly' is not defined.",,,,
-107,11960,5474,"@@ -70,3 +70,18 @@ dom.isNativelyFocusable = function(el) {
+,,,claim,"If it does not, it refreshes the toolbox selection",,,,
+,,,claim,"This is done for performance reasons, as refreshing the toolbox for existing variables would be unnecessary",,,,
+,,,claim,The comment above the added code explains this new logic.,,,,
+,,,issue,"line 1078, col 1, 'Blockly' is not defined.",,,,
+,,,issue,"line 1080, col 16, 'Blockly' is not defined.",,,,
+11960,5474,"@@ -70,3 +70,18 @@ dom.isNativelyFocusable = function(el) {
  	}
  	return false;
  };
@@ -360,11 +360,11 @@
 +	return (el.tabIndex > -1 && dom.isFocusable(el) &&
 +			!dom.isNativelyFocusable(el));
 +};",claim,"The GIT DIFF shows that a new function named ""insertedIntoFocusOrder"" has been added to the ""axe.commons.dom"" object",,,test5474_old.js,test5474_new.js
-108,,,,claim,This function takes an HTMLElement as a parameter and returns a boolean value,,,,
-109,,,,claim,"The function checks if the element's tabIndex is greater than -1, if the element is focusable, and if the element is not natively focusable",,,,
-110,,,,claim,"If all these conditions are met, the function returns true, indicating that the element is in the focus order but would not be if its tabindex were unspecified",,,,
-111,,,,claim,"If any of these conditions is not met, the function returns false.",,,,
-112,14145,4235,"@@ -273,6 +273,7 @@ var testFiles = [
+,,,claim,This function takes an HTMLElement as a parameter and returns a boolean value,,,,
+,,,claim,"The function checks if the element's tabIndex is greater than -1, if the element is focusable, and if the element is not natively focusable",,,,
+,,,claim,"If all these conditions are met, the function returns true, indicating that the element is in the focus order but would not be if its tabindex were unspecified",,,,
+,,,claim,"If any of these conditions is not met, the function returns false.",,,,
+14145,4235,"@@ -273,6 +273,7 @@ var testFiles = [
    , '/test/functional/byo_promises_tests.js'
  
    // Functionality tests
@@ -372,14 +372,14 @@
    , '/test/functional/mongo_client_tests.js'
    , '/test/functional/collection_tests.js'
    , '/test/functional/db_tests.js'",claim,The code change adds a new line to the list of test files,,,test4235_old.js,test4235_new.js
-113,,,,claim,The new line adds the path '/test/functional/dns_txt_records_tests.js' to the list,,,,
-114,,,,claim,This indicates that a new test file for DNS TXT records has been added.,,,,
-115,,,,issue,"line 273, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",,,,
-116,,,,issue,"line 276, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",,,,
-117,,,,issue,"line 277, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",,,,
-118,,,,issue,"line 278, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",,,,
-119,,,,issue,"line 279, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",,,,
-120,12215,9770,"@@ -14,7 +14,13 @@ class Tag extends BaseItem {
+,,,claim,The new line adds the path '/test/functional/dns_txt_records_tests.js' to the list,,,,
+,,,claim,This indicates that a new test file for DNS TXT records has been added.,,,,
+,,,issue,"line 273, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",,,,
+,,,issue,"line 276, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",,,,
+,,,issue,"line 277, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",,,,
+,,,issue,"line 278, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",,,,
+,,,issue,"line 279, col 5, Misleading line break before ','; readers may interpret this as an expression boundary.",,,,
+12215,9770,"@@ -14,7 +14,13 @@ class Tag extends BaseItem {
  	}
  
  	static async noteIds(tagId) {
@@ -394,16 +394,16 @@
  		const output = [];
  		for (let i = 0; i < rows.length; i++) {
  			output.push(rows[i].note_id);",claim,The code change in the GIT DIFF replaces an existing line of code,,,test9770_old.js,test9770_new.js
-121,,,,claim,The replaced line of code now uses a recursive query to select all note_ids that are tagged with the current tag or its descendants,,,,
-122,,,,claim,"The new query is more complex and uses a WITH RECURSIVE clause to define a recursive common table expression (CTE) named ""parent_of""",,,,
-123,,,,claim,"The CTE is then used to select note_ids where the tag_id is in the child_id of the ""parent_of"" CTE",,,,
-124,,,,claim,This change suggests that the code is now capable of handling a more complex and dynamic tagging system.,,,,
-125,,,,issue,"line 16, col 12, 'async functions' is only available in ES8 (use 'esversion: 8').",,,,
-126,,,,issue,"line 18, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-127,,,,issue,"line 18, col 48, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
-128,,,,issue,"line 24, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-129,,,,issue,"line 25, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-130,15736,7059,"@@ -490,6 +490,18 @@ class Builder {
+,,,claim,The replaced line of code now uses a recursive query to select all note_ids that are tagged with the current tag or its descendants,,,,
+,,,claim,"The new query is more complex and uses a WITH RECURSIVE clause to define a recursive common table expression (CTE) named ""parent_of""",,,,
+,,,claim,"The CTE is then used to select note_ids where the tag_id is in the child_id of the ""parent_of"" CTE",,,,
+,,,claim,This change suggests that the code is now capable of handling a more complex and dynamic tagging system.,,,,
+,,,issue,"line 16, col 12, 'async functions' is only available in ES8 (use 'esversion: 8').",,,,
+,,,issue,"line 18, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 18, col 48, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 24, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 25, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+15736,7059,"@@ -490,6 +490,18 @@ class Builder {
      return this;
    }
  
@@ -422,10 +422,10 @@
    /**
     * Set {@linkplain edge.Options options} specific to Microsoft's Edge browser
     * for drivers created by this builder. Any proxy settings defined on the",claim,"The GIT DIFF shows that a new method named ""setIeService"" has been added to the ""Builder"" class",,,test7059_old.js,test7059_new.js
-131,,,,claim,"This method takes a parameter ""service"" of type ""ie.ServiceBuilder"" and sets the ""ieService_"" property of the class to the provided service",,,,
-132,,,,claim,"The method also returns a self reference to the class, allowing for method chaining",,,,
-133,,,,claim,This new method is documented with a comment block that explains its purpose and usage.,,,,
-134,17220,4907,"@@ -206,7 +206,6 @@ describe('Configure Options', function() {
+,,,claim,"This method takes a parameter ""service"" of type ""ie.ServiceBuilder"" and sets the ""ieService_"" property of the class to the provided service",,,,
+,,,claim,"The method also returns a self reference to the class, allowing for method chaining",,,,
+,,,claim,This new method is documented with a comment block that explains its purpose and usage.,,,,
+17220,4907,"@@ -206,7 +206,6 @@ describe('Configure Options', function() {
        iframe.src = '/test/mock/frames/context.html';
        iframe.onload = function() {
          axe.configure(config);
@@ -433,8 +433,8 @@
  
          axe.run(
            '#target',",claim,The code change represented by the GIT DIFF removes a line of code that was previously configuring the axe accessibility testing library within the content window of an iframe,,,test4907_old.js,test4907_new.js
-135,,,,claim,"This suggests that the accessibility testing library is now being configured directly on the axe object, rather than within the iframe's content window.",,,,
-136,15369,1525,"@@ -1,7 +1,7 @@
+,,,claim,"This suggests that the accessibility testing library is now being configured directly on the axe object, rather than within the iframe's content window.",,,,
+15369,1525,"@@ -1,7 +1,7 @@
  'use strict';
  
  const Aspect = {
@@ -443,10 +443,10 @@
  };
  
  /**",claim,The code change in the GIT DIFF modifies the value of the SKIP_SESSION constant from a Symbol to a string,,,test1525_old.js,test1525_new.js
-137,,,,claim,"This change does not affect the functionality of the code, but it may be done for style consistency or to adhere to a specific coding standard.",,,,
-138,,,,issue,"line 1, col 1, Use the function form of ""use strict"".",,,,
-139,,,,issue,"line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-140,6073,2863,"@@ -7,6 +7,12 @@ const createDist = (buildConfig = config.defaultBuildConfig, options) => {
+,,,claim,"This change does not affect the functionality of the code, but it may be done for style consistency or to adhere to a specific coding standard.",,,,
+,,,issue,"line 1, col 1, Use the function form of ""use strict"".",,,,
+,,,issue,"line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+6073,2863,"@@ -7,6 +7,12 @@ const createDist = (buildConfig = config.defaultBuildConfig, options) => {
    config.buildConfig = buildConfig
    config.update(options)
  
@@ -459,17 +459,17 @@
    util.updateBranding()
    fs.removeSync(path.join(config.outputDir, 'dist'))
    config.buildTarget = 'create_dist'",claim,"The code change adds a new conditional block that checks if the configuration option ""notarize"" is set",,,test2863_old.js,test2863_new.js
-141,,,,claim,"If it is, it assigns the values of ""notarize"", ""notary_user"", and ""notary_password"" from the configuration to the variables ""notarize"", ""notary_user"", and ""notary_password"" respectively",,,,
-142,,,,claim,"This suggests that the code now supports notarization, which is the process of signing and timestamping a software package for macOS.",,,,
-143,,,,issue,"line 7, col 35, Missing semicolon.",,,,
-144,,,,issue,"line 8, col 25, Missing semicolon.",,,,
-145,,,,issue,"line 11, col 31, Missing semicolon.",,,,
-146,,,,issue,"line 12, col 37, Missing semicolon.",,,,
-147,,,,issue,"line 13, col 45, Missing semicolon.",,,,
-148,,,,issue,"line 16, col 24, Missing semicolon.",,,,
-149,,,,issue,"line 17, col 53, Missing semicolon.",,,,
-150,,,,issue,"line 18, col 37, Missing semicolon.",,,,
-151,10883,1472,"@@ -278,9 +278,7 @@ describe('src/Core', () => {
+,,,claim,"If it is, it assigns the values of ""notarize"", ""notary_user"", and ""notary_password"" from the configuration to the variables ""notarize"", ""notary_user"", and ""notary_password"" respectively",,,,
+,,,claim,"This suggests that the code now supports notarization, which is the process of signing and timestamping a software package for macOS.",,,,
+,,,issue,"line 7, col 35, Missing semicolon.",,,,
+,,,issue,"line 8, col 25, Missing semicolon.",,,,
+,,,issue,"line 11, col 31, Missing semicolon.",,,,
+,,,issue,"line 12, col 37, Missing semicolon.",,,,
+,,,issue,"line 13, col 45, Missing semicolon.",,,,
+,,,issue,"line 16, col 24, Missing semicolon.",,,,
+,,,issue,"line 17, col 53, Missing semicolon.",,,,
+,,,issue,"line 18, col 37, Missing semicolon.",,,,
+10883,1472,"@@ -278,9 +278,7 @@ describe('src/Core', () => {
        plugins: {},
        totalProgress: 0
      })
@@ -480,14 +480,14 @@
    })
  
    describe('upload hooks', () => {",claim,The code change in the GIT DIFF replaces an existing line of code,,,test1472_old.js,test1472_new.js
-152,,,,claim,The replaced line of code now checks if the length of the first plugin in the core plugins object is equal to 0,,,,
-153,,,,claim,The original line of code checked if the length of the uninstall mock calls on the first acquirer plugin was equal to 1,,,,
-154,,,,claim,This suggests a change in the expected state of the plugins object after the uninstall operation.,,,,
-155,,,,issue,"line 280, col 7, Missing semicolon.",,,,
-156,,,,issue,"line 281, col 73, Missing semicolon.",,,,
-157,,,,issue,"line 282, col 5, Missing semicolon.",,,,
-158,,,,issue,"line 284, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-159,14685,2663,"@@ -91,6 +91,7 @@ class MergeCells extends BasePlugin {
+,,,claim,The replaced line of code now checks if the length of the first plugin in the core plugins object is equal to 0,,,,
+,,,claim,The original line of code checked if the length of the uninstall mock calls on the first acquirer plugin was equal to 1,,,,
+,,,claim,This suggests a change in the expected state of the plugins object after the uninstall operation.,,,,
+,,,issue,"line 280, col 7, Missing semicolon.",,,,
+,,,issue,"line 281, col 73, Missing semicolon.",,,,
+,,,issue,"line 282, col 5, Missing semicolon.",,,,
+,,,issue,"line 284, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+14685,2663,"@@ -91,6 +91,7 @@ class MergeCells extends BasePlugin {
      this.autofillCalculations = new AutofillCalculations(this);
      this.selectionCalculations = new SelectionCalculations();
  
@@ -495,21 +495,21 @@
      this.addHook('afterInit', (...args) => this.onAfterInit(...args));
      this.addHook('beforeKeyDown', (...args) => this.onBeforeKeyDown(...args));
      this.addHook('modifyTransformStart', (...args) => this.onModifyTransformStart(...args));",claim,The code change adds a new line that adds a local hook to the 'afterTransformStart' event of the selection transformation of the 'hot' object,,,test2663_old.js,test2663_new.js
-160,,,,claim,The hook is triggered when the transformation starts and calls the 'onAfterLocalTransformStart' method with the provided arguments,,,,
-161,,,,claim,This suggests that the code is now capable of performing some action or operation after the local transformation starts.,,,,
-162,,,,issue,"line 94, col 76, 'rest operator' is only available in ES6 (use 'esversion: 6').",,,,
-163,,,,issue,"line 94, col 83, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-164,,,,issue,"line 94, col 120, 'spread operator' is only available in ES6 (use 'esversion: 6').",,,,
-165,,,,issue,"line 95, col 32, 'rest operator' is only available in ES6 (use 'esversion: 6').",,,,
-166,,,,issue,"line 95, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-167,,,,issue,"line 95, col 61, 'spread operator' is only available in ES6 (use 'esversion: 6').",,,,
-168,,,,issue,"line 96, col 36, 'rest operator' is only available in ES6 (use 'esversion: 6').",,,,
-169,,,,issue,"line 96, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-170,,,,issue,"line 96, col 69, 'spread operator' is only available in ES6 (use 'esversion: 6').",,,,
-171,,,,issue,"line 97, col 43, 'rest operator' is only available in ES6 (use 'esversion: 6').",,,,
-172,,,,issue,"line 97, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-173,,,,issue,"line 97, col 83, 'spread operator' is only available in ES6 (use 'esversion: 6').",,,,
-174,35758,8350,"@@ -33,6 +33,8 @@ let baseModuleStore = Modules.createModuleStore( 'tagmanager', {
+,,,claim,The hook is triggered when the transformation starts and calls the 'onAfterLocalTransformStart' method with the provided arguments,,,,
+,,,claim,This suggests that the code is now capable of performing some action or operation after the local transformation starts.,,,,
+,,,issue,"line 94, col 76, 'rest operator' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 94, col 83, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 94, col 120, 'spread operator' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 95, col 32, 'rest operator' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 95, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 95, col 61, 'spread operator' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 96, col 36, 'rest operator' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 96, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 96, col 69, 'spread operator' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 97, col 43, 'rest operator' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 97, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 97, col 83, 'spread operator' is only available in ES6 (use 'esversion: 6').",,,,
+35758,8350,"@@ -33,6 +33,8 @@ let baseModuleStore = Modules.createModuleStore( 'tagmanager', {
  		'internalAMPContainerID',
  		'useSnippet',
  		'ownerID',
@@ -518,26 +518,26 @@
  	],
  	submitChanges,
  	validateCanSubmitChanges,",claim,The code change adds two new lines to the array of module names,,,test8350_old.js,test8350_new.js
-175,,,,claim,These new lines are 'gaAMPPropertyID' and 'gaPropertyID',,,,
-176,,,,claim,This suggests that the code now includes support for two new modules: 'gaAMPPropertyID' and 'gaPropertyID'.,,,,
-177,,,,issue,"line 39, col 5, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-178,,,,issue,"line 40, col 5, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-179,14051,6146,"@@ -204,5 +204,4 @@ function server (inputCompanionOptions = {}) {
+,,,claim,These new lines are 'gaAMPPropertyID' and 'gaPropertyID',,,,
+,,,claim,This suggests that the code now includes support for two new modules: 'gaAMPPropertyID' and 'gaPropertyID'.,,,,
+,,,issue,"line 39, col 5, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 40, col 5, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+14051,6146,"@@ -204,5 +204,4 @@ function server (inputCompanionOptions = {}) {
    return { app, companionOptions }
  }
  
 -const { app, companionOptions } = server()
 -module.exports = { app, companionOptions, server }
 +module.exports = { server }",claim,The code change represented by the GIT DIFF removes two lines of code and adds one line,,,test6146_old.js,test6146_new.js
-180,,,,claim,"The removed lines were importing the ""app"" and ""companionOptions"" from the ""server"" function and then exporting them",,,,
-181,,,,claim,"The added line is simply exporting the ""server"" function itself",,,,
-182,,,,claim,"This suggests that the ""app"" and ""companionOptions"" are no longer needed to be exported from the ""server"" function.",,,,
-183,,,,issue,"line 204, col 12, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-184,,,,issue,"line 204, col 17, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-185,,,,issue,"line 204, col 35, Missing semicolon.",,,,
-186,,,,issue,"line 207, col 20, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-187,,,,issue,"line 207, col 28, Missing semicolon.",,,,
-188,24612,5890,"@@ -0,0 +1,19 @@
+,,,claim,"The removed lines were importing the ""app"" and ""companionOptions"" from the ""server"" function and then exporting them",,,,
+,,,claim,"The added line is simply exporting the ""server"" function itself",,,,
+,,,claim,"This suggests that the ""app"" and ""companionOptions"" are no longer needed to be exported from the ""server"" function.",,,,
+,,,issue,"line 204, col 12, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 204, col 17, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 204, col 35, Missing semicolon.",,,,
+,,,issue,"line 207, col 20, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 207, col 28, Missing semicolon.",,,,
+24612,5890,"@@ -0,0 +1,19 @@
 +
 +import { wpApiFetch } from './wp-api-fetch';
 +
@@ -557,14 +557,14 @@
 +		},
 +	} );
 +}",claim,The GIT DIFF shows that a new file has been added,,,test5890_old.js,test5890_new.js
-189,,,,claim,"This file imports two functions, 'wpApiFetch' and 'testClientConfig', and defines an asynchronous function 'setClientConfig'",,,,
-190,,,,claim,"The function takes an optional parameter 'config', which defaults to 'testClientConfig'",,,,
-191,,,,claim,The function uses 'wpApiFetch' to make a POST request to the 'google-site-kit/v1/e2e/auth/client-config' endpoint with the client ID and client secret from the 'config' object.,,,,
-192,,,,issue,"line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-193,,,,issue,"line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-194,,,,issue,"line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').",,,,
-195,,,,issue,"line 10, col 47, 'default parameters' is only available in ES6 (use 'esversion: 6').",,,,
-196,12872,2830,"@@ -87,11 +87,11 @@ export function diff(dom, parentDom, newVNode, oldVNode, context, isSvg, excessD
+,,,claim,"This file imports two functions, 'wpApiFetch' and 'testClientConfig', and defines an asynchronous function 'setClientConfig'",,,,
+,,,claim,"The function takes an optional parameter 'config', which defaults to 'testClientConfig'",,,,
+,,,claim,The function uses 'wpApiFetch' to make a POST request to the 'google-site-kit/v1/e2e/auth/client-config' endpoint with the client ID and client secret from the 'config' object.,,,,
+,,,issue,"line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 10, col 47, 'default parameters' is only available in ES6 (use 'esversion: 6').",,,,
+12872,2830,"@@ -87,11 +87,11 @@ export function diff(dom, parentDom, newVNode, oldVNode, context, isSvg, excessD
  			c._vnode = newVNode;
  
  			// Invoke getDerivedStateFromProps
@@ -580,11 +580,11 @@
  			}
  
  			// Invoke pre-render lifecycle methods",claim,The code changes in the GIT DIFF replace a block of code that was handling the getDerivedStateFromProps method,,,test2830_old.js,test2830_new.js
-197,,,,claim,"The original code was assigning the state to a variable, checking if the state was the same as the next state, and if so, assigning the next state to a new object",,,,
-198,,,,claim,"The new code instead checks if the next state is null and if so, assigns the current state to the next state",,,,
-199,,,,claim,It then calls the setState method with the result of the getDerivedStateFromProps method applied to the new node's props and the current next state,,,,
-200,,,,claim,This change simplifies the code and makes it more readable.,,,,
-201,11952,8357,"@@ -68,13 +68,14 @@ export function renderComponent(component, opts, mountAll, isChild) {
+,,,claim,"The original code was assigning the state to a variable, checking if the state was the same as the next state, and if so, assigning the next state to a new object",,,,
+,,,claim,"The new code instead checks if the next state is null and if so, assigns the current state to the next state",,,,
+,,,claim,It then calls the setState method with the result of the getDerivedStateFromProps method applied to the new node's props and the current next state,,,,
+,,,claim,This change simplifies the code and makes it more readable.,,,,
+11952,8357,"@@ -68,13 +68,14 @@ export function renderComponent(component, opts, mountAll, isChild) {
  		state = component.state,
  		context = component.context,
  		previousProps = component.prevProps || props,
@@ -600,11 +600,11 @@
  		rendered, inst, cbase;
  
  	if (component.constructor.getDerivedStateFromProps) {",claim,"The code changes in this GIT DIFF involve modifying the way the ""previousState"" variable is assigned",,,test8357_old.js,test8357_new.js
-202,,,,claim,"Previously, it was directly assigned the value of ""component.prevState || state""",,,,
-203,,,,claim,"Now, it is assigned a new object created by extending the existing ""component.prevState || state"" object",,,,
-204,,,,claim,"Additionally, a new variable ""snapshot"" is also assigned the value of ""previousContext""",,,,
-205,,,,claim,"This suggests that the ""previousState"" object is now being cloned to prevent mutation, and a snapshot of the ""previousContext"" is being maintained for later use.",,,,
-206,17726,6426,"@@ -2,6 +2,7 @@
+,,,claim,"Previously, it was directly assigned the value of ""component.prevState || state""",,,,
+,,,claim,"Now, it is assigned a new object created by extending the existing ""component.prevState || state"" object",,,,
+,,,claim,"Additionally, a new variable ""snapshot"" is also assigned the value of ""previousContext""",,,,
+,,,claim,"This suggests that the ""previousState"" object is now being cloned to prevent mutation, and a snapshot of the ""previousContext"" is being maintained for later use.",,,,
+17726,6426,"@@ -2,6 +2,7 @@
   * and will be replaced soon by a Vue component.
   */
  
@@ -612,11 +612,11 @@
  import browser from 'browser';
  import dom from 'dom';
  import 'css!./navdrawer';",claim,"The code change represented by the GIT DIFF adds a new line of code that disables the ESLint rule for the ""no-var"" error",,,test6426_old.js,test6426_new.js
-207,,,,claim,This means that the code will not enforce the rule that disallows the use of the var keyword.,,,,
-208,,,,issue,"line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-209,,,,issue,"line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-210,,,,issue,"line 8, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-211,10707,4604,"@@ -380,8 +380,15 @@ class RemoteConnection(object):
+,,,claim,This means that the code will not enforce the rule that disallows the use of the var keyword.,,,,
+,,,issue,"line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 8, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+10707,4604,"@@ -380,8 +380,15 @@ class RemoteConnection(object):
              # Authorization header
              headers[""Authorization""] = ""Basic %s"" % auth
  
@@ -634,11 +634,11 @@
          statuscode = resp.status
          statusmessage = resp.msg
          LOGGER.debug('%s %s' % (statuscode, statusmessage))",claim,The code changes include the addition of a conditional statement to check if the 'body' variable is not empty and the 'method' is not 'POST' or 'PUT',,,test4604_old.js,test4604_new.js
-212,,,,claim,"If these conditions are met, the 'body' variable is set to None",,,,
-213,,,,claim,A try block is then added to make a request to the server with the updated 'body' variable,,,,
-214,,,,claim,"If a httplib.HTTPException is encountered, the connection is closed and the exception is re-raised",,,,
-215,,,,claim,This change is likely made to prevent unnecessary requests and handle potential errors.,,,,
-216,25369,6397,"@@ -31,7 +31,7 @@ storiesOf( 'Global', module )
+,,,claim,"If these conditions are met, the 'body' variable is set to None",,,,
+,,,claim,A try block is then added to make a request to the server with the updated 'body' variable,,,,
+,,,claim,"If a httplib.HTTPException is encountered, the connection is closed and the exception is re-raised",,,,
+,,,claim,This change is likely made to prevent unnecessary requests and handle potential errors.,,,,
+25369,6397,"@@ -31,7 +31,7 @@ storiesOf( 'Global', module )
  				title={ __( 'Top content over the last 28 days', 'google-site-kit' ) }
  				headerCtaLink=""https://analytics.google.com""
  				headerCtaLabel={ __( 'See full stats in Analytics', 'google-site-kit' ) }
@@ -647,10 +647,10 @@
  				footerCtaLink=""https://analytics.google.com""
  			>
  				<AnalyticsDashboardWidgetTopPagesTable />",claim,The code change in the GIT DIFF modifies the label for the footer CTA (Call to Action) in the code,,,test6397_old.js,test6397_new.js
-217,,,,claim,"Originally, the label was ""Analytics""",,,,
-218,,,,claim,"The updated label, however, is now translated to ""Service name"" using the _x function",,,,
-219,,,,claim,This suggests that the code is now supporting internationalization and the label for the footer CTA is now being localized based on the user's language preference.,,,,
-220,15111,4259,"@@ -18,10 +18,14 @@ const handleCallback = require('../utils').handleCallback;
+,,,claim,"Originally, the label was ""Analytics""",,,,
+,,,claim,"The updated label, however, is now translated to ""Service name"" using the _x function",,,,
+,,,claim,This suggests that the code is now supporting internationalization and the label for the footer CTA is now being localized based on the user's language preference.,,,,
+15111,4259,"@@ -18,10 +18,14 @@ const handleCallback = require('../utils').handleCallback;
  const indexInformationDb = require('./db_ops').indexInformation;
  const isObject = require('../utils').isObject;
  const Long = require('mongodb-core').BSON.Long;
@@ -665,29 +665,29 @@
  /**
   * Group function helper
   * @ignore",claim,The code changes include the addition of a new line to import the 'makeLazyLoader' function from the '../utils' module,,,test4259_old.js,test4259_new.js
-221,,,,claim,"Two new variables, 'collLoader' and 'dbLoader', are then created by calling 'makeLazyLoader' with the paths to the '../collection' and '../db' directories, respectively",,,,
-222,,,,claim,"These new variables are then used to load the collection and database modules lazily, which can improve the performance of the application by reducing the number of required resources at startup.",,,,
-223,,,,issue,"line 18, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-224,,,,issue,"line 19, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-225,,,,issue,"line 20, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-226,,,,issue,"line 21, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-227,,,,issue,"line 22, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-228,,,,issue,"line 23, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-229,,,,issue,"line 24, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-230,,,,issue,"line 26, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-231,,,,issue,"line 26, col 35, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
-232,,,,issue,"line 27, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-233,,,,issue,"line 27, col 33, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
-234,,,,issue,"line 18, col 28, 'require' is not defined.",,,,
-235,,,,issue,"line 19, col 18, 'require' is not defined.",,,,
-236,,,,issue,"line 20, col 14, 'require' is not defined.",,,,
-237,,,,issue,"line 21, col 24, 'require' is not defined.",,,,
-238,,,,issue,"line 22, col 20, 'require' is not defined.",,,,
-239,,,,issue,"line 23, col 24, 'require' is not defined.",,,,
-240,,,,issue,"line 24, col 17, 'require' is not defined.",,,,
-241,,,,issue,"line 26, col 38, '__dirname' is not defined.",,,,
-242,,,,issue,"line 27, col 36, '__dirname' is not defined.",,,,
-243,12707,3853,"@@ -44,9 +44,12 @@ module.exports = class Client {
+,,,claim,"Two new variables, 'collLoader' and 'dbLoader', are then created by calling 'makeLazyLoader' with the paths to the '../collection' and '../db' directories, respectively",,,,
+,,,claim,"These new variables are then used to load the collection and database modules lazily, which can improve the performance of the application by reducing the number of required resources at startup.",,,,
+,,,issue,"line 18, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 19, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 20, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 21, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 22, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 23, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 24, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 26, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 26, col 35, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 27, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 27, col 33, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 18, col 28, 'require' is not defined.",,,,
+,,,issue,"line 19, col 18, 'require' is not defined.",,,,
+,,,issue,"line 20, col 14, 'require' is not defined.",,,,
+,,,issue,"line 21, col 24, 'require' is not defined.",,,,
+,,,issue,"line 22, col 20, 'require' is not defined.",,,,
+,,,issue,"line 23, col 24, 'require' is not defined.",,,,
+,,,issue,"line 24, col 17, 'require' is not defined.",,,,
+,,,issue,"line 26, col 38, '__dirname' is not defined.",,,,
+,,,issue,"line 27, col 36, '__dirname' is not defined.",,,,
+12707,3853,"@@ -44,9 +44,12 @@ module.exports = class Client {
        body: data
      }).then((response) => response.json()).then((assembly) => {
        if (assembly.error) {
@@ -702,20 +702,20 @@
          throw error
        }
  ",claim,The code changes in the GIT DIFF modify the error handling in the Client class,,,test3853_old.js,test3853_new.js
-244,,,,claim,The original code was creating a new Error object with the error message from the assembly object and setting the error details to the reason from the assembly object,,,,
-245,,,,claim,The updated code is creating a new Error object with the entire assembly object as the error message and setting the error details to the message from the assembly object,,,,
-246,,,,claim,"If the assembly object has an assembly_id, it is appended to the error details",,,,
-247,,,,claim,This change provides more detailed error information.,,,,
-248,,,,issue,"line 45, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-249,,,,issue,"line 45, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-250,,,,issue,"line 47, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-251,,,,issue,"line 47, col 42, Missing semicolon.",,,,
-252,,,,issue,"line 48, col 39, Missing semicolon.",,,,
-253,,,,issue,"line 49, col 41, Missing semicolon.",,,,
-254,,,,issue,"line 51, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
-255,,,,issue,"line 51, col 72, Missing semicolon.",,,,
-256,,,,issue,"line 53, col 20, Missing semicolon.",,,,
-257,15182,2396,"@@ -93,7 +93,7 @@ function setProperty(dom, name, value, oldValue, isSvg) {
+,,,claim,The original code was creating a new Error object with the error message from the assembly object and setting the error details to the reason from the assembly object,,,,
+,,,claim,The updated code is creating a new Error object with the entire assembly object as the error message and setting the error details to the message from the assembly object,,,,
+,,,claim,"If the assembly object has an assembly_id, it is appended to the error details",,,,
+,,,claim,This change provides more detailed error information.,,,,
+,,,issue,"line 45, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 45, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 47, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 47, col 42, Missing semicolon.",,,,
+,,,issue,"line 48, col 39, Missing semicolon.",,,,
+,,,issue,"line 49, col 41, Missing semicolon.",,,,
+,,,issue,"line 51, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 51, col 72, Missing semicolon.",,,,
+,,,issue,"line 53, col 20, Missing semicolon.",,,,
+15182,2396,"@@ -93,7 +93,7 @@ function setProperty(dom, name, value, oldValue, isSvg) {
  		}
  	}
  	// Benchmark for comparison: https://esbench.com/bench/574c954bdb965b9a00965ac6
@@ -724,12 +724,12 @@
  		let useCapture = name !== (name = name.replace(/Capture$/, ''));
  		let nameLower = name.toLowerCase();
  		name = (nameLower in dom ? nameLower : name).slice(2);",claim,The code change in the GIT DIFF modifies an existing conditional statement,,,test2396_old.js,test2396_new.js
-258,,,,claim,The original condition checked if the first two characters of the variable 'name' were 'o' and 'n',,,,
-259,,,,claim,The updated condition checks if the first two characters of 'name' match the string 'on',,,,
-260,,,,claim,This change simplifies the condition and makes it more readable.,,,,
-261,,,,issue,"line 97, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-262,,,,issue,"line 98, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-263,16810,1454,"@@ -22,5 +22,7 @@ describe('Client Side Encryption', function() {
+,,,claim,The original condition checked if the first two characters of the variable 'name' were 'o' and 'n',,,,
+,,,claim,The updated condition checks if the first two characters of 'name' match the string 'on',,,,
+,,,claim,This change simplifies the condition and makes it more readable.,,,,
+,,,issue,"line 97, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 98, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+16810,1454,"@@ -22,5 +22,7 @@ describe('Client Side Encryption', function() {
      return testContext.setup(this.configuration);
    });
  
@@ -738,12 +738,12 @@
 +    return !spec.description.match(/type=regex/);
 +  });
  });",claim,"The code change in the GIT DIFF modifies the function call to ""generateTopologyTests""",,,test1454_old.js,test1454_new.js
-264,,,,claim,The updated function call now includes a callback function as an additional argument,,,,
-265,,,,claim,"This callback function checks if the test description matches the regex pattern ""/type=regex/""",,,,
-266,,,,claim,"If it does, the function returns false, which will exclude the test from the topology tests",,,,
-267,,,,claim,This change allows for more control over which tests to include in the topology tests.,,,,
-268,,,,issue,"line 25, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-269,16461,5610,"@@ -213,7 +213,6 @@ const CASE_TRANSLATION = {
+,,,claim,The updated function call now includes a callback function as an additional argument,,,,
+,,,claim,"This callback function checks if the test description matches the regex pattern ""/type=regex/""",,,,
+,,,claim,"If it does, the function returns false, which will exclude the test from the topology tests",,,,
+,,,claim,This change allows for more control over which tests to include in the topology tests.,,,,
+,,,issue,"line 25, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+16461,5610,"@@ -213,7 +213,6 @@ const CASE_TRANSLATION = {
    tlscafile: 'tlsCAFile',
    tlscertificatekeyfile: 'tlsCertificateKeyFile',
    tlscertificatekeyfilepassword: 'tlsCertificateKeyFilePassword',
@@ -751,8 +751,8 @@
    j: 'journal'
  };
  ",claim,The code change represented by the GIT DIFF removes a line of code that was previously mapping the key 'wtimeout' to the value 'wTimeoutMS',,,test5610_old.js,test5610_new.js
-270,,,,claim,This suggests that the 'wtimeout' key is no longer used in the CASE_TRANSLATION object.,,,,
-271,26815,5405,"@@ -61,7 +61,7 @@ class AdSenseSetupWidget extends Component {
+,,,claim,This suggests that the 'wtimeout' key is no longer used in the CASE_TRANSLATION object.,,,,
+26815,5405,"@@ -61,7 +61,7 @@ class AdSenseSetupWidget extends Component {
  
  	async getAccounts() {
  		try {
@@ -761,12 +761,12 @@
  
  			/**
  			 * Defines the account status. Possible values:",claim,The code change in the GIT DIFF modifies the parameters of the 'get' function call,,,test5405_old.js,test5405_new.js
-272,,,,claim,"Originally, the function was called with three parameters: TYPE_MODULES, 'adsense', 'accounts'",,,,
-273,,,,claim,The updated code now includes an additional parameter: { maybeSetAccount: true },,,,
-274,,,,claim,"This suggests that the 'get' function has been updated to handle an additional option or configuration for setting an account, possibly in the context of AdSense.",,,,
-275,,,,issue,"line 62, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').",,,,
-276,,,,issue,"line 64, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-277,15097,958,"@@ -0,0 +1,17 @@
+,,,claim,"Originally, the function was called with three parameters: TYPE_MODULES, 'adsense', 'accounts'",,,,
+,,,claim,The updated code now includes an additional parameter: { maybeSetAccount: true },,,,
+,,,claim,"This suggests that the 'get' function has been updated to handle an additional option or configuration for setting an account, possibly in the context of AdSense.",,,,
+,,,issue,"line 62, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').",,,,
+,,,issue,"line 64, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+15097,958,"@@ -0,0 +1,17 @@
 +/**
 + * Memoize a function.
 + * @method memoize
@@ -784,11 +784,11 @@
 +	axe._memoizedFns.push(memoized);
 +	return memoized;
 +};",claim,"The GIT DIFF shows the addition of a new function named ""memoize"" in the ""axe.utils"" namespace",,,test958_old.js,test958_new.js
-278,,,,claim,This function takes a function as an argument and returns a memoized version of that function,,,,
-279,,,,claim,"The memoized function is then added to the ""_memoizedFns"" array, which is used to keep track of all memoized functions",,,,
-280,,,,claim,This function is used to optimize performance by storing the results of expensive function calls and reusing them when the same inputs occur again.,,,,
-281,,,,issue,"line 14, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-282,16753,8415,"@@ -18,7 +18,7 @@ function pageNoDuplicateEvaluate(node, options, virtualNode) {
+,,,claim,This function takes a function as an argument and returns a memoized version of that function,,,,
+,,,claim,"The memoized function is then added to the ""_memoizedFns"" array, which is used to keep track of all memoized functions",,,,
+,,,claim,This function is used to optimize performance by storing the results of expensive function calls and reusing them when the same inputs occur again.,,,,
+,,,issue,"line 14, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+16753,8415,"@@ -18,7 +18,7 @@ function pageNoDuplicateEvaluate(node, options, virtualNode) {
    cache.set(key, true);
  
    let elms = querySelectorAllFilter(axe._tree[0], options.selector, elm =>
@@ -797,11 +797,11 @@
    );
  
    // Filter elements that, within certain contexts, don't map their role.",claim,"The code change in the GIT DIFF modifies the function call to ""isVisible""",,,test8415_old.js,test8415_new.js
-283,,,,claim,"The original call passed ""elm.actualNode"" as an argument, but the updated call now passes ""elm.actualNode"" and ""true"" as arguments",,,,
-284,,,,claim,This suggests that the visibility of the element is now being checked in a different context.,,,,
-285,,,,issue,"line 20, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-286,,,,issue,"line 20, col 73, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-287,16864,516,"@@ -47,13 +47,13 @@ class Selection {
+,,,claim,"The original call passed ""elm.actualNode"" as an argument, but the updated call now passes ""elm.actualNode"" and ""true"" as arguments",,,,
+,,,claim,This suggests that the visibility of the element is now being checked in a different context.,,,,
+,,,issue,"line 20, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 20, col 73, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+16864,516,"@@ -47,13 +47,13 @@ class Selection {
       */
      this.selectedByCorner = false;
      /**
@@ -817,9 +817,9 @@
       *
       * @type {Set.<number>}
       */",claim,The code changes in the GIT DIFF modify two comment lines,,,test516_old.js,test516_new.js
-288,,,,claim,The changes indicate that the selection of the row or the corner header is now considered when determining the selection layer levels for the whole row and the whole column,,,,
-289,,,,claim,"Previously, the selection was only considered when the row or column header was used individually.",,,,
-290,15884,9584,"@@ -87,6 +87,7 @@ function buildRules(grunt, options, commons, callback) {
+,,,claim,The changes indicate that the selection of the row or the corner header is now considered when determining the selection layer levels for the whole row and the whole column,,,,
+,,,claim,"Previously, the selection was only considered when the row or column header was used individually.",,,,
+15884,9584,"@@ -87,6 +87,7 @@ function buildRules(grunt, options, commons, callback) {
  		var tags = options.tags ? options.tags.split(/\s*,\s*/) : [];
  		var rules = result.rules;
  		var checks = result.checks;
@@ -827,8 +827,8 @@
  
  		// Translate checks
  		if (locale && locale.checks) {",claim,"The code change adds a new line that calls the function ""parseChecks"" with the variable ""checks"" as an argument",,,test9584_old.js,test9584_new.js
-291,,,,claim,This suggests that the code now has a new functionality to parse checks.,,,,
-292,14195,1220,"@@ -255,6 +255,10 @@ function diffElementNodes(dom, newVNode, oldVNode, context, isSvg, excessDomChil
+,,,claim,This suggests that the code now has a new functionality to parse checks.,,,,
+14195,1220,"@@ -255,6 +255,10 @@ function diffElementNodes(dom, newVNode, oldVNode, context, isSvg, excessDomChil
  		// (as above, don't diff props during hydration)
  		if (!isHydrating) {
  			if (('value' in newProps) && newProps.value!==undefined && newProps.value !== dom.value) dom.value = newProps.value==null ? '' : newProps.value;
@@ -839,9 +839,9 @@
  			if (('checked' in newProps) && newProps.checked!==undefined && newProps.checked !== dom.checked) dom.checked = newProps.checked;
  		}
  	}",claim,"The code change adds a new line that stores the current value of the DOM element in a new property ""_lastValue""",,,test1220_old.js,test1220_new.js
-293,,,,claim,"This is done for input masking purposes, as mentioned in the comment",,,,
-294,,,,claim,"The comment also indicates that this change is related to the issue or bug mentioned in the comment, which is likely to do with input masking.",,,,
-295,14470,1668,"@@ -139,6 +139,13 @@ describe('text.formControlValue', function() {
+,,,claim,"This is done for input masking purposes, as mentioned in the comment",,,,
+,,,claim,"The comment also indicates that this change is related to the issue or bug mentioned in the comment, which is likely to do with input masking.",,,,
+14470,1668,"@@ -139,6 +139,13 @@ describe('text.formControlValue', function() {
  				axe.utils
  					.querySelectorAll(axe._tree[0], '#fixture input')
  					.forEach(function(target) {
@@ -855,10 +855,10 @@
  						assert.equal(
  							nativeTextboxValue(target),
  							'',",claim,The code change adds a new condition to ignore fallback inputs in the test,,,test1668_old.js,test1668_new.js
-296,,,,claim,It checks if the type of the actual node is 'text',,,,
-297,,,,claim,"If it is, the function returns immediately",,,,
-298,,,,claim,This is because Safari and IE11 do not support the color input type and thus treat them as text inputs.,,,,
-299,18489,6873,"@@ -320,6 +320,7 @@ export class TopOverlay extends Overlay {
+,,,claim,It checks if the type of the actual node is 'text',,,,
+,,,claim,"If it is, the function returns immediately",,,,
+,,,claim,This is because Safari and IE11 do not support the color input type and thus treat them as text inputs.,,,,
+18489,6873,"@@ -320,6 +320,7 @@ export class TopOverlay extends Overlay {
        return this.wot.wtTable.holderOffset.top;
  
      }
@@ -866,9 +866,9 @@
      return 0;
  
    }",claim,The code change represented by the GIT DIFF adds a new line break after the return statement of the function,,,test6873_old.js,test6873_new.js
-300,,,,claim,This is a minor change and does not affect the functionality of the code,,,,
-301,,,,claim,It may be done for style consistency or to adhere to a specific coding standard.,,,,
-302,15098,1728,"@@ -3,6 +3,7 @@
+,,,claim,This is a minor change and does not affect the functionality of the code,,,,
+,,,claim,It may be done for style consistency or to adhere to a specific coding standard.,,,,
+15098,1728,"@@ -3,6 +3,7 @@
  
  // Clean up after resolve / reject
  function cleanup() {
@@ -876,9 +876,9 @@
  	axe._cache.clear();
  	axe._tree = undefined;
  	axe._selectorData = undefined;",claim,"The code change adds a new line that calls the ""forEach"" method on ""axe._memoizedFns"" and then calls the ""clear"" method on each function in the array",,,test1728_old.js,test1728_new.js
-303,,,,claim,"This suggests that the code is now clearing all memoized functions in ""axe._memoizedFns"" before proceeding with the rest of the cleanup process.",,,,
-304,,,,issue,"line 6, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-305,18174,8814,"@@ -59,6 +59,13 @@ public class NodeStatus {
+,,,claim,"This suggests that the code is now clearing all memoized functions in ""axe._memoizedFns"" before proceeding with the rest of the cleanup process.",,,,
+,,,issue,"line 6, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+18174,8814,"@@ -59,6 +59,13 @@ public class NodeStatus {
      }
    }
  
@@ -892,10 +892,10 @@
    public boolean hasCapacity() {
      return slots.stream().anyMatch(slot -> !slot.getSession().isPresent());
    }",claim,"The code change added a new method called ""hasCapability"" to the ""NodeStatus"" class",,,test8814_old.js,test8814_new.js
-306,,,,claim,"This method takes a parameter of type ""Capabilities"" and returns a boolean value",,,,
-307,,,,claim,The method uses a stream to filter the slots that support the given capabilities and then counts the number of such slots,,,,
-308,,,,claim,"If the count is greater than 0, it returns true, indicating that the node has the capability.",,,,
-309,13395,7495,"@@ -44,7 +44,7 @@ var PrivateKey = function PrivateKey(data, network, compressed) {
+,,,claim,"This method takes a parameter of type ""Capabilities"" and returns a boolean value",,,,
+,,,claim,The method uses a stream to filter the slots that support the given capabilities and then counts the number of such slots,,,,
+,,,claim,"If the count is greater than 0, it returns true, indicating that the node has the capability.",,,,
+13395,7495,"@@ -44,7 +44,7 @@ var PrivateKey = function PrivateKey(data, network, compressed) {
    };
  
    // detect type of data
@@ -904,10 +904,10 @@
      info.bn = PrivateKey._getRandomBN();
    } else if (data instanceof BN) {
      info.bn = data;",claim,The code change in the GIT DIFF modifies an existing conditional statement,,,test7495_old.js,test7495_new.js
-310,,,,claim,The original condition checked if the 'data' variable was not set,,,,
-311,,,,claim,The updated condition checks if the 'data' variable is either undefined or equal to 'random',,,,
-312,,,,claim,This change allows for more flexibility in handling different types of 'data' inputs.,,,,
-313,12235,4523,"@@ -69,7 +69,8 @@ module.exports = class Webcam extends Plugin {
+,,,claim,The original condition checked if the 'data' variable was not set,,,,
+,,,claim,The updated condition checks if the 'data' variable is either undefined or equal to 'random',,,,
+,,,claim,This change allows for more flexibility in handling different types of 'data' inputs.,,,,
+12235,4523,"@@ -69,7 +69,8 @@ module.exports = class Webcam extends Plugin {
          'picture'
        ],
        mirror: true,
@@ -917,9 +917,9 @@
      }
  
      // merge default options with the ones set by user",claim,"The code change adds a new line to set the ""preferredMimeType"" to null",,,test4523_old.js,test4523_new.js
-314,,,,claim,This suggests that the default MIME type is now being used instead of the previously specified MIME type.,,,,
-315,,,,issue,"line 74, col 6, Missing semicolon.",,,,
-316,21152,6561,"@@ -51,9 +51,9 @@ if (options.arch) {
+,,,claim,This suggests that the default MIME type is now being used instead of the previously specified MIME type.,,,,
+,,,issue,"line 74, col 6, Missing semicolon.",,,,
+21152,6561,"@@ -51,9 +51,9 @@ if (options.arch) {
  
  const buildType = options.buildType;
  
@@ -931,16 +931,16 @@
  }
  
  const sdkPath = getAndroidSdkPath();",claim,"The code change in the GIT DIFF modifies how the ""ndkPath"" variable is assigned",,,test6561_old.js,test6561_new.js
-317,,,,claim,"Previously, it was directly assigned the value of the ""ANDROID_NDK"" environment variable",,,,
-318,,,,claim,"Now, it first tries to assign the value of the ""ANDROID_NDK"" environment variable",,,,
-319,,,,claim,"If this fails (i.e., if the ""ANDROID_NDK"" environment variable is not set), it then attempts to assign the value of the ""ANDROID_NDK_HOME"" environment variable",,,,
-320,,,,claim,"If this also fails, it throws an error indicating that both ""ANDROID_NDK"" and ""ANDROID_NDK_HOME"" environment variables are not set.",,,,
-321,,,,issue,"line 52, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-322,,,,issue,"line 54, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-323,,,,issue,"line 54, col 28, ['ANDROID_NDK'] is better written in dot notation.",,,,
-324,,,,issue,"line 54, col 58, ['ANDROID_NDK_HOME'] is better written in dot notation.",,,,
-325,,,,issue,"line 59, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-326,15371,689,"@@ -927,7 +927,7 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
+,,,claim,"Previously, it was directly assigned the value of the ""ANDROID_NDK"" environment variable",,,,
+,,,claim,"Now, it first tries to assign the value of the ""ANDROID_NDK"" environment variable",,,,
+,,,claim,"If this fails (i.e., if the ""ANDROID_NDK"" environment variable is not set), it then attempts to assign the value of the ""ANDROID_NDK_HOME"" environment variable",,,,
+,,,claim,"If this also fails, it throws an error indicating that both ""ANDROID_NDK"" and ""ANDROID_NDK_HOME"" environment variables are not set.",,,,
+,,,issue,"line 52, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 54, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 54, col 28, ['ANDROID_NDK'] is better written in dot notation.",,,,
+,,,issue,"line 54, col 58, ['ANDROID_NDK_HOME'] is better written in dot notation.",,,,
+,,,issue,"line 59, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+15371,689,"@@ -927,7 +927,7 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
      if (isFunction(beforeChangeResult)) {
        warn('Your beforeChange callback returns a function. It\'s not supported since Handsontable 0.12.1 (and the returned function will not be executed).');
  
@@ -949,10 +949,10 @@
        const activeEditor = instance.getActiveEditor();
  
        if (activeEditor) {",claim,The code change in the GIT DIFF modifies an existing conditional statement,,,test689_old.js,test689_new.js
-327,,,,claim,"The updated condition now checks if the ""beforeChangeResult"" is either false, an empty array, or the first element of the ""beforeChangeResult"" array is null",,,,
-328,,,,claim,"This change broadens the scope of the ""beforeChangeResult"" validation in the code.",,,,
-329,,,,issue,"line 931, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-330,20706,4122,"@@ -473,6 +473,7 @@ describe('GridFS Stream', function () {
+,,,claim,"The updated condition now checks if the ""beforeChangeResult"" is either false, an empty array, or the first element of the ""beforeChangeResult"" array is null",,,,
+,,,claim,"This change broadens the scope of the ""beforeChangeResult"" validation in the code.",,,,
+,,,issue,"line 931, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+20706,4122,"@@ -473,6 +473,7 @@ describe('GridFS Stream', function () {
                      // Fail if user tries to abort an aborted stream
                      uploadStream.abort().then(null, function (error) {
                        expect(error.toString()).to.equal(
@@ -960,9 +960,9 @@
                          'MongoDriverError: Cannot call abort() on a stream twice'
                        );
                        client.close(done);",claim,The code change adds a comment line that suggests replacing the current error message with a more specific error message,,,test4122_old.js,test4122_new.js
-331,,,,claim,"The comment indicates that the current error message is ""MongoDriverError: Cannot call abort() on a stream twice"" and suggests replacing it with ""MongoStreamClosedError""",,,,
-332,,,,claim,This change is likely a placeholder or temporary solution until a more specific error message is implemented.,,,,
-333,12721,4078,"@@ -10,11 +10,14 @@ import options from '../options';
+,,,claim,"The comment indicates that the current error message is ""MongoDriverError: Cannot call abort() on a stream twice"" and suggests replacing it with ""MongoStreamClosedError""",,,,
+,,,claim,This change is likely a placeholder or temporary solution until a more specific error message is implemented.,,,,
+12721,4078,"@@ -10,11 +10,14 @@ import options from '../options';
   * @param {boolean} isSvg Whether or not this node is an SVG node
   */
  export function diffProps(dom, newProps, oldProps, isSvg) {
@@ -980,14 +980,14 @@
  	for (let i in oldProps) {
  		if (i!=='children' && i!=='key' && (!newProps || !(i in newProps))) {
  			setProperty(dom, i, null, oldProps[i], isSvg);",claim,The code change in the GIT DIFF modifies the way the properties are being iterated over in the `diffProps` function,,,test4078_old.js,test4078_new.js
-334,,,,claim,"Instead of directly iterating over the `newProps` object, the keys are now sorted and then iterated over",,,,
-335,,,,claim,This change could potentially improve the performance of the function by reducing the number of iterations and potentially improving the order of operations.,,,,
-336,,,,issue,"line 12, col 1, 'export' is only available in ES6 (use 'esversion: 6').",,,,
-337,,,,issue,"line 13, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-338,,,,issue,"line 14, col 10, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-339,,,,issue,"line 15, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-340,,,,issue,"line 21, col 10, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-341,14370,9649,"@@ -30,7 +30,7 @@ function ariaOwns(nodes, role) {
+,,,claim,"Instead of directly iterating over the `newProps` object, the keys are now sorted and then iterated over",,,,
+,,,claim,This change could potentially improve the performance of the function by reducing the number of iterations and potentially improving the order of operations.,,,,
+,,,issue,"line 12, col 1, 'export' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 13, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 14, col 10, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 15, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 21, col 10, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+14370,9649,"@@ -30,7 +30,7 @@ function ariaOwns(nodes, role) {
  		if (nodes[index] === null) {
  			continue;
  		}
@@ -996,11 +996,11 @@
  		if (owns(nodes[index], virtualTree, role, true)) {
  			return true;
  		}",claim,"The code change in the GIT DIFF modifies how the ""virtualTree"" variable is assigned",,,test9649_old.js,test9649_new.js
-342,,,,claim,"Previously, it was assigned the result of the ""getNodeFromTree"" function with two arguments: ""axe._tree[0]"" and ""nodes[index]""",,,,
-343,,,,claim,"Now, it is assigned the result of the same function with only one argument: ""nodes[index]""",,,,
-344,,,,claim,"This suggests that the ""axe._tree[0]"" argument is no longer needed in the ""getNodeFromTree"" function call.",,,,
-345,,,,issue,"line 33, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-346,17921,5013,"@@ -0,0 +1,8 @@
+,,,claim,"Previously, it was assigned the result of the ""getNodeFromTree"" function with two arguments: ""axe._tree[0]"" and ""nodes[index]""",,,,
+,,,claim,"Now, it is assigned the result of the same function with only one argument: ""nodes[index]""",,,,
+,,,claim,"This suggests that the ""axe._tree[0]"" argument is no longer needed in the ""getNodeFromTree"" function call.",,,,
+,,,issue,"line 33, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+17921,5013,"@@ -0,0 +1,8 @@
 +import Vue from 'vue'
 +import App from './App.vue'
 +
@@ -1009,16 +1009,16 @@
 +new Vue({
 +  render: h => h(App),
 +}).$mount('#app')",claim,The GIT DIFF shows that a new file has been added to the codebase,,,test5013_old.js,test5013_new.js
-347,,,,claim,This file imports the Vue library and the App component from './App.vue',,,,
-348,,,,claim,"It then configures Vue to disable the production tip and finally, it creates a new Vue instance and mounts it to the '#app' element in the DOM.",,,,
-349,,,,issue,"line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-350,,,,issue,"line 1, col 22, Missing semicolon.",,,,
-351,,,,issue,"line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-352,,,,issue,"line 2, col 28, Missing semicolon.",,,,
-353,,,,issue,"line 4, col 33, Missing semicolon.",,,,
-354,,,,issue,"line 7, col 13, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-355,,,,issue,"line 8, col 18, Missing semicolon.",,,,
-356,33068,5803,"@@ -23,7 +23,7 @@ const viewports = require( './viewports' );
+,,,claim,This file imports the Vue library and the App component from './App.vue',,,,
+,,,claim,"It then configures Vue to disable the production tip and finally, it creates a new Vue instance and mounts it to the '#app' element in the DOM.",,,,
+,,,issue,"line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 1, col 22, Missing semicolon.",,,,
+,,,issue,"line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 2, col 28, Missing semicolon.",,,,
+,,,issue,"line 4, col 33, Missing semicolon.",,,,
+,,,issue,"line 7, col 13, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 8, col 18, Missing semicolon.",,,,
+33068,5803,"@@ -23,7 +23,7 @@ const viewports = require( './viewports' );
  // This will be passed through with the `backstop` command run with docker.
  if ( process.argv.includes( '--docker' ) ) {
  	const hostname = require( './detect-storybook-host' );
@@ -1027,11 +1027,11 @@
  }
  
  module.exports = {",claim,The code change in the GIT DIFF modifies an existing line of code,,,test5803_old.js,test5803_new.js
-357,,,,claim,"The updated line of code now pushes the argument ""--storybook-host=http://${ hostname }:9001/"" into the process argument vector",,,,
-358,,,,claim,This indicates that the storybook host is now being specified as a URL with a port number of 9001.,,,,
-359,,,,issue,"line 25, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-360,,,,issue,"line 26, col 24, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
-361,11968,2690,"@@ -21,11 +21,18 @@ export function setComponentProps(component, props, opts, context, mountAll) {
+,,,claim,"The updated line of code now pushes the argument ""--storybook-host=http://${ hostname }:9001/"" into the process argument vector",,,,
+,,,claim,This indicates that the storybook host is now being specified as a URL with a port number of 9001.,,,,
+,,,issue,"line 25, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 26, col 24, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
+11968,2690,"@@ -21,11 +21,18 @@ export function setComponentProps(component, props, opts, context, mountAll) {
  	if ((component.__key = props.key)) delete props.key;
  
  	if (!component.base || mountAll) {
@@ -1051,13 +1051,13 @@
  
  	if (context && context!==component.context) {
  		if (!component.prevContext) component.prevContext = component.context;",claim,The code changes include the addition of a warning message when the 'componentWillMount' method is used,,,test2690_old.js,test2690_new.js
-362,,,,claim,This method is now deprecated and the code has been updated to call this method only if it exists,,,,
-363,,,,claim,"The warning message is "" 'componentWillMount' is deprecated""",,,,
-364,,,,claim,,,,,
-365,,,,claim,"Additionally, the 'componentWillReceiveProps' method is now deprecated and a warning message is added",,,,
-366,,,,claim,"The 'getDerivedStateFromProps' method, which is used to update the state based on changes to props, is also now supported",,,,
-367,,,,claim,"This method is called with the new props and the current state as arguments, and the returned value is used to update the state.",,,,
-368,32122,6017,"@@ -30,13 +30,17 @@ import { STORE_NAME as CORE_USER } from '../googlesitekit/datastore/user/constan
+,,,claim,This method is now deprecated and the code has been updated to call this method only if it exists,,,,
+,,,claim,"The warning message is "" 'componentWillMount' is deprecated""",,,,
+,,,claim,,,,,
+,,,claim,"Additionally, the 'componentWillReceiveProps' method is now deprecated and a warning message is added",,,,
+,,,claim,"The 'getDerivedStateFromProps' method, which is used to update the state based on changes to props, is also now supported",,,,
+,,,claim,"This method is called with the new props and the current state as arguments, and the returned value is used to update the state.",,,,
+32122,6017,"@@ -30,13 +30,17 @@ import { STORE_NAME as CORE_USER } from '../googlesitekit/datastore/user/constan
  /**
   * Gets the current dateRange string.
   *
@@ -1077,13 +1077,13 @@
  		return sprintf(
  			/* translators: %s: Number of days matched. */
  			_n( '%s day', '%s days', parseInt( daysMatch[ 1 ], 10 ), 'google-site-kit' ),",claim,"The code changes in the GIT DIFF add a new optional parameter ""returnNumber"" to the ""getCurrentDateRange"" function",,,test6017_old.js,test6017_new.js
-369,,,,claim,"If this parameter is true, the function will return the number only when the date range matches a certain format",,,,
-370,,,,claim,"The function call to ""getCurrentDateRange"" has also been updated to include this new parameter.",,,,
-371,,,,issue,"line 37, col 1, 'export' is only available in ES6 (use 'esversion: 6').",,,,
-372,,,,issue,"line 37, col 48, 'default parameters' is only available in ES6 (use 'esversion: 6').",,,,
-373,,,,issue,"line 37, col 90, 'default parameters' is only available in ES6 (use 'esversion: 6').",,,,
-374,,,,issue,"line 38, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-375,11993,108,"@@ -7,4 +7,17 @@
+,,,claim,"If this parameter is true, the function will return the number only when the date range matches a certain format",,,,
+,,,claim,"The function call to ""getCurrentDateRange"" has also been updated to include this new parameter.",,,,
+,,,issue,"line 37, col 1, 'export' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 37, col 48, 'default parameters' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 37, col 90, 'default parameters' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 38, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+11993,108,"@@ -7,4 +7,17 @@
  axe.utils.toArray = function (thing) {
  	'use strict';
  	return Array.prototype.slice.call(thing);
@@ -1102,14 +1102,14 @@
 +    return arr.indexOf(elem) === pos;
 +  });
 +};",claim,"The GIT DIFF shows that a new function named ""uniqueArray"" has been added to the ""axe.utils"" object",,,test108_old.js,test108_new.js
-376,,,,claim,This function takes two arrays as arguments and returns a new array that contains only the unique elements from the two input arrays,,,,
-377,,,,claim,"The function uses the ""concat"" method to combine the two arrays and the ""filter"" method to remove any duplicate elements",,,,
-378,,,,claim,"The function uses the ""indexOf"" method to check if the element is the first occurrence in the array",,,,
-379,,,,claim,"If it is, it returns true, otherwise it returns false",,,,
-380,,,,claim,This function is used to create an array of unique values from two input arrays.,,,,
-381,,,,issue,"line 19, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-382,,,,issue,"line 20, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-383,10113,9657,"@@ -213,9 +213,10 @@ module.exports = class GoldenRetriever extends Plugin {
+,,,claim,This function takes two arrays as arguments and returns a new array that contains only the unique elements from the two input arrays,,,,
+,,,claim,"The function uses the ""concat"" method to combine the two arrays and the ""filter"" method to remove any duplicate elements",,,,
+,,,claim,"The function uses the ""indexOf"" method to check if the element is the first occurrence in the array",,,,
+,,,claim,"If it is, it returns true, otherwise it returns false",,,,
+,,,claim,This function is used to create an array of unique values from two input arrays.,,,,
+,,,issue,"line 19, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 20, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+10113,9657,"@@ -213,9 +213,10 @@ module.exports = class GoldenRetriever extends Plugin {
        this.IndexedDBStore.delete(fileID)
      })
  
@@ -1122,22 +1122,22 @@
        })
      })
  ",claim,The code changes in this GIT DIFF involve a modification of the event handling for the 'core:complete' event,,,test9657_old.js,test9657_new.js
-384,,,,claim,"Instead of using the 'fileIDs' parameter from the 'core:success' event, the 'core:complete' event now uses a 'successful' parameter, which is an array of successful files",,,,
-385,,,,claim,The code then maps this array to get an array of file IDs,,,,
-386,,,,claim,"The logging message has also been updated to reflect this change, replacing the 'GoldenRetriever' prefix with 'RestoreFiles'.",,,,
-387,,,,issue,"line 213, col 41, Missing semicolon.",,,,
-388,,,,issue,"line 214, col 7, Missing semicolon.",,,,
-389,,,,issue,"line 216, col 35, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-390,,,,issue,"line 216, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-391,,,,issue,"line 217, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-392,,,,issue,"line 217, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-393,,,,issue,"line 217, col 56, Missing semicolon.",,,,
-394,,,,issue,"line 218, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-395,,,,issue,"line 219, col 23, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
-396,,,,issue,"line 219, col 98, Missing semicolon.",,,,
-397,,,,issue,"line 220, col 9, Missing semicolon.",,,,
-398,,,,issue,"line 221, col 7, Missing semicolon.",,,,
-399,16892,8051,"@@ -158,6 +158,10 @@ class Server extends EventEmitter {
+,,,claim,"Instead of using the 'fileIDs' parameter from the 'core:success' event, the 'core:complete' event now uses a 'successful' parameter, which is an array of successful files",,,,
+,,,claim,The code then maps this array to get an array of file IDs,,,,
+,,,claim,"The logging message has also been updated to reflect this change, replacing the 'GoldenRetriever' prefix with 'RestoreFiles'.",,,,
+,,,issue,"line 213, col 41, Missing semicolon.",,,,
+,,,issue,"line 214, col 7, Missing semicolon.",,,,
+,,,issue,"line 216, col 35, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 216, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 217, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 217, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 217, col 56, Missing semicolon.",,,,
+,,,issue,"line 218, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 219, col 23, 'template literal syntax' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 219, col 98, Missing semicolon.",,,,
+,,,issue,"line 220, col 9, Missing semicolon.",,,,
+,,,issue,"line 221, col 7, Missing semicolon.",,,,
+16892,8051,"@@ -158,6 +158,10 @@ class Server extends EventEmitter {
      // setup listeners
      this.s.pool.on('parseError', parseErrorEventHandler(this));
  
@@ -1148,10 +1148,10 @@
      // it is unclear whether consumers should even know about these events
      // this.s.pool.on('timeout', timeoutEventHandler(this));
      // this.s.pool.on('reconnect', reconnectEventHandler(this));",claim,The code change adds a new event listener to the 'drain' event of the 's.pool' object,,,test8051_old.js,test8051_new.js
-400,,,,claim,"When this event is emitted, it emits an 'error' event with the error object passed as an argument",,,,
-401,,,,claim,This suggests that the code now handles the 'drain' event and emits an error if it occurs.,,,,
-402,,,,issue,"line 161, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-403,34289,1270,"@@ -46,6 +46,7 @@ domReady( () => {
+,,,claim,"When this event is emitted, it emits an 'error' event with the error object passed as an argument",,,,
+,,,claim,This suggests that the code now handles the 'drain' event and emits an error if it occurs.,,,,
+,,,issue,"line 161, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+34289,1270,"@@ -46,6 +46,7 @@ domReady( () => {
  	Modules.registerModule(
  		'analytics',
  		{
@@ -1159,9 +1159,9 @@
  			settingsEditComponent: SettingsEdit,
  			settingsViewComponent: SettingsView,
  			setupComponent: SetupMain,",claim,The code change adds a new line to the 'analytics' module registration,,,test1270_old.js,test1270_new.js
-404,,,,claim,This new line sets the module's name to 'Analytics',,,,
-405,,,,claim,This change is likely for better clarity and organization in the code.,,,,
-406,18747,7542,"@@ -86,7 +86,7 @@ before(function(_done) {
+,,,claim,This new line sets the module's name to 'Analytics',,,,
+,,,claim,This change is likely for better clarity and organization in the code.,,,,
+18747,7542,"@@ -86,7 +86,7 @@ before(function(_done) {
          }
  
          this.configuration = new TestConfiguration(parsedURI, context);
@@ -1170,9 +1170,9 @@
        });
      });
    });",claim,The code change in the GIT DIFF replaces an existing line of code,,,test7542_old.js,test7542_new.js
-407,,,,claim,"The replaced line of code now calls the ""close"" method on the ""client"" object with the ""done"" callback as an argument instead of the original line of code that simply called the ""done"" function",,,,
-408,,,,claim,This indicates that the code is now closing the client connection after the test configuration has been created.,,,,
-409,36252,5873,"@@ -74,7 +74,7 @@ class DashboardModulesAlerts extends Component {
+,,,claim,"The replaced line of code now calls the ""close"" method on the ""client"" object with the ""done"" callback as an argument instead of the original line of code that simply called the ""done"" function",,,,
+,,,claim,This indicates that the code is now closing the client connection after the test configuration has been created.,,,,
+36252,5873,"@@ -74,7 +74,7 @@ class DashboardModulesAlerts extends Component {
  						title={ notification.title || '' }
  						description={ notification.description || '' }
  						blockData={ notification.blockData || [] }
@@ -1181,23 +1181,23 @@
  						format={ notification.format || 'small' }
  						learnMoreURL={ notification.learnMoreURL || '' }
  						learnMoreDescription={ notification.learnMoreDescription || '' }",claim,The code change in the GIT DIFF replaces an existing line of code,,,test5873_old.js,test5873_new.js
-410,,,,claim,"The replaced line of code now uses the ""WinImageSVG"" property from the ""notification"" object instead of the ""winImage"" property",,,,
-411,,,,claim,This suggests that the code is now using an SVG image for the win image instead of a traditional image.,,,,
-412,,,,issue,"line 74, col 45, Expected ':' and instead saw '.'.",,,,
-413,,,,issue,"line 74, col 59, Missing semicolon.",,,,
-414,,,,issue,"line 75, col 51, Expected ':' and instead saw '.'.",,,,
-415,,,,issue,"line 75, col 71, Missing semicolon.",,,,
-416,,,,issue,"line 76, col 49, Expected ':' and instead saw '.'.",,,,
-417,,,,issue,"line 76, col 67, Missing semicolon.",,,,
-418,,,,issue,"line 77, col 51, Expected ':' and instead saw '.'.",,,,
-419,,,,issue,"line 77, col 65, Missing semicolon.",,,,
-420,,,,issue,"line 78, col 46, Expected ':' and instead saw '.'.",,,,
-421,,,,issue,"line 78, col 66, Missing semicolon.",,,,
-422,,,,issue,"line 79, col 52, Expected ':' and instead saw '.'.",,,,
-423,,,,issue,"line 79, col 73, Missing semicolon.",,,,
-424,,,,issue,"line 80, col 60, Expected ':' and instead saw '.'.",,,,
-425,,,,issue,"line 80, col 89, Missing semicolon.",,,,
-426,14201,8368,"@@ -378,11 +378,12 @@ const executeOperation = (topology, operation, args, options) => {
+,,,claim,"The replaced line of code now uses the ""WinImageSVG"" property from the ""notification"" object instead of the ""winImage"" property",,,,
+,,,claim,This suggests that the code is now using an SVG image for the win image instead of a traditional image.,,,,
+,,,issue,"line 74, col 45, Expected ':' and instead saw '.'.",,,,
+,,,issue,"line 74, col 59, Missing semicolon.",,,,
+,,,issue,"line 75, col 51, Expected ':' and instead saw '.'.",,,,
+,,,issue,"line 75, col 71, Missing semicolon.",,,,
+,,,issue,"line 76, col 49, Expected ':' and instead saw '.'.",,,,
+,,,issue,"line 76, col 67, Missing semicolon.",,,,
+,,,issue,"line 77, col 51, Expected ':' and instead saw '.'.",,,,
+,,,issue,"line 77, col 65, Missing semicolon.",,,,
+,,,issue,"line 78, col 46, Expected ':' and instead saw '.'.",,,,
+,,,issue,"line 78, col 66, Missing semicolon.",,,,
+,,,issue,"line 79, col 52, Expected ':' and instead saw '.'.",,,,
+,,,issue,"line 79, col 73, Missing semicolon.",,,,
+,,,issue,"line 80, col 60, Expected ':' and instead saw '.'.",,,,
+,,,issue,"line 80, col 89, Missing semicolon.",,,,
+14201,8368,"@@ -378,11 +378,12 @@ const executeOperation = (topology, operation, args, options) => {
  
    // The driver sessions spec mandates that we implicitly create sessions for operations
    // that are not explicitly provided with a session.
@@ -1212,13 +1212,13 @@
        const optionsIndex = args.length - 2;
        args[optionsIndex] = Object.assign({}, args[optionsIndex], { session: session });
      } else if (opOptions.session && opOptions.session.hasEnded) {",claim,"The code changes in this GIT DIFF show that a new variable ""owner"" has been introduced to the code",,,test8368_old.js,test8368_new.js
-427,,,,claim,"The ""startSession"" function is now called with an object ""{ owner }"" as an argument",,,,
-428,,,,claim,This suggests that the session is now being started with an owner object,,,,
-429,,,,claim,"The ""session"" and ""opOptions"" variables have also been updated to include the ""owner"" variable.",,,,
-430,,,,issue,"line 381, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-431,,,,issue,"line 386, col 41, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-432,,,,issue,"line 387, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-433,17217,2884,"@@ -32,9 +32,8 @@ module.exports = function(config, auth, storage) {
+,,,claim,"The ""startSession"" function is now called with an object ""{ owner }"" as an argument",,,,
+,,,claim,This suggests that the session is now being started with an owner object,,,,
+,,,claim,"The ""session"" and ""opOptions"" variables have also been updated to include the ""owner"" variable.",,,,
+,,,issue,"line 381, col 3, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 386, col 41, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 387, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+17217,2884,"@@ -32,9 +32,8 @@ module.exports = function(config, auth, storage) {
      });
    });
  
@@ -1230,10 +1230,10 @@
    });
  
    router.get('/', function(req, res) {",claim,The code changes in the GIT DIFF show that a route has been added to the application,,,test2884_old.js,test2884_new.js
-434,,,,claim,The new route is '/-/verdaccio/logo' and it sends the logo file specified in the configuration or a default logo file if the configuration does not specify a logo,,,,
-435,,,,claim,The old route '/-/logo' has been removed,,,,
-436,,,,claim,This suggests a change in the way the logo is being served in the application.,,,,
-437,18855,8551,"@@ -46,7 +46,7 @@ export function generateRandomHexString(length: number = 8) {
+,,,claim,The new route is '/-/verdaccio/logo' and it sends the logo file specified in the configuration or a default logo file if the configuration does not specify a logo,,,,
+,,,claim,The old route '/-/logo' has been removed,,,,
+,,,claim,This suggests a change in the way the logo is being served in the application.,,,,
+18855,8551,"@@ -46,7 +46,7 @@ export function generateRandomHexString(length: number = 8) {
  
  export function signPayload(payload: JWTPayload, secret: string, options: JWTSignOptions) {
    return jwt.sign(payload, secret, {
@@ -1242,9 +1242,9 @@
      ...options,
    });
  }",claim,"The code change in the GIT DIFF modifies the value of the ""notBefore"" option in the JWT signing function",,,test8551_old.js,test8551_new.js
-438,,,,claim,"Originally, the ""notBefore"" option was set to '1000', but it has been changed to '1'",,,,
-439,,,,claim,This suggests that the time requirement for the JWT to be valid has been reduced.,,,,
-440,12872,7055,"@@ -9,6 +9,9 @@ function SIN(type, payload) {
+,,,claim,"Originally, the ""notBefore"" option was set to '1000', but it has been changed to '1'",,,,
+,,,claim,This suggests that the time requirement for the JWT to be valid has been reduced.,,,,
+12872,7055,"@@ -9,6 +9,9 @@ function SIN(type, payload) {
      SIN.super_.call(this, type, payload);
      return;
    }
@@ -1254,14 +1254,14 @@
    this.data = new Buffer(1 + 1 + payload.length);
    this.converters = this.encodings['binary'].converters;
    this._encoding = this.encodings['binary']._encoding;",claim,The code change adds a new condition to the function,,,test7055_old.js,test7055_new.js
-441,,,,claim,It checks if the payload is not a buffer or if the length of the payload is not 20 bytes,,,,
-442,,,,claim,"If either of these conditions is true, it throws an error stating 'Payload must be 20 bytes'",,,,
-443,,,,claim,This indicates that the function now validates the input payload before proceeding with the rest of the operations.,,,,
-444,,,,issue,"line 16, col 35, ['binary'] is better written in dot notation.",,,,
-445,,,,issue,"line 17, col 34, ['binary'] is better written in dot notation.",,,,
-446,,,,issue,"line 12, col 9, 'Buffer' is not defined.",,,,
-447,,,,issue,"line 15, col 19, 'Buffer' is not defined.",,,,
-448,12941,3638,"@@ -93,7 +93,9 @@ export function coerceToVNode(possibleVNode) {
+,,,claim,It checks if the payload is not a buffer or if the length of the payload is not 20 bytes,,,,
+,,,claim,"If either of these conditions is true, it throws an error stating 'Payload must be 20 bytes'",,,,
+,,,claim,This indicates that the function now validates the input payload before proceeding with the rest of the operations.,,,,
+,,,issue,"line 16, col 35, ['binary'] is better written in dot notation.",,,,
+,,,issue,"line 17, col 34, ['binary'] is better written in dot notation.",,,,
+,,,issue,"line 12, col 9, 'Buffer' is not defined.",,,,
+,,,issue,"line 15, col 19, 'Buffer' is not defined.",,,,
+12941,3638,"@@ -93,7 +93,9 @@ export function coerceToVNode(possibleVNode) {
  
  	// Clone vnode if it has already been used. ceviche/#57
  	if (possibleVNode._dom!=null) {
@@ -1272,13 +1272,13 @@
  	}
  
  	return possibleVNode;",claim,The code change in the GIT DIFF modifies the way a new virtual node is created,,,test3638_old.js,test3638_new.js
-449,,,,claim,"Previously, the function `createVNode` was directly returned",,,,
-450,,,,claim,"Now, a new variable `vnode` is created and assigned the result of `createVNode`",,,,
-451,,,,claim,The `_dom` property of `vnode` is then set to the `_dom` property of `possibleVNode`,,,,
-452,,,,claim,The updated `vnode` is then returned,,,,
-453,,,,claim,This change allows for more control over the new virtual node's properties.,,,,
-454,,,,issue,"line 96, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-455,18980,1248,"@@ -669,6 +669,8 @@ const REGISTERED_HOOKS = [
+,,,claim,"Previously, the function `createVNode` was directly returned",,,,
+,,,claim,"Now, a new variable `vnode` is created and assigned the result of `createVNode`",,,,
+,,,claim,The `_dom` property of `vnode` is then set to the `_dom` property of `possibleVNode`,,,,
+,,,claim,The updated `vnode` is then returned,,,,
+,,,claim,This change allows for more control over the new virtual node's properties.,,,,
+,,,issue,"line 96, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+18980,1248,"@@ -669,6 +669,8 @@ const REGISTERED_HOOKS = [
     * @param {CellRange} sourceRange The range values will be filled from.
     * @param {CellRange} targetRange The range new values will be filled into.
     * @param {string} direction Declares the direction of the autofill. Possible values: `up`, `down`, `left`, `right`.
@@ -1287,9 +1287,9 @@
     */
    'afterAutofill',
  ",claim,The code change adds a new parameter to the 'afterAutofill' hook function,,,test1248_old.js,test1248_new.js
-456,,,,claim,"The new parameter, 'hasFillDataChanged', is a boolean that indicates whether the original fillData has been changed in the 'beforeAutofill' hook",,,,
-457,,,,claim,This suggests that the 'afterAutofill' hook now has an additional check to see if the fillData has been changed before autofill.,,,,
-458,7738,3225,"@@ -335,6 +335,8 @@ public class Camera extends Plugin {
+,,,claim,"The new parameter, 'hasFillDataChanged', is a boolean that indicates whether the original fillData has been changed in the 'beforeAutofill' hook",,,,
+,,,claim,This suggests that the 'afterAutofill' hook now has an additional check to see if the fillData has been changed before autofill.,,,,
+7738,3225,"@@ -335,6 +335,8 @@ public class Camera extends Plugin {
        returnBase64(call, exif, bitmapOutputStream);
      } else if (settings.getResultType() == CameraResultType.URI) {
        returnFileURI(call, exif, bitmap, u, bitmapOutputStream);
@@ -1298,9 +1298,9 @@
      } else {
        call.reject(INVALID_RESULT_TYPE_ERROR);
      }",claim,"The code change adds a new else-if block that checks if the result type is ""BASE64NOMETADATA""",,,test3225_old.js,test3225_new.js
-459,,,,claim,"If it is, the function ""returnBase64NoMetadata"" is called",,,,
-460,,,,claim,This suggests that the code now supports returning a base64 encoded image without metadata.,,,,
-461,11031,4668,"@@ -99,6 +99,10 @@ module.exports = function(config) {
+,,,claim,"If it is, the function ""returnBase64NoMetadata"" is called",,,,
+,,,claim,This suggests that the code now supports returning a base64 encoded image without metadata.,,,,
+11031,4668,"@@ -99,6 +99,10 @@ module.exports = function(config) {
  		customLaunchers: sauceLabs ? sauceLabsLaunchers : travisLaunchers,
  
  		files: [
@@ -1311,10 +1311,10 @@
  			{ pattern: 'polyfills.js', watched: false },
  			{ pattern: '{browser,shared}/**.js', watched: false }
  		],",claim,The code change adds a new block of code that defines a file pattern for 'custom-elements-es5-adapter.js',,,test4668_old.js,test4668_new.js
-462,,,,claim,This file is not included in the test files,,,,
-463,,,,claim,The comment explains that the file cannot be loaded upfront because it's in ES2015 and needed only for certain tests that run under those conditions,,,,
-464,,,,claim,It also cannot be loaded via CDN because { included: false } will not work.,,,,
-465,11947,1720,"@@ -34,6 +34,8 @@ function assertServerError (res) {
+,,,claim,This file is not included in the test files,,,,
+,,,claim,The comment explains that the file cannot be loaded upfront because it's in ES2015 and needed only for certain tests that run under those conditions,,,,
+,,,claim,It also cannot be loaded via CDN because { included: false } will not work.,,,,
+11947,1720,"@@ -34,6 +34,8 @@ function assertServerError (res) {
  }
  
  module.exports = class AwsS3Multipart extends Plugin {
@@ -1323,17 +1323,17 @@
    constructor (uppy, opts) {
      super(uppy, opts)
      this.type = 'uploader'",claim,The code change adds a new line that defines a static version property for the AwsS3Multipart class,,,test1720_old.js,test1720_new.js
-466,,,,claim,The version is retrieved from the package.json file located in the parent directory,,,,
-467,,,,claim,This indicates that the code now includes versioning information in the class.,,,,
-468,,,,issue,"line 36, col 18, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-469,,,,issue,"line 37, col 18, Class properties must be methods. Expected '(' but instead saw '='.",,,,
-470,,,,issue,"line 37, col 28, Expected an identifier and instead saw '../package.json'.",,,,
-471,,,,issue,"line 37, col 45, 'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option).",,,,
-472,,,,issue,"line 37, col 46, Expected an identifier and instead saw '.'.",,,,
-473,,,,issue,"line 39, col 3, Class properties must be methods. Expected '(' but instead saw 'constructor'.",,,,
-474,,,,issue,"line 40, col 22, Missing semicolon.",,,,
-475,,,,issue,"line 41, col 27, Missing semicolon.",,,,
-476,12081,4891,"@@ -10,6 +10,17 @@ export function extend(obj, props) {
+,,,claim,The version is retrieved from the package.json file located in the parent directory,,,,
+,,,claim,This indicates that the code now includes versioning information in the class.,,,,
+,,,issue,"line 36, col 18, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 37, col 18, Class properties must be methods. Expected '(' but instead saw '='.",,,,
+,,,issue,"line 37, col 28, Expected an identifier and instead saw '../package.json'.",,,,
+,,,issue,"line 37, col 45, 'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option).",,,,
+,,,issue,"line 37, col 46, Expected an identifier and instead saw '.'.",,,,
+,,,issue,"line 39, col 3, Class properties must be methods. Expected '(' but instead saw 'constructor'.",,,,
+,,,issue,"line 40, col 22, Missing semicolon.",,,,
+,,,issue,"line 41, col 27, Missing semicolon.",,,,
+12081,4891,"@@ -10,6 +10,17 @@ export function extend(obj, props) {
  	return obj;
  }
  
@@ -1351,14 +1351,14 @@
  /**
   * Call a function asynchronously, as soon as possible. Makes
   * use of HTML Promise to schedule the callback if available,",claim,"The GIT DIFF shows that a new function named ""applyRef"" has been added to the code",,,test4891_old.js,test4891_new.js
-477,,,,claim,"This function takes two parameters, a reference and a value, and applies the value to the reference",,,,
-478,,,,claim,The reference can be either a function or an object reference,,,,
-479,,,,claim,"If the reference is a function, it is invoked with the value",,,,
-480,,,,claim,"If the reference is an object reference, the ""current"" property of the reference is updated with the value",,,,
-481,,,,claim,"If the reference is null, the function does nothing",,,,
-482,,,,claim,This function is used to handle and update references in a flexible manner.,,,,
-483,,,,issue,"line 17, col 1, 'export' is only available in ES6 (use 'esversion: 6').",,,,
-484,11101,15,"@@ -1,8 +1,6 @@
+,,,claim,"This function takes two parameters, a reference and a value, and applies the value to the reference",,,,
+,,,claim,The reference can be either a function or an object reference,,,,
+,,,claim,"If the reference is a function, it is invoked with the value",,,,
+,,,claim,"If the reference is an object reference, the ""current"" property of the reference is updated with the value",,,,
+,,,claim,"If the reference is null, the function does nothing",,,,
+,,,claim,This function is used to handle and update references in a flexible manner.,,,,
+,,,issue,"line 17, col 1, 'export' is only available in ES6 (use 'esversion: 6').",,,,
+11101,15,"@@ -1,8 +1,6 @@
  /*exported DqElement */
  
  function truncate(str, maxLength) {
@@ -1367,8 +1367,8 @@
  	maxLength = maxLength || 300;
  
  	if (str.length > maxLength) {",claim,"The code change represented by the GIT DIFF removes a line of code that was previously used to enable strict mode in the function ""truncate""",,,test15_old.js,test15_new.js
-485,,,,claim,"This means that the function will now run in a more strict mode, which can help catch errors and prevent potential issues.",,,,
-486,15194,8052,"@@ -368,6 +368,15 @@ function processNewChange(args) {
+,,,claim,"This means that the function will now run in a more strict mode, which can help catch errors and prevent potential issues.",,,,
+15194,8052,"@@ -368,6 +368,15 @@ function processNewChange(args) {
    const change = args.change;
    const callback = args.callback;
    const eventEmitter = args.eventEmitter || false;
@@ -1384,18 +1384,18 @@
    const topology = changeStream.topology;
    const options = changeStream.cursor.options;
  ",claim,The code change adds a new conditional block that checks if the change stream is closed,,,test8052_old.js,test8052_new.js
-487,,,,claim,"If the change stream is closed, it checks if the event emitter is present",,,,
-488,,,,claim,"If the event emitter is present, it returns immediately",,,,
-489,,,,claim,"If the event emitter is not present, it creates an error object with the message 'ChangeStream is closed' and checks the type of the callback",,,,
-490,,,,claim,"If the callback is a function, it returns the error object",,,,
-491,,,,claim,"If the callback is not a function, it rejects the error object using the promise library.",,,,
-492,,,,issue,"line 368, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-493,,,,issue,"line 369, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-494,,,,issue,"line 370, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-495,,,,issue,"line 375, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-496,,,,issue,"line 380, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-497,,,,issue,"line 381, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-498,20131,8014,"@@ -0,0 +1,18 @@
+,,,claim,"If the change stream is closed, it checks if the event emitter is present",,,,
+,,,claim,"If the event emitter is present, it returns immediately",,,,
+,,,claim,"If the event emitter is not present, it creates an error object with the message 'ChangeStream is closed' and checks the type of the callback",,,,
+,,,claim,"If the callback is a function, it returns the error object",,,,
+,,,claim,"If the callback is not a function, it rejects the error object using the promise library.",,,,
+,,,issue,"line 368, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 369, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 370, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 375, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 380, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 381, col 3, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+20131,8014,"@@ -0,0 +1,18 @@
 +import path from 'path';
 +import execa from 'execa';
 +import {
@@ -1414,18 +1414,18 @@
 +    process.exit(error.exitCode);
 +  }
 +})());",claim,The GIT DIFF shows that a new file has been added,,,test8014_old.js,test8014_new.js
-499,,,,claim,"This file imports the 'path' and 'execa' modules, and the 'displayErrorMessage' function from the 'console.mjs' script in the 'scripts/utils' directory",,,,
-500,,,,claim,,,,,
-501,,,,claim,A new asynchronous function is then defined,,,,
-502,,,,claim,"Within this function, an 'execa' command is run to swap package links",,,,
-503,,,,claim,"The 'cwd' option is set to the parent directory of the current working directory, and the 'stdio' option is set to 'inherit', which means that the standard input, output, and error will be inherited from the parent process",,,,
-504,,,,claim,,,,,
-505,,,,claim,"If an error occurs during this operation, the 'displayErrorMessage",,,,
-506,,,,issue,"line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-507,,,,issue,"line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-508,,,,issue,"line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-509,,,,issue,"line 7, col 3, 'async functions' is only available in ES8 (use 'esversion: 8').",,,,
-510,15120,9835,"@@ -7,7 +7,9 @@ module.exports = {
+,,,claim,"This file imports the 'path' and 'execa' modules, and the 'displayErrorMessage' function from the 'console.mjs' script in the 'scripts/utils' directory",,,,
+,,,claim,,,,,
+,,,claim,A new asynchronous function is then defined,,,,
+,,,claim,"Within this function, an 'execa' command is run to swap package links",,,,
+,,,claim,"The 'cwd' option is set to the parent directory of the current working directory, and the 'stdio' option is set to 'inherit', which means that the standard input, output, and error will be inherited from the parent process",,,,
+,,,claim,,,,,
+,,,claim,"If an error occurs during this operation, the 'displayErrorMessage",,,,
+,,,issue,"line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 7, col 3, 'async functions' is only available in ES8 (use 'esversion: 8').",,,,
+15120,9835,"@@ -7,7 +7,9 @@ module.exports = {
    },
    extends: [
      'airbnb',
@@ -1436,10 +1436,10 @@
      'prettier',
      'prettier/@typescript-eslint',
      'plugin:prettier/recommended',",claim,The code change in the GIT DIFF replaces a single line of code with three new lines,,,test9835_old.js,test9835_new.js
-511,,,,claim,"The removed line was importing the ""@typescript-eslint/recommended"" plugin from the eslint configuration",,,,
-512,,,,claim,"The added lines are importing ""eslint:recommended"", ""plugin:@typescript-eslint/eslint-recommended"", and ""plugin:@typescript-eslint/recommended"" from the eslint configuration",,,,
-513,,,,claim,"This suggests that the code is now using a more comprehensive set of rules from the eslint configuration, including both the core eslint recommended rules and the typescript-specific rules.",,,,
-514,13439,5492,"@@ -0,0 +1,18 @@
+,,,claim,"The removed line was importing the ""@typescript-eslint/recommended"" plugin from the eslint configuration",,,,
+,,,claim,"The added lines are importing ""eslint:recommended"", ""plugin:@typescript-eslint/eslint-recommended"", and ""plugin:@typescript-eslint/recommended"" from the eslint configuration",,,,
+,,,claim,"This suggests that the code is now using a more comprehensive set of rules from the eslint configuration, including both the core eslint recommended rules and the typescript-specific rules.",,,,
+13439,5492,"@@ -0,0 +1,18 @@
 +/* global dom */
 +
 +/**
@@ -1458,15 +1458,15 @@
 +	});
 +	return focusableElms;
 +};",claim,"The GIT DIFF shows the addition of a new function named ""getFocusableElements"" in the ""dom"" object",,,test5492_old.js,test5492_new.js
-515,,,,claim,"This function takes a ""virtualNode"" as an argument and returns all focusable elements from that node",,,,
-516,,,,claim,"It uses the ""querySelectorAll"" function to get all descendents of the node and then filters out the non-focusable elements",,,,
-517,,,,claim,The function is documented with a comment block that describes its purpose and usage.,,,,
-518,,,,issue,"line 12, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-519,,,,issue,"line 13, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-520,,,,issue,"line 13, col 46, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-521,,,,issue,"line 13, col 65, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-522,,,,issue,"line 14, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-523,18070,8514,"@@ -1,8 +1,10 @@
+,,,claim,"This function takes a ""virtualNode"" as an argument and returns all focusable elements from that node",,,,
+,,,claim,"It uses the ""querySelectorAll"" function to get all descendents of the node and then filters out the non-focusable elements",,,,
+,,,claim,The function is documented with a comment block that describes its purpose and usage.,,,,
+,,,issue,"line 12, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 13, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 13, col 46, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 13, col 65, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 14, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+18070,8514,"@@ -1,8 +1,10 @@
 +import {CREDENTIALS} from ""../config.func"";
 +
  module.exports = function(server) {
@@ -1478,11 +1478,11 @@
        });
      });
  ",claim,The code changes include the import of the CREDENTIALS from the config.func file,,,test8514_old.js,test8514_new.js
-524,,,,claim,The test case for 'who am I?' now expects the username to match the user from the CREDENTIALS object instead of the string 'test',,,,
-525,,,,claim,This suggests that the test is now using a more dynamic and secure way to get the expected username.,,,,
-526,,,,issue,"line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-527,,,,issue,"line 5, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-528,10224,1903,"@@ -214,7 +214,7 @@ describe('Components', () => {
+,,,claim,The test case for 'who am I?' now expects the username to match the user from the CREDENTIALS object instead of the string 'test',,,,
+,,,claim,This suggests that the test is now using a more dynamic and secure way to get the expected username.,,,,
+,,,issue,"line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 5, col 24, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+10224,1903,"@@ -214,7 +214,7 @@ describe('Components', () => {
  
  		let good, bad;
  		let root = render(<GoodContainer ref={c=>good=c} />, scratch);
@@ -1491,9 +1491,9 @@
  		expect(Comp.prototype.componentWillMount).to.have.been.calledTwice;
  		expect(sideEffect).to.have.been.calledTwice;
  ",claim,The code change in the GIT DIFF replaces an existing line of code,,,test1903_old.js,test1903_new.js
-529,,,,claim,"The replaced line of code now uses ""scratch.textContent"" instead of ""scratch.innerText"" to check the content of the scratch",,,,
-530,,,,claim,"This change suggests that the content of the scratch is now being checked using the text content of the scratch, rather than the inner text.",,,,
-531,11790,5582,"@@ -0,0 +1,13 @@
+,,,claim,"The replaced line of code now uses ""scratch.textContent"" instead of ""scratch.innerText"" to check the content of the scratch",,,,
+,,,claim,"This change suggests that the content of the scratch is now being checked using the text content of the scratch, rather than the inner text.",,,,
+11790,5582,"@@ -0,0 +1,13 @@
 +/**
 + * Returns the tagName,
 + * if it is a HTMLElement it gets lowercased
@@ -1507,11 +1507,11 @@
 +
 +	return node.tagName;
 +};",claim,"The GIT DIFF shows the addition of a new function named ""getTagName"" in the ""axe.utils"" object",,,test5582_old.js,test5582_new.js
-532,,,,claim,This function takes an element as a parameter and returns the tagName of the element,,,,
-533,,,,claim,"If the element is an HTML element with the namespace URI 'http://www.w3.org/1999/xhtml', the function returns the lowercased tagName",,,,
-534,,,,claim,"Otherwise, it returns the tagName as is",,,,
-535,,,,claim,This function is used to normalize the tagName of an element.,,,,
-536,15739,1189,"@@ -142,7 +142,11 @@ class EditorManager {
+,,,claim,This function takes an element as a parameter and returns the tagName of the element,,,,
+,,,claim,"If the element is an HTML element with the namespace URI 'http://www.w3.org/1999/xhtml', the function returns the lowercased tagName",,,,
+,,,claim,"Otherwise, it returns the tagName as is",,,,
+,,,claim,This function is used to normalize the tagName of an element.,,,,
+15739,1189,"@@ -142,7 +142,11 @@ class EditorManager {
  
      if (editorClass) {
        this.activeEditor = getEditorInstance(editorClass, this.instance);
@@ -1523,11 +1523,11 @@
        this.activeEditor.prepare(row, col, prop, td, originalValue, cellProperties);
  
      } else {",claim,The code changes include the addition of four lines,,,test1189_old.js,test1189_new.js
-537,,,,claim,These lines are setting the row and column properties of the active editor before and after calling the getEditedCell method,,,,
-538,,,,claim,This suggests that the getEditedCell method requires these properties to be set before it can be called,,,,
-539,,,,claim,The lines also restore the un-initialized state of the row and column properties of the active editor after calling the getEditedCell method.,,,,
-540,,,,issue,"line 147, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-541,14227,6840,"@@ -57,8 +57,10 @@ module Selenium
+,,,claim,These lines are setting the row and column properties of the active editor before and after calling the getEditedCell method,,,,
+,,,claim,This suggests that the getEditedCell method requires these properties to be set before it can be called,,,,
+,,,claim,The lines also restore the un-initialized state of the row and column properties of the active editor after calling the getEditedCell method.,,,,
+,,,issue,"line 147, col 7, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+14227,6840,"@@ -57,8 +57,10 @@ module Selenium
      #
      # @return [Driver]
      #
@@ -1539,10 +1539,10 @@
      # @see Selenium::WebDriver::IE::Bridge
      # @see Selenium::WebDriver::Edge::Bridge
      # @see Selenium::WebDriver::Chrome::Bridge",claim,The code changes in the GIT DIFF show that three lines of code have been replaced,,,test6840_old.js,test6840_new.js
-542,,,,claim,"The original line that was commented out was ""# @see Selenium::WebDriver::Remote::Bridge""",,,,
-543,,,,claim,"The new lines of code replace this comment and suggest three different classes: ""Selenium::WebDriver::Remote::OSSBridge"", ""Selenium::WebDriver::Remote::W3CBridge"", and ""Selenium::WebDriver::Firefox::W3CBridge""",,,,
-544,,,,claim,"This suggests that the code is now referring to these three different classes instead of the original ""Selenium::WebDriver::Remote::Bridge"".",,,,
-545,7808,3281,"@@ -33,7 +33,7 @@ export default Controller.extend(SettingsSaveMixin, {
+,,,claim,"The original line that was commented out was ""# @see Selenium::WebDriver::Remote::Bridge""",,,,
+,,,claim,"The new lines of code replace this comment and suggest three different classes: ""Selenium::WebDriver::Remote::OSSBridge"", ""Selenium::WebDriver::Remote::W3CBridge"", and ""Selenium::WebDriver::Firefox::W3CBridge""",,,,
+,,,claim,"This suggests that the code is now referring to these three different classes instead of the original ""Selenium::WebDriver::Remote::Bridge"".",,,,
+7808,3281,"@@ -33,7 +33,7 @@ export default Controller.extend(SettingsSaveMixin, {
      }),
  
      iconImageSource: computed('model.icon', function () {
@@ -1551,10 +1551,10 @@
      }),
  
      coverImageSource: computed('model.cover', function () {",claim,The code change in the GIT DIFF modifies the default value returned by the 'iconImageSource' computed property,,,test3281_old.js,test3281_new.js
-546,,,,claim,"Previously, if 'model.icon' was null or undefined, an empty string would be returned",,,,
-547,,,,claim,"Now, the default value is '/favicon.ico'",,,,
-548,,,,claim,This suggests that the code now uses a fallback icon when 'model.icon' is not set.,,,,
-549,14132,7043,"@@ -6,7 +6,7 @@ var attr,
+,,,claim,"Previously, if 'model.icon' was null or undefined, an empty string would be returned",,,,
+,,,claim,"Now, the default value is '/favicon.ico'",,,,
+,,,claim,This suggests that the code now uses a fallback icon when 'model.icon' is not set.,,,,
+14132,7043,"@@ -6,7 +6,7 @@ var attr,
  	attrName,
  	allowed,
  	role = node.getAttribute('role'),
@@ -1563,29 +1563,29 @@
  
  if (!role) {
  	role = axe.commons.aria.implicitRole(node);",claim,The code change in the GIT DIFF replaces an existing line of code,,,test7043_old.js,test7043_new.js
-550,,,,claim,"Instead of assigning the attributes of the node to the variable ""attrs"", the new line of code now uses the function ""axe.utils.getNodeAttributes(node)"" to retrieve the attributes of the node",,,,
-551,,,,claim,This suggests that the code is now using a different method to get the node attributes.,,,,
-552,30935,9280,"@@ -1,3 +1,4 @@
+,,,claim,"Instead of assigning the attributes of the node to the variable ""attrs"", the new line of code now uses the function ""axe.utils.getNodeAttributes(node)"" to retrieve the attributes of the node",,,,
+,,,claim,This suggests that the code is now using a different method to get the node attributes.,,,,
+30935,9280,"@@ -1,3 +1,4 @@
 +/* eslint-disable sitekit/camelcase-acronyms */
  /**
   * Profile Select component tests.
   *",claim,The code change represented by the GIT DIFF adds a new line of code that disables the ESLint rule for camelcase acronyms,,,test9280_old.js,test9280_new.js
-553,,,,claim,This means that the code will not enforce the rule that requires acronyms to be written in camelcase.,,,,
-554,40481,6733,"@@ -0,0 +1,6 @@
+,,,claim,This means that the code will not enforce the rule that requires acronyms to be written in camelcase.,,,,
+40481,6733,"@@ -0,0 +1,6 @@
 +const jestConfig = require( './jest.config' );
 +
 +module.exports = {
 +	...jestConfig,
 +	testMatch: [ '<rootDir>/.storybook/?(*.)test.js' ],
 +};",claim,The GIT DIFF shows that a new file has been added,,,test6733_old.js,test6733_new.js
-555,,,,claim,"This file is a configuration file for Jest, a testing framework",,,,
-556,,,,claim,The added code imports the Jest configuration from './jest.config' and then exports a new configuration object,,,,
-557,,,,claim,The new configuration object extends the Jest configuration and replaces the 'testMatch' property with a new array that only includes files matching the pattern '<rootDir>/.storybook/?(*.)test.js',,,,
-558,,,,claim,This suggests that the new configuration is specifically tailored for testing files in the '.storybook' directory.,,,,
-559,,,,issue,"line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-560,,,,issue,"line 4, col 5, 'spread operator' is only available in ES6 (use 'esversion: 6').",,,,
-561,,,,issue,"line 4, col 8, 'object spread property' is only available in ES9 (use 'esversion: 9').",,,,
-562,35316,2139,"@@ -43,13 +43,16 @@ import { isZeroReport } from '../../modules/search-console/util/is-zero-report';
+,,,claim,"This file is a configuration file for Jest, a testing framework",,,,
+,,,claim,The added code imports the Jest configuration from './jest.config' and then exports a new configuration object,,,,
+,,,claim,The new configuration object extends the Jest configuration and replaces the 'testMatch' property with a new array that only includes files matching the pattern '<rootDir>/.storybook/?(*.)test.js',,,,
+,,,claim,This suggests that the new configuration is specifically tailored for testing files in the '.storybook' directory.,,,,
+,,,issue,"line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 4, col 5, 'spread operator' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 4, col 8, 'object spread property' is only available in ES9 (use 'esversion: 9').",,,,
+35316,2139,"@@ -43,13 +43,16 @@ import { isZeroReport } from '../../modules/search-console/util/is-zero-report';
  import sumObjectListValue from '../../util/sum-object-list-value';
  const { useSelect } = Data;
  
@@ -1603,23 +1603,23 @@
  		startDate: compareStartDate,
  		endDate,
  		dimensions: 'date',",claim,"The code changes involve the declaration of the variable ""reportArgs""",,,test2139_old.js,test2139_new.js
-563,,,,claim,"Initially, it was declared as a constant, but the changes include the addition of a comment explaining that ""reportArgs"" is declared in this higher scope so that it can be used by the ""hasData"" function",,,,
-564,,,,claim,"The variable is then re-declared as a let, which means it can be reassigned, but its value cannot be changed",,,,
-565,,,,claim,"The assignment of the object to ""reportArgs"" remains the same.",,,,
-566,,,,issue,"line 43, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
-567,,,,issue,"line 44, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-568,,,,issue,"line 44, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-569,,,,issue,"line 47, col 1, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-570,,,,issue,"line 49, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-571,,,,issue,"line 49, col 24, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-572,,,,issue,"line 49, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-573,,,,issue,"line 50, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-574,,,,issue,"line 50, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-575,,,,issue,"line 51, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-576,,,,issue,"line 51, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-577,,,,issue,"line 51, col 63, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
-578,,,,issue,"line 57, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
-579,10955,9691,"@@ -24,6 +24,8 @@ describe('th-has-data-cells', function () {
+,,,claim,"Initially, it was declared as a constant, but the changes include the addition of a comment explaining that ""reportArgs"" is declared in this higher scope so that it can be used by the ""hasData"" function",,,,
+,,,claim,"The variable is then re-declared as a let, which means it can be reassigned, but its value cannot be changed",,,,
+,,,claim,"The assignment of the object to ""reportArgs"" remains the same.",,,,
+,,,issue,"line 43, col 1, 'import' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 44, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 44, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 47, col 1, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 49, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 49, col 24, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 49, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 50, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 50, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 51, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 51, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+,,,issue,"line 51, col 63, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').",,,,
+,,,issue,"line 57, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).",,,,
+10955,9691,"@@ -24,6 +24,8 @@ describe('th-has-data-cells', function () {
  			'<table>' +
  			'  <tr> <th>hi</th> <td>hello</td> </tr>' +
  			'  <tr> <th>hi</th> <td>hello</td> </tr>' +
@@ -1628,10 +1628,10 @@
  			'</table>';
  
  		var node = fixture.querySelector('table');",claim,The code change adds two new lines to the HTML string that is being created,,,test9691_old.js,test9691_new.js
-580,,,,claim,These new lines are rows in a table with two cells,,,,
-581,,,,claim,"The first cell contains the text ""hello"" and the second cell contains the text ""hi""",,,,
-582,,,,claim,This change suggests that the structure of the table has been modified to allow for a different order of elements in the rows.,,,,
-583,14581,3981,"@@ -1268,7 +1268,13 @@ var AppRouter = Backbone.Router.extend({
+,,,claim,These new lines are rows in a table with two cells,,,,
+,,,claim,"The first cell contains the text ""hello"" and the second cell contains the text ""hi""",,,,
+,,,claim,This change suggests that the structure of the table has been modified to allow for a different order of elements in the rows.,,,,
+14581,3981,"@@ -1268,7 +1268,13 @@ var AppRouter = Backbone.Router.extend({
          }
  
          // Init sidebar based on the current url
@@ -1646,12 +1646,12 @@
      },
      sidebar: {
          init: function() {",claim,The code change in the GIT DIFF replaces the existing line of code that was initializing the sidebar,,,test3981_old.js,test3981_new.js
-584,,,,claim,The new code now checks if the sideBarComponent exists before attempting to access it,,,,
-585,,,,claim,"If it does exist, it retrieves the selected menu item and the current link from the sideBarComponent's store",,,,
-586,,,,claim,It then checks if the selected menu item's URL is not equal to the current link,,,,
-587,,,,claim,"If it's not equal, it dispatches an action to update the selected menu item to null",,,,
-588,,,,claim,This change seems to be a safeguard against potential null errors or exceptions.,,,,
-589,13816,9317,"@@ -13,7 +13,8 @@ module.exports = function selectPopulatedFields(query) {
+,,,claim,The new code now checks if the sideBarComponent exists before attempting to access it,,,,
+,,,claim,"If it does exist, it retrieves the selected menu item and the current link from the sideBarComponent's store",,,,
+,,,claim,It then checks if the selected menu item's URL is not equal to the current link,,,,
+,,,claim,"If it's not equal, it dispatches an action to update the selected menu item to null",,,,
+,,,claim,This change seems to be a safeguard against potential null errors or exceptions.,,,,
+13816,9317,"@@ -13,7 +13,8 @@ module.exports = function selectPopulatedFields(query) {
      var userProvidedFields = query._userProvidedFields || {};
      if (query.selectedInclusively()) {
        for (i = 0; i < paths.length; ++i) {
@@ -1661,10 +1661,10 @@
            query.select(paths[i]);
          }
        }",claim,The code change in the GIT DIFF adds a new line to check if a path exists in the fields of the query,,,test9317_old.js,test9317_new.js
-590,,,,claim,It does this by assigning the value of query._fields[paths[i]] to the variable hasPath,,,,
-591,,,,claim,The condition for selecting a path has been updated to first check if the path exists in the fields and only then check if the path is in the user-provided fields,,,,
-592,,,,claim,This change ensures that the code only selects paths that exist in the fields and have been provided by the user.,,,,
-593,11121,1748,"@@ -11,7 +11,7 @@ if (typeof define === 'function' && define.amd) {
+,,,claim,It does this by assigning the value of query._fields[paths[i]] to the variable hasPath,,,,
+,,,claim,The condition for selecting a path has been updated to first check if the path exists in the fields and only then check if the path is in the user-provided fields,,,,
+,,,claim,This change ensures that the code only selects paths that exist in the fields and have been provided by the user.,,,,
+11121,1748,"@@ -11,7 +11,7 @@ if (typeof define === 'function' && define.amd) {
  	});
  }
  if (typeof module === 'object' && module.exports && typeof axeFunction.toString === 'function') {
@@ -1673,11 +1673,11 @@
      module.exports = axe;
  }
  if (typeof window.getComputedStyle === 'function') {",claim,The code change in the GIT DIFF modifies the source code of the 'axe' object,,,test1748_old.js,test1748_new.js
-594,,,,claim,"The original line of code was setting the 'source' property of the 'axe' object to the string representation of the 'axeFunction' function, with 'this' and 'this.document' as arguments",,,,
-595,,,,claim,The updated line of code now checks if the 'window' object is available before using it as an argument,,,,
-596,,,,claim,"If 'window' is available, it is used as the argument; otherwise, 'this' is used",,,,
-597,,,,claim,"This change ensures that the 'axe' object's source is correctly set, regardless of whether the 'window' object is available.",,,,
-598,14688,5898,"@@ -368,6 +368,8 @@ class RemoteConnection(object):
+,,,claim,"The original line of code was setting the 'source' property of the 'axe' object to the string representation of the 'axeFunction' function, with 'this' and 'this.document' as arguments",,,,
+,,,claim,The updated line of code now checks if the 'window' object is available before using it as an argument,,,,
+,,,claim,"If 'window' is available, it is used as the argument; otherwise, 'this' is used",,,,
+,,,claim,"This change ensures that the 'axe' object's source is correctly set, regardless of whether the 'window' object is available.",,,,
+14688,5898,"@@ -368,6 +368,8 @@ class RemoteConnection(object):
                  ('POST', '/session/$sessionId/window/rect'),
              Command.GET_WINDOW_RECT:
                  ('GET', '/session/$sessionId/window/rect'),
@@ -1686,5 +1686,5 @@
              Command.MAXIMIZE_WINDOW:
                  ('POST', '/session/$sessionId/window/$windowHandle/maximize'),
              Command.W3C_MAXIMIZE_WINDOW:",claim,"The code change adds a new command ""W3C_MINIMIZE_WINDOW"" to the RemoteConnection class",,,test5898_old.js,test5898_new.js
-599,,,,claim,This command is associated with the HTTP POST method and the endpoint '/session/$sessionId/window/minimize',,,,
-600,,,,claim,This suggests that the code now supports minimizing a window in a web application.,,,,
+,,,claim,This command is associated with the HTTP POST method and the endpoint '/session/$sessionId/window/minimize',,,,
+,,,claim,This suggests that the code now supports minimizing a window in a web application.,,,,

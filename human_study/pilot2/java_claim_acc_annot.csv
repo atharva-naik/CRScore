@@ -1,5 +1,5 @@
-,id,index,diff,type,claim/issue,correctness (1/0/-1),additional claims,old_file,new_file
-0,11540,8559,"@@ -100,6 +100,13 @@ class CppGenerator : public BaseGenerator {
+id,index,diff,type,claim/issue,correctness (1/0/-1),additional claims,old_file,new_file
+11540,8559,"@@ -100,6 +100,13 @@ class CppGenerator : public BaseGenerator {
  
      assert(!cur_name_space_);
  
@@ -13,10 +13,10 @@
      // Generate forward declarations for all structs/tables, since they may
      // have circular references.
      for (auto it = parser_.structs_.vec.begin();",claim,The code change adds a block of code that checks if the compiler is Microsoft Visual C++,,,test8559_old.java,test8559_new.java
-1,,,,claim,"If it is, it defines ""NOEXCEPT""",,,,
-2,,,,claim,"If it's not, it defines ""NOEXCEPT"" as ""noexcept""",,,,
-3,,,,claim,This change is likely made to handle different exception handling behaviors between different compilers.,,,,
-4,13139,1632,"@@ -46,7 +46,9 @@ public class HTMLTestResults {
+,,,claim,"If it is, it defines ""NOEXCEPT""",,,,
+,,,claim,"If it's not, it defines ""NOEXCEPT"" as ""noexcept""",,,,
+,,,claim,This change is likely made to handle different exception handling behaviors between different compilers.,,,,
+13139,1632,"@@ -46,7 +46,9 @@ public class HTMLTestResults {
    private final HTMLSuiteResult suite;
  
    private static final String HEADER = ""<html>\n"" +
@@ -27,10 +27,10 @@
        ""body, table {\n"" +
        ""    font-family: Verdana, Arial, sans-serif;\n"" +
        ""    font-size: 12;\n"" +",claim,The code change in the GIT DIFF modifies the HTML header of the HTMLTestResults class,,,test1632_old.java,test1632_new.java
-5,,,,claim,The original line that contained the opening head tag and the opening style tag has been replaced with three lines,,,,
-6,,,,claim,"The first line is the opening head tag, the second line is a meta tag specifying the character set as UTF-8, and the third line is the opening style tag",,,,
-7,,,,claim,This change ensures that the HTML document uses the UTF-8 character encoding.,,,,
-8,36178,312,"@@ -94,7 +94,7 @@ public abstract class Analyzer implements Closeable {
+,,,claim,The original line that contained the opening head tag and the opening style tag has been replaced with three lines,,,,
+,,,claim,"The first line is the opening head tag, the second line is a meta tag specifying the character set as UTF-8, and the third line is the opening style tag",,,,
+,,,claim,This change ensures that the HTML document uses the UTF-8 character encoding.,,,,
+36178,312,"@@ -94,7 +94,7 @@ public abstract class Analyzer implements Closeable {
     * Create a new Analyzer, reusing the same set of components per-thread
     * across calls to {@link #tokenStream(String, Reader)}. 
     */
@@ -39,9 +39,9 @@
      this(GLOBAL_REUSE_STRATEGY);
    }
  ",claim,The visibility of the constructor of the Analyzer class has been changed from public to protected,,,test312_old.java,test312_new.java
-9,,,,claim,This change indicates that the Analyzer class can now only be instantiated within its own package or subclasses,,,,
-10,,,,claim,"This is a change from the default package-private visibility of the class, which would allow instantiation within the same package but not outside the package.",,,,
-11,25866,9724,"@@ -25,7 +25,8 @@ public abstract class BftExtraDataCodec {
+,,,claim,This change indicates that the Analyzer class can now only be instantiated within its own package or subclasses,,,,
+,,,claim,"This is a change from the default package-private visibility of the class, which would allow instantiation within the same package but not outside the package.",,,,
+25866,9724,"@@ -25,7 +25,8 @@ public abstract class BftExtraDataCodec {
    protected enum EncodingType {
      ALL,
      EXCLUDE_COMMIT_SEALS,
@@ -51,9 +51,9 @@
    }
  
    private static final Logger LOG = LogManager.getLogger();",claim,"The code change in the GIT DIFF adds a new enumeration value ""EXCLUDE_CMS"" to the EncodingType enum",,,test9724_old.java,test9724_new.java
-12,,,,claim,"This new value is also commented out with a TODO note, suggesting that the current implementation does not support this new encoding type",,,,
-13,,,,claim,The comment also suggests that the functionality for this new encoding type could be achieved without changing the BftExtraDataCodec base class.,,,,
-14,32207,3861,"@@ -70,6 +70,9 @@ import org.apache.solr.core.CoreContainer;
+,,,claim,"This new value is also commented out with a TODO note, suggesting that the current implementation does not support this new encoding type",,,,
+,,,claim,The comment also suggests that the functionality for this new encoding type could be achieved without changing the BftExtraDataCodec base class.,,,,
+32207,3861,"@@ -70,6 +70,9 @@ import org.apache.solr.core.CoreContainer;
  import org.apache.solr.handler.admin.CollectionsHandler;
  import org.apache.solr.handler.component.HttpShardHandler;
  import org.apache.solr.logging.MDCLoggingContext;
@@ -63,12 +63,12 @@
  import org.apache.solr.store.shared.metadata.SharedShardMetadataController;
  import org.apache.solr.update.UpdateShardHandler;
  import org.apache.zookeeper.CreateMode;",claim,The code change represented by the GIT DIFF adds three new import statements to the code,,,test3861_old.java,test3861_new.java
-15,,,,claim,"These new imports are for the classes BlobDeleteManager, BlobDeleteProcessor, and SharedStoreManager from the package org.apache.solr.store.blob.process and org.apache.solr.store.shared respectively",,,,
-16,,,,claim,"This suggests that the updated code will be using these classes, possibly for handling blob deletion and shared store management.",,,,
-17,,,,issue,"line 73, UnnecessaryImport:	Unused import 'org.apache.solr.store.blob.process.BlobDeleteManager'",,,,
-18,,,,issue,"line 74, UnnecessaryImport:	Unused import 'org.apache.solr.store.blob.process.BlobDeleteProcessor'",,,,
-19,,,,issue,"line 75, UnnecessaryImport:	Unused import 'org.apache.solr.store.shared.SharedStoreManager'",,,,
-20,14946,3449,"@@ -48,8 +48,16 @@ import javax.net.ssl.SSLSocketFactory;
+,,,claim,"These new imports are for the classes BlobDeleteManager, BlobDeleteProcessor, and SharedStoreManager from the package org.apache.solr.store.blob.process and org.apache.solr.store.shared respectively",,,,
+,,,claim,"This suggests that the updated code will be using these classes, possibly for handling blob deletion and shared store management.",,,,
+,,,issue,"line 73, UnnecessaryImport:	Unused import 'org.apache.solr.store.blob.process.BlobDeleteManager'",,,,
+,,,issue,"line 74, UnnecessaryImport:	Unused import 'org.apache.solr.store.blob.process.BlobDeleteProcessor'",,,,
+,,,issue,"line 75, UnnecessaryImport:	Unused import 'org.apache.solr.store.shared.SharedStoreManager'",,,,
+14946,3449,"@@ -48,8 +48,16 @@ import javax.net.ssl.SSLSocketFactory;
   */
  public class SalesforceTLSSocketFactory extends SSLSocketFactory {
  
@@ -85,11 +85,11 @@
      public SalesforceTLSSocketFactory() throws KeyManagementException, NoSuchAlgorithmException {
          final SSLContext context = SSLContext.getInstance(""TLS"");
          context.init(null, null, null);",claim,The code changes include the addition of a private static instance of the SalesforceTLSSocketFactory class,,,test3449_old.java,test3449_new.java
-21,,,,claim,A public static method getInstance() has been added to the class,,,,
-22,,,,claim,"This method checks if the instance is null and, if it is, it creates a new instance of the SalesforceTLSSocketFactory class",,,,
-23,,,,claim,"This ensures that only one instance of the class exists, following the Singleton design pattern.",,,,
-24,,,,issue,"line 55, NonThreadSafeSingleton:	Singleton is not thread safe",,,,
-25,11455,3149,"@@ -39,6 +39,7 @@ public class ScriptDTO {
+,,,claim,A public static method getInstance() has been added to the class,,,,
+,,,claim,"This method checks if the instance is null and, if it is, it creates a new instance of the SalesforceTLSSocketFactory class",,,,
+,,,claim,"This ensures that only one instance of the class exists, following the Singleton design pattern.",,,,
+,,,issue,"line 55, NonThreadSafeSingleton:	Singleton is not thread safe",,,,
+11455,3149,"@@ -39,6 +39,7 @@ public class ScriptDTO {
      private final Boolean free;
      private final Boolean requiresPatch;
      private final String script;
@@ -97,8 +97,8 @@
  
      private ScriptDTO(Builder builder) {
          this.scriptName = builder.scriptName;",claim,"The code change adds a new private final URI variable named ""icon"" to the ScriptDTO class",,,test3149_old.java,test3149_new.java
-26,,,,claim,This suggests that the ScriptDTO class now has the ability to store a URI for an icon.,,,,
-27,39643,1995,"@@ -312,6 +312,7 @@ class DeleteFileIndex {
+,,,claim,This suggests that the ScriptDTO class now has the ability to store a URI for an icon.,,,,
+39643,1995,"@@ -312,6 +312,7 @@ class DeleteFileIndex {
    static class Builder {
      private final FileIO io;
      private final Set<ManifestFile> deleteManifests;
@@ -106,9 +106,9 @@
      private Map<Integer, PartitionSpec> specsById = null;
      private Expression dataFilter = Expressions.alwaysTrue();
      private Expression partitionFilter = Expressions.alwaysTrue();",claim,"The code change adds a new private long variable named ""minSequenceNumber"" and initializes it to 0",,,test1995_old.java,test1995_new.java
-28,,,,claim,"This suggests that the ""DeleteFileIndex"" class now has a new property to store the minimum sequence number.",,,,
-29,,,,issue,"line 315, UnusedPrivateField:	Avoid unused private fields such as 'minSequenceNumber'.",,,,
-30,15148,9644,"@@ -24,4 +24,7 @@ final class ChromeDriverCommand {
+,,,claim,"This suggests that the ""DeleteFileIndex"" class now has a new property to store the minimum sequence number.",,,,
+,,,issue,"line 315, UnusedPrivateField:	Avoid unused private fields such as 'minSequenceNumber'.",,,,
+15148,9644,"@@ -24,4 +24,7 @@ final class ChromeDriverCommand {
    private ChromeDriverCommand() {}
  
    static final String LAUNCH_APP = ""launchApp"";
@@ -116,8 +116,8 @@
 +      = ""sendCommandForDownloadChromeHeadLess"";
 +
  }",claim,"The code change adds a new static final string variable named ""SEND_COMMANDS_FOR_DOWNLOAD_CHROME_HEAD_LESS"" with the value ""sendCommandForDownloadChromeHeadLess""",,,test9644_old.java,test9644_new.java
-31,,,,claim,This suggests that a new command has been introduced in the ChromeDriverCommand class for downloading Chrome Headless.,,,,
-32,20250,1478,"@@ -12,6 +12,7 @@ import java.nio.charset.Charset;
+,,,claim,This suggests that a new command has been introduced in the ChromeDriverCommand class for downloading Chrome Headless.,,,,
+20250,1478,"@@ -12,6 +12,7 @@ import java.nio.charset.Charset;
  import java.security.MessageDigest;
  
  public class FastBlurTransformation extends BitmapTransformation {
@@ -125,9 +125,9 @@
  
      private static final String TAG = FastBlurTransformation.class.getSimpleName();
  ",claim,"The code change adds a new private static final string variable named ""ID"" with a value of ""de.danoeh.antennapod.core.glide.FastBlurTransformation""",,,test1478_old.java,test1478_new.java
-33,,,,claim,"This suggests that the code is now identifying itself with a unique ID, which can be useful for logging or debugging.",,,,
-34,,,,issue,"line 15, UnusedPrivateField:	Avoid unused private fields such as 'ID'.",,,,
-35,7950,8999,"@@ -66,7 +66,7 @@ public final class RegistryUtils {
+,,,claim,"This suggests that the code is now identifying itself with a unique ID, which can be useful for logging or debugging.",,,,
+,,,issue,"line 15, UnusedPrivateField:	Avoid unused private fields such as 'ID'.",,,,
+7950,8999,"@@ -66,7 +66,7 @@ public final class RegistryUtils {
      serviceRegistry.run();
    }
  
@@ -136,9 +136,9 @@
      serviceRegistry.destroy();
    }
  ",claim,The code change in the GIT DIFF is a simple correction of a typo,,,test8999_old.java,test8999_new.java
-36,,,,claim,"The method name ""destory"" has been corrected to ""destroy""",,,,
-37,,,,claim,This change is purely cosmetic and does not affect the functionality of the code.,,,,
-38,26626,9712,"@@ -44,7 +44,7 @@ public class SarOperation extends AbstractFixedCostOperation {
+,,,claim,"The method name ""destory"" has been corrected to ""destroy""",,,,
+,,,claim,This change is purely cosmetic and does not affect the functionality of the code.,,,,
+26626,9712,"@@ -44,7 +44,7 @@ public class SarOperation extends AbstractFixedCostOperation {
      } else {
        final int shiftAmountInt = shiftAmount.toInt();
  
@@ -147,10 +147,10 @@
          frame.pushStackItem(negativeNumber ? ALL_BITS : UInt256.ZERO);
        } else {
          // first perform standard shift right.",claim,The code change in the GIT DIFF modifies an existing conditional statement,,,test9712_old.java,test9712_new.java
-39,,,,claim,The original condition checked if the shiftAmountInt was greater than or equal to 256,,,,
-40,,,,claim,The updated condition adds an additional check to see if the shiftAmountInt is less than 0,,,,
-41,,,,claim,This means that the code now handles shifts that are either greater than or equal to 256 or less than 0.,,,,
-42,10635,7398,"@@ -58,6 +58,7 @@ public class MainController {
+,,,claim,The original condition checked if the shiftAmountInt was greater than or equal to 256,,,,
+,,,claim,The updated condition adds an additional check to see if the shiftAmountInt is less than 0,,,,
+,,,claim,This means that the code now handles shifts that are either greater than or equal to 256 or less than 0.,,,,
+10635,7398,"@@ -58,6 +58,7 @@ public class MainController {
          appsController.setOnAppLoaded(() -> {
              enginesController.loadEngines();
              containersController.loadContainers();
@@ -158,8 +158,8 @@
          });
  
          appsController.loadApps();",claim,"The code change adds a new line that calls the ""updateLibrary()"" method on the ""libraryController"" object",,,test7398_old.java,test7398_new.java
-43,,,,claim,This suggests that the library needs to be updated whenever the application loads.,,,,
-44,8470,1240,"@@ -57,7 +57,7 @@ import javax.lang.model.element.Name;
+,,,claim,This suggests that the library needs to be updated whenever the application loads.,,,,
+8470,1240,"@@ -57,7 +57,7 @@ import javax.lang.model.element.Name;
          name = ""CatchSpecificity"",
          link = ""https://github.com/palantir/gradle-baseline#baseline-error-prone-checks"",
          linkType = BugPattern.LinkType.CUSTOM,
@@ -168,8 +168,8 @@
          summary = ""Prefer more specific error types than Exception and Throwable. When methods are updated to throw new""
                  + "" checked exceptions they expect callers to handle failure types explicitly. Catching broad""
                  + "" types defeats the type system. By catching the most specific types possible we leverage""",claim,"The code change in the GIT DIFF modifies the severity level of a bug pattern from ""SUGGESTION"" to ""WARNING""",,,test1240_old.java,test1240_new.java
-45,,,,claim,This indicates a shift in the importance of the issue being reported.,,,,
-46,25703,7916,"@@ -103,7 +103,7 @@ import org.apache.tuweni.bytes.Bytes;
+,,,claim,This indicates a shift in the importance of the issue being reported.,,,,
+25703,7916,"@@ -103,7 +103,7 @@ import org.apache.tuweni.bytes.Bytes;
  import org.apache.tuweni.bytes.Bytes32;
  
  /** Provides EVMs supporting the appropriate operations for mainnet hard forks. */
@@ -178,8 +178,8 @@
  
    static EVM frontier(final GasCalculator gasCalculator) {
      final OperationRegistry registry = new OperationRegistry();",claim,"The visibility of the class ""MainnetEvmRegistries"" has been changed from package-private (default) to public",,,test7916_old.java,test7916_new.java
-47,,,,claim,"This change allows other classes to extend this class, which was not possible with the default visibility.",,,,
-48,35748,5948,"@@ -54,6 +54,11 @@ public class SolrPing extends SolrRequest<SolrPingResponse> {
+,,,claim,"This change allows other classes to extend this class, which was not possible with the default visibility.",,,,
+35748,5948,"@@ -54,6 +54,11 @@ public class SolrPing extends SolrRequest<SolrPingResponse> {
    public ModifiableSolrParams getParams() {
      return params;
    }
@@ -191,9 +191,9 @@
    
    /**
     * Remove the action parameter from this request. This will result in the same",claim,"The code change adds a new method called ""getRequestType"" to the ""SolrPing"" class",,,test5948_old.java,test5948_new.java
-49,,,,claim,"This method returns the string representation of ""SolrRequestType.QUERY""",,,,
-50,,,,claim,"This suggests that the ""getRequestType"" method is used to get the type of request, which in this case is a query.",,,,
-51,30560,478,"@@ -138,7 +138,7 @@ public class IndexSchema {
+,,,claim,"This method returns the string representation of ""SolrRequestType.QUERY""",,,,
+,,,claim,"This suggests that the ""getRequestType"" method is used to get the type of request, which in this case is a query.",,,,
+30560,478,"@@ -138,7 +138,7 @@ public class IndexSchema {
  
    protected List<SchemaField> fieldsWithDefaultValue = new ArrayList<>();
    protected Collection<SchemaField> requiredFields = new HashSet<>();
@@ -202,10 +202,10 @@
    public DynamicField[] getDynamicFields() { return dynamicFields; }
  
    protected Map<String, SchemaField> dynamicFieldCache = new ConcurrentHashMap<>();",claim,"The code change in the GIT DIFF modifies the initialization of the ""dynamicFields"" array",,,test478_old.java,test478_new.java
-52,,,,claim,"Originally, the ""dynamicFields"" array was declared as a protected volatile array",,,,
-53,,,,claim,"The updated code initializes the ""dynamicFields"" array with an empty array of DynamicField objects",,,,
-54,,,,claim,"This change suggests that the ""dynamicFields"" array is no longer a volatile variable and it is being initialized with a non-null value.",,,,
-55,6651,443,"@@ -38,7 +38,9 @@ public class NoUnusedPinCheckTask extends DefaultTask {
+,,,claim,"Originally, the ""dynamicFields"" array was declared as a protected volatile array",,,,
+,,,claim,"The updated code initializes the ""dynamicFields"" array with an empty array of DynamicField objects",,,,
+,,,claim,"This change suggests that the ""dynamicFields"" array is no longer a volatile variable and it is being initialized with a non-null value.",,,,
+6651,443,"@@ -38,7 +38,9 @@ public class NoUnusedPinCheckTask extends DefaultTask {
  
      @Input
      public final Set<String> getResolvedArtifacts() {
@@ -216,10 +216,10 @@
      }
  
      @InputFile",claim,The code change in the GIT DIFF replaces a single line of code with multiple lines,,,test443_old.java,test443_new.java
-56,,,,claim,The original line of code was retrieving the resolved artifacts from the BaselineVersions class for the project,,,,
-57,,,,claim,The new code is now retrieving the resolved artifacts for all projects and then flattening the results into a single set,,,,
-58,,,,claim,This change suggests that the task now needs to consider resolved artifacts for all projects instead of just the current project.,,,,
-59,16102,1338,"@@ -1616,4 +1616,9 @@ public class MessageList extends K9Activity implements MessageListFragmentListen
+,,,claim,The original line of code was retrieving the resolved artifacts from the BaselineVersions class for the project,,,,
+,,,claim,The new code is now retrieving the resolved artifacts for all projects and then flattening the results into a single set,,,,
+,,,claim,This change suggests that the task now needs to consider resolved artifacts for all projects instead of just the current project.,,,,
+16102,1338,"@@ -1616,4 +1616,9 @@ public class MessageList extends K9Activity implements MessageListFragmentListen
              }
          }
      }
@@ -229,9 +229,9 @@
 +        super.onConfigurationChanged(newConfig);
 +    }
  }",claim,"The code change adds a new method called ""onConfigurationChanged"" to the ""MessageList"" class",,,test1338_old.java,test1338_new.java
-60,,,,claim,"This method takes a ""Configuration"" object as a parameter and calls the superclass method ""onConfigurationChanged"" with the new configuration as the argument",,,,
-61,,,,claim,"This suggests that the ""MessageList"" class now has to define this method to handle configuration changes.",,,,
-62,13423,3052,"@@ -0,0 +1,17 @@
+,,,claim,"This method takes a ""Configuration"" object as a parameter and calls the superclass method ""onConfigurationChanged"" with the new configuration as the argument",,,,
+,,,claim,"This suggests that the ""MessageList"" class now has to define this method to handle configuration changes.",,,,
+13423,3052,"@@ -0,0 +1,17 @@
 +/**
 + * BSD-style license; for more info see http://pmd.sourceforge.net/license.html
 + */
@@ -249,10 +249,10 @@
 +     */
 +    Class<? extends RuleViolationFix> getRuleViolationFixer();
 +}",claim,The GIT DIFF shows that a new file has been added to the codebase,,,test3052_old.java,test3052_new.java
-63,,,,claim,"This file is a Java interface named ""AutoFixableRuleViolation"" which extends from ""RuleViolation""",,,,
-64,,,,claim,"The interface declares a single method ""getRuleViolationFixer"" which returns a class that extends from ""RuleViolationFix""",,,,
-65,,,,claim,The file also includes a license header and a comment block.,,,,
-66,16458,3317,"@@ -35,7 +35,7 @@ public class Container {
+,,,claim,"This file is a Java interface named ""AutoFixableRuleViolation"" which extends from ""RuleViolation""",,,,
+,,,claim,"The interface declares a single method ""getRuleViolationFixer"" which returns a class that extends from ""RuleViolationFix""",,,,
+,,,claim,The file also includes a license header and a comment block.,,,,
+16458,3317,"@@ -35,7 +35,7 @@ public class Container {
    private final ContainerId id;
  
    public Container(Function<HttpRequest, HttpResponse> client, ContainerId id) {
@@ -261,11 +261,11 @@
      this.client = Objects.requireNonNull(client);
      this.id = Objects.requireNonNull(id);
    }",claim,The code change in the GIT DIFF modifies the logging level of a specific log message,,,test3317_old.java,test3317_new.java
-67,,,,claim,"Originally, the log message ""Created container "" + id"" was logged at the INFO level",,,,
-68,,,,claim,"The code change now logs this message at the FINEST level, which is a lower level of severity",,,,
-69,,,,claim,This means that this specific log message will now only be logged when the system is in a more verbose mode.,,,,
-70,,,,issue,"line 38, GuardLogStatement:	Logger calls should be surrounded by log level guards.",,,,
-71,13732,6901,"@@ -138,6 +138,14 @@ public interface DataFile {
+,,,claim,"Originally, the log message ""Created container "" + id"" was logged at the INFO level",,,,
+,,,claim,"The code change now logs this message at the FINEST level, which is a lower level of severity",,,,
+,,,claim,This means that this specific log message will now only be logged when the system is in a more verbose mode.,,,,
+,,,issue,"line 38, GuardLogStatement:	Logger calls should be surrounded by log level guards.",,,,
+13732,6901,"@@ -138,6 +138,14 @@ public interface DataFile {
     */
    DataFile copy();
  
@@ -280,9 +280,9 @@
    /**
     * @return List of recommended split locations, if applicable, null otherwise.
     * When available, this information is used for planning scan tasks whose boundaries",claim,"The GIT DIFF shows that a new method named ""slimCopy"" has been added to the ""DataFile"" interface",,,test6901_old.java,test6901_new.java
-72,,,,claim,"This method returns a copy of the ""DataFile"" object but without any file statistics",,,,
-73,,,,claim,This is typically used when collecting files to avoid reusing data file instances and to copy data without file statistics.,,,,
-74,41655,8040,"@@ -76,6 +76,12 @@ public interface RewriteDataFiles extends SnapshotUpdate<RewriteDataFiles, Rewri
+,,,claim,"This method returns a copy of the ""DataFile"" object but without any file statistics",,,,
+,,,claim,This is typically used when collecting files to avoid reusing data file instances and to copy data without file statistics.,,,,
+41655,8040,"@@ -76,6 +76,12 @@ public interface RewriteDataFiles extends SnapshotUpdate<RewriteDataFiles, Rewri
     */
    String TARGET_FILE_SIZE_BYTES = ""target-file-size-bytes"";
  
@@ -295,9 +295,9 @@
    /**
     * Choose BINPACK as a strategy for this rewrite operation
     * @return this for method chaining",claim,"The GIT DIFF shows that a new constant, ""OPEN_FILE_COST"", has been added to the RewriteDataFiles interface",,,test8040_old.java,test8040_new.java
-75,,,,claim,"This constant appears to represent the estimated cost to open a file, which is used as a minimum weight when combining splits",,,,
-76,,,,claim,"By default, this will use the ""read.split.open-file-cost"" value in the table properties of the table being updated.",,,,
-77,22874,357,"@@ -153,6 +153,12 @@ public class Constants {
+,,,claim,"This constant appears to represent the estimated cost to open a file, which is used as a minimum weight when combining splits",,,,
+,,,claim,"By default, this will use the ""read.split.open-file-cost"" value in the table properties of the table being updated.",,,,
+22874,357,"@@ -153,6 +153,12 @@ public class Constants {
    // Overridable plugin load properties
    public static final String AZ_PLUGIN_LOAD_OVERRIDE_PROPS = ""azkaban.plugin.load.override.props"";
  
@@ -310,12 +310,12 @@
    /**
     * File containing param override configs
     * For a directory structure, property files in Proj_Dir used to have lower precedence than A.",claim,The code changes added two new lines of code,,,test357_old.java,test357_new.java
-78,,,,claim,The first line is a comment that explains the second line,,,,
-79,,,,claim,"The second line defines a new public static final string variable ""AZ_JOB_COMMAND_ARGS"" with the value ""azkaban.jvm.cmd.args""",,,,
-80,,,,claim,The third line is a comment that explains the fourth line,,,,
-81,,,,claim,"The fourth line defines a new public static final string variable ""AZ_JOB_IGNORE_JVM_ARGS"" with the value ""ignore.jvm.args""",,,,
-82,,,,claim,These changes suggest that the code now has the ability to append JVM arguments to job commands and ignore these JVM arguments for certain job types.,,,,
-83,33180,7605,"@@ -115,7 +115,7 @@ public final class ConstantScoreQuery extends Query {
+,,,claim,The first line is a comment that explains the second line,,,,
+,,,claim,"The second line defines a new public static final string variable ""AZ_JOB_COMMAND_ARGS"" with the value ""azkaban.jvm.cmd.args""",,,,
+,,,claim,The third line is a comment that explains the fourth line,,,,
+,,,claim,"The fourth line defines a new public static final string variable ""AZ_JOB_IGNORE_JVM_ARGS"" with the value ""ignore.jvm.args""",,,,
+,,,claim,These changes suggest that the code now has the ability to append JVM arguments to job commands and ignore these JVM arguments for certain job types.,,,,
+33180,7605,"@@ -115,7 +115,7 @@ public final class ConstantScoreQuery extends Query {
        return new ConstantScoreWeight(this, boost) {
          @Override
          public BulkScorer bulkScorer(LeafReaderContext context) throws IOException {
@@ -324,9 +324,9 @@
              return super.bulkScorer(context);
            }
            final BulkScorer innerScorer = innerWeight.bulkScorer(context);",claim,The code change in the GIT DIFF modifies an existing conditional statement,,,test7605_old.java,test7605_new.java
-84,,,,claim,"The condition now checks if the score mode is either ""TOP_SCORES"", ""TOP_DOCS"", or ""TOP_DOCS_WITH_SCORES""",,,,
-85,,,,claim,"This suggests that the code block within this condition will now be executed for these three score modes instead of just the ""TOP_SCORES"" mode.",,,,
-86,13755,2819,"@@ -5,7 +5,7 @@
+,,,claim,"The condition now checks if the score mode is either ""TOP_SCORES"", ""TOP_DOCS"", or ""TOP_DOCS_WITH_SCORES""",,,,
+,,,claim,"This suggests that the code block within this condition will now be executed for these three score modes instead of just the ""TOP_SCORES"" mode.",,,,
+13755,2819,"@@ -5,7 +5,7 @@
  
  package net.sourceforge.pmd.lang.java.ast;
  
@@ -335,10 +335,10 @@
      public ASTMethodDeclarator(int id) {
          super(id);
      }",claim,The code change in the GIT DIFF represents a change in the class that ASTMethodDeclarator extends,,,test2819_old.java,test2819_new.java
-87,,,,claim,"Originally, it extended AbstractJavaNode",,,,
-88,,,,claim,"Now, it extends AbstractJavaAccessNode",,,,
-89,,,,claim,"This suggests a change in the functionality of the ASTMethodDeclarator class, possibly to include more access-related functionality.",,,,
-90,13587,9437,"@@ -1656,7 +1656,7 @@ class TargetLocator {
+,,,claim,"Originally, it extended AbstractJavaNode",,,,
+,,,claim,"Now, it extends AbstractJavaAccessNode",,,,
+,,,claim,"This suggests a change in the functionality of the ASTMethodDeclarator class, possibly to include more access-related functionality.",,,,
+13587,9437,"@@ -1656,7 +1656,7 @@ class TargetLocator {
    window(nameOrHandle) {
      return this.driver_.schedule(
          new command.Command(command.Name.SWITCH_TO_WINDOW).
@@ -347,9 +347,9 @@
          'WebDriver.switchTo().window(' + nameOrHandle + ')');
    }
  ",claim,"The code change in the GIT DIFF modifies a line of code in the ""window"" function of the ""TargetLocator"" class",,,test9437_old.java,test9437_new.java
-91,,,,claim,"The parameter of the ""setParameter"" function has been changed from ""name"" to ""handle""",,,,
-92,,,,claim,This suggests a change in the way the window is being referenced or handled in the code.,,,,
-93,39256,8687,"@@ -79,6 +79,7 @@ final class IndexingChain implements Accountable {
+,,,claim,"The parameter of the ""setParameter"" function has been changed from ""name"" to ""handle""",,,,
+,,,claim,This suggests a change in the way the window is being referenced or handled in the code.,,,,
+39256,8687,"@@ -79,6 +79,7 @@ final class IndexingChain implements Accountable {
  
    // Holds fields seen in each document
    private PerField[] fields = new PerField[1];
@@ -357,9 +357,9 @@
    private final InfoStream infoStream;
    private final ByteBlockPool.Allocator byteBlockAllocator;
    private final LiveIndexWriterConfig indexWriterConfig;",claim,"The code change adds a new private PerField array named ""docFields"" with a size of 10",,,test8687_old.java,test8687_new.java
-94,,,,claim,"This suggests that the ""IndexingChain"" class now has a new attribute to store fields seen in each document.",,,,
-95,,,,issue,"line 82, UnusedPrivateField:	Avoid unused private fields such as 'docFields'.",,,,
-96,43350,9274,"@@ -48,8 +48,12 @@ public class Pids extends AbstractApiBean {
+,,,claim,"This suggests that the ""IndexingChain"" class now has a new attribute to store fields seen in each document.",,,,
+,,,issue,"line 82, UnusedPrivateField:	Avoid unused private fields such as 'docFields'.",,,,
+43350,9274,"@@ -48,8 +48,12 @@ public class Pids extends AbstractApiBean {
          String baseUrl = systemConfig.getDataCiteRestApiUrlString();
          String username = System.getProperty(""doi.username"");
          String password = System.getProperty(""doi.password"");
@@ -374,9 +374,9 @@
      }
  
      @GET",claim,"The code change in the GIT DIFF adds a try-catch block to handle any exceptions that may occur when calling the ""queryDoi"" method from the ""PidUtil"" class",,,test9274_old.java,test9274_new.java
-97,,,,claim,"If an exception is caught, the method returns an error response with a status code of 400 and the localized message of the exception",,,,
-98,,,,claim,This change improves error handling in the code.,,,,
-99,13336,5933,"@@ -55,14 +55,7 @@ public final class HashMap<K, V> implements Map<K, V>, Serializable {
+,,,claim,"If an exception is caught, the method returns an error response with a status code of 400 and the localized message of the exception",,,,
+,,,claim,This change improves error handling in the code.,,,,
+13336,5933,"@@ -55,14 +55,7 @@ public final class HashMap<K, V> implements Map<K, V>, Serializable {
       * @return A {@link HashMap} Collector.
       */
      public static <K, V> Collector<Tuple2<K, V>, ArrayList<Tuple2<K, V>>, HashMap<K, V>> collector() {
@@ -392,10 +392,10 @@
      }
  
      /**",claim,The code change represented by the GIT DIFF removes a lot of lines of code that were previously defining a Collector for a HashMap,,,test5933_old.java,test5933_new.java
-100,,,,claim,"Instead, the code now uses a single line to return a Collector that converts a list of Tuple2 objects into a HashMap using the ofEntries method",,,,
-101,,,,claim,This is a more concise and readable way to define a Collector for a HashMap.,,,,
-102,,,,issue,"line 57, LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead",,,,
-103,11456,3102,"@@ -68,7 +68,6 @@ interface ArrayType<T> {
+,,,claim,"Instead, the code now uses a single line to return a Collector that converts a list of Tuple2 objects into a HashMap using the ofEntries method",,,,
+,,,claim,This is a more concise and readable way to define a Collector for a HashMap.,,,,
+,,,issue,"line 57, LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead",,,,
+11456,3102,"@@ -68,7 +68,6 @@ interface ArrayType<T> {
      /** Repeatedly group an array into equal sized sub-trees */
      default Object grouped(Object array, int groupSize) {
          final int arrayLength = lengthOf(array);
@@ -403,8 +403,8 @@
          final Object results = obj().newInstance(1 + ((arrayLength - 1) / groupSize));
          obj().setAt(results, 0, copyRange(array, 0, groupSize));
  ",claim,The code change represented by the GIT DIFF removes a line of code that was previously asserting that the length of the array was greater than the group size,,,test3102_old.java,test3102_new.java
-104,,,,claim,"This suggests that the code no longer requires this assertion, meaning that the group size can now be equal to or less than the array length.",,,,
-105,8687,6246,"@@ -63,6 +63,7 @@ public final class BaselineErrorProne implements Plugin<Project> {
+,,,claim,"This suggests that the code no longer requires this assertion, meaning that the group size can now be equal to or less than the array length.",,,,
+8687,6246,"@@ -63,6 +63,7 @@ public final class BaselineErrorProne implements Plugin<Project> {
      private static final Logger log = Logging.getLogger(BaselineErrorProne.class);
      public static final String EXTENSION_NAME = ""baselineErrorProne"";
      private static final String ERROR_PRONE_JAVAC_VERSION = ""9+181-r4173-1"";
@@ -412,9 +412,9 @@
      private static final String PROP_ERROR_PRONE_APPLY = ""errorProneApply"";
      private static final String PROP_REFASTER_APPLY = ""refasterApply"";
      private static final String DISABLE_PROPERY = ""com.palantir.baseline-error-prone.disable"";",claim,"The code change adds a new line that declares a private static final string variable named ""ASSERTJ_ERROR_PRONE_VERSION"" and initializes it with the value ""0.2.1""",,,test6246_old.java,test6246_new.java
-106,,,,claim,This suggests that the code now includes support for a specific version of the AssertJ Error Prone library.,,,,
-107,,,,issue,"line 66, UnusedPrivateField:	Avoid unused private fields such as 'ASSERTJ_ERROR_PRONE_VERSION'.",,,,
-108,43289,7905,"@@ -104,7 +104,6 @@ public class TableMigrationUtil {
+,,,claim,This suggests that the code now includes support for a specific version of the AssertJ Error Prone library.,,,,
+,,,issue,"line 66, UnusedPrivateField:	Avoid unused private fields such as 'ASSERTJ_ERROR_PRONE_VERSION'.",,,,
+43289,7905,"@@ -104,7 +104,6 @@ public class TableMigrationUtil {
                  .withMetrics(metrics)
                  .withPartitionPath(partitionKey)
                  .build();
@@ -422,8 +422,8 @@
            }).collect(Collectors.toList());
      } catch (IOException e) {
        throw new RuntimeException(""Unable to list files in partition: "" + partitionUri, e);",claim,The code change represented by the GIT DIFF removes an unnecessary line break in the code,,,test7905_old.java,test7905_new.java
-109,,,,claim,"This change does not affect the functionality of the code, but it improves readability and cleanliness of the code.",,,,
-110,36600,3914,"@@ -1174,7 +1174,8 @@ public final class SolrCore implements SolrInfoBean, Closeable {
+,,,claim,"This change does not affect the functionality of the code, but it improves readability and cleanliness of the code.",,,,
+36600,3914,"@@ -1174,7 +1174,8 @@ public final class SolrCore implements SolrInfoBean, Closeable {
    }
  
    private CircuitBreakerManager initCircuitBreakerManager() {
@@ -433,11 +433,11 @@
  
      return circuitBreakerManager;
    }",claim,The code change in the GIT DIFF modifies how the CircuitBreakerManager is initialized,,,test3914_old.java,test3914_new.java
-111,,,,claim,"Previously, it was directly built from the solrConfig",,,,
-112,,,,claim,"Now, it first retrieves the PluginInfo for the CircuitBreakerManager class from the solrConfig, and then builds the CircuitBreakerManager from the initArgs of the PluginInfo",,,,
-113,,,,claim,"This suggests that the CircuitBreakerManager is now being configured or initialized differently, possibly through a plugin or extension mechanism.",,,,
-114,,,,issue,"line 1178, UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'circuitBreakerManager'",,,,
-115,8876,60,"@@ -15,7 +15,7 @@ public class ManipulationTest extends BasicJBehaveTest {
+,,,claim,"Previously, it was directly built from the solrConfig",,,,
+,,,claim,"Now, it first retrieves the PluginInfo for the CircuitBreakerManager class from the solrConfig, and then builds the CircuitBreakerManager from the initArgs of the PluginInfo",,,,
+,,,claim,"This suggests that the CircuitBreakerManager is now being configured or initialized differently, possibly through a plugin or extension mechanism.",,,,
+,,,issue,"line 1178, UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'circuitBreakerManager'",,,,
+8876,60,"@@ -15,7 +15,7 @@ public class ManipulationTest extends BasicJBehaveTest {
  
      @Override
      public InjectableStepsFactory stepsFactory() {
@@ -446,9 +446,9 @@
  
          return new InstanceStepsFactory(configuration(),
                  new SharedSteps(state),",claim,The code change in the GIT DIFF replaces the type of the HashMap with a generic type,,,test60_old.java,test60_new.java
-116,,,,claim,The original line of code created a new HashMap with a specific type of String and Object,,,,
-117,,,,claim,"The updated line of code creates a new HashMap with generic types for String and Object, which means it can now accept any type of key and value.",,,,
-118,13330,9902,"@@ -49,6 +49,9 @@ public class Constants {
+,,,claim,The original line of code created a new HashMap with a specific type of String and Object,,,,
+,,,claim,"The updated line of code creates a new HashMap with generic types for String and Object, which means it can now accept any type of key and value.",,,,
+13330,9902,"@@ -49,6 +49,9 @@ public class Constants {
    public static final int DEFAULT_SSL_PORT_NUMBER = 8443;
    public static final int DEFAULT_JETTY_MAX_THREAD_COUNT = 20;
  
@@ -458,9 +458,9 @@
    public static class ConfigurationKeys {
      // These properties are configurable through azkaban.properties
  ",claim,"The code change adds a new constant named ""DEFAULT_SCHEDULE_END_EPOCH_TIME"" with a value of 2524608000000L",,,test9902_old.java,test9902_new.java
-119,,,,claim,"This constant represents the default end time for a schedule, which is set to January 1, 2050, 00:00:00, UTC",,,,
-120,,,,claim,A comment was also added to explain the purpose of this new constant.,,,,
-121,20104,2288,"@@ -19,9 +19,12 @@ package org.hyperledger.besu.ethereum.api.query;
+,,,claim,"This constant represents the default end time for a schedule, which is set to January 1, 2050, 00:00:00, UTC",,,,
+,,,claim,A comment was also added to explain the purpose of this new constant.,,,,
+20104,2288,"@@ -19,9 +19,12 @@ package org.hyperledger.besu.ethereum.api.query;
  import org.hyperledger.besu.ethereum.core.Address;
  import org.hyperledger.besu.ethereum.core.Log;
  import org.hyperledger.besu.ethereum.core.LogTopic;
@@ -473,12 +473,12 @@
  
  import com.google.common.collect.Lists;
  ",claim,The code change represented by the GIT DIFF adds three new import statements to the code,,,test2288_old.java,test2288_new.java
-122,,,,claim,"The newly imported packages are ""org.hyperledger.besu.ethereum.core.LogsBloomFilter"", ""java.util.Objects"", and ""java.util.stream.Collectors""",,,,
-123,,,,claim,"This suggests that the code will now be using the LogsBloomFilter class from the org.hyperledger.besu.ethereum.core package, the Objects class from the java.util package, and the Collectors class from the java.util.stream package.",,,,
-124,,,,issue,"line 22, UnnecessaryImport:	Unused import 'org.hyperledger.besu.ethereum.core.LogsBloomFilter'",,,,
-125,,,,issue,"line 26, UnnecessaryImport:	Unused import 'java.util.Objects'",,,,
-126,,,,issue,"line 27, UnnecessaryImport:	Unused import 'java.util.stream.Collectors'",,,,
-127,6744,9236,"@@ -88,6 +88,8 @@ public class VoiceSearchWidget extends UIWidget implements WidgetManagerDelegate
+,,,claim,"The newly imported packages are ""org.hyperledger.besu.ethereum.core.LogsBloomFilter"", ""java.util.Objects"", and ""java.util.stream.Collectors""",,,,
+,,,claim,"This suggests that the code will now be using the LogsBloomFilter class from the org.hyperledger.besu.ethereum.core package, the Objects class from the java.util package, and the Collectors class from the java.util.stream package.",,,,
+,,,issue,"line 22, UnnecessaryImport:	Unused import 'org.hyperledger.besu.ethereum.core.LogsBloomFilter'",,,,
+,,,issue,"line 26, UnnecessaryImport:	Unused import 'java.util.Objects'",,,,
+,,,issue,"line 27, UnnecessaryImport:	Unused import 'java.util.stream.Collectors'",,,,
+6744,9236,"@@ -88,6 +88,8 @@ public class VoiceSearchWidget extends UIWidget implements WidgetManagerDelegate
  
          mMozillaSpeechService = MozillaSpeechService.getInstance();
          mMozillaSpeechService.setProductTag(""fxr"");
@@ -487,8 +487,8 @@
  
          mVoiceSearchText1 = findViewById(R.id.voiceSearchText1);
          mVoiceSearchText2 = findViewById(R.id.voiceSearchText2);",claim,"The code change adds two new lines that call the ""storeSamples"" and ""storeTranscriptions"" methods of the ""MozillaSpeechService"" instance with a boolean argument of false",,,test9236_old.java,test9236_new.java
-128,,,,claim,This indicates that the samples and transcriptions will not be stored.,,,,
-129,6094,5949,"@@ -109,16 +109,16 @@ public interface TraversableOnce<T> extends Iterable<T> {
+,,,claim,This indicates that the samples and transcriptions will not be stored.,,,,
+6094,5949,"@@ -109,16 +109,16 @@ public interface TraversableOnce<T> extends Iterable<T> {
      }
  
      /**
@@ -508,18 +508,18 @@
      }
  
      /**",claim,"The code changes in the GIT DIFF indicate a change in the method signature and the return type of the ""toMap"" method from the ""TraversableOnce"" interface",,,test5949_old.java,test5949_new.java
-130,,,,claim,"The method previously returned a ""HashMap"" but now it returns a ""Map""",,,,
-131,,,,claim,"The method name has also been changed from ""toHashMap"" to ""toMap"" for consistency",,,,
-132,,,,claim,"The implementation of the method remains the same, applying a function to each element in the TraversableOnce and creating a new Map from the results.",,,,
-133,13776,4735,"@@ -7,5 +7,5 @@ public interface Installer {
+,,,claim,"The method previously returned a ""HashMap"" but now it returns a ""Map""",,,,
+,,,claim,"The method name has also been changed from ""toHashMap"" to ""toMap"" for consistency",,,,
+,,,claim,"The implementation of the method remains the same, applying a function to each element in the TraversableOnce and creating a new Map from the results.",,,,
+13776,4735,"@@ -7,5 +7,5 @@ public interface Installer {
      /**
       * runs the installer
       */
 -    void run();
 +    void go();
  }",claim,"The code change in the GIT DIFF renames a method from ""run"" to ""go""",,,test4735_old.java,test4735_new.java
-134,,,,claim,"This change does not affect the functionality of the code, but it may be done for style consistency or to align with the project's naming conventions.",,,,
-135,8998,2221,"@@ -14,15 +14,15 @@ import org.mozilla.vrbrowser.R;
+,,,claim,"This change does not affect the functionality of the code, but it may be done for style consistency or to align with the project's naming conventions.",,,,
+8998,2221,"@@ -14,15 +14,15 @@ import org.mozilla.vrbrowser.R;
  import org.mozilla.vrbrowser.ui.views.UIButton;
  import org.mozilla.vrbrowser.ui.widgets.NotificationManager.Notification.NotificationPosition;
  
@@ -537,13 +537,13 @@
  
      private static class NotificationData {
  ",claim,The code changes in this GIT DIFF involve both import changes and data structure changes,,,test2221_old.java,test2221_new.java
-136,,,,claim,"The import of ""java.util.HashMap"" has been removed and replaced with ""java.util.concurrent.ConcurrentHashMap""",,,,
-137,,,,claim,This suggests a shift from a thread-safe hash map to a regular hash map,,,,
-138,,,,claim,"The declaration of the ""mData"" variable has also been changed from a HashMap to a ConcurrentHashMap",,,,
-139,,,,claim,This change indicates that the data structure is now safe for concurrent access.,,,,
-140,,,,issue,"line 21, UseUtilityClass:	This utility class has a non-private constructor",,,,
-141,,,,issue,"line 25, LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead",,,,
-142,30094,3024,"@@ -469,7 +469,7 @@ public class IndexSearcher {
+,,,claim,"The import of ""java.util.HashMap"" has been removed and replaced with ""java.util.concurrent.ConcurrentHashMap""",,,,
+,,,claim,This suggests a shift from a thread-safe hash map to a regular hash map,,,,
+,,,claim,"The declaration of the ""mData"" variable has also been changed from a HashMap to a ConcurrentHashMap",,,,
+,,,claim,This change indicates that the data structure is now safe for concurrent access.,,,,
+,,,issue,"line 21, UseUtilityClass:	This utility class has a non-private constructor",,,,
+,,,issue,"line 25, LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead",,,,
+30094,3024,"@@ -469,7 +469,7 @@ public class IndexSearcher {
  
        @Override
        public TopScoreDocCollector newCollector() throws IOException {
@@ -552,9 +552,9 @@
        }
  
        @Override",claim,The code change in the GIT DIFF replaces an existing line of code,,,test3024_old.java,test3024_new.java
-143,,,,claim,The replaced line of code now creates a TopScoreDocCollector with a new GlobalHitsThresholdChecker as the third argument instead of the original line of code that created a TopScoreDocCollector with TOTAL_HITS_THRESHOLD as the third argument,,,,
-144,,,,claim,This indicates that the code is now using a custom threshold checker for the total hits.,,,,
-145,32144,9968,"@@ -644,6 +644,7 @@ public class LocalInsightPlugin extends PluginBase implements PumpInterface, Con
+,,,claim,The replaced line of code now creates a TopScoreDocCollector with a new GlobalHitsThresholdChecker as the third argument instead of the original line of code that created a TopScoreDocCollector with TOTAL_HITS_THRESHOLD as the third argument,,,,
+,,,claim,This indicates that the code is now using a custom threshold checker for the total hits.,,,,
+32144,9968,"@@ -644,6 +644,7 @@ public class LocalInsightPlugin extends PluginBase implements PumpInterface, Con
                  result.comment = ExceptionTranslator.getString(e);
              }
          } else if (detailedBolusInfo.carbs > 0) {
@@ -562,8 +562,8 @@
              result.success = true;
              result.enacted = true;
          }",claim,"The code change adds a new line that calls the ""addToHistoryTreatment"" method on the ""TreatmentsPlugin"" class",,,test9968_old.java,test9968_new.java
-146,,,,claim,"This suggests that the code is now tracking the history of treatments related to the ""detailedBolusInfo"" object.",,,,
-147,16059,4667,"@@ -19,11 +19,13 @@ public abstract class RoomHandler
+,,,claim,"This suggests that the code is now tracking the history of treatments related to the ""detailedBolusInfo"" object.",,,,
+16059,4667,"@@ -19,11 +19,13 @@ public abstract class RoomHandler
  
  	protected final Client client;
  	protected final TheatrePlugin plugin;
@@ -578,10 +578,10 @@
  	}
  
  	public abstract void onStart();",claim,"The code changes in this GIT DIFF involve the addition of a new parameter ""TheatreConfig config"" to the RoomHandler constructor",,,test4667_old.java,test4667_new.java
-148,,,,claim,"This new parameter is then assigned to the ""config"" field in the RoomHandler class",,,,
-149,,,,claim,This change suggests that the RoomHandler class now requires a TheatreConfig object to be instantiated,,,,
-150,,,,claim,"Additionally, the ""config"" field is now declared as final, which means it can only be assigned once and cannot be changed after it has been initialized.",,,,
-151,28835,1332,"@@ -265,6 +265,9 @@ public abstract class GapicInterfaceConfig implements InterfaceConfig {
+,,,claim,"This new parameter is then assigned to the ""config"" field in the RoomHandler class",,,,
+,,,claim,This change suggests that the RoomHandler class now requires a TheatreConfig object to be instantiated,,,,
+,,,claim,"Additionally, the ""config"" field is now declared as final, which means it can only be assigned once and cannot be changed after it has been initialized.",,,,
+28835,1332,"@@ -265,6 +265,9 @@ public abstract class GapicInterfaceConfig implements InterfaceConfig {
      }
      List<T> methodConfigs = new ArrayList<>();
      for (MethodConfigProto methodConfigProto : interfaceConfigProto.getMethodsList()) {
@@ -591,9 +591,9 @@
        methodConfigs.add(methodConfigMap.get(methodConfigProto.getName()));
      }
      return methodConfigs;",claim,The code change adds a new conditional statement to the loop that adds method configurations to the list,,,test1332_old.java,test1332_new.java
-152,,,,claim,"If the method configuration map does not contain a value for the current method configuration proto's name, the loop will skip the current iteration and move to the next one",,,,
-153,,,,claim,This is done to prevent a NullPointerException from occurring if a method configuration is not found in the map.,,,,
-154,17114,5311,"@@ -78,7 +78,13 @@ public class MockExecutorLoader implements ExecutorLoader {
+,,,claim,"If the method configuration map does not contain a value for the current method configuration proto's name, the loop will skip the current iteration and move to the next one",,,,
+,,,claim,This is done to prevent a NullPointerException from occurring if a method configuration is not found in the map.,,,,
+17114,5311,"@@ -78,7 +78,13 @@ public class MockExecutorLoader implements ExecutorLoader {
    @Override
    public Map<Integer, Pair<ExecutionReference, ExecutableFlow>> fetchUnfinishedFlows()
        throws ExecutorManagerException {
@@ -608,10 +608,10 @@
    }
  
    @Override",claim,"The code changes in the GIT DIFF show that the method ""fetchUnfinishedFlows"" has been replaced with two new methods: ""fetchUnfinishedFlows"" and ""fetchUnfinishedExecutions""",,,test5311_old.java,test5311_new.java
-155,,,,claim,"Both methods return the same data, which is ""this.activeFlows""",,,,
-156,,,,claim,"The new method ""fetchUnfinishedExecutions"" is an override of the existing method ""fetchUnfinishedFlows""",,,,
-157,,,,claim,This suggests that the code now has a different way to fetch unfinished executions instead of flows.,,,,
-158,13196,1395,"@@ -0,0 +1,13 @@
+,,,claim,"Both methods return the same data, which is ""this.activeFlows""",,,,
+,,,claim,"The new method ""fetchUnfinishedExecutions"" is an override of the existing method ""fetchUnfinishedFlows""",,,,
+,,,claim,This suggests that the code now has a different way to fetch unfinished executions instead of flows.,,,,
+13196,1395,"@@ -0,0 +1,13 @@
 +package com.fsck.k9.notification;
 +
 +
@@ -625,9 +625,9 @@
 +        this.content = content;
 +    }
 +}",claim,"The GIT DIFF shows the addition of a new Java class named ""NotificationHolder"" in the package ""com.fsck.k9.notification""",,,test1395_old.java,test1395_new.java
-159,,,,claim,"This class has two public final variables, ""notificationId"" and ""content"", both of which are of the integer and NotificationContent types respectively",,,,
-160,,,,claim,A constructor is also added to initialize these variables.,,,,
-161,17762,5047,"@@ -58,9 +58,12 @@ public class TracerTest {
+,,,claim,"This class has two public final variables, ""notificationId"" and ""content"", both of which are of the integer and NotificationContent types respectively",,,,
+,,,claim,A constructor is also added to initialize these variables.,,,,
+17762,5047,"@@ -58,9 +58,12 @@ public class TracerTest {
    public void shouldBeAbleToCreateATracer() {
      List<SpanData> allSpans = new ArrayList<>();
      Tracer tracer = createTracer(allSpans);
@@ -640,11 +640,11 @@
        span.setStatus(Status.NOT_FOUND);
      }
  ",claim,The code changes include the addition of a new timestamp variable set to 1593493828L,,,test5047_old.java,test5047_new.java
-162,,,,claim,Two new lines of code have been added to the try block,,,,
-163,,,,claim,"The first line adds an event to the span named ""Grating cheese""",,,,
-164,,,,claim,"The second line adds an event to the span named ""Melting cheese"" with a timestamp",,,,
-165,,,,claim,"This suggests that the code is now tracking the events of grating and melting cheese, along with the timestamp of each event.",,,,
-166,21885,4782,"@@ -83,6 +83,8 @@ public class PackageMetadataTransformer {
+,,,claim,Two new lines of code have been added to the try block,,,,
+,,,claim,"The first line adds an event to the span named ""Grating cheese""",,,,
+,,,claim,"The second line adds an event to the span named ""Melting cheese"" with a timestamp",,,,
+,,,claim,"This suggests that the code is now tracking the events of grating and melting cheese, along with the timestamp of each event.",,,,
+21885,4782,"@@ -83,6 +83,8 @@ public class PackageMetadataTransformer {
          .packageVersionBound(packageConfig.generatedPackageVersionBound(language))
          .protoPath(packageConfig.protoPath())
          .shortName(packageConfig.shortName())
@@ -653,10 +653,10 @@
          .gaxVersionBound(packageConfig.gaxVersionBound(language))
          .grpcVersionBound(packageConfig.grpcVersionBound(language))
          .protoVersionBound(packageConfig.protoVersionBound(language))",claim,The code changes added two new lines,,,test4782_old.java,test4782_new.java
-167,,,,claim,"The first line sets the gapicConfigName to the short name of the package appended with ""_gapic.yaml""",,,,
-168,,,,claim,The second line sets the packageType to the package type from the package configuration,,,,
-169,,,,claim,These changes suggest that the code is now setting additional configuration options for the package.,,,,
-170,14722,8049,"@@ -128,7 +128,7 @@ public class RestRequest {
+,,,claim,"The first line sets the gapicConfigName to the short name of the package appended with ""_gapic.yaml""",,,,
+,,,claim,The second line sets the packageType to the package type from the package configuration,,,,
+,,,claim,These changes suggest that the code is now setting additional configuration options for the package.,,,,
+14722,8049,"@@ -128,7 +128,7 @@ public class RestRequest {
  	 * 
  	 * @param method				the HTTP method for the request (GET/POST/DELETE etc)
  	 * @param path					the URI path, this will automatically be resolved against the users current instance host.
@@ -665,9 +665,9 @@
  	 */
  	public RestRequest(RestMethod method, String path, HttpEntity requestEntity) {
  		this(method, path, requestEntity, null);",claim,The code change in the GIT DIFF is a renaming of a parameter in the RestRequest constructor,,,test8049_old.java,test8049_new.java
-171,,,,claim,"The parameter ""httpEntity"" has been renamed to ""requestEntity""",,,,
-172,,,,claim,"This change does not affect the functionality of the code, but it may improve readability or better reflect the variable's purpose in the context of the method.",,,,
-173,11531,3740,"@@ -21,6 +21,8 @@ import com.google.common.base.Charsets;
+,,,claim,"The parameter ""httpEntity"" has been renamed to ""requestEntity""",,,,
+,,,claim,"This change does not affect the functionality of the code, but it may improve readability or better reflect the variable's purpose in the context of the method.",,,,
+11531,3740,"@@ -21,6 +21,8 @@ import com.google.common.base.Charsets;
  import com.google.common.io.ByteStreams;
  import com.google.common.net.MediaType;
  
@@ -676,10 +676,10 @@
  import org.apache.http.Header;
  import org.apache.http.HttpEntity;
  import org.apache.http.HttpHost;",claim,The code change represented by the GIT DIFF adds a new import statement to the code,,,test3740_old.java,test3740_new.java
-174,,,,claim,"The newly imported package is ""com.sun.org.glassfish.gmbal.ManagedObject""",,,,
-175,,,,claim,This suggests that the code will now use the ManagedObject class from the com.sun.org.glassfish.gmbal package.,,,,
-176,,,,issue,"line 24, UnnecessaryImport:	Unused import 'com.sun.org.glassfish.gmbal.ManagedObject'",,,,
-177,13100,659,"@@ -192,7 +192,7 @@ public interface Context {
+,,,claim,"The newly imported package is ""com.sun.org.glassfish.gmbal.ManagedObject""",,,,
+,,,claim,This suggests that the code will now use the ManagedObject class from the com.sun.org.glassfish.gmbal package.,,,,
+,,,issue,"line 24, UnnecessaryImport:	Unused import 'com.sun.org.glassfish.gmbal.ManagedObject'",,,,
+13100,659,"@@ -192,7 +192,7 @@ public interface Context {
                  methodUsage = ((TypeVariableResolutionCapability) methodDeclaration)
                                        .resolveTypeVariables(this, argumentsTypes);
              } else {
@@ -688,9 +688,9 @@
              }
  
              return Optional.of(methodUsage);",claim,The code change in the GIT DIFF replaces an existing line of code,,,test659_old.java,test659_new.java
-178,,,,claim,The replaced line of code now returns an Optional.empty() instead of throwing an UnsupportedOperationException,,,,
-179,,,,claim,This indicates that the code is now handling the unsupported operation scenario more gracefully by returning an empty optional instead of throwing an exception.,,,,
-180,35832,9583,"@@ -195,7 +195,9 @@ public class ToParentBlockJoinQuery extends Query {
+,,,claim,The replaced line of code now returns an Optional.empty() instead of throwing an UnsupportedOperationException,,,,
+,,,claim,This indicates that the code is now handling the unsupported operation scenario more gracefully by returning an empty optional instead of throwing an exception.,,,,
+35832,9583,"@@ -195,7 +195,9 @@ public class ToParentBlockJoinQuery extends Query {
            return null;
          }
        }
@@ -701,9 +701,9 @@
      }
    }
  ",claim,The code change in the GIT DIFF replaces a return statement with a comment questioning which fields should be here,,,test9583_old.java,test9583_new.java
-181,,,,claim,"The new return statement calls a function ""matchWithNoTerms"" from the ""MatchesUtils"" class with the result of the ""getQuery()"" method as the argument",,,,
-182,,,,claim,"This suggests that the code is now using a different approach to handle matches with no terms, possibly due to a change in the requirements or the functionality of the software.",,,,
-183,5356,6390,"@@ -406,4 +406,18 @@ public class ZMSUtils {
+,,,claim,"The new return statement calls a function ""matchWithNoTerms"" from the ""MatchesUtils"" class with the result of the ""getQuery()"" method as the argument",,,,
+,,,claim,"This suggests that the code is now using a different approach to handle matches with no terms, possibly due to a change in the requirements or the functionality of the software.",,,,
+5356,6390,"@@ -406,4 +406,18 @@ public class ZMSUtils {
  
          return authorityFilter;
      }
@@ -722,15 +722,15 @@
 +        return lowerCasedDomain + resource.substring(delimiterIndex);
 +    }
  }",claim,"The GIT DIFF shows that a new method named ""lowerDomainInResource"" has been added to the ""ZMSUtils"" class",,,test6390_old.java,test6390_new.java
-184,,,,claim,"This method takes a string argument ""resource"" and returns a new string",,,,
-185,,,,claim,The method checks if the input resource is null,,,,
-186,,,,claim,"If it is, it returns null immediately",,,,
-187,,,,claim,"If the resource is not null, it finds the index of the colon delimiter in the resource",,,,
-188,,,,claim,"If the delimiter is not found, it returns the resource as is",,,,
-189,,,,claim,"If the delimiter is found, it converts the domain part of the resource to lowercase and concatenates it with the rest of the resource",,,,
-190,,,,claim,"This new method is used to ensure that the domain part of the resource is in lowercase,",,,,
-191,,,,issue,"line 420, UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale",,,,
-192,23586,7259,"@@ -18,6 +18,7 @@ import com.google.api.codegen.SnippetSetRunner;
+,,,claim,"This method takes a string argument ""resource"" and returns a new string",,,,
+,,,claim,The method checks if the input resource is null,,,,
+,,,claim,"If it is, it returns null immediately",,,,
+,,,claim,"If the resource is not null, it finds the index of the colon delimiter in the resource",,,,
+,,,claim,"If the delimiter is not found, it returns the resource as is",,,,
+,,,claim,"If the delimiter is found, it converts the domain part of the resource to lowercase and concatenates it with the rest of the resource",,,,
+,,,claim,"This new method is used to ensure that the domain part of the resource is in lowercase,",,,,
+,,,issue,"line 420, UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale",,,,
+23586,7259,"@@ -18,6 +18,7 @@ import com.google.api.codegen.SnippetSetRunner;
  import com.google.auto.value.AutoValue;
  import java.util.List;
  import javax.annotation.Nullable;
@@ -738,9 +738,9 @@
  
  @AutoValue
  public abstract class DynamicLangXApiView implements ViewModel {",claim,"The code change represented by the GIT DIFF adds a new line of code to import the ""Null"" constraint from the ""javax.validation.constraints"" package",,,test7259_old.java,test7259_new.java
-193,,,,claim,"This suggests that the ""Null"" constraint will be used in the subsequent code.",,,,
-194,,,,issue,"line 21, UnnecessaryImport:	Unused import 'javax.validation.constraints.Null'",,,,
-195,16063,1780,"@@ -191,7 +191,10 @@ public class FindFiles {
+,,,claim,"This suggests that the ""Null"" constraint will be used in the subsequent code.",,,,
+,,,issue,"line 21, UnnecessaryImport:	Unused import 'javax.validation.constraints.Null'",,,,
+16063,1780,"@@ -191,7 +191,10 @@ public class FindFiles {
        Snapshot snapshot = snapshotId != null ?
            ops.current().snapshot(snapshotId) : ops.current().currentSnapshot();
  
@@ -752,14 +752,14 @@
            .filterData(rowFilter)
            .filterFiles(fileFilter)
            .filterPartitions(partitionFilter)",claim,The code changes involve modifying how the manifests are handled,,,test1780_old.java,test1780_new.java
-196,,,,claim,"Initially, the code directly used the snapshot's manifests to create a new ManifestGroup",,,,
-197,,,,claim,"Now, the code first checks if the snapshot is null",,,,
-198,,,,claim,"If it is not null, it uses the snapshot's manifests",,,,
-199,,,,claim,"If it is null, it uses an empty iterable",,,,
-200,,,,claim,"This change allows for a graceful handling of the case when the table just gets created, where the snapshot would be null",,,,
-201,,,,claim,,,,,
-202,,,,claim,The line of code that creates the ManifestGroup with the updated manifests is also updated to reflect this change.,,,,
-203,11230,5281,"@@ -26,6 +26,7 @@ import javafx.collections.transformation.SortedList;
+,,,claim,"Initially, the code directly used the snapshot's manifests to create a new ManifestGroup",,,,
+,,,claim,"Now, the code first checks if the snapshot is null",,,,
+,,,claim,"If it is not null, it uses the snapshot's manifests",,,,
+,,,claim,"If it is null, it uses an empty iterable",,,,
+,,,claim,"This change allows for a graceful handling of the case when the table just gets created, where the snapshot would be null",,,,
+,,,claim,,,,,
+,,,claim,The line of code that creates the ManifestGroup with the updated manifests is also updated to reflect this change.,,,,
+11230,5281,"@@ -26,6 +26,7 @@ import javafx.collections.transformation.SortedList;
  import javafx.event.EventHandler;
  import javafx.scene.input.MouseEvent;
  import me.xdrop.fuzzywuzzy.FuzzySearch;
@@ -767,10 +767,10 @@
  import org.phoenicis.javafx.settings.JavaFxSettingsManager;
  import org.phoenicis.javafx.views.common.ExpandedList;
  import org.phoenicis.javafx.views.common.ThemeManager;",claim,The code change represented by the GIT DIFF adds a new import statement to the code,,,test5281_old.java,test5281_new.java
-204,,,,claim,"The newly imported package is ""org.eclipse.jgit.util.StringUtils""",,,,
-205,,,,claim,This suggests that the code will now use the StringUtils class from the org.eclipse.jgit.util package.,,,,
-206,,,,issue,"line 29, UnnecessaryImport:	Unused import 'org.eclipse.jgit.util.StringUtils'",,,,
-207,39406,1099,"@@ -16,14 +16,7 @@
+,,,claim,"The newly imported package is ""org.eclipse.jgit.util.StringUtils""",,,,
+,,,claim,This suggests that the code will now use the StringUtils class from the org.eclipse.jgit.util package.,,,,
+,,,issue,"line 29, UnnecessaryImport:	Unused import 'org.eclipse.jgit.util.StringUtils'",,,,
+39406,1099,"@@ -16,14 +16,7 @@
   */
  package org.apache.lucene.analysis.hunspell;
  
@@ -786,9 +786,9 @@
  import java.nio.charset.Charset;
  import java.nio.charset.CharsetDecoder;
  import java.nio.charset.CodingErrorAction;",claim,The code change represented by the GIT DIFF replaces multiple import statements with a wildcard import statement,,,test1099_old.java,test1099_new.java
-208,,,,claim,"The individual import statements for BufferedInputStream, BufferedOutputStream, BufferedReader, IOException, InputStream, InputStreamReader, LineNumberReader, and OutputStream have been removed and replaced with a single import statement that imports all classes from the java.io package",,,,
-209,,,,claim,This change simplifies the import statements but could potentially import unnecessary classes.,,,,
-210,28205,7497,"@@ -262,12 +262,18 @@ public final class DiscoveryMethodModel implements MethodModel {
+,,,claim,"The individual import statements for BufferedInputStream, BufferedOutputStream, BufferedReader, IOException, InputStream, InputStreamReader, LineNumberReader, and OutputStream have been removed and replaced with a single import statement that imports all classes from the java.io package",,,,
+,,,claim,This change simplifies the import statements but could potentially import unnecessary classes.,,,,
+28205,7497,"@@ -262,12 +262,18 @@ public final class DiscoveryMethodModel implements MethodModel {
    }
  
    private DiscoveryField createFieldMaskField() {
@@ -808,14 +808,14 @@
          null);
    }
  ",claim,The code changes in the GIT DIFF show that a comment has been added to the code to indicate a future change that needs to be made,,,test7497_old.java,test7497_new.java
-211,,,,claim,The comment suggests that the current list should be changed to a set instead of a list,,,,
-212,,,,claim,,,,,
-213,,,,claim,"Additionally, a description has been added to the method `createFieldMaskField()`",,,,
-214,,,,claim,The description explains that the fields that should be serialized are determined by a fieldmask,,,,
-215,,,,claim,"If the fieldmask is non-null, all fields in the fieldmask will be serialized",,,,
-216,,,,claim,"If the fieldmask is null, only non-empty fields will be serialized",,,,
-217,,,,claim,This change provides more detailed information about the behavior of the method.,,,,
-218,13425,4109,"@@ -235,6 +235,7 @@ public class MessageCompose extends K9Activity implements OnClickListener,
+,,,claim,The comment suggests that the current list should be changed to a set instead of a list,,,,
+,,,claim,,,,,
+,,,claim,"Additionally, a description has been added to the method `createFieldMaskField()`",,,,
+,,,claim,The description explains that the fields that should be serialized are determined by a fieldmask,,,,
+,,,claim,"If the fieldmask is non-null, all fields in the fieldmask will be serialized",,,,
+,,,claim,"If the fieldmask is null, only non-empty fields will be serialized",,,,
+,,,claim,This change provides more detailed information about the behavior of the method.,,,,
+13425,4109,"@@ -235,6 +235,7 @@ public class MessageCompose extends K9Activity implements OnClickListener,
      private RecipientPresenter recipientPresenter;
      private MessageBuilder currentMessageBuilder;
      private boolean mFinishAfterDraftSaved;
@@ -823,8 +823,8 @@
  
      @Override
      public void onFocusChange(View v, boolean hasFocus) {",claim,"The code change adds a new private boolean variable named ""firstTimeEmptyObject"" and initializes it to true",,,test4109_old.java,test4109_new.java
-219,,,,claim,This suggests that the code is now keeping track of whether it's the first time an empty object is encountered.,,,,
-220,42619,8425,"@@ -372,7 +372,9 @@ class SparkWrite {
+,,,claim,This suggests that the code is now keeping track of whether it's the first time an empty object is encountered.,,,,
+42619,8425,"@@ -372,7 +372,9 @@ class SparkWrite {
        }
  
        Expression conflictDetectionFilter = conflictDetectionFilter();
@@ -835,10 +835,10 @@
  
        String commitMsg = String.format(
            ""overwrite of %d data files with %d new data files, scanSnapshotId: %d, conflictDetectionFilter: %s"",",claim,The code change in the GIT DIFF replaces a single line of code with three new lines,,,test8425_old.java,test8425_new.java
-221,,,,claim,The original line of code was validating that there were no conflicting appends using the conflictDetectionFilter,,,,
-222,,,,claim,"The new lines of code first set the conflictDetectionFilter, then validate that there are no conflicting data and no conflicting deletes",,,,
-223,,,,claim,This suggests a change in the way the conflict detection is being performed and validated.,,,,
-224,19604,8250,"@@ -123,6 +123,16 @@ public class ExecutionFlowDao {
+,,,claim,The original line of code was validating that there were no conflicting appends using the conflictDetectionFilter,,,,
+,,,claim,"The new lines of code first set the conflictDetectionFilter, then validate that there are no conflicting data and no conflicting deletes",,,,
+,,,claim,This suggests a change in the way the conflict detection is being performed and validated.,,,,
+19604,8250,"@@ -123,6 +123,16 @@ public class ExecutionFlowDao {
      }
    }
  
@@ -855,10 +855,10 @@
    /**
     * fetch flow execution history with specified {@code projectId}, {@code flowId} and flow start
     * time >= {@code startTime}",claim,"The GIT DIFF shows that a new method named ""fetchAgedQueuedFlows"" has been added to the ""ExecutionFlowDao"" class",,,test8250_old.java,test8250_new.java
-225,,,,claim,"This method takes a parameter ""minAge"" of type ""Duration"" and returns a list of pairs where each pair contains an ""ExecutionReference"" and an ""ExecutableFlow""",,,,
-226,,,,claim,The method queries the database to fetch flows queued for a long time that are older than the specified minimum age,,,,
-227,,,,claim,"If a SQLException is encountered, it throws an ""ExecutorManagerException"".",,,,
-228,8872,5069,"@@ -313,8 +313,14 @@ public class IntMultimap<T> implements Traversable<T>, Serializable {
+,,,claim,"This method takes a parameter ""minAge"" of type ""Duration"" and returns a list of pairs where each pair contains an ""ExecutionReference"" and an ""ExecutableFlow""",,,,
+,,,claim,The method queries the database to fetch flows queued for a long time that are older than the specified minimum age,,,,
+,,,claim,"If a SQLException is encountered, it throws an ""ExecutorManagerException"".",,,,
+8872,5069,"@@ -313,8 +313,14 @@ public class IntMultimap<T> implements Traversable<T>, Serializable {
  
      @Override
      public <U> Seq<Tuple2<T, U>> zip(Iterable<? extends U> that) {
@@ -874,11 +874,11 @@
      }
  
      @Override",claim,"The code changes in the GIT DIFF show that the method ""zip"" in the ""IntMultimap"" class has been replaced with two new methods: ""zipWith"" and ""zip""",,,test5069_old.java,test5069_new.java
-229,,,,claim,"The ""zip"" method was replaced with a call to the new ""zipWith"" method with a lambda function as the mapper",,,,
-230,,,,claim,"The new ""zipWith"" method takes an iterable and a bi-function as parameters, similar to the ""zip"" method in the Java Stream API",,,,
-231,,,,claim,"The lambda function used in the ""zip"" method is equivalent to the ""Tuple::of"" function",,,,
-232,,,,claim,"The new ""zipWith"" method also includes a null check for the mapper and throws an exception if the mapper is null",,,,
-233,23984,7786,"@@ -1404,6 +1404,16 @@ public class BesuCommand implements DefaultCommandValues, Runnable {
+,,,claim,"The ""zip"" method was replaced with a call to the new ""zipWith"" method with a lambda function as the mapper",,,,
+,,,claim,"The new ""zipWith"" method takes an iterable and a bi-function as parameters, similar to the ""zip"" method in the Java Stream API",,,,
+,,,claim,"The lambda function used in the ""zip"" method is equivalent to the ""Tuple::of"" function",,,,
+,,,claim,"The new ""zipWith"" method also includes a null check for the mapper and throws an exception if the mapper is null",,,,
+23984,7786,"@@ -1404,6 +1404,16 @@ public class BesuCommand implements DefaultCommandValues, Runnable {
          throw new IllegalStateException(
              ""GoQuorum compatibility mode (enabled) can only be used if genesis file has 'isQuorum' flag set to true."");
        }
@@ -895,9 +895,9 @@
      }
    }
  ",claim,The GIT DIFF shows that a new block of code has been added to the BesuCommand class,,,test7786_old.java,test7786_new.java
-234,,,,claim,"This new code block checks if the GoQuorum compatibility mode is enabled and if so, it ensures that it is not used on the Mainnet",,,,
-235,,,,claim,The code checks the chain ID from the genesis configuration options and throws an exception if the chain ID matches the Mainnet network ID.,,,,
-236,11630,2743,"@@ -69,7 +69,6 @@ public abstract class TomcatServerBootstrap extends EmbeddedServerBootstrap {
+,,,claim,"This new code block checks if the GoQuorum compatibility mode is enabled and if so, it ensures that it is not used on the Mainnet",,,,
+,,,claim,The code checks the chain ID from the genesis configuration options and throws an exception if the chain ID matches the Mainnet network ID.,,,,
+11630,2743,"@@ -69,7 +69,6 @@ public abstract class TomcatServerBootstrap extends EmbeddedServerBootstrap {
        .useLegacyLocalRepo(true).configureViaPlugin();
  
      WebArchive wa = ShrinkWrap.create(WebArchive.class, ""rest-test.war"").setWebXML(webXmlPath)
@@ -905,9 +905,9 @@
          .addAsLibraries(resolver.addDependencies(
              MavenDependencies.createDependency(""org.mockito:mockito-core"", ScopeType.TEST, false,
              MavenDependencies.createExclusion(""org.hamcrest:hamcrest-core""))).resolve()",claim,The code change represented by the GIT DIFF removes a line of code that was adding a library to the WebArchive,,,test2743_old.java,test2743_new.java
-237,,,,claim,"The removed line of code was adding the ""jackson-jaxrs"" library with the version ""1.6.5"" to the WebArchive",,,,
-238,,,,claim,"This indicates that the ""jackson-jaxrs"" library is no longer needed in the WebArchive.",,,,
-239,32929,9327,"@@ -184,6 +184,8 @@ public class CoreContainer {
+,,,claim,"The removed line of code was adding the ""jackson-jaxrs"" library with the version ""1.6.5"" to the WebArchive",,,,
+,,,claim,"This indicates that the ""jackson-jaxrs"" library is no longer needed in the WebArchive.",,,,
+32929,9327,"@@ -184,6 +184,8 @@ public class CoreContainer {
    private volatile ExecutorService coreContainerWorkExecutor = ExecutorUtil.newMDCAwareCachedThreadPool(
        new DefaultSolrThreadFactory(""coreContainerWorkExecutor""));
  
@@ -916,11 +916,11 @@
    private final OrderedExecutor replayUpdatesExecutor;
  
    protected volatile LogWatcher logging = null;",claim,"The code change adds a new line to declare a private ExecutorService named ""collectorExecutor""",,,test9327_old.java,test9327_new.java
-240,,,,claim,"This suggests that the ""collectorExecutor"" will be used later in the code.",,,,
-241,,,,issue,"line 184, AvoidUsingVolatile:	Use of modifier volatile is not recommended.",,,,
-242,,,,issue,"line 187, UnusedPrivateField:	Avoid unused private fields such as 'collectorExecutor'.",,,,
-243,,,,issue,"line 191, AvoidUsingVolatile:	Use of modifier volatile is not recommended.",,,,
-244,9397,983,"@@ -510,6 +510,8 @@ public class Windows implements TrayListener, TopBarWidget.Delegate, TitleBarWid
+,,,claim,"This suggests that the ""collectorExecutor"" will be used later in the code.",,,,
+,,,issue,"line 184, AvoidUsingVolatile:	Use of modifier volatile is not recommended.",,,,
+,,,issue,"line 187, UnusedPrivateField:	Avoid unused private fields such as 'collectorExecutor'.",,,,
+,,,issue,"line 191, AvoidUsingVolatile:	Use of modifier volatile is not recommended.",,,,
+9397,983,"@@ -510,6 +510,8 @@ public class Windows implements TrayListener, TopBarWidget.Delegate, TitleBarWid
  
          TelemetryWrapper.resetOpenedWindowsCount(mRegularWindows.size(), false);
          TelemetryWrapper.resetOpenedWindowsCount(mPrivateWindows.size(), true);
@@ -929,9 +929,9 @@
      }
  
      public boolean isPaused() {",claim,The code change adds two new lines that call the resetOpenedWindowsCount method on the GleanMetricsService class,,,test983_old.java,test983_new.java
-245,,,,claim,"This method is used to reset the opened windows count, which is used for telemetry purposes",,,,
-246,,,,claim,"The method is called with two parameters: the size of the mRegularWindows and mPrivateWindows lists, and a boolean value indicating whether the window is private.",,,,
-247,21389,675,"@@ -366,7 +366,7 @@ public class InitCodeTransformer {
+,,,claim,"This method is used to reset the opened windows count, which is used for telemetry purposes",,,,
+,,,claim,"The method is called with two parameters: the size of the mRegularWindows and mPrivateWindows lists, and a boolean value indicating whether the window is private.",,,,
+21389,675,"@@ -366,7 +366,7 @@ public class InitCodeTransformer {
          default:
            throw new UnsupportedOperationException(""unexpected entity name type"");
        }
@@ -940,9 +940,9 @@
        if (context.getFeatureConfig().enableStringFormatFunctions()) {
          FormattedInitValueView.Builder initValue = FormattedInitValueView.newBuilder();
  ",claim,The code change in the GIT DIFF modifies an existing conditional statement,,,test675_old.java,test675_new.java
-248,,,,claim,The updated condition now includes a check for whether the item type is not repeated,,,,
-249,,,,claim,This means that the code block within this else-if statement will only be executed if the initialization value configuration has formatting configuration and the item type is not repeated.,,,,
-250,19254,8830,"@@ -5,10 +5,12 @@ import android.content.SharedPreferences;
+,,,claim,The updated condition now includes a check for whether the item type is not repeated,,,,
+,,,claim,This means that the code block within this else-if statement will only be executed if the initialization value configuration has formatting configuration and the item type is not repeated.,,,,
+19254,8830,"@@ -5,10 +5,12 @@ import android.content.SharedPreferences;
  import android.content.res.Configuration;
  import android.util.AttributeSet;
  import android.view.View;
@@ -955,10 +955,10 @@
  import de.danoeh.antennapod.R;
  import io.reactivex.annotations.Nullable;
  ",claim,The code change represented by the GIT DIFF adds two new import statements to the code,,,test8830_old.java,test8830_new.java
-251,,,,claim,"The first import statement is for the ""ContextThemeWrapper"" class from the ""androidx.appcompat.view"" package",,,,
-252,,,,claim,"The second import statement is for the ""DividerItemDecoration"" class from the ""androidx.recyclerview.widget"" package",,,,
-253,,,,claim,"These changes indicate that the code will now be using the ""ContextThemeWrapper"" class and the ""DividerItemDecoration"" class, which were not previously used in the code.",,,,
-254,9394,3235,"@@ -59,4 +59,19 @@ class BackgroundRepository implements Repository {
+,,,claim,"The first import statement is for the ""ContextThemeWrapper"" class from the ""androidx.appcompat.view"" package",,,,
+,,,claim,"The second import statement is for the ""DividerItemDecoration"" class from the ""androidx.recyclerview.widget"" package",,,,
+,,,claim,"These changes indicate that the code will now be using the ""ContextThemeWrapper"" class and the ""DividerItemDecoration"" class, which were not previously used in the code.",,,,
+9394,3235,"@@ -59,4 +59,19 @@ class BackgroundRepository implements Repository {
      public void setFilter(CombinedAppsFilter filter) {
          delegatedRepository.setFilter(filter);
      }
@@ -978,13 +978,13 @@
 +        return delegatedRepository != null ? delegatedRepository.hashCode() : 0;
 +    }
  }",claim,The code changes added to the BackgroundRepository class override the equals and hashCode methods,,,test3235_old.java,test3235_new.java
-255,,,,claim,The equals method checks if the object is equal to this instance of the BackgroundRepository class and if the object is not null or of a different class,,,,
-256,,,,claim,It then checks if the delegatedRepository is not null and if it is equal to the delegatedRepository of the object,,,,
-257,,,,claim,"The hashCode method returns the hash code of the delegatedRepository if it is not null, and 0 otherwise",,,,
-258,,,,claim,This change is likely made to ensure that the BackgroundRepository class can be used in collections such as HashSet and HashMap.,,,,
-259,,,,issue,"line 65, ControlStatementBraces:	This statement should have braces",,,,
-260,,,,issue,"line 66, ControlStatementBraces:	This statement should have braces",,,,
-261,15768,10085,"@@ -138,8 +138,9 @@ public class DropPartyPlugin extends Plugin
+,,,claim,The equals method checks if the object is equal to this instance of the BackgroundRepository class and if the object is not null or of a different class,,,,
+,,,claim,It then checks if the delegatedRepository is not null and if it is equal to the delegatedRepository of the object,,,,
+,,,claim,"The hashCode method returns the hash code of the delegatedRepository if it is not null, and 0 otherwise",,,,
+,,,claim,This change is likely made to ensure that the BackgroundRepository class can be used in collections such as HashSet and HashMap.,,,,
+,,,issue,"line 65, ControlStatementBraces:	This statement should have braces",,,,
+,,,issue,"line 66, ControlStatementBraces:	This statement should have braces",,,,
+15768,10085,"@@ -138,8 +138,9 @@ public class DropPartyPlugin extends Plugin
  			{
  				continue;
  			}
@@ -995,10 +995,10 @@
  				runningPlayer = player;
  				break;
  			}",claim,The code change in the GIT DIFF modifies an existing conditional statement,,,test10085_old.java,test10085_new.java
-262,,,,claim,"The original line of code was checking if the standardized player name equals the player name, ignoring the case",,,,
-263,,,,claim,"The updated code still checks this condition, but it also logs an error message ""found running player"" if the condition is true",,,,
-264,,,,claim,This suggests that the code now has additional logging for this specific scenario.,,,,
-265,16677,4060,"@@ -290,12 +290,6 @@ public class GlobalSettings {
+,,,claim,"The original line of code was checking if the standardized player name equals the player name, ignoring the case",,,,
+,,,claim,"The updated code still checks this condition, but it also logs an error message ""found running player"" if the condition is true",,,,
+,,,claim,This suggests that the code now has additional logging for this specific scenario.,,,,
+16677,4060,"@@ -290,12 +290,6 @@ public class GlobalSettings {
          s.put(""pgpSignOnlyDialogCounter"", Settings.versions(
                  new V(45, new IntegerRangeSetting(0, Integer.MAX_VALUE, 0))
          ));
@@ -1011,10 +1011,10 @@
          s.put(""fontSizeMessageViewBCC"", Settings.versions(
                  new V(48, new FontSizeSetting(FontSizes.FONT_DEFAULT))
          ));",claim,The code changes represented by the GIT DIFF removed two lines of code,,,test4060_old.java,test4060_new.java
-266,,,,claim,"These lines previously added two settings to the global settings: ""openPgpProvider"" and ""openPgpSupportSignOnly""",,,,
-267,,,,claim,"The ""openPgpProvider"" setting was set to a string value of ""K9.NO_OPENPGP_PROVIDER"", and the ""openPgpSupportSignOnly"" setting was set to a boolean value of false",,,,
-268,,,,claim,These settings seem to be related to OpenPGP (Open Pretty Good Privacy) support in the application.,,,,
-269,20735,1115,"@@ -19,14 +19,11 @@
+,,,claim,"These lines previously added two settings to the global settings: ""openPgpProvider"" and ""openPgpSupportSignOnly""",,,,
+,,,claim,"The ""openPgpProvider"" setting was set to a string value of ""K9.NO_OPENPGP_PROVIDER"", and the ""openPgpSupportSignOnly"" setting was set to a boolean value of false",,,,
+,,,claim,These settings seem to be related to OpenPGP (Open Pretty Good Privacy) support in the application.,,,,
+20735,1115,"@@ -19,14 +19,11 @@
  
  package org.apache.iceberg;
  
@@ -1029,9 +1029,9 @@
  import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
  import org.apache.iceberg.relocated.com.google.common.collect.Lists;
  import org.apache.iceberg.relocated.com.google.common.collect.Sets;",claim,The code changes represented by the GIT DIFF removed three import statements from the code,,,test1115_old.java,test1115_new.java
-270,,,,claim,"The removed imports were for the java.util.Collection, org.apache.iceberg.expressions.Expression, and org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap classes",,,,
-271,,,,claim,"This suggests that the code no longer uses these classes, which can be a good indication of cleanup or refactoring.",,,,
-272,23824,1461,"@@ -130,6 +130,7 @@ public class HiveTableOperations extends BaseMetastoreTableOperations {
+,,,claim,"The removed imports were for the java.util.Collection, org.apache.iceberg.expressions.Expression, and org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap classes",,,,
+,,,claim,"This suggests that the code no longer uses these classes, which can be a good indication of cleanup or refactoring.",,,,
+23824,1461,"@@ -130,6 +130,7 @@ public class HiveTableOperations extends BaseMetastoreTableOperations {
      }
  
      refreshFromMetadataLocation(metadataLocation);
@@ -1039,8 +1039,8 @@
    }
  
    @Override",claim,"The code change adds a new line that logs a debug message ""Refreshed [{}]"" with the variable ""fullName"" inserted into the message",,,test1461_old.java,test1461_new.java
-273,,,,claim,This indicates that the code now logs a debug message when the refreshFromMetadataLocation method is called.,,,,
-274,14492,6315,"@@ -68,7 +68,7 @@ public class Timeline {
+,,,claim,This indicates that the code now logs a debug message when the refreshFromMetadataLocation method is called.,,,,
+14492,6315,"@@ -68,7 +68,7 @@ public class Timeline {
  
      private static final Pattern TIMECODE_LINK_REGEX = Pattern.compile(""antennapod://timecode/((\\d+))"");
      private static final String TIMECODE_LINK = ""<a class=\""timecode\"" href=\""antennapod://timecode/%d\"">%s</a>"";
@@ -1049,10 +1049,10 @@
      private static final Pattern LINE_BREAK_REGEX = Pattern.compile(""<br */?>"");
  
  ",claim,The code change in the GIT DIFF modifies the regular expression (regex) for the TIMECODE_REGEX pattern,,,test6315_old.java,test6315_new.java
-275,,,,claim,"The updated regex allows for an optional hour component in the timecode, with a maximum of 23 hours",,,,
-276,,,,claim,"The updated regex also allows for an optional minute and second component, with a maximum of 59 minutes and seconds respectively",,,,
-277,,,,claim,This change seems to be a more strict validation for the timecode format.,,,,
-278,19741,8519,"@@ -68,8 +68,12 @@ public class SampleNamer extends NameFormatterDelegator {
+,,,claim,"The updated regex allows for an optional hour component in the timecode, with a maximum of 23 hours",,,,
+,,,claim,"The updated regex also allows for an optional minute and second component, with a maximum of 59 minutes and seconds respectively",,,,
+,,,claim,This change seems to be a more strict validation for the timecode format.,,,,
+19741,8519,"@@ -68,8 +68,12 @@ public class SampleNamer extends NameFormatterDelegator {
      return localVarName(Name.lowerCamel(""request""));
    }
  
@@ -1066,10 +1066,10 @@
      return localVarName(Name.lowerCamel(""requestBody""));
    }
  ",claim,"The code changes in the GIT DIFF show that the method ""getRequestBodyVarName"" has been modified",,,test8519_old.java,test8519_new.java
-279,,,,claim,The original method was returning the variable name of the request body without taking any parameters,,,,
-280,,,,claim,"The new method, however, does take a parameter ""requestBodyTypeName""",,,,
-281,,,,claim,The comment above the method has also been updated to reflect this change.,,,,
-282,13411,5121,"@@ -106,6 +106,7 @@ std::string FlatCompiler::GetUsageString(const char *program_name) const {
+,,,claim,The original method was returning the variable name of the request body without taking any parameters,,,,
+,,,claim,"The new method, however, does take a parameter ""requestBodyTypeName""",,,,
+,,,claim,The comment above the method has also been updated to reflect this change.,,,,
+13411,5121,"@@ -106,6 +106,7 @@ std::string FlatCompiler::GetUsageString(const char *program_name) const {
      ""  --grpc             Generate GRPC interfaces for the specified languages\n""
      ""  --schema           Serialize schemas instead of JSON (use with -b)\n""
      ""  --bfbs-comments    Add doc comments to the binary schema files.\n""
@@ -1077,9 +1077,9 @@
      ""  --conform FILE     Specify a schema the following schemas should be\n""
      ""                     an evolution of. Gives errors if not.\n""
      ""  --conform-includes Include path for the schema given with --conform\n""",claim,The code change adds a new line to the usage string,,,test5121_old.java,test5121_new.java
-283,,,,claim,"This new line provides a description for the command line option ""--bfbs-builtin-attrs""",,,,
-284,,,,claim,"The description is ""Add builtin attributes to the binary schema files.""",,,,
-285,16099,2325,"@@ -39,6 +39,7 @@ public class RestExplorerApp extends Application {
+,,,claim,"This new line provides a description for the command line option ""--bfbs-builtin-attrs""",,,,
+,,,claim,"The description is ""Add builtin attributes to the binary schema files.""",,,,
+16099,2325,"@@ -39,6 +39,7 @@ public class RestExplorerApp extends Application {
  	public void onCreate() {
  		super.onCreate();
  		SalesforceSDKManager.initNative(getApplicationContext(), new KeyImpl(), ExplorerActivity.class);
@@ -1087,8 +1087,8 @@
  
  		/*
  		 * Un-comment the line below to enable push notifications in this app.",claim,The code change adds a new line that enables browser login in the SalesforceSDKManager instance,,,test2325_old.java,test2325_new.java
-286,,,,claim,This suggests that the app now supports logging in to Salesforce using a web browser.,,,,
-287,29535,5171,"@@ -18,6 +18,9 @@ public abstract class InsulinOrefBasePlugin implements PluginBase, InsulinInterf
+,,,claim,This suggests that the app now supports logging in to Salesforce using a web browser.,,,,
+29535,5171,"@@ -18,6 +18,9 @@ public abstract class InsulinOrefBasePlugin implements PluginBase, InsulinInterf
  
      public static double MIN_DIA = 5;
  
@@ -1098,9 +1098,9 @@
      long lastWarned = 0;
  
      @Override",claim,"The code change adds two new lines of code, declaring two protected static boolean variables: ""fragmentEnabled"" and ""fragmentVisible""",,,test5171_old.java,test5171_new.java
-288,,,,claim,Both of these variables are initialized to false,,,,
-289,,,,claim,These variables could be used to control the visibility and enablement of a fragment in the code.,,,,
-290,14156,4977,"@@ -38,7 +38,7 @@ public class ReflectionParameterDeclaration implements ParameterDeclaration {
+,,,claim,Both of these variables are initialized to false,,,,
+,,,claim,These variables could be used to control the visibility and enablement of a fragment in the code.,,,,
+14156,4977,"@@ -38,7 +38,7 @@ public class ReflectionParameterDeclaration implements ParameterDeclaration {
  
      @Override
      public String getName() {
@@ -1109,10 +1109,10 @@
      }
  
      @Override",claim,The code change in the GIT DIFF modifies the exception message thrown by the getName() method,,,test4977_old.java,test4977_new.java
-291,,,,claim,"Previously, it threw an UnsupportedOperationException with no message",,,,
-292,,,,claim,"Now, it throws the same exception but with the message ""Unable to get the name""",,,,
-293,,,,claim,This change provides more context about the error that occurred.,,,,
-294,12468,2958,"@@ -1349,7 +1349,7 @@ public final class TreeMap<K, V> implements SortedMap<K, V>, Serializable {
+,,,claim,"Previously, it threw an UnsupportedOperationException with no message",,,,
+,,,claim,"Now, it throws the same exception but with the message ""Unable to get the name""",,,,
+,,,claim,This change provides more context about the error that occurred.,,,,
+12468,2958,"@@ -1349,7 +1349,7 @@ public final class TreeMap<K, V> implements SortedMap<K, V>, Serializable {
  
      @Override
      public Seq<V> values() {
@@ -1121,9 +1121,9 @@
      }
  
      // -- Object",claim,The code change in the GIT DIFF replaces an existing line of code,,,test2958_old.java,test2958_new.java
-295,,,,claim,The replaced line of code now directly maps the Tuple2::_2 function to the values() method instead of first converting the iterator to a stream,,,,
-296,,,,claim,This suggests that the code is now using a more direct approach to map the Tuple2::_2 function to the values.,,,,
-297,16794,8923,"@@ -108,7 +108,7 @@ public class DefaultReactiveOAuth2UserService implements ReactiveOAuth2UserServi
+,,,claim,The replaced line of code now directly maps the Tuple2::_2 function to the values() method instead of first converting the iterator to a stream,,,,
+,,,claim,This suggests that the code is now using a more direct approach to map the Tuple2::_2 function to the values.,,,,
+16794,8923,"@@ -108,7 +108,7 @@ public class DefaultReactiveOAuth2UserService implements ReactiveOAuth2UserServi
  					authenticationMethod);
  			// @formatter:off
  			Mono<Map<String, Object>> userAttributes = requestHeadersSpec.retrieve()
@@ -1132,10 +1132,10 @@
  						parse(response)
  							.map((userInfoErrorResponse) -> {
  								String description = userInfoErrorResponse.getErrorObject().getDescription();",claim,The code change in the GIT DIFF replaces an existing line of code,,,test8923_old.java,test8923_new.java
-298,,,,claim,"The replaced line of code now uses a different condition to check if the HTTP status is not successful (i.e., not in the 2xx range)",,,,
-299,,,,claim,The original line of code used a different condition to check if the HTTP status was not equal to HttpStatus.OK,,,,
-300,,,,claim,This change could have been made to handle different types of HTTP errors or to adapt to a different way of checking for success in the HTTP status.,,,,
-301,20258,3760,"@@ -122,6 +122,10 @@ class FastAppend extends SnapshotProducer<AppendFiles> implements AppendFiles {
+,,,claim,"The replaced line of code now uses a different condition to check if the HTTP status is not successful (i.e., not in the 2xx range)",,,,
+,,,claim,The original line of code used a different condition to check if the HTTP status was not equal to HttpStatus.OK,,,,
+,,,claim,This change could have been made to handle different types of HTTP errors or to adapt to a different way of checking for success in the HTTP status.,,,,
+20258,3760,"@@ -122,6 +122,10 @@ class FastAppend extends SnapshotProducer<AppendFiles> implements AppendFiles {
    public List<ManifestFile> apply(TableMetadata base) {
      List<ManifestFile> newManifests = Lists.newArrayList();
  
@@ -1146,9 +1146,9 @@
      try {
        ManifestFile manifest = writeManifest();
        if (manifest != null) {",claim,The code change adds a new conditional block that checks if the current snapshot of the base table is not null,,,test3760_old.java,test3760_new.java
-302,,,,claim,"If it's not null, it adds all the delete manifests from the current snapshot to the newManifests list",,,,
-303,,,,claim,This suggests that the code is now handling the deletion of manifests from the current snapshot of the base table.,,,,
-304,36091,9281,"@@ -101,6 +101,8 @@ public class MailServiceBean implements java.io.Serializable {
+,,,claim,"If it's not null, it adds all the delete manifests from the current snapshot to the newManifests list",,,,
+,,,claim,This suggests that the code is now handling the deletion of manifests from the current snapshot of the base table.,,,,
+36091,9281,"@@ -101,6 +101,8 @@ public class MailServiceBean implements java.io.Serializable {
      private Session session;
  
      public boolean sendSystemEmail(String to, String subject, String messageText) {
@@ -1157,11 +1157,11 @@
          boolean sent = false;
          String body = messageText + ResourceBundle.getBundle(""Bundle"").getString(""notification.email.closing"");
          logger.fine(""Sending email to "" + to + "". Subject: <<<"" + subject + "">>>. Body: "" + body);",claim,The code change adds a new conditional statement that always returns true,,,test9281_old.java,test9281_new.java
-305,,,,claim,"This is likely a placeholder or temporary solution to prevent the ""sendSystemEmail"" function from sending an email in the current state of the code.",,,,
-306,,,,issue,"line 104, UnconditionalIfStatement:	Do not use if statements that are always true or always false",,,,
-307,,,,issue,"line 104, ControlStatementBraces:	This statement should have braces",,,,
-308,,,,issue,"line 108, GuardLogStatement:	Logger calls should be surrounded by log level guards.",,,,
-309,9070,9058,"@@ -52,6 +52,10 @@ public class ViewSettings extends MainWindowView {
+,,,claim,"This is likely a placeholder or temporary solution to prevent the ""sendSystemEmail"" function from sending an email in the current state of the code.",,,,
+,,,issue,"line 104, UnconditionalIfStatement:	Do not use if statements that are always true or always false",,,,
+,,,issue,"line 104, ControlStatementBraces:	This statement should have braces",,,,
+,,,issue,"line 108, GuardLogStatement:	Logger calls should be surrounded by log level guards.",,,,
+9070,9058,"@@ -52,6 +52,10 @@ public class ViewSettings extends MainWindowView {
      private static final String CAPTION_TITLE_CSS_CLASS = ""captionTitle"";
      private static final String CONFIGURATION_PANE_CSS_CLASS = ""containerConfigurationPane"";
      private static final String TITLE_CSS_CLASS = ""title"";
@@ -1172,21 +1172,21 @@
      private final ObservableList<String> repositories = FXCollections.observableArrayList();
      private ComboBox<Theme> themes;
      private Consumer<Settings> onSave;",claim,"The code change adds four new private String variables: ""applicationName"", ""applicationVersion"", ""applicationGitRevision"", and ""applicationBuildTimestamp""",,,test9058_old.java,test9058_new.java
-310,,,,claim,"These variables are likely to be used to store information about the application, such as its name, version, Git revision, and build timestamp.",,,,
-311,,,,issue,"line 55, UnusedPrivateField:	Avoid unused private fields such as 'applicationName'.",,,,
-312,,,,issue,"line 56, UnusedPrivateField:	Avoid unused private fields such as 'applicationVersion'.",,,,
-313,,,,issue,"line 57, UnusedPrivateField:	Avoid unused private fields such as 'applicationGitRevision'.",,,,
-314,,,,issue,"line 58, UnusedPrivateField:	Avoid unused private fields such as 'applicationBuildTimestamp'.",,,,
-315,16343,8678,"@@ -35,3 +35,6 @@ def testCanClickOnALinkThatOverflowsAndFollowIt(driver):
+,,,claim,"These variables are likely to be used to store information about the application, such as its name, version, Git revision, and build timestamp.",,,,
+,,,issue,"line 55, UnusedPrivateField:	Avoid unused private fields such as 'applicationName'.",,,,
+,,,issue,"line 56, UnusedPrivateField:	Avoid unused private fields such as 'applicationVersion'.",,,,
+,,,issue,"line 57, UnusedPrivateField:	Avoid unused private fields such as 'applicationGitRevision'.",,,,
+,,,issue,"line 58, UnusedPrivateField:	Avoid unused private fields such as 'applicationBuildTimestamp'.",,,,
+16343,8678,"@@ -35,3 +35,6 @@ def testCanClickOnALinkThatOverflowsAndFollowIt(driver):
  def testClickingALinkMadeUpOfNumbersIsHandledCorrectly(driver):
      driver.find_element(By.LINK_TEXT, ""333333"").click()
      WebDriverWait(driver, 3).until(EC.title_is(""XHTML Test Page""))
 +
 +def testCannotClickDisabledButton(driver):
 +    WebDriverWait(driver, 3).until(EC.element_to_be_unclickable(By.ID, ""disabled-button""))",claim,"The GIT DIFF shows that a new test function named ""testCannotClickDisabledButton"" has been added",,,test8678_old.java,test8678_new.java
-316,,,,claim,"This test function uses the WebDriverWait class to wait until an element with the ID ""disabled-button"" is no longer clickable",,,,
-317,,,,claim,This suggests that the code now includes a test case to verify that a disabled button cannot be clicked.,,,,
-318,16053,996,"@@ -46,11 +46,6 @@ public interface AntlrNode extends Node {
+,,,claim,"This test function uses the WebDriverWait class to wait until an element with the ID ""disabled-button"" is no longer clickable",,,,
+,,,claim,This suggests that the code now includes a test case to verify that a disabled button cannot be clicked.,,,,
+16053,996,"@@ -46,11 +46,6 @@ public interface AntlrNode extends Node {
          throw new UnsupportedOperationException(""Out of scope for antlr current implementations"");
      }
  
@@ -1198,24 +1198,24 @@
      @Override
      default void setImage(final String image) {
          throw new UnsupportedOperationException(""Out of scope for antlr current implementations"");",claim,The code change represented by the GIT DIFF removes a method declaration from the AntlrNode interface,,,test996_old.java,test996_new.java
-319,,,,claim,"The removed method, getImage(), threw an UnsupportedOperationException when called, indicating that it was an operation that was out of scope for the current implementations of the antlr.",,,,
-320,20610,8121,"@@ -0,0 +1,6 @@
+,,,claim,"The removed method, getImage(), threw an UnsupportedOperationException when called, indicating that it was an operation that was out of scope for the current implementations of the antlr.",,,,
+20610,8121,"@@ -0,0 +1,6 @@
 +﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 +// Licensed under the MIT License. See License.txt in the project root for license information.
 +
 +[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage(""Microsoft.Design"", ""CA1021:AvoidOutParameters"", MessageId = ""2#"", Scope = ""member"", Target = ""Microsoft.Rest.TransientFaultHandling.ShouldRetryHandler.#Invoke(System.Int32,System.Exception,System.TimeSpan&)"")]
 +[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage(""Microsoft.Design"", ""CA2210:AssembliesShouldHaveValidStrongNames"", Justification=""We do give it strong name and sign it when build in CI server and verify it"")]
 +",claim,The GIT DIFF shows that six new lines of code have been added to the file,,,test8121_old.java,test8121_new.java
-321,,,,claim,"These lines are comments, copyright notices, and license information",,,,
-322,,,,claim,"Additionally, two code analysis suppressions have been added",,,,
-323,,,,claim,"The first suppression is for the ""CA1021:AvoidOutParameters"" rule, which is related to methods with out parameters",,,,
-324,,,,claim,"The second suppression is for the ""CA2210:AssembliesShouldHaveValidStrongNames"" rule, which is related to assemblies that do not have strong names",,,,
-325,,,,claim,The justification for these suppressions is provided in the comment.,,,,
-326,,,,issue,"ParseException: Parse exception in file '/home/arnaik/code-review-test-projects/java/test8121/test8121.java' at line 3, column 1: Encountered ""["".
+,,,claim,"These lines are comments, copyright notices, and license information",,,,
+,,,claim,"Additionally, two code analysis suppressions have been added",,,,
+,,,claim,"The first suppression is for the ""CA1021:AvoidOutParameters"" rule, which is related to methods with out parameters",,,,
+,,,claim,"The second suppression is for the ""CA2210:AssembliesShouldHaveValidStrongNames"" rule, which is related to assemblies that do not have strong names",,,,
+,,,claim,The justification for these suppressions is provided in the comment.,,,,
+,,,issue,"ParseException: Parse exception in file '/home/arnaik/code-review-test-projects/java/test8121/test8121.java' at line 3, column 1: Encountered ""["".
 Was expecting one of:
     <EOF> 
     ""import"" ...",,,,
-327,7088,8513,"@@ -4,10 +4,15 @@ import org.slf4j.Logger;
+7088,8513,"@@ -4,10 +4,15 @@ import org.slf4j.Logger;
  import org.slf4j.LoggerFactory;
  import org.slf4j.Marker;
  
@@ -1231,14 +1231,14 @@ Was expecting one of:
  
  /**
   * A reporter class for logging metrics values to a SLF4J {@link Logger} periodically, similar to",claim,The code change represented by the GIT DIFF adds several new import statements to the code,,,test8513_old.java,test8513_new.java
-328,,,,claim,"These new imports include java.util.Collections, java.util.Set, and java.util.function.Supplier",,,,
-329,,,,claim,"Additionally, the code also imports statically the MetricAttribute class from the com.codahale.metrics package",,,,
-330,,,,claim,This suggests that the code will be using some of the classes and methods provided by these libraries and the MetricAttribute class.,,,,
-331,,,,issue,"line 7, UnnecessaryImport:	Unused import 'java.util.Collections'",,,,
-332,,,,issue,"line 9, UnnecessaryImport:	Unused import 'java.util.Set'",,,,
-333,,,,issue,"line 13, UnnecessaryImport:	Unused import 'java.util.function.Supplier'",,,,
-334,,,,issue,"line 15, UnnecessaryImport:	Unused static import 'com.codahale.metrics.MetricAttribute.*'",,,,
-335,5434,2486,"@@ -101,6 +101,13 @@ public class DynamoDBCertRecordStoreConnection implements CertRecordStoreConnect
+,,,claim,"These new imports include java.util.Collections, java.util.Set, and java.util.function.Supplier",,,,
+,,,claim,"Additionally, the code also imports statically the MetricAttribute class from the com.codahale.metrics package",,,,
+,,,claim,This suggests that the code will be using some of the classes and methods provided by these libraries and the MetricAttribute class.,,,,
+,,,issue,"line 7, UnnecessaryImport:	Unused import 'java.util.Collections'",,,,
+,,,issue,"line 9, UnnecessaryImport:	Unused import 'java.util.Set'",,,,
+,,,issue,"line 13, UnnecessaryImport:	Unused import 'java.util.function.Supplier'",,,,
+,,,issue,"line 15, UnnecessaryImport:	Unused static import 'com.codahale.metrics.MetricAttribute.*'",,,,
+5434,2486,"@@ -101,6 +101,13 @@ public class DynamoDBCertRecordStoreConnection implements CertRecordStoreConnect
      }
  
      private X509CertRecord itemToX509CertRecord(Item item) {
@@ -1252,11 +1252,11 @@ Was expecting one of:
          X509CertRecord certRecord = new X509CertRecord();
          certRecord.setProvider(item.getString(KEY_PROVIDER));
          certRecord.setInstanceId(item.getString(KEY_INSTANCE_ID));",claim,"The code change adds a new block of code that attempts to retrieve a boolean value for the key ""KEY_CLIENT_CERT"" from the item",,,test2486_old.java,test2486_new.java
-336,,,,claim,"If this key does not exist or if an exception is thrown, a warning log message is generated and the variable ""clientCert"" is set to false",,,,
-337,,,,claim,"This change improves error handling by providing a default value in case the key ""KEY_CLIENT_CERT"" is not found or if an exception occurs.",,,,
-338,,,,issue,"line 104, UnusedLocalVariable:	Avoid unused local variables such as 'clientCert'.",,,,
-339,,,,issue,"line 108, GuardLogStatement:	Logger calls should be surrounded by log level guards.",,,,
-340,13464,7224,"@@ -48,8 +48,9 @@ public interface FileAppender<D> extends Closeable {
+,,,claim,"If this key does not exist or if an exception is thrown, a warning log message is generated and the variable ""clientCert"" is set to false",,,,
+,,,claim,"This change improves error handling by providing a default value in case the key ""KEY_CLIENT_CERT"" is not found or if an exception occurs.",,,,
+,,,issue,"line 104, UnusedLocalVariable:	Avoid unused local variables such as 'clientCert'.",,,,
+,,,issue,"line 108, GuardLogStatement:	Logger calls should be surrounded by log level guards.",,,,
+13464,7224,"@@ -48,8 +48,9 @@ public interface FileAppender<D> extends Closeable {
    long length();
  
    /**
@@ -1267,10 +1267,10 @@ Was expecting one of:
     * Only valid after the file is closed.
     */
    default List<Long> splitOffsets() {",claim,"The code changes in the GIT DIFF are related to the documentation of the method ""splitOffsets"" in the FileAppender interface",,,test7224_old.java,test7224_new.java
-341,,,,claim,The original line of code was replaced with three new lines,,,,
-342,,,,claim,"The new lines provide more detailed information about the method's return value, stating that the list of offsets is sorted in ascending order",,,,
-343,,,,claim,This change is likely made for improving the clarity and understanding of the method's behavior.,,,,
-344,24495,9575,"@@ -127,7 +127,7 @@ public class HiveIcebergFilterFactory {
+,,,claim,The original line of code was replaced with three new lines,,,,
+,,,claim,"The new lines provide more detailed information about the method's return value, stating that the list of offsets is sorted in ascending order",,,,
+,,,claim,This change is likely made for improving the clarity and understanding of the method's behavior.,,,,
+24495,9575,"@@ -127,7 +127,7 @@ public class HiveIcebergFilterFactory {
        case FLOAT:
          return leaf.getLiteral();
        case DATE:
@@ -1279,9 +1279,9 @@ Was expecting one of:
        case TIMESTAMP:
          return microsFromTimestamp((Timestamp) LITERAL_FIELD.get(leaf));
        case DECIMAL:",claim,The code change in the GIT DIFF replaces an existing line of code,,,test9575_old.java,test9575_new.java
-345,,,,claim,"The replaced line of code now calls the ""daysFromDate"" method instead of the ""daysFromTimestamp"" method",,,,
-346,,,,claim,This suggests that the code is now converting a date literal to days instead of a timestamp.,,,,
-347,22722,2336,"@@ -549,7 +549,7 @@ public class ContainerizedDispatchManagerTest {
+,,,claim,"The replaced line of code now calls the ""daysFromDate"" method instead of the ""daysFromTimestamp"" method",,,,
+,,,claim,This suggests that the code is now converting a date literal to days instead of a timestamp.,,,,
+22722,2336,"@@ -549,7 +549,7 @@ public class ContainerizedDispatchManagerTest {
          this.containerizedDispatchManager.getExecutionDispatcher(this.flow1.getExecutionId()));
      thread.start();
      synchronized (thread) {
@@ -1290,9 +1290,9 @@ Was expecting one of:
      }
      assertThat(flow1.getStatus()).isEqualTo(Status.FAILED);
      verify(onExecutionEventListener).onExecutionEvent(this.flow1, Constants.RESTART_FLOW);",claim,"The code change in the GIT DIFF replaces the method call ""thread.wait();"" with ""thread.join();""",,,test2336_old.java,test2336_new.java
-348,,,,claim,"This suggests that the main thread is now waiting for the thread to finish, instead of being blocked by the thread",,,,
-349,,,,claim,This change could be used to ensure that the main thread does not proceed until the thread it is waiting for finishes.,,,,
-350,23257,6436,"@@ -95,8 +95,11 @@ public class EeaSendRawTransaction implements JsonRpcMethod {
+,,,claim,"This suggests that the main thread is now waiting for the thread to finish, instead of being blocked by the thread",,,,
+,,,claim,This change could be used to ensure that the main thread does not proceed until the thread it is waiting for finishes.,,,,
+23257,6436,"@@ -95,8 +95,11 @@ public class EeaSendRawTransaction implements JsonRpcMethod {
          maybePrivacyGroup =
              privacyController.retrieveOnChainPrivacyGroup(
                  maybePrivacyGroupId.get(), enclavePublicKey);
@@ -1306,17 +1306,17 @@ Was expecting one of:
            return new JsonRpcErrorResponse(id, JsonRpcError.ONCHAIN_PRIVACY_GROUP_DOES_NOT_EXIST);
          }
        } else { // !onchainPirvacyGroupEnabled",claim,The code change in the GIT DIFF modifies the conditional statement,,,test6436_old.java,test6436_new.java
-351,,,,claim,"Previously, the code checked if the maybePrivacyGroup was empty and if the privateTransaction was not a group addition transaction",,,,
-352,,,,claim,"If both conditions were true, it would return an error",,,,
-353,,,,claim,,,,,
-354,,,,claim,"Now, the code first checks if the maybePrivacyGroup is empty",,,,
-355,,,,claim,"If it is, it further checks if the privateTransaction is not a group addition transaction",,,,
-356,,,,claim,"If both conditions are true, it returns an error",,,,
-357,,,,claim,"If the maybePrivacyGroup is not empty, it checks if the enclavePublicKey is a member of the privacy group",,,,
-358,,,,claim,"If it is not, it returns an error",,,,
-359,,,,claim,,,,,
-360,,,,claim,This change adds an additional layer of validation before returning,,,,
-361,12320,5289,"@@ -4,11 +4,14 @@
+,,,claim,"Previously, the code checked if the maybePrivacyGroup was empty and if the privateTransaction was not a group addition transaction",,,,
+,,,claim,"If both conditions were true, it would return an error",,,,
+,,,claim,,,,,
+,,,claim,"Now, the code first checks if the maybePrivacyGroup is empty",,,,
+,,,claim,"If it is, it further checks if the privateTransaction is not a group addition transaction",,,,
+,,,claim,"If both conditions are true, it returns an error",,,,
+,,,claim,"If the maybePrivacyGroup is not empty, it checks if the enclavePublicKey is a member of the privacy group",,,,
+,,,claim,"If it is not, it returns an error",,,,
+,,,claim,,,,,
+,,,claim,This change adds an additional layer of validation before returning,,,,
+12320,5289,"@@ -4,11 +4,14 @@
  
  package net.sourceforge.pmd.lang.rule.properties;
  
@@ -1332,14 +1332,14 @@ Was expecting one of:
  
  /**
   * Defines a datatype with a set of preset values of any type as held within a",claim,The code change represented by the GIT DIFF replaces an existing line of code,,,test5289_old.java,test5289_new.java
-362,,,,claim,The replaced line of code now imports four new packages instead of the original line of code that imported one package,,,,
-363,,,,claim,"These new packages are ""java.util.Collections"", ""net.sourceforge.pmd.EnumeratedPropertyDescriptor"", ""net.sourceforge.pmd.PropertyDescriptorField"", and ""net.sourceforge.pmd.util.CollectionUtil""",,,,
-364,,,,claim,This indicates that the code is now using classes or methods from these new packages.,,,,
-365,,,,issue,"line 7, UnnecessaryImport:	Unused import 'java.util.Collections'",,,,
-366,,,,issue,"line 11, UnnecessaryImport:	Unused import 'net.sourceforge.pmd.EnumeratedPropertyDescriptor'",,,,
-367,,,,issue,"line 13, UnnecessaryImport:	Unused import 'net.sourceforge.pmd.PropertyDescriptorField'",,,,
-368,,,,issue,"line 14, UnnecessaryImport:	Unused import 'net.sourceforge.pmd.util.CollectionUtil'",,,,
-369,34280,3786,"@@ -104,12 +104,7 @@ class TypeToSparkType extends TypeUtil.SchemaVisitor<DataType> {
+,,,claim,The replaced line of code now imports four new packages instead of the original line of code that imported one package,,,,
+,,,claim,"These new packages are ""java.util.Collections"", ""net.sourceforge.pmd.EnumeratedPropertyDescriptor"", ""net.sourceforge.pmd.PropertyDescriptorField"", and ""net.sourceforge.pmd.util.CollectionUtil""",,,,
+,,,claim,This indicates that the code is now using classes or methods from these new packages.,,,,
+,,,issue,"line 7, UnnecessaryImport:	Unused import 'java.util.Collections'",,,,
+,,,issue,"line 11, UnnecessaryImport:	Unused import 'net.sourceforge.pmd.EnumeratedPropertyDescriptor'",,,,
+,,,issue,"line 13, UnnecessaryImport:	Unused import 'net.sourceforge.pmd.PropertyDescriptorField'",,,,
+,,,issue,"line 14, UnnecessaryImport:	Unused import 'net.sourceforge.pmd.util.CollectionUtil'",,,,
+34280,3786,"@@ -104,12 +104,7 @@ class TypeToSparkType extends TypeUtil.SchemaVisitor<DataType> {
          throw new UnsupportedOperationException(
              ""Spark does not support time fields"");
        case TIMESTAMP:
@@ -1353,11 +1353,11 @@ Was expecting one of:
        case STRING:
          return StringType$.MODULE$;
        case UUID:",claim,The code change represented by the GIT DIFF removes a conditional block that checks if the timestamp should be adjusted to UTC,,,test3786_old.java,test3786_new.java
-370,,,,claim,"If it should, it returns the TimestampType$.MODULE$",,,,
-371,,,,claim,The removed code threw an UnsupportedOperationException if the timestamp should not be adjusted to UTC,,,,
-372,,,,claim,The new code directly returns the TimestampType$.MODULE$ without any conditional checks,,,,
-373,,,,claim,"This suggests that the code now assumes that the timestamp should always be adjusted to UTC, or that the Spark does not support timestamp fields without time zones.",,,,
-374,34209,8570,"@@ -78,6 +78,9 @@ public class TableProperties {
+,,,claim,"If it should, it returns the TimestampType$.MODULE$",,,,
+,,,claim,The removed code threw an UnsupportedOperationException if the timestamp should not be adjusted to UTC,,,,
+,,,claim,The new code directly returns the TimestampType$.MODULE$ without any conditional checks,,,,
+,,,claim,"This suggests that the code now assumes that the timestamp should always be adjusted to UTC, or that the Spark does not support timestamp fields without time zones.",,,,
+34209,8570,"@@ -78,6 +78,9 @@ public class TableProperties {
    public static final String SPLIT_OPEN_FILE_COST = ""read.split.open-file-cost"";
    public static final long SPLIT_OPEN_FILE_COST_DEFAULT = 4 * 1024 * 1024; // 4MB
  
@@ -1367,9 +1367,9 @@ Was expecting one of:
    public static final String PARQUET_VECTORIZATION_ENABLED = ""read.parquet.vectorization.enabled"";
    public static final boolean PARQUET_VECTORIZATION_ENABLED_DEFAULT = false;
  ",claim,"The code change adds two new public static final boolean variables: ""SPLIT_BY_PARTITION"" and ""SPLIT_BY_PARTITION_DEFAULT""",,,test8570_old.java,test8570_new.java
-375,,,,claim,"The ""SPLIT_BY_PARTITION"" variable is set to ""read.split.by-partition"" and the ""SPLIT_BY_PARTITION_DEFAULT"" variable is set to false",,,,
-376,,,,claim,"These new variables suggest that the code now has the ability to split by partition, with the default setting being disabled.",,,,
-377,12938,9116,"@@ -164,4 +164,17 @@ public class Preferences {
+,,,claim,"The ""SPLIT_BY_PARTITION"" variable is set to ""read.split.by-partition"" and the ""SPLIT_BY_PARTITION_DEFAULT"" variable is set to false",,,,
+,,,claim,"These new variables suggest that the code now has the ability to split by partition, with the default setting being disabled.",,,,
+12938,9116,"@@ -164,4 +164,17 @@ public class Preferences {
      public SharedPreferences getPreferences() {
          return mStorage;
      }
@@ -1387,11 +1387,11 @@ Was expecting one of:
 +    }
 +
  }",claim,"The GIT DIFF shows that a new method named ""getEnumStringPref"" has been added to the ""Preferences"" class",,,test9116_old.java,test9116_new.java
-378,,,,claim,"This method takes in three parameters: a SharedPreferences object, a key string, and a defaultEnum object of type Enum",,,,
-379,,,,claim,The method retrieves a string preference from the SharedPreferences object using the provided key and a default value of the name of the defaultEnum object,,,,
-380,,,,claim,It then attempts to convert this string preference to an enum value of the same type as the defaultEnum object,,,,
-381,,,,claim,"If this conversion fails, it logs a warning message and returns the defaultEnum object.",,,,
-382,40483,7555,"@@ -28,6 +28,9 @@ import org.apache.solr.common.util.StrUtils;
+,,,claim,"This method takes in three parameters: a SharedPreferences object, a key string, and a defaultEnum object of type Enum",,,,
+,,,claim,The method retrieves a string preference from the SharedPreferences object using the provided key and a default value of the name of the defaultEnum object,,,,
+,,,claim,It then attempts to convert this string preference to an enum value of the same type as the defaultEnum object,,,,
+,,,claim,"If this conversion fails, it logs a warning message and returns the defaultEnum object.",,,,
+40483,7555,"@@ -28,6 +28,9 @@ import org.apache.solr.common.util.StrUtils;
  public interface ShardParams {
    /** the shards to use (distributed configuration) */
    String SHARDS = ""shards"";
@@ -1401,9 +1401,9 @@ Was expecting one of:
    
    /** per-shard start and rows */
    String SHARDS_ROWS = ""shards.rows"";",claim,"The code change adds a new constant named ""QUERY_ID"" to the ""ShardParams"" interface",,,test7555_old.java,test7555_new.java
-383,,,,claim,"This constant is a string and is assigned the value ""queryID""",,,,
-384,,,,claim,The comment above the constant indicates that it represents the UUID of the query.,,,,
-385,10755,3068,"@@ -127,6 +127,7 @@ public class RepositoriesPanel extends StackPane {
+,,,claim,"This constant is a string and is assigned the value ""queryID""",,,,
+,,,claim,The comment above the constant indicates that it represents the UUID of the query.,,,,
+10755,3068,"@@ -127,6 +127,7 @@ public class RepositoriesPanel extends StackPane {
          this.addButton.setText(tr(""Add""));
          this.addButton.setOnAction((ActionEvent event) -> {
              AddRepositoryDialog dialog = new AddRepositoryDialog();
@@ -1411,4 +1411,4 @@ Was expecting one of:
  
              Optional<RepositoryLocation<? extends Repository>> successResult = dialog.showAndWait();
  ",claim,The code change adds a new line that initializes the owner of the dialog to the window of its parent scene,,,test3068_old.java,test3068_new.java
-386,,,,claim,This is typically done to ensure that the dialog appears on top of all other windows.,,,,
+,,,claim,This is typically done to ensure that the dialog appears on top of all other windows.,,,,

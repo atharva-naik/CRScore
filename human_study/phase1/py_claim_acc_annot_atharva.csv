@@ -1,0 +1,1479 @@
+id,index,diff,claim,"Correctness
+0 - incorrect
+1 - correct
+-1 - unverifiable
+-2 - incomplete",based on diff,additional claims,old_file,new_file
+15764,7988,"@@ -204,7 +204,7 @@ class Renderer(Exporter):
+             if (((len(plot) == 1 and not plot.dynamic)
+                 or (len(plot) > 1 and self.holomap is None) or
+                 (plot.dynamic and len(plot.keys[0]) == 0)) or
+-                not unbound_dimensions(plot.streams, plot.dimensions)):
++                not unbound_dimensions(plot.streams, plot.dimensions, False)):
+                 fmt = fig_formats[0] if self.fig=='auto' else self.fig
+             else:
+                 fmt = holomap_formats[0] if self.holomap=='auto' else self.holomap",The code change is in the condition for the if statement.,,,,test7988_old.py,test7988_new.py
+,,,The function call to 'unbound_dimensions' has been modified.,,,,,
+,,,"Previously, the function 'unbound_dimensions' was called with two arguments: 'plot.streams' and 'plot.dimensions'.",,,,,
+,,,"Now, an additional argument 'False' has been added to the function call.",,,,,
+,,,The change will affect the behavior of the 'unbound_dimensions' function.,,1,,,
+,,,The 'unbound_dimensions' function is likely to require an additional argument in its definition.,,1,,,
+,,,The new argument 'False' could potentially alter the functionality of the,,,,,
+12012,16,"@@ -419,7 +419,10 @@ class S3KeyTest(unittest.TestCase):
+         remote_metadata = check._get_remote_metadata()
+ 
+         # TODO: investigate whether encoding ' ' as '%20' makes sense
+-        self.assertEqual(check.cache_control, 'public,%20max-age=500')
++        self.assertIn(
++            check.cache_control,
++            ('public,%20max-age=500', 'public, max-age=500')
++        )
+         self.assertEqual(remote_metadata['cache-control'], 'public,%20max-age=500')
+         self.assertEqual(check.get_metadata('test-plus'), 'A plus (+)')
+         self.assertEqual(check.content_disposition, 'filename=Sch%C3%B6ne%20Zeit.txt')",The code change involves the assertion method used in the unittest.,,,,test16_old.py,test16_new.py
+,,,"The original assertion was that the cache_control attribute of the check object should be equal to 'public,%20max-age=500'.",,,,,
+,,,The new code change has been updated to use the 'assertIn' method instead of 'assertEqual'.,,,,,
+,,,"The 'assertIn' method checks if the cache_control attribute of the check object is in a tuple containing two strings: 'public,%20max-age=500' and 'public, max-age=500'.",,,,,
+,,,The change from 'assertEqual' to 'assertIn' suggests that the,,,,,
+16852,8942,"@@ -39,14 +39,15 @@ MODULES_TO_CHECK = [
+ MODULES_NAMES = [m[1] for m in MODULES_TO_CHECK]
+ 
+ 
+-@pytest.mark.primer_stdlib
++@pytest.mark.primer
+ @pytest.mark.parametrize(
+     (""test_module_location"", ""test_module_name""), MODULES_TO_CHECK, ids=MODULES_NAMES
+ )
+-def test_lib_module_no_crash(
++def test_primer_stdlib_no_crash(
+     test_module_location: str, test_module_name: str, capsys: CaptureFixture
+ ) -> None:
+     """"""Test that pylint does not produces any crashes or fatal errors on stdlib modules""""""
++    __tracebackhide__ = True  # pylint: disable=unused-variable
+     os.chdir(test_module_location)
+     with _patch_stdout(io.StringIO()):
+         try:",The test function has been renamed from `test_lib_module_no_crash` to `test_primer_stdlib_no_crash`.,,,,test8942_old.py,test8942_new.py
+,,,The markers have been changed from `@pytest.mark.primer_stdlib` to `@pytest.mark.primer`.,,,,,
+,,,A new line of code has been added that sets the `__tracebackhide__` variable to `True`. This is used to hide the traceback when an error occurs.,,,,,
+,,,"The renaming of the test function implies that the test is now specifically for the `primer_stdlib` module, not the `lib",,1,,,
+16274,4904,"@@ -2,7 +2,9 @@
+ # For details: https://github.com/PyCQA/pylint/blob/main/LICENSE
+ 
+ import functools
++import optparse  # pylint: disable=deprecated-module
+ 
++from pylint.lint import PyLinter
+ from pylint.testutils.checker_test_case import CheckerTestCase
+ 
+ ",Two new import statements have been added to the code.,,,,test4904_old.py,test4904_new.py
+,,,"The first one imports the 'optparse' module, while the second one imports the 'PyLinter' class from the 'pylint.lint' module.",,,,,
+,,,The 'optparse' module is being imported with a comment indicating that it is being disabled due to its deprecation.,,The 'optparse' module is being imported with a comment indicating that the pylint deprecated module warning for it is to be disabled,,,
+,,,The addition of the 'optparse' module suggests that the code may now be using the deprecated 'optparse' module for command-line option parsing.,,,,,
+,,,The 'PyLinter' class from the 'pylint.lint' module is being imported. This could,,,,,
+17022,7282,"@@ -648,7 +648,7 @@ def log(package):
+             str(entry.get('tags', [])), str(entry.get('versions', []))))
+     _print_table(table)
+ 
+-def push(package, is_public=False, is_team=False, reupload=False):
++def push(package, hash=None, is_public=False, is_team=False, reupload=False):
+     """"""
+     Push a Quilt data package to the server
+     """"""",The function signature of `push` has been modified.,,,,test7282_old.py,test7282_new.py
+,,,An additional parameter `hash` has been added to the `push` function.,,,,,
+,,,The `hash` parameter in the `push` function is optional and its default value is `None`. This means that the function can now be called with or without a hash.,,,,,
+,,,Any existing calls to the `push` function will need to be updated to include the new `hash` parameter. This could potentially break compatibility with older code.,,,,,
+,,,The addition of the `hash` parameter could imply that the function is now handling a new feature or functionality related to hashing or checksumming. This could potentially affect the,,,,,
+19830,343,"@@ -944,7 +944,8 @@ class ExcelCellTextInfo(NVDAObjectTextInfo):
+ 
+ 	def _getFormatFieldAndOffsets(self,offset,formatConfig,calculateOffsets=True):
+ 		formatField=textInfos.FormatField()
+-		if (self.obj.excelCellObject.Application.Version > ""12.0""):
++		version=int(self.obj.excelCellObject.Application.Version.split('.')[0])
++		if version>12:
+ 			cellObj=self.obj.excelCellObject.DisplayFormat
+ 		else:
+ 			cellObj=self.obj.excelCellObject",The code has been modified to convert the Excel cell object application version to an integer.,,,,test343_old.py,test343_new.py
+,,,A new variable 'version' has been introduced to hold the converted version number.,,,,,
+,,,The comparison in the if statement has been changed from a string comparison to an integer comparison.,,,,,
+,,,The change in the comparison method from string to integer could potentially affect the program's behavior.,,,,,
+,,,"The version number is now being compared as an integer, which could potentially lead to incorrect results if the version number contains decimal points.",,,"The version number is now being compared as an integer with a greater than sign to enforce the version being greater than 12. This is closer to the expected behavior than a string comparison as a string comparison would make ""2"" greater than ""12""",,
+,,,The introduction of the 'version' variable could potentially improve the readability and maintainability of the code.,,,,,
+11392,1735,"@@ -176,6 +176,11 @@ def get_port_from_custom_rules(method, path, data, headers):
+             # assume that this is an S3 POST request with form parameters or multipart form in the body
+             return config.PORT_S3
+ 
++    if stripped and '/' in stripped:
++        if method == 'PUT':
++            # assume that this is an S3 PUT bucket object request with URL path `/<bucket>/object`
++            return config.PORT_S3
++
+     # detect S3 requests sent from aws-cli using --no-sign-request option
+     if 'aws-cli/' in headers.get('User-Agent', ''):
+         return config.PORT_S3",A new condition has been added to the function `get_port_from_custom_rules`.,,,,test1735_old.py,test1735_new.py
+,,,This condition checks if the `stripped` variable is not None and if '/' is in the `stripped` variable.,,,,,
+,,,"Additionally, a new condition has been added to check if the `method` is 'PUT'.",,,,,
+,,,"If the `method` is 'PUT' and the `stripped` variable is not None and contains '/', the function will return `config.PORT_S3`.",,,,,
+,,,The function `get_port_from_custom_rules` now has an additional condition to handle S3 PUT requests.,,,,,
+,,,2,,,,,
+20031,5477,"@@ -971,7 +971,7 @@ class JobTask(BaseHadoopJobTask):
+             if self.__module__ == '__main__':
+                 d = pickle.dumps(self)
+                 module_name = os.path.basename(sys.argv[0]).rsplit('.', 1)[0]
+-                d = d.replace(b'(c__main__', ""(c"" + module_name)
++                d = d.replace(b'c__main__', b'c' + module_name.encode('ascii'))
+                 open(file_name, ""wb"").write(d)
+ 
+             else:",The code change is in the replacement of a part of the byte string 'c__main__' with 'c' followed by the encoded ASCII representation of 'module_name'.,,,,test5477_old.py,test5477_new.py
+,,,The original code was replacing '(c__main__' with '(c' followed by 'module_name'.,,,,,
+,,,The new code change corrects this by encoding 'module_name' to ASCII before replacing 'c__main__' with 'c' followed by the encoded 'module_name'.,,,,,
+,,,This change could potentially affect the behavior of the code if 'module_name' contains non-ASCII characters.,,,,,
+,,,The encoded 'module_name' will,,,,,
+10418,4669,"@@ -67,6 +67,10 @@ exclude = [""AuthalicMatrixCoefficients"",
+            ""vnl_file_matrix"",
+            ""vnl_file_vector"",
+            ""vnl_fortran_copy"",
++           ""CosineWindowFunction"",
++           ""HammingWindowFunction"",
++           ""LanczosWindowFunction"",
++           ""WelchWindowFunction"",
+            ]
+ 
+ total = 0","The GIT DIFF shows that four new window functions have been added to the code. These are CosineWindowFunction, HammingWindowFunction, LanczosWindowFunction, and WelchWindowFunction.",,,,test4669_old.py,test4669_new.py
+,,,The addition of these window functions suggests that the code now has the ability to handle or perform operations related to these window functions. This could potentially expand the functionality of the code.,,,,,
+,,,The window functions added are commonly used in signal processing or other fields where window functions are applied. This could imply that the developers of this code are knowledgeable in these areas or are planning to integrate these features in the future.,,,,,
+,,,The addition of these functions could potentially affect the performance or efficiency of,,,,,
+19581,3806,"@@ -137,8 +137,14 @@ class Bars(Chart):
+ 
+ class BoxWhisker(Chart):
+     """"""
+-    BoxWhisker represent data as a distributions highlighting
+-    the median, mean and various percentiles.
++    BoxWhisker allows representing the distribution of data grouped
++    into one or more groups by summarizing the data using quartiles.
++    The boxes of a BoxWhisker element represent the first, second and
++    third quartiles. The whiskers follow the Tukey boxplot definition
++    representing the lowest datum still within 1.5 IQR of the lower
++    quartile, and the highest datum still within 1.5 IQR of the upper
++    quartile. Any points falling outside this range are shown as
++    distinct outlier points.
+     """"""
+ 
+     group = param.String(default='BoxWhisker', constant=True)",The description of the BoxWhisker class has been significantly expanded.,,,,test3806_old.py,test3806_new.py
+,,,The class now allows for the representation of data grouped into one or more groups by summarizing the data using quartiles.,,,,,
+,,,"The description now includes the definition of the boxes and whiskers in a BoxWhisker element, as well as the range of values considered as outliers.",,,,,
+,,,The BoxWhisker class now provides a more detailed and informative description of its functionality.,,,,,
+,,,The addition of the quartile summary feature implies that the class can now handle and display more complex data distributions.,,,,,
+,,,The outlier detection and display mechanism provided in the new description could potentially improve,,,,,
+19579,966,"@@ -118,6 +118,9 @@ class ExternalProgramTask(luigi.Task):
+         file_object.seek(0)
+         return ''.join(map(lambda s: s.decode('utf-8'), file_object.readlines()))
+ 
++    def build_tracking_url(self, logs_output):
++        return logs_output
++
+     def run(self):
+         args = list(map(str, self.program_args()))
+ ","A new method called ""build_tracking_url"" has been added to the ""ExternalProgramTask"" class.",,,,test966_old.py,test966_new.py
+,,,"This method takes two parameters: ""self"" and ""logs_output"".",,,,,
+,,,"The method simply returns the ""logs_output"" parameter.",,,,,
+,,,"The addition of this method suggests that the ""ExternalProgramTask"" class now has the ability to build a tracking URL based on the output of a log file.",,,,,
+,,,"This could be used for debugging or error tracking purposes, or to provide a link for users to access specific logs.",,,,,
+,,,"As the method returns the ""logs_output"" parameter, it assumes that the ""log",,,,,
+15962,3830,"@@ -118,7 +118,8 @@ class NdIndexableMappingTest(ComparisonTestCase):
+         data = [((0, 0.5), 'a'), ((1, 0.5), 'b')]
+         ndmap = MultiDimensionalMapping(data, kdims=[self.dim1, self.dim2])
+         redimmed = ndmap.redim(intdim='Integer')
+-        self.assertEqual(redimmed.kdims, [Dimension('Integer'), Dimension('floatdim')])
++        self.assertEqual(redimmed.kdims, [Dimension('Integer', type=int),
++                                          Dimension('floatdim', type=float)])
+ 
+     def test_idxmapping_add_dimension(self):
+         ndmap = MultiDimensionalMapping(self.init_items_1D_list, kdims=[self.dim1])",The code change is in the test method of the NdIndexableMappingTest class.,,,,test3830_old.py,test3830_new.py
+,,,"The assertion in the test method ""test_idxmapping_add_dimension"" has been modified.",,,,,
+,,,The expected value of the kdims attribute of the redimmed object is now a list containing two Dimension objects.,,,,,
+,,,"The first Dimension object is 'Integer' of type int, and the second Dimension object is 'floatdim' of type float.",,,,,
+,,,The change in the expected value of the kdims attribute of the redimmed object implies that the redim method now expects the 'Integer' dimension to be of type int and the ',,,,,
+12377,8481,"@@ -9,6 +9,7 @@
+ # Copyright (c) 2019-2020 Pierre Sassoulas <pierre.sassoulas@gmail.com>
+ # Copyright (c) 2019 Ashley Whetter <ashley@awhetter.co.uk>
+ # Copyright (c) 2019 Taewon D. Kim <kimt33@mcmaster.ca>
++# Copyright (c) 2020 Eli Fine <ejfine@gmail.com>
+ 
+ # Licensed under the GPL: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ # For details: https://github.com/PyCQA/pylint/blob/master/COPYING","A new copyright notice has been added to the code. The new notice is for Eli Fine, who can be contacted at ejfine@gmail.com. The copyright is for the year 2020.",,,,test8481_old.py,test8481_new.py
+,,,The addition of this copyright notice indicates that the code is now owned by Eli Fine. This could potentially affect the way the code is used and distributed.,,,,,
+,,,"The new copyright holder could have different terms or conditions for using or distributing the code, which could be different from the current conditions.",,,,,
+,,,"This change could also affect any legal or intellectual property rights that the code previously had, depending on the terms of the new copyright notice.",,,,,
+14205,1250,"@@ -95,6 +95,8 @@ class visibility_of(object):
+ 
+ 
+ def _element_if_visible(element, visibility=True):
++    if isinstance(element, str) or isinstance(element, dict):
++           raise StaleElementReferenceException(""Invalid locator"")
+     return element if element.is_displayed() == visibility else False
+ 
+ ",Two lines of code have been added to the visibility_of function in the object class.,,,,test1250_old.py,test1250_new.py
+,,,The added code checks if the element is an instance of either a string or a dictionary.,,,,,
+,,,"If the element is an instance of either of these two data types, a StaleElementReferenceException is raised with the message ""Invalid locator"".",,,,,
+,,,The added code ensures that the element passed to the function is not a string or a dictionary.,,,,,
+,,,This could prevent potential errors or exceptions from being raised when trying to call methods or attributes on the element.,,,,,
+,,,"The function will now only work with valid elements, preventing potential issues down the line.",,,,,
+,,,If an,,,,,
+33710,1351,"@@ -65,7 +65,6 @@ PER_YIELD = 1024
+ 
+ def generate_model_handle():
+     """"""Generate random model handle.
+-
+     Returns:
+         str: random bytes for handle
+     """"""",A blank line has been removed from the function definition of `generate_model_handle`.,,,,test1351_old.py,test1351_new.py
+,,,This change does not affect the functionality of the code as it is a formatting change. It might have been done to make the code look cleaner and more organized.,,,,,
+15649,7232,"@@ -1045,6 +1045,10 @@ def access_put(owner, package_name, user):
+             ""Only the package owner can grant access""
+         )
+ 
++    django_headers = {
++        AUTHORIZATION_HEADER: g.auth_header
++        }
++
+     package = (
+         Package.query
+         .with_for_update()",A new dictionary named 'django_headers' has been added to the 'access_put' function.,,,,test7232_old.py,test7232_new.py
+,,,The dictionary 'django_headers' contains one key-value pair where the key is 'AUTHORIZATION_HEADER' and the value is 'g.auth_header'.,,,,,
+,,,The addition of the 'django_headers' dictionary suggests that the function 'access_put' is now handling HTTP headers in a Django-specific way.,,1,,,
+,,,The 'AUTHORIZATION_HEADER' key in the dictionary suggests that the function is now dealing with authorization-related headers.,,1,,,
+,,,The value 'g.auth_header' suggests that,,,,,
+16117,1154,"@@ -35,9 +35,11 @@ class ScalarSpaceEncoderTest(unittest.TestCase):
+   def testScalarSpaceEncoder(self):
+     """"""scalar space encoder""""""
+     # use of forced=True is not recommended, but used in the example for readibility, see scalar.py
+-    sse = ScalarSpaceEncoder(1,1,2,False,2,1,1,None,0,False,""delta"", forced=True)
++    sse = ScalarSpaceEncoder(w=21,minval=1,maxval=2,n=100,radius=1,
++            resolution=1,name=""SP1"",verbosity=0,clipInput=False,space=""delta"")
+     self.assertTrue(sse.isDelta())
+-    sse = ScalarSpaceEncoder(1,1,2,False,2,1,1,None,0,False,""absolute"", forced=True)
++    sse = ScalarSpaceEncoder(w=21,minval=1,maxval=2,n=100,radius=1,
++            resolution=1,name=""sp2"",verbosity=0,clipInput=False,space=""absolute"")
+     self.assertFalse(sse.isDelta())
+ 
+      ",The code changes involve the modification of the parameters passed to the ScalarSpaceEncoder function.,,,,test1154_old.py,test1154_new.py
+,,,The parameters have been changed from a more traditional form of passing arguments to a more pythonic form of passing arguments using keywords.,,,,,
+,,,"The changes are minor, but they do make the code more readable and maintainable.",,,,,
+,,,The changes do not affect the functionality of the code as they are only changes in the way the arguments are passed to the function.,,,,,
+,,,The changes could potentially affect the performance of the code as the order of the arguments does not matter any longer.,,,,,
+,,,The changes could potentially affect the debugging process as it is now easier to see which argument,,,,,
+17642,8017,"@@ -152,6 +152,14 @@ class StartButton(IAccessible):
+ 		states = super(StartButton, self).states
+ 		states.discard(controlTypes.STATE_SELECTED)
+ 		return states
++		
++class UIProperty(UIA):
++	#Used for columns in Windows Explorer Details view.
++	#These can contain dates that include unwanted left-to-right and right-to-left indicator characters.
++	
++	def _get_value(self):
++		value = super(UIProperty, self).value
++		return value.replace(u'\u200E','').replace(u'\u200F','')
+ 
+ 
+ class AppModule(appModuleHandler.AppModule):",A new class called UIProperty has been added.,,,,test8017_old.py,test8017_new.py
+,,,This class is a subclass of the UIA class.,,,,,
+,,,The class is used for columns in Windows Explorer Details view.,,,,,
+,,,The class contains a method called _get_value.,,,,,
+,,,The _get_value method overrides the _get_value method of the UIA class.,,,,,
+,,,"The _get_value method returns the value of the superclass method, but with any left-to-right and right-to-left indicator characters removed.",,,,,
+,,,The addition of the UIProperty class suggests that there may be a need to handle or manipulate values in a specific way in the,,,,,
+19343,2020,"@@ -64,9 +64,7 @@ def implements(
+     obj: ""BaseChecker"",
+     interface: Union[Type[""Interface""], Tuple[Type[""Interface""], ...]],
+ ) -> bool:
+-    """"""Return whether the given object (maybe an instance or class) implements
+-    the interface.
+-    """"""
++    """"""Does the given object (maybe an instance or class) implements the interface.""""""
+     kimplements = getattr(obj, ""__implements__"", ())
+     if not isinstance(kimplements, (list, tuple)):
+         kimplements = (kimplements,)","The description of the function ""implements"" has been slightly modified.",,,,test2020_old.py,test2020_new.py
+,,,"The original description stated that the function ""Return whether the given object (maybe an instance or class) implements the interface.""",,,,,
+,,,"The updated description now states that ""Does the given object (maybe an instance or class) implements the interface.""",,,,,
+,,,"The change in the description of the function ""implements"" might affect the readability and understanding of the code.",,,,,
+,,,"It might also affect the documentation of the function, which is important for other developers who might use or modify this code in the future.",,,,,
+,,,The change might not have any functional implications as the functionality of the,,,,,
+19072,2051,"@@ -47,6 +47,10 @@ public interface CapabilityType {
+   String HAS_TOUCHSCREEN = ""hasTouchScreen"";
+   String OVERLAPPING_CHECK_DISABLED = ""overlappingCheckDisabled"";
+   String STRICT_FILE_INTERACTABILITY = ""strictFileInteractability"";
++  String TIMEOUTS = ""timeouts"";
++  String IMPLICIT_TIMEOUT = ""implicit"";
++  String PAGE_LOAD_TIMEOUT = ""pageLoad"";
++  String SCRIPT_TIMEOUT = ""script"";
+ 
+   String LOGGING_PREFS = ""loggingPrefs"";
+ ","Four new String constants have been added to the CapabilityType interface. These are TIMEOUTS, IMPLICIT_TIMEOUT, PAGE_LOAD_TIMEOUT, and SCRIPT_TIMEOUT.",,,,test2051_old.py,test2051_new.py
+,,,"The value of each new constant is set to the corresponding timeout type as a string. For example, IMPLICIT_TIMEOUT is set to the string ""implicit"".",,,,,
+,,,The addition of these timeout constants suggests that the CapabilityType interface now has the ability to handle different types of timeouts. This could potentially affect how the system handles time-related operations.,,1,,,
+,,,The new constants could be used in the system to set different timeout values for,,,,,
+15498,9892,"@@ -826,6 +826,12 @@ def install(package, hash=None, version=None, tag=None, force=False):
+     store = PackageStore()
+     existing_pkg = store.get_package(owner, pkg)
+ 
++    if existing_pkg is not None and not force:
++        print(""{owner}/{pkg} already installed."".format(owner=owner, pkg=pkg))
++        overwrite = input(""Overwrite? (y/n) "")
++        if overwrite.lower() != 'y':
++            return
++
+     if version is not None:
+         response = session.get(
+             ""{url}/api/version/{owner}/{pkg}/{version}"".format(",The code changes involve adding a new feature to the install function.,,,,test9892_old.py,test9892_new.py
+,,,This new feature checks if a package already exists in the store and if the force parameter is not set to True.,,,,,
+,,,"If the package exists and the force parameter is not set, the code prints a message asking if the user wants to overwrite the existing package.",,,,,
+,,,"The user is then prompted to enter 'y' or 'n'. If the user enters anything other than 'y', the function returns without doing anything else.",,,,,
+,,,This change adds a layer of safety by preventing the overwrite of existing packages unless the user explicitly wants to do so.,,,,,
+,,,It provides a way to cancel the,,,,,
+13299,7037,"@@ -14,7 +14,9 @@
+ # You should have received a copy of the GNU General Public License
+ # along with Scapy. If not, see <http://www.gnu.org/licenses/>.
+ 
+-# scapy.contrib.description = GENEVE
++# flake8: noqa: E501
++
++# scapy.contrib.description = Generic Network Virtualization Encapsulation (GENEVE)
+ # scapy.contrib.status = loads
+ 
+ """"""","The line of code that was removed is ""# scapy.contrib.description = GENEVE"". This line was previously setting the description of the Scapy contrib module to ""GENEVE"".",,,,test7037_old.py,test7037_new.py
+,,,"Two new lines of code have been added. The first one is ""# flake8: noqa: E501"", which is a Flake8 rule ignore comment. The second line is ""# scapy.contrib.description = Generic Network Virtualization Encapsulation (GENEVE)"". This line is setting the description of the Scapy contrib module to ""Generic Network Virtualization Encapsulation (GENEVE)"".",,,,,
+,,,The change in the description of the,,,,,
+20687,8238,"@@ -28,7 +28,11 @@ from nupic.support.lockattributes import LockAttributesMixin
+ import functools
+ 
+ basicTypes = ['Byte', 'Int16', 'UInt16', 'Int32', 'UInt32', 'Int64', 'UInt64',
+-              'Real32', 'Real64', 'Handle']
++              'Real32', 'Real64', 'Handle', 'Bool']
++
++arrayTypes = ['ByteArray', 'Int16Array', 'UInt16Array', 'Int32Array',
++              'UInt32Array', 'Int64Array', 'UInt64Array', 'Real32Array',
++              'Real64Array', 'BoolArray']
+ 
+ pyRegions = (
+     (""nupic.regions.AnomalyRegion"", ""AnomalyRegion""),",The code change involves the addition of a new type 'Bool' to the list 'basicTypes'.,,,,test8238_old.py,test8238_new.py
+,,,"A new list 'arrayTypes' has been added, which includes all the basic types plus 'BoolArray'.",,,,,
+,,,The addition of 'Bool' to 'basicTypes' implies that the code now supports the Boolean data type. This could be used for conditional statements or for controlling the flow of a program.,,,,,
+,,,The addition of 'BoolArray' to 'arrayTypes' indicates that the code now supports arrays of Boolean values. This could be used for storing and manipulating multiple Boolean values in a single variable.,,,,,
+,,,These changes could potentially introduce new features and functionalities to,,,,,
+22288,2584,"@@ -23,7 +23,11 @@ class SSDHead(AnchorHead):
+         anchor_generator (dict): Config dict for anchor generator
+         bbox_coder (dict): Config of bounding box coder.
+         reg_decoded_bbox (bool): If true, the regression loss would be
+-            applied on decoded bounding boxes. Default: False
++            applied directly on decoded bounding boxes, meaning both the
++            predicted boxes and regression targets are with absolute
++            coordinates format. Default False. Note generally it should be
++            set to `True` when using `IoULoss`, `GIoULoss`, or `DIoULoss`
++            in the bbox head.
+         train_cfg (dict): Training config of anchor head.
+         test_cfg (dict): Testing config of anchor head.
+     """"""  # noqa: W605",The description of the 'reg_decoded_bbox' parameter in the class 'SSDHead' has been updated.,,,,test2584_old.py,test2584_new.py
+,,,"Previously, the regression loss was applied on decoded bounding boxes by default.",,,,,
+,,,"Now, the regression loss is applied directly on decoded bounding boxes, meaning both the predicted boxes and regression targets are in absolute coordinates format.",,,,,
+,,,The default value of 'reg_decoded_bbox' has been changed from False to True.,,,,,
+,,,"A note has been added suggesting that 'reg_decoded_bbox' should be set to True when using 'IoULoss', 'GIoULoss', or 'DI",,,,,
+9166,4155,"@@ -145,4 +145,7 @@ class AuthorizationPolicy(core_authorization.AuthorizationPolicy):
+ 
+ 
+ class RouteFactory(core_authorization.RouteFactory):
+-    pass
++    def __init__(self, request):
++        super(RouteFactory, self).__init__(request)
++        if self.on_collection and self.resource_name == 'bucket':
++            self.force_empty_list = True",A new method called `__init__` has been added to the `RouteFactory` class.,,,,test4155_old.py,test4155_new.py
+,,,This method takes `self` and `request` as parameters.,,,,,
+,,,"Inside this method, the `__init__` method of the `RouteFactory` class is called with `self` and `request` as arguments.",,,,,
+,,,A conditional statement has been added to check if `self.on_collection` is true and `self.resource_name` is 'bucket'.,,,,,
+,,,"If both conditions are met, `self.force_empty_list` is set to true.",,,,,
+,,,The `__init__` method is a special method in Python,,,,,
+14392,7925,"@@ -0,0 +1,7 @@
++from dagster import execute_pipeline
++from docs_snippets.guides.dagster.reexecution.pipeline.unreliable_pipeline import unreliable_pipeline
++
++
++def test_pipeline_compiles_and_executes():
++    result = execute_pipeline(unreliable_pipeline)
++    assert result",The code changes involve the addition of two new lines of code.,,,,test7925_old.py,test7925_new.py
+,,,The first line imports the function 'execute_pipeline' from the 'dagster' module.,,,,,
+,,,The second line imports the 'unreliable_pipeline' function from the 'docs_snippets.guides.dagster.reexecution.pipeline' module.,,,,,
+,,,A new function 'test_pipeline_compiles_and_executes' has been defined.,,,,,
+,,,"Within this function, the 'execute_pipeline' function is called with 'unreliable_pipeline' as an argument.",,,,,
+,,,The result of this function,,,,,
+20149,9084,"@@ -25,9 +25,13 @@ class BasicBlock(nn.Module):
+                  conv_cfg=None,
+                  norm_cfg=dict(type='BN'),
+                  dcn=None,
++                 rfp_inplanes=None,
++                 sac=None,
+                  plugins=None):
+         super(BasicBlock, self).__init__()
+         assert dcn is None, 'Not implemented yet.'
++        assert rfp_inplanes is None, 'Not implemented yet.'
++        assert sac is None, 'Not implemented yet.'
+         assert plugins is None, 'Not implemented yet.'
+ 
+         self.norm1_name, norm1 = build_norm_layer(norm_cfg, planes, postfix=1)",Two new parameters have been added to the BasicBlock class: rfp_inplanes and sac. Both are set to None by default.,,,,test9084_old.py,test9084_new.py
+,,,"Two new assertions have been added to the BasicBlock class. The first one checks if rfp_inplanes is None and the second one checks if sac is None. If either of these conditions is met, a 'Not implemented yet.' message is raised.",,,,,
+,,,The addition of the rfp_inplanes and sac parameters suggests that the BasicBlock class might be modified to include or utilize these features in the future.,,,,,
+,,,The new assertions could potentially prevent the code from running if the 'Not implemented yet.' message,,,,,
+14259,6302,"@@ -916,7 +916,7 @@ class LayoutPlot(GenericLayoutPlot, CompositePlot):
+ 
+         # Create title handle
+         if self.show_title and len(self.coords) > 1:
+-            title = self.handles['fig'].suptitle('', **self._fontsize('title'))
++            title = self.handles['fig'].suptitle('', y=1.05, **self._fontsize('title'))
+             self.handles['title'] = title
+ 
+         return layout_subplots, layout_axes, collapsed_layout","The code change is in the LayoutPlot class, specifically in the method that creates the title handle for the figure.",,,,test6302_old.py,test6302_new.py
+,,,The original line of code that creates the title handle is commented out and replaced with a new line of code.,,,,,
+,,,The new line of code creates the title handle with an additional argument 'y' set to 1.05.,,,,,
+,,,The change in the 'y' argument of the 'suptitle' function from the 'fig' handle suggests that the vertical position of the title will now be slightly higher than before.,,1,,,
+,,,"This could potentially change the visual position of the title relative to the figure, potentially making it look different.",,,,,
+,,,3,,,,,
+8215,3286,"@@ -20,8 +20,11 @@ Wrappers around spark that correspond to common pandas functions.
+ import pyspark
+ import numpy as np
+ import pandas as pd
++from ._dask_stubs.compatibility import string_types
++from ._dask_stubs.utils import derived_from
+ from .typing import Col, pandas_wrap
+-from pyspark.sql import Column, DataFrame
++from pyspark.sql import Column, DataFrame, functions as F
++from pyspark.sql.types import NumericType
+ 
+ 
+ def default_session():","The import statement for the modules 'Column' and 'DataFrame' from 'pyspark.sql' has been modified. Now, the 'functions' module is also imported along with 'Column' and 'DataFrame'.",,,,test3286_old.py,test3286_new.py
+,,,A new module 'NumericType' from 'pyspark.sql.types' has been imported.,,,,,
+,,,Two new modules 'string_types' and 'derived_from' have been imported from '_dask_stubs.compatibility' and '_dask_stubs.utils' respectively.,,,,,
+,,,The addition of the 'functions' module to the import statement means that the code will now have access to all the functions provided,,,,,
+14870,8100,"@@ -39,5 +39,5 @@ class InputDevice(object):
+     def clear_actions(self):
+         self.actions = []
+ 
+-    def create_pause(self, duraton=0):
++    def create_pause(self, duration=0):
+         pass","The method name ""create_pause"" has been corrected to match the variable name used in the method. Previously, the variable was named ""duraton"" and now it has been corrected to ""duration"".",,,,test8100_old.py,test8100_new.py
+,,,"This change corrects a possible typo in the method name, making the code more readable and understandable.",,,,,
+,,,"This change will not affect the functionality of the code as it is only a change in the method name. However, all instances where this method is called in the code will need to be updated to reflect the new method name.",,,,,
+28270,3134,"@@ -228,6 +228,7 @@ setup(
+ 		(""libArm64/%s""%version, glob(""libArm64/*.dll"") + glob(""libArm64/*.exe"")),
+ 		(""waves"", glob(""waves/*.wav"")),
+ 		(""images"", glob(""images/*.ico"")),
++		(""fonts"", glob(""fonts/*.ttf"")),
+ 		(""louis/tables"",glob(""louis/tables/*"")),
+ 		(""COMRegistrationFixes"", glob(""COMRegistrationFixes/*.reg"")),
+ 		(""."", glob(""../miscDeps/python/*.dll"")),",A new line of code has been added to the setup function.,,,,test3134_old.py,test3134_new.py
+,,,"The new line of code is a tuple that contains the string ""fonts"" and a glob pattern that matches all .ttf files in the fonts directory.",,,,,
+,,,The added line of code means that the setup function will now include all .ttf files from the fonts directory when it builds the package.,,,,,
+,,,This could potentially increase the size of the package if there are a large number of .ttf files in the fonts directory.,,,,,
+,,,"If the fonts directory contains files that are not .ttf files, this could cause errors or unexpected behavior when the package is installed or run.",,,,,
+34139,4705,"@@ -1,11 +1,9 @@
+-# -*- coding: UTF-8 -*-
+-#shlobj.py
+-#A part of NonVisual Desktop Access (NVDA)
+-#Copyright (C) 2006-2017 NV Access Limited, Babbage B.V.
+-#This file is covered by the GNU General Public License.
+-#See the file COPYING for more details.
++# A part of NonVisual Desktop Access (NVDA)
++# Copyright (C) 2009-2021 NV Access Limited, Babbage B.V.
++# This file is covered by the GNU General Public License.
++# See the file COPYING for more details.
+ 
+-""""""
++r""""""
+ This module wraps the SHGetFolderPath function in shell32.dll and defines the necessary contstants.
+ CSIDL (constant special item ID list) values provide a unique system-independent way to
+ identify special folders used frequently by applications, but which may not have the same name",The coding style and encoding of the file has been removed. The file is now assumed to be in UTF-8 encoding.,,,,test4705_old.py,test4705_new.py
+,,,"The file name ""shlobj.py"" has been removed from the comments.",,,,,
+,,,The copyright year range has been updated from 2006-2017 to 2009-2021.,,,,,
+,,,"The comment block has been reformatted to use the ""r""""""..."""""""" syntax, which is used for docstrings in Python.",,,,,
+,,,The removal of the coding style and encoding comment suggests that the file is now being saved in UTF-8 format. This could potentially affect how the file,,,,,
+25033,6022,"@@ -151,7 +151,7 @@ class TabWidget(QTabWidget):
+ 
+         fields = self.get_tab_fields(idx)
+         fields['current_title'] = fields['current_title'].replace('&', '&&')
+-        fields['index'] = idx + 1
++        fields['index'] = str(idx + 1).rjust(2)
+ 
+         title = '' if fmt is None else fmt.format(**fields)
+         tabbar = self.tabBar()",The code change is in the TabWidget class of a Python script.,,,,test6022_old.py,test6022_new.py
+,,,The change is in the way the 'index' field of the 'fields' dictionary is assigned.,,,,,
+,,,"Previously, the 'index' field was assigned by adding 1 to the current index 'idx'.",,,,,
+,,,"Now, the 'index' field is assigned by converting the current index 'idx' to a string, adding 1 to it, and then right-justifying the result to a width of 2.",,,,,
+,,,The change will affect the way the 'index' field is displayed in the 'fields' dictionary.,,,,,
+,,,The 'index' field will now be a two-,,,,,
+9979,10095,"@@ -2,7 +2,8 @@ import random
+ import string
+ 
+ from kinto.core.storage import generators, exceptions
+-from pyramid import httpexceptions
++from pyramid.httpexceptions import (HTTPNotFound)
++from kinto.core.errors import http_error, ERRORS
+ 
+ 
+ class NameGenerator(generators.Generator):","The import statement for the 'httpexceptions' module from 'pyramid' has been modified. Previously, the entire 'httpexceptions' module was being imported. Now, only the 'HTTPNotFound' class from the 'httpexceptions' module is being imported.",,,,test10095_old.py,test10095_new.py
+,,,Two new import statements have been added. The first one imports the 'http_error' and 'ERRORS' modules from the 'kinto.core.errors' package. The second one is a comment and does not actually import anything.,,,,,
+,,,The change in the import statement for 'httpexceptions' could potentially reduce the memory footprint of the code if the 'httpe,,,,,
+11404,9765,"@@ -632,7 +632,7 @@ class InstanceAttribute(dict):
+                    'disableApiTermination',
+                    'instanceInitiatedShutdownBehavior',
+                    'rootDeviceName', 'blockDeviceMapping', 'sourceDestCheck',
+-                   'groupSet']
++                   'groupSet', 'productCodes', 'ebsOptimized',]
+ 
+     def __init__(self, parent=None):
+         dict.__init__(self)",The code change is in the InstanceAttribute class of the dict object.,,,,test9765_old.py,test9765_new.py
+,,,The list of attributes that the InstanceAttribute class can contain has been expanded.,,,,,
+,,,The new attributes added are 'productCodes' and 'ebsOptimized'.,,,,,
+,,,The InstanceAttribute class now has the ability to store and manipulate 'productCodes' and 'ebsOptimized' data.,,,,,
+,,,"This change could affect all parts of the code that use the InstanceAttribute class, as they now have access to new data.",,,,,
+,,,"If 'productCodes' or 'ebsOptimized' data is not properly handled in the code, it",,,,,
+10657,5611,"@@ -0,0 +1,7 @@
++import json
++
++
++def lambda_handler(event, context):
++    # Just print the event was passed to lambda
++    print('{}'.format(json.dumps(event)))
++    return 0",The json module has been imported. This module in Python provides functions to work with JSON data.,,,,test5611_old.py,test5611_new.py
+,,,"A new function named 'lambda_handler' has been defined. This function takes two parameters, 'event' and 'context'.",,,,,
+,,,"Inside the 'lambda_handler' function, the 'event' is printed. The 'event' is converted to a JSON string using the 'json.dumps()' function.",,,,,
+,,,The function returns 0.,,,,,
+,,,The import of the json module suggests that the code may now involve working with JSON data.,,,,,
+,,,The 'lambda_handler' function could be used to handle events in AWS Lambda. This could be used,,,,,
+16890,6525,"@@ -5017,7 +5017,7 @@ def print_record(recID, format='hb', ot='', ln=CFG_SITE_LANG, decompress=zlib.de
+         display_claim_this_paper = False
+ 
+     can_edit_record = False
+-    if check_user_can_edit_record(user_info, recID):
++    if  not (format.lower().startswith('t')) and check_user_can_edit_record(user_info, recID):
+         can_edit_record = True
+ 
+     out = """"",The condition for the 'can_edit_record' variable being true has been modified.,,,,test6525_old.py,test6525_new.py
+,,,"Previously, the 'can_edit_record' variable was true if the function 'check_user_can_edit_record' returned true.",,,,,
+,,,"Now, the 'can_edit_record' variable is only true if the function 'check_user_can_edit_record' returns true and the 'format' variable does not start with 't' (in lowercase).",,,,,
+,,,"The 'can_edit_record' variable will now be false if the 'format' variable starts with 't' (in lowercase), even if the 'check",,,,,
+16268,7764,"@@ -212,9 +212,10 @@ def config():
+     global _registry_url
+     _registry_url = None
+ 
+-def _update_auth(team, refresh_token):
++def _update_auth(team, refresh_token, timeout=None):
+     response = requests.post(""%s/api/token"" % get_registry_url(team), data=dict(
+-        refresh_token=refresh_token
++        refresh_token=refresh_token,
++        timeout=timeout
+     ))
+ 
+     if response.status_code != requests.codes.ok:",The function `_update_auth` has been modified to include a new parameter `timeout`.,,,,test7764_old.py,test7764_new.py
+,,,The `timeout` parameter has been added to the `data` dictionary in the `requests.post` method.,,,,,
+,,,The `_update_auth` function can now be called with an additional argument `timeout`. This allows for specifying a timeout duration for the request.,,,,,
+,,,"This change could potentially affect the behavior of the `_update_auth` function, as the `requests.post` method now supports a `timeout` parameter. If the `timeout` parameter is not specified, the function will behave as before, without a timeout.",,,,,
+22116,6691,"@@ -4,6 +4,7 @@ from mmcv.cnn import ConvModule, kaiming_init
+ from mmcv.runner import auto_fp16, force_fp32
+ 
+ from mmdet.models.builder import HEADS
++from mmdet.models.utils import ResLayer, SimplifiedBasicBlock
+ 
+ 
+ @HEADS.register_module()",Two new import statements have been added to the code.,,,,test6691_old.py,test6691_new.py
+,,,The imported modules are ResLayer and SimplifiedBasicBlock from the mmdet.models.utils package.,,,,,
+,,,The addition of these import statements suggests that the code in this file will now be using the ResLayer and SimplifiedBasicBlock classes from the mmdet.models.utils package.,,,,,
+,,,"This could potentially change the behavior of the code, depending on how these classes are used.",,,,,
+,,,"The code might now be using features from the ResLayer and SimplifiedBasicBlock classes, which could affect its performance or functionality.",,,,,
+,,,If these classes are not available in the m,,,,,
+19957,1887,"@@ -121,8 +121,10 @@ def buffer_s3response(s3response):
+             found_records = True
+         elif 'Progress' in event:
+             logger_.info(""select progress: %s"", event['Progress'].get('Details'))
++            print(event['Progress'].get('Details'))
+         elif 'Stats' in event:
+             logger_.info(""select stats: %s"", event['Stats'])
++            print(event['Stats'])
+         elif 'End' in event:
+             # End event indicates that the request finished successfully
+             end_event_received = True",Two lines of code have been added to the function buffer_s3response(s3response).,,,,test1887_old.py,test1887_new.py
+,,,The added lines are print statements that output the 'Details' and 'Stats' keys from the 'Progress' and 'End' events respectively.,,,,,
+,,,"The function buffer_s3response(s3response) is now more verbose, as it now prints out the 'Details' and 'Stats' of the 'Progress' and 'End' events.",,,,,
+,,,"This could be useful for debugging or logging purposes, as it provides more detailed information about the progress and end events.",,,,,
+,,,"It could also potentially slow down the execution of the function, depending on the logging",,,,,
+13697,3924,"@@ -77,6 +77,7 @@ class BlazeMeterUploader(Reporter, AggregatorListener):
+         self.client.user_id = self.parameters.get(""user-id"", None)
+         self.client.data_signature = self.parameters.get(""signature"", None)
+         self.client.kpi_target = self.parameters.get(""kpi-target"", self.client.kpi_target)
++        self.client.delete_files_before_test = False
+ 
+         if not self.client.test_id:
+             try:",A new line of code has been added to the BlazeMeterUploader class.,,,,test3924_old.py,test3924_new.py
+,,,The variable 'delete_files_before_test' has been set to False for the 'client' object.,,,,,
+,,,The 'delete_files_before_test' variable is a boolean variable that determines whether or not files should be deleted before a test is run.,,,,,
+,,,"By setting it to False, the test will not delete any files before it starts.",,,,,
+,,,"This change could potentially affect the testing process, depending on what the 'delete_files_before_test' variable is used for.",,,,,
+,,,If other parts of the code rely on this variable being True,,,,,
+15156,3549,"@@ -19,6 +19,7 @@
+ # 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
+ 
+ """""" Comments and reviews for records: web interface """"""
++from docutils.nodes import note
+ 
+ __lastupdated__ = """"""$Date$""""""
+ ",The code change involves the addition of a new import statement. The module 'docutils.nodes' is being imported and the specific object 'note' is being imported from this module.,,,,test3549_old.py,test3549_new.py
+,,,The addition of the 'note' object from the 'docutils.nodes' module suggests that the code may now be using this specific object for some functionality.,,,,,
+,,,"This could potentially change the behavior of the code, depending on how the 'note' object is used. It could affect the output or the functionality of the code.",,,,,
+,,,"The addition of this import could also potentially increase the memory usage of the code, as the 'note' object is now being stored in memory.",,,,,
+12032,1089,"@@ -17,10 +17,10 @@ from scapy.config import conf
+ from scapy.base_classes import BasePacket,BasePacketList
+ from scapy.utils import do_graph,hexdump,make_table,make_lined_table,make_tex_table,get_temp_file
+ 
+-from scapy.consts import plt, MATPLOTLIB_INLINED, MATPLOTLIB_DEFAULT_PLOT_KARGS
++from scapy.extlib import plt, MATPLOTLIB_INLINED, MATPLOTLIB_DEFAULT_PLOT_KARGS
+ from functools import reduce
+ import scapy.modules.six as six
+-from scapy.modules.six.moves import filter, range, zip
++from scapy.modules.six.moves import range, zip
+ 
+ 
+ #############","The import statement for 'plt', 'MATPLOTLIB_INLINED', and 'MATPLOTLIB_DEFAULT_PLOT_KARGS' has been changed from 'scapy.consts' to 'scapy.extlib'.",,,,test1089_old.py,test1089_new.py
+,,,"The import statement for 'filter', 'range', and 'zip' has been moved from 'scapy.modules.six.moves' to 'scapy.modules.six'.",,,,,
+,,,"The change in import statement for 'plt', 'MATPLOTLIB_INLINED', and 'MATPLOTLIB_DEFAULT_PLOT_KARGS' suggests that these constants/vari",,,,,
+31650,5176,"@@ -52,7 +52,8 @@ class IamPolicyTest(ForsetiTestCase):
+             'serviceAccount:abc@def.gserviceaccount.com',
+             'user:someone@somewhere.tld',
+             'allUsers',
+-            'user:anything'
++            'user:anything',
++            'allAuthenticatedUsers'
+         ]
+ 
+     # Test IamPolicyMember","The code change is in the IamPolicyTest class, specifically in the list of members that the class is testing for IAM policies.",,,,test5176_old.py,test5176_new.py
+,,,The member 'user:anything' has been removed from the list.,,,,,
+,,,The member 'allAuthenticatedUsers' has been added to the list.,,,,,
+,,,The removal of 'user:anything' means that the test will no longer consider the 'user:anything' member when checking IAM policies.,,,,,
+,,,"The addition of 'allAuthenticatedUsers' implies that the test will now consider all authenticated users when checking IAM policies. This could mean that the test is now more strict, as it will only pass if",,,,,
+18409,369,"@@ -311,6 +311,8 @@ class PackageEntry(object):
+ class Package(object):
+     """""" In-memory representation of a package """"""
+ 
++    use_tqdm = os.getenv('QUILT_USE_TQDM').lower() == 'true'
++
+     def __init__(self):
+         self._children = {}
+         self._meta = {'version': 'v0'}","A new variable called ""use_tqdm"" has been added to the ""Package"" class.",,,,test369_old.py,test369_new.py
+,,,"The value of the ""use_tqdm"" variable is set by checking the environment variable 'QUILT_USE_TQDM'. If the variable is 'true', the 'use_tqdm' variable is set to True. Otherwise, it is set to False.",,,,,
+,,,"The addition of the 'use_tqdm' variable suggests that the 'Package' class now has a feature to use or not use the 'tqdm' library, depending on the environment.",,,,,
+,,,"This could potentially change the behavior of the 'Package' class,",,,,,
+15275,8793,"@@ -43,7 +43,7 @@ class TestMasterSecretLogger(tservers.ServerTestBase):
+ 
+             tls.log_master_secret.close()
+             with open(logfile, ""rb"") as f:
+-                assert f.read().count(b""CLIENT_RANDOM"") >= 2
++                assert f.read().count(b""SERVER_HANDSHAKE_TRAFFIC_SECRET"") >= 2
+ 
+         tls.log_master_secret = _logfun
+ ",The code change involves the assertion in the TestMasterSecretLogger class.,,,,test8793_old.py,test8793_new.py
+,,,"The assertion now checks for the count of ""SERVER_HANDSHAKE_TRAFFIC_SECRET"" instead of ""CLIENT_RANDOM"".",,,,,
+,,,"The change implies that the test is now looking for the ""SERVER_HANDSHAKE_TRAFFIC_SECRET"" instead of the ""CLIENT_RANDOM"" in the log file.",,,,,
+,,,This could mean that the test is now focusing more on the server's handshake traffic secret instead of the client's random.,,,,,
+,,,"If the ""SERVER_HANDSH",,,,,
+21632,8290,"@@ -8,8 +8,12 @@ except ImportError:
+ import numpy as np
+ import param
+ 
+-from ..dimension import redim
+-from ..util import unique_iterator
++from ..dimension import redim, Dimension, process_dimensions
++from ..element import Element
++from ..ndmapping import OrderedDict
++from ..spaces import HoloMap, DynamicMap
++from ..util import (basestring, dimension_range as d_range, get_param_values,
++                    isfinite, process_ellipses, unique_iterator, wrap_tuple)
+ from .interface import Interface, iloc, ndloc
+ from .array import ArrayInterface
+ from .dictionary import DictInterface",The import statement for 'redim' and 'unique_iterator' from the 'util' module has been removed.,,,,test8290_old.py,test8290_new.py
+,,,"The import statement for 'redim', 'Dimension', 'process_dimensions', 'Element', 'OrderedDict', 'HoloMap', 'DynamicMap', 'basestring', 'd_range', 'get_param_values', 'isfinite', 'process_ellipses', 'unique_iterator', and 'wrap_tuple' from the 'util' module has been added.",,,,,
+,,,The removal of 'redim' and 'unique_iterator' from the import statement implies that these two functions are no longer used,,,,,
+20585,3658,"@@ -166,6 +166,7 @@ def get_filename_question(*, suggested_filename, url, parent=None):
+     q.title = ""Save file to:""
+     q.text = ""Please enter a location for <b>{}</b>"".format(
+         html.escape(url.toDisplayString()))
++    q.yank_text = url.toString()
+     q.mode = usertypes.PromptMode.download
+     q.completed.connect(q.deleteLater)
+     q.default = _path_suggestion(suggested_filename)",A new line of code has been added to the function get_filename_question.,,,,test3658_old.py,test3658_new.py
+,,,The new line of code assigns the string representation of the URL to the variable yank_text of the object q.,,,,,
+,,,"The URL will now be available as yank_text in the object q, which could be used for further processing or display.",,,,,
+,,,This change could potentially affect any functionality that relies on the structure or content of the q object without the yank_text attribute.,,,,,
+,,,"If the URL is long or contains special characters, it could potentially affect the performance or behavior of the program.",,,,,
+18201,8795,"@@ -65,6 +65,7 @@ confspec = ConfigObj(StringIO(
+ 	#possible log levels are DEBUG, IO, DEBUGWARNING, INFO
+ 	loggingLevel = string(default=""INFO"")
+ 	showWelcomeDialogAtStartup = boolean(default=true)
++	showSpeechViewerAtStartup = boolean(default=false)
+ 
+ # Speech settings
+ [speech]","A new configuration setting named ""showSpeechViewerAtStartup"" has been added. This setting is of boolean type and its default value is set to false.",,,,test8795_old.py,test8795_new.py
+,,,"This new configuration setting allows the user to control whether the speech viewer should be shown at startup or not. If the setting is not specified in the configuration file, the default value of false will be used.",,,,,
+,,,"This change could potentially affect the user interface experience, depending on how the speech viewer is integrated into the application. It could be made optional or required depending on the value of this setting.",,,,,
+,,,"If this setting is not properly documented, it could lead to confusion for users or developers about its purpose",,,,,
+27360,3447,"@@ -24,6 +24,7 @@ CREATE_TABLE = """"""
+         `complete_time` datetime DEFAULT NULL,
+         `status` enum('SUCCESS','RUNNING','FAILURE',
+                       'PARTIAL_SUCCESS','TIMEOUT') DEFAULT NULL,
++        `has_all_data` bool DEFAULT NULL,
+         `schema_version` varchar(255) DEFAULT NULL,
+         `cycle_timestamp` varchar(255) DEFAULT NULL,
+          PRIMARY KEY (`id`),",A new column named `has_all_data` has been added to the table. This column is of boolean data type and allows NULL values by default.,,,,test3447_old.py,test3447_new.py
+,,,The addition of the `has_all_data` column implies that there might be a need to track whether all the data has been processed or not in the table. This could be used for further data processing or analysis.,,,,,
+,,,"Existing rows in the table will not have a value for this new column. Therefore, it might require additional data updates or data entry processes to populate this column.",,,,,
+,,,If the table is used for data processing or analysis where the presence of NULL values in this column might lead to errors,,,,,
+12142,125,"@@ -172,6 +172,19 @@ def define_environment_cls(pipeline_def):
+     )
+ 
+ 
++def context_cls_inst(pipeline_def):
++    check.inst_param(pipeline_def, 'pipeline_def', PipelineDefinition)
++    pipeline_name = camelcase(pipeline_def.name)
++    return SystemNamedDict(
++        name='{pipeline_name}.Context'.format(pipeline_name=pipeline_name),
++        fields={
++            'context': define_maybe_optional_selector_field(
++                define_context_context_cls(pipeline_name, pipeline_def.context_definitions)
++            )
++        },
++    ).inst()
++
++
+ def define_expectations_config_cls(name):
+     check.str_param(name, 'name')
+ ",A new function called `context_cls_inst` has been added.,1,,,test125_old.py,test125_new.py
+,,,This function takes a parameter `pipeline_def` and checks if it is an instance of `PipelineDefinition`.,1,,,,
+,,,The name of the pipeline is converted to camelcase and stored in the variable `pipeline_name`.,1,,,,
+,,,A new instance of `SystemNamedDict` is created with the name of the pipeline context and the fields 'context'.,1,,,,
+,,,The 'context' field is defined as a maybe optional selector field using the `define_context_context_cls` function with `pipeline_name` and `pipeline_def.context_definitions` as parameters.,1,,,,
+8234,1172,"@@ -3,6 +3,7 @@ import sys
+ from cliquet.scripts import cliquet
+ from pyramid.scripts import pserve
+ from pyramid.paster import bootstrap
++from config import template
+ 
+ CONFIG_FILE = 'config/kinto.ini'
+ ",An import statement has been added to the code. The imported module is 'template' from the 'config' package.,1,,,test1172_old.py,test1172_new.py
+,,,The addition of the 'template' module from the 'config' package suggests that the code may now be using functionalities provided by this module.,0,,,,
+,,,"This could potentially change the behavior of the code, depending on how the 'template' module is used.",1,,,,
+,,,"If the 'template' module has dependencies, those will also need to be managed, potentially adding to the complexity of the project.",1,,,,
+18227,9509,"@@ -103,7 +103,7 @@ class SparkReader:
+         """"""
+ 
+         with self.app.app_context():
+-
++            current_app.logger.info('Spark consumer has started!')
+             while True:
+                 self.init_rabbitmq_connection()
+                 self.incoming_ch = utils.create_channel_to_consume(",A line of code has been added to the SparkReader class.,1,,,test9509_old.py,test9509_new.py
+,,,The new line of code is logging an informational message using the logger of the current application. The message is 'Spark consumer has started!'.,1,,,,
+,,,The addition of this line of code implies that there is now a log entry each time the Spark consumer starts in the application.,1,,,,
+,,,This could be useful for monitoring the application's performance or debugging purposes.,1,,,,
+,,,"If the application is running in a production environment, this could potentially lead to a lot of log entries, which could impact performance.",1,,,,
+22381,973,"@@ -1130,7 +1130,9 @@ def getControlFieldSpeech(attrs,ancestorAttrs,fieldType,formatConfig=None,extraD
+ 	else:
+ 		tableID = None
+ 
+-	roleText=getSpeechTextForProperties(reason=reason,role=role)
++	roleText=attrs.get('roleText')
++	if not roleText:
++		roleText=getSpeechTextForProperties(reason=reason,role=role)
+ 	stateText=getSpeechTextForProperties(reason=reason,states=states,_role=role)
+ 	keyboardShortcutText=getSpeechTextForProperties(reason=reason,keyboardShortcut=keyboardShortcut) if config.conf[""presentation""][""reportKeyboardShortcuts""] else """"
+ 	ariaCurrentText=getSpeechTextForProperties(reason=reason,current=ariaCurrent)",The code has been modified to change the way the 'roleText' variable is assigned.,1,,,test973_old.py,test973_new.py
+,,,"Previously, 'roleText' was assigned the value returned by the 'getSpeechTextForProperties' function with 'reason' and 'role' as parameters.",1,,,,
+,,,"Now, 'roleText' is assigned the value of the 'roleText' attribute from the 'attrs' dictionary.",1,,,,
+,,,"If the 'roleText' attribute does not exist in the 'attrs' dictionary, 'roleText' is assigned the value returned by the 'getSpeechTextForProperties' function with 'reason' and 'role' as parameters.",1,,,,
+,,,The change allows for,-2,,,,
+19970,3645,"@@ -527,6 +527,12 @@ class BigQueryLoadTask(MixinBigQueryBulkComplete, luigi.Task):
+         """"""	Indicates if BigQuery should allow quoted data sections that contain newline characters in a CSV file. The default value is false.""""""
+         return False
+ 
++    @property
++    def project_id(self):
++        """"""Project ID on which to run the BigQuery Job
++        """"""
++        return self.output().table.project_id
++
+     def run(self):
+         output = self.output()
+         assert isinstance(output, BigQueryTarget), 'Output must be a BigQueryTarget, not %s' % (output)",A new property called 'project_id' has been added to the BigQueryLoadTask class.,1,,,test3645_old.py,test3645_new.py
+,,,This property is a read-only property that returns the project ID of the output table.,1,,,,
+,,,"The property is accessed through the 'output()' method of the class, which is expected to return a BigQueryTarget object.",1,,,,
+,,,The addition of the 'project_id' property provides a way to access the project ID of the output table without directly accessing the output object.,1,,,,
+,,,"This could potentially make the code more readable and less prone to errors, as it hides the complexity of accessing the project ID from the rest of the code.",1,,,,
+,,,The,-2,,,,
+10737,1139,"@@ -243,6 +243,9 @@ class Storage(StorageBase):
+         VALUES (:object_id, :parent_id,
+                 :collection_id, (:data)::JSONB,
+                 from_epoch(:last_modified))
++        ON CONFLICT (id, parent_id, collection_id) DO UPDATE
++        SET data = (:data)::JSONB,
++            last_modified = from_epoch(:last_modified)
+         RETURNING id, as_epoch(last_modified) AS last_modified;
+         """"""
+         placeholders = dict(object_id=record[id_field],",The code changes involve the addition of a clause in the SQL query for the Storage class.,1,,,test1139_old.py,test1139_new.py
+,,,"The clause is an ""ON CONFLICT"" clause, which is used to handle conflicts that occur when trying to insert or update data in a table.",1,,,,
+,,,"The ""ON CONFLICT"" clause specifies that if a conflict occurs (i.e., if the same id, parent_id, and collection_id values already exist in the table), the query should perform an update operation.",1,,,,
+,,,"The update operation is setting the data field to the new value of the data parameter (converted from a JSON string to a JSONB object), and the last_modified field to the new value of",-2,,,,
+18298,521,"@@ -105,7 +105,11 @@ def connect_container_to_network(container, network):
+ 
+ 
+ def disconnect_container_from_network(container, network):
+-    subprocess.check_call([""docker"", ""network"", ""disconnect"", network, container])
++    # subprocess.run instead of subprocess.check_call so we don't fail when
++    # trying to disconnect a container from a network that it's not connected to
++    subprocess.run(  # pylint: disable=subprocess-run-check
++        [""docker"", ""network"", ""disconnect"", network, container]
++    )
+ 
+ 
+ def hostnames(network):",The function `disconnect_container_from_network` has been modified.,1,,,test521_old.py,test521_new.py
+,,,The method used to execute the subprocess has been changed from `subprocess.check_call` to `subprocess.run`.,1,,,,
+,,,"A comment has been added to explain the reason behind this change, stating that `subprocess.run` is being used instead of `subprocess.check_call` to avoid failing when trying to disconnect a container from a network that it's not connected to.",1,,,,
+,,,"A comment has been added to disable the pylint check for the subprocess run command, as this check is not relevant in this context.",1,,,,
+,,,The change from `,-2,,,,
+5664,5007,"@@ -28,6 +28,7 @@ import sys
+ import termios
+ from subprocess import CalledProcessError
+ 
++import molecule.validators as validators
+ import prettytable
+ import sh
+ import vagrant",The code has been modified to import the 'molecule.validators' module as 'validators'.,1,,,test5007_old.py,test5007_new.py
+,,,The addition of the 'molecule.validators' module as 'validators' suggests that the code will now use functions from this module.,0,,,,
+,,,"This could potentially change the behavior of the code, depending on how the functions from the 'molecule.validators' module are used.",1,,,,
+,,,The code might now have additional functionality or requirements that the 'molecule.validators' module provides.,0,,,,
+15147,7715,"@@ -95,7 +95,7 @@ def get_spotify_oauth():
+     """"""
+     client_id = current_app.config['SPOTIFY_CLIENT_ID']
+     client_secret = current_app.config['SPOTIFY_CLIENT_SECRET']
+-    scope = 'user-read-recently-played'
++    scope = 'user-read-recently-played user-read-currently-playing'
+     redirect_url = current_app.config['SPOTIFY_CALLBACK_URL']
+     return spotipy.oauth2.SpotifyOAuth(client_id, client_secret, redirect_uri=redirect_url, scope=scope)
+ ",The scope of the Spotify OAuth access has been expanded.,1,,,test7715_old.py,test7715_new.py
+,,,"Previously, the application was only able to access the user's recently played tracks.",1,,,,
+,,,"Now, the application has been granted additional permissions to also access the user's currently playing track.",1,,,,
+,,,This change gives the application more access to the user's music data.,1,,,,
+,,,"The user's currently playing track can now be accessed, which could provide a more dynamic and real-time experience for the application.",1,,,,
+,,,"This could potentially increase the functionality and usability of the application, but it could also introduce new security and privacy concerns.",1,,,,
+,,,The user's,-2,,,,
+15802,3784,"@@ -95,6 +95,7 @@ def sensor(
+ def asset_sensor(
+     asset_key: AssetKey,
+     pipeline_name: Optional[str] = None,
++    target_name: Optional[str] = None,
+     name: Optional[str] = None,
+     solid_selection: Optional[List[str]] = None,
+     mode: Optional[str] = None,",A new optional parameter 'target_name' has been added to the function 'asset_sensor'. This parameter is of type string and is set to None by default.,1,,,test3784_old.py,test3784_new.py
+,,,The function 'asset_sensor' can now be called with an additional argument 'target_name'. This could allow for more specific or differentiated sensor operations based on the target name.,1,,,,
+,,,"Existing code that calls this function without the 'target_name' argument will not be affected, as the function will default to None. Conversely, code that calls this function with a 'target_name' argument will need to be updated to include this new parameter.",-1,,,,
+,,,This change could potentially,-2,,,,
+8010,4320,"@@ -197,6 +197,7 @@ class EmrConnection(AWSQueryConnection):
+                     steps=[],
+                     bootstrap_actions=[],
+                     instance_groups=None,
++                    ami_version=""1.0"",
+                     additional_info=None):
+         """"""
+         Runs a job flow","A new parameter 'ami_version' has been added to the 'EmrConnection' class with a default value of ""1.0"".",1,,,test4320_old.py,test4320_new.py
+,,,The 'EmrConnection' class now has an additional configurable parameter 'ami_version'. This could be used to control the version of the Amazon Machine Image (AMI) used in the job flow.,1,,,,
+,,,Existing code that creates or modifies instances of the 'EmrConnection' class may need to be updated to include or use this new parameter.,1,,,,
+,,,"If not properly tested, this change could introduce bugs into the system that could lead to incorrect behavior or errors.",1,,,,
+20909,10056,"@@ -29,7 +29,8 @@ from pkg_resources import resource_stream
+ def getScalarMetricWithTimeOfDayAnomalyParams(metricData,
+                                               minVal=None,
+                                               maxVal=None,
+-                                              minResolution=None):
++                                              minResolution=None,
++                                              tmImplementation = ""cpp""):
+   """"""
+     Return a dict that can be used to create an anomaly model via OPF's
+     ModelFactory.",An additional parameter 'tmImplementation' has been added to the function 'getScalarMetricWithTimeOfDayAnomalyParams'.,1,,,test10056_old.py,test10056_new.py
+,,,"The default value of the 'tmImplementation' parameter is set to ""cpp"".",1,,,,
+,,,The function 'getScalarMetricWithTimeOfDayAnomalyParams' can now be called with an additional argument 'tmImplementation'.,1,,,,
+,,,"If 'tmImplementation' is not provided, the function will use the default value, which is ""cpp"".",1,,,,
+,,,"This change could potentially affect the behavior of the function depending on the value of 'tmImplementation'. If the value is not ""cpp"", the function may not",-2,,,,
+14724,7214,"@@ -105,7 +105,7 @@ class HierarchicHTTPRequest(HTTPRequest):
+             file_dict[""path""] = path
+ 
+             mime = mimetypes.guess_type(file_dict[""path""])[0] or ""application/octet-stream""
+-            file_dict.get('mime-type', mime)
++            file_dict[""mime-type""] = mime
+         self.content_encoding = self.config.get('content-encoding', None)
+ 
+ ","The code change is in the HierarchicHTTPRequest class, specifically in the file_dict dictionary.",1,,,test7214_old.py,test7214_new.py
+,,,The method of accessing and modifying the 'mime-type' key in the file_dict dictionary has been changed.,2,,,,
+,,,"Previously, the code was using the get() method to access the 'mime-type' key in file_dict. If the key was not found, the code would return the second argument passed to the get() method, which in this case was 'mime'.",1,,,,
+,,,"Now, the code directly accesses the 'mime-type' key in file_dict without using the get() method. If the key is not found, a KeyError",-2,,,,
+10032,3311,"@@ -202,11 +202,11 @@ class Ansible(base.Base):
+     ::
+ 
+         ANSIBLE_ROLES_PATH:
+-          $ephemeral_directory/roles/:$project_directory/../
++          $ephemeral_directory/roles/:$project_directory/../:$HOME/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles
+         ANSIBLE_LIBRARY:
+-          $ephemeral_directory/library/:$project_directory/library/
++          $ephemeral_directory/modules/:$project_directory/library/:$HOME/.ansible/plugins/modules:/usr/share/ansible/plugins/modules
+         ANSIBLE_FILTER_PLUGINS:
+-          $ephemeral_directory/plugins/filters/:$project_directory/filter/plugins/
++          $ephemeral_directory/plugins/filter/:$project_directory/filter/plugins/:$HOME/.ansible/plugins/filter:/usr/share/ansible/plugins/modules
+ 
+     Environment variables can be passed to the provisioner.  Variables in this
+     section which match the names above will be appened to the above defaults,","The ANSIBLE_ROLES_PATH has been modified to include additional paths: $HOME/.ansible/roles, /usr/share/ansible/roles, and /etc/ansible/roles.",1,,,test3311_old.py,test3311_new.py
+,,,The ANSIBLE_LIBRARY has been modified to include additional paths: $HOME/.ansible/plugins/modules and /usr/share/ansible/plugins/modules.,1,,,,
+,,,The ANSIBLE_FILTER_PLUGINS has been modified to include additional paths: $HOME/.ansible/plugins/filter and /usr/share/ansible/plugins/modules.,1,,,,
+,,,The changes allow,-2,,,,
+7567,2087,"@@ -17,8 +17,8 @@ MINIMALIST_COLLECTION = {'data': dict()}
+ MINIMALIST_GROUP = {'data': dict(members=['fxa:user'])}
+ MINIMALIST_RECORD = {'data': dict(name=""Hulled Barley"",
+                                   type=""Whole Grain"")}
+-USER_PRINCIPAL = 'basicauth:8a931a10fc88ab2f6d1cc02a07d3a81b5d4768f' \
+-                 '6f13e85c5d8d4180419acb1b4'
++USER_PRINCIPAL = 'basicauth:aaedca130273574dd2bd6c3acad57f3545b662a974fa4320' \
++                 '236f25fe474676d6'
+ 
+ 
+ class BaseWebTest(object):",The code change involves the modification of the USER_PRINCIPAL variable.,1,,,test2087_old.py,test2087_new.py
+,,,The original value of USER_PRINCIPAL was 'basicauth:8a931a10fc88ab2f6d1cc02a07d3a81b5d4768f6f13e85c5d8d4180419acb1b4'.,1,,,,
+,,,The new value of USER_PRINCIPAL is 'basicauth:aaedca130273574dd2bd6c3acad57f3545,-2,,The new value of USER_PRINCIPAL is 'basicauth:aaedca130273574dd2bd6c3acad57f3545b662a974fa4320236f25fe474676d6',,
+20125,8542,"@@ -1883,7 +1883,7 @@ UDS_RDBI.dataIdentifiers[0x4080] = ""AirbagLock_NEU""
+ UDS_RDBI.dataIdentifiers[0x4140] = ""BodyComConfig""
+ UDS_RDBI.dataIdentifiers[0x4ab4] = ""Betriebsstundenzaehler""
+ UDS_RDBI.dataIdentifiers[0x5fc2] = ""WDBI_DME_ABGLEICH_PROG_REQ""
+-UDS_RDBI.dataIdentifiers[0xd114] = ""Gesamtweg-Streckenzähler Offset""
++UDS_RDBI.dataIdentifiers[0xd114] = ""Gesamtweg-Streckenzaehler Offset""
+ UDS_RDBI.dataIdentifiers[0xd387] = ""STATUS_DIEBSTAHLSCHUTZ""
+ UDS_RDBI.dataIdentifiers[0xdb9c] = ""InitStatusEngineAngle""
+ UDS_RDBI.dataIdentifiers[0xEFE9] = ""WakeupRegistry""",The code change is in the UDS_RDBI.dataIdentifiers object.,1,,,test8542_old.py,test8542_new.py
+,,,"The value of the key 0xd114 has been changed from ""Gesamtweg-Streckenzähler Offset"" to ""Gesamtweg-Streckenzaehler Offset"".",1,,,,
+,,,"There seems to be a typo in the new value, where ""Streckenzaehler"" should be ""Streckenzähler"".",1,,,,
+,,,This change could potentially affect the functionality of the program where the value of 0xd114 is used.,1,,,,
+,,,If the program is using this value,-2,,,,
+19315,8632,"@@ -231,7 +231,8 @@ class AnchorHead(nn.Module):
+         # map up to original set of anchors
+         if unmap_outputs:
+             num_total_anchors = flat_anchors.size(0)
+-            labels = unmap(labels, num_total_anchors, inside_flags)
++            labels = unmap(labels, num_total_anchors, inside_flags,
++                           self.num_classes)  # fill bg label
+             label_weights = unmap(label_weights, num_total_anchors,
+                                   inside_flags)
+             bbox_targets = unmap(bbox_targets, num_total_anchors, inside_flags)",The code change is in the AnchorHead class of the nn.Module.,0,The code change is in the AnchorHead class which extends nn.Module.,,test8632_old.py,test8632_new.py
+,,,The function call to the unmap method has been modified.,1,,,,
+,,,"Previously, the unmap function was called with four arguments: labels, num_total_anchors, inside_flags.",1,,,,
+,,,"Now, an additional argument self.num_classes has been added to the unmap function call.",1,,,,
+,,,The unmap function now requires an additional argument when being called.,0,,,,
+,,,"This change could potentially affect the way the unmap function works, as additional arguments could change its behavior.",0,,This change could potentially affect the output of the unmap function as additional arguments could change it.,,
+,,,"It could also affect the performance of the AnchorHead class, depending on how",-2,,,,
+13065,7007,"@@ -89,6 +89,7 @@ class CompletionView(QTreeView):
+     # https://github.com/The-Compiler/qutebrowser/issues/117
+ 
+     resize_completion = pyqtSignal()
++    connected = None
+ 
+     def __init__(self, win_id, parent=None):
+         super().__init__(parent)",A new attribute called 'connected' has been added to the CompletionView class.,1,,,test7007_old.py,test7007_new.py
+,,,The 'connected' attribute has been initialized with a value of None.,1,,,,
+,,,The addition of the 'connected' attribute suggests that the CompletionView class might now be keeping track of some connection status or state.,1,,,,
+,,,"The default value of None implies that at the time of initialization, the completion view is not connected to anything. This could mean that the completion view is in a disconnected state.",1,,,,
+,,,"If other parts of the code are not updated to handle this new 'connected' attribute, it could lead to unexpected behavior or errors.",-1,,,,
+26227,3849,"@@ -47,7 +47,7 @@ class BigQueryClient(_base_client.BaseClient):
+         return RateLimiter(FLAGS.max_bigquery_api_calls_per_100_seconds,
+                            self.DEFAULT_QUOTA_TIMESPAN_PER_SECONDS)
+ 
+-    def get_bigquery_projectids(self):
++    def get_bigquery_projectids(self, key='projects'):
+         """"""Request and page through bigquery projectids.
+ 
+         Returns: A list of project_ids enabled for bigquery.",The method signature of `get_bigquery_projectids` has been modified.,1,,,test3849_old.py,test3849_new.py
+,,,An additional parameter `key` has been added to the method.,1,,,,
+,,,The default value of the `key` parameter is set to 'projects'.,1,,,,
+,,,All calls to `get_bigquery_projectids` will now need to include the `key` argument.,0,,Calls to `get_bigquery_projectids` can now optionally include the `key` argument.,,
+,,,"If the `key` argument is not provided, the method will use the default value of 'projects'.",1,,,,
+,,,This change could potentially break existing code that calls this method without the `key` argument.,0,,This change won't break existing code that calls this method without the `key` argument.,,
+,,,It might also imply that the `get_bigquery_projectids` method,-2,,,,
+12929,6081,"@@ -93,8 +93,10 @@ class ObjectStore(six.with_metaclass(ABCMeta)):
+         return self.set_object(obj, context, runtime_type, paths)
+ 
+     def get_value(self, context, runtime_type, paths):
+-        if runtime_type in self.TYPE_REGISTRY:
+-            return self.TYPE_REGISTRY[runtime_type].get_object(self, context, runtime_type, paths)
++        if runtime_type.name is not None and runtime_type.name in self.TYPE_REGISTRY:
++            return self.TYPE_REGISTRY[runtime_type.name].get_object(
++                self, context, runtime_type, paths
++            )
+         return self.get_object(context, runtime_type, paths)
+ 
+ ",The condition for retrieving an object from the TYPE_REGISTRY has been changed.,1,,,test6081_old.py,test6081_new.py
+,,,"Previously, the code would retrieve an object if the 'runtime_type' was found in the TYPE_REGISTRY.",1,,,,
+,,,"Now, the code first checks if the 'runtime_type.name' is not None and then checks if this name is found in the TYPE_REGISTRY.",1,,,,
+,,,This change could potentially affect the way objects are retrieved from the TYPE_REGISTRY.,1,,,,
+,,,It could potentially lead to different objects being retrieved depending on the 'runtime_type.name' instead of the 'runtime_,-2,,,,
+16562,3002,"@@ -51,10 +51,10 @@ class releaseTestCase(SparkTestCase):
+             if entry['release_name'] != '':
+                 expected[entry['user_name']].append({
+                     'release_name': entry['release_name'],
+-                    'release_msid': entry['release_msid'],
+-                    'release_mbid': entry['release_mbid'],
++                    'release_msid': entry['release_msid'] or None,
++                    'release_mbid': entry['release_mbid'] or None,
+                     'artist_name': entry['artist_name'],
+-                    'artist_msid': entry['artist_msid'],
++                    'artist_msid': entry['artist_msid'] or None,
+                     'artist_mbids': entry['artist_mbids'],
+                     'listen_count': entry['count']
+                 })",The code changes involve the addition of or statements to the dictionaries that are appended to the 'expected' list.,1,,,test3002_old.py,test3002_new.py
+,,,"The 'release_msid', 'release_mbid', and 'artist_msid' keys in the dictionaries now include an or None statement.",1,,,,
+,,,"This change means that if the value associated with these keys is an empty string, it will now be replaced with None.",1,,,,
+,,,"This change could potentially alter the behavior of the code where these keys are used. If they were previously being used as dictionary keys, this could lead to errors or unexpected behavior.",1,,,,
+,,,It could also affect the data stored in the 'expected' list. If,-2,,,,
+26110,1500,"@@ -29,6 +29,7 @@ class ResourceType(object):
+     FOLDER = 'folder'
+     PROJECT = 'project'
+     GROUP = 'group'
++    BACKEND_SERVICE = 'backend_service'
+     FORWARDING_RULE = 'forwarding_rule'
+     BUCKETS_ACL = 'buckets_acl'
+     CLOUDSQL_ACL = 'cloudsql_instances'",A new constant named BACKEND_SERVICE has been added to the ResourceType class.,1,,,test1500_old.py,test1500_new.py
+,,,The value of this constant is set to the string 'backend_service'.,1,,,,
+,,,The addition of the BACKEND_SERVICE constant suggests that the code may now be dealing with backend services in the context of the ResourceType class.,1,,,,
+,,,"Any functions or methods that use this constant will now have the ability to handle backend services, potentially adding new functionality or changing existing behavior.",1,,,,
+,,,"If this constant is used without proper handling in the class methods, it may lead to errors or unexpected behavior.",1,,,,
+18644,1518,"@@ -77,6 +77,7 @@ def _launch_local_catalog():
+     env = dict(REGISTRY_URL=""http://localhost:5000"",
+                S3_PROXY_URL=open_config[""s3Proxy""],
+                ALWAYS_REQUIRE_AUTH=""false"",
++               NO_DOWNLOAD=""false"",
+                CATALOG_MODE=""LOCAL"",
+                SSO_AUTH=""DISABLED"",
+                PASSWORD_AUTH=""ENABLED"",",A new line of code has been added to the function _launch_local_catalog().,1,,,test1518_old.py,test1518_new.py
+,,,"The new line of code is setting the variable NO_DOWNLOAD to the string ""false"".",1,,,,
+,,,"The addition of the NO_DOWNLOAD variable with a value of ""false"" suggests that the feature or functionality related to downloading files or data has been enabled or modified in some way.",1,,,,
+,,,"This change could potentially affect how the application handles the download process, depending on what the NO_DOWNLOAD variable is used for.",1,,,,
+,,,"If other parts of the code rely on the NO_DOWNLOAD variable being set to ""true"" or some other specific value",-2,,,,
+19368,9882,"@@ -871,6 +871,14 @@ class UIA(Window):
+                                         states.add(controlTypes.STATE_CHECKED)
+                 return states
+ 
++        def _get_presentationType(self):
++                presentationType=super(UIA,self).presentationType
++                # UIA NVDAObjects can only be considered content if UI Automation considers them both a control and content.
++                if presentationType==self.presType_content and not (self.UIAElement.cachedIsContentElement and self.UIAElement.cachedIsControlElement):
++                        presentationType=self.presType_layout
++                return presentationType 
++
++
+         def correctAPIForRelation(self, obj, relation=None):
+                 if obj and self.windowHandle != obj.windowHandle and not obj.UIAElement.cachedNativeWindowHandle:
+                         # The target element is not the root element for the window, so don't change API class; i.e. always use UIA.","A new method called ""_get_presentationType"" has been added to the UIA class.",1,,,test9882_old.py,test9882_new.py
+,,,This method is designed to get the presentationType of the UIA object.,1,,,,
+,,,The presentationType is initially set to the superclass's presentationType.,1,,,,
+,,,A conditional statement checks if the current presentationType is equal to the content type and if the UIAElement is not both a content and a control element.,1,,,,
+,,,"If the conditions are met, the presentationType is set to the layout type.",1,,,,
+,,,The method returns the presentationType.,1,,,,
+,,,"The addition of the ""_get_presentationType"" method suggests that the UIA class now has a",-2,,,,
+12283,6440,"@@ -208,6 +208,7 @@ def rev_hex(s):
+ def int_to_hex(i, length=1):
+     assert isinstance(i, int)
+     s = hex(i)[2:].rstrip('L')
++    s = s.lstrip('0x')
+     s = ""0""*(2*length - len(s)) + s
+     return rev_hex(s)
+ ","A line of code has been added to the function int_to_hex(i, length=1).",1,,,test6440_old.py,test6440_new.py
+,,,The added line of code is 's = s.lstrip('0x')'.,1,,,,
+,,,This line of code is used to remove the '0x' prefix from the string 's'.,1,,,,
+,,,The '0x' prefix in the hexadecimal representation of the integer is removed from the string 's'.,1,,,,
+,,,"This change could potentially alter the output of the function int_to_hex(i, length=1), as the '0x' prefix is no longer present in the returned string.",1,,,,
+,,,If the '0x',-2,,,,
+12769,5389,"@@ -12,7 +12,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.""""""
+ 
+-import ldap, traceback
++import traceback
++
++import ldap
+ from django.conf import settings
+ from django.contrib.auth.models import User
+ ",The import statement for the 'ldap' module has been moved down in the list of imports.,1,,,test5389_old.py,test5389_new.py
+,,,The 'traceback' module has been imported without any changes in the order or the list of imports.,1,,,,
+,,,"The change in the order of imports for the 'ldap' module might have been done for better code organization or to follow a certain coding style or convention. However, in this case, it doesn't have any significant impact on the functionality of the code.",1,,,,
+,,,"The 'traceback' module is still imported at the beginning of the file, which means it will be available for use throughout the file. This could potentially change the behavior of the program",-2,,,,
+25014,6305,"@@ -0,0 +1,10 @@
++_base_ = [
++    'retinanet_pvt_t_fpn_1x_coco.py',
++]
++model = dict(
++    backbone=dict(
++        num_layers=[3, 4, 6, 3],
++        init_cfg=dict(
++            type='Pretrained',
++            checkpoint='https://github.com/whai362/PVT/'
++            'releases/download/v2/pvt_small.pth')))","A new file has been added, which is 'retinanet_pvt_t_fpn_1x_coco.py'.",1,,,test6305_old.py,test6305_new.py
+,,,"A new model has been defined with a backbone that has been modified. The backbone now has 4 layers, instead of the original 3.",-1,,,,
+,,,"The initialization configuration for the backbone has been changed. Instead of using a pre-trained model, the new configuration specifies a specific checkpoint URL.",-1,,,,
+,,,"The addition of the new file suggests that a new model, based on the RetinaNet architecture with the PVT backbone, has been introduced.",1,,,,
+,,,The change in the number of layers in,-2,,,,
+14151,6151,"@@ -82,7 +82,7 @@ SINGLE_QUOTED_REGEX = re.compile(""(%s)?'''"" % ""|"".join(_PREFIXES))
+ DOUBLE_QUOTED_REGEX = re.compile('(%s)?""""""' % ""|"".join(_PREFIXES))
+ QUOTE_DELIMITER_REGEX = re.compile(""(%s)?(\""|')"" % ""|"".join(_PREFIXES), re.DOTALL)
+ 
+-MSGS = {
++MSGS = {  # pylint: disable=consider-using-namedtuple
+     ""E1300"": (
+         ""Unsupported format character %r (%#02x) at index %d"",
+         ""bad-format-character"",",A comment has been added to the MSGS dictionary. The comment disables the pylint warning for considering using a namedtuple.,1,,,test6151_old.py,test6151_new.py
+,,,The added comment indicates that the developer has decided to ignore the pylint warning for using a namedtuple for the MSGS dictionary. This could be because the dictionary is not intended to be a namedtuple and using a namedtuple would not add any functionality or improve performance.,1,,,,
+,,,This change could potentially lead to future confusion for other developers who might wonder why the dictionary is not a namedtuple and why the pylint warning is disabled.,1,,,,
+,,,It could also lead to potential issues if the dictionary is later intended to be,-2,,,,
+9994,6924,"@@ -9,6 +9,11 @@ def includeme(config):
+         description='Track changes on data.',
+         url='http://kinto.readthedocs.io/en/latest/api/1.x/history.html')
+ 
++    config.add_api_capability(
++        'revert',
++        description='discard all changes after given timestamp.',
++        url='http://kinto.readthedocs.io/en/latest/api/1.x/revert.html')
++
+     # Activate end-points.
+     config.scan('kinto.plugins.history.views')
+ ",A new API capability called 'revert' has been added to the configuration.,1,,,test6924_old.py,test6924_new.py
+,,,This capability is described as 'discarding all changes after a given timestamp'.,1,,,,
+,,,The URL for more information about this capability is provided as 'http://kinto.readthedocs.io/en/latest/api/1.x/revert.html'.,1,,,,
+,,,The addition of the 'revert' capability implies that users can now discard changes after a specific timestamp.,1,,,,
+,,,This could potentially make the system more robust and prevent the loss of data due to unintentional changes.,1,,,,
+,,,The provided URL will be useful for users or developers who want to learn more,-2,,,,
+18547,899,"@@ -210,8 +210,9 @@ EXTS_ACCESS_COUNTS = textwrap.dedent(""""""\
+             eventname,
+             bucket,
+             lower(CASE
+-                WHEN cardinality(parts) > 2 THEN concat(element_at(parts, -2), '.', element_at(parts, -1))
+-                WHEN cardinality(parts) = 2 THEN element_at(parts, -1)
++                WHEN cardinality(parts) > 2 AND lower(element_at(parts, -1)) = 'gz'
++                    THEN concat(element_at(parts, -2), '.', element_at(parts, -1))
++                WHEN cardinality(parts) >= 2 THEN element_at(parts, -1)
+                 ELSE ''
+                 END
+             ) AS ext,","The condition for the first WHEN clause has been modified. Previously, it was only true when the cardinality of 'parts' was greater than 2. Now, it is also true when the last element of 'parts' (accessed using element_at(parts, -1)) is 'gz' in lowercase.",0,,"The condition for the first WHEN clause has been modified. Previously, it was true when the cardinality of 'parts' was greater than 2. Now, it is only true when the last element of 'parts' (accessed using element_at(parts, -1)) is 'gz' also in lowercase.",test899_old.py,test899_new.py
+,,,"The second WHEN clause remains unchanged, still true when the cardinality of 'parts' is greater than or equal to 2.",1,,,,
+,,,"The change in the first WHEN clause implies that the logic for handling 'parts' has been expanded. Previously, the function was only concerned with 'parts' with more than 2 elements. Now, it also takes",-2,,,,
+15067,10111,"@@ -87,8 +87,6 @@ class LocustIOExecutor(ScenarioExecutor, WidgetProvider, FileLister, HavingInsta
+ 
+         wrapper = os.path.join(get_full_path(__file__, step_up=2), ""resources"", ""locustio-taurus-wrapper.py"")
+ 
+-        self.env.add_path({""PYTHONPATH"": self.engine.artifacts_dir})
+-        self.env.add_path({""PYTHONPATH"": os.getcwd()})
+         self.env.set({""LOCUST_DURATION"": dehumanize_time(load.duration)})
+ 
+         self.log_file = self.engine.create_artifact(""locust"", "".log"")",The code changes involve the removal of two lines of code that were previously adding paths to the PYTHONPATH environment variable.,1,,,test10111_old.py,test10111_new.py
+,,,"The first removed line was adding the path to the ""PYTHONPATH"" environment variable, which was set to the ""artifacts_dir"" attribute of the ""engine"" object.",1,,,,
+,,,"The second removed line was adding the path to the ""PYTHONPATH"" environment variable, which was set to the current working directory.",1,,,,
+,,,"The removal of these two lines could potentially affect the Python environment, as it is now no longer adding these directories to the PYTHONPATH.",1,,,,
+,,,This could affect the way Python imports modules,1,,,,
+30112,9809,"@@ -104,7 +104,8 @@ PROJECT_IAM_ROLES_SERVER = [
+     'roles/storage.objectViewer',
+     'roles/storage.objectCreator',
+     'roles/cloudsql.client',
+-    'roles/logging.logWriter'
++    'roles/logging.logWriter',
++    'roles/iam.serviceAccountTokenCreator'
+ ]
+ 
+ PROJECT_IAM_ROLES_CLIENT = [",The code change involves the modification of the list of IAM roles for the project.,1,,,test9809_old.py,test9809_new.py
+,,,The role 'roles/logging.logWriter' has been removed from the list.,0,,,,
+,,,Two new roles have been added to the list: 'roles/logging.logWriter' and 'roles/iam.serviceAccountTokenCreator'.,1,,,,
+,,,The removal of 'roles/logging.logWriter' means that the project no longer has permission to write logs to the logging service.,0,,,,
+,,,The addition of 'roles/logging.logWriter' and 'roles/iam.serviceAccountTokenCreator' implies that the project now has these two additional permissions.,1,,,,
+26796,9690,"@@ -1,6 +1,6 @@
+ _base_ = [
+     '../_base_/models/mask_rcnn_r50_fpn.py',
+-    '../_base_/datasets/coco_instance.py',
++    '../_base_/datasets/lvis_v1_instance.py',
+     '../_base_/schedules/schedule_2x.py', '../_base_/default_runtime.py'
+ ]
+ model = dict(",The code change involves the modification of the dataset configuration file in the base directory.,1,,,test9690_old.py,test9690_new.py
+,,,The dataset configuration file 'coco_instance.py' has been replaced with 'lvis_v1_instance.py'.,1,,,,
+,,,The change in dataset configuration file implies that the model will now be trained and evaluated on the LVIS v1 instance dataset instead of the COCO instance dataset.,0,1,The change in dataset configuration file implies that it now correctly relfects the training dataset used in the original code,,
+,,,This could potentially lead to different performance metrics being generated as the model is now working with a different dataset.,0,1,This performance metrics are likely to remain similar as the model is still being trained on the LVIS v1 dataset,,
+,,,The change could also affect the training process as the model will now be exposed to a different set of images and annotations.,0,1,The change shouldn't affect the training process as the model is exposed to the same set of images and annotations,,
+,,,If the 'lvis_,-2,,,,
+11189,1527,"@@ -71,6 +71,7 @@ setup(
+     # Metadata
+     author='Philippe BIONDI',
+     author_email='phil(at)secdev.org',
++    maintainer='Pierre LALET, Guillaume VALADON',
+     description='Scapy: interactive packet manipulation tool',
+     license='GPLv2',
+     url='http://www.secdev.org/projects/scapy',",A new line of code has been added to the setup function.,1,,,test1527_old.py,test1527_new.py
+,,,The new line of code adds a maintainer to the project.,1,,,,
+,,,"The maintainer is specified as 'Pierre LALET, Guillaume VALADON'.",1,,,,
+,,,The addition of a maintainer implies that there is a team of individuals responsible for maintaining and updating the project.,1,,,,
+,,,The new maintainers are Pierre LALET and Guillaume VALADON.,1,,,,
+,,,"This could potentially increase the project's stability and reliability, as the new team members are likely to have a better understanding of the project's requirements and can address issues or bugs that the previous maintainer(s) might",-2,,,,
+25917,1042,"@@ -600,11 +600,11 @@ class SABLRetinaHead(BaseDenseHead, BBoxTestMixin):
+                 bbox_cls_pred.contiguous(),
+                 bbox_reg_pred.contiguous()
+             ]
+-            bboxes, confids = self.bbox_coder.decode(
++            bboxes, confidences = self.bbox_coder.decode(
+                 anchors.contiguous(), bbox_preds, max_shape=img_shape)
+             mlvl_bboxes.append(bboxes)
+             mlvl_scores.append(scores)
+-            mlvl_confids.append(confids)
++            mlvl_confids.append(confidences)
+         mlvl_bboxes = torch.cat(mlvl_bboxes)
+         if rescale:
+             mlvl_bboxes /= mlvl_bboxes.new_tensor(scale_factor)",The variable name 'confids' has been changed to 'confidences' in the decoding process of the bounding box predictions.,1,,,test1042_old.py,test1042_new.py
+,,,The append operation for 'mlvl_confids' has been updated to use the new variable name 'confidences' instead of 'confids'.,1,,,,
+,,,This change corrects a possible typo in the variable name used in the decoding process. This could prevent potential errors in the future by ensuring that the variable name is correct.,1,,,,
+,,,The change in the append operation implies that the 'mlvl_confids' list now contains the 'confidences' instead of the previous 'confids'. This could affect any,-2,,,,
+32870,6051,"@@ -49,6 +49,15 @@ class ApiClient(object):
+             dataset_id (str): id of the dataset to query.
+         """"""
+ 
++    @abc.abstractmethod
++    def fetch_bigquery_iam_policy(self, project_number, dataset_id):
++        """"""Gets IAM policy if a bigquery dataset from gcp API call.
++
++        Args:
++            project_number (str): number of the project to query.
++            dataset_id (str): id of the dataset to query.
++        """"""
++
+     @abc.abstractmethod
+     def iter_bigquery_datasets(self, project_number):
+         """"""Iterate Datasets from GCP API.",A new abstract method called `fetch_bigquery_iam_policy` has been added to the `ApiClient` class.,1,,,test6051_old.py,test6051_new.py
+,,,This method takes two parameters: `project_number` and `dataset_id`.,1,,,,
+,,,The method is designed to fetch the IAM policy for a BigQuery dataset from a GCP API call.,1,,,,
+,,,This change suggests that the `ApiClient` class now has the ability to fetch IAM policies for BigQuery datasets.,1,,,,
+,,,Any class that inherits from `ApiClient` and implements this method will now have this new functionality.,1,,,,
+,,,This could potentially affect all parts of the codebase that use the `ApiClient,-2,,,,
+21617,5201,"@@ -21,7 +21,7 @@
+ 
+ """"""Installation script for Python nupic package.""""""
+ 
+-import os
++import OOOOOOOOOOOos
+ import pkg_resources
+ import sys
+ ",The import statement for the 'os' module has been replaced with an import statement for an unknown module 'OOOOOOOOOOOOos'.,0,,,test5201_old.py,test5201_new.py
+,,,The code may now be using an unknown module 'OOOOOOOOOOOOos' instead of the 'os' module. This could potentially lead to errors if the 'OOOOOOOOOOOOos' module is not installed or if it is installed in a different location than the 'os' module.,0,,,,
+,,,"The change could also potentially improve the code's readability or functionality, depending on how the 'OOOOOOOOOOOOos' module is used compared to the 'os' module. However, this is unlikely without",-2,,,,
+9726,1667,"@@ -14,7 +14,9 @@
+ 
+ import abc
+ import logging
++import datetime
+ import parameter
++import target
+ import warnings
+ import traceback
+ import pyparsing as pp","Two new import statements have been added to the code. The first one imports the datetime module, and the second one imports the target module.",1,,,test1667_old.py,test1667_new.py
+,,,"The addition of the datetime module suggests that the code may now involve operations related to date and time. This could be for logging purposes, tracking the execution time of the code, or handling dates/times in the program.",0,,,,
+,,,"The addition of the target module indicates that the code may now involve operations related to the target environment or system. This could be for interacting with the target system, or for handling target-specific tasks.",0,,,,
+,,,"These are both relatively new imports, so it's possible that the code may not be fully",-2,,,,
+29382,3930,"@@ -139,13 +139,11 @@ def build_network_url(project, network):
+       The fully qualified network url for the given project/network.
+     """"""
+     return (u'%(root)s%(api_name)s/%(version)s/projects/%(project)s/global/'
+-            'networks/%(network)s') % {
+-                'api_name': API_NAME,
+-                'network': network,
+-                'project': project,
+-                'root': API_ROOT,
+-                'version': API_VERSION
+-            }
++            'networks/%(network)s') % {'api_name': API_NAME,
++                                       'network': network,
++                                       'project': project,
++                                       'root': API_ROOT,
++                                       'version': API_VERSION}
+ 
+ 
+ class ComputeFirewallAPI(object):",The code changes involve the formatting of the dictionary that is passed to the string formatting function.,1,,,test3930_old.py,test3930_new.py
+,,,The original code had the dictionary keys and values listed on separate lines.,0,,,,
+,,,"The updated code has the dictionary keys and values listed on the same line, separated by commas.",0,,,,
+,,,The change does not affect the functionality of the code as it is still performing the same operation.,1,,,,
+,,,"The change could be for readability and clarity purposes, making the code easier to read and understand.",1,,,,
+,,,There could be no performance implications as the change does not affect the execution of the code.,1,,,,
+17464,3040,"@@ -103,7 +103,7 @@ def as_spark_type(tpe) -> types.DataType:
+     """"""
+     # TODO: Add ""boolean"" and ""string"" types.
+     # ArrayType
+-    if tpe in (np.ndarray,):
++    if tpe in (list, np.ndarray,):
+         return types.ArrayType(types.StringType())
+     elif hasattr(tpe, ""__origin__"") and issubclass(tpe.__origin__, list):
+         return types.ArrayType(as_spark_type(tpe.__args__[0]))",The code change involves the modification of the condition in the if statement.,1,,,test3040_old.py,test3040_new.py
+,,,"Previously, the condition was checking if the type 'tpe' is in the tuple (np.ndarray,), now it has been expanded to include the type 'list'.",1,,,,
+,,,The code change will now consider 'list' and 'np.ndarray' types equally when checking the condition in the if statement.,1,,,,
+,,,"This could potentially lead to different behaviors depending on the type 'tpe', as the function 'as_spark_type' will now behave differently for 'list' and 'np.ndarray' types.",1,,,,
+,,,If the function 'as_spark_type,-2,,,,
+33781,8081,"@@ -235,11 +235,16 @@ echo ""echo '{export_forseti_vars}' >> /etc/profile.d/forseti_environment.sh"" | s
+ gsutil cp gs://{scanner_bucket}/configs/forseti_conf_server.yaml {forseti_server_conf}
+ gsutil cp -r gs://{scanner_bucket}/rules {forseti_home}/
+ 
++# Download the Newest Config Validator constraints from GCS
++rm -rf /home/ubuntu/config_validator_constraints
++gsutil cp -r gs://{scanner_bucket}/config_validator_constraints /home/ubuntu/
++
+ # Start Forseti service depends on vars defined above.
+ bash ./install/gcp/scripts/initialize_forseti_services.sh
+ 
+ echo ""Starting services.""
+ systemctl start cloudsqlproxy
++systemctl start config-validator
+ sleep 5
+ 
+ echo ""Attempting to update database schema, if necessary.""",A new section of code has been added to the script.,1,,,test8081_old.py,test8081_new.py
+,,,This section of code is responsible for downloading the latest Config Validator constraints from Google Cloud Storage (GCS).,1,,,,
+,,,The existing constraints are removed from the Ubuntu server using the 'rm -rf' command.,1,,,,
+,,,The new constraints are then downloaded to the Ubuntu server using the 'gsutil cp' command.,1,,,,
+,,,A new service 'config-validator' has been started on the Ubuntu server using the 'systemctl start' command.,1,,,,
+,,,The addition of the new constraints means that the server will now be validating against the latest configuration constraints.,1,,,,
+,,,This could potentially,-2,,,,
+22814,6662,"@@ -5,10 +5,10 @@ import pytest
+ from mmdet.datasets import DATASETS
+ 
+ 
+-@patch('mmdet.datasets.CocoDataset.load_annotations', MagicMock)
+-@patch('mmdet.datasets.CustomDataset.load_annotations', MagicMock)
+-@patch('mmdet.datasets.XMLDataset.load_annotations', MagicMock)
+-@patch('mmdet.datasets.CityscapesDataset.load_annotations', MagicMock)
++@patch('mmdet.datasets.CocoDataset.load_annotations', MagicMock())
++@patch('mmdet.datasets.CustomDataset.load_annotations', MagicMock())
++@patch('mmdet.datasets.XMLDataset.load_annotations', MagicMock())
++@patch('mmdet.datasets.CityscapesDataset.load_annotations', MagicMock())
+ @patch('mmdet.datasets.CocoDataset._filter_imgs', MagicMock)
+ @patch('mmdet.datasets.CustomDataset._filter_imgs', MagicMock)
+ @patch('mmdet.datasets.XMLDataset._filter_imgs', MagicMock)",The code changes involve the addition of parentheses () after the MagicMock function in the patch decorator.,1,1,The code changes involve the addition of parentheses () after the MagicMock class in the patch decorator.,test6662_old.py,test6662_new.py
+,,,"The patch decorator is used to replace the load_annotations method of the CocoDataset, CustomDataset, XMLDataset, and CityscapesDataset classes with a MagicMock object.",1,,,,
+,,,"The addition of parentheses makes the MagicMock function call, which returns a new MagicMock object every time it is called. This means that each time the load_annotations method is patched, a new MagicMock object is created.",1,,"The addition of parentheses makes the MagicMock class' init function call, which returns a new MagicMock object every time it is called. This means that each time the load_annotations method is patched, a new MagicMock object is created.",,
+,,,"This change could potentially affect the behavior of the load_annotations method, as the original implementation will no",-2,,,,
+25074,2178,"@@ -49,7 +49,7 @@ def readObjects(obj):
+ 	_startGenerator(readObjectsHelper_generator(obj))
+ 
+ def generateObjectSubtreeSpeech(obj,indexGen):
+-	index=indexGen.next()
++	index=next(indexGen)
+ 	speech.speakObject(obj,reason=controlTypes.REASON_SAYALL,index=index)
+ 	yield obj,index
+ 	child=obj.simpleFirstChild",The method of getting the next index from the index generator has been changed.,1,,,test2178_old.py,test2178_new.py
+,,,"The previous code used the next() method of the indexGen object, while the updated code uses the next() function directly.",1,,,,
+,,,"The change could potentially make the code more readable and easier to understand, as the next() function is directly called on the indexGen object.",-1,,,,
+,,,"It could also potentially improve the performance of the code, as the next() method of an object is generally faster than calling a function with the same name.",-1,,,,
+,,,"However, if the indexGen object is not a sequence or an iterator, the previous code will still work while the updated code will raise a Type",-2,,,,
+29558,6295,"@@ -1,9 +1,9 @@
+ # -*- coding: UTF-8 -*-
+-#appModules/explorer.py
+-#A part of NonVisual Desktop Access (NVDA)
+-#Copyright (C) 2006-2019 NV Access Limited, Joseph Lee, Łukasz Golonka
+-#This file is covered by the GNU General Public License.
+-#See the file COPYING for more details.
++# appModules/explorer.py
++# A part of NonVisual Desktop Access (NVDA)
++# Copyright (C) 2006-2019 NV Access Limited, Joseph Lee, Łukasz Golonka, Julien Cochuyt
++# This file is covered by the GNU General Public License.
++# See the file COPYING for more details.
+ 
+ """"""App module for Windows Explorer (aka Windows shell and renamed to File Explorer in Windows 8).
+ Provides workarounds for controls such as identifying Start button, notification area and others.",The comment block at the beginning of the file has been reformatted. The lines have been rearranged and some details have been added.,0,,,test6295_old.py,test6295_new.py
+,,,"The name of the file, ""appModules/explorer.py"", has been repositioned to be above the comment block.",0,,,,
+,,,"The copyright notice has been updated to include the name of the new contributor, Julien Cochuyt.",1,,,,
+,,,The reformatting of the comment block might have been done to adhere to a specific coding style or convention. This could potentially affect the readability of the code.,0,,,,
+,,,The addition of the new contributor to the copyright notice implies that the work in this file,-2,,,,
+13185,2914,"@@ -26,7 +26,7 @@ import struct
+ import time
+ from scapy.packet import *
+ from scapy.fields import *
+-from scapy.contrib.ppi import PPIGenericFldHdr, addPPIType
++from scapy.layers.dot11 import *
+ from scapy.error import warning
+ import scapy.modules.six as six
+ from scapy.modules.six.moves import range",The import statement for 'PPIGenericFldHdr' and 'addPPIType' from 'scapy.contrib.ppi' has been removed.,1,,,test2914_old.py,test2914_new.py
+,,,The import statement for all modules from 'scapy.layers.dot11' has been added.,1,,,,
+,,,The removal of the import statement for 'PPIGenericFldHdr' and 'addPPIType' implies that the code no longer uses these modules from 'scapy.contrib.ppi'. This could mean that the functionality provided by these modules is no longer needed in the code.,1,,,,
+,,,The addition of the import statement for all modules from 'scapy.layers.dot,-2,,,,
+21725,6872,"@@ -270,6 +270,7 @@ def eval_map(det_results,
+              iou_thr=0.5,
+              dataset=None,
+              logger=None,
++             tpfp_func=None,
+              nproc=4):
+     """"""Evaluate mAP of a dataset.
+ ",A new parameter 'tpfp_func' has been added to the 'eval_map' function. This parameter is initially set to None.,1,,,test6872_old.py,test6872_new.py
+,,,The 'eval_map' function now has an additional functionality related to the 'tpfp_func'. This could potentially change the way the function calculates the True Positive and False Positive (TPFP) values.,0,,,,
+,,,"Existing code that calls the 'eval_map' function may need to be updated to include this new parameter, 'tpfp_func'.",1,,,,
+,,,"If the 'tpfp_func' is not properly defined or handled, it could potentially lead to errors or unexpected behavior in the program.",1,,,,
+11479,3932,"@@ -1,10 +1,10 @@
+-import StringIO
+ from pathod import log
+ from netlib.exceptions import TcpDisconnect
+-import netlib.tcp
+ 
++from six.moves import cStringIO
+ 
+-class DummyIO(StringIO.StringIO):
++
++class DummyIO(cStringIO):
+ 
+     def start_log(self, *args, **kwargs):
+         pass",The import statement for the StringIO module has been removed.,1,,,test3932_old.py,test3932_new.py
+,,,The import statement for the netlib.tcp module has been removed.,1,,,,
+,,,"The DummyIO class, which was previously a subclass of StringIO.StringIO, has been changed to a subclass of cStringIO.",1,,,,
+,,,The import statement for the cStringIO module has been added.,1,,,,
+,,,The removal of the StringIO and netlib.tcp import statements suggests that these modules are no longer needed in the code.,1,,,,
+,,,The change in the DummyIO class to a subclass of cStringIO could mean that the functionality of the DummyIO class will now be using the c,-2,,,,
+10682,1232,"@@ -827,8 +827,9 @@ class Series(_Frame, IndexOpsMixin, Generic[T]):
+         Name: my_name, dtype: int64
+         """"""
+         if index is None:
+-            return self
+-        scol = self._scol.alias(index)
++            scol = self._scol
++        else:
++            scol = self._scol.alias(index)
+         if kwargs.get('inplace', False):
+             self._internal = self._internal.copy(scol=scol)
+             return self",The code has been modified to include a conditional statement that checks if the index is None.,0,,The code has been modified to include a conditional statement that checks if the index is not None.,test1232_old.py,test1232_new.py
+,,,"If the index is None, the variable 'scol' is assigned the value of '_scol'.",1,,,,
+,,,"If the index is not None, 'scol' is assigned the alias of '_scol' with the given index.",1,,,,
+,,,"The code now handles the case where the index is None, which was not previously possible.",0,,,,
+,,,The change could potentially affect the behavior of the code if the '_scol' object does not have an 'alias' method or if the 'alias' method does not return the expected result.,1,,,,
+,,,The new code is more robust and,-2,,,,
+24797,6595,"@@ -376,7 +376,6 @@ def _init_profiles():
+         private_profile.setter = ProfileSetter(  # type: ignore[attr-defined]
+             private_profile)
+         assert private_profile.isOffTheRecord()
+-        private_profile.setter.init_profile()
+ 
+ 
+ def _init_site_specific_quirks():",The code line that was removed is the one that initializes the profile for the private_profile object.,1,,,test6595_old.py,test6595_new.py
+,,,This change implies that the initialization of the profile for the private_profile object is no longer needed or should not be performed at this point in the code.,1,,,,
+,,,"This could potentially affect the functionality of the program, depending on what the init_profile() method does. If it was essential for the program to have this method called, then this change could lead to unexpected behavior or errors.",1,,,,
+,,,"If the init_profile() method was not needed, this change could help optimize the code by avoiding unnecessary function calls.",1,,,,
+19652,8253,"@@ -87,7 +87,7 @@ class SparkReader:
+         try:
+             response_handler(response)
+         except Exception as e:
+-            current_app.logger.error('Error in the response handler: %s, data: %s %'
++            current_app.logger.error('Error in the response handler: %s, data: %s' %
+                                      (str(e), json.dumps(response, indent=4)), exc_info=True)
+             return
+ ",The code change is in the logging of errors in the response handler.,1,,,test8253_old.py,test8253_new.py
+,,,The formatting of the error message has been changed.,1,,,,
+,,,"The previous formatting used '%s %' at the end of the error message, which was removed in the updated code.",1,,,,
+,,,The change in the formatting of the error message will affect the way errors are logged and displayed.,1,,,,
+,,,The removal of the '%' character at the end of the error message might cause a syntax error if there was any code expecting a specific formatting.,1,,,,
+,,,This change could potentially make debugging more difficult as the error message will no longer have a trailing '%' character.,-1,,The previous code had a syntax error because there should be a '%' symbol between the f-string and the parantheses containing the arguments for the f-string,,

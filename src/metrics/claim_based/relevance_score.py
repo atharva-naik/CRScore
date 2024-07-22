@@ -106,13 +106,14 @@ class RelevanceScorer:
         prec_alignment = sem_similarity_matrix.max(dim=0)
         prec_array = sem_similarity_matrix.max(dim=0).values
         prec_mask = (prec_array > self.hi_sim_thresh).float()
-        prec_array = prec_mask * prec_array
+        # prec_array = prec_mask * prec_array
 
         rec_array = (sem_similarity_thresh.sum(dim=1)>0)
         
         # precision/conciseness
-        P = prec_array.mean().item()
-        
+        # P = prec_array.mean().item()
+        P = prec_mask.mean().item()
+
         # recall/comprehensiveness
         num_change_claims = len(change_enc)
         # normalization factor for recall/comprehensiveness.
@@ -276,6 +277,10 @@ def process_magicoder_output(review: str):
 
     return review
 
+def safe_division(a, b):
+    if b == 0: return 0
+    return a/b
+
 def all_model_all_data_results():
     data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
     model_preds = {
@@ -323,7 +328,7 @@ def all_model_all_data_results():
             code_change_summ, reviews, debug=DEBUG
         )
         print(model, f"P={100*rel_P_score:.2f} R={100*rel_R_score:.2f} F={100*rel_F_score:.2f} RL={mean_review_length:.2f}")
-        inst_rel_F_scores = [(2*p*r)/(p+r) for p,r in zip(inst_rel_P_scores, inst_rel_R_scores)]
+        inst_rel_F_scores = [safe_division(2*p*r, p+r) for p,r in zip(inst_rel_P_scores, inst_rel_R_scores)]
         rel_scores[model] = {
             "P": inst_rel_P_scores,
             "R": inst_rel_R_scores,

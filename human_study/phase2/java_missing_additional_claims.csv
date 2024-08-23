@@ -1,0 +1,21 @@
+id,index,diff,oldf,newf,additional claims
+13100.0,659.0,"@@ -192,7 +192,7 @@ public interface Context {
+                 methodUsage = ((TypeVariableResolutionCapability) methodDeclaration)
+                                       .resolveTypeVariables(this, argumentsTypes);
+             } else {
+-                throw new UnsupportedOperationException();
++                return Optional.empty();
+             }
+ 
+             return Optional.of(methodUsage);",test659_old.java,test659_new.java,The use of an Optional object is a reasonable alternative to raising an UnsupportedOperationException when existence/non-existence of information suffices to go through the program flow.
+42619.0,8425.0,"@@ -372,7 +372,9 @@ class SparkWrite {
+       }
+ 
+       Expression conflictDetectionFilter = conflictDetectionFilter();
+-      overwriteFiles.validateNoConflictingAppends(conflictDetectionFilter);
++      overwriteFiles.conflictDetectionFilter(conflictDetectionFilter);
++      overwriteFiles.validateNoConflictingData();
++      overwriteFiles.validateNoConflictingDeletes();
+ 
+       String commitMsg = String.format(
+           ""overwrite of %d data files with %d new data files, scanSnapshotId: %d, conflictDetectionFilter: %s"",",test8425_old.java,test8425_new.java,The changes imply that the instead of the functionality of the validateNoConflictingAppends the code now relies on the new function calls.

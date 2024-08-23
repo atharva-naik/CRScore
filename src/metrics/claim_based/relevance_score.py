@@ -11,6 +11,7 @@ import torch.nn.functional as F
 from nltk.corpus import stopwords
 from src.datautils import read_jsonl
 from sentence_transformers import SentenceTransformer, util
+from scripts.create_code_smell_analysis_data import generate_newf, remove_space_clean
 
 nltk.download("english")
 
@@ -191,35 +192,71 @@ def process_javascript_smells(path, file):
 
     return smells
 
-def filter_by_changed_lines(smells, range_) -> List[str]:
-    filt_smells = []
-    for line, line_no in smells:
-        if range_[0] <= line_no <= range_[1]:
-            filt_smells.append(line)
-        elif line_no == -1:
-            filt_smells.append(line)
+# def filter_by_changed_lines(smells, range_) -> List[str]:
+#     filt_smells = []
+#     for line, line_no in smells:
+#         if range_[0] <= line_no <= range_[1]:
+#             filt_smells.append(line)
+#         elif line_no == -1:
+#             filt_smells.append(line)
 
+#     return filt_smells
+
+def filter_by_changed_lines(smells, range_: List[int], new_file: str, diff: str) -> List[str]:
+    """
+    only consider the specific lines that are changed and not even the whole patch/diff
+    """
+    filt_smells = []
+    changed_lines = [line[1:].strip() for line in diff.split("\n") if line[0] in ["+","-"]]
+    # print(changed_lines)
+    for line, line_no in smells:
+        # relevant_lines = new_file.split("\n")[range_[0]-1:range_[1]]
+        # new_file_line_1 = new_file.split("\n")[line_no]
+        new_file_line = new_file.split("\n")[line_no-1].strip()
+        if new_file_line in changed_lines: filt_smells.append(line)
+        # print(new_file_line)
+        # print(line)
+        # print("line:", new_file_line)
+        # print("line1:", new_file_line_1)
+        # print("line2:", new_file_line_2)
+        # if range_[0] <= line_no <= range_[1]:
+        #     filt_smells.append(line)
+        # elif line_no == -1:
+        #     filt_smells.append(line)
+    # print(filt_smells)
+    # exit()
     return filt_smells
 
 def load_code_claims_and_issues(
+        data: List[dict],
         claims_path: str, issues_paths: Dict[str, str], 
         patch_ranges_path: str, split_function=split_claims,
     ):
     patch_ranges = json.load(open(patch_ranges_path))
-    java_smell_summaries = {file.split('.')[0].strip(): process_java_smells(os.path.join(issues_paths['java'], file), file) for file in os.listdir(issues_paths['java'])}
-    java_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k]) for k,v in java_smell_summaries.items()}
 
-    python_smell_summaries = {file.split('.')[0].strip(): process_python_smells(os.path.join(issues_paths['python'], file), file) for file in os.listdir(issues_paths['python'])}
-    python_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k]) for k,v in python_smell_summaries.items()}
+    newfs = {f"test{i}": generate_newf(rec['oldf'], rec['patch'])[0] for i, rec in enumerate(data)}
+    diffs = {f"test{i}": rec['patch'] for i, rec in enumerate(data)}
+    java_smell_summaries = {file.split('.')[0].strip(): process_java_smells(os.path.join(issues_paths["java"], file), file) for file in os.listdir(issues_paths["java"])}
+    print(f"{sum([len(s) for s in java_smell_summaries.values()])} java smells before filtering across {sum([len(s) > 0 for s in java_smell_summaries.values()])} instances")
+    java_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k], newfs[k], diffs[k]) for k,v in java_smell_summaries.items()}
+    print(f"{sum([len(s) for s in java_smell_summaries.values()])} java smells after filtering across {sum([len(s) > 0 for s in java_smell_summaries.values()])} instances")
 
-    javascript_smell_summaries = {file.split('.')[0].strip(): process_javascript_smells(os.path.join(issues_paths['javascript'], file), file) for file in os.listdir(issues_paths['javascript'])}
-    javascript_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k]) for k,v in javascript_smell_summaries.items()}
+    python_smell_summaries = {file.split('.')[0].strip(): process_python_smells(os.path.join(issues_paths["python"], file), file) for file in os.listdir(issues_paths["python"])}
+    print(f"{sum([len(s) for s in python_smell_summaries.values()])} python smells before filtering across {sum([len(s) > 0 for s in python_smell_summaries.values()])} instances")
+    python_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k], newfs[k], diffs[k]) for k,v in python_smell_summaries.items()}
+    print(f"{sum([len(s) for s in python_smell_summaries.values()])} python smells after filtering across {sum([len(s) > 0 for s in python_smell_summaries.values()])} instances")
+
+    javascript_smell_summaries = {file.split('.')[0].strip(): process_javascript_smells(os.path.join(issues_paths["javascript"], file), file) for file in os.listdir(issues_paths["javascript"])}
+    print(f"{sum([len(s) for s in javascript_smell_summaries.values()])} javascript smells before filtering across {sum([len(s) > 0 for s in javascript_smell_summaries.values()])} instances")
+    javascript_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k], newfs[k], diffs[k]) for k,v in javascript_smell_summaries.items()}
+    print(f"{sum([len(s) for s in javascript_smell_summaries.values()])} javascript smells after filtering across {sum([len(s) > 0 for s in javascript_smell_summaries.values()])} instances")
 
     smell_claims = {}
     smell_claims.update(java_smell_summaries)
     smell_claims.update(python_smell_summaries)
     smell_claims.update(javascript_smell_summaries)
     llm_generated_claims = read_jsonl(claims_path)
+    # llm_generated_claims = {f"test{i}": split_claims_and_impl(rec['response']) for i, rec in enumerate(read_jsonl(claims_path))}
     
     code_change_to_claims_and_issues = {}
     for i in range(len(llm_generated_claims)):
@@ -235,6 +272,7 @@ def human_study_results():
     model_preds = pd.read_csv("human_study_data.csv")
     code_claims_path = "./experiments/code_change_summ_finetune_impl/Magicoder-S-DS-6.7B.jsonl"
     all_code_change_summ = load_code_claims_and_issues(
+        data=data,
         claims_path=code_claims_path,
         issues_paths={
             "python": "./experiments/python_code_smells",
@@ -304,7 +342,8 @@ def all_model_all_data_results():
         "llama3": [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Llama-3-8B-Instruct.jsonl')],
     }
     code_claims_path = "./experiments/code_change_summ_finetune_impl/Magicoder-S-DS-6.7B.jsonl"
-    all_code_change_summ = load_code_claims_and_issues(
+    all_code_change_summ = load_code_claims_and_issues(\
+        data=data,
         claims_path=code_claims_path,
         issues_paths={
             "python": "./experiments/python_code_smells",

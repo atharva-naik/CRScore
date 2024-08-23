@@ -1,0 +1,24 @@
+id,index,diff,oldf,newf,additional claims
+16117.0,1154.0,"@@ -35,9 +35,11 @@ class ScalarSpaceEncoderTest(unittest.TestCase):
+   def testScalarSpaceEncoder(self):
+     """"""scalar space encoder""""""
+     # use of forced=True is not recommended, but used in the example for readibility, see scalar.py
+-    sse = ScalarSpaceEncoder(1,1,2,False,2,1,1,None,0,False,""delta"", forced=True)
++    sse = ScalarSpaceEncoder(w=21,minval=1,maxval=2,n=100,radius=1,
++            resolution=1,name=""SP1"",verbosity=0,clipInput=False,space=""delta"")
+     self.assertTrue(sse.isDelta())
+-    sse = ScalarSpaceEncoder(1,1,2,False,2,1,1,None,0,False,""absolute"", forced=True)
++    sse = ScalarSpaceEncoder(w=21,minval=1,maxval=2,n=100,radius=1,
++            resolution=1,name=""sp2"",verbosity=0,clipInput=False,space=""absolute"")
+     self.assertFalse(sse.isDelta())
+ 
+      ",test1154_old.py,test1154_new.py,The changes remove `forced=True`.
+19652.0,8253.0,"@@ -87,7 +87,7 @@ class SparkReader:
+         try:
+             response_handler(response)
+         except Exception as e:
+-            current_app.logger.error('Error in the response handler: %s, data: %s %'
++            current_app.logger.error('Error in the response handler: %s, data: %s' %
+                                      (str(e), json.dumps(response, indent=4)), exc_info=True)
+             return
+ ",test8253_old.py,test8253_new.py,The previous code had a syntax error because there should be a '%' symbol between the f-string and the parantheses containing the arguments for the f-string

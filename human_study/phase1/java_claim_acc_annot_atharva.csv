@@ -1448,9 +1448,9 @@ id,index,diff,claim,"Correctness
   * Defines a datatype with a set of preset values of any type as held within a",The import statement for the BasicPropertyDescriptorFactory class has been removed.,1,,,test5289_old.java,test5289_new.java
 ,,,"Four new import statements have been added: Collections, EnumeratedPropertyDescriptor, PropertyDescriptorField, and CollectionUtil.",1,,,,
 ,,,The removal of the BasicPropertyDescriptorFactory class import statement suggests that the code no longer uses this class.,1,,,,
-,,,The addition of the Collections class import statement indicates that the code may now use methods from this class.,1,,,,
-,,,The addition of the EnumeratedPropertyDescriptor and PropertyDescriptorField class import statements suggests that the code may now use these classes.,1,,,,
-,,,The addition of the CollectionUtil class import statement indicates that the code may now use methods from this class.,1,,,,
+,,,The addition of the Collections class import statement indicates that the code may now use methods from this class.,0,,,,
+,,,The addition of the EnumeratedPropertyDescriptor and PropertyDescriptorField class import statements suggests that the code may now use these classes.,0,,,,
+,,,The addition of the CollectionUtil class import statement indicates that the code may now use methods from this class.,0,,,,
 34280,3786,"@@ -104,12 +104,7 @@ class TypeToSparkType extends TypeUtil.SchemaVisitor<DataType> {
          throw new UnsupportedOperationException(
              ""Spark does not support time fields"");

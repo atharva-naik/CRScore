@@ -12,16 +12,26 @@ if __name__ == "__main__":
     raw_data = {rec['index']: rec for rec in raw_data}
 
     # load Marcus' annotations:
-    js_claim_acc = pd.read_csv("human_study/phase1/js_claim_acc_annot_marcus.csv").to_dict("records")
-    py_claim_acc = pd.read_csv("human_study/phase1/py_claim_acc_annot_marcus.csv").to_dict("records")
-    java_claim_acc = pd.read_csv('human_study/phase1/java_claim_acc_annot_marcus.csv').to_dict("records")
+    marcus_claim_acc = {}
+    marcus_claim_acc["js"] = pd.read_csv("human_study/phase1/js_claim_acc_annot_marcus.csv").to_dict("records")
+    marcus_claim_acc["py"] = pd.read_csv("human_study/phase1/py_claim_acc_annot_marcus.csv").to_dict("records")
+    marcus_claim_acc["java"] = pd.read_csv('human_study/phase1/java_claim_acc_annot_marcus.csv').to_dict("records")
+    # load Atharva's annotations:
+    atharva_claim_acc = {}
+    atharva_claim_acc["js"] = pd.read_csv("human_study/phase1/js_claim_acc_annot_atharva.csv").to_dict("records")
+    atharva_claim_acc["py"] = pd.read_csv("human_study/phase1/py_claim_acc_annot_atharva.csv").to_dict("records")
+    atharva_claim_acc["java"] = pd.read_csv('human_study/phase1/java_claim_acc_annot_atharva.csv').to_dict("records")
+
+    boundary_point = {"py":  248-2, 'java': 250-2, 'js': 247-2}
+    claim_acc = {lang: [atharva_claim_acc[lang][i] if i >= boundary_point[lang] else marcus_claim_acc[lang][i] for i in range(len(atharva_claim_acc[lang]))] for lang in ["py", "java", "js"]}
     
     claim_acc_label = 'Correctness\n0 - incorrect\n1 - correct\n-1 - unverifiable\n-2 - incomplete'
 
-    review_models = ["codereviewer_pred", "magicoder_pred", "deepseekcoder_pred", "stable_code_pred", "msg"]
+    review_models = ["knn_pred", "lstm_pred", "codereviewer_pred", "magicoder_pred", "deepseekcoder_pred", "stable_code_pred", "llama3_pred", "codellama_13b_pred", "gpt3.5_pred", "msg"]
     langs = ["py", "java", "js"]
     os.makedirs('human_study/phase2', exist_ok=True)
-    for ii, lang_data in enumerate([py_claim_acc, java_claim_acc, js_claim_acc]):
+    for ii, lang_data in enumerate([claim_acc["py"], claim_acc["java"], claim_acc["js"]]):
+        missing_additional_claims = []
         phase2_rows = []
         lang = langs[ii]
         index2data = defaultdict(lambda: [])
@@ -48,12 +58,20 @@ if __name__ == "__main__":
                 if row[claim_acc_label] == 0:
                     if str(row["additional claims"]).strip() not in ["nan",'']:
                         claims.append(("claim", row["additional claims"]))
+                elif row[claim_acc_label] == -1:
+                    if str(row["additional claims"]).strip() not in ["nan",'']:
+                        # capture the missing additional claims added next to the unverifiable claims:
+                        missing_additional_claims.append({
+                            "id": ID, "index": index, "diff": diff, 
+                            "oldf": old_file, "newf": new_file,
+                            'additional claims': row['additional claims'], 
+                        })
+                        claims.append(("claim", row["additional claims"]))
                 elif row[claim_acc_label] == 1:
                     claims.append(("claim", row['claim']))
                     if str(row["additional claims"]).strip() not in ["nan",""]:
                         claims.append(("claim", row["additional claims"]))
                 # elif row[claim_acc_label] in [-1, 2, -2]: pass
-
             claims_and_issues_with_types = claims+issues
             review_and_systems = [(raw_record[model], model) for model in review_models]
             random.shuffle(review_and_systems)
@@ -65,9 +83,9 @@ if __name__ == "__main__":
             for claim_and_type, review_and_system in ITER:
                 instance_rows.append({
                     "id": ID, "index": index, "diff": diff, "claim_no": "",
-                    "claim": claim_and_type[1], "type": claim_and_type[0], 
+                    "claim": claim_and_type[1], "necessary?": "", "type": claim_and_type[0], 
                     "review": review_and_system[0], "system": review_and_system[1],   
-                    "Con (P)": "", "Comp (R)": "", "Rel (F)": "",
+                    "claims addressed": "", "Con (P)": "", "Comp (R)": "", "Rel (F)": "",
                     "old_file": old_file, "new_file": new_file,
                 })
             instance_rows[0]["claim_no"] = 1
@@ -110,4 +128,5 @@ if __name__ == "__main__":
 
             #     # update current review index.
             #     current_review_index += 1
-        pd.DataFrame(phase2_rows).to_csv(f"human_study/phase2/{lang}_claim_acc_annot_marcus.csv", index=False)
+        pd.DataFrame(missing_additional_claims).to_csv(f"human_study/phase2/{lang}_missing_additional_claims.csv", index=False)
+        pd.DataFrame(phase2_rows).to_csv(f"human_study/phase2/{lang}_review_qual_annot_fixed.csv", index=False)

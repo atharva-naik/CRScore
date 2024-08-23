@@ -36,10 +36,12 @@ if __name__ == "__main__":
     bleu_score = evaluate.load("bleu")
     # BERT score.
     bert_score = evaluate.load("bertscore")
+    # character level F-score (chrF) and chrF++.
+    chrf = evaluate.load("chrf")
     # ROUGE-L score.
     rouge_score_ = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
-
-    for model, preds_path in {
+    output_path = "baseline_metric_scores.json"
+    models_and_pred_paths = {
         "BM-25 kNN": "./experiments/knn_retriever_preds.json",
         "LSTM": "./ckpts/lstm_reviewer_1_layer/preds.jsonl",
         "CodeReviewer": "./experiments/MS_CR_ZeroShot/preds.jsonl",
@@ -49,8 +51,12 @@ if __name__ == "__main__":
         "Stable-Code-Instruct-3B": "./experiments/llm_outputs/Stable-Code-Instruct-3b.jsonl",
         "DeepSeekCoder-Instruct-6.7B": "./experiments/llm_outputs/DeepSeekCoder-6.7B-Instruct.jsonl",
         "GPT-3.5-Turbo": "./experiments/llm_outputs/GPT-3.5-Turbo.jsonl",
-        # "Llama-3-8B-Instruct": "./experiments/llm_outputs/Llama-3-8B-Instruct.jsonl",
-    }.items():
+        "Llama-3-8B-Instruct": "./experiments/llm_outputs/Llama-3-8B-Instruct.jsonl",
+    }
+    all_baseline_metrics = ["BLEU", "BLEU_WITHOUT_STOP", "BERTSCORE", "EDIT_DISTANCE", "ROUGE_L", "CHRF", "CHRF++"]
+    all_baseline_scores = {metric: [{model: 0 for model in models_and_pred_paths} for _ in trues] for metric in all_baseline_metrics} 
+
+    for model, preds_path in models_and_pred_paths.items():
         if preds_path.endswith(".json"): preds = json.load(open(preds_path))
         elif preds_path.endswith(".jsonl"): preds = read_jsonl(preds_path)
         if model == "BM-25 kNN": preds = [rec[0] for rec in preds]
@@ -59,10 +65,44 @@ if __name__ == "__main__":
                        "CodeLLaMA-Instruct-13B"]:
             preds = [rec['pred'] for rec in preds]
         else: preds = [process_magicoder_output(rec['pred_review']) for rec in preds]
-        BERTSCORE = np.mean(bert_score.compute(predictions=preds, references=trues, model_type="distilbert-base-uncased")['f1'])
+
+        BLEUS = [bleu_fromstr(predictions=[p], golds=[t], rmstop=False) for p,t in zip(preds, trues)]
         BLEU = bleu_fromstr(predictions=preds, golds=trues, rmstop=False)
+        assert BLEU == round(np.mean(BLEUS), 2), "some error in BLEU aggregation"
+
+        BLEU_WITHOUT_STOPS = [bleu_fromstr(predictions=[p], golds=[t], rmstop=True) for p,t in zip(preds, trues)]
         BLEU_WITHOUT_STOP = bleu_fromstr(predictions=preds, golds=trues, rmstop=True)
-        EDIT_DISTANCE = np.mean([lev(p, r)/max(len(p), len(r)) for p,r in zip(preds, trues)])
-        ROUGE_L = np.mean([rouge_score_.score(p,r)['rougeL'].fmeasure for p,r in zip(preds, trues)])
-        print(f"\x1b[34;1m{model}\x1b[0m: BLEU: {BLEU:.2f} BLEU without stop: {BLEU_WITHOUT_STOP:.2f} Edit Distance: {EDIT_DISTANCE:.3f} BERTScore: {BERTSCORE:.3f} ROUGE-L: {ROUGE_L:.3f}")
+        assert BLEU_WITHOUT_STOP == round(np.mean(BLEU_WITHOUT_STOPS), 2), "some error in BLEU aggregation"
+
+        CHRFS = [chrf.compute(predictions=[p], references=[t])['score']/100 for p,t in zip(preds, trues)]
+        CHRF = np.mean(CHRFS)
+        CHRF_PPS = [chrf.compute(predictions=[p], references=[t], word_order=2)['score']/100 for p,t in zip(preds, trues)]
+        CHRF_PP = np.mean(CHRF_PPS)
+
+        BERTSCORES = bert_score.compute(predictions=preds, references=trues, model_type="distilbert-base-uncased")['f1']
+        BERTSCORE = np.mean(BERTSCORES)
+
+        EDIT_DISTANCES = [lev(p, r)/max(len(p), len(r)) for p,r in zip(preds, trues)]
+        EDIT_DISTANCE = np.mean(EDIT_DISTANCES)
+
+        ROUGE_LS = [rouge_score_.score(p,r)['rougeL'].fmeasure for p,r in zip(preds, trues)]
+        ROUGE_L = np.mean(ROUGE_LS)
+
+        print(f"\x1b[34;1m{model}\x1b[0m: BLEU: {BLEU:.2f} BLEU without stop: {BLEU_WITHOUT_STOP:.2f} Edit Distance: {EDIT_DISTANCE:.3f} BERTScore: {BERTSCORE:.3f} ROUGE-L: {ROUGE_L:.3f} CHRF: {CHRF:.3f} CHRF++: {CHRF_PP:.3f}")
+        for i, score in enumerate(BLEUS):
+            all_baseline_scores["BLEU"][i][model] = score
+        for i, score in enumerate(BLEU_WITHOUT_STOPS):
+            all_baseline_scores["BLEU_WITHOUT_STOP"][i][model] = score
+        for i, score in enumerate(CHRFS):
+            all_baseline_scores["CHRF"][i][model] = score
+        for i, score in enumerate(CHRF_PPS):
+            all_baseline_scores["CHRF++"][i][model] = score
+        for i, score in enumerate(BERTSCORES):
+            all_baseline_scores["BERTSCORE"][i][model] = score
+        for i, score in enumerate(EDIT_DISTANCES):
+            all_baseline_scores["EDIT_DISTANCE"][i][model] = score
+        for i, score in enumerate(ROUGE_LS):
+            all_baseline_scores["ROUGE_L"][i][model] = score
         # bleu_score.compute(predictions=preds, references=trues) 
+        with open(output_path, "w") as f:
+            json.dump(all_baseline_scores, f, indent=4)

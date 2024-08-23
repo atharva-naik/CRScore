@@ -48,13 +48,20 @@ def split_claims_and_impl(text):
     # print(text_claims)
     # print(text_impls)
     # exit()
-
     return text_claims+text_impls
 
 def process_lstm_output(review: str):
     if review.startswith("<msg>"): review = review[len("<msg>"):].strip()
         
     return review
+
+def process_codellama_output(review: str):
+    review_lines = review.split("\n")
+    review_ = " ".join([line.strip() for line in review_lines[:-1]])
+    if review_lines[-1].strip().endswith("."): 
+        review_ += " "+review_lines[-1].strip()
+
+    return review_
 
 def process_magicoder_output(review: str):
     review = review.split("@@ Code Change")[0].strip("\n")
@@ -130,14 +137,32 @@ def process_javascript_smells(path, file):
 
     return smells
 
-def filter_by_changed_lines(smells, range_) -> List[str]:
-    filt_smells = []
-    for line, line_no in smells:
-        if range_[0] <= line_no <= range_[1]:
-            filt_smells.append(line)
-        elif line_no == -1:
-            filt_smells.append(line)
+def process_llama3_output(text):
+    return text.split("\n\n")[0].strip("\n")
 
+def filter_by_changed_lines(smells, range_: List[int], new_file: str, diff: str) -> List[str]:
+    """
+    only consider the specific lines that are changed and not even the whole patch/diff
+    """
+    filt_smells = []
+    changed_lines = [line[1:].strip() for line in diff.split("\n") if line[0] in ["+","-"]]
+    # print(changed_lines)
+    for line, line_no in smells:
+        # relevant_lines = new_file.split("\n")[range_[0]-1:range_[1]]
+        # new_file_line_1 = new_file.split("\n")[line_no]
+        new_file_line = new_file.split("\n")[line_no-1].strip()
+        if new_file_line in changed_lines: filt_smells.append(line)
+        # print(new_file_line)
+        # print(line)
+        # print("line:", new_file_line)
+        # print("line1:", new_file_line_1)
+        # print("line2:", new_file_line_2)
+        # if range_[0] <= line_no <= range_[1]:
+        #     filt_smells.append(line)
+        # elif line_no == -1:
+        #     filt_smells.append(line)
+    # print(filt_smells)
+    # exit()
     return filt_smells
 
 # main
@@ -151,23 +176,30 @@ if __name__ == "__main__":
     magicoder_preds = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Magicoder-S-DS-6.7B.jsonl')]
     stable_code_preds = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Stable-Code-Instruct-3b.jsonl')]
     deepseekcoder_preds = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/DeepSeekCoder-6.7B-Instruct.jsonl')] 
-    # lstm_preds = [r['pred'] for r in read_jsonl("./ckpts/lstm_reviewer_1_layer/preds.jsonl")]
-    # knn_retriever_preds = [r for r,_ in json.load(open("./experiments/knn_retriever_preds.json"))]
+    llama3_preds = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Llama-3-8B-Instruct.jsonl')] 
+    gpt35_turbo_preds = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/GPT-3.5-Turbo.jsonl')] 
+    codellama_7b_preds = [process_codellama_output(rec['pred']) for rec in read_jsonl("./experiments/codellama_codellama_7b_instruct_hf_zero_shot/preds.jsonl")] 
+    codellama_13b_preds = [process_codellama_output(rec['pred']) for rec in read_jsonl("./experiments/CodeLLaMA_Prompting/preds.jsonl")]
+    lstm_preds = [r['pred'] for r in read_jsonl("./ckpts/lstm_reviewer_1_layer/preds.jsonl")]
+    knn_retriever_preds = [r for r,_ in json.load(open("./experiments/knn_retriever_preds.json"))]
+
     patch_ranges = json.load(open("./data/Comment_Generation/test_set_codepatch_ranges.json"))
 
+    newfs = {f"test{i}": generate_newf(rec['oldf'], rec['patch'])[0] for i, rec in enumerate(data)}
+    diffs = {f"test{i}": rec['patch'] for i, rec in enumerate(data)}
     java_smell_summaries = {file.split('.')[0].strip(): process_java_smells(os.path.join("./experiments/java_code_smells", file), file) for file in os.listdir("./experiments/java_code_smells")}
     print(f"{sum([len(s) for s in java_smell_summaries.values()])} java smells before filtering across {sum([len(s) > 0 for s in java_smell_summaries.values()])} instances")
-    java_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k]) for k,v in java_smell_summaries.items()}
+    java_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k], newfs[k], diffs[k]) for k,v in java_smell_summaries.items()}
     print(f"{sum([len(s) for s in java_smell_summaries.values()])} java smells after filtering across {sum([len(s) > 0 for s in java_smell_summaries.values()])} instances")
 
     python_smell_summaries = {file.split('.')[0].strip(): process_python_smells(os.path.join("./experiments/python_code_smells", file), file) for file in os.listdir("./experiments/python_code_smells")}
     print(f"{sum([len(s) for s in python_smell_summaries.values()])} python smells before filtering across {sum([len(s) > 0 for s in python_smell_summaries.values()])} instances")
-    python_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k]) for k,v in python_smell_summaries.items()}
+    python_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k], newfs[k], diffs[k]) for k,v in python_smell_summaries.items()}
     print(f"{sum([len(s) for s in python_smell_summaries.values()])} python smells after filtering across {sum([len(s) > 0 for s in python_smell_summaries.values()])} instances")
 
     javascript_smell_summaries = {file.split('.')[0].strip(): process_javascript_smells(os.path.join("./experiments/javascript_code_smells", file), file) for file in os.listdir("./experiments/javascript_code_smells")}
     print(f"{sum([len(s) for s in javascript_smell_summaries.values()])} javascript smells before filtering across {sum([len(s) > 0 for s in javascript_smell_summaries.values()])} instances")
-    javascript_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k]) for k,v in javascript_smell_summaries.items()}
+    javascript_smell_summaries = {k: filter_by_changed_lines(v, patch_ranges[k], newfs[k], diffs[k]) for k,v in javascript_smell_summaries.items()}
     print(f"{sum([len(s) for s in javascript_smell_summaries.values()])} javascript smells after filtering across {sum([len(s) > 0 for s in javascript_smell_summaries.values()])} instances")
 
     smell_claims = {}
@@ -192,6 +224,13 @@ if __name__ == "__main__":
         rec['magicoder_pred'] = process_magicoder_output(magicoder_preds[index])
         rec['deepseekcoder_pred'] = process_magicoder_output(deepseekcoder_preds[index])
         rec['stable_code_pred'] = process_magicoder_output(stable_code_preds[index])
+        rec['llama3_pred'] = process_llama3_output(process_magicoder_output(llama3_preds[index]))
+        rec['gpt3.5_pred'] = process_magicoder_output(gpt35_turbo_preds[index])
+        rec['codellama_7b_pred'] = process_codellama_output(codellama_7b_preds[index])
+        rec['codellama_13b_pred'] = process_codellama_output(codellama_13b_preds[index])
+        rec['lstm_pred'] = process_lstm_output(lstm_preds[index])
+        rec['knn_pred'] = knn_retriever_preds[index]
+
         if len(rec['patch']) > long_inst_len:
             long_inst_ctr += 1
             continue
@@ -245,5 +284,5 @@ if __name__ == "__main__":
         newf, _ = generate_newf(oldf=oldf, diff=rec['patch'])
         with open(context_file_old, "w") as f: f.write(oldf)
         with open(context_file_new, "w") as f: f.write(newf)
-    for lang, data in code_claim_acc_annot.items():
-        pd.DataFrame(data).to_csv(f"./human_study/phase1/{lang}_claim_acc_annot.csv", index=False)
+    # for lang, data in code_claim_acc_annot.items():
+    #     pd.DataFrame(data).to_csv(f"./human_study/phase1/{lang}_claim_acc_annot.csv", index=False)

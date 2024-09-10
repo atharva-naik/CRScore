@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 import nltk
 import json
 import torch
@@ -59,6 +60,30 @@ def split_claims_and_impl(text):
     # exit()
     return text_claims+text_impls
 
+def compute_scores_from_sts_sim_matrix(sts_sim_matrix, thresh: float):
+    # semantic similarity of diff/change claim and review claim pairs.
+    sem_similarity_thresh = (sts_sim_matrix > thresh)
+
+    # mask out review claims with maximum similarity with any diff claim less than the threshold.
+    prec_alignment = sts_sim_matrix.max(dim=0)
+    prec_array = sts_sim_matrix.max(dim=0).values
+    prec_mask = (prec_array > thresh).float()
+    # prec_array = prec_mask * prec_array
+
+    # counts up claims that are covered (STS greater than the threshold with any review sentence) by at least one review sentence.
+    rec_array = (sem_similarity_thresh.sum(dim=1)>0)
+    
+    # precision/conciseness
+    P = prec_mask.mean().item()
+
+    # recall/comprehensiveness
+    num_change_claims = sts_sim_matrix.shape[0]
+    # normalization factor for recall/comprehensiveness.
+    Z = 1 if num_change_claims == 0 else num_change_claims
+    R = rec_array.sum().item()/Z
+
+    return P, R, prec_alignment
+
 class RelevanceScorer:
     def __init__(self, model_path, hi_sim_thresh: float=0.85):
         self.sbert = SentenceTransformer(model_path)
@@ -67,15 +92,17 @@ class RelevanceScorer:
     def compute(self, change_summs: List[str], reviews: List[str], debug: bool=False):
         P = []
         R = []
+        STS = []
         for change_summ, review in tqdm(zip(change_summs, reviews), total=len(reviews)):
-            p, r = self.compute_inst(change_summ, review, debug=debug)
+            p, r, sts_mat = self.compute_inst(change_summ, review, debug=debug)
             P.append(p)
             R.append(r)
+            STS.append(sts_mat)
         p_score = np.mean(P)
         r_score = np.mean(R)
-        f_score = (2*p_score*r_score)/(p_score+r_score)
+        f_score = (2*p_score*r_score)/(p_score+r_score) if (p_score + r_score) != 0 else 0
 
-        return P, R, p_score, r_score, f_score 
+        return P, R, STS, p_score, r_score, f_score 
 
     def sbert_filt_encode(self, claims, show_progress_bar: bool=False):
         token_vecs = self.sbert.encode(claims, output_value="token_embeddings", show_progress_bar=show_progress_bar)
@@ -101,25 +128,8 @@ class RelevanceScorer:
         review_enc = self.sbert_filt_encode(review_claims, show_progress_bar=False)
         # semantic similarity of diff/change claim and review claim pairs.
         sem_similarity_matrix = util.cos_sim(change_enc, review_enc)
-        sem_similarity_thresh = (sem_similarity_matrix > self.hi_sim_thresh)
 
-        # mask out review claims with maximum similarity with any diff claim less than the threshold.
-        prec_alignment = sem_similarity_matrix.max(dim=0)
-        prec_array = sem_similarity_matrix.max(dim=0).values
-        prec_mask = (prec_array > self.hi_sim_thresh).float()
-        # prec_array = prec_mask * prec_array
-
-        rec_array = (sem_similarity_thresh.sum(dim=1)>0)
-        
-        # precision/conciseness
-        # P = prec_array.mean().item()
-        P = prec_mask.mean().item()
-
-        # recall/comprehensiveness
-        num_change_claims = len(change_enc)
-        # normalization factor for recall/comprehensiveness.
-        Z = 1 if num_change_claims == 0 else num_change_claims
-        R = rec_array.sum().item()/Z
+        P, R, prec_alignment = compute_scores_from_sts_sim_matrix(sem_similarity_matrix, self.hi_sim_thresh)
         
         if debug:
             # print associations:
@@ -132,7 +142,51 @@ class RelevanceScorer:
                 print(f"CC: {cc} RC: {rc} sim: {prec_alignment.values[i].item():.3} rec_array: {sem_similarity_matrix[:,i].tolist()}")
             print()
 
-        return P, R
+        return P, R, sem_similarity_matrix.cpu().numpy()
+
+    # def compute_inst(self, change_summ: List[str], review: str, debug: bool=False):
+    #     change_claims = change_summ
+    #     # add blank claim if none are found
+    #     if len(change_claims) == 0: change_claims.append("") 
+    #     review_claims = split_claims(review)
+    #     # add blank claim if none are found
+    #     if len(review_claims) == 0: review_claims.append("")
+    #     change_enc = self.sbert_filt_encode(change_claims, show_progress_bar=False)
+    #     review_enc = self.sbert_filt_encode(review_claims, show_progress_bar=False)
+    #     # semantic similarity of diff/change claim and review claim pairs.
+    #     sem_similarity_matrix = util.cos_sim(change_enc, review_enc)
+    #     sem_similarity_thresh = (sem_similarity_matrix > self.hi_sim_thresh)
+
+    #     # mask out review claims with maximum similarity with any diff claim less than the threshold.
+    #     prec_alignment = sem_similarity_matrix.max(dim=0)
+    #     prec_array = sem_similarity_matrix.max(dim=0).values
+    #     prec_mask = (prec_array > self.hi_sim_thresh).float()
+    #     # prec_array = prec_mask * prec_array
+
+    #     rec_array = (sem_similarity_thresh.sum(dim=1)>0)
+        
+    #     # precision/conciseness
+    #     # P = prec_array.mean().item()
+    #     P = prec_mask.mean().item()
+
+    #     # recall/comprehensiveness
+    #     num_change_claims = len(change_enc)
+    #     # normalization factor for recall/comprehensiveness.
+    #     Z = 1 if num_change_claims == 0 else num_change_claims
+    #     R = rec_array.sum().item()/Z
+        
+    #     if debug:
+    #         # print associations:
+    #         cc_per_rc = [(change_claims[j], review_claims[i]) for i,j in enumerate(prec_alignment.indices.tolist())]
+    #         print("\x1b[34;1mMost Relevant Claims/Smells for Review Claims:\x1b[0m")
+    #         print(f"P: {P:.3f}, R: {R:.3f}")
+    #         print("All change claims:")
+    #         print(change_claims)
+    #         for i, (cc, rc) in enumerate(cc_per_rc):
+    #             print(f"CC: {cc} RC: {rc} sim: {prec_alignment.values[i].item():.3} rec_array: {sem_similarity_matrix[:,i].tolist()}")
+    #         print()
+
+    #     return P, R
 
 def process_java_smells(path, file, add_line_numbers: bool=True):
     import re
@@ -268,36 +322,37 @@ def load_code_claims_and_issues(
 
     return code_change_to_claims_and_issues
 
-def human_study_results():
-    model_preds = pd.read_csv("human_study_data.csv")
-    code_claims_path = "./experiments/code_change_summ_finetune_impl/Magicoder-S-DS-6.7B.jsonl"
-    all_code_change_summ = load_code_claims_and_issues(
-        data=data,
-        claims_path=code_claims_path,
-        issues_paths={
-            "python": "./experiments/python_code_smells",
-            "java": "./experiments/java_code_smells",
-            "javascript": "./experiments/javascript_code_smells",
-        },
-        patch_ranges_path="./data/Comment_Generation/test_set_codepatch_ranges.json",
-        split_function=split_claims_and_impl if "_impl" in code_claims_path else split_claims,
-    ) 
-    # {rec['code_change']: rec["change_summary"] for rec in read_jsonl("./experiments/code_change_summ_v2/Magicoder-S-DS-6.7B.jsonl")}
-    code_change_summ = [all_code_change_summ[patch] for patch in model_preds["patch"]]
-    # Snowflake/snowflake-arctic-embed-l
-    rel_scorer = RelevanceScorer(model_path="mixedbread-ai/mxbai-embed-large-v1")
-    rel_score_human_data = [{'index': index} for index in model_preds['index']]
-    for model in ["codereviewer", "magicoder", "lstm", "knn", "ground_truth"]:
-        #read_jsonl("./experiments/MS_CR_ZeroShot/preds.jsonl")
-        if model == "ground_truth": reviews = model_preds['msg'].tolist()
-        else: reviews = model_preds[f"{model}_pred"].tolist()
-        mean_review_length = np.mean([len(r.split()) for r in reviews])
-        inst_rel_P_scores, inst_rel_R_scores, rel_P_score, rel_R_score, rel_F_score = rel_scorer.compute(code_change_summ, reviews)
-        print(model, f"P={100*rel_P_score:.2f} R={100*rel_R_score:.2f} F={100*rel_F_score:.2f} RL={mean_review_length:.2f}")
-        for i,val in enumerate(inst_rel_P_scores):
-            rel_score_human_data[i][model] = val
-    with open("./human_study_relevance_scores.json", "w") as f:
-        json.dump(rel_score_human_data, f, indent=4)
+# outdated code - remove in future commits.
+# def human_study_results(thresh: float):
+#     model_preds = pd.read_csv("human_study_data.csv")
+#     code_claims_path = "./experiments/code_change_summ_finetune_impl/Magicoder-S-DS-6.7B.jsonl"
+#     all_code_change_summ = load_code_claims_and_issues(
+#         data=data,
+#         claims_path=code_claims_path,
+#         issues_paths={
+#             "python": "./experiments/python_code_smells",
+#             "java": "./experiments/java_code_smells",
+#             "javascript": "./experiments/javascript_code_smells",
+#         },
+#         patch_ranges_path="./data/Comment_Generation/test_set_codepatch_ranges.json",
+#         split_function=split_claims_and_impl if "_impl" in code_claims_path else split_claims,
+#     ) 
+#     # {rec['code_change']: rec["change_summary"] for rec in read_jsonl("./experiments/code_change_summ_v2/Magicoder-S-DS-6.7B.jsonl")}
+#     code_change_summ = [all_code_change_summ[patch] for patch in model_preds["patch"]]
+#     # Snowflake/snowflake-arctic-embed-l
+#     rel_scorer = RelevanceScorer(model_path="mixedbread-ai/mxbai-embed-large-v1", hi_sim_thresh=thresh)
+#     rel_score_human_data = [{'index': index} for index in model_preds['index']]
+#     for model in ["codereviewer", "magicoder", "lstm", "knn", "ground_truth"]:
+#         #read_jsonl("./experiments/MS_CR_ZeroShot/preds.jsonl")
+#         if model == "ground_truth": reviews = model_preds['msg'].tolist()
+#         else: reviews = model_preds[f"{model}_pred"].tolist()
+#         mean_review_length = np.mean([len(r.split()) for r in reviews])
+#         inst_rel_P_scores, inst_rel_R_scores, rel_P_score, rel_R_score, rel_F_score = rel_scorer.compute(code_change_summ, reviews)
+#         print(model, f"P={100*rel_P_score:.2f} R={100*rel_R_score:.2f} F={100*rel_F_score:.2f} RL={mean_review_length:.2f}")
+#         for i,val in enumerate(inst_rel_P_scores):
+#             rel_score_human_data[i][model] = val
+#     with open("./human_study_relevance_scores.json", "w") as f:
+#         json.dump(rel_score_human_data, f, indent=4)
 
 def process_magicoder_output(review: str):
     review = review.split("@@ Code Change")[0].strip("\n")
@@ -319,7 +374,10 @@ def safe_division(a, b):
     if b == 0: return 0
     return a/b
 
-def all_model_all_data_results():
+def all_model_all_data_results(thresh: float):
+    """
+    Compute the Con, Comp and Rel scores for all the models, using STS scores with a threshold of 0.85.
+    """
     data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
     model_preds = {
         # CodeReviewer
@@ -337,12 +395,16 @@ def all_model_all_data_results():
         # Stable Code
         "stable_code": [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Stable-Code-Instruct-3b.jsonl')], 
         # GPT-3.5
-        "gpt_3.5": [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/GPT-3.5-Turbo.jsonl')],
+        "gpt3.5": [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/GPT-3.5-Turbo.jsonl')],
         # LLaMA-3
         "llama3": [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Llama-3-8B-Instruct.jsonl')],
+        # Code Llama models
+        "codellama_7b": [rec['pred'] for rec in read_jsonl("./experiments/codellama_codellama_7b_instruct_hf_zero_shot/preds.jsonl")],
+        "codellama_13b": [rec['pred'] for rec in read_jsonl("./experiments/CodeLLaMA_Prompting/preds.jsonl")],
+        
     }
     code_claims_path = "./experiments/code_change_summ_finetune_impl/Magicoder-S-DS-6.7B.jsonl"
-    all_code_change_summ = load_code_claims_and_issues(\
+    all_code_change_summ = load_code_claims_and_issues(
         data=data,
         claims_path=code_claims_path,
         issues_paths={
@@ -354,7 +416,7 @@ def all_model_all_data_results():
         split_function=split_claims_and_impl if "_impl" in code_claims_path else split_claims,
     ) 
     code_change_summ = [all_code_change_summ[i['patch']] for i in data]
-    rel_scorer = RelevanceScorer(model_path="mixedbread-ai/mxbai-embed-large-v1")
+    rel_scorer = RelevanceScorer(model_path="mixedbread-ai/mxbai-embed-large-v1", hi_sim_thresh=thresh)
     # rel_score_human_data = [{'index': index} for index in model_preds['index']]
     rel_scores = {}
     # ["codereviewer", "magicoder", "deepseekcoder", "stable_code", "lstm", "knn", "ground_truth"]:
@@ -363,10 +425,11 @@ def all_model_all_data_results():
         reviews = model_preds[model]
         review_lengths = [len(r.split()) for r in reviews]
         mean_review_length = np.mean(review_lengths)
-        inst_rel_P_scores, inst_rel_R_scores, rel_P_score, rel_R_score, rel_F_score = rel_scorer.compute(
+        inst_rel_P_scores, inst_rel_R_scores, sts_matrices, rel_P_score, rel_R_score, rel_F_score = rel_scorer.compute(
             code_change_summ, reviews, debug=DEBUG
         )
         print(model, f"P={100*rel_P_score:.2f} R={100*rel_R_score:.2f} F={100*rel_F_score:.2f} RL={mean_review_length:.2f}")
+        # F-score or relevance computed with instance level averaging.
         inst_rel_F_scores = [safe_division(2*p*r, p+r) for p,r in zip(inst_rel_P_scores, inst_rel_R_scores)]
         rel_scores[model] = {
             "P": inst_rel_P_scores,
@@ -374,12 +437,20 @@ def all_model_all_data_results():
             "F": inst_rel_F_scores,
             "RL": review_lengths,
         }
-    with open("./all_model_rel_scores.json", "w") as f:
+        sts_mat_save_path = f"sts_matrices/{model}_sts_matrix.npz"
+        os.makedirs("sts_matrices", exist_ok=True)
+        np.savez_compressed(sts_mat_save_path, *sts_matrices)
+    with open(f"./all_model_rel_scores_thresh_{thresh}.json", "w") as f:
         json.dump(rel_scores, f, indent=4)
+    
 
 # main
 if __name__ == "__main__":
     # codereviewer model generated preds.
     # modelgen_code_reviews = [rec['pred'] for rec in read_jsonl("./experiments/MS_CR_ZeroShot/preds.jsonl")]
     # human_study_results()
-    all_model_all_data_results()
+    
+    # take the STS similarity threshold as an argument.
+    thresh = float(sys.argv[1])
+    print(f"using threshold: {thresh}")
+    all_model_all_data_results(thresh=thresh)

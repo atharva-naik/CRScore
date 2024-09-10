@@ -174,3 +174,5 @@ cr_manual_*
 qual_analysis_rel_inf.csv
 pilot_annotations_atharva.xlsx
 model_names_key.json
+sts_matrices.npz
+sts_matrices/*.npz

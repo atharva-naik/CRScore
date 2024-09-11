@@ -1,7 +1,9 @@
 import os
+import sys
 import json
 import numpy as np
 import pandas as pd
+from tqdm import tqdm
 from collections import defaultdict
 from scipy.stats import kendalltau, spearmanr
 
@@ -44,13 +46,39 @@ def load_our_metric_files(path: str):
 
     return {"Con (P)": P, "Comp (R)": R, "Rel (F)": F}
 
+def load_metric_scores_with_thresh(matrices_folder: str, thresh: float):
+    import torch
+    from src.metrics.claim_based.relevance_score import compute_scores_from_sts_sim_matrix
+    N, P, R, F = -1, [], [], []
+    for model_matfile in tqdm(os.listdir(matrices_folder)):
+        # extract the name of the model from the file.
+        model_name = model_matfile.removesuffix("_sts_matrix.npz") 
+        sts_matrices = np.load(os.path.join(matrices_folder, model_matfile))
+        if N == -1: 
+            N = len(sts_matrices)
+            P, R, F = [{} for _ in range(N)], [{} for _ in range(N)], [{} for _ in range(N)]
+        # compute scores using the threshold from the STS matrices corresponding to each instance.
+        for index, sts_mat in tqdm(enumerate(sts_matrices.values()), disable=True):
+            # convert to torch tensor.
+            sts_mat = torch.as_tensor(sts_mat) 
+            p_score, r_score, _ = compute_scores_from_sts_sim_matrix(sts_mat, thresh)
+            f_score = (2*p_score*r_score)/(p_score+r_score) if (p_score + r_score) != 0 else 0
+            P[index][model_name+"_pred"] = p_score
+            R[index][model_name+"_pred"] = r_score
+            F[index][model_name+"_pred"] = f_score
+
+    return {"Con (P)": P, "Comp (R)": R, "Rel (F)": F}
+
+
 def hm(x, y):
     if (x+y) == 0: return 0
     return 2*x*y/(x+y)
 
 if __name__ == "__main__":
     # ccr_metric_scores = 
-    our_metric_scores = load_our_metric_files("all_model_rel_scores_thresh_0.7.json")
+    # our_metric_scores = load_our_metric_files("all_model_rel_scores_thresh_0.7.json")
+    threshold = float(sys.argv[1])
+    our_metric_scores = load_metric_scores_with_thresh("./sts_matrices", thresh=threshold)
     baseline_metric_scores = json.load(open("./baseline_metric_scores.json"))
     human_annot_rel_scores = {}
     marcus_annot_end_points = {"py": 501-2, "java": 501-2, "js": 505-2}
@@ -74,7 +102,7 @@ if __name__ == "__main__":
                 index = int(rec["index"])
                 index_to_lang[index] = lang
             system = rec['system']
-            if str(rec["Rel (F)"]) != "nan" and system != "msg": # don't include annotations over ground truth reviews within the correlation computation
+            if str(rec["Rel (F)"]) != "nan" and system != "msg": # skip CodeReviewer ground truth/references among the evaluated systems, because we don't count it for the correlations as reference based metrics would default to 1 on them and disadvantage their correlation values.
                 human_annot_rel_scores[lang][f"{index}::"+system] = rec["Rel (F)"]
             # score_aggregator = codereviewer_data_ref_scores if system == "msg" else tested_systems_annot_scores
             

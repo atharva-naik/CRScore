@@ -7,6 +7,9 @@ from tqdm import tqdm
 from collections import defaultdict
 from scipy.stats import kendalltau, spearmanr
 
+# skip certain systems to compute what-if correlations if they weren't a part of the annotations.
+SKIP_SYSTEMS = ["llama3", "codellama_13b"]
+
 def load_metric_scores_with_thresh(matrices_folder: str, thresh: float):
     import torch
     from src.metrics.claim_based.relevance_score import compute_scores_from_sts_sim_matrix
@@ -14,6 +17,7 @@ def load_metric_scores_with_thresh(matrices_folder: str, thresh: float):
     for model_matfile in tqdm(os.listdir(matrices_folder)):
         # extract the name of the model from the file.
         model_name = model_matfile.removesuffix("_sts_matrix.npz") 
+        if model_name in SKIP_SYSTEMS: continue
         scores[model_name] = {} 
         sts_matrices = np.load(os.path.join(matrices_folder, model_matfile))
         scores[model_name]["P"] = []
@@ -73,7 +77,10 @@ if __name__ == "__main__":
             if isinstance(rec['system'], float): continue
 
             system = rec['system'].replace("_pred", "")
-            if system == "msg": continue # skip CodeReviewer ground truth/references.
+            if system == "msg": continue # skip CodeReviewer ground truth/references among the evaluated systems, because we don't count it for the correlations as reference based metrics would default to 1 on them and disadvantage their correlation values.
+
+            # skip certain systems for "what-if" correlation computations.
+            if system in SKIP_SYSTEMS: continue
 
             # skip if annotations for any of the dimensions are missing:
             if str(rec["Con (P)"]) == "nan": continue

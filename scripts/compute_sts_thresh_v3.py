@@ -52,43 +52,33 @@ if __name__ == '__main__':
     )
     rel_scorer = RelevanceScorer(model_path="mixedbread-ai/mxbai-embed-large-v1", hi_sim_thresh=0.65) # threshold use here doesn't really matter
 
-    sim_scores_and_labels = []
-    for i in tqdm(indices_to_use):
-        j = copy.deepcopy(i)
-        while j == i:
-            j = random.sample(indices_to_use, k=1)[0]
-            break
-        pos_claims = all_code_change_summ[data[i]['patch']]
-        neg_claims = all_code_change_summ[data[j]['patch']]
-        review_sentences = []
-        for model_reviews in [codereviewer_references, deepseekcoder_reviews, gpt35_reviews, llama3_reviews, codereviewer_pred_reviews]:
-            review_sentences.extend(split_claims(model_reviews[i]))
-        concatentation_of_system_reviews = "\n".join(review_sentences)
-        _, _, pos_claims_sts_mat = rel_scorer.compute_inst(pos_claims, concatentation_of_system_reviews)
-        _, _, neg_claims_sts_mat = rel_scorer.compute_inst(neg_claims, concatentation_of_system_reviews)
-        for val in pos_claims_sts_mat.flatten():
-            sim_scores_and_labels.append((val.item(), 1))
-        for val in neg_claims_sts_mat.flatten():
-            sim_scores_and_labels.append((val.item(), 0))
+    pos_claim_review_scores = []
+    neg_claim_review_scores = []
+    ctr = 0
+    for index in tqdm(indices_to_use):
+        review = codereviewer_references[index]
+        pos_claims = all_code_change_summ[data[index]['patch']]
+        # remaining_indices = indices_to_use[:index] + indices_to_use[index+1:]
+        # neg_indices = random.sample(remaining_indices, k=250)
+        # neg_claims = []
+        # for j in neg_indices:
+        #     neg_claims.extend(all_code_change_summ[data[j]['patch']])
+        _, _, pos_claims_sts_mat = rel_scorer.compute_inst(change_summ=pos_claims, review=review)
+        # _, _, neg_claims_sts_mat = rel_scorer.compute_inst(change_summ=neg_claims, review=review)
+        pos_claims_sts_mat = torch.as_tensor(pos_claims_sts_mat)
+        # neg_claims_sts_mat = torch.as_tensor(neg_claims_sts_mat)
+        # for val in pos_claims_sts_mat.flatten():
 
-    acc_per_thresh = {}
-    for thresh in thresholds:
-        accs = []
-        ctr = 0
-        for sim_score, label in sim_scores_and_labels:
-            accs.append(int(sim_score >= thresh) == label)
-    #     for ref, claims, label in tqdm(classification_data, desc=f"computing acc. of {thresh}"):
-    #         p_score, r_score, sts_mat = rel_scorer.compute_inst(claims, ref)
-    #         f_score = (2*p_score*r_score)/(p_score+r_score) if (p_score + r_score) != 0 else 0
-    #         pred = int(f_score >= thresh)
-    #         accs.append(int(pred == label))
-    #         # if ctr % 2500 == 0: 
-    #             # print(f"{thresh}:", np.mean(accs))
-    #         ctr += 1
-        print(f"{thresh}:", np.mean(accs))
-        acc_per_thresh[thresh] = np.mean(accs)
-        with open("sts_threshold_comparison.json", "w") as f:
-            json.dump(acc_per_thresh, f, indent=4)
+        # iterate over the highest score obtained by the review sentence for any claim for the same code change.
+        for val in pos_claims_sts_mat.max(dim=0).values:
+            pos_claim_review_scores.append(val.item())
+        # # iterate over all the scores obtained by the review sentences for claims from random code changes.
+        # for val in neg_claims_sts_mat.flatten():
+        #     neg_claim_review_scores.append(val.item())
+        print("pos mean:", round(np.mean(pos_claim_review_scores), 4))
+        print("pos std:", round(np.std(pos_claim_review_scores), 4))
+        # print("neg mean:", round(np.mean(neg_claim_review_scores), 4))
+        # print("neg std:", round(np.std(neg_claim_review_scores), 4))
 
     # # To run, execute:
-    # python -m scripts.compute_sts_thresh_v2
+    # python -m scripts.compute_sts_thresh_v3

@@ -8,7 +8,23 @@ from collections import defaultdict
 from scipy.stats import kendalltau, spearmanr
 
 # skip certain systems to compute what-if correlations if they weren't a part of the annotations.
-SKIP_SYSTEMS = ["llama3", "codellama_13b"]
+SKIP_SYSTEMS = []#["llama3", "codellama_13b"]
+collapse_4_and_5 = False
+map_system_name_to_annot_sheet_name = {
+    "BM-25 kNN": "knn_pred",
+    "LSTM": "lstm_pred",
+    "CodeReviewer": "codereviewer_pred",
+    "CodeLLaMA-Instruct-7B": "codellama_7b_pred", # not present in the sheet.
+    "CodeLLaMA-Instruct-13B": "codellama_13b_pred",
+    "Magicoder-S-DS-6.7B": "magicoder_pred",
+    "Stable-Code-Instruct-3B": "stable_code_pred",
+    "DeepSeekCoder-Instruct-6.7B": "deepseekcoder_pred",
+    "GPT-3.5-Turbo": "gpt3.5_pred",
+    "Llama-3-8B-Instruct": "llama3_pred"
+}
+map_annot_sheet_name_to_system_name = {
+    v: k for k,v in map_system_name_to_annot_sheet_name.items()
+}
 
 def load_metric_scores_with_thresh(matrices_folder: str, thresh: float):
     import torch
@@ -61,6 +77,8 @@ if __name__ == "__main__":
     metric_comp_values = {}
     metric_rel_values = {}
 
+    baseline_metric_values = {metric: {} for metric in baseline_metric_scores}
+
     for lang in langs:
         marcus_annot = pd.read_csv(f"human_study/phase2/{lang}_marcus_review_qual_final.csv").to_dict("records")
         atharva_annot = pd.read_csv(f"human_study/phase2/{lang}_atharva_review_qual_final.csv").to_dict("records")
@@ -88,13 +106,25 @@ if __name__ == "__main__":
             if str(rec["Rel (F)"]) == "nan": continue
 
             key = f"{lang}::{index}::{system}"
-            human_con_annot[key] = 0.25*(rec["Con (P)"]-1)
-            human_comp_annot[key] = 0.25*(rec["Comp (R)"]-1)
-            human_rel_annot[key] = 0.25*(rec["Rel (F)"]-1)
+
+            if collapse_4_and_5:
+                con_p = rec["Con (P)"] if rec["Con (P)"] != 5 else 4
+                comp_r = rec["Comp (R)"] if rec["Comp (R)"] != 5 else 4
+                rel_f = rec["Rel (F)"] if rec["Rel (F)"] != 5 else 4
+                human_con_annot[key] = 0.25*(con_p-1)
+                human_comp_annot[key] = 0.25*(comp_r-1)
+                human_rel_annot[key] = 0.25*(rel_f-1)
+            else:
+                human_con_annot[key] = 0.25*(rec["Con (P)"]-1)
+                human_comp_annot[key] = 0.25*(rec["Comp (R)"]-1)
+                human_rel_annot[key] = 0.25*(rec["Rel (F)"]-1)
 
             metric_con_values[key] = our_metric_scores[system]["P"][index]
             metric_comp_values[key] = our_metric_scores[system]["R"][index]
             metric_rel_values[key] = our_metric_scores[system]["F"][index]
+            for metric in baseline_metric_scores:
+                sys_key = map_annot_sheet_name_to_system_name[system+"_pred"]
+                baseline_metric_values[metric][key] = baseline_metric_scores[metric][index][sys_key]
 
     human_annot = [human_con_annot, human_comp_annot, human_rel_annot]
     metric_values = [metric_con_values, metric_comp_values, metric_rel_values]
@@ -105,3 +135,16 @@ if __name__ == "__main__":
         result = kendalltau(X, Y)
         result2 = spearmanr(X, Y)
         print(dim, "tau", "\x1b[32;1m" if result.pvalue < 0.05 else "\x1b[31;1m", round(result.statistic, 4), "\x1b[0m", "rho", "\x1b[32;1m" if result2.pvalue < 0.05 else "\x1b[31;1m", round(result2.statistic, 4), "\x1b[0m")
+
+    for metric in baseline_metric_scores:
+        metric_values = [
+            baseline_metric_values[metric],
+            baseline_metric_values[metric],
+            baseline_metric_values[metric],
+        ]
+        for dim, Y_d, X_d in zip(dimensions, human_annot, metric_values):
+            X = list(X_d.values())
+            Y = list(Y_d.values())
+            result = kendalltau(X, Y)
+            result2 = spearmanr(X, Y)
+            print(metric, dim, "tau", "\x1b[32;1m" if result.pvalue < 0.05 else "\x1b[31;1m", round(result.statistic, 4), "\x1b[0m", "rho", "\x1b[32;1m" if result2.pvalue < 0.05 else "\x1b[31;1m", round(result2.statistic, 4), "\x1b[0m")

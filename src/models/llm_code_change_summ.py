@@ -657,18 +657,18 @@ if __name__ == "__main__":
     # gen_GPT_labels("./experiments/GPT_code_change_summ_labels_with_impl", gen_implications=True, sample_size=500)
 
     # fine-tuned Magicoder generate claims with implications:
-    # main_no_pipeline(
-    #     save_dir="./experiments/code_change_summ_finetune_impl", 
-    #     checkpoint_path="/data/tir/projects/tir3/users/arnaik/magicoder_code_change_summ_impl",
-    #     gen_implications=True,
-    # )
-
-    # Codestral generate claims with implications:
     main_no_pipeline(
         save_dir="./experiments/code_change_summ_finetune_impl", 
-        model_path="mistralai/Codestral-22B-v0.1", model_name="codestral-22b",
-        gen_implications=True, use_exemplars=True,
+        checkpoint_path="/data/tir/projects/tir3/users/arnaik/magicoder_code_change_summ_impl",
+        gen_implications=True,
     )
+
+    # # Codestral generate claims with implications:
+    # main_no_pipeline(
+    #     save_dir="./experiments/code_change_summ_finetune_impl", 
+    #     model_path="mistralai/Codestral-22B-v0.1", model_name="codestral-22b",
+    #     gen_implications=True, use_exemplars=True,
+    # )
 
 # generator = pipeline(
 #     model="deepseek-ai/deepseek-coder-7b-instruct-v1.5",

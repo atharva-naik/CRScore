@@ -12,24 +12,22 @@ from src.metrics.claim_based.relevance_score import compute_scores_from_sts_sim_
 # main
 if __name__ == '__main__':
     thresholds = [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
-    # json.load(open("all_model_rel_scores_thresh_0.7.json"))["ground_truth"]
-    sts_mat_ground_truth = np.load("sts_matrices/ground_truth_sts_matrix.npz")
+    # load CodeReviewer ground truth references, other system reviews and code change summaries.
+    data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
+
     # the human annotated reviews are to be exlcuded as held out data.
     human_annot_review_indices = []
     for lang in ["java", 'py', 'js']:
         human_annot_review_indices += pd.read_csv(f"human_study/phase1/{lang}_claim_acc_annot.csv")["index"].tolist()
 
-    i = 0
+    # i = 0
     indices_to_use = []
-    # filter out reviews where not a single sentence has relatively high similarity to at least 1 claim.
-    for sts_mat in sts_mat_ground_truth.values():
-        # if sts_mat.max().item() >= 0.8 and i not in human_annot_review_indices:
+    for i in range(len(data)):
         if i not in human_annot_review_indices: indices_to_use.append(i)
-        i += 1
+        # i += 1
     print(len(indices_to_use))
 
-    # load CodeReviewer ground truth references, other system reviews and code change summaries.
-    data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
+
     codereviewer_references = [i['msg'] for i in data]
     magicoder_reviews = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./data/Comment_Generation/llm_outputs/Magicoder-S-DS-6.7B.jsonl')]
     stable_code_reviews = [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Stable-Code-Instruct-3b.jsonl')]
@@ -45,7 +43,7 @@ if __name__ == '__main__':
         issues_paths={
             "python": "./experiments/python_code_smells",
             "java": "./experiments/java_code_smells",
-            "javascript": "./experiments/python_code_smells",
+            "javascript": "./experiments/javascript_code_smells",
         },
         patch_ranges_path="./data/Comment_Generation/test_set_codepatch_ranges.json",
         split_function=split_claims_and_impl if "_impl" in code_claims_path else split_claims,
@@ -75,8 +73,8 @@ if __name__ == '__main__':
         # # iterate over all the scores obtained by the review sentences for claims from random code changes.
         # for val in neg_claims_sts_mat.flatten():
         #     neg_claim_review_scores.append(val.item())
-        print("pos mean:", round(np.mean(pos_claim_review_scores), 4))
-        print("pos std:", round(np.std(pos_claim_review_scores), 4))
+    print("pos mean:", round(np.mean(pos_claim_review_scores), 4))
+    print("pos std:", round(np.std(pos_claim_review_scores), 4))
         # print("neg mean:", round(np.mean(neg_claim_review_scores), 4))
         # print("neg std:", round(np.std(neg_claim_review_scores), 4))
 

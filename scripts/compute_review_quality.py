@@ -7,7 +7,6 @@ from tqdm import tqdm
 from collections import defaultdict
 from scipy.stats import kendalltau, spearmanr
 
-# main
 map_system_name_to_annot_sheet_name = {
     "BM-25 kNN": "knn_pred",
     "LSTM": "lstm_pred",
@@ -74,6 +73,7 @@ def hm(x, y):
     if (x+y) == 0: return 0
     return 2*x*y/(x+y)
 
+# main
 if __name__ == "__main__":
     # ccr_metric_scores = 
     # our_metric_scores = load_our_metric_files("all_model_rel_scores_thresh_0.7.json")
@@ -167,6 +167,8 @@ if __name__ == "__main__":
         print("tau", "\x1b[32;1m" if result.pvalue < 0.05 else "\x1b[31;1m", round(result.statistic, 4), "\x1b[0m", "rho", "\x1b[32;1m" if result2.pvalue < 0.05 else "\x1b[31;1m", round(result2.statistic, 4), "\x1b[0m", end="")
         print()
 
+    tested_systems_annot_scores = dict(tested_systems_annot_scores)
+    # print(tested_systems_annot_scores.keys())
     print("CodeReviewer References:")
     for dim in dimensions:
         print(dim+":", round(np.mean(tested_systems_annot_scores["msg"][dim]), 2))
@@ -178,6 +180,10 @@ if __name__ == "__main__":
             if system == "msg": continue
             all_vals.extend(tested_systems_annot_scores[system][dim])
         print(dim+":", round(np.mean(all_vals), 2))
+
+    print("GPT-3.5:")
+    for dim in dimensions:
+        print(dim+":", round(np.mean(tested_systems_annot_scores["gpt3.5_pred"][dim]), 2))
     # print(human_annot_rel_scores)
 
     # directly compare our metrics and human annotations for relevance.
@@ -197,48 +203,20 @@ if __name__ == "__main__":
         for system, score in rec.items(): 
             index_and_system_to_Comp[f"{index}::{system}"] = score
 
-    P, R, F, humF = [], [], [], []
-    F_system = defaultdict(lambda: [])
-    humF_system = defaultdict(lambda: [])
-    for lang in ["py", "java", "js"]:
-        P += [index_and_system_to_Con[index_and_system] for index_and_system in human_annot_rel_scores[lang]]
-        F += [index_and_system_to_Rel[index_and_system] for index_and_system in human_annot_rel_scores[lang]]
-        R += [index_and_system_to_Comp[index_and_system] for index_and_system in human_annot_rel_scores[lang]]
-        for index_and_system, value in human_annot_rel_scores[lang].items():
-            index, system = index_and_system.split("::")
-            index = index.strip()
-            system = system.strip()
-            F_system[system].append(index_and_system_to_Rel[index_and_system])
-            humF_system[system].append(0.25*(value-1))
-            # print(value)
-        humF += [0.25*(humf-1) for humf in human_annot_rel_scores[lang].values()]
-    assert len(humF) == len(F)
-    CTR = 0
-    for p, r, f, humf, in zip(P, R, F, humF):
-        # print(min(p, r), f, humf)
-        CTR += 1
-        # if CTR == 20: break
-
-    # filt_corr_X, filt_corr_Y = [], []
-    # under_over_estimate_system = {}
-    # for system in F_system:
-    #     result = kendalltau(F_system[system], humF_system[system])
-    #     result2 = spearmanr(F_system[system], humF_system[system])
-    #     if system not in ["llama3_pred", "stable_code_pred", "deepseekcoder_pred", "codereviewer_pred", "magicoder_pred"]: 
-    #         filt_corr_X += F_system[system]
-    #         filt_corr_Y += humF_system[system]
-    #     under_over_estimate_system[system] = {"under": 0, "over": 0}
-    #     for x,y in zip(F_system[system], humF_system[system]):
-    #         under_over_estimate_system[system]["under"] += int(x < y)
-    #         under_over_estimate_system[system]["over"] += int(x > y)
-    #     print(system, "tau", "\x1b[32;1m" if result.pvalue < 0.05 else "\x1b[31;1m", round(result.statistic, 4), "\x1b[0m", "rho", "\x1b[32;1m" if result2.pvalue < 0.05 else "\x1b[31;1m", round(result2.statistic, 4), "\x1b[0m")
-
-    # result = kendalltau(filt_corr_X, filt_corr_Y)
-    # result2 = spearmanr(filt_corr_X, filt_corr_Y)
-    # print("tau", "\x1b[32;1m" if result.pvalue < 0.05 else "\x1b[31;1m", round(result.statistic, 4), "\x1b[0m", "rho", "\x1b[32;1m" if result2.pvalue < 0.05 else "\x1b[31;1m", round(result2.statistic, 4), "\x1b[0m")
-
-    # result = kendalltau(F, humF)
-    # result2 = spearmanr(F, humF)
-    # print("tau", "\x1b[32;1m" if result.pvalue < 0.05 else "\x1b[31;1m", round(result.statistic, 4), "\x1b[0m", "rho", "\x1b[32;1m" if result2.pvalue < 0.05 else "\x1b[31;1m", round(result2.statistic, 4), "\x1b[0m")
-
-    # print(under_over_estimate_system)
+    # P, R, F, humF = [], [], [], []
+    # F_system = defaultdict(lambda: [])
+    # humF_system = defaultdict(lambda: [])
+    # for lang in ["py", "java", "js"]:
+    #     P += [index_and_system_to_Con[index_and_system] for index_and_system in human_annot_rel_scores[lang]]
+    #     F += [index_and_system_to_Rel[index_and_system] for index_and_system in human_annot_rel_scores[lang]]
+    #     R += [index_and_system_to_Comp[index_and_system] for index_and_system in human_annot_rel_scores[lang]]
+    #     for index_and_system, value in human_annot_rel_scores[lang].items():
+    #         index, system = index_and_system.split("::")
+    #         index = index.strip()
+    #         system = system.strip()
+    #         F_system[system].append(index_and_system_to_Rel[index_and_system])
+    #         humF_system[system].append(0.25*(value-1))
+    #         # print(value)
+    #     humF += [0.25*(humf-1) for humf in human_annot_rel_scores[lang].values()]
+    # assert len(humF) == len(F)
+    # CTR = 0

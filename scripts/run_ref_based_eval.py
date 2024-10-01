@@ -1,3 +1,4 @@
+import os
 import json
 import evaluate
 import numpy as np
@@ -13,6 +14,19 @@ from statsmodels.formula.api import ols
 from Levenshtein import distance as lev
 from src.metrics.cr_score import CRScorer
 from CodeBERT.CodeReviewer.code.evaluator.smooth_bleu import bleu_fromstr
+
+BASELINE_TO_SYSTEM_KEY = {
+    "BM-25 kNN": "knn",
+    "LSTM": "lstm",
+    "CodeReviewer": "codereviewer",
+    "CodeLLaMA-Instruct-7B": "codellama_7b", # not present in the sheet.
+    "CodeLLaMA-Instruct-13B": "codellama_13b",
+    "Magicoder-S-DS-6.7B": "magicoder",
+    "Stable-Code-Instruct-3B": "stable_code",
+    "DeepSeekCoder-Instruct-6.7B": "deepseekcoder",
+    "GPT-3.5-Turbo": "gpt3.5",
+    "Llama-3-8B-Instruct": "llama3"
+}
 
 def process_magicoder_output(review: str):
     review = review.split("@@ Code Change")[0].strip("\n")
@@ -41,6 +55,8 @@ if __name__ == "__main__":
     # ROUGE-L score.
     rouge_score_ = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
     output_path = "baseline_metric_scores.json"
+
+    all_baseline_metrics = ["BLEU", "BLEU_WITHOUT_STOP", "BERTSCORE", "EDIT_DISTANCE", "ROUGE_L", "CHRF", "CHRF++"]
     models_and_pred_paths = {
         "BM-25 kNN": "./experiments/knn_retriever_preds.json",
         "LSTM": "./ckpts/lstm_reviewer_1_layer/preds.jsonl",
@@ -53,7 +69,29 @@ if __name__ == "__main__":
         "GPT-3.5-Turbo": "./experiments/llm_outputs/GPT-3.5-Turbo.jsonl",
         "Llama-3-8B-Instruct": "./experiments/llm_outputs/Llama-3-8B-Instruct.jsonl",
     }
-    all_baseline_metrics = ["BLEU", "BLEU_WITHOUT_STOP", "BERTSCORE", "EDIT_DISTANCE", "ROUGE_L", "CHRF", "CHRF++"]
+
+    if os.path.exists(output_path):
+        overwrite = input("Overwrite results (y/N)?").strip().lower() in ["yes", "y"]
+        if not overwrite: 
+            our_metric_scores_path = "./all_model_rel_scores_thresh_0.7311.json"
+            our_metric_scores = None
+            if os.path.exists(our_metric_scores_path):
+                our_metric_scores = json.load(open(our_metric_scores_path))
+            data = json.load(open(output_path))
+            baseline_metric_values = json.load(open(output_path))
+            print("\t".join([metric for metric in all_baseline_metrics]))
+            for model in models_and_pred_paths:
+                print(model, end="\t")
+                for metric in all_baseline_metrics:
+                    Z = 100 if metric in ["BLEU", "BLEU_WITHOUT_STOP"] else 1
+                    print(round(np.mean([rec[model]/Z for rec in baseline_metric_values[metric]]), 3), end="\t")
+                if our_metric_scores is not None:
+                    for metric in ["P", "R", "F"]:
+                        model1 = BASELINE_TO_SYSTEM_KEY[model]
+                        print(round(np.mean([rec for rec in our_metric_scores[model1][metric]]), 3), end="\t")
+                print()
+            exit()
+
     all_baseline_scores = {metric: [{model: 0 for model in models_and_pred_paths} for _ in trues] for metric in all_baseline_metrics} 
 
     for model, preds_path in models_and_pred_paths.items():

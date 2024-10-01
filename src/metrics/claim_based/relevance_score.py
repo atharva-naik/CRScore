@@ -84,7 +84,45 @@ def compute_scores_from_sts_sim_matrix(sts_sim_matrix, thresh: float):
 
     return P, R, prec_alignment
 
-class RelevanceScorer:
+def thresh_scaling_function(x, thresh1, thresh2):
+    """
+    thresh1 > thresh2, where thresh1 is the primary threshold
+    """
+    x1, y1 = thresh2, 0
+    x2, y2 = thresh1, 1
+    # Calculate the slope (m) for the linear transformation
+    m = (y2 - y1) / (x2 - x1)
+    # Apply the linear function element-wise for the tensor
+    y = m * (x - x1) + y1
+    # Clamp the output between 0 and 1
+    return torch.clamp(y, min=0, max=1)
+
+def compute_scores_from_sts_sim_matrix_two_thresh(sts_sim_matrix, thresh1: float, thresh2: float):
+    """
+    do score computation with primary and secondary overlap thresholds.
+    - sts_sim_matrix: similarities between review sentences and code claims. Dimensions: claims x review_sentences
+    - thresh1: primary threshold
+    - thresh2: secondary threshold
+    """
+    # semantic similarity of diff/change claim and review claim pairs.
+    matches_mat = thresh_scaling_function(sts_sim_matrix, thresh1, thresh2)
+
+    # mask out review claims with maximum similarity with any diff claim less than the threshold.
+    prec_alignment = sts_sim_matrix.max(dim=0)
+    prec_array = sts_sim_matrix.max(dim=0).values
+    prec_mask = (prec_array >= thresh1).float()
+
+    # precision / Con
+    num_review_sentences = sts_sim_matrix.shape[1] # normalize by the number of review sentences. 
+    P = matches_mat.max(dim=0).values.sum().item() / num_review_sentences
+
+    # recall / Comp
+    num_claims = sts_sim_matrix.shape[0] # normalize by the number of claims.
+    R = matches_mat.max(dim=1).values.sum().item() / num_claims
+
+    return P, R, prec_alignment
+
+class RelevanceScorer(object):
     def __init__(self, model_path, hi_sim_thresh: float=0.85):
         self.sbert = SentenceTransformer(model_path)
         self.hi_sim_thresh = hi_sim_thresh
@@ -110,6 +148,7 @@ class RelevanceScorer:
         for i,token_vecs in enumerate(token_vecs):
             claim = claims[0]
             tokens = self.sbert.tokenizer.batch_decode(self.sbert.tokenize([claim])['input_ids'][0])
+            # print([token for token in tokens if token not in stop]) # TODO: DEBUG
             filt_token_vecs = torch.stack([vec for tok,vec in zip(tokens, token_vecs) if tok not in stop])
             pooled_filt_sent_vec = torch.sum(filt_token_vecs, 0) / len(filt_token_vecs)
             pooled_normed_filt_sent_vec = F.normalize(pooled_filt_sent_vec.unsqueeze(0), p=2, dim=1).squeeze()
@@ -370,9 +409,25 @@ def process_magicoder_output(review: str):
 
     return review
 
+def process_codellama_output(review: str):
+    review_lines = review.split("\n")
+    review_ = " ".join([line.strip() for line in review_lines[:-1]])
+    if review_lines[-1].strip().endswith("."): 
+        review_ += " "+review_lines[-1].strip()
+
+    return review_
+
 def safe_division(a, b):
     if b == 0: return 0
     return a/b
+
+def process_llama3_output(text):
+    return text.split("\n\n")[0].strip("\n")
+
+def process_lstm_output(review: str):
+    if review.startswith("<msg>"): review = review[len("<msg>"):].strip()
+        
+    return review
 
 def all_model_all_data_results(thresh: float):
     """
@@ -383,24 +438,24 @@ def all_model_all_data_results(thresh: float):
         # CodeReviewer
         "codereviewer": [rec['pred'] for rec in read_jsonl("./experiments/MS_CR_ZeroShot/preds.jsonl")],
         # Magicoder
-        "magicoder": [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./data/Comment_Generation/llm_outputs/Magicoder-S-DS-6.7B.jsonl')],
+        "magicoder": [process_magicoder_output(process_magicoder_output(rec['pred_review'])) for rec in read_jsonl('./data/Comment_Generation/llm_outputs/Magicoder-S-DS-6.7B.jsonl')],
         # LSTM
-        "lstm": [r['pred'] for r in read_jsonl("./ckpts/lstm_reviewer_1_layer/preds.jsonl")],
+        "lstm": [process_lstm_output(r['pred']) for r in read_jsonl("./ckpts/lstm_reviewer_1_layer/preds.jsonl")],
         # KNN
         "knn": [r for r,_ in json.load(open("./experiments/knn_retriever_preds.json"))],
         # Ground Truth
         "ground_truth": [i['msg'] for i in data],
         # DeepSeekCoder
-        "deepseekcoder": [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/DeepSeekCoder-6.7B-Instruct.jsonl')],
+        "deepseekcoder": [process_magicoder_output(process_magicoder_output(rec['pred_review'])) for rec in read_jsonl('./experiments/llm_outputs/DeepSeekCoder-6.7B-Instruct.jsonl')],
         # Stable Code
-        "stable_code": [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Stable-Code-Instruct-3b.jsonl')], 
+        "stable_code": [process_magicoder_output(process_magicoder_output(rec['pred_review'])) for rec in read_jsonl('./experiments/llm_outputs/Stable-Code-Instruct-3b.jsonl')], 
         # GPT-3.5
-        "gpt3.5": [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/GPT-3.5-Turbo.jsonl')],
+        "gpt3.5": [process_magicoder_output(process_magicoder_output(rec['pred_review'])) for rec in read_jsonl('./experiments/llm_outputs/GPT-3.5-Turbo.jsonl')],
         # LLaMA-3
-        "llama3": [process_magicoder_output(rec['pred_review']) for rec in read_jsonl('./experiments/llm_outputs/Llama-3-8B-Instruct.jsonl')],
+        "llama3": [process_llama3_output(process_magicoder_output(process_magicoder_output(rec['pred_review']))) for rec in read_jsonl('./experiments/llm_outputs/Llama-3-8B-Instruct.jsonl')],
         # Code Llama models
-        "codellama_7b": [rec['pred'] for rec in read_jsonl("./experiments/codellama_codellama_7b_instruct_hf_zero_shot/preds.jsonl")],
-        "codellama_13b": [rec['pred'] for rec in read_jsonl("./experiments/CodeLLaMA_Prompting/preds.jsonl")],
+        "codellama_7b": [process_codellama_output( process_codellama_output(rec['pred'])) for rec in read_jsonl("./experiments/codellama_codellama_7b_instruct_hf_zero_shot/preds.jsonl")],
+        "codellama_13b": [process_codellama_output(process_codellama_output(rec['pred'])) for rec in read_jsonl("./experiments/CodeLLaMA_Prompting/preds.jsonl")],
         
     }
     code_claims_path = "./experiments/code_change_summ_finetune_impl/Magicoder-S-DS-6.7B.jsonl"
@@ -410,7 +465,7 @@ def all_model_all_data_results(thresh: float):
         issues_paths={
             "python": "./experiments/python_code_smells",
             "java": "./experiments/java_code_smells",
-            "javascript": "./experiments/python_code_smells",
+            "javascript": "./experiments/javascript_code_smells",
         },
         patch_ranges_path="./data/Comment_Generation/test_set_codepatch_ranges.json",
         split_function=split_claims_and_impl if "_impl" in code_claims_path else split_claims,
@@ -443,7 +498,6 @@ def all_model_all_data_results(thresh: float):
     with open(f"./all_model_rel_scores_thresh_{thresh}.json", "w") as f:
         json.dump(rel_scores, f, indent=4)
     
-
 # main
 if __name__ == "__main__":
     # codereviewer model generated preds.

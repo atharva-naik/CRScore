@@ -76,6 +76,7 @@ if __name__ == "__main__":
     metric_con_values = {}
     metric_comp_values = {}
     metric_rel_values = {}
+    count_annots = 0 # count the number of annotations collected.
 
     baseline_metric_values = {metric: {} for metric in baseline_metric_scores}
 
@@ -95,7 +96,7 @@ if __name__ == "__main__":
             if isinstance(rec['system'], float): continue
 
             system = rec['system'].replace("_pred", "")
-            if system == "msg": continue # skip CodeReviewer ground truth/references among the evaluated systems, because we don't count it for the correlations as reference based metrics would default to 1 on them and disadvantage their correlation values.
+            key = f"{lang}::{index}::{system}"
 
             # skip certain systems for "what-if" correlation computations.
             if system in SKIP_SYSTEMS: continue
@@ -105,7 +106,8 @@ if __name__ == "__main__":
             if str(rec["Comp (R)"]) == "nan": continue
             if str(rec["Rel (F)"]) == "nan": continue
 
-            key = f"{lang}::{index}::{system}"
+            count_annots += 1
+            if system == "msg": continue # skip CodeReviewer ground truth/references among the evaluated systems, because we don't count it for the correlations as reference based metrics would default to 1 on them and disadvantage their correlation values.
 
             if collapse_4_and_5:
                 con_p = rec["Con (P)"] if rec["Con (P)"] != 5 else 4
@@ -136,6 +138,7 @@ if __name__ == "__main__":
         result2 = spearmanr(X, Y)
         print(dim, "tau", "\x1b[32;1m" if result.pvalue < 0.05 else "\x1b[31;1m", round(result.statistic, 4), "\x1b[0m", "rho", "\x1b[32;1m" if result2.pvalue < 0.05 else "\x1b[31;1m", round(result2.statistic, 4), "\x1b[0m")
 
+    print("labeled instances:", count_annots)
     for metric in baseline_metric_scores:
         metric_values = [
             baseline_metric_values[metric],
@@ -145,6 +148,7 @@ if __name__ == "__main__":
         for dim, Y_d, X_d in zip(dimensions, human_annot, metric_values):
             X = list(X_d.values())
             Y = list(Y_d.values())
+            # print(len(X))
             result = kendalltau(X, Y)
             result2 = spearmanr(X, Y)
             print(metric, dim, "tau", "\x1b[32;1m" if result.pvalue < 0.05 else "\x1b[31;1m", round(result.statistic, 4), "\x1b[0m", "rho", "\x1b[32;1m" if result2.pvalue < 0.05 else "\x1b[31;1m", round(result2.statistic, 4), "\x1b[0m")

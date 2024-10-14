@@ -15,15 +15,19 @@ for lang in ['py', 'java', 'js']:
     added_claims = 0
     removed_claims = 0
     num_code_changes = set()
+    kept_code_changes = set()
     for i in range(len(atharva)):
         if str(atharva[i]["index"]) != "nan":
-            num_code_changes.add(int(atharva[i]["index"]))
+            index = int(atharva[i]["index"])
+            num_code_changes.add(index)
+            kept_code_changes.add(index)
         if i >= boundary_point[lang]: 
             if str(atharva[i]["additional claims"]) != "nan":
                 added_claims += 1
             acc = atharva[i][claim_acc_key]
             if str(acc) == "nan": 
                 # print("row", i+2)
+                kept_code_changes.discard(index)
                 removed_claims += 1
                 continue
             # claim_accs.append(acc)
@@ -35,11 +39,13 @@ for lang in ['py', 'java', 'js']:
             if str(acc) == "nan": 
                 # print("row", i+2)
                 removed_claims += 1
+                kept_code_changes.discard(index)
                 continue
             # claim_accs.append(marcus[i][claim_acc_key])
             claim_dist[acc] += 1
 
     num_code_changes = len(num_code_changes)
+    kept_code_changes = len(kept_code_changes)
     claim_dist = dict(claim_dist)
     total = claim_dist[0]+claim_dist[1]+claim_dist[-1]
     print("Accuracy", round(100*claim_dist[1]/total, 2))
@@ -51,4 +57,5 @@ for lang in ['py', 'java', 'js']:
     print("Discarded Claims due to Code Change", removed_claims)
     print("Evaluated Claims", total+claim_dist[-2]+removed_claims)
     print("Code Changes", num_code_changes)
+    print("Kept Code Changes", kept_code_changes)
     print()

@@ -75,6 +75,7 @@ class LLM_as_a_Judge:
         elif response.startswith("3"): score = 3
         elif response.startswith("4"): score = 4
         elif response.startswith("5"): score = 5
+        else: score = 1
 
         return score/5, inst_to_be_judged
 
@@ -87,7 +88,9 @@ if __name__ == "__main__":
         print(len(human_annot_datapoints[lang]))
     print(total)
     # print(human_annot_datapoints['py'][0])
-    LLM_judgement_save_path: str = "./GPT-4o-as-a-judge_metric_scores.jsonl"
+    
+    # NOTE: hardcoded for now
+    LLM_judgement_save_path: str = "./GPT-4o-as-a-judge_metric_scores_after_187.jsonl"
     if os.path.exists(LLM_judgement_save_path):
         overwrite = bool(input("overwrite (y/N)?").lower().strip() in ["yes","y"])
         if not overwrite: exit()
@@ -97,6 +100,10 @@ if __name__ == "__main__":
     judge = LLM_as_a_Judge(model=MODEL, api_key=GPT4_key)
     llm_judgements = []
     for lang in human_annot_datapoints:
+        # NOTE: hardcoded for now.
+        if lang == "py":
+            human_annot_datapoints[lang] = human_annot_datapoints[lang][187:]
+            print(human_annot_datapoints[lang][0])
         for rec in tqdm(human_annot_datapoints[lang]):
             score, prompt = judge(review=rec['review'], code_change=rec['diff'], lang=lang)
             judge_rec = rec

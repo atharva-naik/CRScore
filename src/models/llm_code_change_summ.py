@@ -551,6 +551,99 @@ def main_no_pipeline(
             preds.append(rec['patch'])
         id += 1
 
+def gpt4_claim_and_impl_gen(
+        save_dir: str, data, model_path: str="gpt-4o", 
+        api_key: str="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",
+        skip: Union[int, None]=None, gen_implications: bool=False, use_exemplars: bool=False
+    ):
+    os.makedirs(save_dir, exist_ok=True)
+    client = OpenAI(api_key=api_key)
+    # use_exemplars = True
+    write_path = os.path.join(save_dir, model_path+".jsonl")
+    # model.to(device)
+    if os.path.exists(write_path):
+        overwrite_file = input("overwrite (y/n)?").lower().strip()
+        if overwrite_file not in ["y", "yes"]: exit()
+    open(write_path, "w")
+    id = 0
+    preds = []
+    # golds = []
+    patch_lengths = []
+    for rec in tqdm(data, desc=f"{model_path} inference"):
+        # code change summarize
+        diff = rec['diff']
+        lines_added, lines_removed = generate_added_and_removed_lines_from_patch(diff)
+        NLA = len(lines_added)
+        NLR = len(lines_removed)
+        lines_added = "\n".join(lines_added)[:4000]
+        lines_removed = "\n".join(lines_removed)[:4000]
+
+        if NLA != 0 and NLR != 0:
+            if gen_implications:
+                prompt = GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT.format(
+                    code_change=diff[:4000],
+                    lines_removed=lines_removed,
+                    lines_added=lines_added,
+                )  
+            elif use_exemplars:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT.format(
+                    code_change=diff[:4000],
+                    lines_removed=lines_removed,
+                    lines_added=lines_added,
+                ) 
+            else: 
+                prompt = MAGICODER_CODESUMM_LINECHANGE_PROMPT.format(
+                    code_change=diff[:4000],
+                    lines_removed=lines_removed,
+                    lines_added=lines_added,
+                ) 
+        elif NLR == 0:
+            if gen_implications:
+                prompt = GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT_NOLR.format(
+                    code_change=diff[:4000],
+                    lines_added=lines_added,
+                ) 
+            elif use_exemplars:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_NOLR.format(
+                    code_change=diff[:4000],
+                    lines_added=lines_added,
+                ) 
+            else:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_PROMPT_NOLR.format(
+                    code_change=diff[:4000],
+                    lines_added=lines_added,
+                )
+        elif NLA == 0:
+            if gen_implications:
+                prompt = GPT4_CODESUMM_LINECHANGE_IMPL_PROMPT_NOLA.format(
+                    code_change=diff[:4000],
+                    lines_removed=lines_removed,
+                )
+            elif use_exemplars:
+                prompt = MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_PREFIX + MAGICODER_CODESUMM_LINECHANGE_EXEMPLARS_PROMPT_NOLA.format(
+                    code_change=diff[:4000],
+                    lines_removed=lines_removed,
+                ) 
+            else: 
+                prompt = MAGICODER_CODESUMM_LINECHANGE_PROMPT_NOLA.format(
+                    code_change=diff[:4000],
+                    lines_removed=lines_removed,
+                )
+
+        response = client.chat.completions.create(
+            model=model_path,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        op = str(response.choices[0].message.content).strip()
+        # avoid saving very long versions of prompts.
+        prompt_to_save = prompt.replace(CODESTRAL_CODESUMM_LINECHANGE_EXEMPLARS_IMPL_PROMPT_PREFIX, "")
+
+        with open(write_path, "a") as f:
+            f.write(json.dumps({"id": id, "code_change": diff, 'instruction': prompt_to_save, 'response': op}, ensure_ascii=False)+"\n")
+            # golds.append(rec['msg'])
+            preds.append(diff)
+        id += 1
+
 def main(save_dir: str, data_path: str="./data/Comment_Generation/msg-test.jsonl", 
          model_path: str="ise-uiuc/Magicoder-S-DS-6.7B", device: str="cuda:0",
          model_name: str="Magicoder-S-DS-6.7B", task: str="text-generation",
@@ -643,6 +736,32 @@ def main(save_dir: str, data_path: str="./data/Comment_Generation/msg-test.jsonl
     # bleu_without_stop = bleu_fromstr(predictions=preds, golds=golds, rmstop=True)
     # print(f"bleu_without_stop = {bleu_without_stop}")
 
+def load_human_eval_sample_diffs():
+    import pandas as pd
+
+    human_annot_sample_diffs = {}
+    marcus_annot_end_points = {"py": 501-2, "java": 501-2, "js": 505-2}
+    index_to_lang = {}
+    langs = list(marcus_annot_end_points.keys())
+    for lang in langs:
+        marcus_annot = pd.read_csv(f"human_study/phase2/{lang}_marcus_review_qual_final.csv").to_dict("records")
+        atharva_annot = pd.read_csv(f"human_study/phase2/{lang}_atharva_review_qual_final.csv").to_dict("records")
+        index = None
+        for i, rec in enumerate(marcus_annot):
+            # if beyond the boundary of Marcus' annotations then switch to Atharva's annotations.
+            if i > marcus_annot_end_points[lang]: 
+                rec = atharva_annot[i]
+            if str(rec['index']) != "nan":
+                index = int(rec["index"])
+                diff = rec['diff']
+                index_to_lang[index] = lang
+            system = rec['system']
+            if str(rec["Rel (F)"]) != "nan" and system != "msg": # skip CodeReviewer ground truth/references among the evaluated systems, because we don't count it for the correlations as reference based metrics would default to 1 on them and disadvantage their correlation values.
+                human_annot_sample_diffs[index] = {"index": index, "diff": diff}
+    human_annot_sample_diffs = list(human_annot_sample_diffs.values())
+
+    return human_annot_sample_diffs
+
 # main
 if __name__ == "__main__":
     # main(save_dir="./experiments/code_change_summ_v3")
@@ -655,11 +774,21 @@ if __name__ == "__main__":
 
     # gen_GPT_labels("./experiments/GPT_code_change_summ_labels")
     # gen_GPT_labels("./experiments/GPT_code_change_summ_labels_with_impl", gen_implications=True, sample_size=500)
+    # gen_GPT_labels("./experiments/GPT_code_change_summ_labels_with_impl", gen_implications=True, sample_size=500)
 
     # fine-tuned Magicoder generate claims with implications:
-    main_no_pipeline(
-        save_dir="./experiments/code_change_summ_finetune_impl", 
-        checkpoint_path="/data/tir/projects/tir3/users/arnaik/magicoder_code_change_summ_impl",
+    # main_no_pipeline(
+    #     save_dir="./experiments/code_change_summ_finetune_impl", 
+    #     checkpoint_path="/data/tir/projects/tir3/users/arnaik/magicoder_code_change_summ_impl",
+    #     gen_implications=True,
+    # )
+
+    # generate pseudo-references with GPT-4o to get good quality data.
+    data = load_human_eval_sample_diffs()
+    print(len(data))
+    gpt4_claim_and_impl_gen(
+        data=data, model_path="gpt-4o",
+        save_dir="./experiments/code_change_summ_finetune_impl",
         gen_implications=True,
     )
 

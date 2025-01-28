@@ -33,6 +33,14 @@ def split_claims(text):
     return text_claims
 
 def split_claims_and_impl(text):
+    text = text.replace("**Implications:**", "Implications")
+    text = text.replace("### Implications:", "Implications")
+    text = text.replace("**Summary of changes:**", "")
+    text = text.replace("**Summary of Changes:**", "")
+    text = text.replace("### Summary of changes:", "")
+    text = text.replace("### Summary of Changes:", "")
+    text = text.replace("Summary of Changes:", "")
+    text = text.replace("Summary of changes:", "")
     text_claims = []
     text_impls = [] # implications
     add_impl = False
@@ -147,7 +155,10 @@ class RelevanceScorer(object):
         filt_pooled_vecs = []
         for i,token_vecs in enumerate(token_vecs):
             claim = claims[0]
-            tokens = self.sbert.tokenizer.batch_decode(self.sbert.tokenize([claim])['input_ids'][0])
+            # claim = claims[i]
+            tokens = self.sbert.tokenizer.batch_decode(
+                self.sbert.tokenize([claim])['input_ids'][0]
+            )
             # print([token for token in tokens if token not in stop]) # TODO: DEBUG
             filt_token_vecs = torch.stack([vec for tok,vec in zip(tokens, token_vecs) if tok not in stop])
             pooled_filt_sent_vec = torch.sum(filt_token_vecs, 0) / len(filt_token_vecs)
@@ -498,13 +509,123 @@ def all_model_all_data_results(thresh: float):
     with open(f"./all_model_rel_scores_thresh_{thresh}.json", "w") as f:
         json.dump(rel_scores, f, indent=4)
     
+def load_human_eval_samples():
+    human_annot_datapoints = []
+    marcus_annot_end_points = {"py": 501-2, "java": 501-2, "js": 505-2}
+    index_to_lang = {}
+    langs = list(marcus_annot_end_points.keys())
+    for lang in langs:
+        marcus_annot = pd.read_csv(f"human_study/phase2/{lang}_marcus_review_qual_final.csv").to_dict("records")
+        atharva_annot = pd.read_csv(f"human_study/phase2/{lang}_atharva_review_qual_final.csv").to_dict("records")
+        index = None
+        for i, rec in enumerate(marcus_annot):
+            # if beyond the boundary of Marcus' annotations then switch to Atharva's annotations.
+            if i > marcus_annot_end_points[lang]: 
+                rec = atharva_annot[i]
+            if str(rec['index']) != "nan":
+                index = int(rec["index"])
+                diff = rec['diff']
+                index_to_lang[index] = lang
+            system = rec['system']
+            if str(rec["Rel (F)"]) != "nan" and system != "msg": # skip CodeReviewer ground truth/references among the evaluated systems, because we don't count it for the correlations as reference based metrics would default to 1 on them and disadvantage their correlation values.
+                human_annot_datapoints.append({"index": index, "lang": lang, "system": system, "diff": diff, "review": rec["review"], "rel": rec["Rel (F)"]})
+            
+    return human_annot_datapoints
+
+def human_eval_data_results(thresh: float):
+    """
+    Compute the Con, Comp and Rel scores for all the models, using STS scores with a threshold of 0.85.
+    """
+    from scipy.stats import spearmanr, kendalltau
+
+    # load only human eval data here?
+    # data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
+    human_eval_data = load_human_eval_samples()
+    data = read_jsonl("./data/Comment_Generation/msg-test.jsonl")
+    model_preds = {
+        # CodeReviewer
+        "codereviewer": [rec['review'] for rec in human_eval_data if rec['system'] == 'codereviewer_pred'],
+        # Magicoder
+        "magicoder": [rec['review'] for rec in human_eval_data if rec['system'] == 'magicoder_pred'],
+        # LSTM
+        "lstm": [rec['review'] for rec in human_eval_data if rec['system'] == 'lstm_pred'],
+        # KNN
+        "knn": [rec['review'] for rec in human_eval_data if rec['system'] == 'knn_pred'],
+        # DeepSeekCoder
+        "deepseekcoder": [rec['review'] for rec in human_eval_data if rec['system'] == 'deepseekcoder_pred'],
+        # Stable Code
+        "stable_code": [rec['review'] for rec in human_eval_data if rec['system'] == 'stable_code_pred'], 
+        # GPT-3.5
+        "gpt3.5": [rec['review'] for rec in human_eval_data if rec['system'] == 'gpt3.5_pred'],
+        # LLaMA-3
+        "llama3": [rec['review'] for rec in human_eval_data if rec['system'] == 'llama3_pred'],
+        # Code Llama models
+        "codellama_13b": [rec['review'] for rec in human_eval_data if rec['system'] == 'codellama_13b_pred'],        
+    }
+    model_to_GT_rel = {}
+    for model in model_preds:
+        model_to_GT_rel[model] = [rec['rel'] for rec in human_eval_data if rec['system'] == model+"_pred"]
+
+    code_claims_path = "./experiments/code_change_summ_finetune_impl/gpt-4o.jsonl"
+    all_code_change_summ = load_code_claims_and_issues(
+        data=data,
+        claims_path=code_claims_path,
+        issues_paths={
+            "python": "./experiments/python_code_smells",
+            "java": "./experiments/java_code_smells",
+            "javascript": "./experiments/javascript_code_smells",
+        },
+        patch_ranges_path="./data/Comment_Generation/test_set_codepatch_ranges.json",
+        split_function=split_claims_and_impl if "_impl" in code_claims_path else split_claims,
+    )
+    
+    # print(code_change_summ[0])
+    # exit()
+    rel_scorer = RelevanceScorer(model_path="mixedbread-ai/mxbai-embed-large-v1", hi_sim_thresh=thresh)
+    # rel_score_human_data = [{'index': index} for index in model_preds['index']]
+    rel_scores = {}
+    # ["codereviewer", "magicoder", "deepseekcoder", "stable_code", "lstm", "knn", "ground_truth"]:
+    X, Y = [], []
+    for model in model_preds:
+        #read_jsonl("./experiments/MS_CR_ZeroShot/preds.jsonl")
+        reviews = [r if isinstance(r, str) else "" for r in model_preds[model]]
+        code_change_summ = [all_code_change_summ[rec['diff']] for rec in human_eval_data if rec['system'] == f"{model}_pred"]
+        review_lengths = [len(r.split()) for r in reviews]
+        mean_review_length = np.mean(review_lengths)
+        inst_rel_P_scores, inst_rel_R_scores, sts_matrices, rel_P_score, rel_R_score, rel_F_score = rel_scorer.compute(
+            code_change_summ, reviews, debug=DEBUG
+        )
+        print(model, f"P={100*rel_P_score:.2f} R={100*rel_R_score:.2f} F={100*rel_F_score:.2f} RL={mean_review_length:.2f}")
+        # F-score or relevance computed with instance level averaging.
+        inst_rel_F_scores = [safe_division(2*p*r, p+r) for p,r in zip(inst_rel_P_scores, inst_rel_R_scores)]
+        rel_scores[model] = {
+            "P": inst_rel_P_scores,
+            "R": inst_rel_R_scores,
+            "F": inst_rel_F_scores,
+            "RL": review_lengths,
+        }
+        X += model_to_GT_rel[model]
+        Y += inst_rel_R_scores
+        sts_mat_save_path = f"sts_matrices/gpt_4o_humaneval_{model}_sts_matrix.npz"
+        os.makedirs("sts_matrices", exist_ok=True)
+        np.savez_compressed(sts_mat_save_path, *sts_matrices)
+    print(spearmanr(X, Y))
+    print(kendalltau(X, Y))
+    with open(f"./human_eval_rel_scores_thresh_{thresh}.json", "w") as f:
+        json.dump(rel_scores, f, indent=4)
+
 # main
 if __name__ == "__main__":
     # codereviewer model generated preds.
     # modelgen_code_reviews = [rec['pred'] for rec in read_jsonl("./experiments/MS_CR_ZeroShot/preds.jsonl")]
     # human_study_results()
     
+    # # take the STS similarity threshold as an argument.
+    # thresh = float(sys.argv[1])
+    # print(f"using threshold: {thresh}")
+    # all_model_all_data_results(thresh=thresh)
+
     # take the STS similarity threshold as an argument.
     thresh = float(sys.argv[1])
     print(f"using threshold: {thresh}")
-    all_model_all_data_results(thresh=thresh)
+    human_eval_data_results(thresh=thresh)

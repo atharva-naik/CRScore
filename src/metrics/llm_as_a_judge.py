@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import torch
 import openai
 import numpy as np
 import pandas as pd
@@ -8,6 +9,7 @@ from typing import *
 from tqdm import tqdm
 from openai import OpenAI
 from collections import defaultdict
+from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
 def load_human_eval_samples():
     human_annot_datapoints = {}
@@ -34,7 +36,10 @@ def load_human_eval_samples():
     return human_annot_datapoints
 
 
-MODEL="gpt-4o"
+GPT_MODEL="gpt-4o"
+MAGICODER_MODEL = "ise-uiuc/Magicoder-S-DS-6.7B"
+
+CODE_CHANGE_AND_REVIEW_SYSTEM_PROMPT = """You are a highly skilled software engineer who has a lot of experience reviewing code changes. Your task is to rate the relevance of any given code change"""
 
 CODE_CHANGE_AND_REVIEW_JUDGE_PROMPT = """You will be asked to rate the relevance of reviews for given Python, Java or Javascript code changes. A relevant review is one which is both concise and comprehensive. A concise review contains very little text not related to the code change. A comprehensive review contains all the information about a code change that should be covered by a review. A relevant review is comprehensive while being concise.
 
@@ -55,21 +60,63 @@ LANG_MAP = {
 }
 
 class LLM_as_a_Judge:
-    def __init__(self, model: str=MODEL, api_key: Union[str, None]=None):
+    def __init__(self, model: str, api_key: Union[str, None]=None):
         self.model = model
-        self.client = OpenAI(api_key=api_key)
+        if model.startswith("gpt"):
+            self.client: Union[OpenAI, AutoModelForCausalLM] = OpenAI(api_key=api_key)
+        else:
+            self.tokenizer = AutoTokenizer.from_pretrained(model)
+            # self.client: Union[OpenAI, AutoModelForCausalLM] = AutoModelForCausalLM.from_pretrained(
+            #     self.model, 
+            #     trust_remote_code=True, 
+            #     device_map="auto",    
+            # )
+            self.client: Union[OpenAI, AutoModelForCausalLM] = pipeline(
+                model="ise-uiuc/Magicoder-S-DS-6.7B",
+                task="text-generation",
+                torch_dtype=torch.bfloat16,
+                device_map="auto",
+            )
 
     def __call__(self, code_change: str, review: str, lang: str):
-        inst_to_be_judged = CODE_CHANGE_AND_REVIEW_JUDGE_PROMPT.format(lang=LANG_MAP[lang], code_change=code_change[:5000], review=review)
-        # print(inst_to_be_judged)
-        completion = self.client.chat.completions.create(
-            model=MODEL,
-            messages=[
-                {"role": "system", "content": "You are a highly skilled software engineer who has a lot of experience reviewing code changes. Your task is to rate the relevance of any given code change"},
+        if self.model.startswith("gpt"):
+            inst_to_be_judged = CODE_CHANGE_AND_REVIEW_JUDGE_PROMPT.format(lang=LANG_MAP[lang], code_change=code_change[:5000], review=review)
+            messages = [
+                {"role": "system", "content": CODE_CHANGE_AND_REVIEW_SYSTEM_PROMPT},
                 {"role": "user", "content": inst_to_be_judged}
             ]
-        )
-        response = str(completion.choices[0].message.content).strip()
+            completion = self.client.chat.completions.create(
+                model=self.model,
+                messages=messages
+            )
+            response = str(completion.choices[0].message.content).strip()
+        else:
+            inst_to_be_judged = CODE_CHANGE_AND_REVIEW_JUDGE_PROMPT.format(lang=LANG_MAP[lang], code_change=code_change[:5000], review=review)
+            # print(inst_to_be_judged)
+            # messages = [
+            #     {"role": "user", "content": CODE_CHANGE_AND_REVIEW_SYSTEM_PROMPT+"\n"+inst_to_be_judged}
+            # ]
+            # tokenized_chat = self.tokenizer.apply_chat_template(
+            #     messages,
+            #     tokenize=True,
+            #     add_generation_prompt=True,
+            #     return_tensors="pt"
+            # )
+
+            # outputs = self.client.generate(
+            #     tokenized_chat.to(self.client.device),
+            #     max_new_tokens=50, do_sample=False,
+            #     eos_token_id=self.tokenizer.eos_token_id,
+            #     pad_token_id=self.tokenizer.eos_token_id,
+            # )
+            # response = self.tokenizer.decode(outputs[0][len(tokenized_chat[0]):], skip_special_tokens=True)
+            prompt = CODE_CHANGE_AND_REVIEW_SYSTEM_PROMPT+"\n"+inst_to_be_judged
+            result = self.client(
+                prompt, max_new_tokens=5, 
+                num_return_sequences=1, temperature=0.0
+            )
+            response = result[0]["generated_text"].replace(prompt,'').split("\n")[0].strip()
+            # print("\x1b[34;1mresponse:\x1b[0m", response)
         if response.startswith("1"): score = 1
         elif response.startswith("2"): score = 2
         elif response.startswith("3"): score = 3
@@ -89,21 +136,22 @@ if __name__ == "__main__":
     print(total)
     # print(human_annot_datapoints['py'][0])
     
-    # NOTE: hardcoded for now
-    LLM_judgement_save_path: str = "./GPT-4o-as-a-judge_metric_scores_after_187.jsonl"
+    LLM_judgement_save_path: str = "./Magicoder-as-a-judge_metric_scores.jsonl"
+    # LLM_judgement_save_path: str = "./GPT-4o-as-a-judge_metric_scores.jsonl"
     if os.path.exists(LLM_judgement_save_path):
         overwrite = bool(input("overwrite (y/N)?").lower().strip() in ["yes","y"])
         if not overwrite: exit()
 
     open(LLM_judgement_save_path, "w")
     GPT4_key = "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"
-    judge = LLM_as_a_Judge(model=MODEL, api_key=GPT4_key)
+    judge = LLM_as_a_Judge(model=MAGICODER_MODEL)
+    # judge = LLM_as_a_Judge(model=GPT_MODEL, api_key=GPT4_key)
     llm_judgements = []
     for lang in human_annot_datapoints:
-        # NOTE: hardcoded for now.
-        if lang == "py":
-            human_annot_datapoints[lang] = human_annot_datapoints[lang][187:]
-            print(human_annot_datapoints[lang][0])
+        # # NOTE: hardcoded for now.
+        # if lang == "py":
+        #     human_annot_datapoints[lang] = human_annot_datapoints[lang][187:]
+        #     print(human_annot_datapoints[lang][0])
         for rec in tqdm(human_annot_datapoints[lang]):
             score, prompt = judge(review=rec['review'], code_change=rec['diff'], lang=lang)
             judge_rec = rec

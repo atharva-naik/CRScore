@@ -143,7 +143,7 @@ if __name__ == "__main__":
         if not overwrite: exit()
 
     open(LLM_judgement_save_path, "w")
-    GPT4_key = "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"
+    GPT4_key = os.environ["GPT4_KEY"]
     judge = LLM_as_a_Judge(model=MAGICODER_MODEL)
     # judge = LLM_as_a_Judge(model=GPT_MODEL, api_key=GPT4_key)
     llm_judgements = []

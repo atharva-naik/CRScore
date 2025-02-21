@@ -9,7 +9,7 @@ from rouge_score import rouge_scorer
 from scipy.stats import pointbiserialr
 from statsmodels.formula.api import ols
 from Levenshtein import distance as lev
-from src.metrics.cr_score import CRScorer
+from src.metrics.DELETE_cr_score import CRScorer
 
 # def create_histogram(values: Union[List[float], np.ndarray], nbins=5):
 #     maxv = np.max(values)

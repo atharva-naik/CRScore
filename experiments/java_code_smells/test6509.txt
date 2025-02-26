@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6509/test6509.java:93:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

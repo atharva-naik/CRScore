@@ -1,4 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test4745/test4745.js: line 11, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test4745/test4745.js: line 12, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-2 errors

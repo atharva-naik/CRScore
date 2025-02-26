@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5848/test5848.java:17:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
-/home/arnaik/code-review-test-projects/java/test5848/test5848.java:18:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.contentOf'

@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8066/test8066.java:20:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

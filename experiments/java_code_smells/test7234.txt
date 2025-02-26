@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7234/test7234.java:29:	UnnecessaryImport:	Unused import 'net.runelite.api.ClanMemberRank'
-/home/arnaik/code-review-test-projects/java/test7234/test7234.java:33:	UnnecessaryImport:	Unused import 'net.runelite.client.config.Range'

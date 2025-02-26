@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7710/test7710.java:139:	UnusedLocalVariable:	Avoid unused local variables such as 'errorsCount'.
-/home/arnaik/code-review-test-projects/java/test7710/test7710.java:140:	UnusedLocalVariable:	Avoid unused local variables such as 'skippedCount'.
-/home/arnaik/code-review-test-projects/java/test7710/test7710.java:208:	ControlStatementBraces:	This statement should have braces

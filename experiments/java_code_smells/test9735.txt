@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9735/test9735.java:32:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test9735/test9735.java:66:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test9735/test9735.java:98:	EmptyCatchBlock:	Avoid empty catch blocks
-/home/arnaik/code-review-test-projects/java/test9735/test9735.java:132:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test9735/test9735.java:167:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test9735/test9735.java:179:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-/home/arnaik/code-review-test-projects/java/test9735/test9735.java:194:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-/home/arnaik/code-review-test-projects/java/test9735/test9735.java:218:	EmptyCatchBlock:	Avoid empty catch blocks

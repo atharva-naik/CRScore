@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4746/test4746.java:34:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test4746/test4746.java:46:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TestMgr': 'msg' is already in scope because it is declared in an enclosing type

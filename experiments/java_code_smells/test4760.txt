@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4760/test4760.java:42:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
-/home/arnaik/code-review-test-projects/java/test4760/test4760.java:42:	UncommentedEmptyConstructor:	Document empty constructor
-/home/arnaik/code-review-test-projects/java/test4760/test4760.java:80:	LiteralsFirstInComparisons:	Position literals first in String comparisons

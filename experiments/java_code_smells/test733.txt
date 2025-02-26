@@ -1,7 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test733/test733.java:33:	UnnecessaryImport:	Unused import 'io.servicecomb.transport.rest.vertx.accesslog.AccessLogConfiguration'
-/home/arnaik/code-review-test-projects/java/test733/test733.java:34:	UnnecessaryImport:	Unused import 'io.servicecomb.transport.rest.vertx.accesslog.impl.AccessLogHandlerImpl'
-/home/arnaik/code-review-test-projects/java/test733/test733.java:35:	UnnecessaryImport:	Unused import 'io.servicecomb.transport.rest.vertx.accesslog.parser.impl.DefaultAccessLogPatternParser'
-/home/arnaik/code-review-test-projects/java/test733/test733.java:55:	SingularField:	Perhaps 'endpoint' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test733/test733.java:89:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test733/test733.java:97:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test733/test733.java:107:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

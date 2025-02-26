@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3905/test3905.java:20:	UnnecessaryImport:	Unused static import 'org.apache.servicecomb.serviceregistry.api.Const.REGISTRY_APP_ID'
-/home/arnaik/code-review-test-projects/java/test3905/test3905.java:21:	UnnecessaryImport:	Unused static import 'org.apache.servicecomb.serviceregistry.api.Const.REGISTRY_SERVICE_NAME'
-/home/arnaik/code-review-test-projects/java/test3905/test3905.java:47:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test3905/test3905.java:65:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test3905/test3905.java:90:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test3905/test3905.java:113:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2174/test2174.java:17:	UnnecessaryImport:	Unused static import 'java.util.stream.Collectors.toUnmodifiableList'
-/home/arnaik/code-review-test-projects/java/test2174/test2174.java:174:	LiteralsFirstInComparisons:	Position literals first in String comparisons

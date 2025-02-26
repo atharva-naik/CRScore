@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9612/test9612.java:55:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test9612/test9612.java:59:	UnusedPrivateField:	Avoid unused private fields such as 'executionSource'.
-/home/arnaik/code-review-test-projects/java/test9612/test9612.java:92:	UncommentedEmptyConstructor:	Document empty constructor
-/home/arnaik/code-review-test-projects/java/test9612/test9612.java:97:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test9612/test9612.java:252:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test9612/test9612.java:272:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

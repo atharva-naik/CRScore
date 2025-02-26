@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6178/test6178.java:39:	UnusedPrivateField:	Avoid unused private fields such as 'originalIcebergType'.

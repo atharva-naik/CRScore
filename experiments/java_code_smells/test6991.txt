@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6991/test6991.java:52:	UnnecessaryImport:	Unused static import 'org.apache.lucene.index.SortedSetDocValues.NO_MORE_ORDS'
-/home/arnaik/code-review-test-projects/java/test6991/test6991.java:53:	UnnecessaryImport:	Unused static import 'org.apache.lucene.search.DocIdSetIterator.NO_MORE_DOCS'
-/home/arnaik/code-review-test-projects/java/test6991/test6991.java:364:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test6991/test6991.java:371:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test6991/test6991.java:491:	UnusedFormalParameter:	Avoid unused method parameters such as 'maxDoc'.
-/home/arnaik/code-review-test-projects/java/test6991/test6991.java:523:	UnusedFormalParameter:	Avoid unused method parameters such as 'maxDoc'.
-/home/arnaik/code-review-test-projects/java/test6991/test6991.java:555:	UnusedPrivateMethod:	Avoid unused private methods such as 'assertEquals(long, TermsEnum, TermsEnum)'.
-/home/arnaik/code-review-test-projects/java/test6991/test6991.java:621:	UnusedLocalVariable:	Avoid unused local variables such as 'name'.

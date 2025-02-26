@@ -1,0 +1,3 @@
+Original shape: (96353, 7)
+Columns: Index(['oldf', 'patch', 'msg', 'id', 'y', 'raw_java_score', 'int_java_score'], dtype='object')
+Shape after filtering out invalid syntax: (32756, 8)

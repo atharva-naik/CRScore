@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1833/test1833.java:4:	UnnecessaryImport:	Unused import 'android.view.View'

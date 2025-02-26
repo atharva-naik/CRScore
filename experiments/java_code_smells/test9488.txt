@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9488/test9488.java:31:	UnnecessaryImport:	Unused import 'java.util.Locale'
-/home/arnaik/code-review-test-projects/java/test9488/test9488.java:38:	UnnecessaryImport:	Unused import 'android.annotation.SuppressLint'
-/home/arnaik/code-review-test-projects/java/test9488/test9488.java:121:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
-/home/arnaik/code-review-test-projects/java/test9488/test9488.java:236:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
-/home/arnaik/code-review-test-projects/java/test9488/test9488.java:285:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop

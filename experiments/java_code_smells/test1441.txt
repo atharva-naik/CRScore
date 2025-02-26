@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1441/test1441.java:104:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test1441/test1441.java:190:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test1441/test1441.java:233:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test1441/test1441.java:269:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PageStreamingConfig': 'createPageStreamingFromProtoFile' is already in scope
-/home/arnaik/code-review-test-projects/java/test1441/test1441.java:287:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test1441/test1441.java:290:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PageStreamingConfig': 'createPageStreamingFromGapicConfig' is already in scope

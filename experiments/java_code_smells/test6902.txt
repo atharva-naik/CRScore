@@ -1,7 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6902/test6902.java:24:	UnnecessaryImport:	Unused static import 'zipkin.Constants.CORE_ANNOTATIONS'
-/home/arnaik/code-review-test-projects/java/test6902/test6902.java:25:	UnnecessaryImport:	Unused static import 'zipkin.internal.Util.checkArgument'
-/home/arnaik/code-review-test-projects/java/test6902/test6902.java:108:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test6902/test6902.java:113:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test6902/test6902.java:133:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-/home/arnaik/code-review-test-projects/java/test6902/test6902.java:134:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-/home/arnaik/code-review-test-projects/java/test6902/test6902.java:184:	UncommentedEmptyConstructor:	Document empty constructor

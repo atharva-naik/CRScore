@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6129/test6129.java:33:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6129/test6129.java:38:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6129/test6129.java:39:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6129/test6129.java:40:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6129/test6129.java:41:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6129/test6129.java:43:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6129/test6129.java:44:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6129/test6129.java:48:	SingletonClassReturningNewInstance:	getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review

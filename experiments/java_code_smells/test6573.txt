@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6573/test6573.java:60:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6573/test6573.java:243:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
-/home/arnaik/code-review-test-projects/java/test6573/test6573.java:311:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6573/test6573.java:322:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6573/test6573.java:333:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6573/test6573.java:344:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6573/test6573.java:355:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6573/test6573.java:366:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

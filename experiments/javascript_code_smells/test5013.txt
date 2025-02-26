@@ -1,9 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test5013/test5013.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test5013/test5013.js: line 1, col 22, Missing semicolon.
-/home/atharva/CMU/sem4/Directed Study/javascript/test5013/test5013.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test5013/test5013.js: line 2, col 28, Missing semicolon.
-/home/atharva/CMU/sem4/Directed Study/javascript/test5013/test5013.js: line 4, col 33, Missing semicolon.
-/home/atharva/CMU/sem4/Directed Study/javascript/test5013/test5013.js: line 7, col 13, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test5013/test5013.js: line 8, col 18, Missing semicolon.
-
-7 errors

@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9241/test9241.java:26:	UnnecessaryImport:	Unused static import 'java.util.stream.Collectors.joining'
-/home/arnaik/code-review-test-projects/java/test9241/test9241.java:48:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test9241/test9241.java:57:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test9241/test9241.java:58:	ControlStatementBraces:	This statement should have braces

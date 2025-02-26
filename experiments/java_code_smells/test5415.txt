@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5415/test5415.java:29:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

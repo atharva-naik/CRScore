@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3786/test3786.java:46:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
-/home/arnaik/code-review-test-projects/java/test3786/test3786.java:46:	UncommentedEmptyConstructor:	Document empty constructor

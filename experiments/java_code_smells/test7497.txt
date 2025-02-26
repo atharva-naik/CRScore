@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7497/test7497.java:39:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test7497/test7497.java:58:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test7497/test7497.java:58:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test7497/test7497.java:172:	OverrideBothEqualsAndHashcode:	Ensure you override both equals() and hashCode()

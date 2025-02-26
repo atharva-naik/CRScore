@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6949/test6949.java:22:	PackageCase:	Package name contains upper case characters
-/home/arnaik/code-review-test-projects/java/test6949/test6949.java:28:	UnnecessaryImport:	Unused static import 'com.github.javaparser.StaticJavaParser.parseClassOrInterfaceType'

@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7734/test7734.java	-	LexException: Lexical error in file '/home/arnaik/code-review-test-projects/java/test7734/test7734.java' at line 2, column 24: "s" (115), after : "\'a" (in lexical state DEFAULT)

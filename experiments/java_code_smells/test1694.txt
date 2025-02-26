@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1694/test1694.java:23:	UnnecessaryImport:	Unused import 'org.phoenicis.scripts.ui.*'
-/home/arnaik/code-review-test-projects/java/test1694/test1694.java:33:	UnnecessaryImport:	Unused static import 'org.phoenicis.configuration.localisation.Localisation.tr'
-/home/arnaik/code-review-test-projects/java/test1694/test1694.java:182:	UnnecessaryModifier:	Unnecessary modifier 'final' on resource specification 'content': resource specifications are implicitly final

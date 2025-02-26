@@ -1,7 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9554/test9554.java:62:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test9554/test9554.java:65:	UnusedPrivateMethod:	Avoid unused private methods such as 'createMiniSolrCloudCluster()'.
-/home/arnaik/code-review-test-projects/java/test9554/test9554.java:67:	UnnecessarySemicolon:	Unnecessary semicolon
-/home/arnaik/code-review-test-projects/java/test9554/test9554.java:99:	UnnecessarySemicolon:	Unnecessary semicolon
-/home/arnaik/code-review-test-projects/java/test9554/test9554.java:104:	UnusedPrivateMethod:	Avoid unused private methods such as 'addUncommittedDoc99()'.
-/home/arnaik/code-review-test-projects/java/test9554/test9554.java:113:	UnusedPrivateMethod:	Avoid unused private methods such as 'afterClass()'.
-/home/arnaik/code-review-test-projects/java/test9554/test9554.java:288:	UnusedLocalVariable:	Avoid unused local variables such as 'docs'.

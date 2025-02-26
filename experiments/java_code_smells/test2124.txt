@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2124/test2124.java:27:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test2124/test2124.java:202:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test2124/test2124.java:204:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead

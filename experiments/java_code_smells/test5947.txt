@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5947/test5947.java:21:	UnnecessaryImport:	Unused import 'com.pingcap.tikv.types.*'
-/home/arnaik/code-review-test-projects/java/test5947/test5947.java:61:	AvoidDecimalLiteralsInBigDecimalConstructor:	Avoid creating BigDecimal with a decimal (float/double) literal. Use a String literal

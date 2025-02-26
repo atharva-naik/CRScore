@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5383/test5383.java:78:	AvoidProtectedFieldInFinalClass:	Avoid protected fields in a final class.  Change to private or package access.
-/home/arnaik/code-review-test-projects/java/test5383/test5383.java:94:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'equals': the method is already in a final class
-/home/arnaik/code-review-test-projects/java/test5383/test5383.java:100:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'hashCode': the method is already in a final class
-/home/arnaik/code-review-test-projects/java/test5383/test5383.java:108:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'getField': the method is already in a final class
-/home/arnaik/code-review-test-projects/java/test5383/test5383.java:117:	UnusedFormalParameter:	Avoid unused method parameters such as 'context'.

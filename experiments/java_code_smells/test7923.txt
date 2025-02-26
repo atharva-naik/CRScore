@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7923/test7923.java:3:	UnnecessaryImport:	Unused import 'com.github.javaparser.JavaParser'
-/home/arnaik/code-review-test-projects/java/test7923/test7923.java:4:	UnnecessaryImport:	Unused import 'com.github.javaparser.ParserConfiguration'
-/home/arnaik/code-review-test-projects/java/test7923/test7923.java:5:	UnnecessaryImport:	Unused import 'com.github.javaparser.StaticJavaParser'
-/home/arnaik/code-review-test-projects/java/test7923/test7923.java:9:	UnnecessaryImport:	Unused import 'com.github.javaparser.printer.lexicalpreservation.LexicalPreservingPrinter'
-/home/arnaik/code-review-test-projects/java/test7923/test7923.java:12:	UnnecessaryImport:	Unused static import 'com.github.javaparser.StaticJavaParser.parse'
-/home/arnaik/code-review-test-projects/java/test7923/test7923.java:13:	UnnecessaryImport:	Unused static import 'com.github.javaparser.utils.TestUtils.assertEqualsNoEol'
-/home/arnaik/code-review-test-projects/java/test7923/test7923.java:14:	UnnecessaryImport:	Unused static import 'com.github.javaparser.utils.Utils.EOL'
-/home/arnaik/code-review-test-projects/java/test7923/test7923.java:26:	UnusedLocalVariable:	Avoid unused local variables such as 's'.

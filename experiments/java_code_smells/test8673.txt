@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8673/test8673.java:8:	UnnecessaryImport:	Unused import 'android.util.Log'
-/home/arnaik/code-review-test-projects/java/test8673/test8673.java:10:	UnnecessaryImport:	Unused import 'org.json.JSONException'
-/home/arnaik/code-review-test-projects/java/test8673/test8673.java:11:	UnnecessaryImport:	Unused import 'org.json.JSONObject'
-/home/arnaik/code-review-test-projects/java/test8673/test8673.java:14:	UnnecessaryImport:	Unused import 'org.mozilla.vrbrowser.BuildConfig'
-/home/arnaik/code-review-test-projects/java/test8673/test8673.java:17:	UnnecessaryImport:	Unused import 'org.mozilla.vrbrowser.ui.widgets.WidgetPlacement'
-/home/arnaik/code-review-test-projects/java/test8673/test8673.java:26:	UnnecessaryImport:	Unused static import 'org.mozilla.vrbrowser.utils.ServoUtils.isServoAvailable'
-/home/arnaik/code-review-test-projects/java/test8673/test8673.java:30:	UnusedPrivateField:	Avoid unused private fields such as 'LOGTAG'.
-/home/arnaik/code-review-test-projects/java/test8673/test8673.java:396:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`

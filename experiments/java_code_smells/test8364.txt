@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8364/test8364.java:76:	UnusedPrivateField:	Avoid unused private fields such as 'sortOrderId'.
-/home/arnaik/code-review-test-projects/java/test8364/test8364.java:196:	UncommentedEmptyConstructor:	Document empty constructor
-/home/arnaik/code-review-test-projects/java/test8364/test8364.java:427:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

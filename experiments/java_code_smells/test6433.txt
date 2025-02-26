@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6433/test6433.java:20:	UnnecessaryImport:	Unused static import 'org.apache.servicecomb.foundation.common.base.ServiceCombConstants.CONFIG_CSE_PREFIX'
-/home/arnaik/code-review-test-projects/java/test6433/test6433.java:21:	UnnecessaryImport:	Unused static import 'org.apache.servicecomb.foundation.common.base.ServiceCombConstants.CONFIG_KEY_SPLITER'
-/home/arnaik/code-review-test-projects/java/test6433/test6433.java:22:	UnnecessaryImport:	Unused static import 'org.apache.servicecomb.foundation.common.base.ServiceCombConstants.CONFIG_SERVICECOMB_PREFIX'
-/home/arnaik/code-review-test-projects/java/test6433/test6433.java:95:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test6433/test6433.java:98:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ConfigUtil': 'createLocalConfig' is already in scope
-/home/arnaik/code-review-test-projects/java/test6433/test6433.java:99:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ConfigUtil': 'setMicroserviceConfigLoader' is already in scope
-/home/arnaik/code-review-test-projects/java/test6433/test6433.java:176:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ConfigUtil': 'createLocalConfig' is already in scope
-/home/arnaik/code-review-test-projects/java/test6433/test6433.java:197:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ConfigUtil': 'createDynamicConfig' is already in scope

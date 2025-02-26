@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6947/test6947.java:90:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'MetricsServlet': 'DURATION_UNIT' is already in scope because it is declared in an enclosing type
-/home/arnaik/code-review-test-projects/java/test6947/test6947.java:93:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'MetricsServlet': 'RATE_UNIT' is already in scope because it is declared in an enclosing type
-/home/arnaik/code-review-test-projects/java/test6947/test6947.java:96:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'MetricsServlet': 'ALLOWED_ORIGIN' is already in scope because it is declared in an enclosing type
-/home/arnaik/code-review-test-projects/java/test6947/test6947.java:125:	UncommentedEmptyConstructor:	Document empty constructor

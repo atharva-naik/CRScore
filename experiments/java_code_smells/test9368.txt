@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9368/test9368.java:52:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
-/home/arnaik/code-review-test-projects/java/test9368/test9368.java:52:	UncommentedEmptyConstructor:	Document empty constructor
-/home/arnaik/code-review-test-projects/java/test9368/test9368.java:129:	AvoidUsingHardCodedIP:	Do not hard code the IP address LOCAL_ADDR
-/home/arnaik/code-review-test-projects/java/test9368/test9368.java:183:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-/home/arnaik/code-review-test-projects/java/test9368/test9368.java:262:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale

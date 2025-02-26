@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7428/test7428.java:19:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
-/home/arnaik/code-review-test-projects/java/test7428/test7428.java:20:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThatThrownBy'
-/home/arnaik/code-review-test-projects/java/test7428/test7428.java:21:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertEquals'
-/home/arnaik/code-review-test-projects/java/test7428/test7428.java:22:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertNull'
-/home/arnaik/code-review-test-projects/java/test7428/test7428.java:56:	LiteralsFirstInComparisons:	Position literals first in String comparisons

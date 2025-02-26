@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2422/test2422.java:33:	FinalParameterInAbstractMethod:	Final parameter in abstract method
-/home/arnaik/code-review-test-projects/java/test2422/test2422.java:35:	FinalParameterInAbstractMethod:	Final parameter in abstract method
-/home/arnaik/code-review-test-projects/java/test2422/test2422.java:37:	FinalParameterInAbstractMethod:	Final parameter in abstract method
-/home/arnaik/code-review-test-projects/java/test2422/test2422.java:41:	FinalParameterInAbstractMethod:	Final parameter in abstract method
-/home/arnaik/code-review-test-projects/java/test2422/test2422.java:43:	FinalParameterInAbstractMethod:	Final parameter in abstract method

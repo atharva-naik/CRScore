@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7421/test7421.java:62:	UnusedPrivateMethod:	Avoid unused private methods such as 'failureHandler(RoutingContext)'.
-/home/arnaik/code-review-test-projects/java/test7421/test7421.java:63:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test7421/test7421.java:176:	UnusedPrivateMethod:	Avoid unused private methods such as 'onRequest(RoutingContext)'.

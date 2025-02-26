@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8511/test8511.java:39:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test8511/test8511.java:66:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test8511/test8511.java:69:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
-/home/arnaik/code-review-test-projects/java/test8511/test8511.java:106:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

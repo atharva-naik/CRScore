@@ -1,4 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test422/test422.js: line 7, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test422/test422.js: line 9, col 20, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
-
-2 errors

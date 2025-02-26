@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3317/test3317.java:20:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.HttpMethod.DELETE'
-/home/arnaik/code-review-test-projects/java/test3317/test3317.java:21:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.HttpMethod.POST'
-/home/arnaik/code-review-test-projects/java/test3317/test3317.java:38:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test3317/test3317.java:48:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test3317/test3317.java:55:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test3317/test3317.java:66:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

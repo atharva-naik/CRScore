@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6503/test6503.java:63:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'freq': the method is already in a final class

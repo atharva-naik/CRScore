@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2476/test2476.java:33:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
-/home/arnaik/code-review-test-projects/java/test2476/test2476.java:35:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
-/home/arnaik/code-review-test-projects/java/test2476/test2476.java:36:	UnusedPrivateField:	Avoid unused private fields such as 'executionStopped'.
-/home/arnaik/code-review-test-projects/java/test2476/test2476.java:36:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
-/home/arnaik/code-review-test-projects/java/test2476/test2476.java:36:	UnusedPrivateField:	Avoid unused private fields such as 'containerDispatchFail'.
-/home/arnaik/code-review-test-projects/java/test2476/test2476.java:38:	UnusedPrivateField:	Avoid unused private fields such as 'isInitialized'.
-/home/arnaik/code-review-test-projects/java/test2476/test2476.java:47:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test2476/test2476.java:63:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9035/test9035.java:60:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'score': the method is already in a final class
-/home/arnaik/code-review-test-projects/java/test9035/test9035.java:138:	MissingOverride:	The method 'replay(Collector)' is missing an @Override annotation.
-/home/arnaik/code-review-test-projects/java/test9035/test9035.java:162:	MissingOverride:	The method 'wrap(LeafCollector, int)' is missing an @Override annotation.
-/home/arnaik/code-review-test-projects/java/test9035/test9035.java:298:	UncommentedEmptyMethodBody:	Document empty method body
-/home/arnaik/code-review-test-projects/java/test9035/test9035.java:328:	UselessParentheses:	Useless parentheses.

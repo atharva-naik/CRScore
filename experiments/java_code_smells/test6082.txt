@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6082/test6082.java:4:	UnnecessaryImport:	Unused import 'edu.harvard.iq.dataverse.util.BundleUtil'
-/home/arnaik/code-review-test-projects/java/test6082/test6082.java:6:	UnnecessaryImport:	Unused import 'java.util.MissingResourceException'
-/home/arnaik/code-review-test-projects/java/test6082/test6082.java:13:	UnnecessaryImport:	Unused import 'javax.persistence.NamedNativeQueries'
-/home/arnaik/code-review-test-projects/java/test6082/test6082.java:14:	UnnecessaryImport:	Unused import 'javax.persistence.NamedNativeQuery'
-/home/arnaik/code-review-test-projects/java/test6082/test6082.java:15:	UnnecessaryImport:	Unused import 'javax.persistence.NamedQueries'
-/home/arnaik/code-review-test-projects/java/test6082/test6082.java:16:	UnnecessaryImport:	Unused import 'javax.persistence.NamedQuery'

@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7398/test7398.java:35:	UnnecessaryImport:	Unused static import 'org.phoenicis.configuration.localisation.Localisation.tr'

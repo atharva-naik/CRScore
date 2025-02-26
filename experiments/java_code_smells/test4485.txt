@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4485/test4485.java:82:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test4485/test4485.java:83:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test4485/test4485.java:84:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test4485/test4485.java:100:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test4485/test4485.java:154:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test4485/test4485.java:175:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DiscoGapicMethodConfig': 'createFieldNameConfigs' is already in scope

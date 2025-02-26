@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5067/test5067.java:50:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test5067/test5067.java:58:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test5067/test5067.java:59:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test5067/test5067.java:60:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test5067/test5067.java:61:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test5067/test5067.java:209:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
-/home/arnaik/code-review-test-projects/java/test5067/test5067.java:231:	UnusedPrivateMethod:	Avoid unused private methods such as 'lazyFieldsByName()'.
-/home/arnaik/code-review-test-projects/java/test5067/test5067.java:322:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

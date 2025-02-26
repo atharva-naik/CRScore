@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6412/test6412.java:20:	UnnecessaryImport:	Unused static import 'org.apache.lucene.codecs.simpletext.SimpleTextVectorWriter.*'
-/home/arnaik/code-review-test-projects/java/test6412/test6412.java:40:	UnnecessaryImport:	Unused import 'org.apache.lucene.util.*'
-/home/arnaik/code-review-test-projects/java/test6412/test6412.java:277:	AssignmentInOperand:	Avoid assignments in operands

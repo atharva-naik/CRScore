@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8464/test8464.java:33:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getUser': the method is declared in an interface type
-/home/arnaik/code-review-test-projects/java/test8464/test8464.java:39:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'validateUser': the method is declared in an interface type
-/home/arnaik/code-review-test-projects/java/test8464/test8464.java:44:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'validateGroup': the method is declared in an interface type
-/home/arnaik/code-review-test-projects/java/test8464/test8464.java:49:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getRole': the method is declared in an interface type
-/home/arnaik/code-review-test-projects/java/test8464/test8464.java:51:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'validateProxyUser': the method is declared in an interface type
-/home/arnaik/code-review-test-projects/java/test8464/test8464.java:59:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'validateUserGroupMembership': the method is declared in an interface type

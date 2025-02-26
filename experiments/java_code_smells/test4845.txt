@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4845/test4845.java	-	ParseException: Parse exception in file '/home/arnaik/code-review-test-projects/java/test4845/test4845.java' at line 1, column 1: Encountered <IDENTIFIER: "from">.
-Was expecting:
-    "import" ...

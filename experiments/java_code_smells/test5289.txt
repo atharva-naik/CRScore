@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5289/test5289.java:7:	UnnecessaryImport:	Unused import 'java.util.Collections'
-/home/arnaik/code-review-test-projects/java/test5289/test5289.java:11:	UnnecessaryImport:	Unused import 'net.sourceforge.pmd.EnumeratedPropertyDescriptor'
-/home/arnaik/code-review-test-projects/java/test5289/test5289.java:13:	UnnecessaryImport:	Unused import 'net.sourceforge.pmd.PropertyDescriptorField'
-/home/arnaik/code-review-test-projects/java/test5289/test5289.java:14:	UnnecessaryImport:	Unused import 'net.sourceforge.pmd.util.CollectionUtil'

@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2603/test2603.java:89:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test2603/test2603.java:157:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

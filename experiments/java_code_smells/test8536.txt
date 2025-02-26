@@ -1,7 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8536/test8536.java:394:	MissingOverride:	The method 'equals(Object)' is missing an @Override annotation.
-/home/arnaik/code-review-test-projects/java/test8536/test8536.java:630:	MissingOverride:	The method 'hashCode()' is missing an @Override annotation.
-/home/arnaik/code-review-test-projects/java/test8536/test8536.java:1420:	GenericsNaming:	Generics names should be a one letter long and upper case.
-/home/arnaik/code-review-test-projects/java/test8536/test8536.java:1420:	GenericsNaming:	Generics names should be a one letter long and upper case.
-/home/arnaik/code-review-test-projects/java/test8536/test8536.java:1434:	GenericsNaming:	Generics names should be a one letter long and upper case.
-/home/arnaik/code-review-test-projects/java/test8536/test8536.java:1434:	GenericsNaming:	Generics names should be a one letter long and upper case.
-/home/arnaik/code-review-test-projects/java/test8536/test8536.java:1434:	GenericsNaming:	Generics names should be a one letter long and upper case.

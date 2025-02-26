@@ -1,5 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test6458/test6458.js: line 30, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test6458/test6458.js: line 31, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test6458/test6458.js: line 160, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-3 errors

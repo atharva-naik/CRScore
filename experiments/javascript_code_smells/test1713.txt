@@ -1,5 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test1713/test1713.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test1713/test1713.js: line 3, col 29, Missing semicolon.
-/home/atharva/CMU/sem4/Directed Study/javascript/test1713/test1713.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-3 errors

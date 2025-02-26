@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9513/test9513.java:73:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test9513/test9513.java:164:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test9513/test9513.java:224:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test9513/test9513.java:372:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test9513/test9513.java:377:	UnusedPrivateMethod:	Avoid unused private methods such as 'isTerminalNotifierAvailable()'.
-/home/arnaik/code-review-test-projects/java/test9513/test9513.java:410:	CloseResource:	Ensure that resources like this Clip object are closed after use

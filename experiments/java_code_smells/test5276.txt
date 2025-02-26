@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5276/test5276.java:155:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test5276/test5276.java:158:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test5276/test5276.java:214:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test5276/test5276.java:221:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test5276/test5276.java:243:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test5276/test5276.java:245:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test5276/test5276.java:251:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test5276/test5276.java:254:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test5276/test5276.java:311:	UncommentedEmptyMethodBody:	Document empty method body

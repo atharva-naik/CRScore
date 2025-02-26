@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1731/test1731.java:5:	UnnecessaryImport:	Unused import 'java.io.File'
-/home/arnaik/code-review-test-projects/java/test1731/test1731.java:6:	UnnecessaryImport:	Unused import 'java.io.FileOutputStream'
-/home/arnaik/code-review-test-projects/java/test1731/test1731.java:7:	UnnecessaryImport:	Unused import 'java.io.IOException'
-/home/arnaik/code-review-test-projects/java/test1731/test1731.java:27:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test1731/test1731.java:239:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test1731/test1731.java:239:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test1731/test1731.java:271:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
-/home/arnaik/code-review-test-projects/java/test1731/test1731.java:322:	NonThreadSafeSingleton:	Singleton is not thread safe

@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8363/test8363.java	-	ContextedRuntimeException: java.lang.IllegalStateException: Disambiguation pass should resolve everything except qualified ctor calls
-Exception Context:
-	[1:Resolving type of=!debug only! [ClassType:45:34]Traversable<T>]
----------------------------------

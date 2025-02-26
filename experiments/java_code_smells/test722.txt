@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test722/test722.java:103:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'builder'
-/home/arnaik/code-review-test-projects/java/test722/test722.java:178:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'HttpAccess': 'USER_AGENT' is already in scope because it is declared in an enclosing type

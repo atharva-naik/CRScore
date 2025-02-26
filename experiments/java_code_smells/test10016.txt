@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test10016/test10016.java:38:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.optional'
-/home/arnaik/code-review-test-projects/java/test10016/test10016.java:39:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.required'
-/home/arnaik/code-review-test-projects/java/test10016/test10016.java:146:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test10016/test10016.java:167:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

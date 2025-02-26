@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test10039/test10039.java	-	ParseException: Parse exception in file '/home/arnaik/code-review-test-projects/java/test10039/test10039.java' at line 4, column 12: Encountered ".".
-Was expecting:
-    "(" ...

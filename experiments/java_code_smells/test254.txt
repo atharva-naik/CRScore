@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test254/test254.java:60:	UnusedPrivateField:	Avoid unused private fields such as 'DEF_PREWRITE_CONCURRENCY'.

@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9181/test9181.java:29:	UnnecessaryImport:	Unused import 'android.content.Context'
-/home/arnaik/code-review-test-projects/java/test9181/test9181.java:32:	UnnecessaryImport:	Unused import 'com.salesforce.androidsdk.smartstore.store.DBHelper'
-/home/arnaik/code-review-test-projects/java/test9181/test9181.java:33:	UnnecessaryImport:	Unused import 'com.salesforce.androidsdk.smartstore.store.DBOpenHelper'
-/home/arnaik/code-review-test-projects/java/test9181/test9181.java:36:	UnnecessaryImport:	Unused import 'com.salesforce.androidsdk.smartstore.store.SmartStore'
-/home/arnaik/code-review-test-projects/java/test9181/test9181.java:39:	UnnecessaryImport:	Unused import 'net.sqlcipher.database.SQLiteDatabase'
-/home/arnaik/code-review-test-projects/java/test9181/test9181.java:40:	UnnecessaryImport:	Unused import 'net.sqlcipher.database.SQLiteOpenHelper'

@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2288/test2288.java:22:	UnnecessaryImport:	Unused import 'org.hyperledger.besu.ethereum.core.LogsBloomFilter'
-/home/arnaik/code-review-test-projects/java/test2288/test2288.java:26:	UnnecessaryImport:	Unused import 'java.util.Objects'
-/home/arnaik/code-review-test-projects/java/test2288/test2288.java:27:	UnnecessaryImport:	Unused import 'java.util.stream.Collectors'
-/home/arnaik/code-review-test-projects/java/test2288/test2288.java:31:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

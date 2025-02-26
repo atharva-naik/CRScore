@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2718/test2718.java:18:	UnnecessaryImport:	Unused import 'com.google.api.codegen.transformer.StaticLangApiMethodTransformer'

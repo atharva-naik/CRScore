@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3045/test3045.java:46:	UnnecessaryImport:	Unused static import 'org.apache.avro.generic.GenericData.Record'

@@ -1,7 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5857/test5857.java:103:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test5857/test5857.java:191:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test5857/test5857.java:194:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test5857/test5857.java:305:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test5857/test5857.java:355:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test5857/test5857.java:467:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test5857/test5857.java:469:	LiteralsFirstInComparisons:	Position literals first in String comparisons

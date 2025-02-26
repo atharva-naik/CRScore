@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6165/test6165.java:131:	LooseCoupling:	Avoid using implementation types like 'ScriptObjectMirror'; use the interface instead

@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5416/test5416.java:77:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test5416/test5416.java:305:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test5416/test5416.java:368:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
-/home/arnaik/code-review-test-projects/java/test5416/test5416.java:381:	UnusedPrivateMethod:	Avoid unused private methods such as 'convertOrcToIceberg(TypeDescription, String, NextID)'.
-/home/arnaik/code-review-test-projects/java/test5416/test5416.java:404:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
-/home/arnaik/code-review-test-projects/java/test5416/test5416.java:428:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case

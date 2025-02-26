@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7069/test7069.java:17:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
-/home/arnaik/code-review-test-projects/java/test7069/test7069.java:18:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.AssertionsForClassTypes.fail'
-/home/arnaik/code-review-test-projects/java/test7069/test7069.java:19:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.ThrowableAssert.catchThrowable'
-/home/arnaik/code-review-test-projects/java/test7069/test7069.java:20:	UnnecessaryImport:	Unused static import 'org.mockito.ArgumentMatchers.any'
-/home/arnaik/code-review-test-projects/java/test7069/test7069.java:21:	UnnecessaryImport:	Unused static import 'org.mockito.Mockito.when'

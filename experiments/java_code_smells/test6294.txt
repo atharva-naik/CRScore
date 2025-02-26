@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6294/test6294.java:50:	SingularField:	Perhaps 'endpoint' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test6294/test6294.java:78:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
-/home/arnaik/code-review-test-projects/java/test6294/test6294.java:110:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test6294/test6294.java:120:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

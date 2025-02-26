@@ -1,7 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7095/test7095.java:17:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test7095/test7095.java:74:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test7095/test7095.java:97:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test7095/test7095.java:101:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test7095/test7095.java:105:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test7095/test7095.java:108:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test7095/test7095.java:111:	LiteralsFirstInComparisons:	Position literals first in String comparisons

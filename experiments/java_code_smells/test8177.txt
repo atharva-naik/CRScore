@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8177/test8177.java:51:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test8177/test8177.java:60:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test8177/test8177.java:61:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test8177/test8177.java:62:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test8177/test8177.java:120:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
-/home/arnaik/code-review-test-projects/java/test8177/test8177.java:221:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
-/home/arnaik/code-review-test-projects/java/test8177/test8177.java:318:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test8177/test8177.java:322:	UnusedPrivateField:	Avoid unused private fields such as 'partitionFields'.

@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5524/test5524.java:19:	PackageCase:	Package name contains upper case characters
-/home/arnaik/code-review-test-projects/java/test5524/test5524.java:23:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertEquals'

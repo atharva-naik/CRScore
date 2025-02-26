@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4635/test4635.java:74:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`

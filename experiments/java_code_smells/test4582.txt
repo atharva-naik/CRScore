@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4582/test4582.java:157:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test4582/test4582.java:158:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test4582/test4582.java:180:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test4582/test4582.java:213:	UncommentedEmptyMethodBody:	Document empty method body
-/home/arnaik/code-review-test-projects/java/test4582/test4582.java:278:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test4582/test4582.java:290:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test4582/test4582.java:380:	UselessParentheses:	Useless parentheses.
-/home/arnaik/code-review-test-projects/java/test4582/test4582.java:384:	UselessParentheses:	Useless parentheses.

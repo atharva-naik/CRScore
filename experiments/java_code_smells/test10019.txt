@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test10019/test10019.java:121:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test10019/test10019.java:235:	UncommentedEmptyMethodBody:	Document empty method body
-/home/arnaik/code-review-test-projects/java/test10019/test10019.java:253:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test10019/test10019.java:458:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PMD': 'doPMD' is already in scope

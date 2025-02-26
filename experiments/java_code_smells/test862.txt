@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test862/test862.java:17:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.mainnet.EthHash.EPOCH_LENGTH'
-/home/arnaik/code-review-test-projects/java/test862/test862.java:38:	UnusedPrivateMethod:	Avoid unused private methods such as 'dagSeed(long)'.

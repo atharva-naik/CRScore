@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7215/test7215.java:28:	UnnecessaryImport:	Unused static import 'org.springframework.security.oauth2.server.resource.BearerTokenErrors.invalidRequest'
-/home/arnaik/code-review-test-projects/java/test7215/test7215.java:29:	UnnecessaryImport:	Unused static import 'org.springframework.security.oauth2.server.resource.BearerTokenErrors.invalidToken'
-/home/arnaik/code-review-test-projects/java/test7215/test7215.java:133:	UselessParentheses:	Useless parentheses.

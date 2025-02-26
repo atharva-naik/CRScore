@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test18/test18.java:57:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test18/test18.java:81:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test18/test18.java:219:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FetchActiveFlowDao': 'getExecutableFlowHelper' is already in scope
-/home/arnaik/code-review-test-projects/java/test18/test18.java:223:	CheckResultSet:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
-/home/arnaik/code-review-test-projects/java/test18/test18.java:258:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FetchActiveFlowDao': 'getExecutableFlowMetadataHelper' is already in scope
-/home/arnaik/code-review-test-projects/java/test18/test18.java:262:	CheckResultSet:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
-/home/arnaik/code-review-test-projects/java/test18/test18.java:268:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test18/test18.java:295:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'FetchActiveFlowDao': 'getExecutableFlowHelper' is already in scope

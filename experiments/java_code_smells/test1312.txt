@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1312/test1312.java:39:	UnnecessaryImport:	Unused import 'com.netflix.config.DynamicPropertyFactory'
-/home/arnaik/code-review-test-projects/java/test1312/test1312.java:41:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test1312/test1312.java:105:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

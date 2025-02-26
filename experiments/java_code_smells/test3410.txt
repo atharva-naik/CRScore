@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3410/test3410.java:32:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test3410/test3410.java:246:	UselessParentheses:	Useless parentheses.

@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3798/test3798.java:146:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'RegistrationRequest': 'build' is already in scope
-/home/arnaik/code-review-test-projects/java/test3798/test3798.java:160:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'RegistrationRequest': 'build' is already in scope
-/home/arnaik/code-review-test-projects/java/test3798/test3798.java:175:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'RegistrationRequest': 'build' is already in scope
-/home/arnaik/code-review-test-projects/java/test3798/test3798.java:230:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths

@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4553/test4553.java:43:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.MetadataColumns.DELETE_FILE_ROW_FIELD_NAME'
-/home/arnaik/code-review-test-projects/java/test4553/test4553.java:44:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DEFAULT_FILE_FORMAT'
-/home/arnaik/code-review-test-projects/java/test4553/test4553.java:45:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DEFAULT_FILE_FORMAT_DEFAULT'
-/home/arnaik/code-review-test-projects/java/test4553/test4553.java:46:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DELETE_DEFAULT_FILE_FORMAT'

@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9410/test9410.java:119:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test9410/test9410.java:170:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test9410/test9410.java:177:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test9410/test9410.java:194:	UselessParentheses:	Useless parentheses.

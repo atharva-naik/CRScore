@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test975/test975.java:66:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.NullOrder.NULLS_FIRST'
-/home/arnaik/code-review-test-projects/java/test975/test975.java:67:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.SortDirection.ASC'
-/home/arnaik/code-review-test-projects/java/test975/test975.java:68:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.required'

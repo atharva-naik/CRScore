@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3594/test3594.java:59:	UnusedPrivateField:	Avoid unused private fields such as 'currentTask'.

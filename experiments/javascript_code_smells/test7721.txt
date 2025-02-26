@@ -1,9 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test7721/test7721.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test7721/test7721.js: line 27, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test7721/test7721.js: line 28, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test7721/test7721.js: line 30, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test7721/test7721.js: line 30, col 31, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test7721/test7721.js: line 41, col 18, Unclosed regular expression.
-/home/atharva/CMU/sem4/Directed Study/javascript/test7721/test7721.js: line 41, col 18, Unrecoverable syntax error. (68% scanned).
-
-7 errors

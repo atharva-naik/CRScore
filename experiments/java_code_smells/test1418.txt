@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1418/test1418.java:34:	UnnecessaryImport:	Unused static import 'org.phoenicis.configuration.localisation.Localisation.tr'
-/home/arnaik/code-review-test-projects/java/test1418/test1418.java:165:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale

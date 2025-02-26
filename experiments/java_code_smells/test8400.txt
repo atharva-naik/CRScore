@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8400/test8400.java:4:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'IMAGE_TYPE': the field is declared in an interface type
-/home/arnaik/code-review-test-projects/java/test8400/test8400.java:4:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
-/home/arnaik/code-review-test-projects/java/test8400/test8400.java:5:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'IMAGE_VERSION': the field is declared in an interface type
-/home/arnaik/code-review-test-projects/java/test8400/test8400.java:5:	ConstantsInInterface:	Using constants in interfaces is a bad practice.

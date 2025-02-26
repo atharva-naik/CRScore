@@ -1,8 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test8323/test8323.js: line 30, col 2, Missing semicolon.
-/home/atharva/CMU/sem4/Directed Study/javascript/test8323/test8323.js: line 204, col 29, Did you mean to return a conditional instead of an assignment?
-/home/atharva/CMU/sem4/Directed Study/javascript/test8323/test8323.js: line 363, col 35, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test8323/test8323.js: line 363, col 37, Expected an identifier and instead saw 'default' (a reserved word).
-/home/atharva/CMU/sem4/Directed Study/javascript/test8323/test8323.js: line 981, col 25, 'url' is already defined.
-/home/atharva/CMU/sem4/Directed Study/javascript/test8323/test8323.js: line 1130, col 3, Expected an assignment or function call and instead saw an expression.
-
-6 errors

@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3993/test3993.java:20:	UnnecessaryImport:	Unused static import 'org.apache.lucene.search.DocIdSetIterator.NO_MORE_DOCS'
-/home/arnaik/code-review-test-projects/java/test3993/test3993.java:40:	UncommentedEmptyConstructor:	Document empty constructor
-/home/arnaik/code-review-test-projects/java/test3993/test3993.java:110:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test3993/test3993.java:168:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

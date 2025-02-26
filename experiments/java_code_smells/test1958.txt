@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1958/test1958.java:160:	SingularField:	Perhaps 'tableSchema' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test1958/test1958.java:273:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test1958/test1958.java:297:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test1958/test1958.java:320:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

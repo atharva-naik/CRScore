@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4169/test4169.java:18:	UnnecessaryImport:	Unused static import 'junit.framework.Assert.assertEquals'
-/home/arnaik/code-review-test-projects/java/test4169/test4169.java:19:	UnnecessaryImport:	Unused import 'org.junit.Ignore'
-/home/arnaik/code-review-test-projects/java/test4169/test4169.java:107:	MissingOverride:	The method 'warning(SAXParseException)' is missing an @Override annotation.
-/home/arnaik/code-review-test-projects/java/test4169/test4169.java:111:	MissingOverride:	The method 'error(SAXParseException)' is missing an @Override annotation.
-/home/arnaik/code-review-test-projects/java/test4169/test4169.java:115:	MissingOverride:	The method 'fatalError(SAXParseException)' is missing an @Override annotation.

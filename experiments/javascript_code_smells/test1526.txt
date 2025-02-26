@@ -1,6 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test1526/test1526.js: line 17, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test1526/test1526.js: line 17, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test1526/test1526.js: line 47, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test1526/test1526.js: line 47, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-4 errors

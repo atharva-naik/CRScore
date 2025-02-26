@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1625/test1625.java:89:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'Enum' is already in scope because it is declared in java.lang

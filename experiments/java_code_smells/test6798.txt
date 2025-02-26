@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6798/test6798.java:76:	UnusedPrivateField:	Avoid unused private fields such as 'DEFAULT_PATHS'.

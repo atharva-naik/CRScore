@@ -1,7 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test4891/test4891.js: line 8, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test4891/test4891.js: line 9, col 10, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test4891/test4891.js: line 17, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test4891/test4891.js: line 30, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test4891/test4891.js: line 30, col 8, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-5 errors

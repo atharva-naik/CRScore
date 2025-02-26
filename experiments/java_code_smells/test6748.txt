@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6748/test6748.java:52:	UnusedPrivateField:	Avoid unused private fields such as 'PROP_UPDATE_NOT_IN_PROGRESS'.
-/home/arnaik/code-review-test-projects/java/test6748/test6748.java:61:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
-/home/arnaik/code-review-test-projects/java/test6748/test6748.java:74:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test6748/test6748.java:94:	ControlStatementBraces:	This statement should have braces

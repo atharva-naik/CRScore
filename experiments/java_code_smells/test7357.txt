@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7357/test7357.java:22:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
-/home/arnaik/code-review-test-projects/java/test7357/test7357.java:24:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
-/home/arnaik/code-review-test-projects/java/test7357/test7357.java:26:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
-/home/arnaik/code-review-test-projects/java/test7357/test7357.java:28:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
-/home/arnaik/code-review-test-projects/java/test7357/test7357.java:30:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
-/home/arnaik/code-review-test-projects/java/test7357/test7357.java:32:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
-/home/arnaik/code-review-test-projects/java/test7357/test7357.java:34:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
-/home/arnaik/code-review-test-projects/java/test7357/test7357.java:36:	ConstantsInInterface:	Using constants in interfaces is a bad practice.
-/home/arnaik/code-review-test-projects/java/test7357/test7357.java:38:	ConstantsInInterface:	Using constants in interfaces is a bad practice.

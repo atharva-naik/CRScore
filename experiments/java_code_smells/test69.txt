@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test69/test69.java:181:	CloneMethodReturnTypeMustMatchClassName:	The return type of the clone() method must be the class name when implements Cloneable
-/home/arnaik/code-review-test-projects/java/test69/test69.java:181:	CloneMethodMustImplementCloneable:	clone() method should be implemented only if implementing Cloneable interface

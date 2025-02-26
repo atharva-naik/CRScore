@@ -1,9 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test1439/test1439.js: line 1, col 1, Use the function form of "use strict".
-/home/atharva/CMU/sem4/Directed Study/javascript/test1439/test1439.js: line 3, col 19, 'require' is not defined.
-/home/atharva/CMU/sem4/Directed Study/javascript/test1439/test1439.js: line 5, col 21, 'require' is not defined.
-/home/atharva/CMU/sem4/Directed Study/javascript/test1439/test1439.js: line 6, col 23, 'require' is not defined.
-/home/atharva/CMU/sem4/Directed Study/javascript/test1439/test1439.js: line 8, col 1, 'describe' is not defined.
-/home/atharva/CMU/sem4/Directed Study/javascript/test1439/test1439.js: line 10, col 3, 'describe' is not defined.
-/home/atharva/CMU/sem4/Directed Study/javascript/test1439/test1439.js: line 20, col 3, 'describe' is not defined.
-
-7 errors

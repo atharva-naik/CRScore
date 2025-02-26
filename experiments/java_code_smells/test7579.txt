@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7579/test7579.java:19:	UnnecessaryImport:	Unused import 'org.camunda.bpm.engine.impl.ProcessEngineLogger'
-/home/arnaik/code-review-test-projects/java/test7579/test7579.java:20:	UnnecessaryImport:	Unused import 'org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl'
-/home/arnaik/code-review-test-projects/java/test7579/test7579.java:21:	UnnecessaryImport:	Unused import 'org.camunda.bpm.engine.impl.context.Context'
-/home/arnaik/code-review-test-projects/java/test7579/test7579.java:22:	UnnecessaryImport:	Unused import 'org.camunda.bpm.engine.impl.util.EngineUtilLogger'
-/home/arnaik/code-review-test-projects/java/test7579/test7579.java:24:	UnnecessaryImport:	Unused import 'javax.xml.XMLConstants'

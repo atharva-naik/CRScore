@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9767/test9767.java:47:	UnnecessaryImport:	Unused static import 'de.danoeh.antennapod.adapter.itunes.ItunesAdapter.Podcast'
-/home/arnaik/code-review-test-projects/java/test9767/test9767.java:81:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test9767/test9767.java:96:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
-/home/arnaik/code-review-test-projects/java/test9767/test9767.java:304:	EmptyCatchBlock:	Avoid empty catch blocks

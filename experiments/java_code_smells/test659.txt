@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test659/test659.java:23:	UnnecessaryImport:	Unused import 'com.github.javaparser.resolution.declarations.*'

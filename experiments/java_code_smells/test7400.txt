@@ -1,7 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7400/test7400.java:21:	UnnecessaryImport:	Unused import 'io.netty.buffer.ByteBufUtil'
-/home/arnaik/code-review-test-projects/java/test7400/test7400.java:74:	MethodNamingConventions:	The instance method name 'bytes_zipkinDecoder' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test7400/test7400.java:79:	MethodNamingConventions:	The instance method name 'bytes_protobufDecoder' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test7400/test7400.java:84:	MethodNamingConventions:	The instance method name 'bytes_wireDecoder' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test7400/test7400.java:89:	MethodNamingConventions:	The instance method name 'bytebuffer_zipkinDecoder' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test7400/test7400.java:94:	MethodNamingConventions:	The instance method name 'bytebuffer_protobufDecoder' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test7400/test7400.java:99:	MethodNamingConventions:	The instance method name 'bytebuffer_wireDecoder' doesn't match '[a-z][a-zA-Z0-9]*'

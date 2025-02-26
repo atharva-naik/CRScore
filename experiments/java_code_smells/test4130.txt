@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4130/test4130.java:112:	NonThreadSafeSingleton:	Singleton is not thread safe
-/home/arnaik/code-review-test-projects/java/test4130/test4130.java:221:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
-/home/arnaik/code-review-test-projects/java/test4130/test4130.java:230:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test4130/test4130.java:231:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
-/home/arnaik/code-review-test-projects/java/test4130/test4130.java:247:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test4130/test4130.java:475:	UselessParentheses:	Useless parentheses.
-/home/arnaik/code-review-test-projects/java/test4130/test4130.java:476:	UselessParentheses:	Useless parentheses.
-/home/arnaik/code-review-test-projects/java/test4130/test4130.java:532:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

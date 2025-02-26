@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7387/test7387.java:26:	UnnecessaryImport:	Unused static import 'zipkin.storage.elasticsearch.http.ElasticsearchHttpSpanStore.DEPENDENCY_LINK'
-/home/arnaik/code-review-test-projects/java/test7387/test7387.java:29:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test7387/test7387.java:58:	UncommentedEmptyMethodBody:	Document empty method body

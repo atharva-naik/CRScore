@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4828/test4828.java:17:	UnnecessaryImport:	Unused static import 'com.google.common.truth.Truth.assertThat'

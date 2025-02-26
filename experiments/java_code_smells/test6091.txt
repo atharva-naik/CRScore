@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6091/test6091.java:55:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6091/test6091.java:63:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6091/test6091.java:64:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6091/test6091.java:65:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6091/test6091.java:66:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6091/test6091.java:542:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`

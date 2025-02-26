@@ -1,5 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test8988/test8988.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test8988/test8988.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test8988/test8988.js: line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-
-3 errors

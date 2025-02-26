@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9000/test9000.java:4:	UnnecessaryImport:	Unused import 'android.util.Log'
-/home/arnaik/code-review-test-projects/java/test9000/test9000.java:6:	UnnecessaryImport:	Unused import 'androidx.annotation.UiThread'
-/home/arnaik/code-review-test-projects/java/test9000/test9000.java:18:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test9000/test9000.java:20:	UnusedPrivateField:	Avoid unused private fields such as 'APP_NAME'.
-/home/arnaik/code-review-test-projects/java/test9000/test9000.java:22:	UnusedPrivateField:	Avoid unused private fields such as 'LOGTAG'.
-/home/arnaik/code-review-test-projects/java/test9000/test9000.java:23:	UnusedPrivateField:	Avoid unused private fields such as 'context'.
-/home/arnaik/code-review-test-projects/java/test9000/test9000.java:28:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test9000/test9000.java:35:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'GleanMetricsService': 'start' is already in scope
-/home/arnaik/code-review-test-projects/java/test9000/test9000.java:37:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'GleanMetricsService': 'stop' is already in scope

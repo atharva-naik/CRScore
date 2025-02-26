@@ -1,7 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2214/test2214.java:19:	UnnecessaryImport:	Unused static import 'azkaban.Constants.ConfigurationKeys.AZKABAN_SERVER_HOST_NAME'
-/home/arnaik/code-review-test-projects/java/test2214/test2214.java:35:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test2214/test2214.java:159:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test2214/test2214.java:160:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'WebUtils': 'X_FORWARDED_FOR_HEADER' is already in scope because it is declared in an enclosing type
-/home/arnaik/code-review-test-projects/java/test2214/test2214.java:161:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'WebUtils': 'X_FORWARDED_FOR_HEADER' is already in scope because it is declared in an enclosing type
-/home/arnaik/code-review-test-projects/java/test2214/test2214.java:161:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-/home/arnaik/code-review-test-projects/java/test2214/test2214.java:163:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'WebUtils': 'getRealClientIpAddr' is already in scope

@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7287/test7287.java:10:	UnnecessaryImport:	Unused import 'javaslang.control.Try'
-/home/arnaik/code-review-test-projects/java/test7287/test7287.java:13:	UnnecessaryImport:	Unused import 'java.lang.reflect.Field'
-/home/arnaik/code-review-test-projects/java/test7287/test7287.java:20:	UnnecessaryImport:	Unused static import 'javaslang.API.Tuple'
-/home/arnaik/code-review-test-projects/java/test7287/test7287.java:21:	UnnecessaryImport:	Unused static import 'javaslang.collection.BitMappedTrie.BRANCHING_FACTOR'
-/home/arnaik/code-review-test-projects/java/test7287/test7287.java:22:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
-/home/arnaik/code-review-test-projects/java/test7287/test7287.java:367:	UnusedPrivateMethod:	Avoid unused private methods such as 'assertAreEqual(T, P, Function2<T, P, T>, Seq<?>)'.

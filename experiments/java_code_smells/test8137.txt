@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8137/test8137.java:33:	UnnecessaryImport:	Unused static import 'org.apache.spark.sql.functions.col'
-/home/arnaik/code-review-test-projects/java/test8137/test8137.java:34:	UnnecessaryImport:	Unused static import 'org.apache.spark.sql.functions.lit'
-/home/arnaik/code-review-test-projects/java/test8137/test8137.java:35:	UnnecessaryImport:	Unused static import 'org.apache.spark.sql.functions.when'

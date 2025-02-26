@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5494/test5494.java:34:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test5494/test5494.java:96:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
-/home/arnaik/code-review-test-projects/java/test5494/test5494.java:106:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case

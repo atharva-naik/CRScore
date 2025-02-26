@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8902/test8902.java:13:	UnnecessaryImport:	Unused static import 'javaslang.collection.ArrayType.obj'
-/home/arnaik/code-review-test-projects/java/test8902/test8902.java:14:	UnnecessaryImport:	Unused static import 'javaslang.collection.Collections.withSize'
-/home/arnaik/code-review-test-projects/java/test8902/test8902.java:50:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
-/home/arnaik/code-review-test-projects/java/test8902/test8902.java:94:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
-/home/arnaik/code-review-test-projects/java/test8902/test8902.java:274:	FinalFieldCouldBeStatic:	This final field could be made static
-/home/arnaik/code-review-test-projects/java/test8902/test8902.java:304:	GenericsNaming:	Generics names should be a one letter long and upper case.
-/home/arnaik/code-review-test-projects/java/test8902/test8902.java:305:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
-/home/arnaik/code-review-test-projects/java/test8902/test8902.java:324:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'BitMappedTrie': 'ofAll' is already in scope
-/home/arnaik/code-review-test-projects/java/test8902/test8902.java:339:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'BitMappedTrie': 'ofAll' is already in scope

@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8757/test8757.java:239:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Trigger': 'actionTypeLoader' is already in scope because it is declared in an enclosing type
-/home/arnaik/code-review-test-projects/java/test8757/test8757.java:349:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

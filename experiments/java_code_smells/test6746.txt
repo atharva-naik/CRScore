@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6746/test6746.java:22:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6746/test6746.java:76:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test6746/test6746.java:167:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test6746/test6746.java:193:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test6746/test6746.java:316:	UselessParentheses:	Useless parentheses.

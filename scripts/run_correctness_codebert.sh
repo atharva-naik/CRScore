@@ -1,1 +1,0 @@
-python -m src.models.correctness_codebert --model_path "microsoft/codebert-base" --output_dir "ckpts/ccbert_complex_cc_net"

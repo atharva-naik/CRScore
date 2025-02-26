@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9832/test9832.java:7:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertEquals'
-/home/arnaik/code-review-test-projects/java/test9832/test9832.java:8:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertNotSame'
-/home/arnaik/code-review-test-projects/java/test9832/test9832.java:9:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertTrue'

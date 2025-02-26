@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8512/test8512.java:35:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'

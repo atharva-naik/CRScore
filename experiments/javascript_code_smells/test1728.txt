@@ -1,6 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test1728/test1728.js: line 6, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test1728/test1728.js: line 50, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test1728/test1728.js: line 69, col 30, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test1728/test1728.js: line 90, col 16, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-4 errors

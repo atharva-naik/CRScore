@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7914/test7914.java:24:	UnnecessaryImport:	Unused import 'java.util.Map'
-/home/arnaik/code-review-test-projects/java/test7914/test7914.java:31:	UnnecessaryImport:	Unused import 'org.apache.parquet.hadoop.ParquetFileReader'
-/home/arnaik/code-review-test-projects/java/test7914/test7914.java:35:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.Files.localInput'

@@ -1,6 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test5890/test5890.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test5890/test5890.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test5890/test5890.js: line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test5890/test5890.js: line 10, col 47, 'default parameters' is only available in ES6 (use 'esversion: 6').
-
-4 errors

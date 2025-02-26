@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test735/test735.java:44:	UnnecessaryImport:	Unused import 'java.io.File'
-/home/arnaik/code-review-test-projects/java/test735/test735.java:48:	UnnecessaryImport:	Unused import 'org.apache.logging.log4j.ThreadContext'
-/home/arnaik/code-review-test-projects/java/test735/test735.java:50:	UnnecessaryImport:	Unused import 'org.junit.Rule'
-/home/arnaik/code-review-test-projects/java/test735/test735.java:51:	UnnecessaryImport:	Unused import 'org.junit.rules.TestName'
-/home/arnaik/code-review-test-projects/java/test735/test735.java:52:	UnnecessaryImport:	Unused import 'org.junit.rules.TestWatcher'
-/home/arnaik/code-review-test-projects/java/test735/test735.java:53:	UnnecessaryImport:	Unused import 'org.junit.runner.Description'

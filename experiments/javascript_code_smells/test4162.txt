@@ -1,9 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test4162/test4162.js: line 19, col 1, Use the function form of "use strict".
-/home/atharva/CMU/sem4/Directed Study/javascript/test4162/test4162.js: line 21, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test4162/test4162.js: line 22, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test4162/test4162.js: line 23, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test4162/test4162.js: line 25, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test4162/test4162.js: line 25, col 16, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test4162/test4162.js: line 50, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-
-7 errors

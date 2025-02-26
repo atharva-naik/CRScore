@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4790/test4790.java:47:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test4790/test4790.java:58:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test4790/test4790.java:144:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test4790/test4790.java:159:	UnusedPrivateMethod:	Avoid unused private methods such as 'isJunit4(ModuleVersionIdentifier)'.

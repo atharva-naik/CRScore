@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5141/test5141.java:40:	UnnecessaryImport:	Unused static import 'org.phoenicis.configuration.localisation.Localisation.tr'
-/home/arnaik/code-review-test-projects/java/test5141/test5141.java:68:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead

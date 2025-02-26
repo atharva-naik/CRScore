@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8150/test8150.java:19:	UnnecessaryImport:	Unused static import 'org.apache.lucene.codecs.lucene80.Lucene80DocValuesFormat.DIRECT_MONOTONIC_BLOCK_SHIFT'
-/home/arnaik/code-review-test-projects/java/test8150/test8150.java:20:	UnnecessaryImport:	Unused static import 'org.apache.lucene.codecs.lucene80.Lucene80DocValuesFormat.NUMERIC_BLOCK_SHIFT'
-/home/arnaik/code-review-test-projects/java/test8150/test8150.java:21:	UnnecessaryImport:	Unused static import 'org.apache.lucene.codecs.lucene80.Lucene80DocValuesFormat.NUMERIC_BLOCK_SIZE'
-/home/arnaik/code-review-test-projects/java/test8150/test8150.java:46:	UnnecessaryImport:	Unused import 'org.apache.lucene.store.*'
-/home/arnaik/code-review-test-projects/java/test8150/test8150.java:62:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
-/home/arnaik/code-review-test-projects/java/test8150/test8150.java:147:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
-/home/arnaik/code-review-test-projects/java/test8150/test8150.java:460:	UselessParentheses:	Useless parentheses.
-/home/arnaik/code-review-test-projects/java/test8150/test8150.java:517:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.

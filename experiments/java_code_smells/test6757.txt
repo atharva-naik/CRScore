@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6757/test6757.java:30:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
-/home/arnaik/code-review-test-projects/java/test6757/test6757.java:33:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element

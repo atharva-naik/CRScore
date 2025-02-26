@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3487/test3487.java:94:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'InitCodeTransformer': 'createCollectionMap' is already in scope
-/home/arnaik/code-review-test-projects/java/test3487/test3487.java:169:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead

@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8776/test8776.java:19:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.operation.PDErrorHandler.getRegionResponseErrorExtractor'
-/home/arnaik/code-review-test-projects/java/test8776/test8776.java:20:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.pd.PDError.buildFromPdpbError'
-/home/arnaik/code-review-test-projects/java/test8776/test8776.java:59:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test8776/test8776.java:66:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test8776/test8776.java:260:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test8776/test8776.java:263:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
-/home/arnaik/code-review-test-projects/java/test8776/test8776.java:287:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test8776/test8776.java:290:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test8776/test8776.java:375:	EmptyCatchBlock:	Avoid empty catch blocks

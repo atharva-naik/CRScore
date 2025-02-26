@@ -1,8 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test7335/test7335.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test7335/test7335.js: line 2, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test7335/test7335.js: line 13, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test7335/test7335.js: line 14, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test7335/test7335.js: line 56, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test7335/test7335.js: line 57, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-6 errors

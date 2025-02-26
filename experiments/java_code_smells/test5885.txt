@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5885/test5885.java:34:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test5885/test5885.java:98:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test5885/test5885.java:159:	CompareObjectsWithEquals:	Use equals() to compare object references.
-/home/arnaik/code-review-test-projects/java/test5885/test5885.java:159:	CompareObjectsWithEquals:	Use equals() to compare object references.
-/home/arnaik/code-review-test-projects/java/test5885/test5885.java:181:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'MetricsModes': 'fromString' is already in scope

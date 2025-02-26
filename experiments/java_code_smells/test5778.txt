@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5778/test5778.java:27:	LooseCoupling:	Avoid using implementation types like 'BaseRefreshableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test5778/test5778.java:29:	LooseCoupling:	Avoid using implementation types like 'BaseRefreshableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test5778/test5778.java:34:	LooseCoupling:	Avoid using implementation types like 'BaseRefreshableMap'; use the interface instead

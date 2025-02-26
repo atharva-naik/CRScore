@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3401/test3401.java:74:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
-/home/arnaik/code-review-test-projects/java/test3401/test3401.java:75:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThatExceptionOfType'
-/home/arnaik/code-review-test-projects/java/test3401/test3401.java:76:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.fail'
-/home/arnaik/code-review-test-projects/java/test3401/test3401.java:77:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertFalse'
-/home/arnaik/code-review-test-projects/java/test3401/test3401.java:78:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertTrue'
-/home/arnaik/code-review-test-projects/java/test3401/test3401.java:79:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.Contents.utf8String'
-/home/arnaik/code-review-test-projects/java/test3401/test3401.java:80:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.HttpMethod.POST'
-/home/arnaik/code-review-test-projects/java/test3401/test3401.java:585:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

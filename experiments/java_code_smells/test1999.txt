@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1999/test1999.java:113:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test1999/test1999.java:122:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

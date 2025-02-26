@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8198/test8198.java:46:	SingularField:	Perhaps 'btnAddToQueue' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test8198/test8198.java:47:	SingularField:	Perhaps 'btnMarkAsPlayed' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test8198/test8198.java:48:	SingularField:	Perhaps 'btnMarkAsUnplayed' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test8198/test8198.java:49:	SingularField:	Perhaps 'btnDownload' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test8198/test8198.java:50:	SingularField:	Perhaps 'btnDelete' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test8198/test8198.java:83:	FormalParameterNamingConventions:	The method parameter name 'ListView' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test8198/test8198.java:189:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test8198/test8198.java:360:	UselessQualifiedThis:	Useless qualified this usage in the same class.
-/home/arnaik/code-review-test-projects/java/test8198/test8198.java:367:	UselessParentheses:	Useless parentheses.

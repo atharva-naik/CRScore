@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test182/test182.java:26:	UnusedPrivateField:	Avoid unused private fields such as 'isReverted'.

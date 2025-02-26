@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6709/test6709.java:27:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6709/test6709.java:44:	UnnecessaryModifier:	Unnecessary modifier 'abstract' on method 'setItemVisibility': the method is declared in an interface type
-/home/arnaik/code-review-test-projects/java/test6709/test6709.java:69:	UnusedLocalVariable:	Avoid unused local variables such as 'state'.

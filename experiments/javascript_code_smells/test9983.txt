@@ -1,9 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test9983/test9983.js: line 12, col 1, Use the function form of "use strict".
-/home/atharva/CMU/sem4/Directed Study/javascript/test9983/test9983.js: line 14, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test9983/test9983.js: line 16, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test9983/test9983.js: line 17, col 22, Missing semicolon.
-/home/atharva/CMU/sem4/Directed Study/javascript/test9983/test9983.js: line 29, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test9983/test9983.js: line 33, col 3, 'concise methods' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test9983/test9983.js: line 48, col 1, 'module' is not defined.
-
-7 errors

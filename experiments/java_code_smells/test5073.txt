@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5073/test5073.java:54:	UnusedLocalVariable:	Avoid unused local variables such as 'method'.
-/home/arnaik/code-review-test-projects/java/test5073/test5073.java:92:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`

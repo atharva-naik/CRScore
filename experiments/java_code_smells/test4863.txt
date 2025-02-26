@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4863/test4863.java:150:	UnusedPrivateMethod:	Avoid unused private methods such as 'onConfigChanged(ConfigChanged)'.
-/home/arnaik/code-review-test-projects/java/test4863/test4863.java:152:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test4863/test4863.java:170:	UnusedPrivateMethod:	Avoid unused private methods such as 'onGameTick(GameTick)'.
-/home/arnaik/code-review-test-projects/java/test4863/test4863.java:170:	UnusedFormalParameter:	Avoid unused method parameters such as 'event'.
-/home/arnaik/code-review-test-projects/java/test4863/test4863.java:193:	UnusedPrivateMethod:	Avoid unused private methods such as 'onVarClientStrChanged(VarClientStrChanged)'.
-/home/arnaik/code-review-test-projects/java/test4863/test4863.java:233:	LiteralsFirstInComparisons:	Position literals first in String comparisons

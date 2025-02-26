@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6834/test6834.java:35:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6834/test6834.java:48:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6834/test6834.java:111:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6834/test6834.java:148:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6834/test6834.java:195:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

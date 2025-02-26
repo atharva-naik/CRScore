@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4330/test4330.java:96:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
-/home/arnaik/code-review-test-projects/java/test4330/test4330.java:97:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test4330/test4330.java:132:	CloneMethodMustImplementCloneable:	clone() method should be implemented only if implementing Cloneable interface
-/home/arnaik/code-review-test-projects/java/test4330/test4330.java:145:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
-/home/arnaik/code-review-test-projects/java/test4330/test4330.java:146:	ControlStatementBraces:	This statement should have braces

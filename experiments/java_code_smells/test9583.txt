@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9583/test9583.java:42:	UnnecessaryImport:	Unused static import 'org.apache.lucene.search.ScoreMode.COMPLETE'

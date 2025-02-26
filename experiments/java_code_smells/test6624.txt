@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6624/test6624.java:36:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6624/test6624.java:103:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DataFiles': 'builder' is already in scope

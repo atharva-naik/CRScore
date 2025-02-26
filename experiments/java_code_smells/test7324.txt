@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7324/test7324.java:20:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.Contents.reader'
-/home/arnaik/code-review-test-projects/java/test7324/test7324.java:21:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.Route.combine'
-/home/arnaik/code-review-test-projects/java/test7324/test7324.java:22:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.Route.delete'
-/home/arnaik/code-review-test-projects/java/test7324/test7324.java:23:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.Route.get'
-/home/arnaik/code-review-test-projects/java/test7324/test7324.java:24:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.Route.post'
-/home/arnaik/code-review-test-projects/java/test7324/test7324.java:25:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.tracing.Tags.EXCEPTION'

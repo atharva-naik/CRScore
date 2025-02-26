@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4715/test4715.java:345:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test4715/test4715.java:377:	GenericsNaming:	Generics names should be a one letter long and upper case.
-/home/arnaik/code-review-test-projects/java/test4715/test4715.java:379:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test4715/test4715.java:380:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test4715/test4715.java:382:	UncommentedEmptyConstructor:	Document empty constructor
-/home/arnaik/code-review-test-projects/java/test4715/test4715.java:490:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test4715/test4715.java:504:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test4715/test4715.java:638:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test4715/test4715.java:667:	IdenticalCatchBranches:	'catch' branch identical to 'KeyChainException' branch

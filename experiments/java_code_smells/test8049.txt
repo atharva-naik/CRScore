@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8049/test8049.java:112:	UnnecessaryModifier:	Unnecessary modifier 'private' on constructor 'RestAction(String)': enum constructors are implicitly private
-/home/arnaik/code-review-test-projects/java/test8049/test8049.java:269:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

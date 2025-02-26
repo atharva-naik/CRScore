@@ -1,8 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test9929/test9929.js: line 81, col 75, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test9929/test9929.js: line 82, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test9929/test9929.js: line 84, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test9929/test9929.js: line 85, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test9929/test9929.js: line 86, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test9929/test9929.js: line 87, col 21, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-6 errors

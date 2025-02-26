@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5124/test5124.java:22:	UnnecessaryImport:	Unused import 'io.vavr.collection.*'
-/home/arnaik/code-review-test-projects/java/test5124/test5124.java:31:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test5124/test5124.java:63:	UnsynchronizedStaticFormatter:	Static Formatter objects should be accessed in a synchronized manner

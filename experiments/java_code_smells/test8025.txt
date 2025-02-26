@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8025/test8025.java:130:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'IntMap': 'of' is already in scope
-/home/arnaik/code-review-test-projects/java/test8025/test8025.java:155:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'IntMap': 'of' is already in scope
-/home/arnaik/code-review-test-projects/java/test8025/test8025.java:269:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test8025/test8025.java:306:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'IntMap': 'of' is already in scope
-/home/arnaik/code-review-test-projects/java/test8025/test8025.java:335:	GenericsNaming:	Generics names should be a one letter long and upper case.
-/home/arnaik/code-review-test-projects/java/test8025/test8025.java:335:	GenericsNaming:	Generics names should be a one letter long and upper case.
-/home/arnaik/code-review-test-projects/java/test8025/test8025.java:341:	GenericsNaming:	Generics names should be a one letter long and upper case.
-/home/arnaik/code-review-test-projects/java/test8025/test8025.java:341:	GenericsNaming:	Generics names should be a one letter long and upper case.
-/home/arnaik/code-review-test-projects/java/test8025/test8025.java:341:	GenericsNaming:	Generics names should be a one letter long and upper case.

@@ -1,8 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test5803/test5803.js: line 19, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test5803/test5803.js: line 20, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test5803/test5803.js: line 25, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test5803/test5803.js: line 26, col 24, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test5803/test5803.js: line 51, col 5, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test5803/test5803.js: line 52, col 5, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-6 errors

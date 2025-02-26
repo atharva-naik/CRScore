@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test519/test519.java:33:	UnnecessaryImport:	Unused import 'java.util.Collections'
-/home/arnaik/code-review-test-projects/java/test519/test519.java:35:	UnnecessaryImport:	Unused import 'java.util.Iterator'
-/home/arnaik/code-review-test-projects/java/test519/test519.java:131:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test519/test519.java:193:	UselessParentheses:	Useless parentheses.
-/home/arnaik/code-review-test-projects/java/test519/test519.java:313:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test519/test519.java:323:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test519/test519.java:327:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test519/test519.java:430:	UnusedPrivateMethod:	Avoid unused private methods such as 'getRampupPercentageComparator()'.

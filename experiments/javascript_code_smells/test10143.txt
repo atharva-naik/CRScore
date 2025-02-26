@@ -1,4 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test10143/test10143.js: line 5, col 30, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test10143/test10143.js: line 5, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-
-2 errors

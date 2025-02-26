@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6693/test6693.java:111:	EmptyCatchBlock:	Avoid empty catch blocks
-/home/arnaik/code-review-test-projects/java/test6693/test6693.java:163:	UnconditionalIfStatement:	Do not use if statements that are always true or always false

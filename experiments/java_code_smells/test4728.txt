@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4728/test4728.java:23:	SingularField:	Perhaps 'clientHostname' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test4728/test4728.java:24:	SingularField:	Perhaps 'clientPort' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test4728/test4728.java:25:	SingularField:	Perhaps 'usesSSL' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test4728/test4728.java:29:	UnusedPrivateField:	Avoid unused private fields such as 'mailPort'.

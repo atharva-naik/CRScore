@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5856/test5856.java:186:	EmptyCatchBlock:	Avoid empty catch blocks
-/home/arnaik/code-review-test-projects/java/test5856/test5856.java:188:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
-/home/arnaik/code-review-test-projects/java/test5856/test5856.java:189:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test5856/test5856.java:193:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.

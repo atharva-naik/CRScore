@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6811/test6811.java:61:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test6811/test6811.java:71:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test6811/test6811.java:82:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test6811/test6811.java:91:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

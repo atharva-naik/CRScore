@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2851/test2851.java:18:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test2851/test2851.java:60:	UnusedFormalParameter:	Avoid unused method parameters such as 'newVersionCode'.

@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7569/test7569.java:63:	UnnecessaryImport:	Unused static import 'org.apache.http.protocol.ExecutionContext.HTTP_TARGET_HOST'
-/home/arnaik/code-review-test-projects/java/test7569/test7569.java:64:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.DriverCommand.*'
-/home/arnaik/code-review-test-projects/java/test7569/test7569.java:100:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'httpClientFactory' in a constructor.
-/home/arnaik/code-review-test-projects/java/test7569/test7569.java:309:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test7569/test7569.java:327:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test7569/test7569.java:329:	IdenticalCatchBranches:	'catch' branch identical to 'BindException' branch
-/home/arnaik/code-review-test-projects/java/test7569/test7569.java:335:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test7569/test7569.java:376:	IdenticalCatchBranches:	'catch' branch identical to 'URISyntaxException' branch
-/home/arnaik/code-review-test-projects/java/test7569/test7569.java:378:	IdenticalCatchBranches:	'catch' branch identical to 'URISyntaxException' branch

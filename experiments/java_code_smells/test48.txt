@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test48/test48.java:204:	UnusedFormalParameter:	Avoid unused method parameters such as 'adapter'.
-/home/arnaik/code-review-test-projects/java/test48/test48.java:956:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DBReader': 'getFeedItemList' is already in scope
-/home/arnaik/code-review-test-projects/java/test48/test48.java:960:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DBReader': 'getFeedItemList' is already in scope

@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9178/test9178.java:42:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test9178/test9178.java:48:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead

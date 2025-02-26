@@ -1,5 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test2909/test2909.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test2909/test2909.js: line 10, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test2909/test2909.js: line 12, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-3 errors

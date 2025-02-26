@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9383/test9383.java:71:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.DEFAULT_NAME_MAPPING'
-/home/arnaik/code-review-test-projects/java/test9383/test9383.java:214:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test9383/test9383.java:398:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test9383/test9383.java:470:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test9383/test9383.java:473:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you

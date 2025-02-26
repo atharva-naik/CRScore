@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7540/test7540.java:36:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test7540/test7540.java:43:	AvoidThreadGroup:	Avoid using java.lang.ThreadGroup; it is not thread safe
-/home/arnaik/code-review-test-projects/java/test7540/test7540.java:43:	AvoidThreadGroup:	Avoid using java.lang.ThreadGroup; it is not thread safe
-/home/arnaik/code-review-test-projects/java/test7540/test7540.java:176:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test7540/test7540.java:221:	EmptyCatchBlock:	Avoid empty catch blocks
-/home/arnaik/code-review-test-projects/java/test7540/test7540.java:300:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`

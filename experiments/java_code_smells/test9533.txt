@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9533/test9533.java:27:	UnnecessaryImport:	Unused import 'java.util.Arrays'
-/home/arnaik/code-review-test-projects/java/test9533/test9533.java:31:	UnnecessaryImport:	Unused import 'org.apache.flink.table.data.*'
-/home/arnaik/code-review-test-projects/java/test9533/test9533.java:51:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test9533/test9533.java:234:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
-/home/arnaik/code-review-test-projects/java/test9533/test9533.java:606:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test9533/test9533.java:648:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6542/test6542.java:17:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.api.jsonrpc.RpcApis.DEFAULT_RPC_APIS'
-/home/arnaik/code-review-test-projects/java/test6542/test6542.java:30:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6542/test6542.java:31:	AvoidUsingHardCodedIP:	Do not hard code the IP address DEFAULT_WEBSOCKET_HOST
-/home/arnaik/code-review-test-projects/java/test6542/test6542.java:41:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
-/home/arnaik/code-review-test-projects/java/test6542/test6542.java:43:	UnusedPrivateField:	Avoid unused private fields such as 'authenticationAlgorithm'.

@@ -1,7 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test4362/test4362.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test4362/test4362.js: line 9, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test4362/test4362.js: line 12, col 23, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test4362/test4362.js: line 18, col 22, Unclosed regular expression.
-/home/atharva/CMU/sem4/Directed Study/javascript/test4362/test4362.js: line 18, col 22, Unrecoverable syntax error. (31% scanned).
-
-5 errors

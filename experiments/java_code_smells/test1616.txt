@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1616/test1616.java:163:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test1616/test1616.java:296:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test1616/test1616.java:336:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test1616/test1616.java:347:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test1616/test1616.java:352:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test1616/test1616.java:379:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test1616/test1616.java:389:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test1616/test1616.java:402:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test1616/test1616.java:418:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable

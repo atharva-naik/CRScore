@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8344/test8344.java:32:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test8344/test8344.java:85:	UselessParentheses:	Useless parentheses.

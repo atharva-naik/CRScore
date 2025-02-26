@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8674/test8674.java:953:	MethodNamingConventions:	The static method name 'TO_GROUP' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test8674/test8674.java:965:	MethodNamingConventions:	The static method name 'TO_CHILD' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test8674/test8674.java:977:	MethodNamingConventions:	The static method name 'PACK' doesn't match '[a-z][a-zA-Z0-9]*'

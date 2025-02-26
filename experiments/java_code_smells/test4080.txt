@@ -1,7 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4080/test4080.java:77:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.GC_ENABLED'
-/home/arnaik/code-review-test-projects/java/test4080/test4080.java:90:	UnusedPrivateField:	Avoid unused private fields such as 'HIVE_ICEBERG_METADATA_REFRESH_MAX_RETRIES'.
-/home/arnaik/code-review-test-projects/java/test4080/test4080.java:94:	UnusedPrivateField:	Avoid unused private fields such as 'HIVE_ICEBERG_METADATA_REFRESH_MAX_RETRIES_DEFAULT'.
-/home/arnaik/code-review-test-projects/java/test4080/test4080.java:192:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test4080/test4080.java:265:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
-/home/arnaik/code-review-test-projects/java/test4080/test4080.java:269:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test4080/test4080.java:279:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths

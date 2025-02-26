@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5626/test5626.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
-/home/arnaik/code-review-test-projects/java/test5626/test5626.java:5:	ClassNamingConventions:	The utility class name 'class194' doesn't match '[A-Z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test5626/test5626.java:5:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test5626/test5626.java:74:	UncommentedEmptyConstructor:	Document empty constructor
-/home/arnaik/code-review-test-projects/java/test5626/test5626.java:74:	UnusedFormalParameter:	Avoid unused constructor parameters such as 'var1'.

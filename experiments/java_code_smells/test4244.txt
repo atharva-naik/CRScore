@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4244/test4244.java:39:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test4244/test4244.java:106:	SimplifyConditional:	No need to check for null before an instanceof

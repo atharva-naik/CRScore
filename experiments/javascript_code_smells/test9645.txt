@@ -1,7 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test9645/test9645.js: line 3, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test9645/test9645.js: line 4, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test9645/test9645.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test9645/test9645.js: line 6, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test9645/test9645.js: line 46, col 2, Missing semicolon.
-
-5 errors

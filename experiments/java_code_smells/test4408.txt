@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4408/test4408.java:146:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-/home/arnaik/code-review-test-projects/java/test4408/test4408.java:168:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale

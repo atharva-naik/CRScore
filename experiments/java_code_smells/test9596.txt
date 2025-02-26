@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9596/test9596.java:89:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'cond'
-/home/arnaik/code-review-test-projects/java/test9596/test9596.java:103:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'cond'
-/home/arnaik/code-review-test-projects/java/test9596/test9596.java:164:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 's'
-/home/arnaik/code-review-test-projects/java/test9596/test9596.java:184:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test9596/test9596.java:190:	UncommentedEmptyMethodBody:	Document empty method body

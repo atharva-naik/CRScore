@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4532/test4532.java:14:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test4532/test4532.java:126:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'SP': 'getInt' is already in scope

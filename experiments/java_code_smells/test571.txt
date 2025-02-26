@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test571/test571.java:17:	UnnecessaryImport:	Unused import 'com.google.api.codegen.config.MethodConfig'
-/home/arnaik/code-review-test-projects/java/test571/test571.java:20:	UnnecessaryImport:	Unused import 'com.google.api.codegen.transformer.SurfaceNamer'
-/home/arnaik/code-review-test-projects/java/test571/test571.java:23:	UnnecessaryImport:	Unused import 'com.google.api.codegen.viewmodel.SimpleParamDocView'
-/home/arnaik/code-review-test-projects/java/test571/test571.java:24:	UnnecessaryImport:	Unused import 'com.google.api.tools.framework.model.Field'

@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9674/test9674.java:53:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test9674/test9674.java:69:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test9674/test9674.java:82:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test9674/test9674.java:94:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test9674/test9674.java:132:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

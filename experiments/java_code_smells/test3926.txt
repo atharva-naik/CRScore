@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3926/test3926.java:28:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test3926/test3926.java:43:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test3926/test3926.java:74:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
-/home/arnaik/code-review-test-projects/java/test3926/test3926.java:106:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

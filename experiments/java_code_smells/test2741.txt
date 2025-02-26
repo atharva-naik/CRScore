@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2741/test2741.java:7:	UnnecessaryImport:	Unused import 'android.view.MenuInflater'
-/home/arnaik/code-review-test-projects/java/test2741/test2741.java:98:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`

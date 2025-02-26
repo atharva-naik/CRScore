@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6240/test6240.java:21:	UnnecessaryImport:	Unused import 'java.util.concurrent.atomic.AtomicInteger'
-/home/arnaik/code-review-test-projects/java/test6240/test6240.java:23:	UnnecessaryImport:	Unused import 'org.apache.servicecomb.foundation.common.event.EventManager'
-/home/arnaik/code-review-test-projects/java/test6240/test6240.java:29:	UnnecessaryImport:	Unused import 'org.apache.servicecomb.foundation.vertx.ClientConnectedEvent'
-/home/arnaik/code-review-test-projects/java/test6240/test6240.java:32:	UnnecessaryImport:	Unused import 'com.netflix.config.DynamicPropertyFactory'

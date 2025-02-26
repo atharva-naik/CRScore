@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test10011/test10011.java:77:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
-/home/arnaik/code-review-test-projects/java/test10011/test10011.java:209:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'solrResourceLoader'
-/home/arnaik/code-review-test-projects/java/test10011/test10011.java:221:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test10011/test10011.java:224:	ControlStatementBraces:	This statement should have braces

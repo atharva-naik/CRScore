@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test685/test685.java:22:	UnnecessaryImport:	Unused import 'com.playonlinux.common.dtos.*'
-/home/arnaik/code-review-test-projects/java/test685/test685.java:26:	UnnecessaryImport:	Unused import 'com.playonlinux.ui.api.InstallerFilter'
-/home/arnaik/code-review-test-projects/java/test685/test685.java:59:	UselessOverridingMethod:	Overriding method merely calls super

@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1933/test1933.java:48:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
-/home/arnaik/code-review-test-projects/java/test1933/test1933.java:84:	MethodNamingConventions:	The instance method name 'OnClickListOffline' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test1933/test1933.java:92:	MethodNamingConventions:	The instance method name 'OnLongClickListOffline' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test1933/test1933.java:107:	MissingOverride:	The method 'run()' is missing an @Override annotation.
-/home/arnaik/code-review-test-projects/java/test1933/test1933.java:120:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test1933/test1933.java:185:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

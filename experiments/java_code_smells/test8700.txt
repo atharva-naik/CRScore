@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8700/test8700.java:61:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

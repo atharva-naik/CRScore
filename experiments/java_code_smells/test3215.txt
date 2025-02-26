@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3215/test3215.java:76:	MissingOverride:	The method 'invoke(Object, Method, Object[])' is missing an @Override annotation.
-/home/arnaik/code-review-test-projects/java/test3215/test3215.java:96:	MissingOverride:	The method 'invoke(Object, Method, Object[])' is missing an @Override annotation.
-/home/arnaik/code-review-test-projects/java/test3215/test3215.java:120:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
-/home/arnaik/code-review-test-projects/java/test3215/test3215.java:319:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test3215/test3215.java:329:	MissingOverride:	The method 'invoke(Object, Method, Object[])' is missing an @Override annotation.
-/home/arnaik/code-review-test-projects/java/test3215/test3215.java:330:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test3215/test3215.java:499:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test3215/test3215.java:573:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

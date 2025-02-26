@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5820/test5820.java:253:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test5820/test5820.java:353:	AvoidAccessibilityAlteration:	You should not modify visibility of constructors, methods or fields using setAccessible()
-/home/arnaik/code-review-test-projects/java/test5820/test5820.java:378:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.

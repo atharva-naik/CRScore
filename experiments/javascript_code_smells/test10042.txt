@@ -1,4 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test10042/test10042.js: line 1, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test10042/test10042.js: line 19, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-
-2 errors

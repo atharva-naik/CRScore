@@ -1,9 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test7330/test7330.js: line 19, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test7330/test7330.js: line 31, col 1, 'export' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test7330/test7330.js: line 35, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test7330/test7330.js: line 35, col 5, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test7330/test7330.js: line 38, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test7330/test7330.js: line 39, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test7330/test7330.js: line 40, col 9, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-7 errors

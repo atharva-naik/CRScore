@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6823/test6823.java:248:	UncommentedEmptyMethodBody:	Document empty method body
-/home/arnaik/code-review-test-projects/java/test6823/test6823.java:256:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test6823/test6823.java:271:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} && {thenBranch};`

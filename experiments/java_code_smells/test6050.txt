@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6050/test6050.java:17:	UnnecessaryImport:	Unused static import 'com.google.common.base.Preconditions.checkState'
-/home/arnaik/code-review-test-projects/java/test6050/test6050.java:69:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test6050/test6050.java:328:	UnnecessaryModifier:	Unnecessary modifier 'final' on resource specification 'in': resource specifications are implicitly final
-/home/arnaik/code-review-test-projects/java/test6050/test6050.java:338:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test6050/test6050.java:340:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test6050/test6050.java:370:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test6050/test6050.java:418:	EmptyCatchBlock:	Avoid empty catch blocks
-/home/arnaik/code-review-test-projects/java/test6050/test6050.java:421:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

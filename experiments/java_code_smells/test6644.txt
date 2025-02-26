@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6644/test6644.java:26:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.optional'
-/home/arnaik/code-review-test-projects/java/test6644/test6644.java:27:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.required'
-/home/arnaik/code-review-test-projects/java/test6644/test6644.java:140:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'ManifestFile': 'schema' is already in scope

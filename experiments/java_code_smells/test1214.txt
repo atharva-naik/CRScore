@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1214/test1214.java:65:	AssignmentInOperand:	Avoid assignments in operands
-/home/arnaik/code-review-test-projects/java/test1214/test1214.java:69:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test1214/test1214.java:89:	AssignmentInOperand:	Avoid assignments in operands
-/home/arnaik/code-review-test-projects/java/test1214/test1214.java:114:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test1214/test1214.java:115:	ControlStatementBraces:	This statement should have braces

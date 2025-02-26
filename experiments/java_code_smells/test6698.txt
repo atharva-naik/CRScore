@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6698/test6698.java:42:	UnnecessaryImport:	Unused static import 'zipkin2.Call.propagateIfFatal'
-/home/arnaik/code-review-test-projects/java/test6698/test6698.java:81:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test6698/test6698.java:109:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test6698/test6698.java:117:	ControlStatementBraces:	This statement should have braces
-/home/arnaik/code-review-test-projects/java/test6698/test6698.java:139:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.

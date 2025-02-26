@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6170/test6170.java:10:	UnnecessaryImport:	Unused import 'javaslang.collection.Stream'
-/home/arnaik/code-review-test-projects/java/test6170/test6170.java:11:	UnnecessaryImport:	Unused import 'javaslang.collection.Vector'
-/home/arnaik/code-review-test-projects/java/test6170/test6170.java:54:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
-/home/arnaik/code-review-test-projects/java/test6170/test6170.java:105:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Lazy': 'of' is already in scope
-/home/arnaik/code-review-test-projects/java/test6170/test6170.java:125:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Lazy': 'of' is already in scope
-/home/arnaik/code-review-test-projects/java/test6170/test6170.java:184:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Lazy': 'of' is already in scope

@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4969/test4969.java:58:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test4969/test4969.java:64:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
-/home/arnaik/code-review-test-projects/java/test4969/test4969.java:88:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
-/home/arnaik/code-review-test-projects/java/test4969/test4969.java:88:	SimplifyConditional:	No need to check for null before an instanceof

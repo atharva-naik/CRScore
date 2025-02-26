@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8209/test8209.java:46:	UnusedPrivateField:	Avoid unused private fields such as 'isMemoryCircuitBreakerEnabled'.
-/home/arnaik/code-review-test-projects/java/test8209/test8209.java:87:	UselessParentheses:	Useless parentheses.

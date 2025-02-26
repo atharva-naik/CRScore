@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5773/test5773.java:37:	UnnecessaryImport:	Unused import 'com.jetbrains.python.sdk.PythonSdkType'
-/home/arnaik/code-review-test-projects/java/test5773/test5773.java:125:	UnusedPrivateMethod:	Avoid unused private methods such as 'rankResult(PsiFile, GlobalSearchScope, Sdk)'.
-/home/arnaik/code-review-test-projects/java/test5773/test5773.java:125:	UnusedFormalParameter:	Avoid unused method parameters such as 'sdk'.

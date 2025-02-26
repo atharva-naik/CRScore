@@ -1,0 +1,24 @@
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+[2025-02-25 11:19:42,750] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Warning: The cache directory for DeepSpeed Triton autotune, /home/mkapadni/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Loading data from /home/mkapadni/work/crscore_plus_plus/Comment_Generation/msg-valid.jsonl
+Loading model: unsloth/Qwen2.5-Coder-3B-Instruct
+==((====))==  Unsloth 2025.1.7: Fast Qwen2 patching. Transformers: 4.49.0.
+   \\   /|    GPU: NVIDIA A100 80GB PCIe. Max memory: 79.254 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.5.1. CUDA: 8.0. CUDA Toolkit: 12.4. Triton: 3.1.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.28.post3. FA2 = True]
+ "-____-"     Free Apache license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Processing 100 samples with 200 lines of context
+Processed 10 samples
+Processed 20 samples
+Processed 30 samples
+Processed 40 samples
+Processed 50 samples
+Processed 60 samples
+Processed 70 samples
+Processed 80 samples
+Processed 90 samples
+Processed 100 samples
+Completed processing 100 samples and saved to n=200_pred_validdf.csv

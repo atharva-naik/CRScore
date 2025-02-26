@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8835/test8835.java:24:	UnnecessaryImport:	Unused import 'java.util.Optional'
-/home/arnaik/code-review-test-projects/java/test8835/test8835.java:26:	UnnecessaryImport:	Unused import 'net.ltgt.gradle.errorprone.javacplugin.CheckSeverity'
-/home/arnaik/code-review-test-projects/java/test8835/test8835.java:27:	UnnecessaryImport:	Unused import 'net.ltgt.gradle.errorprone.javacplugin.ErrorProneJavacPluginPlugin'
-/home/arnaik/code-review-test-projects/java/test8835/test8835.java:28:	UnnecessaryImport:	Unused import 'net.ltgt.gradle.errorprone.javacplugin.ErrorProneOptions'
-/home/arnaik/code-review-test-projects/java/test8835/test8835.java:32:	UnnecessaryImport:	Unused import 'org.gradle.api.plugins.ExtensionAware'

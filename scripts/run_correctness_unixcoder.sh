@@ -1,1 +1,0 @@
-python -m src.models.correctness_codebert --model_path "microsoft/unixcoder-base" --output_dir "ckpts/uxcoder_complex_cc_net"

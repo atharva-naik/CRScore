@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1288/test1288.java:26:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test1288/test1288.java:207:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
-/home/arnaik/code-review-test-projects/java/test1288/test1288.java:218:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

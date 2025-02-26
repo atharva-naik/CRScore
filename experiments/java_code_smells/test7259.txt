@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7259/test7259.java:21:	UnnecessaryImport:	Unused import 'javax.validation.constraints.Null'
-/home/arnaik/code-review-test-projects/java/test7259/test7259.java:50:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test7259/test7259.java:50:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
-/home/arnaik/code-review-test-projects/java/test7259/test7259.java:85:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

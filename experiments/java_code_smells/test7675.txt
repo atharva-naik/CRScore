@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7675/test7675.java:60:	UnusedPrivateField:	Avoid unused private fields such as 'revision'.
-/home/arnaik/code-review-test-projects/java/test7675/test7675.java:107:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
-/home/arnaik/code-review-test-projects/java/test7675/test7675.java:145:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test7675/test7675.java:156:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test7675/test7675.java:166:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

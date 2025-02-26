@@ -1,5 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test5496/test5496.js: line 1, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test5496/test5496.js: line 1, col 1, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test5496/test5496.js: line 4, col 5, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-
-3 errors

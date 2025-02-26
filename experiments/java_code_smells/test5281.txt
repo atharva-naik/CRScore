@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5281/test5281.java:29:	UnnecessaryImport:	Unused import 'org.eclipse.jgit.util.StringUtils'
-/home/arnaik/code-review-test-projects/java/test5281/test5281.java:48:	UnnecessaryImport:	Unused static import 'org.phoenicis.configuration.localisation.Localisation.tr'
-/home/arnaik/code-review-test-projects/java/test5281/test5281.java:51:	UnusedPrivateField:	Avoid unused private fields such as 'LOGGER'.
-/home/arnaik/code-review-test-projects/java/test5281/test5281.java:59:	SingularField:	Perhaps 'installableCategories' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test5281/test5281.java:60:	SingularField:	Perhaps 'sortedCategories' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test5281/test5281.java:62:	SingularField:	Perhaps 'applications' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test5281/test5281.java:63:	SingularField:	Perhaps 'filteredApplications' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test5281/test5281.java:64:	SingularField:	Perhaps 'sortedApplications' could be replaced by a local variable.
-/home/arnaik/code-review-test-projects/java/test5281/test5281.java:144:	UnusedPrivateMethod:	Avoid unused private methods such as 'installScript(ScriptDTO)'.

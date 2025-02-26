@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7742/test7742.java:21:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.json.Json.MAP_TYPE'
-/home/arnaik/code-review-test-projects/java/test7742/test7742.java:22:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.HttpMethod.GET'
-/home/arnaik/code-review-test-projects/java/test7742/test7742.java:83:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test7742/test7742.java:130:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test7742/test7742.java:164:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test7742/test7742.java:204:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

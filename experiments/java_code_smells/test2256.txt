@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2256/test2256.java:143:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
-/home/arnaik/code-review-test-projects/java/test2256/test2256.java:154:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)

@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8347/test8347.java:34:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test8347/test8347.java:73:	UnusedPrivateField:	Avoid unused private fields such as 'ATTR_SELF_SERVE'.

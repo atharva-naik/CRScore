@@ -1,0 +1,48 @@
+# ⁠Model arguments
+model_name_or_path: Qwen/Qwen2.5-Coder-3B-Instruct
+model_revision: main
+tokenizer_name_or_path: Qwen/Qwen2.5-Coder-3B-Instruct # Custom tokenizer with <|im_start|> and <|im_end|> tokens
+torch_dtype: bfloat16
+attn_implementation: flash_attention_2
+
+
+# Data training arguments
+dataset_mixer:
+  conferencesubmissionmodel/crscore_SFT
+dataset_splits:
+- train
+- validation
+preprocessing_num_workers: 16
+
+# SFT trainer config
+bf16: true
+dataset_kwargs:
+  add_special_tokens: false  # We already wrap <bos> and <eos> in the chat template
+  append_concat_token: false # No need to add <eos> across samples
+do_eval: true
+eval_strategy: steps
+eval_steps: 2000
+gradient_accumulation_steps: 4
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false
+hub_model_id: null
+hub_strategy: end
+learning_rate: 2.0e-05
+log_level: info
+logging_steps: 5
+logging_strategy: steps
+lr_scheduler_type: cosine
+max_seq_length: 1024
+max_steps: -1
+num_train_epochs: 2
+output_dir: /data/user_data/mkapadni/crscore_plus_plus/model_checkpoints/qwen2.5coder-3b-instruct-sft-v2-data
+overwrite_output_dir: true
+per_device_eval_batch_size: 4
+per_device_train_batch_size: 4
+push_to_hub: false
+remove_unused_columns: true
+save_strategy: "steps"
+save_steps: 2000
+seed: 42
+warmup_ratio: 0.1

@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4297/test4297.java:20:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.predicates.PredicateUtils.mergeCNFExpressions'
-/home/arnaik/code-review-test-projects/java/test4297/test4297.java:27:	UnnecessaryImport:	Unused import 'com.pingcap.tidb.tipb.*'
-/home/arnaik/code-review-test-projects/java/test4297/test4297.java:215:	LooseCoupling:	Avoid using implementation types like 'IdentityHashMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test4297/test4297.java:837:	UselessParentheses:	Useless parentheses.

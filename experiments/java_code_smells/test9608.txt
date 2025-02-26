@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9608/test9608.java:47:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.MANIFEST_TARGET_SIZE_BYTES'
-/home/arnaik/code-review-test-projects/java/test9608/test9608.java:48:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.MANIFEST_TARGET_SIZE_BYTES_DEFAULT'
-/home/arnaik/code-review-test-projects/java/test9608/test9608.java:49:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.SNAPSHOT_ID_INHERITANCE_ENABLED'
-/home/arnaik/code-review-test-projects/java/test9608/test9608.java:50:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.TableProperties.SNAPSHOT_ID_INHERITANCE_ENABLED_DEFAULT'
-/home/arnaik/code-review-test-projects/java/test9608/test9608.java:197:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
-/home/arnaik/code-review-test-projects/java/test9608/test9608.java:197:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()

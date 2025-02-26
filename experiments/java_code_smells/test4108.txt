@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4108/test4108.java:26:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test4108/test4108.java:57:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Name': 'from' is already in scope
-/home/arnaik/code-review-test-projects/java/test4108/test4108.java:60:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Name': 'lowerCamel' is already in scope
-/home/arnaik/code-review-test-projects/java/test4108/test4108.java:67:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test4108/test4108.java:67:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
-/home/arnaik/code-review-test-projects/java/test4108/test4108.java:334:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
-/home/arnaik/code-review-test-projects/java/test4108/test4108.java:345:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
-/home/arnaik/code-review-test-projects/java/test4108/test4108.java:366:	UnnecessaryModifier:	Unnecessary modifier 'private' on constructor 'AcronymMode(CasingMode)': enum constructors are implicitly private

@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test8819/test8819.java:35:	UnnecessaryImport:	Unused import 'org.springframework.security.authentication.AuthenticationDetailsSource'
-/home/arnaik/code-review-test-projects/java/test8819/test8819.java:77:	ProperLogger:	Logger should be defined private static final and have the correct class

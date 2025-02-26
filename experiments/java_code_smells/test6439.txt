@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6439/test6439.java:148:	SimplifyConditional:	No need to check for null before an instanceof
-/home/arnaik/code-review-test-projects/java/test6439/test6439.java:158:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`

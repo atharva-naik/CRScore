@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test1682/test1682.java:172:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'singletonList' is already in scope

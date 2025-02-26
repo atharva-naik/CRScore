@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test805/test805.java:27:	UnnecessaryImport:	Unused import 'org.apache.iceberg.events.Listeners'
-/home/arnaik/code-review-test-projects/java/test805/test805.java:28:	UnnecessaryImport:	Unused import 'org.apache.iceberg.events.ScanEvent'

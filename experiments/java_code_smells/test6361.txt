@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6361/test6361.java:11:	UseUtilityClass:	This utility class has a non-private constructor
-/home/arnaik/code-review-test-projects/java/test6361/test6361.java:48:	LocalVariableNamingConventions:	The final local variable name 'KEY_ID_POSITION' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test6361/test6361.java:49:	LocalVariableNamingConventions:	The final local variable name 'KEY_MEDIA_POSITION' doesn't match '[a-z][a-zA-Z0-9]*'

@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test10089/test10089.java:17:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
-/home/arnaik/code-review-test-projects/java/test10089/test10089.java:42:	MethodNamingConventions:	The JUnit 4 test method name 'compute_validPoints' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test10089/test10089.java:86:	MethodNamingConventions:	The JUnit 4 test method name 'compute_invalidPointsOutsideSubgroupG2' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test10089/test10089.java:126:	MethodNamingConventions:	The JUnit 4 test method name 'gasPrice_byzantium' doesn't match '[a-z][a-zA-Z0-9]*'
-/home/arnaik/code-review-test-projects/java/test10089/test10089.java:131:	MethodNamingConventions:	The JUnit 4 test method name 'gasPrice_istanbul' doesn't match '[a-z][a-zA-Z0-9]*'

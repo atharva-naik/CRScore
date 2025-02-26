@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9007/test9007.java:17:	UnnecessaryImport:	Unused import 'java.util.HashSet'
-/home/arnaik/code-review-test-projects/java/test9007/test9007.java:19:	UnnecessaryImport:	Unused import 'java.util.Set'
-/home/arnaik/code-review-test-projects/java/test9007/test9007.java:28:	UnnecessaryImport:	Duplicate import 'org.apache.commons.lang3.ArrayUtils'
-/home/arnaik/code-review-test-projects/java/test9007/test9007.java:30:	UnnecessaryImport:	Duplicate import 'java.lang.ref.WeakReference'
-/home/arnaik/code-review-test-projects/java/test9007/test9007.java:31:	UnnecessaryImport:	Duplicate import 'java.util.ArrayList'
-/home/arnaik/code-review-test-projects/java/test9007/test9007.java:32:	UnnecessaryImport:	Duplicate import 'java.util.List'
-/home/arnaik/code-review-test-projects/java/test9007/test9007.java:93:	UncommentedEmptyMethodBody:	Document empty method body
-/home/arnaik/code-review-test-projects/java/test9007/test9007.java:96:	UncommentedEmptyMethodBody:	Document empty method body

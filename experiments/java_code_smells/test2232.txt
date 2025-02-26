@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2232/test2232.java:80:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
-/home/arnaik/code-review-test-projects/java/test2232/test2232.java:102:	CloseResource:	Ensure that resources like this InputStream object are closed after use
-/home/arnaik/code-review-test-projects/java/test2232/test2232.java:105:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
-/home/arnaik/code-review-test-projects/java/test2232/test2232.java:118:	ControlStatementBraces:	This statement should have braces

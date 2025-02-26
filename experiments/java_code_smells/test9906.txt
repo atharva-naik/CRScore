@@ -1,3 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test9906/test9906.java:18:	UnnecessaryImport:	Unused static import 'org.apache.logging.log4j.LogManager.getLogger'
-/home/arnaik/code-review-test-projects/java/test9906/test9906.java:19:	UnnecessaryImport:	Unused static import 'org.hyperledger.besu.ethereum.transaction.TransactionInvalidReason.CHAIN_HEAD_WORLD_STATE_NOT_AVAILABLE'
-/home/arnaik/code-review-test-projects/java/test9906/test9906.java:200:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

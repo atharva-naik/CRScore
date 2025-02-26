@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test184/test184.java:188:	UncommentedEmptyConstructor:	Document empty constructor
-/home/arnaik/code-review-test-projects/java/test184/test184.java:399:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.

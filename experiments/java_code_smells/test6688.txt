@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6688/test6688.java:48:	UnnecessaryModifier:	Unnecessary modifiers 'public static final' on field 'PATH': the field is declared in an interface type

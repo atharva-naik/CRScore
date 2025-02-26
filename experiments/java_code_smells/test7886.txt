@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7886/test7886.java:44:	UnnecessaryImport:	Unused static import 'com.netflix.iceberg.parquet.ParquetConversions.fromParquetPrimitive'
-/home/arnaik/code-review-test-projects/java/test7886/test7886.java:46:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final

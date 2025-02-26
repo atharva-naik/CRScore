@@ -1,8 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test8950/test8950.js: line 6, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test8950/test8950.js: line 7, col 1, 'import' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test8950/test8950.js: line 7, col 13, Expected 'from' and instead saw '{'.
-/home/atharva/CMU/sem4/Directed Study/javascript/test8950/test8950.js: line 7, col 15, Expected '(string)' and instead saw 'Version'.
-/home/atharva/CMU/sem4/Directed Study/javascript/test8950/test8950.js: line 7, col 22, Missing semicolon.
-/home/atharva/CMU/sem4/Directed Study/javascript/test8950/test8950.js: line 7, col 15, Unrecoverable syntax error. (7% scanned).
-
-6 errors

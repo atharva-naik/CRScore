@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2993/test2993.java:266:	UnnecessaryModifier:	Unnecessary modifier 'final' on resource specification 'in': resource specifications are implicitly final
-/home/arnaik/code-review-test-projects/java/test2993/test2993.java:270:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
-/home/arnaik/code-review-test-projects/java/test2993/test2993.java:308:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test2993/test2993.java:328:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

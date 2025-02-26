@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test29/test29.java:111:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test29/test29.java:234:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test29/test29.java:309:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test29/test29.java:328:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead

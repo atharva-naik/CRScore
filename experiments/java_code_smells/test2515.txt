@@ -1,7 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2515/test2515.java:71:	UnusedPrivateField:	Avoid unused private fields such as 'SF_APP_FEATURE_CODE_USER_AUTH'.
-/home/arnaik/code-review-test-projects/java/test2515/test2515.java:435:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test2515/test2515.java:459:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test2515/test2515.java:511:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test2515/test2515.java:535:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test2515/test2515.java:544:	SimplifyConditional:	No need to check for null before an instanceof
-/home/arnaik/code-review-test-projects/java/test2515/test2515.java:552:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`

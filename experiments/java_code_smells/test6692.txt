@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6692/test6692.java:34:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test6692/test6692.java:56:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test6692/test6692.java:161:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-/home/arnaik/code-review-test-projects/java/test6692/test6692.java:175:	UnusedPrivateMethod:	Avoid unused private methods such as 'getPhpPackage(ProtoFile)'.

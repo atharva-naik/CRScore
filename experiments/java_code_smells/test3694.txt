@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test3694/test3694.java:7:	UnnecessaryImport:	Unused static import 'net.sourceforge.pmd.lang.rule.xpath.XPathRuleQuery.XPATH_1_0'
-/home/arnaik/code-review-test-projects/java/test3694/test3694.java:8:	UnnecessaryImport:	Unused static import 'net.sourceforge.pmd.lang.rule.xpath.XPathRuleQuery.XPATH_1_0_COMPATIBILITY'
-/home/arnaik/code-review-test-projects/java/test3694/test3694.java:9:	UnnecessaryImport:	Unused static import 'net.sourceforge.pmd.lang.rule.xpath.XPathRuleQuery.XPATH_2_0'
-/home/arnaik/code-review-test-projects/java/test3694/test3694.java:64:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'XPathRule': 'XPATH_DESCRIPTOR' is already in scope because it is declared in an enclosing type
-/home/arnaik/code-review-test-projects/java/test3694/test3694.java:68:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'XPathRule': 'VERSION_DESCRIPTOR' is already in scope because it is declared in an enclosing type

@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test183/test183.java:37:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.spark.data.TestHelpers.assertEquals'
-/home/arnaik/code-review-test-projects/java/test183/test183.java:38:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.required'

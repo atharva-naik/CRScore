@@ -1,8 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4385/test4385.java:323:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test4385/test4385.java:357:	LooseCoupling:	Avoid using implementation types like 'ImmutableList'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test4385/test4385.java:391:	UselessParentheses:	Useless parentheses.
-/home/arnaik/code-review-test-projects/java/test4385/test4385.java:537:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test4385/test4385.java:537:	UnusedPrivateField:	Avoid unused private fields such as 'DEFAULT_VALUE_MAP'.
-/home/arnaik/code-review-test-projects/java/test4385/test4385.java:556:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test4385/test4385.java:579:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
-/home/arnaik/code-review-test-projects/java/test4385/test4385.java:639:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead

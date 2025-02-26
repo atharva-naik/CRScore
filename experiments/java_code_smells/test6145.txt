@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test6145/test6145.java:19:	UnnecessaryImport:	Unused static import 'org.camunda.bpm.model.cmmn.impl.CmmnModelConstants.CMMN10_NS'
-/home/arnaik/code-review-test-projects/java/test6145/test6145.java:20:	UnnecessaryImport:	Unused static import 'org.camunda.bpm.model.cmmn.impl.CmmnModelConstants.CMMN11_NS'
-/home/arnaik/code-review-test-projects/java/test6145/test6145.java:243:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
-/home/arnaik/code-review-test-projects/java/test6145/test6145.java:256:	CloseResource:	Ensure that resources like this OutputStream object are closed after use
-/home/arnaik/code-review-test-projects/java/test6145/test6145.java:262:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths

@@ -1,9 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5047/test5047.java:51:	UnnecessaryImport:	Unused static import 'org.assertj.core.api.Assertions.assertThat'
-/home/arnaik/code-review-test-projects/java/test5047/test5047.java:52:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.http.HttpMethod.GET'
-/home/arnaik/code-review-test-projects/java/test5047/test5047.java:53:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.remote.tracing.HttpTracing.newSpanAsChildOf'
-/home/arnaik/code-review-test-projects/java/test5047/test5047.java:92:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test5047/test5047.java:94:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test5047/test5047.java:114:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test5047/test5047.java:116:	LiteralsFirstInComparisons:	Position literals first in String comparisons
-/home/arnaik/code-review-test-projects/java/test5047/test5047.java:203:	UnusedLocalVariable:	Avoid unused local variables such as 'span'.
-/home/arnaik/code-review-test-projects/java/test5047/test5047.java:225:	UncommentedEmptyMethodBody:	Document empty method body

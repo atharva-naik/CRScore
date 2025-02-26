@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5790/test5790.java:20:	UnnecessaryImport:	Unused static import 'org.junit.Assert.assertEquals'
-/home/arnaik/code-review-test-projects/java/test5790/test5790.java:25:	UnnecessaryImport:	Unused import 'java.lang.reflect.InvocationTargetException'
-/home/arnaik/code-review-test-projects/java/test5790/test5790.java:36:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
-/home/arnaik/code-review-test-projects/java/test5790/test5790.java:39:	AvoidAccessibilityAlteration:	You should not modify visibility of constructors, methods or fields using setAccessible()

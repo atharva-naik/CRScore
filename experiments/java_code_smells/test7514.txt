@@ -1,6 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test7514/test7514.java:3:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.*'
-/home/arnaik/code-review-test-projects/java/test7514/test7514.java:374:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
-/home/arnaik/code-review-test-projects/java/test7514/test7514.java:460:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
-/home/arnaik/code-review-test-projects/java/test7514/test7514.java:536:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
-/home/arnaik/code-review-test-projects/java/test7514/test7514.java:548:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang
-/home/arnaik/code-review-test-projects/java/test7514/test7514.java:566:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.lang': 'String' is already in scope because it is declared in java.lang

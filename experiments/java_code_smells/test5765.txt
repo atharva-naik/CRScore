@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test5765/test5765.java:45:	UncommentedEmptyMethodBody:	Document empty method body
-/home/arnaik/code-review-test-projects/java/test5765/test5765.java:202:	LocalVariableNamingConventions:	The local variable name 'rendered_props' doesn't match '[a-z][a-zA-Z0-9]*'

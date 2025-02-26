@@ -1,2 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test4534/test4534.java:18:	UnnecessaryImport:	Unused static import 'com.pingcap.tikv.codec.KeyUtils.formatBytes'
-/home/arnaik/code-review-test-projects/java/test4534/test4534.java:166:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`

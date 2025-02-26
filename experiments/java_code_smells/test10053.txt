@@ -1,1 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test10053/test10053.java:47:	UnnecessaryModifier:	Unnecessary modifier 'private' on constructor 'Kind(String)': enum constructors are implicitly private

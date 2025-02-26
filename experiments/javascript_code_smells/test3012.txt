@@ -1,5 +1,0 @@
-/home/atharva/CMU/sem4/Directed Study/javascript/test3012/test3012.js: line 35, col 1, 'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-/home/atharva/CMU/sem4/Directed Study/javascript/test3012/test3012.js: line 88, col 21, 'rest operator' is only available in ES6 (use 'esversion: 6').
-/home/atharva/CMU/sem4/Directed Study/javascript/test3012/test3012.js: line 202, col 5, 'computed property names' is only available in ES6 (use 'esversion: 6').
-
-3 errors

@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2767/test2767.java:48:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.optional'
-/home/arnaik/code-review-test-projects/java/test2767/test2767.java:64:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TestDataSourceOptions': 'spark' is already in scope because it is declared in an enclosing type
-/home/arnaik/code-review-test-projects/java/test2767/test2767.java:69:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TestDataSourceOptions': 'spark' is already in scope because it is declared in an enclosing type
-/home/arnaik/code-review-test-projects/java/test2767/test2767.java:70:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TestDataSourceOptions': 'spark' is already in scope because it is declared in an enclosing type

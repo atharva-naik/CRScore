@@ -1,5 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test2944/test2944.java:52:	UnnecessaryImport:	Unused static import 'org.apache.iceberg.types.Types.NestedField.required'
-/home/arnaik/code-review-test-projects/java/test2944/test2944.java:88:	UnusedLocalVariable:	Avoid unused local variables such as 'port'.
-/home/arnaik/code-review-test-projects/java/test2944/test2944.java:98:	EmptyCatchBlock:	Avoid empty catch blocks
-/home/arnaik/code-review-test-projects/java/test2944/test2944.java:120:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
-/home/arnaik/code-review-test-projects/java/test2944/test2944.java:121:	GuardLogStatement:	Logger calls should be surrounded by log level guards.

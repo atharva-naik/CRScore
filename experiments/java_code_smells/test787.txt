@@ -1,4 +1,0 @@
-/home/arnaik/code-review-test-projects/java/test787/test787.java:19:	UnnecessaryImport:	Unused static import 'org.apache.solr.packagemanager.PackageUtils.printGreen'
-/home/arnaik/code-review-test-projects/java/test787/test787.java:20:	UnnecessaryImport:	Unused static import 'org.apache.solr.packagemanager.PackageUtils.print'
-/home/arnaik/code-review-test-projects/java/test787/test787.java:199:	UnnecessarySemicolon:	Unnecessary semicolon
-/home/arnaik/code-review-test-projects/java/test787/test787.java:276:	ControlStatementBraces:	This statement should have braces

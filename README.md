@@ -1,7 +1,10 @@
 # CodeReviewEval
 Comprehensive semi-automatic evaluation of code reviews
 
-# Compute Metrics:
+## Download dataset for Comment Generation:
+Please use the following [Zenodo](https://zenodo.org/records/6900648) link to access the CodeReviewer message/code comment generation dataset. You will need to download and extract the ```Comment_Generation.zip``` folder and place it inside the ```data/``` folder
+
+## Compute Metrics:
 All the metrics, conciseness (P), comprehensiveness (R) and relevance (F) are all computed using the script below:
 ```python -m src.metrics.claim_based.relevance_score```
 To run all the reference free metrics used for comparison with our metric:

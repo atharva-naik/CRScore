@@ -177,3 +177,4 @@ model_names_key.json
 sts_matrices.npz
 sts_matrices/*.npz
 *.npz
+!data/Comment_Generation/test_set_codepatch_ranges.json

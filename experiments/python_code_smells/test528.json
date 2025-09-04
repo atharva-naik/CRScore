@@ -1,0 +1,17 @@
+{
+    "project_path": "test528",
+    "stats": {
+        "methods": 20,
+        "classes": 5,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 25
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `NormalKeyParser` having 38 external function calls",
+            -1
+        ]
+    ]
+}

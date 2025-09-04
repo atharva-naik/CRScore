@@ -1,0 +1,33 @@
+{
+    "project_path": "test4890",
+    "stats": {
+        "methods": 13,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 9,
+        "codeblocks": 14
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `__init__` at line 49 having 19 parameters (`self`, `num_classes`, `in_channels`, `feat_channels`, `stacked_convs`, `strides`, `use_depthwise`, `dcn_on_last_conv`, `conv_bias`, `conv_cfg`, `norm_cfg`, `act_cfg`, `loss_cls`, `loss_bbox`, `loss_obj`, `loss_l1`, `train_cfg`, `test_cfg`, `init_cfg`)",
+            49
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `` having 29 attributes",
+            17
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `YOLOXHead` having 138 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 6 long list comprehensions and the longest list comprehension `flatten_cls_scores = [cls_score.permute(0, 2, 3, 1).reshape(num_imgs, -1, self.cls_out_channels) for cls_score in cls_scores]` at line 255 having line length 108",
+            255
+        ]
+    ]
+}

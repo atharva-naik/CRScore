@@ -1,0 +1,25 @@
+{
+    "project_path": "test4475",
+    "stats": {
+        "methods": 86,
+        "classes": 14,
+        "lambdas": 2,
+        "try": 15,
+        "listcomps": 1,
+        "codeblocks": 100
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `AbstractDownloadItem` having 10 attributes (`done`, `stats`, `index`, `error_msg`, `basename`, `successful`, `fileobj`, `raw_headers`, `_filename`, `_dead`)",
+            388
+        ],
+        [
+            "Shotgun smell detected with 7 classes with too many external fuctions and class with most external function calls, `AbstractDownloadItem` having 100 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 14 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test5153",
+    "stats": {
+        "methods": 21,
+        "classes": 0,
+        "lambdas": 1,
+        "try": 9,
+        "listcomps": 0,
+        "codeblocks": 21
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"too general exception\" at line 69",
+            69
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 181",
+            181
+        ]
+    ]
+}

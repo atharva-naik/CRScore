@@ -1,0 +1,25 @@
+{
+    "project_path": "test7442",
+    "stats": {
+        "methods": 30,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 8,
+        "listcomps": 0,
+        "codeblocks": 33
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `TabbedBrowser` having 9 attributes (`_win_id`, `_tab_insert_idx_left`, `_tab_insert_idx_right`, `shutting_down`, `_undo_stack`, `_filter`, `_now_focused`, `search_text`, `search_flags`)",
+            49
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `TabbedBrowser` having 204 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

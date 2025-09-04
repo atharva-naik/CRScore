@@ -1,0 +1,17 @@
+{
+    "project_path": "test6311",
+    "stats": {
+        "methods": 3,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `serve` at line 49 having 8 parameters (`endpoint`, `services`, `forseti_db_connect_string`, `config_file_path`, `log_level`, `enable_console_log`, `max_workers`, `wait_shutdown_secs`)",
+            49
+        ]
+    ]
+}

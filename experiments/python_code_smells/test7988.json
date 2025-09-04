@@ -1,0 +1,33 @@
+{
+    "project_path": "test7988",
+    "stats": {
+        "methods": 17,
+        "classes": 1,
+        "lambdas": 2,
+        "try": 3,
+        "listcomps": 1,
+        "codeblocks": 18
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `export_widgets` at line 334 having 7 parameters (`self_or_cls`, `obj`, `filename`, `fmt`, `template`, `json`, `json_path`)",
+            334
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `html_assets` at line 393 having 13 branches",
+            393
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Renderer` having 105 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 18 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test9821",
+    "stats": {
+        "methods": 45,
+        "classes": 5,
+        "lambdas": 0,
+        "try": 17,
+        "listcomps": 1,
+        "codeblocks": 50
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `Coldcard_KeyStore` having 67 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 5 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "project_path": "test3334",
+    "stats": {
+        "methods": 21,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 6,
+        "listcomps": 1,
+        "codeblocks": 22
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_build_node` at line 119 containing 78 lines",
+            119
+        ],
+        [
+            "Long parameter list smell detected with 4 methods with long parameter lists and method `_build_node` at line 119 having 10 parameters (`build_dir`, `package`, `name`, `node`, `fmt`, `target`, `checks_contents`, `dry_run`, `env`, `ancestor_args`)",
+            119
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `_build_node` at line 119 having 29 branches",
+            119
+        ],
+        [
+            "Code complexity smell detected with 1 of 22 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `sortedargs = ['%s:%r:%s' % (key, value, type(value)) for key, value in sorted(iteritems(kwargs))]` at line 58 having line length 91",
+            58
+        ]
+    ]
+}

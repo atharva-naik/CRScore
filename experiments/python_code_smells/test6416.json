@@ -1,0 +1,29 @@
+{
+    "project_path": "test6416",
+    "stats": {
+        "methods": 24,
+        "classes": 3,
+        "lambdas": 8,
+        "try": 1,
+        "listcomps": 1,
+        "codeblocks": 27
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `Detector` having 27 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 27 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 6 long lambda functions and the longest lambda function `'brailliantB'` at line 501 having line length 421",
+            501
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `malformedIds = [id for id in ids if not isinstance(id, str) or not USB_ID_REGEX.match(id)]` at line 92 having line length 75",
+            92
+        ]
+    ]
+}

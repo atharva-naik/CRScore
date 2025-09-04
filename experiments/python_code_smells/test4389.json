@@ -1,0 +1,29 @@
+{
+    "project_path": "test4389",
+    "stats": {
+        "methods": 10,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 11,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `paa_reassign` at line 239 containing 51 lines",
+            239
+        ],
+        [
+            "Long parameter list smell detected with 7 methods with long parameter lists and method `get_pos_loss` at line 183 having 9 parameters (`self`, `anchors`, `cls_score`, `bbox_pred`, `label`, `label_weight`, `bbox_target`, `bbox_weight`, `pos_inds`)",
+            183
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `PAAHead` having 168 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

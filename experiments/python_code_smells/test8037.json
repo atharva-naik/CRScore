@@ -1,0 +1,25 @@
+{
+    "project_path": "test8037",
+    "stats": {
+        "methods": 43,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 5,
+        "codeblocks": 46
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `crop_and_resize` at line 78 having 6 parameters (`self`, `bboxes`, `out_shape`, `inds`, `device`, `interpolation`)",
+            78
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `BitmapMasks` having 70 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `resized_masks = np.stack([mmcv.imresize(mask, out_shape, interpolation=interpolation) for mask in self.masks])` at line 207 having line length 88",
+            207
+        ]
+    ]
+}

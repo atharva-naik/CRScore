@@ -1,0 +1,33 @@
+{
+    "project_path": "test8299",
+    "stats": {
+        "methods": 35,
+        "classes": 1,
+        "lambdas": 3,
+        "try": 6,
+        "listcomps": 5,
+        "codeblocks": 36
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 4 methods with long parameter lists and method `create_lambda_function` at line 208 having 12 parameters (`func_name`, `zip_file`, `event_source_arn`, `handler_file`, `handler`, `starting_position`, `runtime`, `envvars`, `tags`, `libs`, `delete`, `layers`)",
+            208
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `create_lambda_archive` at line 76 having 13 branches",
+            76
+        ],
+        [
+            "Code complexity smell detected with 3 of 36 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `lambda kwargs: logs.filter_log_events(logGroupName=log_group_name, **kwargs)` at line 588 having line length 78",
+            588
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `[event if len(event) < 1000 else f'{event[:1000]}... (truncated)' for event in events]` at line 569 having line length 92",
+            569
+        ]
+    ]
+}

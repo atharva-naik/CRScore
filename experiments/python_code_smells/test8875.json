@@ -1,0 +1,37 @@
+{
+    "project_path": "test8875",
+    "stats": {
+        "methods": 26,
+        "classes": 1,
+        "lambdas": 4,
+        "try": 0,
+        "listcomps": 18,
+        "codeblocks": 27
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 386 having 7 parameters (`self`, `sdf`, `index_map`, `column_index`, `column_scols`, `column_index_names`, `scol`)",
+            386
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `_InternalFrame` having 22 methods (`attach_default_index`, `column_name_for`, `scol_for`, `spark_type_for`, `sdf`, `data_columns`, `column_scols`, `index_columns`, `index_scols`, `columns`, `scols`, `index_map`, `index_names`, `scol`, `column_index`, `column_index_level`, `column_index_names`, `spark_internal_df`, `spark_df`, `pandas_df`, `copy`, `from_pandas`)",
+            52
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `_InternalFrame` having 144 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 27 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `pdf = pdf[[col if col in index_columns else str(i) if idx is None else name_like_string(idx) for i, (col, idx) in enumerate(zip(self.data_columns, self.column_index))]]` at line 663 having line length 168",
+            663
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test678",
+    "stats": {
+        "methods": 27,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 29
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 116 having 10 parameters (`self`, `host`, `port`, `index`, `doc_type`, `update_id`, `marker_index_hist_size`, `http_auth`, `timeout`, `extra_elasticsearch_args`)",
+            116
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `ElasticsearchTarget` having 10 attributes (`host`, `port`, `http_auth`, `index`, `doc_type`, `update_id`, `marker_index_hist_size`, `timeout`, `extra_elasticsearch_args`, `es`)",
+            108
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `CopyToIndex` having 21 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

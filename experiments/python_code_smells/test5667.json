@@ -1,0 +1,29 @@
+{
+    "project_path": "test5667",
+    "stats": {
+        "methods": 34,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 35
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `AuthTestCase` having 27 methods (`setUp`, `getToken`, `useToken`, `decodeToken`, `testCodeRoundtrips`, `testIssueToken`, `testDeleteUser`, `testUserExists`, `testDuplicateUserFails`, `testLoginUserPass`, `testVerifyTokenAsString`, `testRefreshToken`, `testActivationLink`, `testResetLink`, `testLinksExpire`, `testWrongLinksShouldFail`, `testRegister`, `testLoginRedirectsToCode`, `testReset`, `testActivate`, `testGetCode`, `testCompilerLogin`, `testDisabledandDeletedUsersCodesAndTokensAreRevoked`, `testMigratePasswordsWillWork`, `testBadLoginAttempt`, `testMultipleCodes`, `testCodeExpires`)",
+            20
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `AuthTestCase` having 132 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 35 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

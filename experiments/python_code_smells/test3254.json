@@ -1,0 +1,45 @@
+{
+    "project_path": "test3254",
+    "stats": {
+        "methods": 52,
+        "classes": 9,
+        "lambdas": 0,
+        "try": 20,
+        "listcomps": 7,
+        "codeblocks": 61
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_add` at line 609 containing 62 lines",
+            609
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 113 having 8 parameters (`self`, `task`, `worker_id`, `result_queue`, `tracking_url_callback`, `status_message_callback`, `random_seed`, `worker_timeout`)",
+            113
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `_add` at line 609 having 14 branches",
+            609
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Worker` having 21 attributes (`worker_processes`, `_worker_info`, `_config`, `_id`, `_scheduler`, `_assistant`, `_stop_requesting_work`, `host`, `_scheduled_tasks`, `_suspended_tasks`, `_batch_running_tasks`, `_batch_families_sent`, `_first_task`, `add_succeeded`, `run_succeeded`, `unfulfilled_counts`, `_running_tasks`, `_add_task_history`, `_get_work_response_history`)",
+            370
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `Worker` having 136 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 9 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 61 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `new_req = [load_task(module, name, params) for module, name, params in new_requirements]` at line 876 having line length 78",
+            876
+        ]
+    ]
+}

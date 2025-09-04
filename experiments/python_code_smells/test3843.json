@@ -1,0 +1,25 @@
+{
+    "project_path": "test3843",
+    "stats": {
+        "methods": 58,
+        "classes": 2,
+        "lambdas": 1,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 60
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TestLambdaAPI` having 54 methods (`setUp`, `test_get_non_existent_function_returns_error`, `test_get_event_source_mapping`, `test_get_event_sources`, `test_get_event_sources_with_paths`, `test_delete_event_source_mapping`, `test_invoke_RETURNS_415_WHEN_not_json_input`, `test_invoke_plain_text_response`, `test_invoke_empty_plain_text_response`, `test_invoke_empty_map_json_response`, `test_invoke_populated_map_json_response`, `test_invoke_empty_list_json_response`, `test_invoke_populated_list_json_response`, `test_invoke_string_json_response`, `test_invoke_integer_json_response`, `test_invoke_float_json_response`, `test_invoke_boolean_json_response`, `test_invoke_null_json_response`, `test_create_event_source_mapping`, `test_create_disabled_event_source_mapping`, `test_update_event_source_mapping`, `test_publish_function_version`, `test_publish_non_existant_function_version_returns_error`, `test_list_function_versions`, `test_list_non_existant_function_versions_returns_error`, `test_create_alias`, `test_create_alias_on_non_existant_function_returns_error`, `test_create_alias_returns_error_if_already_exists`, `test_update_alias`, `test_update_alias_on_non_existant_function_returns_error`, `test_update_alias_on_non_existant_alias_returns_error`, `test_get_alias`, `test_get_alias_on_non_existant_function_returns_error`, `test_get_alias_on_non_existant_alias_returns_error`, `test_list_aliases`, `test_list_non_existant_function_aliases_returns_error`, `test_get_container_name`, `test_put_concurrency`, `test_concurrency_get_function`, `test_list_tags`, `test_tag_resource`, `test_tag_non_existent_function_returns_error`, `test_untag_resource`, `test_java_options_empty_return_empty_value`, `test_java_options_with_only_memory_options`, `test_java_options_with_memory_options_and_agentlib_option`, `test_java_options_with_unset_debug_port_in_middle`, `test_java_options_with_configured_debug_port`, `test_java_options_with_configured_debug_port_in_middle`, `prepare_java_opts`, `test_get_java_lib_folder_classpath`, `test_get_java_lib_folder_classpath_no_directories`, `test_get_java_lib_folder_classpath_archive_is_None`, `test_executor_store_logs_can_handle_milliseconds`)",
+            17
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `TestLambdaAPI` having 404 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

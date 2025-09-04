@@ -1,0 +1,25 @@
+{
+    "project_path": "test6603",
+    "stats": {
+        "methods": 13,
+        "classes": 5,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 1,
+        "codeblocks": 18
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `assertFormattedError` at line 72 having 7 parameters (`self`, `response`, `code`, `errno`, `error`, `message`, `info`)",
+            72
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `DummyRequest` having 14 attributes (`upath_info`, `registry`, `id_generators`, `GET`, `headers`, `errors`, `authenticated_userid`, `authn_type`, `prefixed_userid`, `effective_principals`, `json`, `validated`, `matchdict`, `response`, `route_url`)",
+            22
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `BaseWebTest` having 14 external function calls",
+            -1
+        ]
+    ]
+}

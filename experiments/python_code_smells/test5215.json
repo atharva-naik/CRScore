@@ -1,0 +1,33 @@
+{
+    "project_path": "test5215",
+    "stats": {
+        "methods": 42,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 5,
+        "listcomps": 2,
+        "codeblocks": 44
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `_in_iterating_context` at line 107 having 16 branches",
+            107
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `Python3Checker` having 130 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 8 of 44 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `[astroid.extract_node(x).repr_tree() for x in ['sys.version_info[0] == 2', 'sys.version_info[0] < 3', 'sys.version_info == (2, 7)', 'sys.version_info <= (2, 7)', 'sys.version_info < (3, 0)']]` at line 911 having line length 199",
+            911
+        ]
+    ]
+}

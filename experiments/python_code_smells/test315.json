@@ -1,0 +1,37 @@
+{
+    "project_path": "test315",
+    "stats": {
+        "methods": 60,
+        "classes": 5,
+        "lambdas": 8,
+        "try": 5,
+        "listcomps": 15,
+        "codeblocks": 65
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `select` at line 965 having 20 branches",
+            965
+        ],
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `Dimensioned` having 102 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 4 out of 5 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 8 of 65 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `key=lambda k: -float('inf') if self.params(k).precedence is None else self.params(k).precedence` at line 410 having line length 98",
+            410
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `dims = [dim for group in selection for dim in getattr(self, '%sdims' % aliases.get(group))]` at line 877 having line length 89",
+            877
+        ]
+    ]
+}

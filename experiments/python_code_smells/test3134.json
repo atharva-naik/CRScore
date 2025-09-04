@@ -1,0 +1,21 @@
+{
+    "project_path": "test3134",
+    "stats": {
+        "methods": 5,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 4,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `py2exe` having 9 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `[rulesList.extend(getRecursiveDataFiles(os.path.join(dest, dirName), os.path.join(source, dirName), excludes=excludes)) for dirName in os.listdir(source) if os.path.isdir(os.path.join(source, dirName)) and (not dirName.startswith('.'))]` at line 129 having line length 248",
+            129
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test3178",
+    "stats": {
+        "methods": 3,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 4
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `role` at line 121 having 7 parameters (`ctx`, `dependency_name`, `driver_name`, `lint_name`, `provisioner_name`, `role_name`, `verifier_name`)",
+            121
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Role` having 16 external function calls",
+            -1
+        ]
+    ]
+}

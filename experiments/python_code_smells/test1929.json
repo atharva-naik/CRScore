@@ -1,0 +1,33 @@
+{
+    "project_path": "test1929",
+    "stats": {
+        "methods": 17,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 3,
+        "codeblocks": 18
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `show_result` at line 257 having 12 parameters (`self`, `img`, `result`, `score_thr`, `bbox_color`, `text_color`, `thickness`, `font_scale`, `win_name`, `show`, `wait_time`, `out_file`)",
+            257
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `BaseDetector` having 71 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 18 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `color_masks = [np.random.randint(0, 256, (1, 3), dtype=np.uint8) for _ in range(max(labels) + 1)]` at line 311 having line length 88",
+            311
+        ]
+    ]
+}

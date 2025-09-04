@@ -1,0 +1,29 @@
+{
+    "project_path": "test9427",
+    "stats": {
+        "methods": 163,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 5,
+        "listcomps": 7,
+        "codeblocks": 166
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TestJMeterExecutor` having 151 methods (`setUp`, `tearDown`, `configure`, `test_jmx`, `test_jmx_with_props`, `test_jmx_2tg`, `test_regexp_extractors`, `test_not_jmx`, `test_broken_xml`, `test_not_jmx_xml`, `test_requests`, `test_issue_no_iterations`, `test_body_file`, `test_datasources_with_delimiter`, `test_datasources_jmeter_var`, `test_datasources_wrong_path`, `test_datasources_without_delimiter`, `test_path_processing`, `test_install_jmeter_2_13`, `test_install_jmeter_3_0`, `test_think_time_bug`, `test_cookiemanager_3_2_bug_requests`, `test_cookiemanager_3_2_bug_jmx`, `test_body_parse`, `test_resource_files_collection_remote_prov`, `test_resource_files_paths`, `test_resource_files_from_requests_remote_prov`, `test_resource_files_from_requests_local_prov`, `test_resource_files_data_sources_shorthand`, `test_resource_files_data_sources_full_form`, `test_resource_files_jsr223`, `test_resource_files_jsr223s`, `test_http_request_defaults`, `test_http_request_defaults_property`, `test_add_shaper_constant`, `test_add_shaper_ramp_up`, `test_user_def_vars_from_requests`, `test_user_def_vars_override`, `test_nonstandard_errors_format`, `test_standard_errors_format`, `test_tranctl_jtl`, `test_tabs_jtl`, `test_distributed_th_hostnames`, `test_distributed_props`, `test_distributed_th_hostnames_complex`, `test_dns_cache_mgr_scenario`, `test_dns_cache_mgr_requests`, `test_dns_cache_mgr_script`, `test_stepping_tg_ramp_no_proportion`, `test_stepping_tg_ramp_proportion`, `test_step_shaper`, `test_duration_loops_bug`, `test_force_delimiters`, `test_iterations_loop_bug`, `test_distributed_gui`, `test_empty_requests`, `test_variable_csv_file`, `test_css_jquery_extractor`, `test_xpath_extractor`, `test_xpath_assertion`, `test_jsonpath_assertion`, `test_shutdown_soft`, `test_embedded_resources_main_sample_fail_assert`, `test_embedded_resources_fail_child_no_assert`, `test_embedded_resources_fail_child_assert`, `test_resource_tc`, `test_embedded_resources_no_fail`, `test_fail_on_zero_results`, `test_ok_with_results`, `test_convert_tgroups_no_load`, `test_convert_tgroups_load_modifications`, `test_smart_time`, `test_json_body_app_str`, `test_json_body_app_dic`, `test_json_body_app_list`, `test_json_body_requires_header`, `test_json_body_no_app`, `test_jtl_verbose`, `test_jtl_errors`, `test_jtl_none`, `test_jtl_flags`, `test_jmx_modification_unicode`, `test_jmx_modification_add_stringprop`, `test_resources_regex`, `test_data_source_list`, `test_force_parent_sample`, `test_disable_force_parent_sample`, `test_transaction_and_requests1`, `test_transaction_and_requests2`, `test_jvm_heap_settings`, `test_data_sources_in_artifacts`, `test_body_file_in_artifacts`, `test_jmx_paths_local_prov`, `test_jmx_paths_remote_prov`, `test_intprop_modification`, `test_request_logic_if`, `test_request_logic_if_else`, `test_request_logic_nested_if`, `test_resource_files_nested_requests`, `test_request_logic_loop`, `test_request_logic_loop_forever`, `test_request_logic_loop_invalid`, `test_resource_files_loops`, `test_request_logic_while`, `test_request_logic_while_invalid`, `test_request_logic_while_resources`, `test_request_logic_foreach`, `test_request_logic_foreach_resources`, `test_request_logic_transaction`, `test_request_logic_transaction_resources`, `test_request_logic_include`, `test_request_logic_include_resources`, `test_logic_include_data_sources`, `test_include_recursion`, `test_include_sources_recursion`, `test_logic_test_action`, `test_logic_test_action_target`, `test_logic_test_action_unknown`, `test_request_logic_set_vars`, `test_request_null_headers`, `test_multipart_file_upload`, `test_upload_files_mime_autodetect`, `test_data_sources_jmx_gen_loop`, `test_data_sources_jmx_gen_stop`, `test_data_sources_varnames`, `test_functional_mode_flag`, `test_functional_reader_pass`, `test_functional_reader_failed`, `test_functional_reader_broken`, `test_functional_reader_extras`, `test_functional_reader_artifact_files`, `test_functional_reader_extras_assertions`, `test_functional_reader_extras_empty_body`, `test_jsr223_block`, `test_jsr223_exceptions_2`, `test_jsr223_multiple`, `test_request_content_encoding`, `test_redirect_empty`, `test_redirect_follow`, `test_disable_redirect`, `test_redirect_scenario_level`, `test_reader_unicode`, `test_soapui_script`, `test_soapui_renaming`, `test_include_scenario_mutual_recursion`, `test_include_scenario_mutual_recursion_resources`, `test_resource_files_relpath`, `test_stdout_stderr_capture`, `test_func_aggregator_chosen`, `test_source_ips`, `test_source_ips_request_level`)",
+            45
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `TestJMeterExecutor` having 1412 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `orig_summ_cnc = sum([int(x.find(\".//stringProp[@name='ThreadGroup.num_threads']\").text) for x in orig_tgs])` at line 762 having line length 90",
+            762
+        ]
+    ]
+}

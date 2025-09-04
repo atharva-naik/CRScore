@@ -1,0 +1,33 @@
+{
+    "project_path": "test320",
+    "stats": {
+        "methods": 33,
+        "classes": 1,
+        "lambdas": 77,
+        "try": 0,
+        "listcomps": 10,
+        "codeblocks": 34
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `GroupByTest` having 33 methods (`test_groupby`, `test_groupby_multiindex_columns`, `test_split_apply_combine_on_series`, `test_aggregate`, `test_aggregate_func_str_list`, `test_aggregate_relabel`, `test_describe`, `test_all_any`, `test_raises`, `test_nunique`, `test_value_counts`, `test_size`, `test_diff`, `test_rank`, `test_cummin`, `test_cummax`, `test_cumsum`, `test_cumprod`, `test_nsmallest`, `test_nlargest`, `test_fillna`, `test_ffill`, `test_bfill`, `test_shift`, `test_apply`, `test_apply_with_new_dataframe`, `test_transform`, `test_filter`, `test_idxmax`, `test_idxmin`, `test_head`, `test_missing`, `test_is_multi_agg_with_relabel`)",
+            34
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `GroupByTest` having 1503 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 34 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 5 long lambda functions and the longest lambda function `sort = lambda df: df.sort_values(('X', 'A')).reset_index(drop=True)` at line 364 having line length 62",
+            364
+        ],
+        [
+            "Long list comprehension smell detected with 8 long list comprehensions and the longest list comprehension `unsupported_properties = [name for name, type_ in missing_properties if type_.fget.__name__ == 'unsupported_property']` at line 1044 having line length 97",
+            1044
+        ]
+    ]
+}

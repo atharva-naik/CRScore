@@ -1,0 +1,17 @@
+{
+    "project_path": "test6359",
+    "stats": {
+        "methods": 3,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 4,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `test_files = [f for f in test_files if not any((os.path.normpath(p) in f for p in excluded))]` at line 28 having line length 78",
+            28
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test7453",
+    "stats": {
+        "methods": 34,
+        "classes": 0,
+        "lambdas": 5,
+        "try": 26,
+        "listcomps": 0,
+        "codeblocks": 34
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `perform_modifyrank` at line 333 containing 70 lines",
+            333
+        ],
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `tupletotable` at line 756 having 7 parameters (`header`, `tuple`, `start`, `end`, `extracolumn`, `highlight_rows_p`, `alternate_row_colors_p`)",
+            756
+        ],
+        [
+            "Long branch smell detected with 5 methods with long branching and method with most branches `perform_modifyrank` at line 333 having 19 branches",
+            333
+        ],
+        [
+            "Code complexity smell detected with 6 of 34 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

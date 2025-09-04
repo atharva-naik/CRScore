@@ -1,0 +1,21 @@
+{
+    "project_path": "test7848",
+    "stats": {
+        "methods": 33,
+        "classes": 97,
+        "lambdas": 3,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 130
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 86 classes with too many external fuctions and class with most external function calls, `BluetoothUserSocket` having 18 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 97 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

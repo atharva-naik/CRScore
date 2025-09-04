@@ -1,0 +1,29 @@
+{
+    "project_path": "test8366",
+    "stats": {
+        "methods": 54,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 6,
+        "listcomps": 0,
+        "codeblocks": 55
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 7 methods with long parameter lists and method `_get_http_request` at line 256 having 11 parameters (`url`, `label`, `method`, `timeout`, `body`, `keepalive`, `files`, `encoding`, `follow_redirects`, `use_random_host_ip`, `host_ips`)",
+            256
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `JMX` having 135 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 55 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

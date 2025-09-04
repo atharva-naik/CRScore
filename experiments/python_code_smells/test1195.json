@@ -1,0 +1,21 @@
+{
+    "project_path": "test1195",
+    "stats": {
+        "methods": 2,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 2,
+        "codeblocks": 2
+    },
+    "smells": [
+        [
+            "Code complexity smell detected with 1 of 2 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `kwargs = dict([(kwarg.argname, evaluateTokens(requestContext, kwarg.args[0])) for kwarg in tokens.call.kwargs])` at line 29 having line length 100",
+            29
+        ]
+    ]
+}

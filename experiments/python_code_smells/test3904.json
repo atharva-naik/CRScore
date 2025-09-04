@@ -1,0 +1,33 @@
+{
+    "project_path": "test3904",
+    "stats": {
+        "methods": 57,
+        "classes": 7,
+        "lambdas": 1,
+        "try": 5,
+        "listcomps": 0,
+        "codeblocks": 64
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 171 having 8 parameters (`self`, `name`, `displayNameWithAccelerator`, `availableInSynthSettingsRing`, `minStep`, `normalStep`, `largeStep`, `displayName`)",
+            171
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 117",
+            117
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `SynthDriver` having 51 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 7 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 64 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

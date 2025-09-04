@@ -1,0 +1,41 @@
+{
+    "project_path": "test4432",
+    "stats": {
+        "methods": 57,
+        "classes": 4,
+        "lambdas": 3,
+        "try": 19,
+        "listcomps": 6,
+        "codeblocks": 61
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `__init__` at line 1390 containing 54 lines",
+            1390
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `__init__` at line 1390 having 14 branches",
+            1390
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `PyLinter` having 24 methods (`make_options`, `load_default_plugins`, `load_plugin_modules`, `load_plugin_configuration`, `set_reporter`, `set_option`, `register_reporter`, `report_order`, `register_checker`, `disable_noerror_messages`, `disable_reporters`, `error_mode`, `python3_porting_mode`, `process_tokens`, `get_checkers`, `prepare_checkers`, `should_analyze_file`, `check`, `expand_files`, `set_current_module`, `get_ast`, `check_astroid_module`, `open`, `generate_reports`)",
+            310
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `PyLinter` having 159 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 61 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `tokencheckers = [c for c in _checkers if interfaces.implements(c, interfaces.ITokenChecker) and c is not self]` at line 1055 having line length 98",
+            1055
+        ]
+    ]
+}

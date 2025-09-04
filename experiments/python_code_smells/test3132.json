@@ -1,0 +1,25 @@
+{
+    "project_path": "test3132",
+    "stats": {
+        "methods": 103,
+        "classes": 14,
+        "lambdas": 0,
+        "try": 15,
+        "listcomps": 10,
+        "codeblocks": 117
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 14 classes with too many external fuctions and class with most external function calls, `BlazeMeterUploader` having 117 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 5 out of 14 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 117 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

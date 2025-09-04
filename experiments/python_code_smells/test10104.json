@@ -1,0 +1,61 @@
+{
+    "project_path": "test10104",
+    "stats": {
+        "methods": 37,
+        "classes": 3,
+        "lambdas": 1,
+        "try": 8,
+        "listcomps": 47,
+        "codeblocks": 40
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `sample` at line 676 containing 57 lines",
+            676
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__call__` at line 103 having 6 parameters (`self`, `new_type`, `kdims`, `vdims`, `groupby`, `sort`)",
+            103
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `__call__` at line 103 having 20 branches",
+            103
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `` having 25 methods",
+            249
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 5",
+            5
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 49",
+            49
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 55",
+            55
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 61",
+            61
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `Dataset` having 210 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 11 of 40 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 6 long list comprehensions and the longest list comprehension `dynamic_dims = [d.clone(values=list(self.interface.values(self, d.name, False))) for d in dimensions]` at line 938 having line length 90",
+            938
+        ]
+    ]
+}

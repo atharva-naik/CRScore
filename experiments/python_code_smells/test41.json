@@ -1,0 +1,33 @@
+{
+    "project_path": "test41",
+    "stats": {
+        "methods": 90,
+        "classes": 0,
+        "lambdas": 2,
+        "try": 40,
+        "listcomps": 5,
+        "codeblocks": 90
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `perform_modifysynonymkb` at line 1385 containing 52 lines",
+            1385
+        ],
+        [
+            "Long parameter list smell detected with 10 methods with long parameter lists and method `perform_addtag` at line 1906 having 8 parameters (`fldID`, `ln`, `name`, `value`, `recjson_value`, `existing_tag`, `callback`, `confirm`)",
+            1906
+        ],
+        [
+            "Long branch smell detected with 12 methods with long branching and method with most branches `perform_editindex` at line 213 having 23 branches",
+            213
+        ],
+        [
+            "Code complexity smell detected with 21 of 90 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `tokenizers = [tokenizer for tokenizer in _TOKENIZERS if _TOKENIZERS[tokenizer]().implemented]` at line 1695 having line length 85",
+            1695
+        ]
+    ]
+}

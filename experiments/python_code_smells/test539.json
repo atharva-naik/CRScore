@@ -1,0 +1,37 @@
+{
+    "project_path": "test539",
+    "stats": {
+        "methods": 168,
+        "classes": 127,
+        "lambdas": 57,
+        "try": 9,
+        "listcomps": 5,
+        "codeblocks": 295
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `NDP_Attack_NS_Spoofing` at line 3690 having 9 parameters (`src_lladdr`, `src`, `target`, `dst`, `src_mac`, `dst_mac`, `loop`, `inter`, `iface`)",
+            3690
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `answers` at line 390 having 20 branches",
+            390
+        ],
+        [
+            "Shotgun smell detected with 108 classes with too many external fuctions and class with most external function calls, `IPv6` having 55 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 15 out of 127 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 11 of 295 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 3 long lambda functions and the longest lambda function `return self.make_table(lambda s, r: (s.sprintf('%-42s,IPv6.dst%:{TCP:tcp%TCP.dport%}{UDP:udp%UDP.dport%}{ICMPv6EchoRequest:IER}'), s.hlim, r.sprintf('%-42s,IPv6.src% {TCP:%TCP.flags%}' + '{ICMPv6DestUnreach:%ir,type%}{ICMPv6PacketTooBig:%ir,type%}' + '{ICMPv6TimeExceeded:%ir,type%}{ICMPv6ParamProblem:%ir,type%}' + '{ICMPv6EchoReply:%ir,type%}')))` at line 3255 having line length 348",
+            3255
+        ]
+    ]
+}

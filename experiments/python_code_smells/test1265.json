@@ -1,0 +1,21 @@
+{
+    "project_path": "test1265",
+    "stats": {
+        "methods": 8,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 1,
+        "codeblocks": 10
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `TestKinesis` having 85 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `kinesis.put_records(Records=[{'Data': '{}', 'PartitionKey': 'test_%s' % i} for i in range(0, num_events_kinesis)], StreamName=stream_name)` at line 202 having line length 89",
+            202
+        ]
+    ]
+}

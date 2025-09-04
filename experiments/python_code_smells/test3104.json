@@ -1,0 +1,25 @@
+{
+    "project_path": "test3104",
+    "stats": {
+        "methods": 7,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 8
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 9 having 8 parameters (`self`, `user_id`, `user_name`, `timestamp`, `artist_msid`, `album_msid`, `recording_msid`, `data`)",
+            9
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Listen` having 8 attributes (`user_id`, `user_name`, `artist_msid`, `album_msid`, `recording_msid`)",
+            7
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Listen` having 12 external function calls",
+            -1
+        ]
+    ]
+}

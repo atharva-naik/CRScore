@@ -1,0 +1,49 @@
+{
+    "project_path": "test8935",
+    "stats": {
+        "methods": 22,
+        "classes": 3,
+        "lambdas": 7,
+        "try": 1,
+        "listcomps": 1,
+        "codeblocks": 25
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `__init__` at line 176 containing 55 lines",
+            176
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 176 having 16 parameters (`self`, `name`, `cron_schedule`, `pipeline_name`, `run_config`, `run_config_fn`, `tags`, `tags_fn`, `solid_selection`, `mode`, `should_execute`, `environment_vars`, `execution_timezone`, `execution_fn`, `description`, `job`)",
+            176
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `__init__` at line 176 having 18 branches",
+            176
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `ScheduleDefinition` having 8 attributes (`_cron_schedule`, `_description`, `_environment_vars`, `_execution_timezone`)",
+            132
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `ScheduleDefinition` having 83 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 25 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 4 long lambda functions and the longest lambda function `lambda: f'Error occurred during the execution of should_execute for schedule {name}'` at line 279 having line length 96",
+            279
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `run_requests_with_schedule_tags = [RunRequest(run_key=request.run_key, run_config=request.run_config, tags=merge_dicts(request.tags, PipelineRun.tags_for_schedule(self))) for request in run_requests]` at line 448 having line length 174",
+            448
+        ]
+    ]
+}

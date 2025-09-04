@@ -1,0 +1,25 @@
+{
+    "project_path": "test1244",
+    "stats": {
+        "methods": 2,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 38 having 8 parameters (`self`, `pos_iou_thr`, `neg_iou_thr`, `min_pos_iou`, `gt_max_assign_all`, `ignore_iof_thr`, `ignore_wrt_candidates`, `gpu_assign_thr`)",
+            38
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ApproxMaxIoUAssigner` having 27 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 3 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

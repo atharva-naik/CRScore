@@ -1,0 +1,33 @@
+{
+    "project_path": "test2584",
+    "stats": {
+        "methods": 5,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 3,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `loss_single` at line 124 having 9 parameters (`self`, `cls_score`, `bbox_pred`, `anchor`, `labels`, `label_weights`, `bbox_targets`, `bbox_weights`, `num_total_samples`)",
+            124
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `` having 16 attributes",
+            15
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `SSDHead` having 71 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `all_cls_scores = torch.cat([s.permute(0, 2, 3, 1).reshape(num_images, -1, self.cls_out_channels) for s in cls_scores], 1)` at line 226 having line length 94",
+            226
+        ]
+    ]
+}

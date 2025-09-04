@@ -1,0 +1,21 @@
+{
+    "project_path": "test1519",
+    "stats": {
+        "methods": 52,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 53
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `CentralPlannerTest` having 52 methods (`setUp`, `tearDown`, `setTime`, `test_dep`, `test_failed_dep`, `test_broken_dep`, `test_two_workers`, `test_retry`, `test_disconnect_running`, `test_remove_dep`, `test_timeout`, `test_disallowed_state_changes`, `test_two_worker_info`, `test_scheduler_resources_none_allow_one`, `test_scheduler_resources_none_disallow_two`, `test_scheduler_with_insufficient_resources`, `test_scheduler_with_sufficient_resources`, `test_scheduler_with_resources_used`, `test_scheduler_overprovisioned_on_other_resource`, `test_scheduler_with_priority_and_competing_resources`, `test_do_not_lock_resources_when_not_ready`, `test_lock_resources_when_one_of_multiple_workers_is_ready`, `test_do_not_lock_resources_while_running_higher_priority`, `test_lock_resources_while_running_lower_priority`, `test_lock_resources_for_second_worker`, `test_can_work_on_lower_priority_while_waiting_for_resources`, `test_priority_update_with_pruning`, `test_update_resources`, `test_hendle_multiple_resources`, `test_single_resource_lock`, `test_no_lock_if_too_many_resources_required`, `test_multiple_resources_lock`, `test_multiple_resources_no_lock`, `check_task_order`, `test_priorities`, `test_priorities_default_and_negative`, `test_priorities_and_dependencies`, `test_priority_update_dependency_after_scheduling`, `test_disable`, `test_disable_and_reenable`, `test_disable_and_reenable_and_disable_again`, `test_disable_and_done`, `test_disable_by_worker`, `test_task_list_beyond_limit`, `test_task_list_within_limit`, `test_task_lists_some_beyond_limit`, `test_priority_update_dependency_chain`, `test_priority_no_decrease_with_multiple_updates`, `test_unique_tasks`, `test_prefer_more_dependents`, `test_prefer_readier_dependents`, `test_ignore_done_dependents`)",
+            29
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CentralPlannerTest` having 413 external function calls",
+            -1
+        ]
+    ]
+}

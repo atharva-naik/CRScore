@@ -1,0 +1,17 @@
+{
+    "project_path": "test4481",
+    "stats": {
+        "methods": 40,
+        "classes": 11,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 2,
+        "codeblocks": 51
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 11 classes with too many external fuctions and class with most external function calls, `DictSubsetTest` having 43 external function calls",
+            -1
+        ]
+    ]
+}

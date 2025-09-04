@@ -1,0 +1,17 @@
+{
+    "project_path": "test6940",
+    "stats": {
+        "methods": 8,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 10
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `KMSScannerTest` having 65 external function calls",
+            -1
+        ]
+    ]
+}

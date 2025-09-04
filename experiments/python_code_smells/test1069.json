@@ -1,0 +1,17 @@
+{
+    "project_path": "test1069",
+    "stats": {
+        "methods": 19,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 22
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `BucketViewTest` having 15 external function calls",
+            -1
+        ]
+    ]
+}

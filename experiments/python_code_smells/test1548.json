@@ -1,0 +1,33 @@
+{
+    "project_path": "test1548",
+    "stats": {
+        "methods": 10,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 11,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `paa_reassign` at line 257 containing 60 lines",
+            257
+        ],
+        [
+            "Long parameter list smell detected with 7 methods with long parameter lists and method `_get_bboxes` at line 519 having 10 parameters (`self`, `cls_scores`, `bbox_preds`, `iou_preds`, `mlvl_anchors`, `img_shapes`, `scale_factors`, `cfg`, `rescale`, `with_nms`)",
+            519
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `PAAHead` having 192 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 11 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

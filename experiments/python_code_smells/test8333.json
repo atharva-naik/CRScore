@@ -1,0 +1,17 @@
+{
+    "project_path": "test8333",
+    "stats": {
+        "methods": 4,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 4
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 132",
+            132
+        ]
+    ]
+}

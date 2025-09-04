@@ -1,0 +1,17 @@
+{
+    "project_path": "test1340",
+    "stats": {
+        "methods": 2,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 1,
+        "codeblocks": 2
+    },
+    "smells": [
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `integration_suites = [os.path.join('integration_tests', 'test_suites', suite) for suite in os.listdir(integration_suites_root)]` at line 49 having line length 111",
+            49
+        ]
+    ]
+}

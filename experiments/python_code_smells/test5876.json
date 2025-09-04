@@ -1,0 +1,17 @@
+{
+    "project_path": "test5876",
+    "stats": {
+        "methods": 11,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Code complexity smell detected with 1 of 11 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

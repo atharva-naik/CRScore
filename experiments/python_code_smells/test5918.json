@@ -1,0 +1,21 @@
+{
+    "project_path": "test5918",
+    "stats": {
+        "methods": 10,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 204",
+            204
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `WSGIScriptAliasFix` having 3 external function calls",
+            -1
+        ]
+    ]
+}

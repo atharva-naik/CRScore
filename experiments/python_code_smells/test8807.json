@@ -1,0 +1,33 @@
+{
+    "project_path": "test8807",
+    "stats": {
+        "methods": 103,
+        "classes": 1,
+        "lambdas": 20,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 104
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `test_parse_package_extended_names` at line 1161 containing 63 lines",
+            1161
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `_mock_error` at line 87 having 6 parameters (`self`, `endpoint`, `status`, `team`, `message`, `method`)",
+            87
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CommandTest` having 476 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 104 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

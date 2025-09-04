@@ -1,0 +1,21 @@
+{
+    "project_path": "test1021",
+    "stats": {
+        "methods": 60,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 63
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `BatchSchemaTest` having 24 methods (`setUp`, `assertInvalid`, `test_requests_is_mandatory`, `test_raise_invalid_on_unknown_attributes`, `test_list_of_requests_can_be_empty`, `test_list_of_requests_must_be_a_list`, `test_list_of_requests_must_be_dicts`, `test_request_path_must_start_with_slash`, `test_request_path_is_mandatory`, `test_request_method_must_be_known_uppercase_word`, `test_raise_invalid_on_request_unknown_attributes`, `test_request_headers_should_be_strings`, `test_request_headers_cannot_be_recursive`, `test_request_headers_are_preserved`, `test_body_is_an_arbitrary_mapping`, `test_defaults_must_be_a_mapping_if_specified`, `test_defaults_must_be_a_request_schema_if_specified`, `test_raise_invalid_on_default_unknown_attributes`, `test_defaults_can_be_specified_empty`, `test_defaults_path_is_applied_to_requests`, `test_defaults_body_is_applied_to_requests`, `test_defaults_headers_are_applied_to_requests`, `test_defaults_values_do_not_overwrite_requests_values`, `test_defaults_values_for_path_must_start_with_slash`)",
+            164
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `BatchViewTest` having 60 external function calls",
+            -1
+        ]
+    ]
+}

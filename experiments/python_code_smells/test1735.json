@@ -1,0 +1,29 @@
+{
+    "project_path": "test1735",
+    "stats": {
+        "methods": 11,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 4,
+        "listcomps": 0,
+        "codeblocks": 13
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 90",
+            90
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 199",
+            199
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ProxyListenerEdge` having 17 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 13 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

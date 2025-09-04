@@ -1,0 +1,25 @@
+{
+    "project_path": "test2988",
+    "stats": {
+        "methods": 13,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 14
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `post_install_instructions` at line 297 having 6 parameters (`self`, `deploy_success`, `deployment_name`, `deployment_tpl_path`, `forseti_conf_path`, `bucket_name`)",
+            297
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ForsetiServerInstaller` having 67 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

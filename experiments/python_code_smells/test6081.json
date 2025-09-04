@@ -1,0 +1,21 @@
+{
+    "project_path": "test6081",
+    "stats": {
+        "methods": 33,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 37
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `set_object` at line 39 having 6 parameters (`cls`, `object_store`, `obj`, `context`, `runtime_type`, `paths`)",
+            39
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `FileSystemObjectStore` having 38 external function calls",
+            -1
+        ]
+    ]
+}

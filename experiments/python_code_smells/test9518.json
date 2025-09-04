@@ -1,0 +1,41 @@
+{
+    "project_path": "test9518",
+    "stats": {
+        "methods": 104,
+        "classes": 1,
+        "lambdas": 34,
+        "try": 0,
+        "listcomps": 6,
+        "codeblocks": 105
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_test_value_counts` at line 429 containing 71 lines",
+            429
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `SeriesTest` having 101 methods (`pser`, `kser`, `test_series`, `test_series_tuple_name`, `test_repr_cache_invalidation`, `test_empty_series`, `test_all_null_series`, `test_head`, `test_rename`, `test_rename_method`, `test_rename_axis`, `test_or`, `test_and`, `test_to_numpy`, `test_isin`, `test_drop_duplicates`, `test_reindex`, `test_fillna`, `test_dropna`, `test_nunique`, `test_value_counts`, `test_nsmallest`, `test_nlargest`, `test_isnull`, `test_all`, `test_any`, `test_reset_index`, `test_reset_index_with_default_index_types`, `test_sort_values`, `test_sort_index`, `test_to_datetime`, `test_missing`, `test_clip`, `test_is_unique`, `test_to_list`, `test_append`, `test_map`, `test_add_prefix`, `test_add_suffix`, `test_hist`, `test_cummin`, `test_cummax`, `test_cumsum`, `test_cumprod`, `test_median`, `test_rank`, `test_round`, `test_quantile`, `test_idxmax`, `test_idxmin`, `test_shift`, `test_astype`, `test_aggregate`, `test_drop`, `test_pop`, `test_replace`, `test_xs`, `test_duplicates`, `test_update`, `test_where`, `test_mask`, `test_truncate`, `test_getitem`, `test_keys`, `test_index`, `test_pct_change`, `test_axes`, `test_combine_first`, `test_udt`, `test_repeat`, `test_take`, `test_divmod`, `test_rdivmod`, `test_mod`, `test_rmod`, `test_asof`, `test_squeeze`, `test_div_zero_and_nan`, `test_mad`, `test_to_frame`, `test_shape`, `test_to_markdown`, `test_unstack`, `test_item`, `test_filter`, `test_abs`, `test_bfill`, `test_ffill`, `test_iteritems`, `test_droplevel`, `test_tail`, `test_product`, `test_hasnans`, `test_last_valid_index`, `test_first_valid_index`, `test_pad`, `test_explode`, `test_argsort`, `test_argmin_argmax`, `test_backfill`, `test_compare`)",
+            46
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `SeriesTest` having 2217 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 105 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 2 long lambda functions and the longest lambda function `lambda: ks.MultiIndex.from_tuples([('x', 'a'), ('x', 'b')]).value_counts()` at line 663 having line length 77",
+            663
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `unsupported_properties = [name for name, type_ in missing_properties if type_.fget.__name__ == 'unsupported_property']` at line 883 having line length 97",
+            883
+        ]
+    ]
+}

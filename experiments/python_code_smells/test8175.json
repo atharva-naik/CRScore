@@ -1,0 +1,29 @@
+{
+    "project_path": "test8175",
+    "stats": {
+        "methods": 47,
+        "classes": 42,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 1,
+        "codeblocks": 89
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `__init__` at line 78 having 13 branches",
+            78
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `BotoServerError` having 8 attributes (`status`, `reason`, `body`, `request_id`, `error_code`, `_error_message`, `message`, `box_usage`)",
+            77
+        ],
+        [
+            "Shotgun smell detected with 17 classes with too many external fuctions and class with most external function calls, `BotoServerError` having 12 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 89 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

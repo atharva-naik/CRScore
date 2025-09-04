@@ -1,0 +1,41 @@
+{
+    "project_path": "test10035",
+    "stats": {
+        "methods": 52,
+        "classes": 9,
+        "lambdas": 1,
+        "try": 10,
+        "listcomps": 6,
+        "codeblocks": 61
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `main` at line 761 containing 146 lines",
+            761
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `execute_campaign` at line 697 having 14 parameters (`TESTFILE`, `OUTPUTFILE`, `PREEXEC`, `NUM`, `KW_OK`, `KW_KO`, `DUMP`, `FORMAT`, `VERB`, `ONLYFAILED`, `CRC`, `autorun_func`, `pos_begin`, `ignore_globals`)",
+            697
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `main` at line 761 having 45 branches",
+            761
+        ],
+        [
+            "Many attribute smell detected with 2 classes having many attributes and the class with most attributes, `TestCampaign` having 12 attributes (`title`, `filename`, `headcomments`, `campaign`, `keywords`, `crc`, `sha`, `preexec`, `preexec_output`, `end_pos`, `interrupted`)",
+            161
+        ],
+        [
+            "Shotgun smell detected with 8 classes with too many external fuctions and class with most external function calls, `External_Files` having 9 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 9 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 61 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

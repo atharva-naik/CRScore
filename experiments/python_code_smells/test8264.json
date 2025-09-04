@@ -1,0 +1,25 @@
+{
+    "project_path": "test8264",
+    "stats": {
+        "methods": 20,
+        "classes": 6,
+        "lambdas": 1,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 26
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 6 methods with long parameter lists and method `forward` at line 118 having 11 parameters (`ctx`, `input`, `offset`, `mask`, `weight`, `bias`, `stride`, `padding`, `dilation`, `groups`, `deformable_groups`)",
+            118
+        ],
+        [
+            "Many attribute smell detected with 2 classes having many attributes and the class with most attributes, `ModulatedDeformConv` having 13 attributes (`in_channels`, `out_channels`, `kernel_size`, `stride`, `padding`, `dilation`, `groups`, `deformable_groups`, `with_bias`, `transposed`, `output_padding`, `weight`)",
+            327
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `DeformConvFunction` having 38 external function calls",
+            -1
+        ]
+    ]
+}

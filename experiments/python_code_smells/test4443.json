@@ -1,0 +1,37 @@
+{
+    "project_path": "test4443",
+    "stats": {
+        "methods": 54,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 19,
+        "listcomps": 5,
+        "codeblocks": 56
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `visit_call` at line 1067 containing 88 lines",
+            1067
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `_emit_no_member` at line 389 having 19 branches",
+            389
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `TypeChecker` having 222 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 10 of 56 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `non_opaque_inference_results = [owner for owner in inferred if owner is not astroid.Uninferable and (not isinstance(owner, astroid.nodes.Unknown))]` at line 876 having line length 118",
+            876
+        ]
+    ]
+}

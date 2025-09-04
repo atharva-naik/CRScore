@@ -1,0 +1,41 @@
+{
+    "project_path": "test9765",
+    "stats": {
+        "methods": 48,
+        "classes": 7,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 55
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `endElement` at line 327 containing 70 lines",
+            327
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `endElement` at line 327 having 35 branches",
+            327
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Instance` having 42 attributes (`id`, `dns_name`, `public_dns_name`, `private_dns_name`, `key_name`, `instance_type`, `launch_time`, `image_id`, `kernel`, `ramdisk`, `product_codes`, `ami_launch_index`, `monitored`, `monitoring_state`, `spot_instance_request_id`, `subnet_id`, `vpc_id`, `private_ip_address`, `ip_address`, `requester_id`, `_in_monitoring_element`, `persistent`, `root_device_name`, `root_device_type`, `block_device_mapping`, `state_reason`, `group_name`, `client_token`, `eventsSet`, `groups`, `platform`, `interfaces`, `hypervisor`, `virtualization_type`, `architecture`, `instance_profile`, `_previous_state`, `_state`, `_placement`)",
+            157
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `Instance` having 23 methods (`state`, `state_code`, `previous_state`, `previous_state_code`, `placement`, `placement_group`, `placement_tenancy`, `startElement`, `endElement`, `update`, `terminate`, `stop`, `start`, `reboot`, `get_console_output`, `confirm_product`, `use_ip`, `monitor`, `unmonitor`, `get_attribute`, `modify_attribute`, `reset_attribute`, `create_image`)",
+            157
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `Instance` having 34 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 7 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 55 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test779",
+    "stats": {
+        "methods": 3,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `processAndLabelStates` at line 757 having 7 parameters (`role`, `states`, `reason`, `positiveStates`, `negativeStates`, `positiveStateLabelDict`, `negativeStateLabelDict`)",
+            757
+        ],
+        [
+            "Code complexity smell detected with 2 of 3 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

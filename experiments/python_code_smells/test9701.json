@@ -1,0 +1,41 @@
+{
+    "project_path": "test9701",
+    "stats": {
+        "methods": 34,
+        "classes": 4,
+        "lambdas": 9,
+        "try": 4,
+        "listcomps": 0,
+        "codeblocks": 38
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `__init__` at line 152 containing 55 lines",
+            152
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `AddonsDialog` having 10 attributes (`_instance`, `addonsList`, `aboutButton`, `helpButton`, `enableDisableButton`, `removeButton`, `getAddonsButton`, `addButton`, `incompatAddonsButton`, `EscapeId`)",
+            137
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 446",
+            446
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 529",
+            529
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `AddonsDialog` having 148 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 38 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

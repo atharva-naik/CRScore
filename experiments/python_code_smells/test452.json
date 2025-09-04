@@ -1,0 +1,33 @@
+{
+    "project_path": "test452",
+    "stats": {
+        "methods": 3,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 2,
+        "codeblocks": 4
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 55 having 13 parameters (`self`, `in_channels`, `out_channels`, `num_outs`, `start_level`, `end_level`, `add_extra_convs`, `extra_convs_on_inputs`, `relu_before_extra_convs`, `no_norm_on_lateral`, `conv_cfg`, `norm_cfg`, `act_cfg`)",
+            55
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `` having 14 attributes",
+            10
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `FPN` having 44 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 4 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `laterals = [lateral_conv(inputs[i + self.start_level]) for i, lateral_conv in enumerate(self.lateral_convs)]` at line 147 having line length 101",
+            147
+        ]
+    ]
+}

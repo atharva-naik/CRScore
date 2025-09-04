@@ -1,0 +1,49 @@
+{
+    "project_path": "test4188",
+    "stats": {
+        "methods": 24,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 1,
+        "listcomps": 25,
+        "codeblocks": 25
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `init` at line 75 containing 88 lines",
+            75
+        ],
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `coords` at line 282 having 6 parameters (`cls`, `dataset`, `dimension`, `ordered`, `expanded`, `edges`)",
+            282
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `init` at line 75 having 30 branches",
+            75
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `XArrayInterface` having 23 methods (`loaded`, `applies`, `dimension_type`, `dtype`, `shape`, `init`, `validate`, `range`, `groupby`, `coords`, `values`, `aggregate`, `unpack_scalar`, `ndloc`, `concat_dim`, `redim`, `reindex`, `sort`, `select`, `length`, `dframe`, `sample`, `add_dimension`)",
+            29
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 25",
+            25
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `XArrayInterface` having 226 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 7 of 25 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `kdims = sorted(kdims, key=lambda x: (xrcoords.index(x) if x in xrcoords else float('inf'), x))` at line 165 having line length 69",
+            165
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `nonmatching = ['%s: %s' % (kd, dims) for kd, dims in irregular[1:] if set(dims) != set(irregular[0][1])]` at line 200 having line length 97",
+            200
+        ]
+    ]
+}

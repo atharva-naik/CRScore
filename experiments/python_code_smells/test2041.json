@@ -1,0 +1,17 @@
+{
+    "project_path": "test2041",
+    "stats": {
+        "methods": 9,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

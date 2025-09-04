@@ -1,0 +1,17 @@
+{
+    "project_path": "test6741",
+    "stats": {
+        "methods": 36,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 38
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `NullProgresser` having 4 external function calls",
+            -1
+        ]
+    ]
+}

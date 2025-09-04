@@ -1,0 +1,29 @@
+{
+    "project_path": "test4442",
+    "stats": {
+        "methods": 129,
+        "classes": 7,
+        "lambdas": 5,
+        "try": 7,
+        "listcomps": 5,
+        "codeblocks": 136
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 7 classes with too many external fuctions and class with most external function calls, `Scheduler` having 265 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 5 out of 7 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 6 of 136 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `workers = [dict(name=worker.id, last_active=worker.last_active, started=worker.started, state=worker.state, first_task_display_name=self._first_task_display_name(worker), num_unread_rpc_messages=len(worker.rpc_messages), **worker.info) for worker in self._state.get_active_workers()]` at line 1446 having line length 293",
+            1446
+        ]
+    ]
+}

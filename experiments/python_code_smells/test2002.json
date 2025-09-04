@@ -1,0 +1,45 @@
+{
+    "project_path": "test2002",
+    "stats": {
+        "methods": 223,
+        "classes": 3,
+        "lambdas": 41,
+        "try": 36,
+        "listcomps": 8,
+        "codeblocks": 226
+    },
+    "smells": [
+        [
+            "Long method smell detected with 7 long methods and longest method `settings_dialog` at line 2591 containing 297 lines",
+            2591
+        ],
+        [
+            "Long branch smell detected with 4 methods with long branching and method with most branches `settings_dialog` at line 2591 having 19 branches",
+            2591
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `ElectrumWindow` having 90 attributes (`gui_object`, `config`, `network`, `fx`, `invoices`, `contacts`, `tray`, `app`, `cleaned_up`, `is_max`, `payment_request`, `checking_accounts`, `qr_window`, `not_enough_funds`, `pluginsdialog`, `require_fee_update`, `tx_notifications`, `tl_windows`, `tx_external_keypairs`, `need_update`, `decimal_point`, `num_zeros`, `completions`, `tabs`, `send_tab`, `receive_tab`, `addresses_tab`, `utxo_tab`, `console_tab`, `contacts_tab`)",
+            88
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `ElectrumWindow` having 152 methods (`on_history`, `setup_exception_hook`, `on_fx_history`, `on_quotes`, `on_fx_quotes`, `toggle_tab`, `push_top_level_window`, `pop_top_level_window`, `top_level_window`, `diagnostic_name`, `is_hidden`, `show_or_hide`, `bring_to_top`, `on_error`, `on_network`, `on_network_qt`, `fetch_alias`, `close_wallet`, `load_wallet`, `init_geometry`, `watching_only_changed`, `warn_if_watching_only`, `open_wallet`, `backup_wallet`, `update_recently_visited`, `get_wallet_folder`, `new_wallet`, `init_menubar`, `donate_to_server`, `show_about`, `show_report_bug`, `notify_transactions`, `notify`, `getOpenFileName`, `getSaveFileName`, `connect_slots`, `timer_actions`, `format_amount`, `format_amount_and_units`, `format_fee_rate`, `get_decimal_point`, `base_unit`, `connect_fields`, `update_status`, `update_wallet`, `update_tabs`, `create_history_tab`, `show_address`, `show_transaction`, `create_receive_tab`, `delete_payment_request`, `get_request_URI`, `sign_payment_request`, `save_payment_request`, `view_and_paste`, `export_payment_request`, `new_payment_request`, `set_receive_address`, `clear_receive_tab`, `toggle_qr_window`, `show_send_tab`, `show_receive_tab`, `receive_at`, `update_receive_qr`, `set_feerounding_text`, `create_send_tab`, `spend_max`, `update_fee`, `get_payto_or_dummy`, `do_update_fee`, `from_list_delete`, `from_list_menu`, `set_pay_from`, `redraw_from_list`, `get_contact_payto`, `update_completions`, `protected`, `is_send_fee_frozen`, `is_send_feerate_frozen`, `get_send_fee_estimator`, `read_send_tab`, `do_preview`, `do_send`, `sign_tx`, `sign_tx_with_password`, `broadcast_transaction`, `query_choice`, `lock_amount`, `prepare_for_payment_request`, `delete_invoice`, `payment_request_ok`, `payment_request_error`, `on_pr`, `pay_to_URI`, `do_clear`, `set_frozen_state`, `create_list_tab`, `create_addresses_tab`, `create_utxo_tab`, `create_contacts_tab`, `remove_address`, `get_coins`, `spend_coins`, `paytomany`, `payto_contacts`, `set_contact`, `delete_contacts`, `show_invoice`, `show_pr_details`, `do_pay_invoice`, `create_console_tab`, `update_console`, `create_status_bar`, `update_lock_icon`, `update_buttons_on_seed`, `change_password_dialog`, `toggle_search`, `do_search`, `new_contact_dialog`, `show_master_public_keys`, `remove_wallet`, `show_seed_dialog`, `show_qrcode`, `show_private_key`, `do_sign`, `do_verify`, `sign_verify_message`, `do_decrypt`, `do_encrypt`, `encrypt_message`, `password_dialog`, `tx_from_text`, `read_tx_from_qrcode`, `read_tx_from_file`, `do_process_from_text`, `do_process_from_file`, `do_process_from_txid`, `export_privkeys_dialog`, `do_export_privkeys`, `do_import_labels`, `do_export_labels`, `sweep_key_dialog`, `import_addresses`, `do_import_privkey`, `update_fiat`, `settings_dialog`, `closeEvent`, `clean_up`, `plugins_dialog`, `cpfp`, `bump_fee_dialog`, `save_transaction_into_wallet`)",
+            88
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `ElectrumWindow` having 2119 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 7 of 226 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 11 long lambda functions and the longest lambda function `make_tx = lambda fee_est: self.wallet.make_unsigned_transaction(self.get_coins(), outputs, self.config, fixed_fee=fee_est, is_sweep=is_sweep)` at line 1301 having line length 137",
+            1301
+        ]
+    ]
+}

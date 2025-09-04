@@ -1,0 +1,17 @@
+{
+    "project_path": "test225",
+    "stats": {
+        "methods": 2,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `help` at line 65 having 6 parameters (`obj`, `visualization`, `ansi`, `backend`, `recursive`, `pattern`)",
+            65
+        ]
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "project_path": "test1341",
+    "stats": {
+        "methods": 79,
+        "classes": 8,
+        "lambdas": 2,
+        "try": 24,
+        "listcomps": 7,
+        "codeblocks": 87
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 1319",
+            1319
+        ],
+        [
+            "Shotgun smell detected with 7 classes with too many external fuctions and class with most external function calls, `MessagesHandlerMixIn` having 101 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 8 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 7 of 87 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `[(message_line, enable) for message_line, enable in lines.items() if message_line <= line]` at line 446 having line length 95",
+            446
+        ]
+    ]
+}

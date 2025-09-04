@@ -1,0 +1,21 @@
+{
+    "project_path": "test8293",
+    "stats": {
+        "methods": 11,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 1,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `create_dagster_pandas_dataframe_type` at line 159 having 7 parameters (`name`, `description`, `columns`, `event_metadata_fn`, `dataframe_constraints`, `input_hydration_config`, `output_materialization_config`)",
+            159
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `column_type_constraint = [constraint for constraint in constraints if isinstance(constraint, ColumnTypeConstraint)]` at line 132 having line length 94",
+            132
+        ]
+    ]
+}

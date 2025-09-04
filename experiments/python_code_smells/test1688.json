@@ -1,0 +1,29 @@
+{
+    "project_path": "test1688",
+    "stats": {
+        "methods": 6,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 8,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `eval_map` at line 300 containing 60 lines",
+            300
+        ],
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `tpfp_imagenet` at line 60 having 9 parameters (`det_bboxes`, `gt_bboxes`, `gt_bboxes_ignore`, `gt_bboxes_group_of`, `default_iou_thr`, `ioa_thr`, `area_ranges`, `use_legacy_coordinate`, `use_group_of`)",
+            60
+        ],
+        [
+            "Long branch smell detected with 4 methods with long branching and method with most branches `tpfp_imagenet` at line 60 having 19 branches",
+            60
+        ],
+        [
+            "Code complexity smell detected with 5 of 6 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

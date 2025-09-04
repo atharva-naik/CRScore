@@ -1,0 +1,25 @@
+{
+    "project_path": "test5292",
+    "stats": {
+        "methods": 61,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 1,
+        "codeblocks": 65
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `SNSTest` having 34 methods (`setUpClass`, `tearDownClass`, `test_publish_unicode_chars`, `test_subscribe_http_endpoint`, `test_attribute_raw_subscribe`, `test_filter_policy`, `test_exists_filter_policy`, `test_subscribe_sqs_queue`, `test_subscribe_platform_endpoint`, `test_unknown_topic_publish`, `test_publish_sms`, `test_publish_target`, `test_tags`, `test_topic_subscription`, `test_dead_letter_queue`, `unsubscribe_all_from_sns`, `test_redrive_policy_http_subscription`, `test_redrive_policy_lambda_subscription`, `test_redrive_policy_queue_subscription`, `test_publish_with_empty_subject`, `test_create_topic_test_arn`, `test_publish_message_by_target_arn`, `test_publish_message_after_subscribe_topic`, `test_create_duplicate_topic_with_different_tags`, `test_create_duplicate_topic_check_idempotentness`, `test_create_platform_endpoint_check_idempotentness`, `test_publish_by_path_parameters`, `test_multiple_subscriptions_http_endpoint`, `test_publish_sms_endpoint`, `test_publish_sqs_from_sns`, `add_xray_header`, `test_publish_sqs_from_sns_with_xray_propagation`, `test_create_topic_after_delete_with_new_tags`, `test_not_found_error_on_get_subscription_attributes`)",
+            46
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `SNSTest` having 403 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `distinct_tags = [tag for idx, tag in enumerate(tags['Tags']) if tag not in tags['Tags'][:idx]]` at line 422 having line length 78",
+            422
+        ]
+    ]
+}

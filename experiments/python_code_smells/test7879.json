@@ -1,0 +1,37 @@
+{
+    "project_path": "test7879",
+    "stats": {
+        "methods": 133,
+        "classes": 17,
+        "lambdas": 1,
+        "try": 8,
+        "listcomps": 2,
+        "codeblocks": 150
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `start_server_playback` at line 745 having 10 parameters (`self`, `flows`, `kill`, `headers`, `exit`, `nopop`, `ignore_params`, `ignore_content`, `ignore_payload_params`, `ignore_host`)",
+            745
+        ],
+        [
+            "Many attribute smell detected with 2 classes having many attributes and the class with most attributes, `FlowMaster` having 21 attributes (`state`, `server_playback`, `client_playback`, `kill_nonreplay`, `scripts`, `pause_scripts`, `stickycookie_state`, `stickycookie_txt`, `stickyauth_state`, `stickyauth_txt`, `anticache`, `anticomp`, `stream_large_bodies`, `refresh_server_playback`, `replacehooks`, `setheaders`, `replay_ignore_params`, `replay_ignore_content`, `replay_ignore_host`, `stream`, `apps`)",
+            617
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `FlowMaster` having 43 methods (`start_app`, `add_event`, `unload_scripts`, `unload_script`, `reload_scripts`, `load_script`, `run_script_hook`, `get_ignore_filter`, `set_ignore_filter`, `get_tcp_filter`, `set_tcp_filter`, `set_stickycookie`, `set_stream_large_bodies`, `set_stickyauth`, `start_client_playback`, `stop_client_playback`, `start_server_playback`, `stop_server_playback`, `do_server_playback`, `tick`, `duplicate_flow`, `create_request`, `load_flow`, `load_flows`, `load_flows_file`, `process_new_request`, `process_new_response`, `replay_request`, `handle_log`, `handle_clientconnect`, `handle_clientdisconnect`, `handle_serverconnect`, `handle_serverdisconnect`, `handle_next_layer`, `handle_error`, `handle_request`, `handle_responseheaders`, `handle_response`, `handle_intercept`, `handle_accept_intercept`, `shutdown`, `start_stream`, `stop_stream`)",
+            617
+        ],
+        [
+            "Shotgun smell detected with 16 classes with too many external fuctions and class with most external function calls, `FlowMaster` having 85 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 17 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 150 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "project_path": "test6758",
+    "stats": {
+        "methods": 70,
+        "classes": 7,
+        "lambdas": 7,
+        "try": 4,
+        "listcomps": 2,
+        "codeblocks": 77
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `get_work` at line 717 containing 66 lines",
+            717
+        ],
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `add_task` at line 598 having 14 parameters (`self`, `task_id`, `status`, `runnable`, `deps`, `new_deps`, `expl`, `resources`, `priority`, `family`, `module`, `params`, `assistant`, `tracking_url`)",
+            598
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `get_work` at line 717 having 22 branches",
+            717
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Task` having 22 attributes (`id`, `stakeholders`, `workers`, `status`, `time`, `retry`, `remove`, `worker_running`, `time_running`, `expl`, `priority`, `resources`, `family`, `module`, `params`, `disable_failures`, `disable_hard_timeout`, `failures`, `tracking_url`, `scheduler_disable_time`, `runnable`)",
+            169
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `SimpleTaskState` having 21 methods (`get_state`, `set_state`, `dump`, `load`, `get_active_tasks`, `get_running_tasks`, `get_pending_tasks`, `num_pending_tasks`, `get_task`, `has_task`, `re_enable`, `set_status`, `fail_dead_worker_task`, `prune`, `inactivate_tasks`, `get_active_workers`, `get_assistants`, `get_worker_ids`, `get_worker`, `inactivate_workers`, `get_necessary_tasks`)",
+            283
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `CentralPlannerScheduler` having 129 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 7 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 6 of 77 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `workers = [dict(name=worker.id, last_active=worker.last_active, started=getattr(worker, 'started', None), **worker.info) for worker in self._state.get_active_workers()]` at line 980 having line length 168",
+            980
+        ]
+    ]
+}

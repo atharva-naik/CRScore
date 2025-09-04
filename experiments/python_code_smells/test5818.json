@@ -1,0 +1,33 @@
+{
+    "project_path": "test5818",
+    "stats": {
+        "methods": 3,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 1,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `train_detector` at line 72 containing 59 lines",
+            72
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `train_detector` at line 72 having 7 parameters (`model`, `dataset`, `cfg`, `distributed`, `validate`, `timestamp`, `meta`)",
+            72
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `train_detector` at line 72 having 18 branches",
+            72
+        ],
+        [
+            "Code complexity smell detected with 1 of 3 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `data_loaders = [build_dataloader(ds, cfg.data.samples_per_gpu, cfg.data.workers_per_gpu, num_gpus=len(cfg.gpu_ids), dist=distributed, seed=cfg.seed, runner_type=runner_type) for ds in dataset]` at line 99 having line length 186",
+            99
+        ]
+    ]
+}

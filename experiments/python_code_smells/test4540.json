@@ -1,0 +1,33 @@
+{
+    "project_path": "test4540",
+    "stats": {
+        "methods": 42,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 11,
+        "listcomps": 2,
+        "codeblocks": 46
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"too general exception\" at line 46",
+            46
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 59",
+            59
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 191",
+            191
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `Addon` having 55 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 4 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

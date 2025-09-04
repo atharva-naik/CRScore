@@ -1,0 +1,21 @@
+{
+    "project_path": "test1663",
+    "stats": {
+        "methods": 2,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 2
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `multiclass_nms` at line 7 having 7 parameters (`multi_bboxes`, `multi_scores`, `score_thr`, `nms_cfg`, `max_num`, `score_factors`, `return_inds`)",
+            7
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `multiclass_nms` at line 7 having 13 branches",
+            7
+        ]
+    ]
+}

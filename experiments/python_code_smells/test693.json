@@ -1,0 +1,25 @@
+{
+    "project_path": "test693",
+    "stats": {
+        "methods": 32,
+        "classes": 5,
+        "lambdas": 1,
+        "try": 4,
+        "listcomps": 0,
+        "codeblocks": 37
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `create_store` at line 228 having 6 parameters (`path`, `basename`, `key_size`, `organization`, `cn`, `expiry`)",
+            228
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `CertStore` having 79 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 5 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

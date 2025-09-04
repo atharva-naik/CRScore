@@ -1,0 +1,29 @@
+{
+    "project_path": "test7611",
+    "stats": {
+        "methods": 30,
+        "classes": 5,
+        "lambdas": 0,
+        "try": 6,
+        "listcomps": 0,
+        "codeblocks": 35
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_process_flow` at line 239 containing 109 lines",
+            239
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `_process_flow` at line 239 having 36 branches",
+            239
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `HttpLayer` having 106 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 35 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

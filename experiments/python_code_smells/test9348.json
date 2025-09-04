@@ -1,0 +1,25 @@
+{
+    "project_path": "test9348",
+    "stats": {
+        "methods": 9,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 10
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `test_pinned_size` at line 83 having 6 parameters (`self`, `widget`, `fake_web_tab`, `config_stub`, `shrink_pinned`, `vertical`)",
+            83
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `TestTabWidget` having 74 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 10 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

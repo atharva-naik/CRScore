@@ -1,0 +1,45 @@
+{
+    "project_path": "test4313",
+    "stats": {
+        "methods": 30,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 6,
+        "listcomps": 3,
+        "codeblocks": 32
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 64 having 10 parameters (`self`, `static_libs`, `var_libs`, `cache`, `tmp`, `functions`, `data`, `config`, `init`, `logs`)",
+            64
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Directories` having 9 attributes (`static_libs`, `var_libs`, `cache`, `tmp`, `functions`, `data`, `config`, `init`, `logs`)",
+            34
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 194",
+            194
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 612",
+            612
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 650",
+            650
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `Directories` having 8 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 32 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `['docker-' in file_names for file_names in os.listdir('/sys/fs/cgroup/memory/system.slice')]` at line 597 having line length 99",
+            597
+        ]
+    ]
+}

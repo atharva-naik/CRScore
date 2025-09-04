@@ -1,0 +1,29 @@
+{
+    "project_path": "test1150",
+    "stats": {
+        "methods": 31,
+        "classes": 6,
+        "lambdas": 5,
+        "try": 2,
+        "listcomps": 12,
+        "codeblocks": 37
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `RangeBase` having 41 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 6 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 37 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 5 long list comprehensions and the longest list comprehension `sample_datetimes = [datetime(y, m, d, h) for y in range(2000, 2050, 10) for m in range(1, 4) for d in range(5, 8) for h in range(21, 24)]` at line 427 having line length 122",
+            427
+        ]
+    ]
+}

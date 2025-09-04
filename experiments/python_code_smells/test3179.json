@@ -1,0 +1,33 @@
+{
+    "project_path": "test3179",
+    "stats": {
+        "methods": 23,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 5,
+        "listcomps": 0,
+        "codeblocks": 24
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `_check_invalid_envvar_value` at line 703 having 6 parameters (`self`, `node`, `infer`, `message`, `call_arg`, `allow_none`)",
+            703
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `` at line 517 having 14 branches",
+            517
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `StdlibChecker` having 67 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 24 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

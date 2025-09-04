@@ -1,0 +1,21 @@
+{
+    "project_path": "test7530",
+    "stats": {
+        "methods": 18,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 20
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ConfigV1` having 26 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 2 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

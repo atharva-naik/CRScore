@@ -1,0 +1,37 @@
+{
+    "project_path": "test6217",
+    "stats": {
+        "methods": 62,
+        "classes": 4,
+        "lambdas": 1,
+        "try": 13,
+        "listcomps": 2,
+        "codeblocks": 66
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `_getNearestTableCell` at line 627 having 9 parameters (`self`, `tableID`, `startPos`, `origRow`, `origCol`, `origRowSpan`, `origColSpan`, `movement`, `axis`)",
+            627
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `VirtualBuffer` having 8 attributes (`backendName`, `VBufHandle`, `isLoading`)",
+            408
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `VirtualBufferTextInfo` having 110 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 66 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `fieldCommands = [x for x in info.getTextWithFields() if isinstance(x, textInfos.FieldCommand)]` at line 506 having line length 78",
+            506
+        ]
+    ]
+}

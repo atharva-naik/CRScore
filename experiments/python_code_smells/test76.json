@@ -1,0 +1,25 @@
+{
+    "project_path": "test76",
+    "stats": {
+        "methods": 16,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 4,
+        "listcomps": 0,
+        "codeblocks": 18
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `_on_feature_permission_cancelled` at line 191 having 6 parameters (`self`, `question`, `url`, `feature`, `cancelled_url`, `cancelled_feature`)",
+            191
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `WebEnginePage` having 84 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

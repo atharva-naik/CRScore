@@ -1,0 +1,29 @@
+{
+    "project_path": "test4224",
+    "stats": {
+        "methods": 3,
+        "classes": 0,
+        "lambdas": 1,
+        "try": 0,
+        "listcomps": 1,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `lambda_handler` at line 28 containing 53 lines",
+            28
+        ],
+        [
+            "Code complexity smell detected with 1 of 3 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `lambda c: any((c.get('key', '').lower().endswith(ext) for ext in COMPRESSION_EXTS))` at line 206 having line length 87",
+            206
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `corrected = [{'key': ext, 'doc_count': val['doc_count'], 'size': {'value': val['size']}} for ext, val in ext_counts.items()]` at line 220 having line length 117",
+            220
+        ]
+    ]
+}

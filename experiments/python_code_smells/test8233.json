@@ -1,0 +1,25 @@
+{
+    "project_path": "test8233",
+    "stats": {
+        "methods": 44,
+        "classes": 2,
+        "lambdas": 3,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 46
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `SparkSubmitTask` having 28 methods (`app_options`, `spark_submit`, `master`, `deploy_mode`, `jars`, `packages`, `py_files`, `files`, `conf`, `properties_file`, `driver_memory`, `driver_java_options`, `driver_library_path`, `driver_class_path`, `executor_memory`, `driver_cores`, `supervise`, `total_executor_cores`, `executor_cores`, `queue`, `num_executors`, `archives`, `hadoop_conf_dir`, `get_environment`, `program_environment`, `program_args`, `spark_command`, `app_command`)",
+            38
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `SparkSubmitTask` having 61 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 2 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

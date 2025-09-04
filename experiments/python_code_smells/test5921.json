@@ -1,0 +1,49 @@
+{
+    "project_path": "test5921",
+    "stats": {
+        "methods": 65,
+        "classes": 3,
+        "lambdas": 12,
+        "try": 0,
+        "listcomps": 36,
+        "codeblocks": 68
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `fillna` at line 1327 having 6 parameters (`self`, `value`, `method`, `axis`, `inplace`, `limit`)",
+            1327
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `apply` at line 799 having 16 branches",
+            799
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `DataFrameGroupBy` having 8 attributes (`_kdf`, `_groupkeys`, `_groupkeys_scols`, `_as_index`, `_should_drop_index`, `_have_agg_columns`, `_agg_columns`, `_agg_columns_scols`)",
+            1908
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `GroupBy` having 32 methods (`aggregate`, `count`, `first`, `last`, `max`, `mean`, `min`, `std`, `sum`, `var`, `all`, `any`, `size`, `diff`, `cummax`, `cummin`, `cumprod`, `cumsum`, `apply`, `filter`, `rank`, `idxmax`, `idxmin`, `fillna`, `bfill`, `ffill`, `head`, `shift`, `transform`, `nunique`, `rolling`, `expanding`)",
+            66
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `GroupBy` having 272 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 68 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 10 long lambda functions and the longest lambda function `stat_function = lambda col: F.countDistinct(col) + F.when(F.count(F.when(col.isNull(), 1).otherwise(None)) >= 1, 1).otherwise(0)` at line 1806 having line length 119",
+            1806
+        ],
+        [
+            "Long list comprehension smell detected with 14 long list comprehensions and the longest list comprehension `agg_columns = [label for label in self._kdf._internal.column_labels if all((not self._kdf[label]._equals(key) for key in self._groupkeys))]` at line 1925 having line length 128",
+            1925
+        ]
+    ]
+}

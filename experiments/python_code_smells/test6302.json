@@ -1,0 +1,45 @@
+{
+    "project_path": "test6302",
+    "stats": {
+        "methods": 28,
+        "classes": 6,
+        "lambdas": 3,
+        "try": 0,
+        "listcomps": 18,
+        "codeblocks": 34
+    },
+    "smells": [
+        [
+            "Long method smell detected with 3 long methods and longest method `_compute_gridspec` at line 714 containing 138 lines",
+            714
+        ],
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 273 having 8 parameters (`self`, `layout`, `axis`, `create_axes`, `ranges`, `keys`, `dimensions`, `layout_num`)",
+            273
+        ],
+        [
+            "Long branch smell detected with 4 methods with long branching and method with most branches `_compute_gridspec` at line 714 having 36 branches",
+            714
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `GridPlot` having 12 attributes (`layout`, `layout_num`, `fig_inches`, `_layoutspec`)",
+            228
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `GridPlot` having 113 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 6 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 6 of 34 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 6 long list comprehensions and the longest list comprehension `projs = ['3d' if isinstance(c, Element3D) else self.lookup_options(c, 'plot').options.get('projection', None) for c in components]` at line 981 having line length 129",
+            981
+        ]
+    ]
+}

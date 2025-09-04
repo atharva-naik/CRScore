@@ -1,0 +1,37 @@
+{
+    "project_path": "test9287",
+    "stats": {
+        "methods": 45,
+        "classes": 37,
+        "lambdas": 75,
+        "try": 0,
+        "listcomps": 3,
+        "codeblocks": 82
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `parse_options` at line 1211 having 6 parameters (`self`, `iffrom`, `ifto`, `replace`, `pattern`, `ignorepattern`)",
+            1211
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `network_stats` at line 624 having 15 branches",
+            624
+        ],
+        [
+            "Shotgun smell detected with 31 classes with too many external fuctions and class with most external function calls, `RadioTap` having 132 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 6 out of 37 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 82 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 3 long lambda functions and the longest lambda function `lambda pkt: 0 if pkt.len is None else pkt.len - (12 + pkt.nb_pairwise_cipher_suites * 4 + pkt.nb_akm_suites * 4) >= 18` at line 873 having line length 125",
+            873
+        ]
+    ]
+}

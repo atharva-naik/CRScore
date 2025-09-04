@@ -1,0 +1,41 @@
+{
+    "project_path": "test2615",
+    "stats": {
+        "methods": 53,
+        "classes": 1,
+        "lambdas": 6,
+        "try": 3,
+        "listcomps": 22,
+        "codeblocks": 54
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 6 methods with long parameter lists and method `to_html` at line 356 having 23 parameters (`self`, `buf`, `columns`, `col_space`, `header`, `index`, `na_rep`, `formatters`, `float_format`, `sparsify`, `index_names`, `justify`, `max_rows`, `max_cols`, `show_dimensions`, `decimal`, `bold_rows`, `classes`, `escape`, `notebook`, `border`, `table_id`, `render_links`)",
+            356
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `reset_index` at line 860 having 17 branches",
+            860
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `DataFrame` having 37 methods (`corr`, `iteritems`, `to_clipboard`, `to_html`, `to_string`, `to_dict`, `to_latex`, `index`, `set_index`, `reset_index`, `isnull`, `notnull`, `to_koalas`, `to_spark`, `to_pandas`, `assign`, `to_records`, `copy`, `dropna`, `fillna`, `clip`, `head`, `columns`, `columns`, `dtypes`, `count`, `drop`, `get`, `sort_values`, `nlargest`, `nsmallest`, `isin`, `pipe`, `shape`, `merge`, `sample`, `astype`, `describe`)",
+            53
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `DataFrame` having 317 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 8 of 54 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 10 long list comprehensions and the longest list comprehension `schema = StructType([StructField(name, infer_pd_series_spark_type(col), nullable=bool(col.isnull().any())) for name, col in reset_index.iteritems()])` at line 147 having line length 133",
+            147
+        ]
+    ]
+}

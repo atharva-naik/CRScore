@@ -1,0 +1,37 @@
+{
+    "project_path": "test7010",
+    "stats": {
+        "methods": 91,
+        "classes": 8,
+        "lambdas": 3,
+        "try": 10,
+        "listcomps": 11,
+        "codeblocks": 99
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 1489 having 7 parameters (`self`, `tool_path`, `parent_logger`, `jmeter_version`, `jmeter_download_link`, `plugins`, `proxy`)",
+            1489
+        ],
+        [
+            "Many attribute smell detected with 3 classes having many attributes and the class with most attributes, `JMeterExecutor` having 20 attributes (`original_jmx`, `modified_jmx`, `jmeter_log`, `properties_file`, `sys_properties_file`, `kpi_jtl`, `log_jtl`, `process`, `end_time`, `retcode`, `distributed_servers`, `management_port`, `_env`, `resource_files_collector`, `stdout_file`, `stderr_file`, `tool`)",
+            49
+        ],
+        [
+            "Shotgun smell detected with 8 classes with too many external fuctions and class with most external function calls, `JMeterExecutor` having 266 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 8 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 99 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 7 long list comprehensions and the longest list comprehension `jar_libs = [jarlib(file_name=jar, lib_name='-'.join(jar.split('-')[:-1]), version=JarCleaner.__extract_version(jar)) for jar in jars]` at line 1651 having line length 127",
+            1651
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test10111",
+    "stats": {
+        "methods": 26,
+        "classes": 4,
+        "lambdas": 1,
+        "try": 2,
+        "listcomps": 2,
+        "codeblocks": 30
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__gen_check` at line 379 having 6 parameters (`self`, `method`, `req`, `task`, `timeout`, `global_headers`)",
+            379
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `LocustIOExecutor` having 10 attributes (`process`, `__out`, `is_master`, `expected_slaves`, `scenario`, `script`, `log_file`)",
+            37
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `LocustIOScriptBuilder` having 66 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 4 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test9648",
+    "stats": {
+        "methods": 10,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 7,
+        "listcomps": 0,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `UIAHandler` having 15 attributes (`MTAThreadInitEvent`, `MTAThreadStopEvent`, `MTAThreadInitException`, `MTAThread`, `daemon`)",
+            137
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `UIAHandler` having 72 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 11 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

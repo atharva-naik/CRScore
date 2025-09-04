@@ -1,0 +1,21 @@
+{
+    "project_path": "test971",
+    "stats": {
+        "methods": 10,
+        "classes": 5,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 5,
+        "codeblocks": 15
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `ImageTransform` having 10 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `masks = [mmcv.imrescale(mask, scale_factor, interpolation='nearest') for mask in masks]` at line 103 having line length 79",
+            103
+        ]
+    ]
+}

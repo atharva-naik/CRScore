@@ -1,0 +1,37 @@
+{
+    "project_path": "test140",
+    "stats": {
+        "methods": 9,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 9,
+        "listcomps": 0,
+        "codeblocks": 10
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `write` at line 155 containing 51 lines",
+            155
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `write` at line 155 having 17 branches",
+            155
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `InfluxWriterSubscriber` having 10 attributes (`log`, `ls`, `influx`, `redis`, `incoming_ch`, `unique_ch`, `connection`, `total_inserts`, `inserts`, `time`)",
+            27
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `InfluxWriterSubscriber` having 97 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 10 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `self.incoming_ch.basic_consume(lambda ch, method, properties, body: self.static_callback(ch, method, properties, body, obj=self), queue='incoming')` at line 307 having line length 103",
+            307
+        ]
+    ]
+}

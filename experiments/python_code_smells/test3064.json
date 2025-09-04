@@ -1,0 +1,37 @@
+{
+    "project_path": "test3064",
+    "stats": {
+        "methods": 46,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 9,
+        "listcomps": 8,
+        "codeblocks": 48
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `_extract_filters` at line 1063 having 17 branches",
+            1063
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `Resource` having 21 methods (`id_generator`, `timestamp`, `object_id`, `get_parent_id`, `is_known_field`, `plural_head`, `plural_get`, `plural_post`, `plural_delete`, `get`, `put`, `patch`, `delete`, `process_object`, `apply_changes`, `postprocess`, `record_id`, `process_record`, `collection_get`, `collection_post`, `collection_delete`)",
+            154
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `Resource` having 134 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 48 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `changed_fields = [k for k in applied_changes.keys() if existing.get(k) != new_object.get(k)]` at line 626 having line length 75",
+            626
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test3099",
+    "stats": {
+        "methods": 4,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 5
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 47 having 8 parameters (`self`, `wrapped`, `retry_if`, `backoff`, `multiplier`, `max_tries`, `max_backoff`, `unwrap_methods`)",
+            47
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `RetryWrapper` having 14 external function calls",
+            -1
+        ]
+    ]
+}

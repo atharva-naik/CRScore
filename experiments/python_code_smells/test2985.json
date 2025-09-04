@@ -1,0 +1,49 @@
+{
+    "project_path": "test2985",
+    "stats": {
+        "methods": 101,
+        "classes": 18,
+        "lambdas": 17,
+        "try": 22,
+        "listcomps": 0,
+        "codeblocks": 119
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_normalizeControlField` at line 590 containing 72 lines",
+            590
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 384 having 6 parameters (`self`, `itemType`, `document`, `direction`, `rangeObj`, `includeCurrent`)",
+            384
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `_normalizeControlField` at line 590 having 23 branches",
+            590
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `WordDocument` having 9 attributes ()",
+            994
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `WordDocument` having 31 methods (`winwordColorToNVDAColor`, `event_caret`, `populateHeaderCellTrackerFromHeaderRows`, `populateHeaderCellTrackerFromBookmarks`, `getHeaderCellTrackerForTable`, `setAsHeaderCell`, `forgetHeaderCell`, `fetchAssociatedHeaderCellText`, `script_setColumnHeader`, `script_setRowHeader`, `script_reportCurrentHeaders`, `script_toggleBold`, `script_toggleItalic`, `script_toggleUnderline`, `script_toggleAlignment`, `script_toggleSuperscriptSubscript`, `script_moveParagraphDown`, `script_moveParagraphUp`, `script_increaseDecreaseOutlineLevel`, `script_increaseDecreaseFontSize`, `script_caret_moveByCell`, `script_tab`, `getLocalizedMeasurementTextForPointSize`, `script_reportCurrentComment`, `script_changeLineSpacing`, `script_nextRow`, `script_previousRow`, `script_nextColumn`, `script_previousColumn`, `script_nextParagraph`, `script_previousParagraph`)",
+            994
+        ],
+        [
+            "Shotgun smell detected with 11 classes with too many external fuctions and class with most external function calls, `WordDocument` having 237 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 5 out of 18 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 9 of 119 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 5 long lambda functions and the longest lambda function `val = self._WaitForValueChangeForAction(lambda: gesture.send(), lambda: (self.WinwordSelectionObject.font.superscript, self.WinwordSelectionObject.font.subscript))` at line 1348 having line length 106",
+            1348
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "project_path": "test5201",
+    "stats": {
+        "methods": 7,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 2,
+        "codeblocks": 8
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 58",
+            58
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `TestCommand` having 5 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `return [line.strip() for line in open(requirementFile).readlines() if not line.startswith('#')]` at line 68 having line length 93",
+            68
+        ]
+    ]
+}

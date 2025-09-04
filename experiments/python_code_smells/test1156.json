@@ -1,0 +1,41 @@
+{
+    "project_path": "test1156",
+    "stats": {
+        "methods": 77,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 5,
+        "listcomps": 0,
+        "codeblocks": 78
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 112 having 8 parameters (`self`, `command_executor`, `desired_capabilities`, `browser_profile`, `proxy`, `keep_alive`, `file_detector`, `options`)",
+            112
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `WebDriver` having 10 attributes (`command_executor`, `_is_remote`, `session_id`, `capabilities`, `error_handler`, `_switch_to`, `_mobile`, `file_detector`)",
+            95
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `WebDriver` having 70 methods (`file_detector_context`, `mobile`, `name`, `start_client`, `stop_client`, `start_session`, `create_web_element`, `execute`, `get`, `title`, `find_element_by_id`, `find_elements_by_id`, `find_element_by_xpath`, `find_elements_by_xpath`, `find_element_by_link_text`, `find_elements_by_link_text`, `find_element_by_partial_link_text`, `find_elements_by_partial_link_text`, `find_element_by_name`, `find_elements_by_name`, `find_element_by_tag_name`, `find_elements_by_tag_name`, `find_element_by_class_name`, `find_elements_by_class_name`, `find_element_by_css_selector`, `find_elements_by_css_selector`, `execute_script`, `execute_async_script`, `current_url`, `page_source`, `close`, `quit`, `current_window_handle`, `window_handles`, `maximize_window`, `switch_to`, `switch_to_active_element`, `switch_to_window`, `switch_to_frame`, `switch_to_default_content`, `switch_to_alert`, `back`, `forward`, `refresh`, `get_cookies`, `get_cookie`, `delete_cookie`, `delete_all_cookies`, `add_cookie`, `implicitly_wait`, `set_script_timeout`, `set_page_load_timeout`, `find_element`, `find_elements`, `desired_capabilities`, `get_screenshot_as_file`, `save_screenshot`, `get_screenshot_as_png`, `get_screenshot_as_base64`, `set_window_size`, `get_window_size`, `set_window_position`, `get_window_position`, `get_window_rect`, `set_window_rect`, `file_detector`, `file_detector`, `orientation`, `orientation`, `application_cache`, `log_types`, `get_log`)",
+            95
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 39",
+            39
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `WebDriver` having 69 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 78 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

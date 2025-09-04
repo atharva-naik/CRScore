@@ -1,0 +1,37 @@
+{
+    "project_path": "test5434",
+    "stats": {
+        "methods": 138,
+        "classes": 7,
+        "lambdas": 2,
+        "try": 5,
+        "listcomps": 4,
+        "codeblocks": 145
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `_assert_can_add_htlc` at line 747 having 13 branches",
+            747
+        ],
+        [
+            "Many attribute smell detected with 2 classes having many attributes and the class with most attributes, `Channel` having 23 attributes (`name`, `lnworker`, `_fallback_sweep_address`, `storage`, `db_lock`, `config`, `channel_id`, `constraints`, `funding_outpoint`, `node_id`, `short_channel_id`, `onion_keys`, `data_loss_protect_remote_pcp`, `hm`, `_state`, `peer_state`, `_sweep_info`, `_outgoing_channel_update`, `_chan_ann_without_sigs`, `revocation_store`, `_can_send_ctx_updates`, `_receive_fail_reasons`, `_ignore_max_htlc_value`)",
+            501
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `AbstractChannel` having 37 methods (`set_short_channel_id`, `get_id_for_log`, `short_id_for_GUI`, `set_state`, `get_state`, `is_funded`, `is_open`, `is_closing`, `is_closed`, `is_redeemed`, `save_funding_height`, `get_funding_height`, `delete_funding_height`, `save_closing_height`, `get_closing_height`, `delete_closing_height`, `create_sweeptxs_for_our_ctx`, `create_sweeptxs_for_their_ctx`, `is_backup`, `sweep_ctx`, `update_onchain_state`, `update_unfunded_state`, `update_funded_state`, `update_closed_state`, `sweep_address`, `is_initiator`, `is_funding_tx_mined`, `get_funding_address`, `get_state_for_GUI`, `get_oldest_unrevoked_ctn`, `included_htlcs`, `funding_txn_minimum_depth`, `balance`, `balance_minus_outgoing_htlcs`, `is_frozen_for_sending`, `is_frozen_for_receiving`, `is_static_remotekey_enabled`)",
+            143
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `Channel` having 313 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 7 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 145 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

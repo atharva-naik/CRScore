@@ -1,0 +1,37 @@
+{
+    "project_path": "test6485",
+    "stats": {
+        "methods": 55,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 56
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 18 methods with long parameter lists and method `create_db_instance` at line 321 having 26 parameters (`self`, `db_instance_identifier`, `allocated_storage`, `db_instance_class`, `engine`, `master_username`, `master_user_password`, `db_name`, `db_security_groups`, `vpc_security_group_ids`, `availability_zone`, `db_subnet_group_name`, `preferred_maintenance_window`, `db_parameter_group_name`, `backup_retention_period`, `preferred_backup_window`, `port`, `multi_az`, `engine_version`, `auto_minor_version_upgrade`, `license_model`, `iops`, `option_group_name`, `character_set_name`, `publicly_accessible`, `tags`)",
+            321
+        ],
+        [
+            "Long branch smell detected with 4 methods with long branching and method with most branches `create_db_instance` at line 321 having 19 branches",
+            321
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `RDSConnection` having 52 methods (`add_source_identifier_to_subscription`, `add_tags_to_resource`, `authorize_db_security_group_ingress`, `copy_db_snapshot`, `create_db_instance`, `create_db_instance_read_replica`, `create_db_parameter_group`, `create_db_security_group`, `create_db_snapshot`, `create_db_subnet_group`, `create_event_subscription`, `create_option_group`, `delete_db_instance`, `delete_db_parameter_group`, `delete_db_security_group`, `delete_db_snapshot`, `delete_db_subnet_group`, `delete_event_subscription`, `delete_option_group`, `describe_db_engine_versions`, `describe_db_instances`, `describe_db_log_files`, `describe_db_parameter_groups`, `describe_db_parameters`, `describe_db_security_groups`, `describe_db_snapshots`, `describe_db_subnet_groups`, `describe_engine_default_parameters`, `describe_event_categories`, `describe_event_subscriptions`, `describe_events`, `describe_option_group_options`, `describe_option_groups`, `describe_orderable_db_instance_options`, `describe_reserved_db_instances`, `describe_reserved_db_instances_offerings`, `download_db_log_file_portion`, `list_tags_for_resource`, `modify_db_instance`, `modify_db_parameter_group`, `modify_db_subnet_group`, `modify_event_subscription`, `modify_option_group`, `promote_read_replica`, `purchase_reserved_db_instances_offering`, `reboot_db_instance`, `remove_source_identifier_from_subscription`, `remove_tags_from_resource`, `reset_db_parameter_group`, `restore_db_instance_from_db_snapshot`, `restore_db_instance_to_point_in_time`, `revoke_db_security_group_ingress`)",
+            31
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `RDSConnection` having 102 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 56 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test9792",
+    "stats": {
+        "methods": 13,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 5,
+        "listcomps": 1,
+        "codeblocks": 14
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `TlsLayer` having 54 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 14 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `alpn = [x for x in self._client_hello.alpn_protocols if not (x.startswith(b'h2-') or x.startswith(b'spdy'))]` at line 409 having line length 105",
+            409
+        ]
+    ]
+}

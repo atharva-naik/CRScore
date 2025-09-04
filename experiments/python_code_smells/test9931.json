@@ -1,0 +1,21 @@
+{
+    "project_path": "test9931",
+    "stats": {
+        "methods": 9,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 10
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 13 having 7 parameters (`self`, `id`, `created`, `musicbrainz_id`, `auth_token`, `gdpr_agreed`, `login_id`)",
+            13
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `N/A` having N/A external function calls",
+            -1
+        ]
+    ]
+}

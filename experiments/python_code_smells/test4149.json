@@ -1,0 +1,33 @@
+{
+    "project_path": "test4149",
+    "stats": {
+        "methods": 277,
+        "classes": 93,
+        "lambdas": 10,
+        "try": 14,
+        "listcomps": 6,
+        "codeblocks": 370
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 13 methods with long parameter lists and method `__init__` at line 1296 having 8 parameters (`self`, `name`, `default`, `length_of`, `fmt`, `count_of`, `adjust`, `fld`)",
+            1296
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `getfield` at line 1047 having 16 branches",
+            1047
+        ],
+        [
+            "Shotgun smell detected with 65 classes with too many external fuctions and class with most external function calls, `FlagValue` having 36 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 370 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `return b''.join(map(lambda x, y: chb(((orb(x) - 1 & 15) << 4) + (orb(y) - 1 & 15)), x[::2], x[1::2]))` at line 1159 having line length 64",
+            1159
+        ]
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "project_path": "test4128",
+    "stats": {
+        "methods": 28,
+        "classes": 11,
+        "lambdas": 3,
+        "try": 0,
+        "listcomps": 11,
+        "codeblocks": 39
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `get_data` at line 803 containing 108 lines",
+            803
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `_add_color_data` at line 779 having 9 parameters (`self`, `ds`, `ranges`, `style`, `cdim`, `data`, `mapping`, `factors`, `colors`)",
+            779
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `get_data` at line 803 having 39 branches",
+            803
+        ],
+        [
+            "Shotgun smell detected with 11 classes with too many external fuctions and class with most external function calls, `BarPlot` having 106 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 7 out of 11 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 39 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `sources = self.adjoined.traverse(lambda x: (x.handles.get('color_dim'), x.handles.get('source')))` at line 404 having line length 65",
+            404
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `color_dims = [d for d in self.adjoined.traverse(lambda x: x.handles.get('color_dim')) if d is not None]` at line 385 having line length 94",
+            385
+        ]
+    ]
+}

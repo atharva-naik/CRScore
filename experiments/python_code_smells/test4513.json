@@ -1,0 +1,45 @@
+{
+    "project_path": "test4513",
+    "stats": {
+        "methods": 26,
+        "classes": 6,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 15,
+        "codeblocks": 32
+    },
+    "smells": [
+        [
+            "Long method smell detected with 3 long methods and longest method `_compute_gridspec` at line 731 containing 126 lines",
+            731
+        ],
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 281 having 8 parameters (`self`, `layout`, `axis`, `create_axes`, `ranges`, `keys`, `dimensions`, `layout_num`)",
+            281
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `_compute_gridspec` at line 731 having 31 branches",
+            731
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `GridPlot` having 12 attributes (`layout`, `layout_num`, `fig_inches`, `_layoutspec`)",
+            239
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `GridPlot` having 112 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 6 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 7 of 32 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 6 long list comprehensions and the longest list comprehension `yticks = [plot_height / 2 + r * (plot_height + border_height) for r in range(self.rows)]` at line 493 having line length 86",
+            493
+        ]
+    ]
+}

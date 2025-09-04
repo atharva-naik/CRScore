@@ -1,0 +1,53 @@
+{
+    "project_path": "test7339",
+    "stats": {
+        "methods": 113,
+        "classes": 11,
+        "lambdas": 17,
+        "try": 27,
+        "listcomps": 7,
+        "codeblocks": 124
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `hexdiff` at line 189 containing 79 lines",
+            189
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `do_graph` at line 490 having 7 parameters (`graph`, `prog`, `format`, `target`, `type`, `string`, `options`)",
+            490
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `hexdiff` at line 189 having 25 branches",
+            189
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 536",
+            536
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 1240",
+            1240
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 1533",
+            1533
+        ],
+        [
+            "Shotgun smell detected with 11 classes with too many external fuctions and class with most external function calls, `RawPcapNgReader` having 28 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 6 of 124 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `seplinefunc=lambda a, x: '+'.join(('-' * (y + 2) for y in [a - 1] + x + [-2]))` at line 1518 having line length 66",
+            1518
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `lines = [line for line in answer.split(b'\\n') if not line or (line and (not line.startswith(ignore_tag)))]` at line 1547 having line length 99",
+            1547
+        ]
+    ]
+}

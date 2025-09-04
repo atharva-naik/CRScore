@@ -1,0 +1,17 @@
+{
+    "project_path": "test8542",
+    "stats": {
+        "methods": 3,
+        "classes": 24,
+        "lambdas": 1,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 27
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 24 classes with too many external fuctions and class with most external function calls, `SVK` having 9 external function calls",
+            -1
+        ]
+    ]
+}

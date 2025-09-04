@@ -1,0 +1,33 @@
+{
+    "project_path": "test7317",
+    "stats": {
+        "methods": 23,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 16,
+        "codeblocks": 24
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `values` at line 163 having 6 parameters (`cls`, `dataset`, `dim`, `expanded`, `flat`, `compute`)",
+            163
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `init` at line 75 having 14 branches",
+            75
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CubeInterface` having 92 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 24 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `coords = [(iris.coords.DimCoord(data[kd.name], long_name=kd.name, units=kd.unit), ndims - n - 1) for n, kd in enumerate(kdims)]` at line 102 having line length 123",
+            102
+        ]
+    ]
+}

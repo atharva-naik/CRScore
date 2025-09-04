@@ -1,0 +1,25 @@
+{
+    "project_path": "test2178",
+    "stats": {
+        "methods": 8,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 4,
+        "listcomps": 0,
+        "codeblocks": 9
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `readTextHelper_generator` at line 98 containing 63 lines",
+            98
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `readTextHelper_generator` at line 98 having 23 branches",
+            98
+        ],
+        [
+            "Code complexity smell detected with 2 of 9 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

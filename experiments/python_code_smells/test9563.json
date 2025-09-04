@@ -1,0 +1,49 @@
+{
+    "project_path": "test9563",
+    "stats": {
+        "methods": 76,
+        "classes": 4,
+        "lambdas": 3,
+        "try": 3,
+        "listcomps": 24,
+        "codeblocks": 80
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `read_csv` at line 56 containing 51 lines",
+            56
+        ],
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `read_csv` at line 56 having 8 parameters (`self`, `path`, `header`, `names`, `usecols`, `mangle_dupe_cols`, `parse_dates`, `comment`)",
+            56
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `read_csv` at line 56 having 23 branches",
+            56
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `PandasLikeDataFrame` having 21 methods (`iteritems`, `to_html`, `set_index`, `reset_index`, `isnull`, `notnull`, `toPandas`, `assign`, `loc`, `copy`, `dropna`, `head`, `columns`, `columns`, `count`, `unique`, `drop`, `get`, `sort_values`, `groupby`, `pipe`, `shape`)",
+            378
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `PandasLikeDataFrame` having 155 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 6 of 80 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `rename = lambda i: 'index' if 'index' not in self._metadata.column_fields else 'level_{}'.fomat(i)` at line 474 having line length 95",
+            474
+        ],
+        [
+            "Long list comprehension smell detected with 9 long list comprehensions and the longest list comprehension `index_columns = [(column, name if name is not None else rename(i)) for i, (column, name) in enumerate(self._metadata.index_info)]` at line 478 having line length 117",
+            478
+        ]
+    ]
+}

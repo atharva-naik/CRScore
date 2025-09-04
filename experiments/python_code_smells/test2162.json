@@ -1,0 +1,49 @@
+{
+    "project_path": "test2162",
+    "stats": {
+        "methods": 136,
+        "classes": 30,
+        "lambdas": 2,
+        "try": 32,
+        "listcomps": 32,
+        "codeblocks": 166
+    },
+    "smells": [
+        [
+            "Long method smell detected with 3 long methods and longest method `makeSettings` at line 2159 containing 107 lines",
+            2159
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 83 having 6 parameters (`self`, `parent`, `resizeable`, `hasApplyButton`, `settingsSizerOrientation`, `multiInstanceAllowed`)",
+            83
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `makeSettings` at line 2159 having 18 branches",
+            2159
+        ],
+        [
+            "Many attribute smell detected with 9 classes having many attributes and the class with most attributes, `DocumentFormattingPanel` having 27 attributes ()",
+            1535
+        ],
+        [
+            "Shotgun smell detected with 28 classes with too many external fuctions and class with most external function calls, `DocumentFormattingPanel` having 167 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 10 out of 30 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 166 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 2 long lambda functions and the longest lambda function `lambda evt, gid=gid, disp=disp: self._addChoice(treeGes, scriptInfo, gid, disp)` at line 2736 having line length 85",
+            2736
+        ],
+        [
+            "Long list comprehension smell detected with 6 long list comprehensions and the longest list comprehension `languageChoices = [languageHandler.getLanguageDescription(languageHandler.normalizeLanguage(lang)) for lang in self.languageCodes]` at line 1813 having line length 117",
+            1813
+        ]
+    ]
+}

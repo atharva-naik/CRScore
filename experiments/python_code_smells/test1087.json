@@ -1,0 +1,25 @@
+{
+    "project_path": "test1087",
+    "stats": {
+        "methods": 2,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 6,
+        "listcomps": 0,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `recalculate_all_user_data` at line 23 containing 64 lines",
+            23
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `recalculate_all_user_data` at line 23 having 15 branches",
+            23
+        ],
+        [
+            "Code complexity smell detected with 1 of 3 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

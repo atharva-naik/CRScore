@@ -1,0 +1,29 @@
+{
+    "project_path": "test4320",
+    "stats": {
+        "methods": 19,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 3,
+        "codeblocks": 20
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `run_jobflow` at line 191 having 17 parameters (`self`, `name`, `log_uri`, `ec2_keyname`, `availability_zone`, `master_instance_type`, `slave_instance_type`, `num_instances`, `action_on_failure`, `keep_alive`, `enable_debugging`, `hadoop_version`, `steps`, `bootstrap_actions`, `instance_groups`, `ami_version`, `additional_info`)",
+            191
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `EmrConnection` having 42 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `bootstrap_action_args = [self._build_bootstrap_action_args(bootstrap_action) for bootstrap_action in bootstrap_actions]` at line 285 having line length 99",
+            285
+        ]
+    ]
+}

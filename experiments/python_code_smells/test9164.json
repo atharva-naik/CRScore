@@ -1,0 +1,17 @@
+{
+    "project_path": "test9164",
+    "stats": {
+        "methods": 2,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 1,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `grads = [param.grad.data for param in params if param.requires_grad and param.grad is not None]` at line 32 having line length 92",
+            32
+        ]
+    ]
+}

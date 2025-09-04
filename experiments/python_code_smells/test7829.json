@@ -1,0 +1,29 @@
+{
+    "project_path": "test7829",
+    "stats": {
+        "methods": 109,
+        "classes": 13,
+        "lambdas": 2,
+        "try": 10,
+        "listcomps": 6,
+        "codeblocks": 122
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 11 classes with too many external fuctions and class with most external function calls, `BasicChecker` having 163 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 13 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 13 of 122 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `redefinitions = [i for i in parent_frame.locals[node.name] if not (isinstance(i.parent, nodes.AnnAssign) and i.parent.simple)]` at line 868 having line length 114",
+            868
+        ]
+    ]
+}

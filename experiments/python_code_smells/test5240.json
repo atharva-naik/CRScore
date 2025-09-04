@@ -1,0 +1,25 @@
+{
+    "project_path": "test5240",
+    "stats": {
+        "methods": 13,
+        "classes": 1,
+        "lambdas": 3,
+        "try": 2,
+        "listcomps": 7,
+        "codeblocks": 14
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 183",
+            183
+        ],
+        [
+            "Code complexity smell detected with 3 of 14 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `specs = [(i, get_overlay_spec(overlay, wrap_tuple(k), el)) for i, (k, el) in enumerate(items)]` at line 209 having line length 90",
+            209
+        ]
+    ]
+}

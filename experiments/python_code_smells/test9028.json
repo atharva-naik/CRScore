@@ -1,0 +1,41 @@
+{
+    "project_path": "test9028",
+    "stats": {
+        "methods": 62,
+        "classes": 7,
+        "lambdas": 2,
+        "try": 12,
+        "listcomps": 6,
+        "codeblocks": 69
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `find_pylintrc` at line 82 having 14 branches",
+            82
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `OptionsManagerMixIn` having 11 attributes (`config_file`, `options_providers`, `_all_options`, `_short_options`, `_nocallback_options`, `_mygroups`, `quiet`, `_maxlevel`)",
+            443
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `OptionsManagerMixIn` having 62 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 7 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 69 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 2 long lambda functions and the longest lambda function `'multiple_choice'` at line 189 having line length 86",
+            189
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `return [option for option in group.option_list if (getattr(option, 'level', 0) or 0) <= outputlevel and option.help is not optparse.SUPPRESS_HELP]` at line 221 having line length 144",
+            221
+        ]
+    ]
+}

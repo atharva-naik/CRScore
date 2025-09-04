@@ -1,0 +1,29 @@
+{
+    "project_path": "test5931",
+    "stats": {
+        "methods": 10,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 12
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `endElement` at line 87 having 23 branches",
+            87
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `ResultSet` having 19 attributes (`marker`, `key_marker`, `next_marker`, `next_key_marker`, `next_upload_id_marker`, `next_version_id_marker`, `next_generation_marker`, `version_id_marker`, `is_truncated`, `next_token`, `status`)",
+            28
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `ResultSet` having 10 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 12 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

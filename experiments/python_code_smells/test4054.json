@@ -1,0 +1,29 @@
+{
+    "project_path": "test4054",
+    "stats": {
+        "methods": 2,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 3,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 39 having 13 parameters (`self`, `in_channels`, `out_channels`, `num_outs`, `start_level`, `end_level`, `add_extra_convs`, `extra_convs_on_inputs`, `relu_before_extra_convs`, `no_norm_on_lateral`, `conv_cfg`, `norm_cfg`, `act_cfg`)",
+            39
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `PAFPN` having 42 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 3 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `laterals = [lateral_conv(inputs[i + self.start_level]) for i, lateral_conv in enumerate(self.lateral_convs)]` at line 89 having line length 101",
+            89
+        ]
+    ]
+}

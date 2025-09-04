@@ -1,0 +1,41 @@
+{
+    "project_path": "test9699",
+    "stats": {
+        "methods": 31,
+        "classes": 5,
+        "lambdas": 2,
+        "try": 13,
+        "listcomps": 2,
+        "codeblocks": 36
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `read_routes` at line 245 containing 55 lines",
+            245
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 470 having 7 parameters (`self`, `iface`, `type`, `promisc`, `filter`, `nofilter`, `monitor`)",
+            470
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `read_routes` at line 245 having 15 branches",
+            245
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `L2Socket` having 8 attributes (`iface`, `type`, `promisc`, `ins`)",
+            467
+        ],
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `L2Socket` having 28 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 36 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `names = [names_b[i:i + offset].split(b'\\x00', 1)[0] for i in range(0, out, name_len)]` at line 214 having line length 77",
+            214
+        ]
+    ]
+}

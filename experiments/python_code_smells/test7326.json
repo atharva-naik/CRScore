@@ -1,0 +1,21 @@
+{
+    "project_path": "test7326",
+    "stats": {
+        "methods": 5,
+        "classes": 2,
+        "lambdas": 1,
+        "try": 0,
+        "listcomps": 1,
+        "codeblocks": 7
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `test_hints` at line 94 having 6 parameters (`test_name`, `zoom_text_only`, `zoom_level`, `find_implementation`, `quteproc`, `request`)",
+            94
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `ParsedFile` having 2 external function calls",
+            -1
+        ]
+    ]
+}

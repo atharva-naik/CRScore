@@ -1,0 +1,37 @@
+{
+    "project_path": "test1714",
+    "stats": {
+        "methods": 19,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 21,
+        "codeblocks": 20
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `add_dimension` at line 159 having 6 parameters (`cls`, `dataset`, `dimension`, `dim_pos`, `values`, `vdim`)",
+            159
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `init` at line 38 having 23 branches",
+            38
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 6",
+            6
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `DictInterface` having 148 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 20 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `return OrderedDict([(d, v if np.isscalar(v) else v[sorting][::-1] if reverse else v[sorting]) for d, v in dataset.data.items()])` at line 198 having line length 112",
+            198
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test7511",
+    "stats": {
+        "methods": 35,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 1,
+        "codeblocks": 36
+    },
+    "smells": [
+        [
+            "Long method smell detected with 4 long methods and longest method `testGetNeighborsND` at line 1521 containing 124 lines",
+            1521
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `SpatialPoolerTest` having 35 methods (`setUp`, `testCompute1`, `testCompute2`, `testExactOutput`, `testStripNeverLearned`, `testMapColumn`, `testMapPotential1D`, `testMapPotential2D`, `testMapPotential1Column1Input`, `testInhibitColumns`, `testUpdateBoostFactors`, `testUpdateInhibitionRadius`, `testAvgColumnsPerInput`, `testAvgConnectedSpanForColumn1D`, `testAvgConnectedSpanForColumn2D`, `testAvgConnectedSpanForColumnND`, `testBumpUpWeakColumns`, `testUpdateMinDutyCycleLocal`, `testUpdateMinDutyCyclesGlobal`, `testIsUpdateRound`, `testAdaptSynapses`, `testRaisePermanenceThreshold`, `testUpdatePermanencesForColumn`, `testCalculateOverlap`, `testInitPermanence1`, `testInitPermanence2`, `testUpdateDutyCycleHelper`, `testInhibitColumnsGlobal`, `testInhibitColumnsLocal`, `testGetNeighbors1D`, `testGetNeighbors2D`, `testGetNeighborsND`, `testWriteRead`, `testRandomSPDoesNotLearn`, `testActiveColumnsEqualNumActive`)",
+            53
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `SpatialPoolerTest` having 986 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 36 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

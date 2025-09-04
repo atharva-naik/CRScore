@@ -1,0 +1,21 @@
+{
+    "project_path": "test7727",
+    "stats": {
+        "methods": 4,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 3,
+        "codeblocks": 5
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `forward_train` at line 22 having 8 parameters (`self`, `x`, `img_metas`, `proposal_list`, `gt_bboxes`, `gt_labels`, `gt_bboxes_ignore`, `gt_masks`)",
+            22
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `DynamicRoIHead` having 39 external function calls",
+            -1
+        ]
+    ]
+}

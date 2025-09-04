@@ -1,0 +1,33 @@
+{
+    "project_path": "test8489",
+    "stats": {
+        "methods": 77,
+        "classes": 11,
+        "lambdas": 6,
+        "try": 0,
+        "listcomps": 20,
+        "codeblocks": 88
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `plot` at line 80 having 12 parameters (`X`, `Y`, `xlabel`, `ylabel`, `legend`, `xlim`, `ylim`, `xscale`, `yscale`, `fmts`, `figsize`, `axes`)",
+            80
+        ],
+        [
+            "Shotgun smell detected with 11 classes with too many external fuctions and class with most external function calls, `Animator` having 19 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 88 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `self.config_axes = lambda: d2l.set_axes(self.axes[0], xlabel, ylabel, xlim, ylim, xscale, yscale, legend)` at line 281 having line length 93",
+            281
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `out = [' ' + char if i > 0 and no_space(char, text[i - 1]) else char for i, char in enumerate(text)]` at line 666 having line length 100",
+            666
+        ]
+    ]
+}

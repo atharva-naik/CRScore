@@ -1,0 +1,37 @@
+{
+    "project_path": "test7361",
+    "stats": {
+        "methods": 48,
+        "classes": 5,
+        "lambdas": 2,
+        "try": 12,
+        "listcomps": 2,
+        "codeblocks": 53
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"too general exception\" at line 56",
+            56
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 70",
+            70
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 237",
+            237
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `Addon` having 62 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 5 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `filterFunc=lambda addon: not addonVersionCheck.isAddonCompatible(addon, currentAPIVersion=currentAPIVersion, backwardsCompatToVersion=backCompatToAPIVersion)` at line 84 having line length 157",
+            84
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test4428",
+    "stats": {
+        "methods": 24,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 8,
+        "listcomps": 4,
+        "codeblocks": 24
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `setFocusObject` at line 55 containing 63 lines",
+            55
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `setFocusObject` at line 55 having 17 branches",
+            55
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 115",
+            115
+        ],
+        [
+            "Code complexity smell detected with 2 of 24 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

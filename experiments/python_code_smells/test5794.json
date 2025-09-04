@@ -1,0 +1,41 @@
+{
+    "project_path": "test5794",
+    "stats": {
+        "methods": 43,
+        "classes": 9,
+        "lambdas": 10,
+        "try": 0,
+        "listcomps": 7,
+        "codeblocks": 52
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `__init__` at line 550 having 16 parameters (`self`, `name`, `cron_schedule`, `pipeline_name`, `tags_fn`, `solid_selection`, `mode`, `should_execute`, `environment_vars`, `partition_set`, `run_config_fn`, `execution_timezone`, `execution_fn`, `description`, `decorated_fn`, `job`)",
+            550
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `PartitionSetDefinition` having 8 attributes (`_name`, `_pipeline_name`, `_partition_fn`, `_solid_selection`, `_mode`, `_user_defined_run_config_fn_for_partition`, `_user_defined_tags_fn_for_partition`)",
+            273
+        ],
+        [
+            "Shotgun smell detected with 7 classes with too many external fuctions and class with most external function calls, `PartitionSetDefinition` having 59 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 9 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 52 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 8 long lambda functions and the longest lambda function `return lambda d: pendulum.instance(d).subtract(months=self.offset, days=execution_day - 1, hours=d.hour, minutes=d.minute)` at line 250 having line length 122",
+            250
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `missing_partition_names = [partition.name for partition in selected_partitions if partition.name not in self.get_partition_names(context.scheduled_execution_time)]` at line 485 having line length 141",
+            485
+        ]
+    ]
+}

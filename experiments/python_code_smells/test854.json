@@ -1,0 +1,29 @@
+{
+    "project_path": "test854",
+    "stats": {
+        "methods": 46,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 5,
+        "listcomps": 0,
+        "codeblocks": 47
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `WebElement` having 39 methods (`tag_name`, `text`, `click`, `submit`, `clear`, `get_property`, `get_attribute`, `is_selected`, `is_enabled`, `find_element_by_id`, `find_elements_by_id`, `find_element_by_name`, `find_elements_by_name`, `find_element_by_link_text`, `find_elements_by_link_text`, `find_element_by_partial_link_text`, `find_elements_by_partial_link_text`, `find_element_by_tag_name`, `find_elements_by_tag_name`, `find_element_by_xpath`, `find_elements_by_xpath`, `find_element_by_class_name`, `find_elements_by_class_name`, `find_element_by_css_selector`, `find_elements_by_css_selector`, `send_keys`, `is_displayed`, `location_once_scrolled_into_view`, `size`, `value_of_css_property`, `location`, `rect`, `screenshot_as_base64`, `screenshot_as_png`, `screenshot`, `parent`, `id`, `find_element`, `find_elements`)",
+            47
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 33",
+            33
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `WebElement` having 39 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

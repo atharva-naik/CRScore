@@ -1,0 +1,25 @@
+{
+    "project_path": "test2929",
+    "stats": {
+        "methods": 20,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 1,
+        "codeblocks": 23
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `to_table` at line 562 having 6 parameters (`self`, `name`, `format`, `mode`, `partition_cols`, `index_col`)",
+            562
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `SparkFrameMethods` having 38 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `new_index_scols = [index_scol.alias(col) for index_scol, col in zip(old_index_scols, index_col)]` at line 396 having line length 78",
+            396
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test9020",
+    "stats": {
+        "methods": 52,
+        "classes": 20,
+        "lambdas": 0,
+        "try": 4,
+        "listcomps": 2,
+        "codeblocks": 72
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 118 having 8 parameters (`self`, `default`, `is_global`, `significant`, `description`, `config_path`, `positional`, `always_in_help`)",
+            118
+        ],
+        [
+            "Shotgun smell detected with 16 classes with too many external fuctions and class with most external function calls, `TimeDeltaParameter` having 14 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 20 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `regex = ''.join(['((?P<%s>\\\\d+) ?%s(%s)?(%s)? ?)?' % (k, k[0], k[1:-1], k[-1]) for k in keys])` at line 623 having line length 79",
+            623
+        ]
+    ]
+}

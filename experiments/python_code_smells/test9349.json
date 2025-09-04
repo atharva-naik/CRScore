@@ -1,0 +1,17 @@
+{
+    "project_path": "test9349",
+    "stats": {
+        "methods": 7,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `SparkDataFrameS3StoragePlugin` having 4 external function calls",
+            -1
+        ]
+    ]
+}

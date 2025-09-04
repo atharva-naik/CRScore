@@ -1,0 +1,21 @@
+{
+    "project_path": "test2292",
+    "stats": {
+        "methods": 10,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 7,
+        "listcomps": 6,
+        "codeblocks": 10
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `make_api_request` at line 99 having 15 branches",
+            99
+        ],
+        [
+            "Code complexity smell detected with 1 of 10 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

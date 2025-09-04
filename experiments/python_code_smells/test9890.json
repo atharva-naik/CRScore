@@ -1,0 +1,37 @@
+{
+    "project_path": "test9890",
+    "stats": {
+        "methods": 12,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 11,
+        "codeblocks": 13
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 7 methods with long parameter lists and method `__init__` at line 39 having 15 parameters (`self`, `num_classes`, `in_channels`, `feat_channels`, `anchor_scales`, `anchor_ratios`, `anchor_strides`, `anchor_base_sizes`, `bbox_coder`, `reg_decoded_bbox`, `background_label`, `loss_cls`, `loss_bbox`, `train_cfg`, `test_cfg`)",
+            39
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `` having 23 attributes",
+            15
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `AnchorHead` having 138 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 13 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `mlvl_anchors = [self.anchor_generators[i].grid_anchors(cls_scores[i].size()[-2:], self.anchor_strides[i], device=device) for i in range(num_levels)]` at line 459 having line length 138",
+            459
+        ]
+    ]
+}

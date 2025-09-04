@@ -1,0 +1,25 @@
+{
+    "project_path": "test1176",
+    "stats": {
+        "methods": 21,
+        "classes": 7,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 28
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 63 having 9 parameters (`self`, `method`, `path`, `headers`, `body`, `scheme`, `root_path`, `query_string`, `remote_addr`)",
+            63
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `HttpRequest` having 14 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 7 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "project_path": "test4041",
+    "stats": {
+        "methods": 26,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 1,
+        "codeblocks": 26
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `apply_patches` at line 32 containing 260 lines",
+            32
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `apigateway_models_Integration_init` at line 62 having 7 parameters (`self`, `integration_type`, `uri`, `http_method`, `request_templates`, `pass_through_behavior`, `cache_key_parameters`)",
+            62
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `if [op for op in patch_operations if '/accessLogSettings' in op.get('path', '')]:\n    self['accessLogSettings'] = self.get('accessLogSettings') or {}` at line 322 having line length 77",
+            322
+        ]
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "project_path": "test8018",
+    "stats": {
+        "methods": 38,
+        "classes": 7,
+        "lambdas": 10,
+        "try": 2,
+        "listcomps": 17,
+        "codeblocks": 45
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `__init__` at line 159 having 11 parameters (`self`, `keys`, `dimensions`, `layout_dimensions`, `uniform`, `subplot`, `adjoined`, `layout_num`, `style`, `subplots`, `dynamic`)",
+            159
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `_get_frame` at line 444 having 18 branches",
+            444
+        ],
+        [
+            "Many attribute smell detected with 2 classes having many attributes and the class with most attributes, `DimensionedPlot` having 16 attributes (`subplots`, `adjoined`, `dimensions`, `layout_num`, `layout_dimensions`, `subplot`, `keys`, `uniform`, `dynamic`, `drawn`, `handles`, `group`, `label`, `current_frame`, `current_key`, `ranges`)",
+            125
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `DimensionedPlot` having 72 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 4 out of 7 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 11 of 45 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 3 long lambda functions and the longest lambda function `type_val_fn = lambda x: (x.id, (type(x).__name__, util.group_sanitizer(x.group, escape=False), util.label_sanitizer(x.label, escape=False))) if isinstance(x, Element) else None` at line 331 having line length 173",
+            331
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `frame_ranges = OrderedDict([(slckey, self.compute_ranges(holomap, key, ranges[key])) for key, slckey in zip(keys, sliced_keys) if slckey in holomap.data.keys()])` at line 630 having line length 137",
+            630
+        ]
+    ]
+}

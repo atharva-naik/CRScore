@@ -1,0 +1,33 @@
+{
+    "project_path": "test2635",
+    "stats": {
+        "methods": 16,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 4,
+        "codeblocks": 18
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `return_response` at line 131 containing 55 lines",
+            131
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `return_response` at line 131 having 6 parameters (`self`, `method`, `path`, `data`, `headers`, `response`)",
+            131
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `return_response` at line 131 having 17 branches",
+            131
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ProxyListenerKinesis` having 53 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 18 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "project_path": "test7145",
+    "stats": {
+        "methods": 66,
+        "classes": 17,
+        "lambdas": 11,
+        "try": 2,
+        "listcomps": 4,
+        "codeblocks": 83
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 16 having 7 parameters (`self`, `is_client`, `staticdir`, `unconstrained_file_access`, `request_host`, `websocket_key`, `protocol`)",
+            16
+        ],
+        [
+            "Shotgun smell detected with 16 classes with too many external fuctions and class with most external function calls, `TokValueGenerate` having 17 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 17 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "project_path": "test8385",
+    "stats": {
+        "methods": 50,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 12,
+        "listcomps": 1,
+        "codeblocks": 51
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `push` at line 526 containing 73 lines",
+            526
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `install` at line 806 having 20 branches",
+            806
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 53",
+            53
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 383",
+            383
+        ],
+        [
+            "Code complexity smell detected with 2 of 51 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `threads = [Thread(target=_worker_thread, name='upload-worker-%d' % i) for i in range(PARALLEL_UPLOADS)]` at line 644 having line length 98",
+            644
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test3692",
+    "stats": {
+        "methods": 87,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 17,
+        "listcomps": 3,
+        "codeblocks": 91
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `is_defined_in_scope` at line 321 having 18 branches",
+            321
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 1209",
+            1209
+        ],
+        [
+            "Code complexity smell detected with 6 of 91 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `return [handler for handler in context.handlers if error_of_type(handler, exception)]` at line 966 having line length 78",
+            966
+        ]
+    ]
+}

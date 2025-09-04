@@ -1,0 +1,41 @@
+{
+    "project_path": "test7970",
+    "stats": {
+        "methods": 17,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 10,
+        "listcomps": 0,
+        "codeblocks": 21
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 150 having 21 parameters (`self`, `address`, `ssl`, `sni`, `ssl_version`, `ssl_options`, `clientcert`, `ciphers`, `use_http2`, `http2_skip_connection_preface`, `http2_framedump`, `ws_read_limit`, `timeout`, `showreq`, `showresp`, `explain`, `hexdump`, `ignorecodes`, `ignoretimeout`, `showsummary`, `fp`)",
+            150
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `main` at line 480 having 19 branches",
+            480
+        ],
+        [
+            "Many attribute smell detected with 2 classes having many attributes and the class with most attributes, `Pathoc` having 23 attributes (`clientcert`, `ssl_version`, `ssl_options`, `ciphers`, `sslinfo`, `use_http2`, `http2_skip_connection_preface`, `http2_framedump`, `ws_read_limit`, `timeout`, `showreq`, `showresp`, `explain`, `hexdump`, `ignorecodes`, `ignoretimeout`, `showsummary`, `fp`, `ws_framereader`, `settings`)",
+            148
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 552",
+            552
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `Pathoc` having 74 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 21 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

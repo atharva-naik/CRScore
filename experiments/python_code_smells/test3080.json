@@ -1,0 +1,21 @@
+{
+    "project_path": "test3080",
+    "stats": {
+        "methods": 45,
+        "classes": 5,
+        "lambdas": 0,
+        "try": 6,
+        "listcomps": 1,
+        "codeblocks": 50
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `_create_user` at line 109 having 6 parameters (`username`, `password`, `email`, `is_admin`, `requires_activation`, `requires_reset`)",
+            109
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `AuthException` having 2 external function calls",
+            -1
+        ]
+    ]
+}

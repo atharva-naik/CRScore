@@ -1,0 +1,25 @@
+{
+    "project_path": "test8541",
+    "stats": {
+        "methods": 5,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 5,
+        "listcomps": 0,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `BigQueryWriter` having 8 attributes (`log`, `redis`, `connection`, `channel`, `total_inserts`, `inserts`, `time`)",
+            25
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `BigQueryWriter` having 58 external function calls",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `self.channel.basic_consume(lambda ch, method, properties, body: self.static_callback(ch, method, properties, body, obj=self), queue='unique')` at line 176 having line length 103",
+            176
+        ]
+    ]
+}

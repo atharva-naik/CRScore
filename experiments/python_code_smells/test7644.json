@@ -1,0 +1,21 @@
+{
+    "project_path": "test7644",
+    "stats": {
+        "methods": 46,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 47
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `RetentionRulesEngineTest` having 431 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

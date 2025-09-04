@@ -1,0 +1,37 @@
+{
+    "project_path": "test8783",
+    "stats": {
+        "methods": 31,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 7,
+        "listcomps": 3,
+        "codeblocks": 32
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `forward_request` at line 36 containing 64 lines",
+            36
+        ],
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `return_response` at line 172 having 6 parameters (`self`, `method`, `path`, `data`, `headers`, `response`)",
+            172
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `forward_request` at line 36 having 29 branches",
+            36
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ProxyListenerSNS` having 59 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 32 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `SNS_SUBSCRIPTIONS[topic_arn] = [sub for sub in SNS_SUBSCRIPTIONS[topic_arn] if sub['SubscriptionArn'] != subscription_arn]` at line 377 having line length 95",
+            377
+        ]
+    ]
+}

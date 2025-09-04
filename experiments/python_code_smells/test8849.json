@@ -1,0 +1,41 @@
+{
+    "project_path": "test8849",
+    "stats": {
+        "methods": 78,
+        "classes": 2,
+        "lambdas": 1,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 80
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `delete_keys` at line 513 containing 56 lines",
+            513
+        ],
+        [
+            "Long parameter list smell detected with 10 methods with long parameter lists and method `copy_key` at line 665 having 11 parameters (`self`, `new_key_name`, `src_bucket_name`, `src_key_name`, `metadata`, `src_version_id`, `storage_class`, `preserve_acl`, `encrypt_key`, `headers`, `query_args`)",
+            665
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `delete_keys2` at line 544 having 14 branches",
+            544
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `Bucket` having 68 methods (`startElement`, `endElement`, `set_key_class`, `lookup`, `get_key`, `list`, `list_versions`, `list_multipart_uploads`, `validate_kwarg_names`, `get_all_keys`, `get_all_versions`, `validate_get_all_versions_params`, `get_all_multipart_uploads`, `new_key`, `generate_url`, `delete_keys`, `delete_key`, `copy_key`, `set_canned_acl`, `get_xml_acl`, `set_xml_acl`, `set_acl`, `get_acl`, `set_subresource`, `get_subresource`, `make_public`, `add_email_grant`, `add_user_grant`, `list_grants`, `get_location`, `set_xml_logging`, `enable_logging`, `disable_logging`, `get_logging_status`, `set_as_logging_target`, `get_request_payment`, `set_request_payment`, `configure_versioning`, `get_versioning_status`, `configure_lifecycle`, `get_lifecycle_config`, `delete_lifecycle_configuration`, `configure_website`, `set_website_configuration`, `set_website_configuration_xml`, `get_website_configuration`, `get_website_configuration_obj`, `get_website_configuration_with_xml`, `get_website_configuration_xml`, `delete_website_configuration`, `get_website_endpoint`, `get_policy`, `set_policy`, `delete_policy`, `set_cors_xml`, `set_cors`, `get_cors_xml`, `get_cors`, `delete_cors`, `initiate_multipart_upload`, `complete_multipart_upload`, `cancel_multipart_upload`, `delete`, `get_tags`, `get_xml_tags`, `set_xml_tags`, `set_tags`, `delete_tags`)",
+            75
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `Bucket` having 284 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 80 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

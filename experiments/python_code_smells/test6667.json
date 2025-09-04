@@ -1,0 +1,21 @@
+{
+    "project_path": "test6667",
+    "stats": {
+        "methods": 7,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 9
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Tab` having 8 attributes (`history`, `scroller`, `caret`, `zoom`, `search`, `printing`, `elements`, `action`)",
+            73
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Tab` having 11 external function calls",
+            -1
+        ]
+    ]
+}

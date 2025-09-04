@@ -1,0 +1,25 @@
+{
+    "project_path": "test5231",
+    "stats": {
+        "methods": 37,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 38
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `storage_uri` at line 677 having 7 parameters (`uri_str`, `default_scheme`, `debug`, `validate`, `bucket_storage_uri_class`, `suppress_consec_slashes`, `is_latest`)",
+            677
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `storage_uri` at line 677 having 15 branches",
+            677
+        ],
+        [
+            "Code complexity smell detected with 1 of 38 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

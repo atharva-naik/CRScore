@@ -1,0 +1,21 @@
+{
+    "project_path": "test102",
+    "stats": {
+        "methods": 51,
+        "classes": 6,
+        "lambdas": 4,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 57
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 234",
+            234
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `FakeStatusBar` having 11 external function calls",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test701",
+    "stats": {
+        "methods": 17,
+        "classes": 14,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 31
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 12 classes with too many external fuctions and class with most external function calls, `BTLE_CONNECT_REQ` having 13 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 14 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

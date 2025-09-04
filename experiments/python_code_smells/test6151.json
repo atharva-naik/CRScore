@@ -1,0 +1,29 @@
+{
+    "project_path": "test6151",
+    "stats": {
+        "methods": 24,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 10,
+        "listcomps": 0,
+        "codeblocks": 26
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `` at line 275 containing 65 lines",
+            275
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `StringFormatChecker` having 92 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 26 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "project_path": "test1475",
+    "stats": {
+        "methods": 60,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 12,
+        "listcomps": 0,
+        "codeblocks": 61
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `send_notification_for_subscriber` at line 179 having 7 parameters (`notif`, `bucket_name`, `object_path`, `version_id`, `api_method`, `action`, `event_name`)",
+            179
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ProxyListenerS3` having 105 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 6 of 61 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

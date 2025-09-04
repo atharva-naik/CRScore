@@ -1,0 +1,45 @@
+{
+    "project_path": "test939",
+    "stats": {
+        "methods": 87,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 14,
+        "codeblocks": 88
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_gen_action` at line 659 containing 59 lines",
+            659
+        ],
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 126 having 11 parameters (`self`, `scenario`, `label`, `wdlog`, `executor`, `ignore_unknown_actions`, `generate_markers`, `capabilities`, `wd_addr`, `test_mode`, `generate_external_logging`)",
+            126
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `_gen_action` at line 659 having 28 branches",
+            659
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `ApiritifScriptGenerator` having 20 attributes (`scenario`, `selenium_extras`, `data_sources`, `executor`, `label`, `log`, `tree`, `verbose`, `expr_compiler`, `service_methods`, `remote_address`, `capabilities`, `window_size`, `wdlog`, `browser`, `appium`, `ignore_unknown_actions`, `generate_markers`, `generate_external_logging`, `test_mode`)",
+            62
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ApiritifScriptGenerator` having 810 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 88 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `keywords = [ast.keyword(arg=name, value=self._gen_expr(value)) for name, value in iteritems(named_args)]` at line 1525 having line length 97",
+            1525
+        ]
+    ]
+}

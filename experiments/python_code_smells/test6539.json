@@ -1,0 +1,29 @@
+{
+    "project_path": "test6539",
+    "stats": {
+        "methods": 84,
+        "classes": 3,
+        "lambdas": 1,
+        "try": 11,
+        "listcomps": 16,
+        "codeblocks": 87
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `VariablesChecker` having 396 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 20 of 87 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `filtered_nodes = [n for n in found_nodes if not (isinstance(n.statement(future=True).parent, nodes.ExceptHandler) and isinstance(n.statement(future=True).parent.parent, nodes.TryExcept) and (not any((isinstance(try_statement, nodes.Return) for try_statement in n.statement(future=True).parent.parent.body)) or (isinstance(node_statement.parent, nodes.TryFinally) and node_statement in node_statement.parent.finalbody and n.statement(future=True).parent.parent.parent.parent_of(node_statement)))) or n.statement(future=True).parent.parent_of(node)]` at line 652 having line length 560",
+            652
+        ]
+    ]
+}

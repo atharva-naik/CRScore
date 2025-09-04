@@ -1,0 +1,21 @@
+{
+    "project_path": "test1449",
+    "stats": {
+        "methods": 28,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 29
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TestTimescaleListenStore` having 26 methods (`reset_timescale_db`, `setUp`, `tearDown`, `test_check_listen_count_view_exists`, `test_insert_timescale`, `test_fetch_listens_0`, `test_fetch_listens_1`, `test_fetch_listens_2`, `test_fetch_listens_3`, `test_fetch_listens_4`, `test_fetch_listens_5`, `test_fetch_listens_with_gaps`, `test_get_listen_count_for_user`, `test_get_timestamps_for_user`, `test_fetch_recent_listens`, `test_dump_listens`, `test_incremental_dump`, `test_time_range_full_dumps`, `test_import_listens`, `test_dump_and_import_listens_escaped`, `create_test_dump`, `test_schema_mismatch_exception_for_dump_incorrect_schema`, `test_schema_mismatch_exception_for_dump_no_schema`, `test_listen_counts_in_cache`, `test_delete_listens`, `test_delete_listens_escaped`)",
+            31
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `TestTimescaleListenStore` having 269 external function calls",
+            -1
+        ]
+    ]
+}

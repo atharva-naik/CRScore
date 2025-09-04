@@ -1,0 +1,21 @@
+{
+    "project_path": "test5644",
+    "stats": {
+        "methods": 43,
+        "classes": 20,
+        "lambdas": 0,
+        "try": 10,
+        "listcomps": 1,
+        "codeblocks": 63
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 17 classes with too many external fuctions and class with most external function calls, `frame_to_be_available_and_switch_to_it` having 4 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `return [element for element in _find_elements(driver, self.locator) if _element_if_visible(element)]` at line 125 having line length 97",
+            125
+        ]
+    ]
+}

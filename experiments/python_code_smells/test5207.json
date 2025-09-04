@@ -1,0 +1,61 @@
+{
+    "project_path": "test5207",
+    "stats": {
+        "methods": 26,
+        "classes": 2,
+        "lambdas": 1,
+        "try": 7,
+        "listcomps": 28,
+        "codeblocks": 28
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `__call__` at line 76 containing 51 lines",
+            76
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__call__` at line 76 having 6 parameters (`self`, `new_type`, `kdims`, `vdims`, `groupby`, `sort`)",
+            76
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `__call__` at line 76 having 22 branches",
+            76
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 5",
+            5
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 27",
+            27
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 37",
+            37
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 47",
+            47
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 53",
+            53
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `Dataset` having 136 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 7 of 28 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `dynamic_dims = [d(values=list(self.interface.values(self, d.name, False))) for d in dimensions]` at line 541 having line length 85",
+            541
+        ]
+    ]
+}

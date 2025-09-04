@@ -1,0 +1,25 @@
+{
+    "project_path": "test8754",
+    "stats": {
+        "methods": 26,
+        "classes": 4,
+        "lambdas": 1,
+        "try": 6,
+        "listcomps": 1,
+        "codeblocks": 30
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `save_df` at line 154 having 6 parameters (`self`, `df`, `name`, `path`, `ext`, `target`)",
+            154
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Package` having 87 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 4 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

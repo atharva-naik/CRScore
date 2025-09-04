@@ -1,0 +1,37 @@
+{
+    "project_path": "test1352",
+    "stats": {
+        "methods": 110,
+        "classes": 1,
+        "lambdas": 2,
+        "try": 41,
+        "listcomps": 2,
+        "codeblocks": 111
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 8 methods with long parameter lists and method `openurl` at line 291 having 9 parameters (`self`, `url`, `implicit`, `bg`, `tab`, `window`, `count`, `secure`, `private`)",
+            291
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `CommandDispatcher` having 76 methods (`tab_close`, `tab_pin`, `openurl`, `reloadpage`, `stop`, `printpage`, `tab_clone`, `tab_detach`, `back`, `forward`, `navigate`, `scroll_px`, `scroll`, `scroll_perc`, `scroll_page`, `yank`, `zoom_in`, `zoom_out`, `zoom`, `tab_only`, `undo`, `tab_prev`, `tab_next`, `paste`, `buffer`, `tab_focus`, `tab_move`, `spawn`, `home`, `quickmark_save`, `quickmark_load`, `quickmark_del`, `bookmark_add`, `bookmark_load`, `bookmark_del`, `follow_selected`, `toggle_inspector`, `download`, `view_source`, `debug_dump_page`, `history`, `show_help`, `messages`, `open_editor`, `on_editing_finished`, `paste_primary`, `insert_text`, `click_element`, `search`, `search_next`, `search_prev`, `move_to_next_line`, `move_to_prev_line`, `move_to_next_char`, `move_to_prev_char`, `move_to_end_of_word`, `move_to_next_word`, `move_to_prev_word`, `move_to_start_of_line`, `move_to_end_of_line`, `move_to_start_of_next_block`, `move_to_start_of_prev_block`, `move_to_end_of_next_block`, `move_to_end_of_prev_block`, `move_to_start_of_document`, `move_to_end_of_document`, `toggle_selection`, `drop_selection`, `debug_webaction`, `jseval`, `fake_key`, `debug_clear_ssl_errors`, `edit_url`, `set_mark`, `jump_mark`, `fullscreen`)",
+            47
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CommandDispatcher` having 547 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 111 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `diag.open(lambda: tab.printing.to_printer(diag.printer(), print_callback))` at line 442 having line length 66",
+            442
+        ]
+    ]
+}

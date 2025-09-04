@@ -1,0 +1,29 @@
+{
+    "project_path": "test5463",
+    "stats": {
+        "methods": 48,
+        "classes": 4,
+        "lambdas": 3,
+        "try": 14,
+        "listcomps": 0,
+        "codeblocks": 52
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `TabbedBrowser` having 15 attributes (`widget`, `_win_id`, `_tab_insert_idx_left`, `_tab_insert_idx_right`, `is_shutting_down`, `_filter`, `_now_focused`, `search_text`, `default_window_icon`, `is_private`, `tab_deque`)",
+            145
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `TabbedBrowser` having 296 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 52 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

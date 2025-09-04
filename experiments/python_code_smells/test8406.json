@@ -1,0 +1,41 @@
+{
+    "project_path": "test8406",
+    "stats": {
+        "methods": 81,
+        "classes": 5,
+        "lambdas": 2,
+        "try": 21,
+        "listcomps": 19,
+        "codeblocks": 86
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `package_put` at line 663 containing 93 lines",
+            663
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 173 having 6 parameters (`self`, `user`, `email`, `is_logged_in`, `is_admin`, `is_active`)",
+            173
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `package_put` at line 663 having 26 branches",
+            663
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 312",
+            312
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `PythonPlatform` having 2 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 86 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 14 long list comprehensions and the longest list comprehension `results = [{'username': user.name, 'email': user.email, 'first_name': user.first_name, 'last_name': user.last_name, 'date_joined': user.date_joined, 'last_login': user.last_login, 'is_superuser': user.is_admin, 'is_active': user.is_active} for user in users]` at line 2053 having line length 260",
+            2053
+        ]
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "project_path": "test7057",
+    "stats": {
+        "methods": 14,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 21,
+        "listcomps": 0,
+        "codeblocks": 15
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `dump_listens` at line 407 containing 70 lines",
+            407
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `fetch_listens_from_storage` at line 304 having 6 parameters (`self`, `user_name`, `from_ts`, `to_ts`, `limit`, `order`)",
+            304
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `import_listens_dump` at line 530 having 14 branches",
+            530
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `InfluxListenStore` having 228 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 15 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

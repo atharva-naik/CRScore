@@ -1,0 +1,21 @@
+{
+    "project_path": "test3207",
+    "stats": {
+        "methods": 4,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 9",
+            9
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `FileSystemObjectStore` having 28 external function calls",
+            -1
+        ]
+    ]
+}

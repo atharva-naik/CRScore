@@ -1,0 +1,33 @@
+{
+    "project_path": "test5954",
+    "stats": {
+        "methods": 19,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 20
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 10 methods with long parameter lists and method `reexecute_pipeline` at line 420 having 9 parameters (`pipeline`, `parent_run_id`, `run_config`, `step_selection`, `mode`, `preset`, `tags`, `instance`, `raise_on_error`)",
+            420
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `pipeline_execution_iterator` at line 742 having 17 branches",
+            742
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ExecuteRunWithPlanIterable` having 9 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 20 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `lambda: scoped_pipeline_context(execution_plan, pipeline, pipeline_run.run_config, pipeline_run, instance)` at line 220 having line length 114",
+            220
+        ]
+    ]
+}

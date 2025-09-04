@@ -1,0 +1,17 @@
+{
+    "project_path": "test9023",
+    "stats": {
+        "methods": 11,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 15
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `ServerConnectionMixin` having 26 external function calls",
+            -1
+        ]
+    ]
+}

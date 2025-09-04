@@ -1,0 +1,25 @@
+{
+    "project_path": "test7115",
+    "stats": {
+        "methods": 70,
+        "classes": 6,
+        "lambdas": 0,
+        "try": 20,
+        "listcomps": 9,
+        "codeblocks": 76
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TestApiritifScriptGenerator` having 34 methods (`test_keepalive_default`, `test_keepalive`, `test_timeout_default`, `test_timeout`, `test_timeout_notarget`, `test_think_time`, `test_methods`, `test_default_address_path_prefix`, `test_headers`, `test_follow_redirects_default`, `test_follow_redirects`, `test_body_params`, `test_body_json`, `test_body_string`, `test_body_unknown`, `test_plain_assertions`, `test_plain_assertion_kinds`, `test_jsonpath_assertions`, `test_jsonpath_assertions_kinds`, `test_xpath_assertions`, `test_xpath_assertions_kinds`, `test_complex_codegen`, `test_jmeter_functions_time`, `test_jmeter_functions_random`, `test_jmeter_functions_random_string`, `test_jmeter_functions_base64_encode`, `test_jmeter_functions_base64_decode`, `test_jmeter_functions_urlencode`, `test_jmeter_functions_uuid`, `test_load_reader`, `test_func_reader`, `test_codegen_requests`, `test_generator_crash`, `test_inherit_test_case`)",
+            569
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `TestApiritifScriptGenerator` having 222 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `samples = [json.loads(line) for line in open(self.obj.report_file).readlines() if line]` at line 1489 having line length 77",
+            1489
+        ]
+    ]
+}

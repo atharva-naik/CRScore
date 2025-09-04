@@ -1,0 +1,21 @@
+{
+    "project_path": "test8272",
+    "stats": {
+        "methods": 33,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 5,
+        "listcomps": 2,
+        "codeblocks": 35
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 25",
+            25
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `EventActionFilter` having 3 external function calls",
+            -1
+        ]
+    ]
+}

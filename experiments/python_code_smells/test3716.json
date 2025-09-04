@@ -1,0 +1,29 @@
+{
+    "project_path": "test3716",
+    "stats": {
+        "methods": 13,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 5,
+        "codeblocks": 14
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 4 methods with long parameter lists and method `__init__` at line 47 having 17 parameters (`self`, `num_classes`, `in_channels`, `out_channels`, `anchor_generator`, `bbox_coder`, `featmap_strides`, `one_hot_smoother`, `conv_cfg`, `norm_cfg`, `act_cfg`, `loss_cls`, `loss_conf`, `loss_xy`, `loss_wh`, `train_cfg`, `test_cfg`)",
+            47
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `` having 21 attributes",
+            19
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `YOLOV3Head` having 133 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

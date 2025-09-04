@@ -1,0 +1,25 @@
+{
+    "project_path": "test446",
+    "stats": {
+        "methods": 3,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 2,
+        "codeblocks": 4
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `_Repository` having 35 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 4 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `[\"'{key}'\".format(key=key) for key in repository_definitions.keys() if key not in VALID_REPOSITORY_DATA_DICT_KEYS]` at line 79 having line length 119",
+            79
+        ]
+    ]
+}

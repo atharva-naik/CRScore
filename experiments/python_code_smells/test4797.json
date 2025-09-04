@@ -1,0 +1,21 @@
+{
+    "project_path": "test4797",
+    "stats": {
+        "methods": 1,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 2
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 26 having 7 parameters (`self`, `executable_path`, `port`, `service_args`, `log_path`, `env`, `create_no_window`)",
+            26
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Service` having 2 external function calls",
+            -1
+        ]
+    ]
+}

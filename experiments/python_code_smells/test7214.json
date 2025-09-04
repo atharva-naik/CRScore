@@ -1,0 +1,33 @@
+{
+    "project_path": "test7214",
+    "stats": {
+        "methods": 38,
+        "classes": 14,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 7,
+        "codeblocks": 52
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `__parse_request` at line 198 having 13 branches",
+            198
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `HTTPRequest` having 11 attributes (`engine`, `log`, `url`, `label`, `method`, `headers`, `keepalive`, `timeout`, `think_time`, `follow_redirects`, `body`)",
+            45
+        ],
+        [
+            "Shotgun smell detected with 13 classes with too many external fuctions and class with most external function calls, `RequestsParser` having 25 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 14 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 52 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

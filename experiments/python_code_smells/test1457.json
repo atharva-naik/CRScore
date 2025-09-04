@@ -1,0 +1,41 @@
+{
+    "project_path": "test1457",
+    "stats": {
+        "methods": 102,
+        "classes": 18,
+        "lambdas": 0,
+        "try": 60,
+        "listcomps": 1,
+        "codeblocks": 120
+    },
+    "smells": [
+        [
+            "Long method smell detected with 5 long methods and longest method `_getTextWithFieldsForUIARange` at line 477 containing 134 lines",
+            477
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `_getTextWithFieldsForUIARange` at line 477 having 8 parameters (`self`, `rootElement`, `textRange`, `formatConfig`, `includeRoot`, `alwaysWalkAncestors`, `recurseChildren`, `_rootElementClipped`)",
+            477
+        ],
+        [
+            "Long branch smell detected with 5 methods with long branching and method with most branches `_getFormatFieldAtRange` at line 122 having 59 branches",
+            122
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `UIA` having 10 attributes (`UIAElement`, `UIAIsWindowElement`, `initialUIACachedPropertyIDs`)",
+            729
+        ],
+        [
+            "Shotgun smell detected with 15 classes with too many external fuctions and class with most external function calls, `UIATextInfo` having 200 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 18 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 6 of 120 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

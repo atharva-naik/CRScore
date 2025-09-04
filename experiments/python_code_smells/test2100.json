@@ -1,0 +1,33 @@
+{
+    "project_path": "test2100",
+    "stats": {
+        "methods": 83,
+        "classes": 2,
+        "lambdas": 2,
+        "try": 2,
+        "listcomps": 10,
+        "codeblocks": 85
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `RefactoringChecker` having 8 attributes (`_return_nodes`, `_consider_using_with_stack`, `_never_returning_functions`)",
+            181
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `RefactoringChecker` having 423 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 11 of 85 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `intermediate = [self._simplify_boolean_operation(child) if isinstance(child, nodes.BoolOp) else child for child in children]` at line 1307 having line length 116",
+            1307
+        ]
+    ]
+}

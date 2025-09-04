@@ -1,0 +1,33 @@
+{
+    "project_path": "test4495",
+    "stats": {
+        "methods": 17,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 4,
+        "codeblocks": 18
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 57 having 11 parameters (`self`, `ann_file`, `pipeline`, `classes`, `data_root`, `img_prefix`, `seg_prefix`, `proposal_file`, `test_mode`, `filter_empty_gt`, `file_client_args`)",
+            57
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `` having 13 attributes",
+            17
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CustomDataset` having 77 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 18 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

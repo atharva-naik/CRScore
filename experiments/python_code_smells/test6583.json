@@ -1,0 +1,29 @@
+{
+    "project_path": "test6583",
+    "stats": {
+        "methods": 40,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 3,
+        "codeblocks": 41
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 91 having 7 parameters (`self`, `data`, `index`, `dtype`, `name`, `copy`, `fastpath`)",
+            91
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `Series` having 22 methods (`dtype`, `spark_type`, `astype`, `getField`, `alias`, `schema`, `shape`, `name`, `name`, `rename`, `index`, `reset_index`, `loc`, `to_dataframe`, `toPandas`, `isnull`, `notnull`, `dropna`, `head`, `unique`, `value_counts`, `corr`, `count`)",
+            78
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Series` having 118 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

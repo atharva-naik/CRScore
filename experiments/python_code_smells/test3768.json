@@ -1,0 +1,37 @@
+{
+    "project_path": "test3768",
+    "stats": {
+        "methods": 57,
+        "classes": 13,
+        "lambdas": 1,
+        "try": 7,
+        "listcomps": 3,
+        "codeblocks": 70
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 46 having 6 parameters (`self`, `name`, `default`, `hook`, `args`, `kargs`)",
+            46
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 324",
+            324
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 341",
+            341
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 345",
+            345
+        ],
+        [
+            "Shotgun smell detected with 10 classes with too many external fuctions and class with most external function calls, `Conf` having 27 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `return [(k, v) for k, v in six.iteritems(self.__dict__) if t0 - self._timetable[k] < self.timeout]` at line 231 having line length 95",
+            231
+        ]
+    ]
+}

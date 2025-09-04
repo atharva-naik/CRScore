@@ -1,0 +1,17 @@
+{
+    "project_path": "test6654",
+    "stats": {
+        "methods": 9,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 9
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `send_email_smtp` at line 62 having 6 parameters (`config`, `sender`, `subject`, `message`, `recipients`, `image_png`)",
+            62
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test9442",
+    "stats": {
+        "methods": 40,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 15,
+        "codeblocks": 41
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `ComputeTest` having 40 methods (`setUpClass`, `test_no_quota`, `test_get_backend_services`, `test_get_backend_services_errors`, `test_get_disks`, `test_get_disks_by_zone`, `test_get_disks_errors`, `test_get_firewall_rules`, `test_get_firewall_rules_errors`, `test_get_global_operations`, `test_get_quota`, `test_get_quota_no_metric`, `test_get_quota_errors`, `test_get_firewall_quota`, `test_get_forwarding_rules`, `test_get_forwarding_rules_by_region`, `test_get_forwarding_rules_errors`, `test_get_instance_group_instances_by_zone`, `test_get_instance_group_instances_by_region`, `test_get_instance_group_instances_region_and_zone_raises`, `test_get_instance_group_instances_errors`, `test_get_instance_group_managers`, `test_get_instance_group_managers_errors`, `test_get_instance_groups`, `test_get_instance_groups_errors`, `test_get_instance_templates`, `test_get_instance_templates_errors`, `test_get_instances`, `test_get_instances_by_zone`, `test_get_instances_errors`, `test_get_networks`, `test_get_networks_errors`, `test_get_project`, `test_get_project_errors`, `test_get_subnetworks`, `test_get_subnetworks_by_region`, `test_get_subnetworks_errors`, `test_is_api_enabled_true`, `test_is_api_enabled_false`, `test_is_api_enabled_error`)",
+            35
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ComputeTest` having 169 external function calls",
+            -1
+        ]
+    ]
+}

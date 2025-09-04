@@ -1,0 +1,29 @@
+{
+    "project_path": "test2319",
+    "stats": {
+        "methods": 12,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 4,
+        "codeblocks": 13
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 7 methods with long parameter lists and method `__init__` at line 18 having 15 parameters (`self`, `with_avg_pool`, `with_cls`, `with_reg`, `roi_feat_size`, `in_channels`, `num_classes`, `bbox_coder`, `reg_class_agnostic`, `reg_decoded_bbox`, `reg_predictor_cfg`, `cls_predictor_cfg`, `loss_cls`, `loss_bbox`, `init_cfg`)",
+            18
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `` having 20 attributes",
+            13
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `BBoxHead` having 131 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test6862",
+    "stats": {
+        "methods": 35,
+        "classes": 9,
+        "lambdas": 1,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 44
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `` at line 317 having 7 parameters",
+            317
+        ],
+        [
+            "Shotgun smell detected with 8 classes with too many external fuctions and class with most external function calls, `TestSave` having 52 external function calls",
+            -1
+        ]
+    ]
+}

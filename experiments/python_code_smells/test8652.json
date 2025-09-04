@@ -1,0 +1,17 @@
+{
+    "project_path": "test8652",
+    "stats": {
+        "methods": 4,
+        "classes": 0,
+        "lambdas": 1,
+        "try": 0,
+        "listcomps": 1,
+        "codeblocks": 4
+    },
+    "smells": [
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `fnames = [name for name in tmpdir.listdir() if name.basename.startswith('some_file')]` at line 32 having line length 76",
+            32
+        ]
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "project_path": "test5764",
+    "stats": {
+        "methods": 8,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 2,
+        "codeblocks": 8
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `delta2bbox` at line 34 having 6 parameters (`rois`, `deltas`, `means`, `stds`, `max_shape`, `wh_ratio_clip`)",
+            34
+        ]
+    ]
+}

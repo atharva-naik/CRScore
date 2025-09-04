@@ -1,0 +1,29 @@
+{
+    "project_path": "test6872",
+    "stats": {
+        "methods": 6,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 7,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `eval_map` at line 267 containing 53 lines",
+            267
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `eval_map` at line 267 having 8 parameters (`det_results`, `annotations`, `scale_ranges`, `iou_thr`, `dataset`, `logger`, `tpfp_func`, `nproc`)",
+            267
+        ],
+        [
+            "Long branch smell detected with 4 methods with long branching and method with most branches `tpfp_imagenet` at line 59 having 17 branches",
+            59
+        ],
+        [
+            "Code complexity smell detected with 5 of 6 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

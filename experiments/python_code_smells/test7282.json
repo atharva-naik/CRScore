@@ -1,0 +1,37 @@
+{
+    "project_path": "test7282",
+    "stats": {
+        "methods": 76,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 19,
+        "listcomps": 1,
+        "codeblocks": 78
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `export` at line 1339 containing 108 lines",
+            1339
+        ],
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `build` at line 483 having 6 parameters (`package`, `path`, `dry_run`, `env`, `force`, `build_file`)",
+            483
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `install` at line 875 having 19 branches",
+            875
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 475",
+            475
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `HTTPResponseException` having 2 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 78 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

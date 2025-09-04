@@ -1,0 +1,21 @@
+{
+    "project_path": "test6462",
+    "stats": {
+        "methods": 28,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 0,
+        "listcomps": 2,
+        "codeblocks": 29
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `IndexOpsMixin` having 134 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

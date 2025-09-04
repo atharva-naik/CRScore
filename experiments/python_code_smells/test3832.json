@@ -1,0 +1,37 @@
+{
+    "project_path": "test3832",
+    "stats": {
+        "methods": 14,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 16
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 45 having 16 parameters (`self`, `connection`, `name`, `metric`, `namespace`, `statistic`, `comparison`, `threshold`, `period`, `evaluation_periods`, `unit`, `description`, `dimensions`, `alarm_actions`, `insufficient_data_actions`, `ok_actions`)",
+            45
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `endElement` at line 125 having 16 branches",
+            125
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `MetricAlarm` having 20 attributes (`name`, `connection`, `metric`, `namespace`, `statistic`, `threshold`, `comparison`, `period`, `evaluation_periods`, `actions_enabled`, `alarm_arn`, `last_updated`, `description`, `dimensions`, `insufficient_data_actions`, `ok_actions`, `state_reason`, `state_value`, `unit`, `alarm_actions`)",
+            31
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `MetricAlarm` having 18 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 16 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

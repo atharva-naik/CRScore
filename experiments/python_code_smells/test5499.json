@@ -1,0 +1,33 @@
+{
+    "project_path": "test5499",
+    "stats": {
+        "methods": 64,
+        "classes": 5,
+        "lambdas": 2,
+        "try": 15,
+        "listcomps": 17,
+        "codeblocks": 69
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `package_put` at line 509 containing 76 lines",
+            509
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `package_put` at line 509 having 22 branches",
+            509
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `PythonPlatform` having 2 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 69 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 14 long list comprehensions and the longest list comprehension `events=[dict(created=event.created.timestamp(), user=event.user, type=Event.Type(event.type).name, package_owner=event.package_owner, package_name=event.package_name, package_hash=event.package_hash, extra=event.extra) for event in events]` at line 1908 having line length 246",
+            1908
+        ]
+    ]
+}

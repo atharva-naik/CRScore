@@ -1,0 +1,33 @@
+{
+    "project_path": "test367",
+    "stats": {
+        "methods": 38,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 2,
+        "codeblocks": 41
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `start_proxy_for_service` at line 273 having 6 parameters (`service_name`, `port`, `backend_port`, `update_listener`, `quiet`, `params`)",
+            273
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 172",
+            172
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 355",
+            355
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ConfigUpdateProxyListener` having 7 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 41 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

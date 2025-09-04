@@ -1,0 +1,21 @@
+{
+    "project_path": "test6030",
+    "stats": {
+        "methods": 1,
+        "classes": 0,
+        "lambdas": 1,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 1
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"too general exception\" at line 21",
+            21
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `return lambda value: palette[int(value * (len(palette) - 1) + epsilon)]` at line 156 having line length 66",
+            156
+        ]
+    ]
+}

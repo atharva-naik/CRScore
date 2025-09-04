@@ -1,0 +1,45 @@
+{
+    "project_path": "test596",
+    "stats": {
+        "methods": 34,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 9,
+        "listcomps": 2,
+        "codeblocks": 37
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `handleAppSwitch` at line 253 having 15 branches",
+            253
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `AppModule` having 11 attributes (`processID`, `appName`, `processHandle`, `helperLocalBindingHandle`, `_inprocRegistrationHandle`)",
+            315
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 106",
+            106
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 643",
+            643
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `AppModule` having 50 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 37 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `mods = [k for k, v in sys.modules.items() if k.startswith('appModules') and v is not None]` at line 217 having line length 87",
+            217
+        ]
+    ]
+}

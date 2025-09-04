@@ -1,0 +1,29 @@
+{
+    "project_path": "test6376",
+    "stats": {
+        "methods": 27,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 5,
+        "listcomps": 3,
+        "codeblocks": 28
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"too general exception\" at line 492",
+            492
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `UsageFormatter` having 15 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 28 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `predicate = lambda e: inspect.isclass(e) and e not in [configtypes.BaseType, configtypes.MappingType, configtypes._Numeric] and issubclass(e, configtypes.BaseType)` at line 158 having line length 161",
+            158
+        ]
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "project_path": "test4799",
+    "stats": {
+        "methods": 185,
+        "classes": 8,
+        "lambdas": 9,
+        "try": 6,
+        "listcomps": 10,
+        "codeblocks": 193
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `mktx` at line 929 having 7 parameters (`self`, `outputs`, `password`, `config`, `fee`, `change_addr`, `domain`)",
+            929
+        ],
+        [
+            "Long branch smell detected with 4 methods with long branching and method with most branches `get_wallet_delta` at line 445 having 18 branches",
+            445
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Abstract_Wallet` having 27 attributes (`electrum_version`, `storage`, `network`, `synchronizer`, `verifier`, `gap_limit_for_change`, `use_change`, `multiple_change`, `labels`, `frozen_addresses`, `history`, `receive_requests`, `unverified_tx`, `verified_tx`, `up_to_date`, `lock`, `transaction_lock`, `invoices`, `contacts`)",
+            148
+        ],
+        [
+            "Many methods smell detected with 2 classes having many methods and the class with most methods, `Abstract_Wallet` having 92 methods (`diagnostic_name`, `get_master_public_key`, `load_transactions`, `save_transactions`, `clear_history`, `build_reverse_history`, `check_history`, `basename`, `save_addresses`, `load_addresses`, `synchronize`, `set_up_to_date`, `is_up_to_date`, `set_label`, `is_mine`, `is_change`, `get_address_index`, `export_private_key`, `get_public_keys`, `add_unverified_tx`, `add_verified_tx`, `get_unverified_txs`, `undo_verifications`, `get_local_height`, `get_tx_height`, `get_txpos`, `is_found`, `get_num_tx`, `get_tx_delta`, `get_wallet_delta`, `get_tx_info`, `get_addr_io`, `get_addr_utxo`, `get_addr_received`, `get_addr_balance`, `get_spendable_coins`, `get_utxos`, `dummy_address`, `get_addresses`, `get_frozen_balance`, `get_balance`, `get_address_history`, `find_pay_to_pubkey_address`, `add_transaction`, `remove_transaction`, `receive_tx_callback`, `receive_history_callback`, `get_history`, `get_label`, `get_default_label`, `get_tx_status`, `relayfee`, `dust_threshold`, `make_unsigned_transaction`, `mktx`, `is_frozen`, `set_frozen_state`, `prepare_for_verifier`, `start_threads`, `stop_threads`, `wait_until_synchronized`, `can_export`, `is_used`, `is_empty`, `address_is_old`, `bump_fee`, `cpfp`, `add_input_info`, `can_sign`, `get_input_tx`, `add_hw_info`, `sign_transaction`, `get_unused_addresses`, `get_unused_address`, `get_receiving_address`, `get_payment_status`, `get_payment_request`, `get_request_status`, `make_payment_request`, `sign_payment_request`, `add_payment_request`, `remove_payment_request`, `get_sorted_requests`, `get_fingerprint`, `can_import_privkey`, `can_import_address`, `can_delete_address`, `add_address`, `has_password`, `check_password`, `sign_message`, `decrypt_message`)",
+            148
+        ],
+        [
+            "Shotgun smell detected with 8 classes with too many external fuctions and class with most external function calls, `Abstract_Wallet` having 241 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 5 out of 8 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 7 of 193 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `return [addr for addr in domain if not self.history.get(addr) and addr not in self.receive_requests.keys()]` at line 1157 having line length 105",
+            1157
+        ]
+    ]
+}

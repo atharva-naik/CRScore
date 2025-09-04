@@ -1,0 +1,25 @@
+{
+    "project_path": "test3671",
+    "stats": {
+        "methods": 7,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 8
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `add2DArray` at line 106 having 9 parameters (`self`, `data`, `position`, `xlabel`, `ylabel`, `cmap`, `aspect`, `interpolation`, `name`)",
+            106
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Plot` having 19 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

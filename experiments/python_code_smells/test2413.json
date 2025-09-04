@@ -1,0 +1,21 @@
+{
+    "project_path": "test2413",
+    "stats": {
+        "methods": 6,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 2,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `train_detector` at line 84 having 7 parameters (`model`, `dataset`, `cfg`, `distributed`, `validate`, `timestamp`, `meta`)",
+            84
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `data_loaders = [build_dataloader(ds, cfg.data.imgs_per_gpu, cfg.data.workers_per_gpu, cfg.gpus, dist=False, seed=cfg.seed) for ds in dataset]` at line 193 having line length 131",
+            193
+        ]
+    ]
+}

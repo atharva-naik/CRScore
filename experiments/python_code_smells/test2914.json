@@ -1,0 +1,21 @@
+{
+    "project_path": "test2914",
+    "stats": {
+        "methods": 32,
+        "classes": 19,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 2,
+        "codeblocks": 51
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 12 classes with too many external fuctions and class with most external function calls, `VectorFlags_Field` having 9 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 19 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

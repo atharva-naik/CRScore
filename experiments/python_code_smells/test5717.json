@@ -1,0 +1,53 @@
+{
+    "project_path": "test5717",
+    "stats": {
+        "methods": 148,
+        "classes": 5,
+        "lambdas": 5,
+        "try": 7,
+        "listcomps": 3,
+        "codeblocks": 153
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `canvas_dump` at line 558 containing 91 lines",
+            558
+        ],
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `make_dump` at line 629 having 6 parameters (`s`, `shift`, `y`, `col`, `bkcol`, `large`)",
+            629
+        ],
+        [
+            "Long branch smell detected with 5 methods with long branching and method with most branches `sprintf` at line 1128 having 23 branches",
+            1128
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Packet` having 18 attributes (`time`, `sent_time`, `name`, `default_fields`, `overload_fields`, `overloaded_fields`, `fields`, `fieldtype`, `packetfields`, `payload`, `underlayer`, `original`, `explicit`, `raw_packet_cache`, `raw_packet_cache_fields`, `wirelen`)",
+            52
+        ],
+        [
+            "Many methods smell detected with 2 classes having many methods and the class with most methods, `Packet` having 58 methods (`from_hexcap`, `upper_bonds`, `lower_bonds`, `init_fields`, `do_init_fields`, `dissection_done`, `post_dissection`, `get_field`, `add_payload`, `remove_payload`, `add_underlayer`, `remove_underlayer`, `copy`, `getfieldval`, `getfield_and_val`, `setfieldval`, `delfieldval`, `copy_field_value`, `copy_fields_dict`, `self_build`, `do_build_payload`, `do_build`, `build_padding`, `build`, `post_build`, `build_done`, `do_build_ps`, `build_ps`, `psdump`, `pdfdump`, `canvas_dump`, `extract_padding`, `post_dissect`, `pre_dissect`, `do_dissect`, `do_dissect_payload`, `dissect`, `guess_payload_class`, `default_payload_class`, `hide_defaults`, `clone_with`, `hashret`, `answers`, `layers`, `haslayer`, `getlayer`, `firstlayer`, `route`, `fragment`, `display`, `show`, `show2`, `sprintf`, `mysummary`, `summary`, `lastlayer`, `decode_payload_as`, `command`)",
+            52
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 34",
+            34
+        ],
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `Packet` having 339 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 5 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 7 of 153 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `fields = [key for key, val in itertools.chain(six.iteritems(self.default_fields), six.iteritems(self.overloaded_fields)) if isinstance(val, VolatileValue)] + list(self.fields.keys())` at line 863 having line length 150",
+            863
+        ]
+    ]
+}

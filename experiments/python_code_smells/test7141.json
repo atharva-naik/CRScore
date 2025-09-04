@@ -1,0 +1,41 @@
+{
+    "project_path": "test7141",
+    "stats": {
+        "methods": 70,
+        "classes": 3,
+        "lambdas": 1,
+        "try": 8,
+        "listcomps": 2,
+        "codeblocks": 73
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `__init__` at line 172 containing 54 lines",
+            172
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `__init__` at line 172 having 14 branches",
+            172
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `ConsoleMaster` having 16 attributes (`stream_path`, `options`, `refresh_server_playback`, `anticache`, `anticomp`, `killextra`, `rheaders`, `nopop`, `showhost`, `palette`, `palette_transparent`, `eventlog`, `eventlist`, `view_stack`)",
+            169
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `ConsoleMaster` having 45 methods (`sig_add_event`, `add_event`, `sig_call_in`, `sig_pop_view_state`, `sig_push_view_state`, `start_stream_to_path`, `run_script_once`, `set_script`, `toggle_eventlog`, `client_playback_path`, `server_playback_path`, `spawn_editor`, `spawn_external_viewer`, `set_palette`, `ticker`, `run`, `view_help`, `view_options`, `view_palette_picker`, `view_grideditor`, `view_flowlist`, `view_flow`, `save_one_flow`, `save_flows`, `save_marked_flows`, `load_flows_callback`, `load_flows_path`, `accept_all`, `set_limit`, `set_intercept`, `change_default_display_mode`, `edit_scripts`, `stop_client_playback_prompt`, `stop_server_playback_prompt`, `quit`, `shutdown`, `clear_flows`, `toggle_follow_flows`, `delete_flow`, `refresh_focus`, `process_flow`, `clear_events`, `handle_error`, `handle_request`, `handle_response`)",
+            169
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `ConsoleMaster` having 165 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 73 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

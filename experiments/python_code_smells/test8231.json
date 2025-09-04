@@ -1,0 +1,45 @@
+{
+    "project_path": "test8231",
+    "stats": {
+        "methods": 46,
+        "classes": 1,
+        "lambdas": 7,
+        "try": 3,
+        "listcomps": 18,
+        "codeblocks": 47
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `to_html` at line 274 having 23 parameters (`self`, `buf`, `columns`, `col_space`, `header`, `index`, `na_rep`, `formatters`, `float_format`, `sparsify`, `index_names`, `justify`, `max_rows`, `max_cols`, `show_dimensions`, `decimal`, `bold_rows`, `classes`, `escape`, `notebook`, `border`, `table_id`, `render_links`)",
+            274
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `reset_index` at line 616 having 19 branches",
+            616
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `DataFrame` having 29 methods (`corr`, `iteritems`, `to_html`, `to_string`, `to_dict`, `index`, `set_index`, `reset_index`, `isnull`, `notnull`, `to_koalas`, `to_spark`, `to_pandas`, `assign`, `loc`, `copy`, `dropna`, `fillna`, `head`, `columns`, `columns`, `dtypes`, `count`, `drop`, `get`, `sort_values`, `isin`, `pipe`, `shape`, `merge`)",
+            43
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `DataFrame` having 250 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 7 of 47 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `rename = lambda i: 'index' if 'index' not in self._metadata.column_fields else 'level_{}'.fomat(i)` at line 638 having line length 95",
+            638
+        ],
+        [
+            "Long list comprehension smell detected with 7 long list comprehensions and the longest list comprehension `schema = StructType([StructField(name, infer_pd_series_spark_type(col), nullable=bool(col.isnull().any())) for name, col in reset_index.iteritems()])` at line 130 having line length 133",
+            130
+        ]
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "project_path": "test5566",
+    "stats": {
+        "methods": 45,
+        "classes": 8,
+        "lambdas": 7,
+        "try": 12,
+        "listcomps": 0,
+        "codeblocks": 53
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 461 having 6 parameters (`self`, `parent`, `destPath`, `version`, `apiVersion`, `backCompatTo`)",
+            461
+        ],
+        [
+            "Many attribute smell detected with 2 classes having many attributes and the class with most attributes, `UpdateDownloader` having 13 attributes (`updateInfo`, `urls`, `version`, `apiVersion`, `backCompatToAPIVersion`, `versionTuple`, `fileHash`, `destPath`)",
+            569
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 773",
+            773
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 783",
+            783
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `UpdateResultDialog` having 68 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 4 out of 8 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 53 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 2 long lambda functions and the longest lambda function `lambda evt: self.installPendingButton.Enable(not self.installPendingButton.Enabled)` at line 372 having line length 90",
+            372
+        ]
+    ]
+}

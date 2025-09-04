@@ -1,0 +1,29 @@
+{
+    "project_path": "test5500",
+    "stats": {
+        "methods": 57,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 7,
+        "listcomps": 3,
+        "codeblocks": 59
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `edit_focus` at line 373 having 13 branches",
+            373
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `ConsoleAddon` having 49 methods (`load`, `layout_options`, `intercept_toggle`, `layout_cycle`, `panes_next`, `options_reset_current`, `nav_start`, `nav_end`, `nav_next`, `nav_select`, `nav_up`, `nav_down`, `nav_pageup`, `nav_pagedown`, `nav_left`, `nav_right`, `console_choose`, `console_choose_cmd`, `console_command`, `view_keybindings`, `view_commands`, `view_options`, `view_eventlog`, `view_help`, `view_flow`, `exit`, `view_pop`, `bodyview`, `bodyview_options`, `edit_focus_options`, `edit_focus`, `grideditor_add`, `grideditor_insert`, `grideditor_delete`, `grideditor_load`, `grideditor_load_escaped`, `grideditor_save`, `grideditor_editor`, `flowview_mode_set`, `flowview_mode_options`, `flowview_mode`, `key_contexts`, `key_bind`, `key_unbind`, `key_unbind_focus`, `key_execute_focus`, `key_edit_focus`, `running`, `update`)",
+            68
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `ConsoleAddon` having 160 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 59 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

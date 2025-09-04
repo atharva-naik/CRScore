@@ -1,0 +1,17 @@
+{
+    "project_path": "test7185",
+    "stats": {
+        "methods": 1,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 1
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `main` at line 14 containing 87 lines",
+            14
+        ]
+    ]
+}

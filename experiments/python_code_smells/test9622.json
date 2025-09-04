@@ -1,0 +1,29 @@
+{
+    "project_path": "test9622",
+    "stats": {
+        "methods": 2,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 4
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `check_response` at line 80 containing 99 lines",
+            80
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `check_response` at line 80 having 40 branches",
+            80
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ErrorHandler` having 13 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 4 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

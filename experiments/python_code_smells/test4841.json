@@ -1,0 +1,29 @@
+{
+    "project_path": "test4841",
+    "stats": {
+        "methods": 30,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 31
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `__init__` at line 87 having 13 parameters (`self`, `aws_access_key_id`, `aws_secret_access_key`, `is_secure`, `port`, `proxy`, `proxy_port`, `proxy_user`, `proxy_pass`, `debug`, `https_connection_factory`, `region`, `path`)",
+            87
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `AutoScaleConnection` having 25 methods (`build_list_params`, `create_auto_scaling_group`, `delete_auto_scaling_group`, `create_launch_configuration`, `create_scaling_policy`, `delete_launch_configuration`, `get_all_groups`, `get_all_launch_configurations`, `get_all_activities`, `delete_scheduled_action`, `terminate_instance`, `delete_policy`, `get_all_adjustment_types`, `get_all_autoscaling_instances`, `get_all_metric_collection_types`, `get_all_policies`, `get_all_scaling_process_types`, `suspend_processes`, `resume_processes`, `create_scheduled_group_action`, `get_all_scheduled_actions`, `disable_metrics_collection`, `enable_metrics_collection`, `execute_policy`, `set_instance_health`)",
+            81
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `AutoScaleConnection` having 37 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

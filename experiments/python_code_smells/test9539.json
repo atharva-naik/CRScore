@@ -1,0 +1,25 @@
+{
+    "project_path": "test9539",
+    "stats": {
+        "methods": 76,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 8,
+        "listcomps": 5,
+        "codeblocks": 79
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `register` at line 100 containing 73 lines",
+            100
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `Comparison` having 72 methods (`register`, `compare_dictionaries`, `compare_lists`, `compare_tuples`, `compare_floats`, `compare_arrays`, `bounds_check`, `compare_dimensions`, `compare_labelled_data`, `compare_dimension_lists`, `compare_dimensioned`, `compare_elements`, `compare_trees`, `compare_layouttrees`, `compare_empties`, `compare_overlays`, `compare_ndmappings`, `compare_holomap`, `compare_dynamicmap`, `compare_gridlayout`, `compare_ndoverlays`, `compare_adjointlayouts`, `compare_annotation`, `compare_hline`, `compare_vline`, `compare_vspan`, `compare_hspan`, `compare_spline`, `compare_arrow`, `compare_text`, `compare_div`, `compare_paths`, `compare_contours`, `compare_polygons`, `compare_box`, `compare_ellipse`, `compare_bounds`, `compare_dataset`, `compare_curve`, `compare_errorbars`, `compare_spread`, `compare_area`, `compare_scatter`, `compare_scatter3d`, `compare_trisurface`, `compare_histogram`, `compare_points`, `compare_vectorfield`, `compare_bars`, `compare_spikes`, `compare_boxwhisker`, `compare_graph`, `compare_trimesh`, `compare_nodes`, `compare_edgepaths`, `compare_raster`, `compare_quadmesh`, `compare_heatmap`, `compare_image`, `compare_rgb`, `compare_hsv`, `compare_surface`, `compare_itemtables`, `compare_tables`, `compare_dataframe`, `compare_distribution`, `compare_bivariate`, `compare_hextiles`, `compare_grids`, `compare_options`, `compare_cycles`, `compare_channelopts`)",
+            84
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `Comparison` having 131 external function calls",
+            -1
+        ]
+    ]
+}

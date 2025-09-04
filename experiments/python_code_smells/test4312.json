@@ -1,0 +1,57 @@
+{
+    "project_path": "test4312",
+    "stats": {
+        "methods": 112,
+        "classes": 11,
+        "lambdas": 21,
+        "try": 27,
+        "listcomps": 12,
+        "codeblocks": 123
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `hexdiff` at line 170 containing 79 lines",
+            170
+        ],
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `__init__` at line 1036 having 8 parameters (`self`, `filename`, `linktype`, `gz`, `endianness`, `append`, `sync`, `nano`)",
+            1036
+        ],
+        [
+            "Long branch smell detected with 4 methods with long branching and method with most branches `hexdiff` at line 170 having 25 branches",
+            170
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `RawPcapWriter` having 9 attributes (`linktype`, `header_present`, `append`, `gz`, `endian`, `sync`, `nano`)",
+            1034
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 505",
+            505
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 1188",
+            1188
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 1476",
+            1476
+        ],
+        [
+            "Shotgun smell detected with 11 classes with too many external fuctions and class with most external function calls, `RawPcapNgReader` having 25 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 6 of 123 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `seplinefunc=lambda a, x: '+'.join(('-' * (y + 2) for y in [a - 1] + x + [-2]))` at line 1461 having line length 66",
+            1461
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `rtlst = [tuple([_crop(rtlst[j][i], colwidth[i]) for i in range(0, len(rtlst[j]))]) for j in range(0, len(rtlst))]` at line 1391 having line length 109",
+            1391
+        ]
+    ]
+}

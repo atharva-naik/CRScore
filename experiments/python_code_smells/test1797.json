@@ -1,0 +1,33 @@
+{
+    "project_path": "test1797",
+    "stats": {
+        "methods": 52,
+        "classes": 2,
+        "lambdas": 1,
+        "try": 1,
+        "listcomps": 5,
+        "codeblocks": 54
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `Package` having 241 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 54 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `lambda lk, entry: urlparse(fix_url(_to_singleton(entry.physical_keys))).scheme != 'file'` at line 266 having line length 95",
+            266
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `temp_file_logical_keys = [lk for lk, entry in self.walk() if physical_key_is_temp_file(entry.physical_keys[0])]` at line 1109 having line length 91",
+            1109
+        ]
+    ]
+}

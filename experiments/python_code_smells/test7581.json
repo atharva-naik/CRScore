@@ -1,0 +1,41 @@
+{
+    "project_path": "test7581",
+    "stats": {
+        "methods": 22,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 6,
+        "listcomps": 3,
+        "codeblocks": 23
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `helpfunc` at line 386 having 6 parameters (`self`, `option`, `opt`, `val`, `p`, `level`)",
+            386
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `read_config_file` at line 249 having 14 branches",
+            249
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `OptionsManagerMixIn` having 10 attributes (`config_file`, `options_providers`, `_all_options`, `_short_options`, `_nocallback_options`, `_mygroups`, `_maxlevel`)",
+            59
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `OptionsManagerMixIn` having 83 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 23 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `options = [(n, d, v) for n, d, v in options if d.get('type') is not None and (not d.get('deprecated'))]` at line 209 having line length 96",
+            209
+        ]
+    ]
+}

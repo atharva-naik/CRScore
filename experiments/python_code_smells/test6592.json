@@ -1,0 +1,37 @@
+{
+    "project_path": "test6592",
+    "stats": {
+        "methods": 10,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 23,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `simple_test` at line 331 containing 83 lines",
+            331
+        ],
+        [
+            "Long parameter list smell detected with 4 methods with long parameter lists and method `forward_train` at line 206 having 9 parameters (`self`, `x`, `img_metas`, `proposal_list`, `gt_bboxes`, `gt_labels`, `gt_bboxes_ignore`, `gt_masks`, `gt_semantic_seg`)",
+            206
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `simple_test` at line 331 having 23 branches",
+            331
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `HybridTaskCascadeRoIHead` having 167 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 11 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 5 long list comprehensions and the longest list comprehension `bbox_result = [bbox2result(det_bboxes[i], det_labels[i], self.bbox_head[-1].num_classes) for i in range(num_imgs)]` at line 432 having line length 104",
+            432
+        ]
+    ]
+}

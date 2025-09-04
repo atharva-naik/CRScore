@@ -1,0 +1,33 @@
+{
+    "project_path": "test1544",
+    "stats": {
+        "methods": 4,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 7,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 4 methods with long parameter lists and method `` at line 19 having 8 parameters",
+            19
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `simple_test_bboxes` at line 52 having 13 branches",
+            52
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `MaskTestMixin` having 64 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 6 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `segm_results = [[[] for _ in range(self.mask_head.num_classes)] for _ in range(len(det_bboxes))]` at line 261 having line length 86",
+            261
+        ]
+    ]
+}

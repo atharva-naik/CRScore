@@ -1,0 +1,37 @@
+{
+    "project_path": "test3475",
+    "stats": {
+        "methods": 64,
+        "classes": 14,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 10,
+        "codeblocks": 78
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 4 methods with long parameter lists and method `__init__` at line 1575 having 11 parameters (`self`, `crop_size`, `ratios`, `border`, `mean`, `std`, `to_rgb`, `test_mode`, `test_pad_mode`, `test_pad_add_pix`, `bbox_clip_border`)",
+            1575
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `__call__` at line 1419 having 16 branches",
+            1419
+        ],
+        [
+            "Many attribute smell detected with 2 classes having many attributes and the class with most attributes, `` having 12 attributes",
+            1486
+        ],
+        [
+            "Shotgun smell detected with 14 classes with too many external fuctions and class with most external function calls, `RandomCenterCropPad` having 42 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 14 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 8 of 78 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "project_path": "test5251",
+    "stats": {
+        "methods": 9,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 10,
+        "listcomps": 8,
+        "codeblocks": 9
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `renderView` at line 51 containing 185 lines",
+            51
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `renderView` at line 51 having 69 branches",
+            51
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 499",
+            499
+        ],
+        [
+            "Code complexity smell detected with 4 of 9 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `timeouts = [timeout for period, timeout in settings.DEFAULT_CACHE_POLICY if period <= queryTime]` at line 418 having line length 89",
+            418
+        ]
+    ]
+}

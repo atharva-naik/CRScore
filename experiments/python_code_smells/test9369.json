@@ -1,0 +1,45 @@
+{
+    "project_path": "test9369",
+    "stats": {
+        "methods": 31,
+        "classes": 5,
+        "lambdas": 15,
+        "try": 0,
+        "listcomps": 17,
+        "codeblocks": 36
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `initialize_plot` at line 789 containing 57 lines",
+            789
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `_create_subplots` at line 717 having 6 parameters (`self`, `layout`, `positions`, `layout_dimensions`, `ranges`, `num`)",
+            717
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `_create_subplots` at line 464 having 18 branches",
+            464
+        ],
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `LayoutPlot` having 82 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 5 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 10 of 36 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `filter_fn = lambda x: x.shared_datasource and x.current_frame is not None and (not isinstance(x.current_frame.data, np.ndarray)) and ('source' in x.handles)` at line 321 having line length 146",
+            321
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `panels = [Panel(child=child, title=str(tab_titles.get((r, c)))) for r, row in enumerate(plots) for c, child in enumerate(row) if child is not None]` at line 852 having line length 142",
+            852
+        ]
+    ]
+}

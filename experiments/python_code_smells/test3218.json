@@ -1,0 +1,33 @@
+{
+    "project_path": "test3218",
+    "stats": {
+        "methods": 21,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 12,
+        "codeblocks": 24
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `initialize` at line 125 having 6 parameters (`cls`, `eltype`, `data`, `kdims`, `vdims`, `datatype`)",
+            125
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `initialize` at line 125 having 13 branches",
+            125
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `Interface` having 69 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 24 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `datatype = [dt for dt in self.dataset.datatype if dt in Interface.interfaces and (not Interface.interfaces[dt].gridded)]` at line 49 having line length 111",
+            49
+        ]
+    ]
+}

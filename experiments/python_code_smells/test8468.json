@@ -1,0 +1,45 @@
+{
+    "project_path": "test8468",
+    "stats": {
+        "methods": 60,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 5,
+        "listcomps": 1,
+        "codeblocks": 61
+    },
+    "smells": [
+        [
+            "Long method smell detected with 4 long methods and longest method `_send_file_internal` at line 736 containing 128 lines",
+            736
+        ],
+        [
+            "Long parameter list smell detected with 13 methods with long parameter lists and method `set_contents_from_file` at line 1095 having 13 parameters (`self`, `fp`, `headers`, `replace`, `cb`, `num_cb`, `policy`, `md5`, `reduced_redundancy`, `query_args`, `encrypt_key`, `size`, `rewind`)",
+            1095
+        ],
+        [
+            "Long branch smell detected with 4 methods with long branching and method with most branches `sender` at line 752 having 33 branches",
+            752
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Key` having 29 attributes (`bucket`, `name`, `metadata`, `cache_control`, `content_type`, `content_encoding`, `content_disposition`, `content_language`, `filename`, `etag`, `is_latest`, `last_modified`, `owner`, `storage_class`, `path`, `resp`, `mode`, `size`, `version_id`, `source_version_id`, `delete_marker`, `encrypted`, `ongoing_restore`, `expiry_date`, `local_hashes`)",
+            54
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `Key` having 46 methods (`provider`, `get_md5_from_hexdigest`, `handle_encryption_headers`, `handle_version_headers`, `handle_restore_headers`, `handle_addl_headers`, `open_read`, `open_write`, `open`, `close`, `next`, `read`, `change_storage_class`, `copy`, `startElement`, `endElement`, `exists`, `delete`, `get_metadata`, `set_metadata`, `update_metadata`, `set_acl`, `get_acl`, `get_xml_acl`, `set_xml_acl`, `set_canned_acl`, `get_redirect`, `set_redirect`, `make_public`, `generate_url`, `send_file`, `should_retry`, `compute_md5`, `set_contents_from_stream`, `set_contents_from_file`, `set_contents_from_filename`, `set_contents_from_string`, `get_file`, `get_torrent_file`, `get_contents_to_file`, `get_contents_to_filename`, `get_contents_as_string`, `add_email_grant`, `add_user_grant`, `set_remote_metadata`, `restore`)",
+            54
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Key` having 196 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 61 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

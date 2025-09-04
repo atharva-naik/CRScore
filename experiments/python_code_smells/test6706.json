@@ -1,0 +1,33 @@
+{
+    "project_path": "test6706",
+    "stats": {
+        "methods": 28,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 4,
+        "listcomps": 0,
+        "codeblocks": 29
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `__init__` at line 159 containing 51 lines",
+            159
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `MainWindow` having 14 attributes (`_commandrunner`, `_overlays`, `win_id`, `registry`, `_vbox`, `_downloadview`, `_private`, `tabbed_browser`, `status`, `_commandrunner`, `_keyhint`, `_prompt_container`, `_messageview`, `state_before_fullscreen`)",
+            130
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `MainWindow` having 189 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 29 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

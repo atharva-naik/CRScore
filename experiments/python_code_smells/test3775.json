@@ -1,0 +1,29 @@
+{
+    "project_path": "test3775",
+    "stats": {
+        "methods": 53,
+        "classes": 11,
+        "lambdas": 27,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 64
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `` at line 811 having 7 parameters",
+            811
+        ],
+        [
+            "Shotgun smell detected with 9 classes with too many external fuctions and class with most external function calls, `TestGitStr` having 23 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 64 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `patches['distribution'] = lambda: version.DistributionInfo(parsed=version.Distribution.arch, version=None, pretty='LINUX DISTRIBUTION', id='arch')` at line 866 having line length 127",
+            866
+        ]
+    ]
+}

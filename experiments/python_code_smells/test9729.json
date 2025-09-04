@@ -1,0 +1,29 @@
+{
+    "project_path": "test9729",
+    "stats": {
+        "methods": 26,
+        "classes": 2,
+        "lambdas": 3,
+        "try": 3,
+        "listcomps": 2,
+        "codeblocks": 28
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 12 methods with long parameter lists and method `get_all` at line 248 having 12 parameters (`self`, `collection_id`, `parent_id`, `filters`, `sorting`, `pagination_rules`, `limit`, `include_deleted`, `id_field`, `modified_field`, `deleted_field`, `auth`)",
+            248
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `Storage` having 30 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 28 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `deleted = [self.delete(r.pop('__collection_id__'), r.pop('__parent_id__'), r[id_field], id_field=id_field, with_deleted=with_deleted, modified_field=modified_field, deleted_field=deleted_field) for r in records]` at line 285 having line length 211",
+            285
+        ]
+    ]
+}

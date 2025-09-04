@@ -1,0 +1,41 @@
+{
+    "project_path": "test1089",
+    "stats": {
+        "methods": 41,
+        "classes": 2,
+        "lambdas": 4,
+        "try": 2,
+        "listcomps": 9,
+        "codeblocks": 43
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `afterglow` at line 329 containing 58 lines",
+            329
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `afterglow` at line 329 having 18 branches",
+            329
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `PacketList` having 23 methods (`summary`, `nsummary`, `display`, `show`, `filter`, `make_table`, `make_lined_table`, `make_tex_table`, `plot`, `diffplot`, `multiplot`, `rawhexdump`, `hexraw`, `hexdump`, `padding`, `nzpadding`, `conversations`, `afterglow`, `psdump`, `pdfdump`, `sr`, `sessions`, `replace`)",
+            30
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `PacketList` having 161 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 43 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `l = [f(self.res[i], self.res[i + 1]) for i in range(len(self.res) - delay) if lfilter(self.res[i])]` at line 181 having line length 99",
+            181
+        ]
+    ]
+}

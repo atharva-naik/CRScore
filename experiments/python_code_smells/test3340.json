@@ -1,0 +1,29 @@
+{
+    "project_path": "test3340",
+    "stats": {
+        "methods": 52,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 9,
+        "listcomps": 8,
+        "codeblocks": 56
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 103",
+            103
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `TestPreprocessOptions` having 10 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 56 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `expected = [join(chroot, suffix) for suffix in (sep.join(('a', 'b')), 'a', sep.join(('a', 'e')))] + fake_path` at line 231 having line length 91",
+            231
+        ]
+    ]
+}

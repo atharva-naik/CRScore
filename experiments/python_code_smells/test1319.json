@@ -1,0 +1,37 @@
+{
+    "project_path": "test1319",
+    "stats": {
+        "methods": 83,
+        "classes": 9,
+        "lambdas": 11,
+        "try": 9,
+        "listcomps": 1,
+        "codeblocks": 92
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `__init__` at line 384 containing 90 lines",
+            384
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `MainFrame` having 42 methods (`Destroy`, `prePopup`, `postPopup`, `showGui`, `onRevertToSavedConfigurationCommand`, `onRevertToDefaultConfigurationCommand`, `onSaveConfigurationCommand`, `onDefaultDictionaryCommand`, `onVoiceDictionaryCommand`, `onTemporaryDictionaryCommand`, `onExecuteUpdateCommand`, `evaluateUpdatePendingUpdateMenuItemCommand`, `onExitCommand`, `onNVDASettingsCommand`, `onGeneralSettingsCommand`, `onSelectSynthesizerCommand`, `onSpeechSettingsCommand`, `onSelectBrailleDisplayCommand`, `onBrailleSettingsCommand`, `onKeyboardSettingsCommand`, `onMouseSettingsCommand`, `onTouchInteractionCommand`, `onReviewCursorCommand`, `onInputCompositionCommand`, `onObjectPresentationCommand`, `onBrowseModeCommand`, `onDocumentFormattingCommand`, `onUwpOcrCommand`, `onSpeechSymbolsCommand`, `onInputGesturesCommand`, `onAboutCommand`, `onCheckForUpdateCommand`, `onViewLogCommand`, `onSpeechViewerEnabled`, `onToggleSpeechViewerCommand`, `onPythonConsoleCommand`, `onAddonsManagerCommand`, `onReloadPluginsCommand`, `onCreatePortableCopyCommand`, `onInstallCommand`, `onRunCOMRegistrationFixesCommand`, `onConfigProfilesCommand`)",
+            94
+        ],
+        [
+            "Shotgun smell detected with 9 classes with too many external fuctions and class with most external function calls, `SysTrayIcon` having 145 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 4 out of 9 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 92 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 5 long lambda functions and the longest lambda function `ctrl.Bind(wx.EVT_BUTTON, lambda evt: self.onAction(evt, mainFrame.onCreatePortableCopyCommand))` at line 730 having line length 71",
+            730
+        ]
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "project_path": "test10152",
+    "stats": {
+        "methods": 74,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 13,
+        "listcomps": 3,
+        "codeblocks": 75
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `send_notification_for_subscriber` at line 213 having 7 parameters (`notif`, `bucket_name`, `object_path`, `version_id`, `api_method`, `action`, `event_name`)",
+            213
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `append_cors_headers` at line 343 having 13 branches",
+            343
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 227",
+            227
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ProxyListenerS3` having 140 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 8 of 75 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

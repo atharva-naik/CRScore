@@ -1,0 +1,29 @@
+{
+    "project_path": "test4050",
+    "stats": {
+        "methods": 66,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 12,
+        "listcomps": 3,
+        "codeblocks": 67
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `_test_copy_into_container` at line 290 having 7 parameters (`self`, `docker_client`, `create_container`, `command`, `file_path`, `local_path`, `container_path`)",
+            290
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TestDockerClient` having 60 methods (`test_container_lifecycle_commands`, `test_create_container_remove_removes_container`, `test_create_container_non_existing_image`, `test_exec_in_container`, `test_exec_in_container_not_running_raises_exception`, `test_exec_in_container_with_env`, `test_exec_error_in_container`, `test_create_container_with_max_env_vars`, `test_run_container`, `test_run_container_error`, `test_stop_non_existing_container`, `test_remove_non_existing_container`, `test_start_non_existing_container`, `test_get_network`, `test_create_with_host_network`, `test_create_with_port_mapping`, `test_create_with_volume`, `test_copy_into_container`, `test_copy_into_non_existent_container`, `test_copy_into_container_without_target_filename`, `test_copy_directory_into_container`, `test_copy_into_container_with_existing_target`, `test_copy_directory_content_into_container`, `test_get_network_non_existing_container`, `test_list_containers`, `test_list_containers_filter_non_existing`, `test_list_containers_filter_illegal_filter`, `test_list_containers_filter`, `test_get_container_entrypoint`, `test_get_container_entrypoint_non_existing_image`, `test_get_container_command`, `test_get_container_command_non_existing_image`, `test_create_start_container_with_stdin_to_stdout`, `test_create_start_container_with_stdin_to_file`, `test_run_container_with_stdin`, `test_exec_in_container_with_stdin`, `test_exec_in_container_with_stdin_stdout_stderr`, `test_run_detached_with_logs`, `test_get_logs_non_existent_container`, `test_pull_docker_image`, `test_pull_non_existent_docker_image`, `test_run_container_automatic_pull`, `test_run_container_non_existent_image`, `test_running_container_names`, `test_is_container_running`, `test_docker_image_names`, `test_get_container_name`, `test_get_container_name_not_existing`, `test_get_container_id`, `test_get_container_id_not_existing`, `test_inspect_container`, `test_inspect_image`, `test_copy_from_container`, `test_copy_from_container_to_different_file`, `test_copy_from_container_into_directory`, `test_copy_from_non_existent_container`, `test_run_with_additional_arguments`, `test_run_with_additional_arguments_add_host`, `test_get_container_ip_non_existing_container`, `test_get_container_ip`)",
+            68
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `TestDockerClient` having 263 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 67 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

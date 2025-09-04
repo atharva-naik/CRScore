@@ -1,0 +1,33 @@
+{
+    "project_path": "test8301",
+    "stats": {
+        "methods": 98,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 18,
+        "listcomps": 2,
+        "codeblocks": 102
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `is_defined_in_scope` at line 343 having 18 branches",
+            343
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 1294",
+            1294
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `UnsupportedFormatCharacter` having 2 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 8 of 102 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `return [handler for handler in context.handlers if error_of_type(handler, exception)]` at line 1044 having line length 78",
+            1044
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test5112",
+    "stats": {
+        "methods": 69,
+        "classes": 5,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 74
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TestRegister` having 21 methods (`test_simple`, `test_underlines`, `test_lowercasing`, `test_explicit_name`, `test_multiple_names`, `test_multiple_registrations`, `test_instance`, `test_kwargs`, `test_star_args`, `test_star_args_optional`, `test_flag`, `test_flag_argument`, `test_partial_arg`, `test_win_id`, `test_count`, `test_count_without_default`, `test_pos_args`, `test_typed_args`, `test_choices_no_annotation`, `test_choices_no_annotation_kwonly`, `test_pos_arg_info`)",
+            84
+        ],
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `TestRegister` having 75 external function calls",
+            -1
+        ]
+    ]
+}

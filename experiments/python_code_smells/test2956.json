@@ -1,0 +1,37 @@
+{
+    "project_path": "test2956",
+    "stats": {
+        "methods": 84,
+        "classes": 3,
+        "lambdas": 1,
+        "try": 2,
+        "listcomps": 2,
+        "codeblocks": 87
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 6 methods with long parameter lists and method `_construct_run_with_snapshots` at line 535 having 15 parameters (`self`, `pipeline_name`, `run_id`, `run_config`, `mode`, `solids_to_execute`, `step_keys_to_execute`, `status`, `tags`, `root_run_id`, `parent_run_id`, `pipeline_snapshot`, `execution_plan_snapshot`, `parent_pipeline_snapshot`, `solid_selection`)",
+            535
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `DagsterInstance` having 12 attributes (`_instance_type`, `_local_artifact_storage`, `_event_storage`, `_run_storage`, `_compute_log_manager`, `_schedule_storage`, `_scheduler`, `_run_launcher`, `_dagit_settings`, `_telemetry_settings`, `_ref`, `_subscribers`)",
+            127
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `DagsterInstance` having 72 methods (`ephemeral`, `get`, `local_temp`, `from_config`, `from_ref`, `is_persistent`, `is_ephemeral`, `get_ref`, `root_directory`, `temp_storage`, `info_str_for_component`, `info_str`, `schedule_storage`, `scheduler`, `run_launcher`, `compute_log_manager`, `dagit_settings`, `telemetry_enabled`, `upgrade`, `dispose`, `get_run_by_id`, `get_pipeline_snapshot`, `has_pipeline_snapshot`, `get_historical_pipeline`, `has_historical_pipeline`, `get_execution_plan_snapshot`, `get_run_stats`, `get_run_step_stats`, `get_run_tags`, `get_run_group`, `create_run_for_pipeline`, `create_run`, `register_managed_run`, `add_run`, `handle_run_event`, `has_run`, `get_runs`, `get_runs_count`, `get_run_groups`, `wipe`, `wipe_assets`, `wipe_all_assets`, `delete_run`, `logs_after`, `all_logs`, `watch_event_logs`, `get_logger`, `handle_new_event`, `add_event_listener`, `report_engine_event`, `report_run_failed`, `file_manager_directory`, `intermediates_directory`, `schedules_directory`, `launch_run`, `reconcile_scheduler_state`, `start_schedule_and_update_storage_state`, `stop_schedule_and_update_storage_state`, `stop_schedule_and_delete_from_storage`, `running_schedule_count`, `scheduler_debug_info`, `create_schedule_tick`, `update_schedule_tick`, `get_schedule_ticks`, `get_schedule_tick_stats`, `all_stored_schedule_state`, `get_schedule_state`, `add_schedule_state`, `update_schedule_state`, `delete_schedule_state`, `wipe_all_schedules`, `logs_path_for_schedule`)",
+            127
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `DagsterInstance` having 136 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `[('    {field_name}:\\n' + '        Expected: {expected_value}\\n' + '        Received: {candidate_value}').format(field_name=field_name, expected_value=expected_value, candidate_value=candidate_value) for field_name, (expected_value, candidate_value) in field_diff.items()]` at line 80 having line length 285",
+            80
+        ]
+    ]
+}

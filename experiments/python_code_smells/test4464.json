@@ -1,0 +1,33 @@
+{
+    "project_path": "test4464",
+    "stats": {
+        "methods": 66,
+        "classes": 1,
+        "lambdas": 2,
+        "try": 6,
+        "listcomps": 0,
+        "codeblocks": 67
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `SimpleConfig` having 12 attributes (`lock`, `mempool_fees`, `fee_estimates`, `last_time_fee_estimates_requested`, `cmdline_options`, `user_config`, `path`, `user_config`, `_not_modifiable_keys`, `decimal_point`, `num_zeros`, `amt_precision_post_satoshi`)",
+            46
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `SimpleConfig` having 59 methods (`electrum_path`, `rename_config_keys`, `set_key`, `get`, `requires_upgrade`, `upgrade`, `convert_version_2`, `convert_version_3`, `get_config_version`, `is_modifiable`, `make_key_not_modifiable`, `save_user_config`, `get_backup_dir`, `get_wallet_path`, `remove_from_recently_open`, `set_session_timeout`, `get_session_timeout`, `save_last_wallet`, `impose_hard_limits_on_fee`, `eta_to_fee`, `eta_target_to_fee`, `fee_to_depth`, `depth_to_fee`, `depth_target_to_fee`, `depth_target`, `eta_target`, `fee_to_eta`, `depth_tooltip`, `eta_tooltip`, `get_fee_target`, `get_fee_status`, `get_fee_text`, `get_depth_level`, `get_fee_level`, `get_fee_slider`, `static_fee`, `static_fee_index`, `has_fee_etas`, `has_fee_mempool`, `has_dynamic_fees_ready`, `is_dynfee`, `use_mempool_fees`, `fee_per_kb`, `fee_per_byte`, `estimate_fee`, `estimate_fee_for_feerate`, `update_fee_estimates`, `is_fee_estimates_update_required`, `requested_fee_estimates`, `get_video_device`, `get_ssl_context`, `get_ssl_domain`, `get_netaddress`, `format_amount`, `format_amount_and_units`, `format_fee_rate`, `get_base_unit`, `set_base_unit`, `get_decimal_point`)",
+            46
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 701",
+            701
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `SimpleConfig` having 124 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test2376",
+    "stats": {
+        "methods": 13,
+        "classes": 5,
+        "lambdas": 3,
+        "try": 7,
+        "listcomps": 1,
+        "codeblocks": 18
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `ConnectionHandler` having 78 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 18 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

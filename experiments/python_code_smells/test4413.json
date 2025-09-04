@@ -1,0 +1,17 @@
+{
+    "project_path": "test4413",
+    "stats": {
+        "methods": 7,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 4,
+        "codeblocks": 7
+    },
+    "smells": [
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `data = [','.join(['liberty'] * col1[i] + ['equality'] * col2[i] + ['justice'] * col3[i]) for i in range(n)]` at line 114 having line length 104",
+            114
+        ]
+    ]
+}

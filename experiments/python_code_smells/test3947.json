@@ -1,0 +1,29 @@
+{
+    "project_path": "test3947",
+    "stats": {
+        "methods": 15,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 1,
+        "codeblocks": 18
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `ApacheBenchmarkExecutor` having 9 attributes (`log`, `process`, `_tsv_file`, `tool`, `scenario`)",
+            33
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `ApacheBenchmarkExecutor` having 55 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 18 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

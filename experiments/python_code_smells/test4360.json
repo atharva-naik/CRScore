@@ -1,0 +1,29 @@
+{
+    "project_path": "test4360",
+    "stats": {
+        "methods": 13,
+        "classes": 2,
+        "lambdas": 2,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 15
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 228 having 10 parameters (`self`, `dataloader`, `start`, `interval`, `by_epoch`, `tmpdir`, `gpu_collect`, `save_best`, `rule`, `broadcast_bn_buffer`)",
+            228
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `EvalHook` having 11 attributes (`dataloader`, `interval`, `by_epoch`, `start`, `save_best`, `eval_kwargs`, `initial_epoch_flag`, `logger`)",
+            14
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `EvalHook` having 25 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

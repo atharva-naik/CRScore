@@ -1,0 +1,33 @@
+{
+    "project_path": "test6917",
+    "stats": {
+        "methods": 12,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 12,
+        "codeblocks": 13
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 7 methods with long parameter lists and method `__init__` at line 34 having 14 parameters (`self`, `num_classes`, `in_channels`, `feat_channels`, `anchor_generator`, `bbox_coder`, `reg_decoded_bbox`, `background_label`, `loss_cls`, `loss_bbox`, `loss_normalizer`, `loss_normalizer_momentum`, `train_cfg`, `test_cfg`)",
+            34
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `` having 20 attributes",
+            12
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `AnchorHead` having 135 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 13 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

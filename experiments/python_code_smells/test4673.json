@@ -1,0 +1,41 @@
+{
+    "project_path": "test4673",
+    "stats": {
+        "methods": 57,
+        "classes": 3,
+        "lambdas": 5,
+        "try": 3,
+        "listcomps": 12,
+        "codeblocks": 60
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_get_oxid_state_guesses` at line 674 containing 52 lines",
+            674
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `_get_oxid_state_guesses` at line 674 having 17 branches",
+            674
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `` having 29 methods",
+            44
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `Composition` having 204 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 60 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `all_sols, all_oxid_combo = zip(*[(y, x) for z, y, x in sorted(zip(all_scores, all_sols, all_oxid_combo), key=lambda pair: pair[0], reverse=True)])` at line 797 having line length 117",
+            797
+        ]
+    ]
+}

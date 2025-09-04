@@ -1,0 +1,45 @@
+{
+    "project_path": "test9994",
+    "stats": {
+        "methods": 25,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 31,
+        "codeblocks": 26
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `select` at line 456 containing 58 lines",
+            456
+        ],
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `coords` at line 205 having 6 parameters (`cls`, `dataset`, `dim`, `ordered`, `expanded`, `edges`)",
+            205
+        ],
+        [
+            "Long branch smell detected with 4 methods with long branching and method with most branches `select` at line 456 having 22 branches",
+            456
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `GridInterface` having 24 methods (`init`, `concat`, `concat_dim`, `irregular`, `isscalar`, `validate`, `dimension_type`, `shape`, `length`, `coords`, `canonicalize`, `invert_index`, `ndloc`, `values`, `groupby`, `key_select_mask`, `select`, `sample`, `aggregate`, `reindex`, `add_dimension`, `sort`, `iloc`, `range`)",
+            25
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 9",
+            9
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `GridInterface` having 281 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 10 of 26 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `index = np.ix_(*[np.atleast_1d(np.squeeze(ind)) if ind.ndim > 1 else np.atleast_1d(ind) for ind in int_inds])` at line 505 having line length 98",
+            505
+        ]
+    ]
+}

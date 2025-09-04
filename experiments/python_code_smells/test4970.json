@@ -1,0 +1,25 @@
+{
+    "project_path": "test4970",
+    "stats": {
+        "methods": 51,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 6,
+        "listcomps": 1,
+        "codeblocks": 52
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `_get_http_request` at line 268 having 7 parameters (`url`, `label`, `method`, `timeout`, `body`, `keepalive`, `files`)",
+            268
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `JMX` having 117 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

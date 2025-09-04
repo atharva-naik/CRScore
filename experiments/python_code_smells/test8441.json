@@ -1,0 +1,33 @@
+{
+    "project_path": "test8441",
+    "stats": {
+        "methods": 30,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 31
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `overlay_marks` at line 465 containing 112 lines",
+            465
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Plugin` having 31 attributes (`base_dir`, `calibration_h`, `calibration_v`, `version`, `size`, `f_size`, `abstand_h`, `abstand_v`, `calibration_noise`, `rawnoise`)",
+            38
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `Plugin` having 28 methods (`set_seed`, `requires_settings`, `settings_widget`, `setup_dialog`, `get_noise`, `on_edit`, `code_hashid`, `is_noise`, `make_digital`, `bcrypt`, `ext_warning`, `bdone`, `customtxt_limits`, `t`, `cypherseed_dialog`, `update_wallet_name`, `seed_img`, `make_rawnoise`, `make_calnoise`, `make_revealer`, `make_cypherseed`, `calibration`, `toPdf`, `calibration_pdf`, `pixelcode_2x2`, `overlay_marks`, `paintQR`, `calibration_dialog`)",
+            38
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Plugin` having 610 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

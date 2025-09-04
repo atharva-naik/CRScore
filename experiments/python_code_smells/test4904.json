@@ -1,0 +1,12 @@
+{
+    "project_path": "test4904",
+    "stats": {
+        "methods": 3,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 3
+    },
+    "smells": []
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test4792",
+    "stats": {
+        "methods": 59,
+        "classes": 9,
+        "lambdas": 0,
+        "try": 9,
+        "listcomps": 0,
+        "codeblocks": 68
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `iter` at line 1315 having 9 parameters (`self`, `type_list`, `fetch_iam_policy`, `fetch_gcs_policy`, `fetch_dataset_policy`, `fetch_billing_info`, `fetch_enabled_apis`, `fetch_service_config`, `with_parent`)",
+            1315
+        ],
+        [
+            "Shotgun smell detected with 7 classes with too many external fuctions and class with most external function calls, `Storage` having 84 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 9 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 68 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

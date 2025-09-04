@@ -1,0 +1,33 @@
+{
+    "project_path": "test1114",
+    "stats": {
+        "methods": 41,
+        "classes": 9,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 50
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `getFormatFieldSpeech` at line 452 having 9 parameters (`self`, `attrs`, `attrsCache`, `formatConfig`, `reason`, `unit`, `extraDetail`, `initialFormat`, `separator`)",
+            452
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `getPresentationCategory` at line 43 having 16 branches",
+            43
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `TextInfo` having 13 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 9 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 50 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

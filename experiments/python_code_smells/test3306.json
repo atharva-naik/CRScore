@@ -1,0 +1,49 @@
+{
+    "project_path": "test3306",
+    "stats": {
+        "methods": 92,
+        "classes": 23,
+        "lambdas": 3,
+        "try": 7,
+        "listcomps": 4,
+        "codeblocks": 115
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_do_iter` at line 764 containing 57 lines",
+            764
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 354 having 7 parameters (`self`, `name`, `ioevent`, `automaton`, `proto`, `args`, `kargs`)",
+            354
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `_do_iter` at line 764 having 26 branches",
+            764
+        ],
+        [
+            "Many attribute smell detected with 2 classes having many attributes and the class with most attributes, `Automaton` having 23 attributes (`send_sock_class`, `recv_sock_class`, `started`, `threadid`, `breakpointed`, `breakpoints`, `interception_points`, `intercepted_packet`, `debug_level`, `init_args`, `init_kargs`, `io`, `oi`, `cmdin`, `cmdout`, `ioin`, `ioout`)",
+            501
+        ],
+        [
+            "Shotgun smell detected with 10 classes with too many external fuctions and class with most external function calls, `Automaton` having 112 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 23 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 115 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `actlst.sort(key=cmp_to_key(lambda c1, c2: cmp(c1.atmt_cond[condname], c2.atmt_cond[condname])))` at line 452 having line length 68",
+            452
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `decorated = [v for v in six.itervalues(members) if isinstance(v, types.FunctionType) and hasattr(v, 'atmt_type')]` at line 411 having line length 105",
+            411
+        ]
+    ]
+}

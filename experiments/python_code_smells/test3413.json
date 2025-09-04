@@ -1,0 +1,29 @@
+{
+    "project_path": "test3413",
+    "stats": {
+        "methods": 30,
+        "classes": 3,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 3,
+        "codeblocks": 33
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `FinalStatus` having 80 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 33 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `bza_reporters = [_x for _x in self.engine.reporters if isinstance(_x, BlazeMeterUploader)]` at line 397 having line length 74",
+            397
+        ]
+    ]
+}

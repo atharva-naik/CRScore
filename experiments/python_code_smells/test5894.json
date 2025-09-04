@@ -1,0 +1,45 @@
+{
+    "project_path": "test5894",
+    "stats": {
+        "methods": 201,
+        "classes": 4,
+        "lambdas": 14,
+        "try": 3,
+        "listcomps": 43,
+        "codeblocks": 205
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 2 classes having many methods and the class with most methods, `TestBokehPlotInstantiation` having 146 methods (`setUp`, `tearDown`, `test_overlay_legend`, `test_overlay_update_sources`, `test_overlay_update_visible`, `test_batched_empty_update_invisible`, `test_layout_update_visible`, `test_static_source_optimization`, `test_batched_plot`, `test_batched_spike_plot`, `test_batched_curve_subscribers_correctly_attached`, `test_batched_curve_subscribers_correctly_linked`, `test_batched_points_size_and_color`, `test_cyclic_palette_curves`, `test_batched_points_line_color_and_color`, `test_batched_points_alpha_and_color`, `test_batched_points_line_width_and_color`, `test_batched_curve_line_color_and_color`, `test_batched_curve_alpha_and_color`, `test_batched_curve_line_width_and_color`, `test_batched_path_line_color_and_color`, `test_batched_path_alpha_and_color`, `test_batched_path_line_width_and_color`, `test_bars_hover_ensure_kdims_sanitized`, `test_bars_hover_ensure_vdims_sanitized`, `test_heatmap_hover_ensure_kdims_sanitized`, `test_heatmap_hover_ensure_vdims_sanitized`, `test_points_overlay_datetime_hover`, `test_curve_overlay_datetime_hover`, `test_points_overlay_hover_batched`, `test_curve_overlay_hover_batched`, `test_curve_overlay_hover`, `test_points_overlay_hover`, `test_path_overlay_hover`, `test_polygons_overlay_hover`, `test_hover_tool_instance_renderer_association`, `test_hover_tool_nested_overlay_renderers`, `test_polygons_colored`, `test_polygons_colored_batched`, `test_polygons_colored_batched_unsanitized`, `test_points_colormapping`, `test_points_colormapping_with_nonselection`, `test_points_colormapping_categorical`, `test_points_color_selection_nonselection`, `test_points_alpha_selection_nonselection`, `test_points_alpha_selection_partial`, `test_image_colormapping`, `test_heatmap_colormapping`, `test_quadmesh_colormapping`, `test_spikes_colormapping`, `test_empty_spikes_plot`, `test_empty_path_plot`, `test_empty_contours_plot`, `test_empty_polygons_plot`, `test_side_histogram_no_cmapper`, `test_side_histogram_cmapper`, `test_side_histogram_cmapper_weighted`, `test_stream_callback`, `test_stream_callback_with_ids`, `test_stream_callback_single_call`, `test_bars_suppress_legend`, `test_empty_bars`, `test_bars_grouped_categories`, `test_bars_positive_negative_mixed`, `test_bars_logy`, `test_bars_logy_explicit_range`, `test_points_no_single_item_legend`, `test_image_boolean_array`, `test_layout_title`, `test_layout_title_fontsize`, `test_layout_title_show_title_false`, `test_layout_title_update`, `test_grid_title`, `test_grid_title_update`, `test_points_non_numeric_size_warning`, `test_curve_categorical_xaxis`, `test_curve_categorical_xaxis_invert_axes`, `test_points_categorical_xaxis`, `test_points_categorical_xaxis_mixed_type`, `test_points_categorical_xaxis_invert_axes`, `test_points_overlay_categorical_xaxis`, `test_points_overlay_categorical_xaxis_invert_axis`, `test_points_overlay_categorical_xaxis_invert_axes`, `test_heatmap_categorical_axes_string_int`, `test_heatmap_categorical_axes_string_int_invert_xyaxis`, `test_heatmap_categorical_axes_string_int_inverted`, `test_heatmap_points_categorical_axes_string_int`, `test_heatmap_points_categorical_axes_string_int_inverted`, `test_points_errorbars_text_ndoverlay_categorical_xaxis`, `test_points_errorbars_text_ndoverlay_categorical_xaxis_invert_axes`, `test_hline_invert_axes`, `test_hline_plot`, `test_vline_invert_axes`, `test_vline_plot`, `test_raster_invert_axes`, `test_image_invert_axes`, `test_quadmesh_invert_axes`, `test_heatmap_invert_axes`, `test_box_whisker_datetime`, `test_box_whisker_hover`, `test_curve_datetime64`, `test_curve_pandas_timestamps`, `test_curve_dt_datetime`, `test_curve_heterogeneous_datetime_types_overlay`, `test_curve_heterogeneous_datetime_types_with_pd_overlay`, `test_curve_fontsize_xlabel`, `test_curve_fontsize_ylabel`, `test_curve_fontsize_both_labels`, `test_curve_fontsize_xticks`, `test_curve_fontsize_yticks`, `test_curve_fontsize_both_ticks`, `test_curve_fontsize_xticks_and_both_ticks`, `test_gridmatrix_overlaid_batched`, `test_layout_empty_subplots`, `test_overlay_empty_layers`, `test_gridspace_sparse`, `test_layout_gridspaces`, `test_layout_instantiate_subplots`, `test_layout_instantiate_subplots_transposed`, `test_element_show_frame_disabled`, `test_overlay_show_frame_disabled`, `test_element_no_xaxis`, `test_element_no_yaxis`, `test_overlay_no_xaxis`, `test_overlay_no_yaxis`, `test_element_xrotation`, `test_element_yrotation`, `test_overlay_xrotation`, `test_overlay_yrotation`, `test_element_xticks_list`, `test_element_xticks_list_of_tuples_xaxis`, `test_element_yticks_list`, `test_element_xticks_list_of_tuples_yaxis`, `test_overlay_xticks_list`, `test_overlay_yticks_list`, `test_element_formatter_xaxis`, `test_element_formatter_yaxis`, `test_image_invert_xaxis`, `test_image_invert_yaxis`, `test_rgb_invert_xaxis`, `test_rgb_invert_yaxis`, `test_shared_axes`, `test_shared_axes_disable`, `test_empty_adjoint_plot`, `test_layout_shared_source_synced_update`, `test_grid_shared_source_synced_update`)",
+            345
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 36",
+            36
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 52",
+            52
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 58",
+            58
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `TestBokehPlotInstantiation` having 1448 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 2 long lambda functions and the longest lambda function `overlay = DynamicMap(lambda x: NdOverlay({i: Curve([(i, j) for j in range(2)]) for i in range(2)}).opts(opts), kdims=[], streams=[posx])` at line 448 having line length 95",
+            448
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `renderers = [r for r in plot.traverse(lambda x: x.handles.get('glyph_renderer')) if r is not None]` at line 595 having line length 91",
+            595
+        ]
+    ]
+}

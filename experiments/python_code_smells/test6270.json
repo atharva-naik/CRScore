@@ -1,0 +1,37 @@
+{
+    "project_path": "test6270",
+    "stats": {
+        "methods": 92,
+        "classes": 12,
+        "lambdas": 11,
+        "try": 3,
+        "listcomps": 24,
+        "codeblocks": 104
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 4 methods with long parameter lists and method `__init__` at line 900 having 8 parameters (`self`, `pattern`, `operation`, `group`, `mode`, `transfer_options`, `transfer_parameters`, `output_type`)",
+            900
+        ],
+        [
+            "Shotgun smell detected with 12 classes with too many external fuctions and class with most external function calls, `OptionTree` having 69 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 12 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 6 of 104 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 2 long lambda functions and the longest lambda function `obj = obj.map(lambda obj: cls.collapse_element(obj, mode=mode, backend=backend), [CompositeOverlay])` at line 881 having line length 67",
+            881
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `format_kws = [(t, 'dict(%s)' % ', '.join(('%s=%r' % (k, v) for k, v in sorted(kws.items())))) for t, kws in especs]` at line 735 having line length 105",
+            735
+        ]
+    ]
+}

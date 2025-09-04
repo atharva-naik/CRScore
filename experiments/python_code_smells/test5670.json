@@ -1,0 +1,29 @@
+{
+    "project_path": "test5670",
+    "stats": {
+        "methods": 28,
+        "classes": 3,
+        "lambdas": 9,
+        "try": 5,
+        "listcomps": 0,
+        "codeblocks": 31
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 348",
+            348
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `BibWorkflowObjectIdContainer` having 4 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 31 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 2 long lambda functions and the longest lambda function `bwolist.sort(key=lambda x: msgpack.loads(cache.get('workflows_holdingpen_{0}'.format(x.id)))['description'], reverse=should_we_reverse)` at line 163 having line length 97",
+            163
+        ]
+    ]
+}

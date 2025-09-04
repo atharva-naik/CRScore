@@ -1,0 +1,33 @@
+{
+    "project_path": "test3586",
+    "stats": {
+        "methods": 83,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 26,
+        "listcomps": 0,
+        "codeblocks": 84
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `openurl` at line 281 having 6 parameters (`self`, `url`, `bg`, `tab`, `window`, `count`)",
+            281
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `CommandDispatcher` having 63 methods (`tab_close`, `openurl`, `reloadpage`, `stop`, `printpage`, `tab_clone`, `tab_detach`, `back`, `forward`, `navigate`, `scroll_px`, `scroll`, `scroll_perc`, `scroll_page`, `yank`, `zoom_in`, `zoom_out`, `zoom`, `tab_only`, `undo`, `tab_prev`, `tab_next`, `paste`, `tab_focus`, `tab_move`, `spawn`, `home`, `run_userscript`, `quickmark_save`, `quickmark_load`, `bookmark_add`, `bookmark_load`, `follow_selected`, `toggle_inspector`, `download`, `download_page`, `view_source`, `show_help`, `open_editor`, `on_editing_finished`, `search`, `search_next`, `search_prev`, `move_to_next_line`, `move_to_prev_line`, `move_to_next_char`, `move_to_prev_char`, `move_to_end_of_word`, `move_to_next_word`, `move_to_prev_word`, `move_to_start_of_line`, `move_to_end_of_line`, `move_to_start_of_next_block`, `move_to_start_of_prev_block`, `move_to_end_of_next_block`, `move_to_end_of_prev_block`, `move_to_start_of_document`, `move_to_end_of_document`, `yank_selected`, `toggle_selection`, `drop_selection`, `debug_webaction`, `jseval`)",
+            50
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CommandDispatcher` having 400 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 84 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

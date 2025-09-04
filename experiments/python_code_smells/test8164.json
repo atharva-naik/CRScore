@@ -1,0 +1,17 @@
+{
+    "project_path": "test8164",
+    "stats": {
+        "methods": 21,
+        "classes": 7,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 28
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 7 classes with too many external fuctions and class with most external function calls, `DefaultFormatBundle` having 18 external function calls",
+            -1
+        ]
+    ]
+}

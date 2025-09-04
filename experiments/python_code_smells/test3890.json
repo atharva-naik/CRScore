@@ -1,0 +1,25 @@
+{
+    "project_path": "test3890",
+    "stats": {
+        "methods": 23,
+        "classes": 5,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 28
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 353 having 7 parameters (`self`, `path`, `epIn`, `epOut`, `onReceive`, `onReceiveSize`, `writeSize`)",
+            353
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `IoBase` having 12 attributes (`_file`, `_writeFile`, `_onReceive`, `_readSize`, `_writeSize`, `_readBuf`, `_readOl`, `_recvEvt`, `_ioDoneInst`, `_writeOl`, `_initApc`)",
+            30
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `IoBase` having 50 external function calls",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test6703",
+    "stats": {
+        "methods": 28,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 29
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TestApp` having 27 methods (`get_app`, `fetch`, `put_json`, `test_index`, `test_filter_help`, `test_flows`, `test_flows_dump`, `test_clear`, `test_resume`, `test_kill`, `test_flow_delete`, `test_flow_update`, `test_flow_duplicate`, `test_flow_revert`, `test_flow_replay`, `test_flow_content`, `test_update_flow_content`, `test_update_flow_content_multipart`, `test_flow_content_view`, `test_events`, `test_settings`, `test_settings_update`, `test_options`, `test_option_update`, `test_err`, `test_websocket`, `test_generate_tflow_js`)",
+            21
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `TestApp` having 76 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 29 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

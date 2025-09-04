@@ -1,0 +1,33 @@
+{
+    "project_path": "test4317",
+    "stats": {
+        "methods": 14,
+        "classes": 2,
+        "lambdas": 8,
+        "try": 12,
+        "listcomps": 1,
+        "codeblocks": 16
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `get_external_sensor_execution` at line 242 having 6 parameters (`recon_repo`, `instance_ref`, `sensor_name`, `last_completion_timestamp`, `last_run_key`, `cursor`)",
+            242
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 129",
+            129
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 351",
+            351
+        ],
+        [
+            "Long lambda smell detected with 7 long lambda functions and the longest lambda function `return lambda: 'Error occurred during the partition config and tag generation for partition set {partition_set_name}::{partition_name}'.format(partition_set_name=partition_set_name, partition_name=partition_name)` at line 375 having line length 222",
+            375
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `partitions = [partition for partition in all_partitions if partition.name in partition_names]` at line 367 having line length 85",
+            367
+        ]
+    ]
+}

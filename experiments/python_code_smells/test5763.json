@@ -1,0 +1,45 @@
+{
+    "project_path": "test5763",
+    "stats": {
+        "methods": 34,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 9,
+        "codeblocks": 35
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `__init__` at line 102 containing 82 lines",
+            102
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 102 having 8 parameters (`self`, `streamID`, `write`, `fields`, `missingValues`, `bookmark`, `includeMS`, `firstRecord`)",
+            102
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `__init__` at line 102 having 26 branches",
+            102
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `FileRecordStream` having 22 attributes (`_filename`, `_write`, `_mode`, `_file`, `_sequences`, `rewindAtEOF`, `_fields`, `_fieldCount`, `_recordCount`, `_timeStampIdx`, `_resetIdx`, `_sequenceIdIdx`, `_categoryIdx`, `_learningIdx`, `_currSequence`, `_currTime`, `_adapters`, `_missingValues`, `_stats`)",
+            87
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `FileRecordStream` having 25 methods (`close`, `rewind`, `getNextRecord`, `getRecordsRange`, `getLastRecords`, `removeOldData`, `appendRecord`, `appendRecords`, `getBookmark`, `recordsExistAfter`, `seekFromEnd`, `setAutoRewind`, `getStats`, `clearStats`, `getError`, `setError`, `isCompleted`, `setCompleted`, `getFieldNames`, `getFields`, `getNextRecordIdx`, `getDataRowCount`, `setTimeout`, `flush`, `next`)",
+            87
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `FileRecordStream` having 87 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 35 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

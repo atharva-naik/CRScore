@@ -1,0 +1,37 @@
+{
+    "project_path": "test4550",
+    "stats": {
+        "methods": 27,
+        "classes": 0,
+        "lambdas": 4,
+        "try": 0,
+        "listcomps": 30,
+        "codeblocks": 27
+    },
+    "smells": [
+        [
+            "Long method smell detected with 3 long methods and longest method `concat` at line 1609 containing 85 lines",
+            1609
+        ],
+        [
+            "Long parameter list smell detected with 6 methods with long parameter lists and method `read_excel` at line 695 having 24 parameters (`io`, `sheet_name`, `header`, `names`, `index_col`, `usecols`, `squeeze`, `dtype`, `engine`, `converters`, `true_values`, `false_values`, `skiprows`, `nrows`, `na_values`, `keep_default_na`, `verbose`, `parse_dates`, `date_parser`, `thousands`, `comment`, `skipfooter`, `convert_float`, `mangle_dupe_cols`)",
+            695
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `concat` at line 1609 having 35 branches",
+            1609
+        ],
+        [
+            "Code complexity smell detected with 3 of 27 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `lambda c: column_labelses_of_kdfs[0][column_labelses_of_kdfs[0].index(c)]` at line 1871 having line length 75",
+            1871
+        ],
+        [
+            "Long list comprehension smell detected with 12 long list comprehensions and the longest list comprehension `prefix = [str(label[len(key):]) if len(label) > len(key) + 1 else label[len(key)] if len(label) == len(key) + 1 else '' for label in column_labels]` at line 1530 having line length 144",
+            1530
+        ]
+    ]
+}

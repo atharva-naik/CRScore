@@ -1,0 +1,37 @@
+{
+    "project_path": "test7857",
+    "stats": {
+        "methods": 15,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 5,
+        "codeblocks": 16
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `add_dimension` at line 212 having 6 parameters (`cls`, `columns`, `dimension`, `dim_pos`, `values`, `vdim`)",
+            212
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `select_mask` at line 79 having 14 branches",
+            79
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 5",
+            5
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `DaskInterface` having 70 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 16 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `numeric = [c for c, dtype in zip(dtypes.index, dtypes.values) if dtype.kind in 'iufc' and c in vdims]` at line 164 having line length 95",
+            164
+        ]
+    ]
+}

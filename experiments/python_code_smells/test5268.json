@@ -1,0 +1,53 @@
+{
+    "project_path": "test5268",
+    "stats": {
+        "methods": 34,
+        "classes": 2,
+        "lambdas": 3,
+        "try": 14,
+        "listcomps": 4,
+        "codeblocks": 36
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `sniff` at line 601 containing 77 lines",
+            601
+        ],
+        [
+            "Long parameter list smell detected with 13 methods with long parameter lists and method `sendp` at line 294 having 10 parameters (`x`, `inter`, `loop`, `iface`, `iface_hint`, `count`, `verbose`, `realtime`, `return_packets`, `socket`)",
+            294
+        ],
+        [
+            "Long branch smell detected with 6 methods with long branching and method with most branches `sniff` at line 601 having 32 branches",
+            601
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 62",
+            62
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 64",
+            64
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 66",
+            66
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 274",
+            274
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 476",
+            476
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 766",
+            766
+        ],
+        [
+            "Code complexity smell detected with 5 of 36 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

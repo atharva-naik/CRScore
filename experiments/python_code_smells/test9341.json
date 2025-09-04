@@ -1,0 +1,41 @@
+{
+    "project_path": "test9341",
+    "stats": {
+        "methods": 42,
+        "classes": 1,
+        "lambdas": 10,
+        "try": 10,
+        "listcomps": 27,
+        "codeblocks": 43
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `compute_overlayable_zorders` at line 118 having 20 branches",
+            118
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 481",
+            481
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 995",
+            995
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 1210",
+            1210
+        ],
+        [
+            "Code complexity smell detected with 11 of 43 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `key=lambda r: (r.category.split(' ')[-1], r.bg, r.name.lower(), r.provider, r.source)` at line 748 having line length 88",
+            748
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `[cmap for cmap in cm.cmap_d if not (cmap.startswith('cet_') or cmap.startswith('Vega') or cmap.startswith('spectral'))]` at line 660 having line length 124",
+            660
+        ]
+    ]
+}

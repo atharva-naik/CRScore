@@ -1,0 +1,37 @@
+{
+    "project_path": "test2505",
+    "stats": {
+        "methods": 65,
+        "classes": 4,
+        "lambdas": 3,
+        "try": 2,
+        "listcomps": 10,
+        "codeblocks": 69
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `visit_for` at line 1237 having 17 branches",
+            1237
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `RefactoringChecker` having 253 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 12 of 69 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `lambda other_token, _token=token: other_token.start[0] == _token.start[0]` at line 81 having line length 75",
+            81
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `first_branch_targets = [target.name for target in first_branch.targets if isinstance(target, astroid.AssignName)]` at line 379 having line length 94",
+            379
+        ]
+    ]
+}

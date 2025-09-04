@@ -1,0 +1,25 @@
+{
+    "project_path": "test2713",
+    "stats": {
+        "methods": 19,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 23
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Script` having 9 attributes (`name`, `command`, `ns`, `observer`, `dead`, `last_options`, `should_reload`)",
+            104
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `Script` having 17 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 23 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

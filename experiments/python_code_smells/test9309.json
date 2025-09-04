@@ -1,0 +1,25 @@
+{
+    "project_path": "test9309",
+    "stats": {
+        "methods": 11,
+        "classes": 0,
+        "lambdas": 1,
+        "try": 4,
+        "listcomps": 0,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `record_listens` at line 234 containing 57 lines",
+            234
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `record_listens` at line 234 having 16 branches",
+            234
+        ],
+        [
+            "Code complexity smell detected with 2 of 11 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "project_path": "test9572",
+    "stats": {
+        "methods": 37,
+        "classes": 3,
+        "lambdas": 2,
+        "try": 11,
+        "listcomps": 0,
+        "codeblocks": 40
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `TabbedBrowser` having 13 attributes (`_win_id`, `_tab_insert_idx_left`, `_tab_insert_idx_right`, `shutting_down`, `_undo_stack`, `_filter`, `_now_focused`, `search_text`, `search_options`, `_local_marks`, `_global_marks`, `default_window_icon`, `private`)",
+            53
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TabbedBrowser` having 25 methods (`widgets`, `current_url`, `shutdown`, `tab_close_prompt_if_pinned`, `close_tab`, `undo`, `openurl`, `on_tab_close_requested`, `on_window_close_requested`, `tabopen`, `on_load_started`, `on_cur_load_started`, `on_title_changed`, `on_url_changed`, `on_icon_changed`, `on_mode_left`, `on_current_changed`, `on_cmd_return_pressed`, `on_load_progress`, `on_load_finished`, `on_scroll_pos_changed`, `resizeEvent`, `wheelEvent`, `set_mark`, `jump_mark`)",
+            53
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `TabbedBrowser` having 261 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 40 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

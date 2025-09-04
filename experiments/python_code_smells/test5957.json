@@ -1,0 +1,45 @@
+{
+    "project_path": "test5957",
+    "stats": {
+        "methods": 127,
+        "classes": 2,
+        "lambdas": 9,
+        "try": 7,
+        "listcomps": 49,
+        "codeblocks": 129
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `merge` at line 3803 containing 88 lines",
+            3803
+        ],
+        [
+            "Long parameter list smell detected with 11 methods with long parameter lists and method `to_html` at line 902 having 23 parameters (`self`, `buf`, `columns`, `col_space`, `header`, `index`, `na_rep`, `formatters`, `float_format`, `sparsify`, `index_names`, `justify`, `max_rows`, `max_cols`, `show_dimensions`, `decimal`, `bold_rows`, `classes`, `escape`, `notebook`, `border`, `table_id`, `render_links`)",
+            902
+        ],
+        [
+            "Long branch smell detected with 6 methods with long branching and method with most branches `merge` at line 3803 having 35 branches",
+            3803
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `DataFrame` having 82 methods (`add`, `radd`, `div`, `rdiv`, `truediv`, `rtruediv`, `mul`, `rmul`, `sub`, `rsub`, `mod`, `rmod`, `pow`, `rpow`, `floordiv`, `rfloordiv`, `eq`, `gt`, `ge`, `lt`, `le`, `ne`, `applymap`, `corr`, `iteritems`, `to_clipboard`, `to_html`, `to_string`, `to_dict`, `to_latex`, `transpose`, `index`, `empty`, `set_index`, `reset_index`, `isnull`, `notnull`, `nunique`, `to_koalas`, `cache`, `to_table`, `to_delta`, `to_parquet`, `to_spark_io`, `to_spark`, `to_pandas`, `assign`, `from_records`, `to_records`, `copy`, `dropna`, `fillna`, `replace`, `clip`, `head`, `pivot_table`, `columns`, `columns`, `dtypes`, `select_dtypes`, `count`, `drop`, `get`, `sort_values`, `sort_index`, `nlargest`, `nsmallest`, `isin`, `shape`, `merge`, `join`, `append`, `update`, `sample`, `astype`, `add_prefix`, `add_suffix`, `describe`, `cummin`, `cummax`, `cumsum`, `drop_duplicates`, `melt`)",
+            195
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `DataFrame` having 587 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 13 of 129 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 18 long list comprehensions and the longest list comprehension `res = self._sdf.select([(count_fn(Column(c)) + F.when(F.count(F.when(F.col(c).isNull(), 1).otherwise(None)) >= 1, 1).otherwise(0)).alias(c) for c in self.columns])` at line 1869 having line length 144",
+            1869
+        ]
+    ]
+}

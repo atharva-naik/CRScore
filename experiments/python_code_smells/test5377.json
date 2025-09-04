@@ -1,0 +1,21 @@
+{
+    "project_path": "test5377",
+    "stats": {
+        "methods": 6,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 5,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `anchor_target` at line 7 having 11 parameters (`anchor_list`, `valid_flag_list`, `gt_bboxes_list`, `img_metas`, `target_means`, `target_stds`, `cfg`, `gt_labels_list`, `cls_out_channels`, `sampling`, `need_unmap`)",
+            7
+        ],
+        [
+            "Code complexity smell detected with 1 of 6 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

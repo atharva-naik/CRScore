@@ -1,0 +1,41 @@
+{
+    "project_path": "test7947",
+    "stats": {
+        "methods": 48,
+        "classes": 1,
+        "lambdas": 155,
+        "try": 0,
+        "listcomps": 13,
+        "codeblocks": 49
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `test_dropna` at line 552 containing 52 lines",
+            552
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `test_dropna` at line 552 having 19 branches",
+            552
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `GroupByTest` having 45 methods (`test_groupby_simple`, `test_groupby_multiindex_columns`, `test_split_apply_combine_on_series`, `test_aggregate`, `test_aggregate_func_str_list`, `test_aggregate_relabel`, `test_dropna`, `test_describe`, `test_aggregate_relabel_multiindex`, `test_all_any`, `test_raises`, `test_nunique`, `test_unique`, `test_value_counts`, `test_size`, `test_diff`, `test_rank`, `test_cumcount`, `test_cummin`, `test_cummax`, `test_cumsum`, `test_cumprod`, `test_nsmallest`, `test_nlargest`, `test_fillna`, `test_ffill`, `test_bfill`, `test_shift`, `test_apply`, `test_apply_without_shortcut`, `test_apply_negative`, `test_apply_with_new_dataframe`, `test_apply_with_new_dataframe_without_shortcut`, `test_apply_key_handling`, `test_apply_with_side_effect`, `test_transform`, `test_transform_without_shortcut`, `test_filter`, `test_idxmax`, `test_idxmin`, `test_head`, `test_missing`, `test_is_multi_agg_with_relabel`, `test_get_group`, `test_median`)",
+            36
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `GroupByTest` having 3120 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 49 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 22 long lambda functions and the longest lambda function `lambda: kdf.groupby([('B', 'class'), ('A', 'name')]).get_group(('lion', 'mammal'))` at line 2600 having line length 89",
+            2600
+        ],
+        [
+            "Long list comprehension smell detected with 11 long list comprehensions and the longest list comprehension `unsupported_properties = [name for name, type_ in missing_properties if type_.fget.__name__ == 'unsupported_property']` at line 2446 having line length 97",
+            2446
+        ]
+    ]
+}

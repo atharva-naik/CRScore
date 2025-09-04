@@ -1,0 +1,29 @@
+{
+    "project_path": "test275",
+    "stats": {
+        "methods": 9,
+        "classes": 3,
+        "lambdas": 2,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 12
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 32 having 6 parameters (`self`, `momentum`, `interval`, `skip_buffers`, `resume_from`, `momentum_fun`)",
+            32
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `BaseEMAHook` having 8 attributes (`momentum`, `skip_buffers`, `interval`, `checkpoint`, `momentum_fun`)",
+            8
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `BaseEMAHook` having 17 external function calls",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 2 long lambda functions and the longest lambda function `self.momentum_fun = lambda x: (1 - self.momentum) * math.exp(-(1 + x) / total_iter) + self.momentum` at line 114 having line length 86",
+            114
+        ]
+    ]
+}

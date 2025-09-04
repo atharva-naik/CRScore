@@ -1,0 +1,29 @@
+{
+    "project_path": "test4496",
+    "stats": {
+        "methods": 27,
+        "classes": 4,
+        "lambdas": 1,
+        "try": 6,
+        "listcomps": 0,
+        "codeblocks": 31
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"too general exception\" at line 180",
+            180
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 239",
+            239
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 306",
+            306
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `espeak_VOICE` having 7 external function calls",
+            -1
+        ]
+    ]
+}

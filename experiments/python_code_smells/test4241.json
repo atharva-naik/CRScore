@@ -1,0 +1,21 @@
+{
+    "project_path": "test4241",
+    "stats": {
+        "methods": 6,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 7
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `cross_entropy` at line 9 having 7 parameters (`pred`, `label`, `weight`, `reduction`, `avg_factor`, `class_weight`, `ignore_index`)",
+            9
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CrossEntropyLoss` having 5 external function calls",
+            -1
+        ]
+    ]
+}

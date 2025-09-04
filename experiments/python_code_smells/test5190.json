@@ -1,0 +1,25 @@
+{
+    "project_path": "test5190",
+    "stats": {
+        "methods": 13,
+        "classes": 1,
+        "lambdas": 4,
+        "try": 2,
+        "listcomps": 1,
+        "codeblocks": 14
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `BokehRenderer` having 74 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `plotobjects = [h for handles in plot.traverse(lambda x: x.current_handles, [lambda x: x._updated]) for h in handles]` at line 224 having line length 107",
+            224
+        ]
+    ]
+}

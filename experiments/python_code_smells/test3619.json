@@ -1,0 +1,21 @@
+{
+    "project_path": "test3619",
+    "stats": {
+        "methods": 2,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 2
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `main` at line 70 having 18 branches",
+            70
+        ],
+        [
+            "Code complexity smell detected with 1 of 2 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

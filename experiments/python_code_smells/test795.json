@@ -1,0 +1,17 @@
+{
+    "project_path": "test795",
+    "stats": {
+        "methods": 9,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 10
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CompletionItemDelegate` having 88 external function calls",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "project_path": "test5381",
+    "stats": {
+        "methods": 17,
+        "classes": 0,
+        "lambdas": 1,
+        "try": 21,
+        "listcomps": 1,
+        "codeblocks": 17
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `interact` at line 494 containing 115 lines",
+            494
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `interact` at line 494 having 38 branches",
+            494
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 303",
+            303
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 349",
+            349
+        ],
+        [
+            "Code complexity smell detected with 4 of 17 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

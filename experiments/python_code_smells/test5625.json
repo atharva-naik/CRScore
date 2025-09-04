@@ -1,0 +1,21 @@
+{
+    "project_path": "test5625",
+    "stats": {
+        "methods": 4,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 91 having 8 parameters (`self`, `num_scales`, `in_channels`, `out_channels`, `conv_cfg`, `norm_cfg`, `act_cfg`, `init_cfg`)",
+            91
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `YOLOV3Neck` having 28 external function calls",
+            -1
+        ]
+    ]
+}

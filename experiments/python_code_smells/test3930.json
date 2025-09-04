@@ -1,0 +1,29 @@
+{
+    "project_path": "test3930",
+    "stats": {
+        "methods": 40,
+        "classes": 14,
+        "lambdas": 0,
+        "try": 4,
+        "listcomps": 5,
+        "codeblocks": 54
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 832 having 8 parameters (`self`, `project`, `firewall_api`, `expected_rules`, `current_rules`, `project_sema`, `operation_sema`, `add_rule_callback`)",
+            832
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `FirewallEnforcer` having 76 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 54 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `rules = [self.expected_rules.rules[rule_name] for rule_name in self._rules_to_insert]` at line 1128 having line length 77",
+            1128
+        ]
+    ]
+}

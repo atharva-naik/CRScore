@@ -1,0 +1,25 @@
+{
+    "project_path": "test9276",
+    "stats": {
+        "methods": 11,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 11,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `align_diff_frames` at line 126 having 15 branches",
+            126
+        ],
+        [
+            "Code complexity smell detected with 2 of 11 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 5 long list comprehensions and the longest list comprehension `that_columns = [combined['that'][arg._internal.column_index[0]]._scol if isinstance(arg, IndexOpsMixin) else arg for arg in args]` at line 263 having line length 120",
+            263
+        ]
+    ]
+}

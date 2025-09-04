@@ -1,0 +1,25 @@
+{
+    "project_path": "test6225",
+    "stats": {
+        "methods": 25,
+        "classes": 1,
+        "lambdas": 3,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 26
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `SeriesPlotTest` having 22 methods (`setUpClass`, `tearDownClass`, `pdf1`, `kdf1`, `kdf2`, `pdf2`, `plot_to_base64`, `test_bar_plot`, `test_bar_plot_limited`, `test_pie_plot`, `test_pie_plot_limited`, `test_line_plot`, `test_barh_plot`, `test_barh_plot_limited`, `test_hist_plot`, `test_compute_hist`, `test_area_plot`, `test_box_plot`, `test_box_summary`, `test_kde_plot`, `test_empty_hist`, `test_single_value_hist`)",
+            33
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `SeriesPlotTest` having 181 external function calls",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 3 long lambda functions and the longest lambda function `lambda: check_box_plot(self.pdf1, self.kdf1, conf_intervals=[val, val])` at line 281 having line length 74",
+            281
+        ]
+    ]
+}

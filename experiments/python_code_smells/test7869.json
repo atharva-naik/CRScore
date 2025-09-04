@@ -1,0 +1,21 @@
+{
+    "project_path": "test7869",
+    "stats": {
+        "methods": 46,
+        "classes": 14,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 60
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `InvokeOverCmdlineTest` having 22 methods (`test_bin_luigi`, `test_direct_python`, `test_python_module`, `test_direct_python_help`, `test_direct_python_help_class`, `test_bin_luigi_help`, `test_python_module_luigi_help`, `test_bin_luigi_help_no_module`, `test_bin_luigi_help_not_spammy`, `test_bin_luigi_all_help_spammy`, `test_error_mesage_on_misspelled_task`, `test_bin_luigi_no_parameters`, `test_python_module_luigi_no_parameters`, `test_bin_luigi_help_class`, `test_python_module_help_class`, `test_bin_luigi_options_before_task`, `test_bin_fail_on_unrecognized_args`, `test_deps_py_script`, `test_deps_tree_py_script`, `test_bin_mentions_misspelled_task`, `test_stack_trace_has_no_inner`, `test_cmd_line_params_are_available_for_execution_summary`)",
+            215
+        ],
+        [
+            "Shotgun smell detected with 9 classes with too many external fuctions and class with most external function calls, `InvokeOverCmdlineTest` having 82 external function calls",
+            -1
+        ]
+    ]
+}

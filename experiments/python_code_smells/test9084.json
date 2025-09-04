@@ -1,0 +1,45 @@
+{
+    "project_path": "test9084",
+    "stats": {
+        "methods": 23,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 3,
+        "codeblocks": 27
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `__init__` at line 100 containing 52 lines",
+            100
+        ],
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `__init__` at line 361 having 21 parameters (`self`, `depth`, `in_channels`, `stem_channels`, `base_channels`, `num_stages`, `strides`, `dilations`, `out_indices`, `style`, `deep_stem`, `avg_down`, `frozen_stages`, `conv_cfg`, `norm_cfg`, `norm_eval`, `dcn`, `stage_with_dcn`, `plugins`, `with_cp`, `zero_init_residual`)",
+            361
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `init_weights` at line 582 having 13 branches",
+            582
+        ],
+        [
+            "Many attribute smell detected with 3 classes having many attributes and the class with most attributes, `` having 29 attributes",
+            301
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `ResNet` having 73 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 27 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 3 long list comprehensions and the longest list comprehension `self.after_conv1_plugins = [plugin['cfg'] for plugin in plugins if plugin['position'] == 'after_conv1']` at line 139 having line length 76",
+            139
+        ]
+    ]
+}

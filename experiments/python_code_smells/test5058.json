@@ -1,0 +1,21 @@
+{
+    "project_path": "test5058",
+    "stats": {
+        "methods": 17,
+        "classes": 2,
+        "lambdas": 6,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 19
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `test_unwritable` at line 138 having 6 parameters (`self`, `monkeypatch`, `message_mock`, `editor`, `tmpdir`, `caplog`)",
+            138
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `TestFileHandling` having 46 external function calls",
+            -1
+        ]
+    ]
+}

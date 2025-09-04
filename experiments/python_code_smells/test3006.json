@@ -1,0 +1,21 @@
+{
+    "project_path": "test3006",
+    "stats": {
+        "methods": 6,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 7
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `send` at line 82 having 7 parameters (`self`, `email_sender`, `email_recipient`, `email_subject`, `email_content`, `content_type`, `attachment`)",
+            82
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `EmailUtil` having 34 external function calls",
+            -1
+        ]
+    ]
+}

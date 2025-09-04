@@ -1,0 +1,17 @@
+{
+    "project_path": "test3286",
+    "stats": {
+        "methods": 7,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 7
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `read_csv` at line 45 having 7 parameters (`path`, `header`, `names`, `usecols`, `mangle_dupe_cols`, `parse_dates`, `comment`)",
+            45
+        ]
+    ]
+}

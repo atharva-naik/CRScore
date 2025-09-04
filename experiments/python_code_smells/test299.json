@@ -1,0 +1,21 @@
+{
+    "project_path": "test299",
+    "stats": {
+        "methods": 23,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 24
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TestSeleniumScriptGeneration` having 23 methods (`test_modern_actions_generator`, `clear_spaces`, `test_firefox_setup_generator`, `test_chrome_setup_generator`, `test_build_script`, `test_headless_default`, `test_headless_chrome`, `test_headless_firefox`, `test_headless_safari`, `test_capabilities_order`, `test_build_script_remote`, `test_build_script_appium_browser`, `test_build_script_remote_empty_browser`, `test_build_script_remote_browser`, `test_build_script_remote_Firefox_browser`, `test_build_script_flow_markers`, `test_resize_window`, `test_mix_syntax`, `test_syntax2_drag_drop`, `test_syntax2_drag_drop_missing_source`, `test_syntax2_missing_param_assert_store`, `test_syntax2_missing_param_edit`, `test_syntax2_build_script`)",
+            9
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `TestSeleniumScriptGeneration` having 126 external function calls",
+            -1
+        ]
+    ]
+}

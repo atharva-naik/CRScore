@@ -1,0 +1,29 @@
+{
+    "project_path": "test7405",
+    "stats": {
+        "methods": 63,
+        "classes": 11,
+        "lambdas": 1,
+        "try": 5,
+        "listcomps": 6,
+        "codeblocks": 74
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__run_test` at line 1114 having 6 parameters (`self`, `func_name`, `zip_file`, `handler`, `runtime`, `expected_lines`)",
+            1114
+        ],
+        [
+            "Shotgun smell detected with 10 classes with too many external fuctions and class with most external function calls, `TestLambdaBaseFeatures` having 207 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 11 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `matching = [p for p in policies if p['PolicyName'] == 'lambda_policy_%s_%s' % (TEST_LAMBDA_NAME_PY, sid)]` at line 275 having line length 99",
+            275
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test4049",
+    "stats": {
+        "methods": 10,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 12
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `run` at line 272 having 17 branches",
+            272
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `MappingJobQueue` having 9 attributes (`done`, `app`, `queue`, `unmatched_listens_complete_time`, `legacy_load_thread`, `legacy_next_run`, `legacy_listens_index_date`, `num_legacy_listens_loaded`, `last_processed`)",
+            54
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `MappingJobQueue` having 78 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 12 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

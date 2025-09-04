@@ -1,0 +1,41 @@
+{
+    "project_path": "test3285",
+    "stats": {
+        "methods": 134,
+        "classes": 1,
+        "lambdas": 133,
+        "try": 2,
+        "listcomps": 5,
+        "codeblocks": 135
+    },
+    "smells": [
+        [
+            "Long method smell detected with 2 long methods and longest method `test_fillna` at line 774 containing 53 lines",
+            774
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `DataFrameTest` having 120 methods (`pdf`, `kdf`, `df_pair`, `test_dataframe`, `test_inplace`, `test_assign_list`, `test_dataframe_multiindex_columns`, `test_dataframe_column_level_name`, `test_dataframe_multiindex_names_level`, `test_iterrows`, `test_reset_index`, `test_reset_index_with_default_index_types`, `test_reset_index_with_multiindex_columns`, `test_multiindex_column_access`, `test_repr_cache_invalidation`, `test_repr_html_cache_invalidation`, `test_empty_dataframe`, `test_all_null_dataframe`, `test_nullable_object`, `test_assign`, `test_head_tail`, `test_attributes`, `test_column_names`, `test_rename_columns`, `test_rename_dataframe`, `test_dot_in_column_name`, `test_droplevel`, `test_drop`, `test_dropna_axis_index`, `test_dropna_axis_column`, `test_dtype`, `test_fillna`, `test_isnull`, `test_to_datetime`, `test_nunique`, `test_sort_values`, `test_sort_index`, `test_nlargest`, `test_nsmallest`, `test_xs`, `test_missing`, `test_to_numpy`, `test_to_pandas`, `test_isin`, `test_merge`, `test_merge_retains_indices`, `test_merge_how_parameter`, `test_merge_raises`, `test_append`, `test_clip`, `test_binary_operators`, `test_sample`, `test_add_prefix`, `test_add_suffix`, `test_join`, `test_replace`, `test_update`, `test_pivot_table_dtypes`, `test_pivot_table`, `test_pivot_table_and_index`, `test_stack`, `test_unstack`, `test_pivot_errors`, `test_pivot_table_errors`, `test_transpose`, `test_cummin`, `test_cummin_multiindex_columns`, `test_cummax`, `test_cummax_multiindex_columns`, `test_cumsum`, `test_cumsum_multiindex_columns`, `test_cumprod`, `test_cumprod_multiindex_columns`, `test_drop_duplicates`, `test_reindex`, `test_melt`, `test_all`, `test_any`, `test_rank`, `test_round`, `test_shift`, `test_diff`, `test_duplicated`, `test_ffill`, `test_bfill`, `test_filter`, `test_pipe`, `test_transform`, `test_apply`, `test_apply_batch`, `test_transform_batch`, `test_transform_batch_same_anchor`, `test_empty_timestamp`, `test_to_spark`, `test_keys`, `test_quantile`, `test_pct_change`, `test_where`, `test_mask`, `test_query`, `test_take`, `test_axes`, `test_udt`, `test_eval`, `test_to_markdown`, `test_cache`, `test_persist`, `test_squeeze`, `test_rfloordiv`, `test_truncate`, `test_explode`, `test_spark_schema`, `test_print_schema`, `test_explain_hint`, `test_mad`, `test_abs`, `test_iteritems`, `test_tail`, `test_last_valid_index`, `test_first_valid_index`)",
+            37
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `DataFrameTest` having 2944 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 135 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 19 long lambda functions and the longest lambda function `lambda left, right: left.set_index(('a', 'lkey')).merge(right.set_index(('a', 'rkey')), left_index=True, right_index=True)` at line 1276 having line length 129",
+            1276
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `unsupported_properties = [name for name, type_ in missing_properties if type_.fget.__name__ == 'unsupported_property']` at line 1067 having line length 97",
+            1067
+        ]
+    ]
+}

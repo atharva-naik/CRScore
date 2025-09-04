@@ -1,0 +1,17 @@
+{
+    "project_path": "test125",
+    "stats": {
+        "methods": 23,
+        "classes": 0,
+        "lambdas": 2,
+        "try": 0,
+        "listcomps": 2,
+        "codeblocks": 23
+    },
+    "smells": [
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `for inp in [inp for inp in solid.definition.input_defs if inp.runtime_type.input_schema]:\n    inp_handle = SolidInputHandle(solid, inp)\n    if not pipeline_def.dependency_structure.has_dep(inp_handle):\n        inputs_field_fields[inp.name] = FieldImpl(inp.runtime_type.input_schema.schema_type)` at line 214 having line length 77",
+            214
+        ]
+    ]
+}

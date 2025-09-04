@@ -1,0 +1,29 @@
+{
+    "project_path": "test6045",
+    "stats": {
+        "methods": 12,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 14
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `replay` at line 45 containing 60 lines",
+            45
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `replay` at line 45 having 16 branches",
+            45
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `RequestReplayThread` having 44 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 14 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "project_path": "test5656",
+    "stats": {
+        "methods": 32,
+        "classes": 1,
+        "lambdas": 3,
+        "try": 4,
+        "listcomps": 0,
+        "codeblocks": 33
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `WebView` having 20 attributes (`win_id`, `load_status`, `_check_insertmode`, `inspector`, `scroll_pos`, `statusbar_message`, `_old_scroll_pos`, `_zoom`, `_has_ssl_errors`, `keep_icon`, `search_text`, `search_flags`, `selection_enabled`, `_cur_url`, `cur_url`, `progress`, `registry`, `tab_id`, `viewing_source`, `_default_zoom_changed`)",
+            45
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `WebView` having 22 methods (`on_config_changed`, `init_neighborlist`, `mouserelease_insertmode`, `shutdown`, `openurl`, `add_js_bridge`, `zoom_perc`, `setZoomFactor`, `zoom`, `on_url_changed`, `on_mouse_event`, `on_load_started`, `on_load_finished`, `on_mode_entered`, `on_mode_left`, `search`, `createWindow`, `paintEvent`, `mousePressEvent`, `mouseReleaseEvent`, `contextMenuEvent`, `wheelEvent`)",
+            45
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `WebView` having 244 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

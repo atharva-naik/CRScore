@@ -1,0 +1,21 @@
+{
+    "project_path": "test2160",
+    "stats": {
+        "methods": 1,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 2
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 18 having 8 parameters (`self`, `backbone`, `neck`, `bbox_head`, `train_cfg`, `test_cfg`, `pretrained`, `init_cfg`)",
+            18
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `YOLOX` having 3 external function calls",
+            -1
+        ]
+    ]
+}

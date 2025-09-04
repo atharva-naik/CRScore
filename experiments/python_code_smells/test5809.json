@@ -1,0 +1,33 @@
+{
+    "project_path": "test5809",
+    "stats": {
+        "methods": 51,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 53
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 262 having 10 parameters (`self`, `solid_def`, `solid_config`, `resources`, `instance`, `log_manager`, `pdb`, `tags`, `hook_defs`, `alias`)",
+            262
+        ],
+        [
+            "Many attribute smell detected with 2 classes having many attributes and the class with most attributes, `UnboundSolidExecutionContext` having 10 attributes (`_solid_config`, `_instance_provided`, `_instance_cm`, `_instance`, `_resources_contain_cm`, `_resources_cm`, `_resources`, `_resources_contain_cm`, `_log`, `_cm_scope_entered`)",
+            39
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `BoundSolidExecutionContext` having 22 methods (`solid_config`, `resources`, `pipeline_run`, `instance`, `pdb`, `step_launcher`, `run_id`, `run_config`, `pipeline_def`, `pipeline_name`, `mode_def`, `log`, `solid_handle`, `solid`, `solid_def`, `has_tag`, `get_tag`, `alias`, `get_step_execution_context`, `for_type`, `get_mapping_key`, `describe_op`)",
+            255
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `UnboundSolidExecutionContext` having 41 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 2 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

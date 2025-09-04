@@ -1,0 +1,33 @@
+{
+    "project_path": "test239",
+    "stats": {
+        "methods": 10,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 5,
+        "codeblocks": 11
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `__init__` at line 33 having 12 parameters (`self`, `num_classes`, `in_channels`, `feat_channels`, `anchor_scales`, `anchor_ratios`, `anchor_strides`, `anchor_base_sizes`, `target_means`, `target_stds`, `use_sigmoid_cls`, `use_focal_loss`)",
+            33
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `` having 16 attributes",
+            15
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `AnchorHead` having 86 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `mlvl_anchors = [self.anchor_generators[i].grid_anchors(cls_scores[i].size()[-2:], self.anchor_strides[i]) for i in range(num_levels)]` at line 217 having line length 123",
+            217
+        ]
+    ]
+}

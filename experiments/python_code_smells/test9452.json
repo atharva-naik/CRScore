@@ -1,0 +1,33 @@
+{
+    "project_path": "test9452",
+    "stats": {
+        "methods": 70,
+        "classes": 10,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 4,
+        "codeblocks": 80
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `HistoryViewTest` having 8 attributes ()",
+            46
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `HistoryViewTest` having 26 methods (`setUp`, `test_only_get_and_delete_on_collection_are_allowed`, `test_only_collection_endpoint_is_available`, `test_tracks_user_and_date`, `test_history_contains_bucket_creation`, `test_history_supports_creation_via_plural_endpoint`, `test_tracks_bucket_attributes_update`, `test_tracks_bucket_permissions_update`, `test_bucket_delete_destroys_its_history_entries`, `test_delete_all_buckets_destroys_history_entries`, `test_tracks_collection_creation`, `test_tracks_collection_attributes_update`, `test_tracks_collection_permissions_update`, `test_tracks_collection_delete`, `test_tracks_multiple_collections_delete`, `test_tracks_group_creation`, `test_tracks_group_attributes_update`, `test_tracks_group_permissions_update`, `test_tracks_group_delete`, `test_tracks_multiple_groups_delete`, `test_tracks_record_creation`, `test_tracks_record_attributes_update`, `test_tracks_record_permissions_update`, `test_tracks_record_delete`, `test_tracks_multiple_records_delete`, `test_does_not_track_records_during_massive_deletion`)",
+            46
+        ],
+        [
+            "Shotgun smell detected with 10 classes with too many external fuctions and class with most external function calls, `HistoryViewTest` having 44 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 80 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `requests = [{'method': 'PATCH', 'path': '/buckets/bid/collections/cid/records/{}'.format(l), 'body': {'data': {'label': l}}} for l in ('a', 'b', 'c')]` at line 517 having line length 144",
+            517
+        ]
+    ]
+}

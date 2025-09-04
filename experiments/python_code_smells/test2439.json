@@ -1,0 +1,33 @@
+{
+    "project_path": "test2439",
+    "stats": {
+        "methods": 27,
+        "classes": 6,
+        "lambdas": 0,
+        "try": 6,
+        "listcomps": 0,
+        "codeblocks": 33
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `pre_dissect` at line 364 containing 67 lines",
+            364
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `pre_dissect` at line 364 having 20 branches",
+            364
+        ],
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `TLS` having 73 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 6 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 33 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

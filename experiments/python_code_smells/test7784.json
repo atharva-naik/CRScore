@@ -1,0 +1,41 @@
+{
+    "project_path": "test7784",
+    "stats": {
+        "methods": 114,
+        "classes": 54,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 3,
+        "codeblocks": 168
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_fix` at line 481 containing 79 lines",
+            481
+        ],
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 27 having 6 parameters (`self`, `inf`, `sup`, `seed`, `forever`, `renewkeys`)",
+            27
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `_fix` at line 481 having 26 branches",
+            481
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `RandomEnumeration` having 14 attributes (`forever`, `renewkeys`, `inf`, `rnd`, `sbox_size`, `top`, `n`, `fs`, `fsmask`, `rounds`, `turns`, `i`)",
+            22
+        ],
+        [
+            "Shotgun smell detected with 27 classes with too many external fuctions and class with most external function calls, `RandRegExp` having 56 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 54 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 168 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "project_path": "test1303",
+    "stats": {
+        "methods": 6,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 2,
+        "codeblocks": 7
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `execute` at line 72 having 15 branches",
+            72
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `StepDelegatingExecutor` having 50 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 7 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

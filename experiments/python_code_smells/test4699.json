@@ -1,0 +1,37 @@
+{
+    "project_path": "test4699",
+    "stats": {
+        "methods": 37,
+        "classes": 4,
+        "lambdas": 7,
+        "try": 4,
+        "listcomps": 14,
+        "codeblocks": 41
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `select` at line 672 having 18 branches",
+            672
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 13",
+            13
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `Dimensioned` having 92 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 41 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `return sum([hash(value) for name, value in self.get_param_values() if not isinstance(value, list)])` at line 175 having line length 92",
+            175
+        ]
+    ]
+}

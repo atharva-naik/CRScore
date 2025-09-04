@@ -1,0 +1,21 @@
+{
+    "project_path": "test1107",
+    "stats": {
+        "methods": 27,
+        "classes": 0,
+        "lambdas": 2,
+        "try": 9,
+        "listcomps": 3,
+        "codeblocks": 27
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 3 methods with long parameter lists and method `create_firewall_rule` at line 662 having 7 parameters (`rule_name`, `service_accounts`, `action`, `rules`, `direction`, `priority`, `source_ranges`)",
+            662
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `print_fun = lambda ind, val: print('[{}] {} ({})'.format(ind + 1, val.get('displayName', ''), val['email']))` at line 487 having line length 103",
+            487
+        ]
+    ]
+}

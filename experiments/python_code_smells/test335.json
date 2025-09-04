@@ -1,0 +1,17 @@
+{
+    "project_path": "test335",
+    "stats": {
+        "methods": 11,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 3,
+        "codeblocks": 12
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `DataTransferTest` having 101 external function calls",
+            -1
+        ]
+    ]
+}

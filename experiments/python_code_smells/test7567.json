@@ -1,0 +1,21 @@
+{
+    "project_path": "test7567",
+    "stats": {
+        "methods": 28,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 1,
+        "codeblocks": 30
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `WebElementWrapper` having 51 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 30 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "project_path": "test4585",
+    "stats": {
+        "methods": 16,
+        "classes": 2,
+        "lambdas": 1,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 18
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `_NvdaLocationData` having 8 attributes (`repoRoot`, `stagingDir`, `whichNVDA`, `profileDir`, `logPath`, `preservedLogsDir`)",
+            42
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `NvdaLib` having 35 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

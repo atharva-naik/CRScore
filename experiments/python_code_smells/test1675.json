@@ -1,0 +1,81 @@
+{
+    "project_path": "test1675",
+    "stats": {
+        "methods": 86,
+        "classes": 7,
+        "lambdas": 9,
+        "try": 18,
+        "listcomps": 43,
+        "codeblocks": 93
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `__init__` at line 122 having 6 parameters (`self`, `period`, `count`, `callback`, `timeout`, `block`)",
+            122
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `periodic` having 8 attributes (`period`, `callback`, `count`, `counter`, `block`, `timeout`, `_completed`, `_start_time`)",
+            115
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 23",
+            23
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 28",
+            28
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 193",
+            193
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 339",
+            339
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 657",
+            657
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 670",
+            670
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 689",
+            689
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 714",
+            714
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 1157",
+            1157
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 1487",
+            1487
+        ],
+        [
+            "Shotgun smell detected with 7 classes with too many external fuctions and class with most external function calls, `sanitize_identifier_fn` having 53 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 7 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 8 of 93 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `sortkws['key'] = lambda x: tuple((cached_values[dim.name].index(x[t][d]) if dim.values else x[t][d] for i, (dim, t, d) in enumerate(indexes)))` at line 910 having line length 129",
+            910
+        ],
+        [
+            "Long list comprehension smell detected with 5 long list comprehensions and the longest list comprehension `groups = [(k, group_type(v.reindex(idims) if hasattr(v, 'kdims') else [((), (v,))], **kwargs)) for k, v in iterative_select(ndmapping, dim_names, selects)]` at line 1417 having line length 150",
+            1417
+        ]
+    ]
+}

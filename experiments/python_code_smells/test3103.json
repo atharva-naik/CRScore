@@ -1,0 +1,21 @@
+{
+    "project_path": "test3103",
+    "stats": {
+        "methods": 9,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 1,
+        "listcomps": 2,
+        "codeblocks": 10
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `MessageDefinitionStore` having 27 external function calls",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `return [self._messages_definitions[m] for m in self.message_id_store.get_active_msgids(msgid_or_symbol)]` at line 64 having line length 102",
+            64
+        ]
+    ]
+}

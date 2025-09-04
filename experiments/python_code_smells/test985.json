@@ -1,0 +1,25 @@
+{
+    "project_path": "test985",
+    "stats": {
+        "methods": 25,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 26
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `CacheTest` having 23 methods (`setUp`, `tearDown`, `get_backend_prefix`, `test_backend_error_is_raised_anywhere`, `test_initialize_schema_is_idempotent`, `test_ping_returns_false_if_unavailable`, `test_ping_returns_true_if_available`, `test_ping_logs_error_if_unavailable`, `test_set_adds_the_object`, `test_values_remains_python_dict`, `test_bytes_cannot_be_stored_in_the_cache`, `test_delete_removes_the_object`, `test_delete_does_not_fail_if_object_is_unknown`, `test_expire_expires_the_value`, `test_set_with_ttl_expires_the_value`, `test_ttl_return_the_time_to_live`, `test_ttl_return_none_if_unknown`, `test_cache_prefix_is_set`, `test_cache_when_prefix_is_not_set`, `test_prefix_value_use_to_get_data`, `test_prefix_value_use_to_delete_data`, `test_prefix_value_used_with_ttl`, `test_prefix_value_used_with_expire`)",
+            12
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CacheTest` having 89 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

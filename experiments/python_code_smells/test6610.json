@@ -1,0 +1,33 @@
+{
+    "project_path": "test6610",
+    "stats": {
+        "methods": 21,
+        "classes": 2,
+        "lambdas": 1,
+        "try": 0,
+        "listcomps": 1,
+        "codeblocks": 23
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 52 having 7 parameters (`self`, `backend_services`, `firewall_rules`, `instances`, `instance_groups`, `instance_group_managers`, `instance_templates`)",
+            52
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `_RunData` having 41 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 23 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `alternate_services = ['%s/%s' % (bs_key.project_id, bs_key.name) for bs_key in violation.alternate_services_violations]` at line 415 having line length 105",
+            415
+        ]
+    ]
+}

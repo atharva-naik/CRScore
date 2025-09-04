@@ -1,0 +1,17 @@
+{
+    "project_path": "test2250",
+    "stats": {
+        "methods": 9,
+        "classes": 0,
+        "lambdas": 2,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 9
+    },
+    "smells": [
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `atexit.register(lambda: session.sql('DROP DATABASE IF EXISTS %s CASCADE' % db_name))` at line 95 having line length 70",
+            95
+        ]
+    ]
+}

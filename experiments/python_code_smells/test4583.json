@@ -1,0 +1,33 @@
+{
+    "project_path": "test4583",
+    "stats": {
+        "methods": 25,
+        "classes": 7,
+        "lambdas": 0,
+        "try": 5,
+        "listcomps": 0,
+        "codeblocks": 32
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `getTextWithFields` at line 261 containing 66 lines",
+            261
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `getTextWithFields` at line 261 having 27 branches",
+            261
+        ],
+        [
+            "Shotgun smell detected with 7 classes with too many external fuctions and class with most external function calls, `WordDocumentTextInfo` having 62 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 7 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 32 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

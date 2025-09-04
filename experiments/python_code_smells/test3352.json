@@ -1,0 +1,29 @@
+{
+    "project_path": "test3352",
+    "stats": {
+        "methods": 11,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 0,
+        "codeblocks": 12
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 4 methods with long parameter lists and method `GMLAN_TransferData` at line 246 having 7 parameters (`sock`, `addr`, `payload`, `maxmsglen`, `timeout`, `verbose`, `retry`)",
+            246
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `GMLAN_GetSecurityAccess` at line 141 having 19 branches",
+            141
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `GMLAN_TesterPresentSender` having 5 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 12 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "project_path": "test8540",
+    "stats": {
+        "methods": 6,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 6,
+        "listcomps": 0,
+        "codeblocks": 8
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 38 having 6 parameters (`self`, `cycle_timestamp`, `config_path`, `flags`, `api_map`, `dao_map`)",
+            38
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `PipelineBuilder` having 34 external function calls",
+            -1
+        ]
+    ]
+}

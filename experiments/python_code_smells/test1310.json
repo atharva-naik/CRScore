@@ -1,0 +1,17 @@
+{
+    "project_path": "test1310",
+    "stats": {
+        "methods": 20,
+        "classes": 0,
+        "lambdas": 6,
+        "try": 0,
+        "listcomps": 26,
+        "codeblocks": 20
+    },
+    "smells": [
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `[None if src1[i] is None or src2[i] is None else src1[i] and src2[i] for i in range(n)]` at line 247 having line length 93",
+            247
+        ]
+    ]
+}

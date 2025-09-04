@@ -1,0 +1,17 @@
+{
+    "project_path": "test5493",
+    "stats": {
+        "methods": 13,
+        "classes": 1,
+        "lambdas": 2,
+        "try": 1,
+        "listcomps": 1,
+        "codeblocks": 14
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `feature_permission` at line 212 having 7 parameters (`url`, `option`, `msg`, `yes_action`, `no_action`, `abort_on`, `blocking`)",
+            212
+        ]
+    ]
+}

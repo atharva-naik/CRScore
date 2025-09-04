@@ -1,0 +1,29 @@
+{
+    "project_path": "test5029",
+    "stats": {
+        "methods": 11,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 9,
+        "listcomps": 1,
+        "codeblocks": 12
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 283",
+            283
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `AsciiDoc` having 80 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 12 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `files = [('doc/{}.asciidoc'.format(f), 'qutebrowser/html/doc/{}.html'.format(f)) for f in self.FILES]` at line 77 having line length 97",
+            77
+        ]
+    ]
+}

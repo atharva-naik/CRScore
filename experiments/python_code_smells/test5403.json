@@ -1,0 +1,33 @@
+{
+    "project_path": "test5403",
+    "stats": {
+        "methods": 51,
+        "classes": 4,
+        "lambdas": 1,
+        "try": 15,
+        "listcomps": 14,
+        "codeblocks": 55
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `package_put` at line 447 containing 56 lines",
+            447
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `package_put` at line 447 having 15 branches",
+            447
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `ApiException` having 2 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 55 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 11 long list comprehensions and the longest list comprehension `return dict(invitations=[dict(invitation_id=invite.id, owner=package.owner, package=package.name, email=invite.email, invited_at=invite.invited_at) for invite, package in invitations])` at line 1419 having line length 167",
+            1419
+        ]
+    ]
+}

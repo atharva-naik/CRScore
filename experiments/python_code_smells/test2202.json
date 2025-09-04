@@ -1,0 +1,37 @@
+{
+    "project_path": "test2202",
+    "stats": {
+        "methods": 19,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 3,
+        "codeblocks": 20
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_format_conditions` at line 675 containing 64 lines",
+            675
+        ],
+        [
+            "Long parameter list smell detected with 7 methods with long parameter lists and method `delete_all` at line 427 having 12 parameters (`self`, `collection_id`, `parent_id`, `filters`, `sorting`, `pagination_rules`, `limit`, `id_field`, `with_deleted`, `modified_field`, `deleted_field`, `auth`)",
+            427
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `_format_conditions` at line 675 having 25 branches",
+            675
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Storage` having 157 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 20 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

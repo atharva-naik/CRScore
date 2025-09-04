@@ -1,0 +1,37 @@
+{
+    "project_path": "test9177",
+    "stats": {
+        "methods": 81,
+        "classes": 1,
+        "lambdas": 1,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 82
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 11 methods with long parameter lists and method `run_instances` at line 444 having 21 parameters (`self`, `image_id`, `min_count`, `max_count`, `key_name`, `security_group_ids`, `security_groups`, `user_data`, `addressing_type`, `instance_type`, `placement`, `kernel_id`, `ramdisk_id`, `monitoring_enabled`, `subnet_id`, `block_device_map`, `disable_api_termination`, `instance_initiated_shutdown_behavior`, `private_ip_address`, `placement_group`, `client_token`)",
+            444
+        ],
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `run_instances` at line 444 having 19 branches",
+            444
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `EC2Connection` having 79 methods (`get_params`, `build_filter_params`, `get_all_images`, `get_all_kernels`, `get_all_ramdisks`, `get_image`, `register_image`, `deregister_image`, `create_image`, `get_image_attribute`, `modify_image_attribute`, `reset_image_attribute`, `get_all_instances`, `run_instances`, `terminate_instances`, `stop_instances`, `start_instances`, `get_console_output`, `reboot_instances`, `confirm_product_instance`, `get_instance_attribute`, `modify_instance_attribute`, `reset_instance_attribute`, `get_all_spot_instance_requests`, `get_spot_price_history`, `request_spot_instances`, `cancel_spot_instance_requests`, `get_spot_datafeed_subscription`, `create_spot_datafeed_subscription`, `delete_spot_datafeed_subscription`, `get_all_zones`, `get_all_addresses`, `allocate_address`, `associate_address`, `disassociate_address`, `release_address`, `get_all_volumes`, `create_volume`, `delete_volume`, `attach_volume`, `detach_volume`, `get_all_snapshots`, `create_snapshot`, `delete_snapshot`, `trim_snapshots`, `get_snapshot_attribute`, `modify_snapshot_attribute`, `reset_snapshot_attribute`, `get_all_key_pairs`, `get_key_pair`, `create_key_pair`, `delete_key_pair`, `import_key_pair`, `get_all_security_groups`, `create_security_group`, `delete_security_group`, `authorize_security_group_deprecated`, `authorize_security_group`, `revoke_security_group_deprecated`, `revoke_security_group`, `get_all_regions`, `get_all_reserved_instances_offerings`, `get_all_reserved_instances`, `purchase_reserved_instance_offering`, `monitor_instances`, `monitor_instance`, `unmonitor_instances`, `unmonitor_instance`, `bundle_instance`, `get_all_bundle_tasks`, `cancel_bundle_task`, `get_password_data`, `get_all_placement_groups`, `create_placement_group`, `delete_placement_group`, `build_tag_param_list`, `get_all_tags`, `create_tags`, `delete_tags`)",
+            56
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `EC2Connection` having 162 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 82 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

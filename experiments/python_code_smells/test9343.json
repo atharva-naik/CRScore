@@ -1,0 +1,29 @@
+{
+    "project_path": "test9343",
+    "stats": {
+        "methods": 30,
+        "classes": 20,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 1,
+        "codeblocks": 50
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `put` at line 234 having 16 branches",
+            234
+        ],
+        [
+            "Shotgun smell detected with 18 classes with too many external fuctions and class with most external function calls, `FlowHandler` having 24 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 20 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 50 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

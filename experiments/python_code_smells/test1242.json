@@ -1,0 +1,25 @@
+{
+    "project_path": "test1242",
+    "stats": {
+        "methods": 99,
+        "classes": 9,
+        "lambdas": 2,
+        "try": 4,
+        "listcomps": 0,
+        "codeblocks": 108
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `WebEngineTab` having 11 attributes (`history`, `scroller`, `caret`, `zoom`, `search`, `printing`, `elements`, `action`, `backend`, `_child_event_filter`, `_saved_zoom`)",
+            525
+        ],
+        [
+            "Shotgun smell detected with 9 classes with too many external fuctions and class with most external function calls, `WebEngineTab` having 113 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 9 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

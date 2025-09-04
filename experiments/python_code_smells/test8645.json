@@ -1,0 +1,41 @@
+{
+    "project_path": "test8645",
+    "stats": {
+        "methods": 60,
+        "classes": 1,
+        "lambdas": 8,
+        "try": 1,
+        "listcomps": 5,
+        "codeblocks": 61
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 5 methods with long parameter lists and method `to_excel` at line 958 having 17 parameters (`self`, `excel_writer`, `sheet_name`, `na_rep`, `float_format`, `columns`, `header`, `index`, `index_label`, `startrow`, `startcol`, `engine`, `merge_cells`, `encoding`, `inf_rep`, `verbose`, `freeze_panes`)",
+            958
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `groupby` at line 1775 having 21 branches",
+            1775
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `Frame` having 45 methods (`dtypes`, `to_pandas`, `index`, `copy`, `head`, `cummin`, `cummax`, `cumsum`, `cumprod`, `get_dtype_counts`, `pipe`, `to_numpy`, `values`, `to_csv`, `to_json`, `to_excel`, `mean`, `sum`, `skew`, `kurtosis`, `min`, `max`, `count`, `std`, `var`, `median`, `size`, `abs`, `groupby`, `bool`, `first_valid_index`, `last_valid_index`, `rolling`, `expanding`, `get`, `squeeze`, `truncate`, `to_markdown`, `fillna`, `bfill`, `ffill`, `at`, `iat`, `iloc`, `loc`)",
+            57
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Frame` having 245 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 61 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `[scol_for(sdf, str(i) if label is None else name_like_string(label)).alias(new_name) for i, (label, new_name) in enumerate(zip(column_labels, header))]` at line 806 having line length 161",
+            806
+        ]
+    ]
+}

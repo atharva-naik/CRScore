@@ -1,0 +1,41 @@
+{
+    "project_path": "test10101",
+    "stats": {
+        "methods": 54,
+        "classes": 4,
+        "lambdas": 3,
+        "try": 19,
+        "listcomps": 6,
+        "codeblocks": 58
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `process_tokens` at line 627 having 13 branches",
+            627
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `PyLinter` having 21 attributes (`msgs_store`, `reporter`, `_reporter_name`, `_reporters`, `_checkers`, `_pragma_lineno`, `_ignore_file`, `file_state`, `current_name`, `current_file`, `stats`, `_external_opts`, `options`, `option_groups`, `_options_methods`, `_bw_options_methods`, `reports`, `_dynamic_plugins`, `_python3_porting_mode`, `_error_mode`)",
+            245
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `PyLinter` having 23 methods (`make_options`, `load_default_plugins`, `load_plugin_modules`, `set_reporter`, `set_option`, `register_reporter`, `report_order`, `register_checker`, `disable_noerror_messages`, `disable_reporters`, `error_mode`, `python3_porting_mode`, `process_tokens`, `get_checkers`, `prepare_checkers`, `should_analyze_file`, `check`, `expand_files`, `set_current_module`, `get_ast`, `check_astroid_module`, `open`, `generate_reports`)",
+            245
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `PyLinter` having 164 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 5 of 58 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `in_order = sorted([(value, msg_id) for msg_id, value in six.iteritems(stats['by_msg']) if not msg_id.startswith('I')])` at line 1038 having line length 103",
+            1038
+        ]
+    ]
+}

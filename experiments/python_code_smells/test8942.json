@@ -1,0 +1,17 @@
+{
+    "project_path": "test8942",
+    "stats": {
+        "methods": 4,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 2,
+        "codeblocks": 4
+    },
+    "smells": [
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `MODULES_TO_CHECK = [(location, module) for location in LIB_DIRS for module in os.listdir(location) if is_module(module) or is_package(module, location)]` at line 33 having line length 138",
+            33
+        ]
+    ]
+}

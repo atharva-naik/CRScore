@@ -1,0 +1,29 @@
+{
+    "project_path": "test1641",
+    "stats": {
+        "methods": 30,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 34
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 240 having 6 parameters (`self`, `container`, `blob`, `client`, `format`, `download_when_reading`)",
+            240
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `ReadableAzureBlobFile` having 8 attributes (`container`, `blob`, `client`, `closed`, `download_when_reading`, `azure_blob_options`, `download_file_location`, `fid`)",
+            175
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `AzureBlobClient` having 29 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 4 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

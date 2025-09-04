@@ -1,0 +1,49 @@
+{
+    "project_path": "test9499",
+    "stats": {
+        "methods": 44,
+        "classes": 5,
+        "lambdas": 10,
+        "try": 1,
+        "listcomps": 25,
+        "codeblocks": 49
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_process_legend` at line 1240 containing 61 lines",
+            1240
+        ],
+        [
+            "Long parameter list smell detected with 6 methods with long parameter lists and method `_update_range` at line 506 having 9 parameters (`self`, `axis_range`, `low`, `high`, `factors`, `invert`, `shared`, `log`, `streaming`)",
+            506
+        ],
+        [
+            "Long branch smell detected with 7 methods with long branching and method with most branches `_get_colormapper` at line 1049 having 19 branches",
+            1049
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `ElementPlot` having 11 attributes (`current_ranges`, `handles`, `static`, `callbacks`, `static_source`, `streaming`, `_shared`)",
+            50
+        ],
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `ElementPlot` having 220 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 3 out of 5 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 20 of 49 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `cmappers = self.adjoined.traverse(lambda x: (x.handles.get('color_dim'), x.handles.get(name)))` at line 1056 having line length 61",
+            1056
+        ],
+        [
+            "Long list comprehension smell detected with 6 long list comprehensions and the longest list comprehension `tooltips = [(ttp.pprint_label, '@{%s}' % util.dimension_sanitizer(ttp.name)) if isinstance(ttp, Dimension) else ttp for ttp in tooltips]` at line 146 having line length 131",
+            146
+        ]
+    ]
+}

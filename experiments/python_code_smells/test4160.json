@@ -1,0 +1,21 @@
+{
+    "project_path": "test4160",
+    "stats": {
+        "methods": 5,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 0,
+        "codeblocks": 6
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `__init__` at line 33 having 6 parameters (`self`, `iface`, `receive_own_messages`, `can_filters`, `remove_padding`, `basecls`)",
+            33
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CANSocket` having 27 external function calls",
+            -1
+        ]
+    ]
+}

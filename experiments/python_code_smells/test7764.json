@@ -1,0 +1,33 @@
+{
+    "project_path": "test7764",
+    "stats": {
+        "methods": 70,
+        "classes": 3,
+        "lambdas": 1,
+        "try": 18,
+        "listcomps": 2,
+        "codeblocks": 73
+    },
+    "smells": [
+        [
+            "Useless try except smell with \"empty exception detected\" at line 57",
+            57
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 527",
+            527
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `HTTPResponseException` having 2 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 73 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `threads = [Thread(target=_worker_thread, name='download-worker-%d' % i) for i in range(PARALLEL_DOWNLOADS)]` at line 1179 having line length 101",
+            1179
+        ]
+    ]
+}

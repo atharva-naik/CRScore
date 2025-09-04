@@ -1,0 +1,37 @@
+{
+    "project_path": "test40",
+    "stats": {
+        "methods": 30,
+        "classes": 3,
+        "lambdas": 1,
+        "try": 17,
+        "listcomps": 0,
+        "codeblocks": 33
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `_init_modules` at line 414 containing 64 lines",
+            414
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 253",
+            253
+        ],
+        [
+            "Shotgun smell detected with 3 classes with too many external fuctions and class with most external function calls, `Quitter` having 77 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 3 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 33 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `server.got_args.connect(lambda args, target_arg, cwd: process_pos_args(args, cwd=cwd, via_ipc=True, target_arg=target_arg))` at line 134 having line length 104",
+            134
+        ]
+    ]
+}

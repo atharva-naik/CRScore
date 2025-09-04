@@ -1,0 +1,29 @@
+{
+    "project_path": "test5442",
+    "stats": {
+        "methods": 13,
+        "classes": 0,
+        "lambdas": 1,
+        "try": 6,
+        "listcomps": 0,
+        "codeblocks": 13
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `findScript` at line 61 having 17 branches",
+            61
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 189",
+            189
+        ],
+        [
+            "Code complexity smell detected with 1 of 13 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `func = lambda gesture: inputCore.manager.emulateGesture(emuGesture)` at line 34 having line length 62",
+            34
+        ]
+    ]
+}

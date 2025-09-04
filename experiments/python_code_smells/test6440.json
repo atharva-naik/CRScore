@@ -1,0 +1,45 @@
+{
+    "project_path": "test6440",
+    "stats": {
+        "methods": 99,
+        "classes": 5,
+        "lambdas": 5,
+        "try": 16,
+        "listcomps": 2,
+        "codeblocks": 104
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `serialize_xprv` at line 904 having 6 parameters (`xtype`, `c`, `k`, `depth`, `fingerprint`, `child_number`)",
+            904
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 45",
+            45
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 118",
+            118
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 596",
+            596
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 946",
+            946
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 954",
+            954
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 991",
+            991
+        ],
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `EC_KEY` having 60 external function calls",
+            -1
+        ]
+    ]
+}

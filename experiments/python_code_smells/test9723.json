@@ -1,0 +1,49 @@
+{
+    "project_path": "test9723",
+    "stats": {
+        "methods": 201,
+        "classes": 2,
+        "lambdas": 41,
+        "try": 7,
+        "listcomps": 120,
+        "codeblocks": 203
+    },
+    "smells": [
+        [
+            "Long method smell detected with 6 long methods and longest method `merge` at line 7075 containing 110 lines",
+            7075
+        ],
+        [
+            "Long parameter list smell detected with 18 methods with long parameter lists and method `to_html` at line 1317 having 23 parameters (`self`, `buf`, `columns`, `col_space`, `header`, `index`, `na_rep`, `formatters`, `float_format`, `sparsify`, `index_names`, `justify`, `max_rows`, `max_cols`, `show_dimensions`, `decimal`, `bold_rows`, `classes`, `escape`, `notebook`, `border`, `table_id`, `render_links`)",
+            1317
+        ],
+        [
+            "Long branch smell detected with 11 methods with long branching and method with most branches `merge` at line 7075 having 36 branches",
+            7075
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `DataFrame` having 125 methods (`ndim`, `axes`, `add`, `hist`, `kde`, `radd`, `div`, `rdiv`, `truediv`, `rtruediv`, `mul`, `rmul`, `sub`, `rsub`, `mod`, `rmod`, `pow`, `rpow`, `floordiv`, `rfloordiv`, `eq`, `gt`, `ge`, `lt`, `le`, `ne`, `applymap`, `aggregate`, `corr`, `iteritems`, `iterrows`, `items`, `to_clipboard`, `to_html`, `to_string`, `to_dict`, `to_latex`, `to_markdown`, `transpose`, `apply_batch`, `map_in_pandas`, `apply`, `transform`, `transform_batch`, `pop`, `xs`, `where`, `mask`, `index`, `empty`, `style`, `set_index`, `reset_index`, `isnull`, `notnull`, `shift`, `diff`, `nunique`, `round`, `duplicated`, `to_koalas`, `cache`, `persist`, `hint`, `to_table`, `to_delta`, `to_parquet`, `to_spark_io`, `to_spark`, `to_pandas`, `assign`, `from_records`, `to_records`, `copy`, `dropna`, `fillna`, `bfill`, `ffill`, `replace`, `clip`, `head`, `pivot_table`, `pivot`, `columns`, `columns`, `dtypes`, `spark_schema`, `print_schema`, `select_dtypes`, `count`, `drop`, `sort_values`, `sort_index`, `nlargest`, `nsmallest`, `isin`, `shape`, `merge`, `join`, `append`, `update`, `sample`, `astype`, `add_prefix`, `add_suffix`, `describe`, `drop_duplicates`, `reindex`, `melt`, `stack`, `unstack`, `all`, `any`, `rank`, `filter`, `rename`, `keys`, `pct_change`, `idxmax`, `idxmin`, `info`, `quantile`, `query`, `explain`, `take`, `eval`)",
+            306
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `DataFrame` having 1509 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 25 of 203 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 9 long lambda functions and the longest lambda function `index_column_name = lambda i: None if self._internal.column_label_names is None else (self._internal.column_label_names[i],)` at line 9033 having line length 111",
+            9033
+        ],
+        [
+            "Long list comprehension smell detected with 46 long list comprehensions and the longest list comprehension `structs = [F.struct([F.lit(value).alias(index_column)] + [(column_labels[label][value] if value in column_labels[label] else F.lit(None)).alias(name) for label, name in zip(column_labels, data_columns)]).alias(value) for value in index_values]` at line 8770 having line length 247",
+            8770
+        ]
+    ]
+}

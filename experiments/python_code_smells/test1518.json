@@ -1,0 +1,25 @@
+{
+    "project_path": "test1518",
+    "stats": {
+        "methods": 13,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 2,
+        "codeblocks": 14
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `create_parser` at line 224 containing 56 lines",
+            224
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `ParseConfigDict` having 3 external function calls",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 14 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

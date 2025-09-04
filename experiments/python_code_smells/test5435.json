@@ -1,0 +1,25 @@
+{
+    "project_path": "test5435",
+    "stats": {
+        "methods": 139,
+        "classes": 15,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 154
+    },
+    "smells": [
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `AbstractTab` having 12 attributes (`is_private`, `win_id`, `tab_id`, `registry`, `data`, `_layout`, `_widget`, `_progress`, `_has_ssl_errors`, `_load_status`, `_mouse_event_filter`, `backend`)",
+            825
+        ],
+        [
+            "Shotgun smell detected with 11 classes with too many external fuctions and class with most external function calls, `AbstractTab` having 93 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 13 out of 15 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

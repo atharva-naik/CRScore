@@ -1,0 +1,17 @@
+{
+    "project_path": "test8866",
+    "stats": {
+        "methods": 23,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 0,
+        "codeblocks": 24
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `TelemetryEntry` having 14 external function calls",
+            -1
+        ]
+    ]
+}

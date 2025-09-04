@@ -1,0 +1,61 @@
+{
+    "project_path": "test1259",
+    "stats": {
+        "methods": 18,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 19,
+        "listcomps": 0,
+        "codeblocks": 22
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `main` at line 210 containing 316 lines",
+            210
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `main` at line 210 having 36 branches",
+            210
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 207",
+            207
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 254",
+            254
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 460",
+            460
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 471",
+            471
+        ],
+        [
+            "Useless try except smell with \"empty exception detected\" at line 489",
+            489
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 587",
+            587
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 591",
+            591
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 641",
+            641
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 4 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 2 of 22 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

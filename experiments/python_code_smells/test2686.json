@@ -1,0 +1,37 @@
+{
+    "project_path": "test2686",
+    "stats": {
+        "methods": 25,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 1,
+        "codeblocks": 26
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `speak` at line 75 containing 52 lines",
+            75
+        ],
+        [
+            "Long branch smell detected with 1 methods with long branching and method with most branches `speak` at line 75 having 21 branches",
+            75
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `SynthDriver` having 9 attributes (`_language`, `_variantDict`, `variant`, `rate`, `pitch`, `inflection`)",
+            18
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `SynthDriver` having 83 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 26 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

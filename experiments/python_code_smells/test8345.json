@@ -1,0 +1,21 @@
+{
+    "project_path": "test8345",
+    "stats": {
+        "methods": 34,
+        "classes": 2,
+        "lambdas": 2,
+        "try": 7,
+        "listcomps": 1,
+        "codeblocks": 36
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TestGatlingExecutor` having 28 methods (`setUp`, `tearDown`, `test_external_jar_wrong_launcher`, `test_additional_classpath`, `test_external_jar_right_launcher`, `test_install_Gatling`, `test_gatling_widget`, `test_resource_files_collection_remote2`, `test_resource_files_collection_local`, `test_env_type`, `test_warning_for_throughput_without_duration`, `test_requests_1`, `test_requests_def_addr_is_none`, `test_requests_def_addr_is_empty`, `test_requests_3`, `test_requests_4`, `test_requests_5`, `test_fail_on_zero_results`, `test_no_simulation`, `test_full_Gatling`, `test_interactive_request`, `test_script_jar`, `test_files_find_file`, `test_data_sources`, `test_resource_files_data_sources`, `test_diagnostics`, `test_properties_migration`, `test_properties_2levels`)",
+            25
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `TestGatlingExecutor` having 202 external function calls",
+            -1
+        ]
+    ]
+}

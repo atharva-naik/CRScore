@@ -1,0 +1,37 @@
+{
+    "project_path": "test9118",
+    "stats": {
+        "methods": 61,
+        "classes": 7,
+        "lambdas": 1,
+        "try": 15,
+        "listcomps": 4,
+        "codeblocks": 68
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 608 having 7 parameters (`self`, `mailhost`, `username`, `password`, `fromaddr`, `toaddrs`, `subject`)",
+            608
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 497",
+            497
+        ],
+        [
+            "Useless try except smell with \"too general exception\" at line 539",
+            539
+        ],
+        [
+            "Shotgun smell detected with 5 classes with too many external fuctions and class with most external function calls, `LazyLoadMetadata` having 36 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 2 out of 7 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 3 of 68 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

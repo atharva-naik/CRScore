@@ -1,0 +1,33 @@
+{
+    "project_path": "test9908",
+    "stats": {
+        "methods": 73,
+        "classes": 1,
+        "lambdas": 2,
+        "try": 2,
+        "listcomps": 10,
+        "codeblocks": 74
+    },
+    "smells": [
+        [
+            "Long branch smell detected with 3 methods with long branching and method with most branches `_check_consider_using_min_max_builtin` at line 679 having 21 branches",
+            679
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `RefactoringChecker` having 383 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 9 of 74 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 4 long list comprehensions and the longest list comprehension `intermediate = [self._simplify_boolean_operation(child) if isinstance(child, astroid.BoolOp) else child for child in children]` at line 1173 having line length 118",
+            1173
+        ]
+    ]
+}

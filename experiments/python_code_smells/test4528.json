@@ -1,0 +1,21 @@
+{
+    "project_path": "test4528",
+    "stats": {
+        "methods": 4,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 4,
+        "codeblocks": 4
+    },
+    "smells": [
+        [
+            "Code complexity smell detected with 1 of 4 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 2 long list comprehensions and the longest list comprehension `result = [(bbox_results, encode_mask_results(mask_results)) for bbox_results, mask_results in result]` at line 58 having line length 96",
+            58
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "project_path": "test8477",
+    "stats": {
+        "methods": 19,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 1,
+        "listcomps": 1,
+        "codeblocks": 21
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `listdir` at line 169 having 8 parameters (`self`, `path`, `ignore_directories`, `ignore_files`, `include_size`, `include_type`, `include_time`, `recursive`)",
+            169
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `WebHdfsClient` having 27 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 2 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

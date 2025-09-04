@@ -1,0 +1,25 @@
+{
+    "project_path": "test5513",
+    "stats": {
+        "methods": 60,
+        "classes": 10,
+        "lambdas": 15,
+        "try": 2,
+        "listcomps": 4,
+        "codeblocks": 70
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 1 methods with long parameter lists and method `get_webelem` at line 38 having 9 parameters (`geometry`, `frame`, `null`, `style`, `display`, `attributes`, `tagname`, `classes`, `parent`)",
+            38
+        ],
+        [
+            "Shotgun smell detected with 10 classes with too many external fuctions and class with most external function calls, `TestIsVisibleIframe` having 67 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 10 classes having cohesion < 30%",
+            -1
+        ]
+    ]
+}

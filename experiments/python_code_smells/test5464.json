@@ -1,0 +1,17 @@
+{
+    "project_path": "test5464",
+    "stats": {
+        "methods": 9,
+        "classes": 4,
+        "lambdas": 0,
+        "try": 3,
+        "listcomps": 1,
+        "codeblocks": 13
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 4 classes with too many external fuctions and class with most external function calls, `BigQueryClient` having 12 external function calls",
+            -1
+        ]
+    ]
+}

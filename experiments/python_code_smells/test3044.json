@@ -1,0 +1,21 @@
+{
+    "project_path": "test3044",
+    "stats": {
+        "methods": 115,
+        "classes": 2,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 117
+    },
+    "smells": [
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `TestPython3Checker` having 110 methods (`check_bad_builtin`, `test_bad_builtins`, `as_iterable_in_for_loop_test`, `as_used_by_iterable_in_for_loop_test`, `as_iterable_in_genexp_test`, `as_iterable_in_listcomp_test`, `as_used_in_variant_in_genexp_test`, `as_used_in_variant_in_listcomp_test`, `as_argument_to_callable_constructor_test`, `as_argument_to_materialized_filter`, `as_argument_to_random_fxn_test`, `as_argument_to_str_join_test`, `as_iterable_in_unpacking`, `as_assignment`, `iterating_context_tests`, `test_dict_subclasses_methods_in_iterating_context`, `test_dict_methods_in_iterating_context`, `test_map_in_iterating_context`, `test_zip_in_iterating_context`, `test_range_in_iterating_context`, `test_filter_in_iterating_context`, `defined_method_test`, `test_delslice_method`, `test_getslice_method`, `test_setslice_method`, `test_coerce_method`, `test_oct_method`, `test_hex_method`, `test_nonzero_method`, `test_cmp_method`, `test_div_method`, `test_idiv_method`, `test_rdiv_method`, `test_eq_and_hash_method`, `test_eq_and_hash_is_none`, `test_eq_without_hash_method`, `test_print_statement`, `test_backtick`, `test_relative_import`, `test_relative_from_import`, `test_absolute_import`, `test_import_star_module_level`, `test_division`, `test_division_with_future_statement`, `test_floor_division`, `test_division_by_float`, `test_dict_iter_method`, `test_dict_iter_method_on_dict`, `test_dict_not_iter_method`, `test_dict_view_method`, `test_dict_view_method_on_dict`, `test_dict_not_view_method`, `test_next_method`, `test_not_next_method`, `test_metaclass_assignment`, `test_metaclass_global_assignment`, `test_parameter_unpacking`, `test_old_raise_syntax`, `test_xreadlines_attribute`, `test_exception_message_attribute`, `test_normal_message_attribute`, `test_invalid_codec`, `test_valid_codec`, `test_visit_call_with_kwarg`, `test_invalid_open_codec`, `test_valid_open_codec`, `test_raising_string`, `test_checker_disabled_by_default`, `test_using_cmp_argument`, `test_sys_maxint`, `test_itertools_izip`, `test_deprecated_types_fields`, `test_sys_maxint_imort_from`, `test_object_maxint`, `test_bad_import`, `test_bad_import_not_on_relative`, `test_bad_import_conditional`, `test_bad_import_try_except_handler`, `test_bad_import_try`, `test_bad_import_try_finally`, `test_bad_import_from`, `test_bad_string_attribute`, `test_bad_operator_attribute`, `test_comprehension_escape`, `test_comprehension_escape_newly_introduced`, `test_exception_escape`, `test_bad_sys_attribute`, `test_bad_urllib_attribute`, `test_ok_string_attribute`, `test_bad_string_call`, `test_ok_shadowed_call`, `test_ok_string_call`, `test_bad_string_import_from`, `test_ok_string_import_from`, `test_bad_str_translate_call_string_literal`, `test_bad_str_translate_call_variable`, `test_bad_str_translate_call_infer_str`, `test_ok_str_translate_call_integer`, `test_ok_str_translate_call_keyword`, `test_ok_str_translate_call_not_str`, `test_non_py2_conditional`, `test_six_conditional`, `test_versioninfo_conditional`, `test_versioninfo_tuple_conditional`, `test_six_ifexp_conditional`, `test_next_defined`, `test_next_defined_too_many_args`, `test_next_defined_static_method_too_many_args`, `test_next_defined_static_method`, `test_next_defined_class_method`)",
+            35
+        ],
+        [
+            "Shotgun smell detected with 2 classes with too many external fuctions and class with most external function calls, `TestPython3Checker` having 392 external function calls",
+            -1
+        ]
+    ]
+}

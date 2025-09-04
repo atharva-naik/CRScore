@@ -1,0 +1,29 @@
+{
+    "project_path": "test1900",
+    "stats": {
+        "methods": 17,
+        "classes": 0,
+        "lambdas": 0,
+        "try": 2,
+        "listcomps": 4,
+        "codeblocks": 17
+    },
+    "smells": [
+        [
+            "Long method smell detected with 1 long methods and longest method `build_extension` at line 206 containing 91 lines",
+            206
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `get_datatable_version` at line 89 having 21 branches",
+            89
+        ],
+        [
+            "Code complexity smell detected with 3 of 17 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long list comprehension smell detected with 1 long list comprehensions and the longest list comprehension `files = [f for f in glob.glob('src/datatable/**/*.py', recursive=True) if '_datatable_builder.py' not in f]` at line 614 having line length 104",
+            614
+        ]
+    ]
+}

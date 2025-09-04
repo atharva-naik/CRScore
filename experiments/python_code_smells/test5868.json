@@ -1,0 +1,17 @@
+{
+    "project_path": "test5868",
+    "stats": {
+        "methods": 2,
+        "classes": 1,
+        "lambdas": 0,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 3
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `CompareToEmptyStringChecker` having 11 external function calls",
+            -1
+        ]
+    ]
+}

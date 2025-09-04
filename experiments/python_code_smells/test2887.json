@@ -1,0 +1,45 @@
+{
+    "project_path": "test2887",
+    "stats": {
+        "methods": 115,
+        "classes": 1,
+        "lambdas": 10,
+        "try": 4,
+        "listcomps": 9,
+        "codeblocks": 116
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 6 methods with long parameter lists and method `to_latex` at line 1367 having 20 parameters (`self`, `buf`, `columns`, `col_space`, `header`, `index`, `na_rep`, `formatters`, `float_format`, `sparsify`, `index_names`, `bold_rows`, `column_format`, `longtable`, `escape`, `encoding`, `decimal`, `multicolumn`, `multicolumn_format`, `multirow`)",
+            1367
+        ],
+        [
+            "Long branch smell detected with 2 methods with long branching and method with most branches `_fillna` at line 1590 having 18 branches",
+            1590
+        ],
+        [
+            "Many methods smell detected with 1 classes having many methods and the class with most methods, `Series` having 91 methods (`dtypes`, `axes`, `spark_type`, `add`, `radd`, `div`, `rdiv`, `truediv`, `rtruediv`, `mul`, `rmul`, `sub`, `rsub`, `mod`, `rmod`, `pow`, `rpow`, `floordiv`, `rfloordiv`, `eq`, `gt`, `ge`, `lt`, `le`, `ne`, `divmod`, `rdivmod`, `between`, `map`, `astype`, `alias`, `shape`, `name`, `name`, `rename`, `index`, `is_unique`, `reset_index`, `to_frame`, `to_string`, `to_clipboard`, `to_dict`, `to_latex`, `to_pandas`, `to_list`, `drop_duplicates`, `fillna`, `dropna`, `clip`, `drop`, `head`, `unique`, `sort_values`, `sort_index`, `add_prefix`, `add_suffix`, `corr`, `nsmallest`, `nlargest`, `count`, `append`, `sample`, `hist`, `apply`, `aggregate`, `transpose`, `transform`, `transform_batch`, `round`, `quantile`, `rank`, `describe`, `diff`, `idxmax`, `idxmin`, `pop`, `copy`, `mode`, `keys`, `replace`, `update`, `where`, `mask`, `xs`, `pct_change`, `combine_first`, `dot`, `repeat`, `asof`, `mad`, `unstack`, `item`)",
+            302
+        ],
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `Series` having 612 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 1 out of 1 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 4 of 116 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ],
+        [
+            "Long lambda smell detected with 1 long lambda functions and the longest lambda function `lambda _: F.expr('approx_percentile(`%s`, %s, %s)' % (self.name, q, accuracy))` at line 3147 having line length 85",
+            3147
+        ],
+        [
+            "Long list comprehension smell detected with 7 long list comprehensions and the longest list comprehension `[F.concat(F.lit(prefix), scol_for(sdf, index_column)).alias(index_column) for index_column in internal.index_spark_column_names] + internal.data_spark_columns` at line 2228 having line length 132",
+            2228
+        ]
+    ]
+}

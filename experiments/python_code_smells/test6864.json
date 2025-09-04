@@ -1,0 +1,17 @@
+{
+    "project_path": "test6864",
+    "stats": {
+        "methods": 3,
+        "classes": 1,
+        "lambdas": 3,
+        "try": 0,
+        "listcomps": 0,
+        "codeblocks": 4
+    },
+    "smells": [
+        [
+            "Shotgun smell detected with 1 classes with too many external fuctions and class with most external function calls, `SlackWebhooknotifierTest` having 20 external function calls",
+            -1
+        ]
+    ]
+}

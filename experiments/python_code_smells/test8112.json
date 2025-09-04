@@ -1,0 +1,33 @@
+{
+    "project_path": "test8112",
+    "stats": {
+        "methods": 105,
+        "classes": 8,
+        "lambdas": 1,
+        "try": 8,
+        "listcomps": 2,
+        "codeblocks": 113
+    },
+    "smells": [
+        [
+            "Long parameter list smell detected with 2 methods with long parameter lists and method `__init__` at line 507 having 13 parameters (`self`, `host`, `port`, `method`, `scheme`, `authority`, `path`, `http_version`, `headers`, `content`, `trailers`, `timestamp_start`, `timestamp_end`)",
+            507
+        ],
+        [
+            "Many attribute smell detected with 1 classes having many attributes and the class with most attributes, `Request` having 9 attributes (`data`)",
+            501
+        ],
+        [
+            "Shotgun smell detected with 6 classes with too many external fuctions and class with most external function calls, `Request` having 92 external function calls",
+            -1
+        ],
+        [
+            "Class cohesion smell detected with 4 out of 8 classes having cohesion < 30%",
+            -1
+        ],
+        [
+            "Code complexity smell detected with 1 of 113 code blocks having cyclomatic complexity of rank C or worse (rank C is moderate to slighly complex with cyclomatic complexity between 11 and 20).",
+            -1
+        ]
+    ]
+}

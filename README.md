@@ -1,6 +1,9 @@
 # CodeReviewEval
 Comprehensive semi-automatic evaluation of code reviews
 
+## Fine-tuned Magicoder Model for Claim Generation
+For downloading the model, please use the HuggingFace link here: https://huggingface.co/teledia-cmu/Magicoder-6.7B-code-change-summ-impl
+
 ## Download dataset for Comment Generation:
 Please use the following [Zenodo](https://zenodo.org/records/6900648) link to access the CodeReviewer message/code comment generation dataset. You will need to download and extract the ```Comment_Generation.zip``` folder and place it inside the ```data/``` folder
 
